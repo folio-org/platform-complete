@@ -1,0 +1,30 @@
+{
+  "name": "@folio/platform-complete",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=2048 $NODE_OPTIONS\"; stripes build stripes.config.js",
+    "stripes": "stripes",
+    "start": "stripes serve stripes.config.js",
+    "generate-mod-descriptors": "node ./build-module-descriptors.js",
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
+    "test": "echo 'No unit tests implemented'",
+    "test-int": "stripes test nightmare stripes.config.js",
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/checkin/checkout/users/inventory/requests/circulation/organization",
+    "lint": "eslint test/ui-testing"
+  },
+  "dependencies": {
+    "@folio/platform-core": "folio-org/platform-core#FOLIO-1344",
+    "@folio/calendar": ">=0.0.0",
+    "@folio/vendors": ">=0.0.0",
+    "@folio/finance": ">=0.0.0",
+    "@folio/stripes-components": ">=0.0.0",
+    "@folio/stripes-core": ">=0.0.0"
+  },
+  "devDependencies": {
+    "@folio/eslint-config-stripes": "^2.0.0",
+    "@folio/stripes-cli": "^1.2.0",
+    "eslint": "^4.19.1",
+    "lodash": "^4.17.5"
+  }
+}
