@@ -6,6 +6,8 @@ const platformComplete = {
     '@folio/calendar' : {},
     '@folio/vendors' : {},
     '@folio/finance' : {},
+    '@folio/orders' : {},
+    '@folio/eholdings' : {},
   },
   branding: {
     logo: {
