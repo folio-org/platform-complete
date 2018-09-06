@@ -5,8 +5,8 @@ const platformComplete = {
   modules: {
     '@folio/calendar' : {},
     '@folio/vendors' : {},
-    '@folio/finance' : {},
     '@folio/orders' : {},
+    '@folio/finance' : {},
     '@folio/eholdings' : {},
   },
   branding: {
