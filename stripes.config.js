@@ -5,6 +5,7 @@ const platformComplete = {
   modules: {
     '@folio/calendar' : {},
     '@folio/vendors' : {},
+    '@folio/ui-plugin-find-vendor' : {},
     '@folio/orders' : {},
     '@folio/finance' : {},
     '@folio/eholdings' : {},
