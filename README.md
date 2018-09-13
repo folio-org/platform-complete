@@ -1,4 +1,4 @@
-# FOLIO core platform
+# FOLIO complete platform
 
 Copyright (C) 2015-2018 The Open Library Foundation
 
@@ -7,10 +7,10 @@ Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
 
 ## Introduction
 
-This is the "core" Stripes "platform". It consists simply of an
+This is the "complete" Stripes "platform". It consists simply of an
 NPM [`package.json`](https://docs.npmjs.com/files/package.json) that
 specifies the version of `@folio/stripes-core` and of any Stripes
-modules you wish to make available as part of the "core" platform
+modules you wish to make available as part of this platform
 to generate client bundles along with a utility for generating
 module descriptors for each Stripes module.
 
@@ -34,7 +34,7 @@ $ yarn install
 
 ## Build and serve
 
-To build and serve `platform-core` in isolation for development purposes, run the "start" package script.
+To build and serve `platform-complete` in isolation for development purposes, run the "start" package script.
 ```
 $ yarn start
 ```
@@ -44,7 +44,7 @@ The default configuration assumes an Okapi instance is running on http://localho
 $ yarn start --okapi http://localhost:9130 --tenant diku
 ```
 
-To build a `platform-core` bundle for production, modify `stripes.config.js` with your Okapi and tenant, then run the "build" script, passing it the name of the desired directory to place build artifacts.
+To build a `platform-complete` bundle for production, modify `stripes.config.js` with your Okapi and tenant, then run the "build" script, passing it the name of the desired directory to place build artifacts.
 ```
 $ yarn build ./output
 ```
@@ -55,7 +55,7 @@ See the [build](https://github.com/folio-org/stripes-cli/blob/master/doc/command
 
 ### Integration tests
 
-Integration tests require a running Okapi.  The default configuration expects Okapi running on http://localhost:9130 with tenant "diku".  To build and run integration tests for `platform-core` with these defaults, run the `test-int` script.
+Integration tests require a running Okapi.  The default configuration expects Okapi running on http://localhost:9130 with tenant "diku".  To build and run integration tests for `platform-complete` with these defaults, run the `test-int` script.
 ```
 $ yarn test-int
 ```
@@ -87,7 +87,7 @@ $ yarn test-regression --url http://folio-testing.aws.indexdata.com/
 
 The `test-int` package script, when combined with the `--run` option, can be used for running specific tests for the platform and/or apps.  Use `WD` (working directory) when referencing platform tests, otherwise use the module app module name.
 
-Example running "loan_renewal" test in `platform-core`:
+Example running "loan_renewal" test in `platform-complete`:
 ```
 $ yarn test-int --run WD:loan_renewal
 ```
