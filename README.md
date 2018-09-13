@@ -77,7 +77,7 @@ $ yarn test-int --local
 
 ### Regression tests
 
-Integration tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all integration tests defined for the individual apps.
+Regression tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all tests defined for the individual apps.
 
 ```
 $ yarn test-regression --url http://folio-testing.aws.indexdata.com/
