@@ -24,11 +24,17 @@ include a different set of the available modules.  You can copy the
 `stripes.config.js` file to be your `stripes.config.js.local`
 configuration file.
 
+The `yarn.lock` and `*-install.json` files in this repository can be
+used to build a FOLIO system with the components that represent the
+"Q3 2018" FOLIO release. For an example of how to deploy such a
+system, see the
+[Single Server Deployment Guide](https://github.com/folio-org/folio-install/blob/Q2-2018/single-server.md).
+
 ## Installation
 
 Install platform dependencies
 ```
-$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
+$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 $ yarn install
 ```
 
