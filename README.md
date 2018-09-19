@@ -1,4 +1,4 @@
-# FOLIO platform-complete
+# FOLIO complete platform
 
 Copyright (C) 2015-2018 The Open Library Foundation
 
@@ -7,7 +7,7 @@ Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
 
 ## Introduction
 
-This is an example of a Stripes "platform". It consists simply of an
+This is the "complete" Stripes "platform". It consists simply of an
 NPM [`package.json`](https://docs.npmjs.com/files/package.json) that
 specifies the version of `@folio/stripes-core` and of any Stripes
 modules you wish to make available as part of this platform
@@ -24,7 +24,7 @@ include a different set of the available modules.  You can copy the
 `stripes.config.js` file to be your `stripes.config.js.local`
 configuration file.
 
-The `yarn.lock` and `install.json` files in this repository can be
+The `yarn.lock` and `*-install.json` files in this repository can be
 used to build a FOLIO system with the components that represent the
 "Q3 2018" FOLIO release. For an example of how to deploy such a
 system, see the
@@ -34,7 +34,7 @@ system, see the
 
 Install platform dependencies
 ```
-$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
+$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 $ yarn install
 ```
 
