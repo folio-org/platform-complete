@@ -3,6 +3,7 @@ const { merge } = require('lodash');
 
 const platformComplete = {
   modules: {
+    '@folio/calendar': {},
     '@folio/vendors' : {},
     '@folio/plugin-find-vendor' : {},
     '@folio/orders' : {},
