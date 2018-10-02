@@ -103,3 +103,10 @@ Example running "new_user" test in `ui-users`:
 $ yarn test-regression --run users:new_user
 ```
 
+## Additional information
+
+See project [FOLIO](https://issues.folio.org/browse/FOLIO)
+at the [FOLIO issue tracker](https://dev.folio.org/guidelines/issue-tracker/).
+
+Other FOLIO Developer documentation is at [dev.folio.org](https://dev.folio.org/)
+
