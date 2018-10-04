@@ -40,7 +40,7 @@ pipeline {
         sh 'git add yarn.lock'
         script { 
           def commitStatus = sh(returnStatus: true, 
-                                script: 'git commit -m "FOLIO CI: Update yarn.lock"').trim()
+                                script: 'git commit -m "FOLIO CI: Update yarn.lock"')
           if ( commitStatus == 0 ) {
             sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
           }
