@@ -2,18 +2,7 @@
 
 pipeline {
 
-  parameters {
-    booleanParam(name: 'DEBUG_TEST',
-                 defaultValue: false,
-                 description: 'Enable integration test debugging')
-    string(name: 'OKAPI_URL',
-           defaultValue: 'http://folio-snapshot-stable.aws.indexdata.com:9130',
-           description: 'Okapi URL')
-  }
-
   environment {
-    tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
-    npmConfig = 'jenkins-npm-folio'
     origin = 'platform-complete'
   }
 
@@ -40,7 +29,8 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        buildStripesPlatform(params.OKAPI_URL,env.tenant)
+        sh 'yarn install'
+        sh 'yarn build ./output'
       }
     }
 
