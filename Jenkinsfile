@@ -29,15 +29,16 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        sh 'yarn install'
-        sh 'yarn build ./output'
+         sh 'yarn install'
+         sh 'yarn build ./output'
       }
     }
 
     stage('Commit yarn.lock') {
       steps {
+        sh "git checkout env.BRANCH_NAME"
         sh 'git add yarn.lock'
-        sh 'git commit -m "Update yarn.lock (CI)"'
+        sh 'git commit -m "Update yarn.lock (FOLIO CI)"'
         sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
       }
     }
