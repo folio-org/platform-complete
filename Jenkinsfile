@@ -29,6 +29,8 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
+         // remove existing yarn.lock
+         sh 'rm -f yarn.lock'
          sh 'yarn install'
          sh 'yarn build ./output'
       }
