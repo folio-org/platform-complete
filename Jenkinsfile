@@ -14,6 +14,7 @@ pipeline {
   environment {
     tenant = "platform_core_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
     npmConfig = 'jenkins-npm-folio'
+    origin = 'platform-complete'
   }
 
   options {
@@ -39,53 +40,17 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-        echo "Okapi URL: ${params.OKAPI_URL}"
-        echo "Tenant: ${env.tenant}"
-
         buildStripesPlatform(params.OKAPI_URL,env.tenant)
       }
     }
 
-/*
- *   stage('Bootstrap Tenant') {
- *     when {
- *       changeRequest()
- *     }
- *     steps {
- *       deployTenant(params.OKAPI_URL,env.tenant)
- *     }
- *   }
- *
- *   stage('Run Integration Tests') {
- *     when {
- *       changeRequest()
- *     }
- *     steps {
- *       script {
- *         def testOpts = [ tenant: env.tenant,
- *                          folioUser: env.tenant + '_admin',
- *                          folioPassword: 'admin']
- *
- *         runIntegrationTests(testOpts,params.DEBUG_TEST)
- *       }
- *     }
- *   }
- */
-    stage('Publish NPM Package') {
-      when {
-        buildingTag()
-      }
+    stage('Commit yarn.lock') {
       steps {
-        withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
-           withNPM(npmrcConfig: env.npmConfig) {
-             // clean up generated artifacts before publishing
-             sh 'rm -rf ci artifacts output'
-             sh 'npm publish'
-           }
-        }
+        sh 'git add yarn.lock'
+        sh 'git commit -m "Update yarn.lock (CI)"'
+        sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
       }
     }
-
   } // end stages
 
   post {
