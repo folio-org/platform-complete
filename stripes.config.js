@@ -4,11 +4,12 @@ const { merge } = require('lodash');
 const platformComplete = {
   modules: {
     '@folio/calendar': {},
-    '@folio/vendors' : {},
-    '@folio/plugin-find-vendor' : {},
-    '@folio/orders' : {},
-    '@folio/finance' : {},
+    '@folio/data-import': {},
     '@folio/eholdings' : {},
+    '@folio/finance' : {},
+    '@folio/orders' : {},
+    '@folio/plugin-find-vendor' : {},
+    '@folio/vendors' : {}
   },
   branding: {
     logo: {
