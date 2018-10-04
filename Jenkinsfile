@@ -36,7 +36,7 @@ pipeline {
 
     stage('Commit yarn.lock') {
       steps {
-        sh "git checkout env.BRANCH_NAME"
+        sh "git checkout ${env.BRANCH_NAME}"
         sh 'git add yarn.lock'
         sh 'git commit -m "Update yarn.lock (FOLIO CI)"'
         sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
