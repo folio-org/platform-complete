@@ -38,8 +38,18 @@ pipeline {
       steps {
         sh "git checkout ${env.BRANCH_NAME}"
         sh 'git add yarn.lock'
-        sh 'git commit -m "Update yarn.lock (FOLIO CI)"'
-        sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
+        script { 
+
+          def commitStatus = sh(returnStatus: true, 
+                                script: 'git commit -m "Update yarn.lock (FOLIO CI)"').trim()
+          if (commitStatus = 0) { 
+            sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
+          }
+          else {
+            echo "No changes to yarn.lock file"
+          }
+
+        }
       }
     }
   } // end stages
