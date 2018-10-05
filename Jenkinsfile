@@ -4,6 +4,7 @@ pipeline {
 
   environment {
     origin = 'platform-complete'
+    branch = 'snapshot'
   }
 
   options {
@@ -36,15 +37,16 @@ pipeline {
       }
     }
 
+    // If stripes build is successful, update yarn.lock and commit
     stage('Commit yarn.lock') {
       steps {
-        sh "git checkout ${env.BRANCH_NAME}"
+        sh "git checkout $env.branch"
         sh 'git add yarn.lock'
         script { 
           def commitStatus = sh(returnStatus: true, 
                                 script: 'git commit -m "FOLIO CI: Update yarn.lock"')
           if ( commitStatus == 0 ) {
-            sshGitPush(origin: env.origin, branch: env.BRANCH_NAME)
+            sshGitPush(origin: env.origin, branch: env.branch)
           }
           else {
             echo "No changes to yarn.lock file"
