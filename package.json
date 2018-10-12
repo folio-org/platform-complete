@@ -15,20 +15,22 @@
   },
   "dependencies": {
     "@folio/calendar": ">=0.0.0",
-    "@folio/data-import": ">=0.0.0",
-    "@folio/eholdings": ">=0.0.0",
-    "@folio/finance": ">=0.0.0",
-    "@folio/orders": ">=0.0.0",
-    "@folio/platform-core": ">=0.0.0",
-    "@folio/plugin-find-vendor": ">=0.0.0",
-    "@folio/stripes": ">=0.0.0",
-    "@folio/stripes-components": ">=0.0.0",
-    "@folio/stripes-core": ">=0.0.0",
-    "@folio/vendors": ">=0.0.0"
+    "@folio/data-import": "folio-org/ui-data-import#use-stripes-framework",
+    "@folio/eholdings": ">=1.1.0",
+    "@folio/finance": ">=1.1.0",
+    "@folio/orders": "folio-org/ui-orders#use-stripes-framework",
+    "@folio/platform-core": ">=1.1.0",
+    "@folio/plugin-find-vendor": "frontside-folio/ui-plugin-find-vendor#jc/stripes-1.0",
+    "@folio/stripes": "^1.0.0",
+    "@folio/vendors": ">=1.1.0",
+    "react": "^16.3.0"
+  },
+  "resolutions": {
+    "@folio/plugin-find-vendor": "frontside-folio/ui-plugin-find-vendor#jc/stripes-1.0"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
-    "@folio/stripes-cli": "^1.4.0",
+    "@folio/stripes-cli": "^1.5.0",
     "eslint": "^4.19.1",
     "lodash": "^4.17.5"
   }
