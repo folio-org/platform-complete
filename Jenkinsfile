@@ -39,6 +39,9 @@ pipeline {
 
     // If stripes build is successful, update yarn.lock and commit
     stage('Commit yarn.lock') {
+      when { 
+        branch 'snapshot'
+      }
       steps {
         sh "git checkout $env.branch"
         sh 'git add yarn.lock'
