@@ -25,8 +25,6 @@ pipeline {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
         }
         sendNotifications 'STARTED'
-        echo "$env.BRANCH_NAME"
-        sh "git branch | grep \\\\* | cut -d ' ' -f2"
         
       }
     }
@@ -43,7 +41,7 @@ pipeline {
     // If stripes build is successful, update yarn.lock and commit
     stage('Commit yarn.lock') {
       when { 
-        branch 'snapshot'
+        environment name:  'JOB_NAME', value 'Automation/build-platform-complete-snapshot'
       }
       steps {
         sh "git checkout $env.branch"
