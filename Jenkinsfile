@@ -26,7 +26,7 @@ pipeline {
         }
         sendNotifications 'STARTED'
         echo "$env.BRANCH_NAME"
-        sh 'git branch | grep \\* | cut -d ' ' -f2'
+        sh "git branch | grep \* | cut -d ' ' -f2"
         
       }
     }
