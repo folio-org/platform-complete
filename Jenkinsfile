@@ -41,7 +41,10 @@ pipeline {
     // If stripes build is successful, update yarn.lock and commit
     stage('Commit yarn.lock') {
       when { 
-        environment name:  'JOB_NAME', value 'Automation/build-platform-complete-snapshot'
+        AnyOf {
+          environment name:  'JOB_NAME', value: 'Automation/build-platform-complete-snapshot'
+          branch 'snapshot'
+        }
       }
       steps {
         sh "git checkout $env.branch"
