@@ -25,6 +25,7 @@ pipeline {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
         }
         sendNotifications 'STARTED'
+        echo "$env.BRANCH_NAME"
       }
     }
 
