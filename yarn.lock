@@ -1107,9 +1107,15 @@ apollo-link@^1.0.0, apollo-link@^1.2.3:
     apollo-utilities "^1.0.0"
     zen-observable-ts "^0.8.10"
 
-apollo-utilities@1.0.22, apollo-utilities@^1.0.0, apollo-utilities@^1.0.22:
+apollo-utilities@1.0.22:
   version "1.0.22"
   resolved "https://repository.folio.org/repository/npm-ci-all/apollo-utilities/-/apollo-utilities-1.0.22.tgz#0e11350d1220d83ae1c784115d0fa18bdc549a60"
+  dependencies:
+    fast-json-stable-stringify "^2.0.0"
+
+apollo-utilities@^1.0.0, apollo-utilities@^1.0.22:
+  version "1.0.23"
+  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-utilities/-/apollo-utilities-1.0.23.tgz#9416e5da31cc8d9d46502de6f90aa1447cd368c6"
   dependencies:
     fast-json-stable-stringify "^2.0.0"
 
