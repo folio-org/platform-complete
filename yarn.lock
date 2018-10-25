@@ -98,6 +98,12 @@
   version "7.1.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/parser/-/parser-7.1.3.tgz#2c92469bac2b7fbff810b67fca07bd138b48af77"
 
+"@babel/runtime@^7.1.2":
+  version "7.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/template/-/template-7.0.0-beta.51.tgz#9602a40aebcf357ae9677e2532ef5fc810f5fbff"
@@ -255,8 +261,8 @@
     eslint-plugin-react "7.9.1"
 
 "@folio/finance@>=1.1.0":
-  version "1.1.100025"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-1.1.100025.tgz#6b6866af8186536b09c3e0f22bac1da9e2e2caec"
+  version "1.1.100026"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-1.1.100026.tgz#e195ddc20ac6f5280f349e8f740ddf3334ddaaaa"
   dependencies:
     lodash "^4.17.5"
     prop-types "^15.5.10"
@@ -5165,7 +5171,7 @@ intl-relativeformat@^2.1.0:
   dependencies:
     intl-messageformat "^2.0.0"
 
-invariant@2.2.4, invariant@^2.0.0, invariant@^2.1.0, invariant@^2.1.1, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.1.0, invariant@^2.1.1, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -6089,7 +6095,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.17.10, lodash-es@^4.17.5, lodash-es@^4.2.1:
+lodash-es@^4.17.10, lodash-es@^4.2.1:
   version "4.17.11"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
 
@@ -8154,7 +8160,7 @@ react-is@^16.3.2, react-is@^16.6.0:
   version "16.6.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-is/-/react-is-16.6.0.tgz#456645144581a6e99f6816ae2bd24ee94bdd0c01"
 
-react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
@@ -8203,15 +8209,16 @@ react-quill@^1.2.7:
     react-dom-factories "^1.0.0"
 
 react-redux@^5.0.2:
-  version "5.0.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-5.0.7.tgz#0dc1076d9afb4670f993ffaef44b8f8c1155a4c8"
+  version "5.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-5.1.0.tgz#948b1e2686473d1999092bcfb32d0dc43d33f667"
   dependencies:
-    hoist-non-react-statics "^2.5.0"
-    invariant "^2.0.0"
-    lodash "^4.17.5"
-    lodash-es "^4.17.5"
+    "@babel/runtime" "^7.1.2"
+    hoist-non-react-statics "^3.0.0"
+    invariant "^2.2.4"
     loose-envify "^1.1.0"
-    prop-types "^15.6.0"
+    prop-types "^15.6.1"
+    react-is "^16.6.0"
+    react-lifecycles-compat "^3.0.0"
 
 react-router-dom@^4.0.0, react-router-dom@^4.1.1, react-router-dom@^4.3.1:
   version "4.3.1"
@@ -8481,6 +8488,10 @@ regenerator-runtime@^0.10.5:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
+regenerator-runtime@^0.12.0:
+  version "0.12.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
