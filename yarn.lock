@@ -214,12 +214,13 @@
     redux-form "^7.0.3"
 
 "@folio/data-import@>=0.0.0":
-  version "0.1.100015"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-0.1.100015.tgz#442bb3abb3c5d10fb6c0c0335b2f3d8bf76dae25"
+  version "0.1.100016"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-0.1.100016.tgz#d95e57b13a0072bfbda5b8759befb62584f76b92"
   dependencies:
     classnames "^2.2.5"
     lodash "^4.16.4"
     prop-types "^15.6.0"
+    react-dropzone "^7.0.1"
     react-intl "^2.3.0"
     react-router-dom "^4.1.1"
 
@@ -452,8 +453,8 @@
     yargs "^10.0.3"
 
 "@folio/stripes-components@>=0.0.0", "@folio/stripes-components@^4.0.0":
-  version "4.3.1000612"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-4.3.1000612.tgz#706d02f3bd92d1ddbafc768a73a990839b7bfbf2"
+  version "4.3.2000613"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-4.3.2000613.tgz#746b5d7ded515b3ad0012295bb44a8a10119b762"
   dependencies:
     "@folio/stripes-react-hotkeys" "^1.1.0"
     "@folio/stripes-util" "^1.0.0"
@@ -1224,6 +1225,12 @@ asynckit@^0.4.0:
 atob@^2.1.1:
   version "2.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
+
+attr-accept@^1.1.3:
+  version "1.1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/attr-accept/-/attr-accept-1.1.3.tgz#48230c79f93790ef2775fcec4f0db0f5db41ca52"
+  dependencies:
+    core-js "^2.5.0"
 
 autoprefixer@^9.1.1:
   version "9.3.1"
@@ -8139,6 +8146,13 @@ react-dom@^16.3.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.11.0"
+
+react-dropzone@^7.0.1:
+  version "7.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-dropzone/-/react-dropzone-7.0.1.tgz#bc76bc1686fb47ed0c8301f968fffa6aecdff47b"
+  dependencies:
+    attr-accept "^1.1.3"
+    prop-types "^15.6.2"
 
 react-final-form@^3.6.7:
   version "3.6.7"
