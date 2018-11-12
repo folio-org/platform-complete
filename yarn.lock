@@ -198,8 +198,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/circulation@>=0.0.0":
-  version "1.3.1000128"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.3.1000128.tgz#309cdf5103bf8736458527b49e28aa017fdcc06c"
+  version "1.3.1000129"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-1.3.1000129.tgz#479a17cda6f0873e2d4d9ddf226feb23804b5651"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -214,14 +214,16 @@
     redux-form "^7.0.3"
 
 "@folio/data-import@>=0.0.0":
-  version "0.1.100016"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-0.1.100016.tgz#d95e57b13a0072bfbda5b8759befb62584f76b92"
+  version "0.1.100017"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-0.1.100017.tgz#9312fee212aa6b800ebaa9457aa49a76804c7ece"
   dependencies:
     classnames "^2.2.5"
     lodash "^4.16.4"
     prop-types "^15.6.0"
+    qs "^6.5.1"
     react-dropzone "^7.0.1"
     react-intl "^2.3.0"
+    react-router "^4.2.0"
     react-router-dom "^4.1.1"
 
 "@folio/developer@>=0.0.0":
@@ -276,8 +278,8 @@
     redux-form "^7.3.0"
 
 "@folio/inventory@>=0.0.0", "@folio/inventory@^1.4.0":
-  version "1.4.1000326"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.4.1000326.tgz#f0c2c1201e8c03f07a23d3d09bb0686f1f2567e3"
+  version "1.4.1000327"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.4.1000327.tgz#4f068c2e05c7d17fe0082ac3a2219fe902cfcfb9"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
@@ -374,8 +376,8 @@
     sanitize-html "1.18.2"
 
 "@folio/requests@>=0.0.0":
-  version "1.4.2000160"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.4.2000160.tgz#65ac82d1093746e108060f2d75e9f6753874c9df"
+  version "1.4.2000161"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-1.4.2000161.tgz#4e246b1072afff42982c44795d83b8d13c80a955"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     isomorphic-fetch "^2.2.1"
@@ -453,8 +455,8 @@
     yargs "^10.0.3"
 
 "@folio/stripes-components@>=0.0.0", "@folio/stripes-components@^4.0.0":
-  version "4.3.2000618"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-4.3.2000618.tgz#ab3e7b7dc61c223a98416ed0d5634b2fc5f765e9"
+  version "4.3.2000619"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-4.3.2000619.tgz#e585be2c23c3fe780c66e0b8cb9a1182ae6bf637"
   dependencies:
     "@folio/stripes-react-hotkeys" "^1.1.0"
     "@folio/stripes-util" "^1.0.0"
@@ -606,8 +608,8 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@^1.9.0":
-  version "1.10.3000316"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-1.10.3000316.tgz#6ef1a40bfe6805df1bd9f0a621933fe0c50826b5"
+  version "1.10.3000317"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-1.10.3000317.tgz#ead7cdee7c65a1f5f283a1cf4de9671e9bb3829f"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "^4.0.0"
@@ -670,8 +672,8 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=0.0.0", "@folio/users@^2.17.0":
-  version "2.17.4000477"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.17.4000477.tgz#aeef03b98b309257a12fb717d5fe8e21a7a0f3f4"
+  version "2.17.4000478"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.17.4000478.tgz#6c3afff6ce87f1541dd419cfe4d34c4c38d8b07b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -7970,7 +7972,7 @@ qjobs@^1.1.4:
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/qjobs/-/qjobs-1.2.0.tgz#c45e9c61800bd087ef88d7e256423bdd49e5d071"
 
-qs@6.5.2, qs@~6.5.2:
+qs@6.5.2, qs@^6.5.1, qs@~6.5.2:
   version "6.5.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
