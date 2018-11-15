@@ -98,7 +98,7 @@
   version "7.1.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/parser/-/parser-7.1.6.tgz#16e97aca1ec1062324a01c5a6a7d0df8dd189854"
 
-"@babel/runtime@^7.1.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5":
   version "7.1.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.1.5.tgz#4170907641cf1f61508f563ece3725150cc6fe39"
   dependencies:
@@ -635,8 +635,8 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-testing@^1.0.0":
-  version "1.0.10007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.0.10007.tgz#aa91acb565f40e4909899aa3f6564092d3815837"
+  version "1.0.10008"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.0.10008.tgz#b094b0755d80e1a5972594775a379f516c920168"
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
@@ -4221,8 +4221,10 @@ fill-range@^4.0.0:
     to-regex-range "^2.1.0"
 
 final-form@^4.10.0:
-  version "4.10.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.10.0.tgz#6179bca7676925202510e9877eb1ad2ad1cd3460"
+  version "4.11.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.11.0.tgz#81750bda11b82c3ddf7b27092f29ebe427f8a560"
+  dependencies:
+    "@babel/runtime" "^7.1.5"
 
 finalhandler@1.1.0:
   version "1.1.0"
