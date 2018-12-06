@@ -335,8 +335,8 @@
     redux-form "^7.0.3"
 
 "@folio/orders@>=0.0.0":
-  version "0.1.100085"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-0.1.100085.tgz#3ac581ede43afdfcda5ee5f7532b5f2403f87c17"
+  version "0.1.100086"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-0.1.100086.tgz#f01129d2eebd1f083e0de15d9d034e8ab48f902d"
   dependencies:
     lodash "^4.17.5"
     moment "^2.22.2"
@@ -465,8 +465,8 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-cli@^1.4.0", "@folio/stripes-cli@^1.5.0":
-  version "1.7.1000149"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.7.1000149.tgz#8850c51c0dade9ae1203bb3b5fa33976e066b71c"
+  version "1.7.1000150"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.7.1000150.tgz#3c015145af218fa55bc2884de1f73e95e3ac7a4d"
   dependencies:
     "@folio/stripes-core" "^2.16.0"
     "@folio/stripes-testing" "^1.0.0"
@@ -1153,10 +1153,6 @@ aria-query@^0.7.0:
   dependencies:
     ast-types-flow "0.0.7"
     commander "^2.11.0"
-
-arity-n@^1.0.4:
-  version "1.0.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/arity-n/-/arity-n-1.0.4.tgz#d9e76b11733e08569c0847ae7b39b2860b30b745"
 
 arr-diff@^2.0.0:
   version "2.0.0"
@@ -2553,10 +2549,6 @@ cheerio@^0.19.0:
     htmlparser2 "~3.8.1"
     lodash "^3.2.0"
 
-chickencurry@1.1.1:
-  version "1.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/chickencurry/-/chickencurry-1.1.1.tgz#02655f2b26b3bc2ee1ae1e5316886de38eb79738"
-
 chokidar@^2.0.2, chokidar@^2.0.3:
   version "2.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/chokidar/-/chokidar-2.0.4.tgz#356ff4e2b0e8e43e322d18a372460bbcf3accd26"
@@ -2820,12 +2812,6 @@ component-emitter@1.2.1, component-emitter@^1.2.1:
 component-inherit@0.0.3:
   version "0.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/component-inherit/-/component-inherit-0.0.3.tgz#645fc4adf58b72b649d5cae65135619db26ff143"
-
-compose-function@^2.0.0:
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/compose-function/-/compose-function-2.0.0.tgz#e642fa7e1da21529720031476776fc24691ac0b0"
-  dependencies:
-    arity-n "^1.0.4"
 
 compute-scroll-into-view@^1.0.2:
   version "1.0.11"
@@ -3602,7 +3588,7 @@ domhandler@2.3:
   dependencies:
     domelementtype "1"
 
-domhandler@^2.3.0:
+domhandler@^2.3.0, domhandler@^2.4.2:
   version "2.4.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/domhandler/-/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
   dependencies:
@@ -5101,14 +5087,14 @@ html-minifier@^3.2.3:
     uglify-js "3.4.x"
 
 html-to-react@^1.3.3:
-  version "1.3.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/html-to-react/-/html-to-react-1.3.3.tgz#e41666a735f9997ed2372dcd21d8b0e42b334467"
+  version "1.3.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/html-to-react/-/html-to-react-1.3.4.tgz#647b3a54fdec73a6461864b129fb0d1eec7d4589"
   dependencies:
-    domhandler "^2.3.0"
+    domhandler "^2.4.2"
     escape-string-regexp "^1.0.5"
-    htmlparser2 "^3.8.3"
-    ramda "^0.25.0"
-    underscore.string.fp "^1.0.4"
+    htmlparser2 "^3.10.0"
+    lodash.camelcase "^4.3.0"
+    ramda "^0.26"
 
 html-webpack-plugin@^3.2.0:
   version "3.2.0"
@@ -5122,7 +5108,7 @@ html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-htmlparser2@^3.8.3, htmlparser2@^3.9.0:
+htmlparser2@^3.10.0, htmlparser2@^3.9.0:
   version "3.10.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/htmlparser2/-/htmlparser2-3.10.0.tgz#5f5e422dcf6119c0d983ed36260ce9ded0bee464"
   dependencies:
@@ -8474,9 +8460,9 @@ quill@^1.2.6:
     parchment "^1.1.4"
     quill-delta "^3.6.2"
 
-ramda@^0.25.0:
-  version "0.25.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
+ramda@^0.26:
+  version "0.26.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
 
 randomatic@^3.0.0:
   version "3.1.1"
@@ -9300,10 +9286,6 @@ restore-cursor@^2.0.0:
 ret@~0.1.10:
   version "0.1.15"
   resolved "https://repository.folio.org/repository/npm-ci-all/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
-
-reverse-arguments@1.0.0:
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/reverse-arguments/-/reverse-arguments-1.0.0.tgz#c28095a3a921ac715d61834ddece9027992667cd"
 
 rfdc@^1.1.2:
   version "1.1.2"
@@ -10338,19 +10320,6 @@ uncontrollable@^5.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/uncontrollable/-/uncontrollable-5.1.0.tgz#7e9a1c50ea24e3c78b625e52d21ff3f758c7bd59"
   dependencies:
     invariant "^2.2.4"
-
-underscore.string.fp@^1.0.4:
-  version "1.0.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/underscore.string.fp/-/underscore.string.fp-1.0.4.tgz#054b3f1843bcae561286c87de5e8879b4fc98364"
-  dependencies:
-    chickencurry "1.1.1"
-    compose-function "^2.0.0"
-    reverse-arguments "1.0.0"
-    underscore.string "3.0.3"
-
-underscore.string@3.0.3:
-  version "3.0.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/underscore.string/-/underscore.string-3.0.3.tgz#4617b8c1a250cf6e5064fbbb363d0fa96cf14552"
 
 underscore@^1.8.3:
   version "1.9.1"
