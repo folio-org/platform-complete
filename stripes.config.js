@@ -3,9 +3,14 @@ const { merge } = require('lodash');
 
 const platformComplete = {
   modules: {
-    // '@folio/calendar' : {},
+    '@folio/agreements' : {},
+    '@folio/calendar' : {},
+    '@folio/data-import' : {},
     '@folio/eholdings' : {},
+    '@folio/erm-usage' : {},
     '@folio/finance' : {},
+    '@folio/licenses' : {},
+    '@folio/orders' : {},
     '@folio/vendors' : {}
   },
   branding: {
