@@ -9,6 +9,8 @@ const platformComplete = {
     '@folio/eholdings' : {},
     '@folio/erm-usage' : {},
     '@folio/finance' : {},
+    '@folio/licenses' : {},
+    '@folio/plugin-find-vendor' : {},
     '@folio/orders' : {},
     '@folio/vendors' : {}
   },
