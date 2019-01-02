@@ -15,7 +15,7 @@ to generate client bundles along with a utility for generating
 module descriptors for each Stripes module.
 
 Please see the
-[quick start guide](https://github.com/folio-org/stripes-core/blob/master/doc/quick-start.md)
+[quick start guide](https://github.com/folio-org/stripes/blob/master/doc/quick-start.md)
 for more information.
 
 The `stripes.config.js` is a configuration for a specific tenant. In
@@ -26,9 +26,9 @@ configuration file.
 
 The `yarn.lock` and `*-install.json` files in this repository can be
 used to build a FOLIO system with the components that represent the
-"Q3 2018" FOLIO release. For an example of how to deploy such a
+"Q4 2018" FOLIO release. For an example of how to deploy such a
 system, see the
-[Single Server Deployment Guide](https://github.com/folio-org/folio-install/blob/q3-2018/single-server.md).
+[Single Server Deployment Guide](https://github.com/folio-org/folio-install/blob/q4-2018/single-server.md).
 
 ## Installation
 
