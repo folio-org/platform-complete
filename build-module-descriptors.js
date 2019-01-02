@@ -2,7 +2,6 @@ const fs = require('fs');
 const childProcess = require('child_process');
 
 const argv0 = process.argv[1];
-const indir = fs.existsSync('node_modules/@folio') ? 'node_modules/@folio' : '../node_modules/@folio';
 const outdir = 'ModuleDescriptors';
 let strict = false;
 if (process.argv[2] === '--strict') {
@@ -14,25 +13,23 @@ if (!fs.existsSync(outdir)) {
   fs.mkdirSync(outdir);
 }
 
-fs.readdir(indir, (err, filenames) => {
-  if (err) {
-    console.log(`${argv0}: cannot scan '${err.path}': ${err.message}`);
-    process.exit(1);
-  }
+// Use stripes-cli to obtain module descriptors
+const cmd = `./node_modules/.bin/stripes mod descriptor stripes.config.js --full${strict ? ' --strict' : ''}`;
+let descriptors = [];
+try {
+  const output = childProcess.execSync(cmd, { encoding: 'utf8' }).trim();
+  descriptors = JSON.parse(output);
+} catch (exception) {
+  console.log(`${argv0}: cannot run '${cmd}':`, exception);
+  process.exit(2);
+}
 
-  const sortedFilenames = filenames.sort();
-  for (let i = 0; i < sortedFilenames.length; i++) {
-    const filename = sortedFilenames[i];
-    if (filename.startsWith('stripes-') && filename !== 'stripes-core' && filename !== 'stripes-smart-components') continue;
-    console.log(`processing '${filename}'`);
-    const cmd = `node ${indir}/stripes-core/util/package2md.js${strict ? ' --strict' : ''} ${indir}/${filename}/package.json > ${outdir}/${filename}.json`;
-    try {
-      const buffer = childProcess.execSync(cmd);
-      const output = buffer.toString();
-      if (output) console.log(`'${cmd}' produced unexpected output: '${output}'`);
-    } catch (exception) {
-      console.log(`${argv0}: cannot run '${cmd}':`, exception);
-      process.exit(2);
-    }
-  }
+// Write descriptors to individual files
+descriptors.forEach(descriptor => {
+  // Regex to find a name like "plugin-find-user" inside of an id like "folio_plugin-find-user-1.4.100038"
+  const nameMatch = descriptor.id.match(/folio_(.*)-/);
+  const filename = nameMatch ? nameMatch[1] : descriptor.id;
+  console.log(`processing '${filename}'`);
+  const formattedJson = JSON.stringify(descriptor, null, 2);
+  fs.writeFileSync(`${outdir}/${filename}.json`, `${formattedJson}\n`, { encoding: 'utf8' });
 });
