@@ -10,6 +10,7 @@ const platformComplete = {
     '@folio/erm-usage' : {},
     '@folio/finance' : {},
     '@folio/licenses' : {},
+    '@folio/marccat' : {},
     '@folio/plugin-find-vendor' : {},
     '@folio/orders' : {},
     '@folio/vendors' : {}
