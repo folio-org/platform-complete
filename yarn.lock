@@ -569,7 +569,20 @@
     react-transition-group "^2.2.1"
     tai-password-strength "^1.1.1"
 
-"@folio/stripes-connect@^3.1.2", "@folio/stripes-connect@~3.3.1":
+"@folio/stripes-connect@^3.1.2":
+  version "3.4.100059"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-3.4.100059.tgz#90abbeb6ca75cd0b0f28529d7c67f580259c1950"
+  dependencies:
+    "@folio/stripes-core" "^2.15.0 || ^3.0.0"
+    isomorphic-fetch "^2.2.1"
+    lodash "^4.17.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-redux "^5.0.2"
+    redux "^3.6.0"
+    uuid "^3.0.1"
+
+"@folio/stripes-connect@~3.3.1":
   version "3.3.100058"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-3.3.100058.tgz#e982a567df28fbf3ef60a67a382d9f3bf1bc4098"
   dependencies:
@@ -582,7 +595,7 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@>=0.0.0", "@folio/stripes-core@^2.14.0", "@folio/stripes-core@^2.15.0", "@folio/stripes-core@^2.15.1", "@folio/stripes-core@^2.16.0", "@folio/stripes-core@~2.17.0":
+"@folio/stripes-core@>=0.0.0", "@folio/stripes-core@^2.14.0", "@folio/stripes-core@^2.15.0", "@folio/stripes-core@^2.15.0 || ^3.0.0", "@folio/stripes-core@^2.15.1", "@folio/stripes-core@^2.16.0", "@folio/stripes-core@~2.17.0":
   version "2.17.1000488"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-2.17.1000488.tgz#f050cce09bb60da32e58f7f3d9883ee4f92d1222"
   dependencies:
