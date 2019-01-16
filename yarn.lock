@@ -270,8 +270,8 @@
     redux-form "^7.0.3"
 
 "@folio/eholdings@>=1.1.0":
-  version "1.2.1000462"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.2.1000462.tgz#728880872df5ccf622c67a6f1af1f5076b50b7e4"
+  version "1.2.1000463"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.2.1000463.tgz#9d27d43258d5080d59dee8859b0bdd85ed514b24"
   dependencies:
     classnames "^2.2.5"
     final-form "^4.10.0"
@@ -470,10 +470,10 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-cli@^1.4.0", "@folio/stripes-cli@^1.5.0":
-  version "1.7.1000156"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.7.1000156.tgz#eee1191574be247982f16148beae971fc1aa30d6"
+  version "1.7.1000157"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.7.1000157.tgz#f491bcb18755cb59d5370e25a4a841c4900b5fbe"
   dependencies:
-    "@folio/stripes-core" "^2.16.0"
+    "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.0.0"
     babel-plugin-istanbul "^4.1.6"
     configstore "^3.1.1"
@@ -513,7 +513,7 @@
     webpack-bundle-analyzer "^3.0.1"
     yargs "^12.0.5"
 
-"@folio/stripes-components@>=0.0.0", "@folio/stripes-components@^5.0.0":
+"@folio/stripes-components@>=0.0.0", "@folio/stripes-components@^5.0.0", "@folio/stripes-components@^5.0.1":
   version "5.0.1000700"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.0.1000700.tgz#99d712f656b16a5c307bcd6601e69a48badb9c3b"
   dependencies:
@@ -595,7 +595,7 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@>=0.0.0", "@folio/stripes-core@^2.15.0 || ^3.0.0":
+"@folio/stripes-core@>=0.0.0", "@folio/stripes-core@^2.15.0 || ^3.0.0", "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@^3.0.0":
   version "3.0.1000489"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.0.1000489.tgz#f59b1bf83a4f13141714cd1d5547e0f32d672374"
   dependencies:
@@ -682,7 +682,7 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-core@^2.14.0", "@folio/stripes-core@^2.15.0", "@folio/stripes-core@^2.15.1", "@folio/stripes-core@^2.16.0", "@folio/stripes-core@~2.17.0":
+"@folio/stripes-core@^2.14.0", "@folio/stripes-core@^2.15.0", "@folio/stripes-core@^2.15.1", "@folio/stripes-core@~2.17.0":
   version "2.17.1000488"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-2.17.1000488.tgz#f050cce09bb60da32e58f7f3d9883ee4f92d1222"
   dependencies:
@@ -769,7 +769,19 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-form@^1.0.0", "@folio/stripes-form@~1.2.0":
+"@folio/stripes-form@^1.0.0":
+  version "1.3.100040"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-1.3.100040.tgz#a91dc7353f9b49a0f03ddd346cfb3ac9199ca78d"
+  dependencies:
+    "@folio/stripes-components" "^5.0.1"
+    "@folio/stripes-core" "^3.0.0"
+    flat "^4.0.0"
+    prop-types "^15.5.10"
+    react-intl "^2.4.0"
+    react-router "^4.1.1"
+    redux-form "^7.0.3"
+
+"@folio/stripes-form@~1.2.0":
   version "1.2.100039"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-1.2.100039.tgz#5ed9d35943bacf91334c2526f71844fe865a0acc"
   dependencies:
