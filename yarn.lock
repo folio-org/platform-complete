@@ -270,12 +270,13 @@
     redux-form "^7.0.3"
 
 "@folio/eholdings@>=1.1.0":
-  version "1.3.1000474"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.3.1000474.tgz#ccd3341fbfecf98f14add35f2f655debc43f61fe"
+  version "1.3.1000477"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.3.1000477.tgz#d6abe8d3db0965a0c99b7d37a94c34c9b6884ccf"
   dependencies:
     classnames "^2.2.5"
     final-form "^4.10.0"
     final-form-arrays "^1.1.0"
+    final-form-calculate "^1.2.1"
     final-form-focus "^1.1.0"
     funcadelic "^0.5.4"
     impagination "^1.0.0-alpha.3"
@@ -290,7 +291,6 @@
     react-router-dom "^4.3.1"
     react-router-prop-types "^1.0.4"
     redux-actions "^2.2.1"
-    redux-form "^7.4.2"
     redux-observable "^0.15.0"
 
 "@folio/eslint-config-stripes@^2.0.0":
@@ -4619,6 +4619,10 @@ fill-range@^4.0.0:
 final-form-arrays@^1.1.0:
   version "1.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-arrays/-/final-form-arrays-1.1.1.tgz#ec869b904b1449775c657e31b96526750d92aca2"
+
+final-form-calculate@^1.2.1:
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/final-form-calculate/-/final-form-calculate-1.3.0.tgz#1f1e66256e5239e159a507d4224f87ec781ca574"
 
 final-form-focus@^1.1.0:
   version "1.1.0"
@@ -9312,7 +9316,7 @@ redux-actions@^2.2.1:
     reduce-reducers "^0.4.3"
     to-camel-case "^1.0.0"
 
-redux-form@^7.0.3, redux-form@^7.3.0, redux-form@^7.4.2:
+redux-form@^7.0.3, redux-form@^7.3.0:
   version "7.4.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/redux-form/-/redux-form-7.4.2.tgz#d6061088fb682eb9fc5fb9749bd8b102f03154b0"
   dependencies:
