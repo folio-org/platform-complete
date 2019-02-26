@@ -476,8 +476,8 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-cli@^1.8.0":
-  version "1.9.1000175"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.9.1000175.tgz#b1bd1f4b9d6b5d331a53717496805c3ba38b27f3"
+  version "1.9.1000176"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.9.1000176.tgz#917306378202296462140939b13d04455914a172"
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.0.0"
@@ -1069,31 +1069,33 @@ anymatch@^2.0.0:
     normalize-path "^2.1.1"
 
 apollo-cache-inmemory@^1.1.1:
-  version "1.4.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-cache-inmemory/-/apollo-cache-inmemory-1.4.3.tgz#aded4fb8b3de9e2fb2573a6c03591b07ef98ed36"
+  version "1.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-cache-inmemory/-/apollo-cache-inmemory-1.5.0.tgz#90b1a38f744762ab47c415b9d7b2d32fbd803088"
   dependencies:
-    apollo-cache "^1.1.26"
-    apollo-utilities "^1.1.3"
+    apollo-cache "^1.2.0"
+    apollo-utilities "^1.2.0"
     optimism "^0.6.9"
+    ts-invariant "^0.2.1"
     tslib "^1.9.3"
 
-apollo-cache@1.1.26, apollo-cache@^1.1.26:
-  version "1.1.26"
-  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-cache/-/apollo-cache-1.1.26.tgz#5afe023270effbc2063d90f51d8e56bce274ab37"
+apollo-cache@1.2.0, apollo-cache@^1.2.0:
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-cache/-/apollo-cache-1.2.0.tgz#7ebfc9a53027264e4a5bce9b886471cc77c50784"
   dependencies:
-    apollo-utilities "^1.1.3"
+    apollo-utilities "^1.2.0"
     tslib "^1.9.3"
 
 apollo-client@^2.0.3:
-  version "2.4.13"
-  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-client/-/apollo-client-2.4.13.tgz#09829fcbd68e069de9840d0a10764d7c6a3d0787"
+  version "2.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-client/-/apollo-client-2.5.0.tgz#8721318ad0d30e364b594f5dc2ee94c3a9dc5f1f"
   dependencies:
     "@types/zen-observable" "^0.8.0"
-    apollo-cache "1.1.26"
+    apollo-cache "1.2.0"
     apollo-link "^1.0.0"
     apollo-link-dedup "^1.0.0"
-    apollo-utilities "1.1.3"
+    apollo-utilities "1.2.0"
     symbol-observable "^1.0.2"
+    ts-invariant "^0.2.1"
     tslib "^1.9.3"
     zen-observable "^0.8.0"
 
@@ -1122,11 +1124,12 @@ apollo-link@^1.0.0, apollo-link@^1.2.8:
   dependencies:
     zen-observable-ts "^0.8.15"
 
-apollo-utilities@1.1.3, apollo-utilities@^1.1.3:
-  version "1.1.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-utilities/-/apollo-utilities-1.1.3.tgz#a8883c0392f6b46eac0d366204ebf34be9307c87"
+apollo-utilities@1.2.0, apollo-utilities@^1.2.0:
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/apollo-utilities/-/apollo-utilities-1.2.0.tgz#ba5a1271c55e0d79069b1919c9d533164a70f9c3"
   dependencies:
     fast-json-stable-stringify "^2.0.0"
+    ts-invariant "^0.2.1"
     tslib "^1.9.3"
 
 append-transform@^0.4.0:
@@ -2937,7 +2940,7 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.2.0, core-js@^2.4.0, core-js@^2.4.1, core-js@^2.5.0, core-js@^2.5.7:
+core-js@^2.2.0, core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
   version "2.6.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
 
@@ -4364,28 +4367,11 @@ favicons@^4.8.3:
     underscore "^1.8.3"
     vinyl "^1.1.0"
 
-fbjs-css-vars@^1.0.0:
-  version "1.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
-
 fbjs@^0.8.1, fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://repository.folio.org/repository/npm-ci-all/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   dependencies:
     core-js "^1.0.0"
-    isomorphic-fetch "^2.1.1"
-    loose-envify "^1.0.0"
-    object-assign "^4.1.0"
-    promise "^7.1.1"
-    setimmediate "^1.0.5"
-    ua-parser-js "^0.7.18"
-
-fbjs@^1.0.0:
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/fbjs/-/fbjs-1.0.0.tgz#52c215e0883a3c86af2a7a776ed51525ae8e0a5a"
-  dependencies:
-    core-js "^2.4.1"
-    fbjs-css-vars "^1.0.0"
     isomorphic-fetch "^2.1.1"
     loose-envify "^1.0.0"
     object-assign "^4.1.0"
@@ -6450,10 +6436,6 @@ lodash.create@3.1.1:
 lodash.escaperegexp@^4.1.2:
   version "4.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash.escaperegexp/-/lodash.escaperegexp-4.1.2.tgz#64762c48618082518ac3df4ccf5d5886dae20347"
-
-lodash.flowright@^3.5.0:
-  version "3.5.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/lodash.flowright/-/lodash.flowright-3.5.0.tgz#2b5fff399716d7e7dc5724fe9349f67065184d67"
 
 lodash.get@^3.7.0:
   version "3.7.0"
@@ -8646,15 +8628,15 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6, rc@^1.2.7:
     strip-json-comments "~2.0.1"
 
 react-apollo@^2.1.3:
-  version "2.4.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-apollo/-/react-apollo-2.4.1.tgz#89db63ebacf01c1603553bb476f089492aaeab2c"
+  version "2.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-apollo/-/react-apollo-2.5.0.tgz#e66e3763f15173026b63bcc4cb11a0e61f38e908"
   dependencies:
-    fbjs "^1.0.0"
+    apollo-utilities "^1.2.0"
     hoist-non-react-statics "^3.0.0"
-    invariant "^2.2.2"
-    lodash.flowright "^3.5.0"
     lodash.isequal "^4.5.0"
     prop-types "^15.6.0"
+    ts-invariant "^0.2.1"
+    tslib "^1.9.3"
 
 react-audio-player@^0.9.0:
   version "0.9.1"
@@ -10407,6 +10389,12 @@ trim-right@^1.0.1:
 tryer@^1.0.0:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
+
+ts-invariant@^0.2.1:
+  version "0.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ts-invariant/-/ts-invariant-0.2.1.tgz#3d587f9d6e3bded97bf9ec17951dd9814d5a9d3f"
+  dependencies:
+    tslib "^1.9.3"
 
 tslib@^1.9.0, tslib@^1.9.3:
   version "1.9.3"
