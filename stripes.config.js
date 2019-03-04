@@ -1,4 +1,5 @@
 const platformCore = require('@folio/platform-core/stripes.config.js');
+const platformERM = require('@folio/platform-erm/stripes.config.js');
 const { merge } = require('lodash');
 
 const platformComplete = {
@@ -22,4 +23,4 @@ const platformComplete = {
   }
 };
 
-module.exports = merge({}, platformCore, platformComplete);
+module.exports = merge({}, platformCore, platformERM, platformComplete);
