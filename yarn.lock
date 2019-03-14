@@ -579,36 +579,7 @@
     webpack-bundle-analyzer "^3.0.1"
     yargs "^13.1.0"
 
-"@folio/stripes-components@^5.0.1", "@folio/stripes-components@~5.1.0":
-  version "5.1.1000751"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.1.1000751.tgz#e9939f24194473d10724896d0f73979826670a91"
-  dependencies:
-    "@folio/stripes-react-hotkeys" "^2.0.0"
-    classnames "^2.2.5"
-    dom-helpers "^3.2.1"
-    downshift "^2.0.16"
-    hoist-non-react-statics "^3.1.0"
-    json2csv "^4.2.1"
-    lodash "^4.17.4"
-    memoize-one "^5.0.0"
-    moment "^2.17.1"
-    moment-range "^3.0.3"
-    moment-timezone "^0.5.14"
-    normalize.css "^7.0.0"
-    popper.js "^1.14.6"
-    prop-types "^15.5.10"
-    prop-types-extra "^1.1.0"
-    query-string "^6.1.0"
-    react-flexbox-grid "1.1.3"
-    react-highlighter "^0.4.2"
-    react-intl "^2.5.0"
-    react-overlays "^0.8.3"
-    react-router-dom "^4.1.1"
-    react-tether "^1.0.1"
-    react-transition-group "^2.2.1"
-    tai-password-strength "^1.1.1"
-
-"@folio/stripes-components@~5.0.0", "@folio/stripes-components@~5.0.1":
+"@folio/stripes-components@~5.0.0", "@folio/stripes-components@~5.0.1", "@folio/stripes-components@~5.0.3":
   version "5.0.3000750"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.0.3000750.tgz#1d57943050d36e1201a9e1bffb99ec4f64bd7e0f"
   dependencies:
@@ -637,18 +608,34 @@
     react-transition-group "^2.2.1"
     tai-password-strength "^1.1.1"
 
-"@folio/stripes-connect@^4.0.0", "@folio/stripes-connect@~4.1.0":
-  version "4.1.0"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-4.1.0.tgz#d04eb25418135666c3d991b3bbb2109875b99f5a"
+"@folio/stripes-components@~5.1.0":
+  version "5.1.1000751"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.1.1000751.tgz#e9939f24194473d10724896d0f73979826670a91"
   dependencies:
-    "@folio/stripes-core" "~3.1.0"
-    isomorphic-fetch "^2.2.1"
-    lodash "^4.17.2"
+    "@folio/stripes-react-hotkeys" "^2.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^3.2.1"
+    downshift "^2.0.16"
+    hoist-non-react-statics "^3.1.0"
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    memoize-one "^5.0.0"
+    moment "^2.17.1"
+    moment-range "^3.0.3"
+    moment-timezone "^0.5.14"
+    normalize.css "^7.0.0"
+    popper.js "^1.14.6"
     prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react-redux "^5.0.2"
-    redux "^3.6.0"
-    uuid "^3.0.1"
+    prop-types-extra "^1.1.0"
+    query-string "^6.1.0"
+    react-flexbox-grid "1.1.3"
+    react-highlighter "^0.4.2"
+    react-intl "^2.5.0"
+    react-overlays "^0.8.3"
+    react-router-dom "^4.1.1"
+    react-tether "^1.0.1"
+    react-transition-group "^2.2.1"
+    tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~4.0.0", "@folio/stripes-connect@~4.0.1":
   version "4.0.100063"
@@ -663,7 +650,20 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@^3.0.0", "@folio/stripes-core@~3.1.0":
+"@folio/stripes-connect@~4.1.0":
+  version "4.1.0"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-4.1.0.tgz#d04eb25418135666c3d991b3bbb2109875b99f5a"
+  dependencies:
+    "@folio/stripes-core" "~3.1.0"
+    isomorphic-fetch "^2.2.1"
+    lodash "^4.17.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-redux "^5.0.2"
+    redux "^3.6.0"
+    uuid "^3.0.1"
+
+"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.1.0":
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.1.0.tgz#d575ed71a815ca9f0005a529070237cd277a962d"
   dependencies:
@@ -846,19 +846,19 @@
     react-intl "^2.4.0"
     redux-form "^7.0.3"
 
-"@folio/stripes-form@^2.0.0", "@folio/stripes-form@~2.0.0":
-  version "2.0.100047"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.0.100047.tgz#72f4cb17a1789ece92bd5fdbbb6884e80747cab5"
+"@folio/stripes-form@~2.0.0", "@folio/stripes-form@~2.0.1":
+  version "2.0.100048"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-form/-/stripes-form-2.0.100048.tgz#3302e777ddd5b07b760025291c950a9f3a4a1357"
   dependencies:
-    "@folio/stripes-components" "^5.0.1"
-    "@folio/stripes-core" "^3.0.0"
+    "@folio/stripes-components" "~5.0.3"
+    "@folio/stripes-core" "~3.0.4"
     flat "^4.0.0"
     prop-types "^15.5.10"
     react-intl "^2.4.0"
     react-router "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/stripes-logger@^1.0.0", "@folio/stripes-logger@~1.0.0":
+"@folio/stripes-logger@~1.0.0":
   version "1.0.100011"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-logger/-/stripes-logger-1.0.100011.tgz#5ca5abd10171113068d32acdb12db1916b0df428"
 
@@ -872,15 +872,15 @@
     prop-types "^15.5.10"
 
 "@folio/stripes-smart-components@~2.0.0":
-  version "2.0.1000389"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.0.1000389.tgz#7b4c6068bf9ee5546405a51dc2495ab3b7e3ad0e"
+  version "2.0.1000390"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-2.0.1000390.tgz#81dd9eca325525fafa5c7a53a5db71041ea61481"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "^5.0.1"
-    "@folio/stripes-connect" "^4.0.0"
-    "@folio/stripes-core" "^3.0.0"
-    "@folio/stripes-form" "^2.0.0"
-    "@folio/stripes-logger" "^1.0.0"
+    "@folio/stripes-components" "~5.0.1"
+    "@folio/stripes-connect" "~4.0.1"
+    "@folio/stripes-core" "~3.0.4"
+    "@folio/stripes-form" "~2.0.1"
+    "@folio/stripes-logger" "~1.0.0"
     classnames "^2.2.6"
     lodash "^4.17.4"
     moment "^2.22.1"
