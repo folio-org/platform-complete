@@ -174,8 +174,8 @@
     to-fast-properties "^2.0.0"
 
 "@folio/agreements@>=2.0.0", "@folio/agreements@^2.0.0":
-  version "2.1.100075"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-2.1.100075.tgz#f8d15e3313bbea421772d0a5bc20e79bb875f219"
+  version "2.1.100076"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-2.1.100076.tgz#1ef524c583b85526e59dd95d7ce63a5f5c05c9a6"
   dependencies:
     "@folio/stripes-erm-components" "^1.0.6"
     lodash "^4.17.11"
@@ -766,14 +766,14 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-testing@^1.0.0":
-  version "1.1.100013"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.1.100013.tgz#4f13d178061bb2d385d142ed52b944f15969b22e"
+  version "1.1.100014"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-1.1.100014.tgz#13347bc6aeb8e8b79dc71549cc1898da9cc1f1ac"
   dependencies:
     debug "^4.0.1"
     minimist "^1.2.0"
     mocha "^3.4.2"
     mocha-jenkins-reporter "^0.3.12"
-    nightmare "^2.10.0"
+    nightmare "^3.0.1"
 
 "@folio/stripes-util@~1.3.0":
   version "1.3.100014"
@@ -826,8 +826,8 @@
     "@folio/plugin-find-user" "^1.1.0"
 
 "@folio/vendors@>=1.1.0", "@folio/vendors@>=1.3.0", "@folio/vendors@^1.1.0":
-  version "1.4.1000133"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/vendors/-/vendors-1.4.1000133.tgz#bc3d9187419de7e7184fb8b9c413a20052d221a9"
+  version "1.5.1000134"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/vendors/-/vendors-1.5.1000134.tgz#cb072818e14cf635be041297d8e7c7e8da577821"
   dependencies:
     lodash "^4.17.5"
     moment-timezone "^0.5.20"
@@ -3807,7 +3807,7 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.113, electron-to-chromium
   version "1.3.116"
   resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.116.tgz#1dbfee6a592a0c14ade77dbdfe54fef86387d702"
 
-electron@^1.4.4:
+electron@^1.8.4:
   version "1.8.8"
   resolved "https://repository.folio.org/repository/npm-ci-all/electron/-/electron-1.8.8.tgz#a90cddb075291f49576993e6f5c8bb4439301cae"
   dependencies:
@@ -7031,6 +7031,12 @@ ms@^2.1.1:
   version "2.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
+multiline@^1.0.2:
+  version "1.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/multiline/-/multiline-1.0.2.tgz#69b1f25ff074d2828904f244ddd06b7d96ef6c93"
+  dependencies:
+    strip-indent "^1.0.0"
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -7083,19 +7089,20 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
-nightmare@^2.10.0:
-  version "2.10.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/nightmare/-/nightmare-2.10.0.tgz#e9c5d590bb296f59685fd48218c2fbac44767b21"
+nightmare@^3.0.1:
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/nightmare/-/nightmare-3.0.1.tgz#a474761b2f0e08c2b75af24a66c201668e5c53d3"
   dependencies:
     debug "^2.2.0"
     deep-defaults "^1.0.3"
     defaults "^1.0.2"
-    electron "^1.4.4"
+    electron "^1.8.4"
     enqueue "^1.0.2"
     function-source "^0.1.0"
     jsesc "^0.5.0"
     minstache "^1.2.0"
     mkdirp "^0.5.1"
+    multiline "^1.0.2"
     once "^1.3.3"
     rimraf "^2.4.3"
     sliced "1.0.1"
@@ -10126,7 +10133,7 @@ strip-eof@^1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
 
-strip-indent@^1.0.1:
+strip-indent@^1.0.0, strip-indent@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/strip-indent/-/strip-indent-1.0.1.tgz#0c7962a6adefa7bbd4ac366460a638552ae1a0a2"
   dependencies:
