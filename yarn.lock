@@ -307,6 +307,18 @@
     redux-actions "^2.2.1"
     redux-observable "^0.15.0"
 
+"@folio/erm-usage@>=1.0.3":
+  version "1.0.300054"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/erm-usage/-/erm-usage-1.0.300054.tgz#7f83afb25078c713734fb094c149436911a6ef9c"
+  dependencies:
+    file-saver "^2.0.0"
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+    react-dropzone "^9.0.0"
+    react-intl "^2.5.0"
+    react-router-dom "^4.1.1"
+    redux-form "^7.0.3"
+
 "@folio/eslint-config-stripes@^2.0.0":
   version "2.0.300031"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/eslint-config-stripes/-/eslint-config-stripes-2.0.300031.tgz#eff0f6d76bc82a264d1dbce56ff7a04cdd559d32"
@@ -415,11 +427,12 @@
     react-redux "^5.1.1"
     redux "^3.7.2"
 
-"@folio/platform-erm@>=2.0.3-SNAPSHOT":
-  version "2.0.100020"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/platform-erm/-/platform-erm-2.0.100020.tgz#d02c14ff1ab9f79b369b58dd1b44329c6ca0f7cb"
+"@folio/platform-erm@>=2.1.0-SNAPSHOT":
+  version "2.1.0-SNAPSHOT"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/platform-erm/-/platform-erm-2.1.0-SNAPSHOT.tgz#4ffc050dae99da30353196913c9c58e111130269"
   dependencies:
     "@folio/agreements" ">=2.0.0"
+    "@folio/erm-usage" ">=1.0.3"
     "@folio/licenses" ">=2.0.0"
     "@folio/orders" ">=1.1.0"
     "@folio/plugin-find-agreement" ">=2.0.0"
@@ -4487,6 +4500,16 @@ file-loader@^1.1.11:
   dependencies:
     loader-utils "^1.0.2"
     schema-utils "^0.4.5"
+
+file-saver@^2.0.0:
+  version "2.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/file-saver/-/file-saver-2.0.1.tgz#7fe2242af1cbc559a29d8176078a8b56d781fa79"
+
+file-selector@^0.1.8:
+  version "0.1.11"
+  resolved "https://repository.folio.org/repository/npm-ci-all/file-selector/-/file-selector-0.1.11.tgz#4648d1303fc594afe8638d0f35caed38697d32cf"
+  dependencies:
+    tslib "^1.9.0"
 
 file-type@^3.1.0, file-type@^3.8.0:
   version "3.9.0"
@@ -8850,6 +8873,15 @@ react-dropzone@^7.0.1:
   dependencies:
     attr-accept "^1.1.3"
     prop-types "^15.6.2"
+
+react-dropzone@^9.0.0:
+  version "9.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-dropzone/-/react-dropzone-9.0.0.tgz#4f5223cdcb4d3bd8a66e3298c4041eb0c75c4634"
+  dependencies:
+    attr-accept "^1.1.3"
+    file-selector "^0.1.8"
+    prop-types "^15.6.2"
+    prop-types-extra "^1.1.0"
 
 react-final-form-arrays@^1.1.0:
   version "1.1.0"
