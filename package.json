@@ -6,7 +6,7 @@
     "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build stripes.config.js",
     "stripes": "stripes",
     "start": "stripes serve stripes.config.js",
-    "build-module-descriptors": "node ./build-module-descriptors.js",
+    "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^2.0.0",
-    "@folio/stripes-cli": "^1.8.0",
+    "@folio/stripes-cli": "^1.10.0",
     "eslint": "^4.19.1",
     "lodash": "^4.17.5"
   }
