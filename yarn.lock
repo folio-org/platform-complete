@@ -284,8 +284,8 @@
     redux-form "^7.0.3"
 
 "@folio/eholdings@>=1.1.0":
-  version "1.4.1000516"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.4.1000516.tgz#2fe1647bf3eb4f70bb8268e4b68174fc263e4524"
+  version "1.4.1000517"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.4.1000517.tgz#a275f9f19eb2e29515edccf21bf6cc0a06e8d554"
   dependencies:
     classnames "^2.2.5"
     final-form "^4.10.0"
@@ -10583,9 +10583,16 @@ ua-parser-js@^0.7.18:
   version "0.7.19"
   resolved "https://repository.folio.org/repository/npm-ci-all/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
 
-uglify-js@3.4.x, uglify-js@^3.1.4:
+uglify-js@3.4.x:
   version "3.4.10"
   resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.4.10.tgz#9ad9563d8eb3acdfb8d38597d2af1d815f6a755f"
+  dependencies:
+    commander "~2.19.0"
+    source-map "~0.6.1"
+
+uglify-js@^3.1.4:
+  version "3.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/uglify-js/-/uglify-js-3.5.0.tgz#72cd24773c4961023f4f292ab9531177a0021897"
   dependencies:
     commander "~2.19.0"
     source-map "~0.6.1"
