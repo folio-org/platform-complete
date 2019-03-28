@@ -1,12 +1,12 @@
 const platformCore = require('@folio/platform-core/stripes.config.js');
+const platformERM = require('@folio/platform-erm/stripes.config.js');
 const { merge } = require('lodash');
 
 const platformComplete = {
   modules: {
-    '@folio/calendar' : {},
+    '@folio/data-import' : {},
     '@folio/eholdings' : {},
-    '@folio/finance' : {},
-    '@folio/vendors' : {}
+    '@folio/finance' : {}
   },
   branding: {
     logo: {
@@ -19,4 +19,4 @@ const platformComplete = {
   }
 };
 
-module.exports = merge({}, platformCore, platformComplete);
+module.exports = merge({}, platformCore, platformERM, platformComplete);
