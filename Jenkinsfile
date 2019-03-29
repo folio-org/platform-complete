@@ -113,7 +113,7 @@ pipeline {
             withCredentials([string(credentialsId: 'jenkins-npm-folioci',variable: 'NPM_TOKEN')]) {
               withNPM(npmrcConfig: env.npmConfig) {
                 // clean up generated artifacts before publishing
-                sh 'rm -rf ci artifacts bundle node_modules'
+                sh 'rm -rf ci artifacts output bundle node_modules ModuleDescriptors'
                 // don't include these in package
                 sh 'rm -rf yarn.lock install.json stripes-install.json okapi-install.json'
                 sh 'npm publish'
