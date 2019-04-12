@@ -577,19 +577,6 @@
     react-transition-group "^2.2.1"
     tai-password-strength "^1.1.1"
 
-"@folio/stripes-connect@~4.1.0":
-  version "4.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-4.1.0.tgz#51e965ed4be9cac8bed12ad175388831b96e2ea9"
-  dependencies:
-    "@folio/stripes-core" "~3.1.0"
-    isomorphic-fetch "^2.2.1"
-    lodash "^4.17.2"
-    prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react-redux "^5.0.2"
-    redux "^3.6.0"
-    uuid "^3.0.1"
-
 "@folio/stripes-connect@~5.0.0":
   version "5.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-connect/-/stripes-connect-5.0.0.tgz#8861403dd93979d4a2de07962b1f0a5b4b8adb8e"
@@ -602,7 +589,7 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.17.1 || ^3.0.0":
+"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.3.0":
   version "3.3.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.3.0.tgz#45f31f41da13f0c02f478e68fd725e3b22da8d39"
   dependencies:
@@ -689,93 +676,6 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-core@~3.1.0":
-  version "3.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.1.0.tgz#90769590bdaa21557b6ca159794040e07fb78590"
-  dependencies:
-    "@folio/react-intl-safe-html" "^1.0.2"
-    "@folio/stripes-components" "~5.1.0"
-    "@folio/stripes-connect" "~4.1.0"
-    "@folio/stripes-logger" "~1.0.0"
-    apollo-cache-inmemory "^1.1.1"
-    apollo-client "^2.0.3"
-    apollo-link-http "^1.2.0"
-    autoprefixer "^9.1.1"
-    awesome-typescript-loader "^5.2.0"
-    babel-core "^6.23.1"
-    babel-loader "^7.1.4"
-    babel-plugin-react-transform "^3.0.0"
-    babel-plugin-remove-jsx-attributes "^0.0.2"
-    babel-plugin-transform-decorators-legacy "^1.3.5"
-    babel-polyfill "^6.16.0"
-    babel-preset-env "^1.6.0"
-    babel-preset-react "^6.16.0"
-    babel-preset-react-hmre "^1.1.1"
-    babel-preset-stage-2 "^6.16.0"
-    classnames "^2.2.5"
-    commander "^2.9.0"
-    connect-history-api-fallback "^1.3.0"
-    css-loader "^1.0.0"
-    debug "^4.0.1"
-    duplicate-package-checker-webpack-plugin "^3.0.0"
-    express "^4.14.0"
-    favicons-webpack-plugin "^0.0.9"
-    file-loader "^1.1.11"
-    graphql "^0.11.7"
-    hard-source-webpack-plugin "^0.12.0"
-    history "^4.6.3"
-    html-webpack-plugin "^3.2.0"
-    isomorphic-fetch "^2.2.1"
-    jwt-decode "^2.2.0"
-    localforage "^1.5.6"
-    lodash "^4.16.4"
-    mini-css-extract-plugin "^0.4.0"
-    moment "^2.19.1"
-    moment-timezone "^0.5.14"
-    node-object-hash "^1.2.0"
-    optimize-css-assets-webpack-plugin "^5.0.0"
-    postcss "^7.0.2"
-    postcss-calc "^6.0.0"
-    postcss-color-function "^4.0.0"
-    postcss-custom-media "^6.0.0"
-    postcss-custom-properties "^7.0.0"
-    postcss-import "^12.0.0"
-    postcss-loader "^3.0.0"
-    postcss-media-minmax "^3.0.0"
-    postcss-nesting "^6.0.0"
-    postcss-url "^8.0.0"
-    prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react "^16.3.0"
-    react-apollo "^2.1.3"
-    react-cookie "^2.1.4"
-    react-dom "^16.3.0"
-    react-hot-loader "^4.3.10"
-    react-intl "^2.5.0"
-    react-overlays "^0.8.3"
-    react-redux "^5.0.2"
-    react-router "^4.0.0"
-    react-router-dom "^4.0.0"
-    react-titled "^1.0.0"
-    react-transform-catch-errors "^1.0.2"
-    redux "^3.6.0"
-    redux-form "^7.0.3"
-    redux-logger "^3.0.6"
-    redux-observable "^0.15.0"
-    redux-thunk "^2.1.0"
-    rimraf "^2.5.4"
-    rtl-detect "^1.0.2"
-    rxjs "^5.4.3"
-    serialize-javascript "^1.4.0"
-    style-loader "^0.22.1"
-    tapable "^1.0.0"
-    typescript "^2.8.1"
-    uuid "^3.0.0"
-    webpack "^4.10.2"
-    webpack-dev-middleware "^3.1.3"
-    webpack-hot-middleware "^2.22.2"
-    webpack-virtual-modules "^0.1.10"
-
 "@folio/stripes-erm-components@1.2.1", "@folio/stripes-erm-components@^1.0.6", "@folio/stripes-erm-components@^1.2.1":
   version "1.2.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.2.1.tgz#0ae285f069a473ce6c966ff73c37ca826151467c"
@@ -785,12 +685,12 @@
     react-intl "^2.4.0"
     redux-form "^7.0.3"
 
-"@folio/stripes-form@~2.1.0":
-  version "2.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-2.1.0.tgz#a25786a01a4ce32699975e4126631e876540b3df"
+"@folio/stripes-form@~2.3.0":
+  version "2.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-form/-/stripes-form-2.3.0.tgz#323fc309964491cef9208e25aca50b57c5ccebcd"
   dependencies:
     "@folio/stripes-components" "~5.1.0"
-    "@folio/stripes-core" "~3.1.0"
+    "@folio/stripes-core" "~3.3.0"
     flat "^4.0.0"
     prop-types "^15.5.10"
     react-intl "^2.4.0"
@@ -810,15 +710,15 @@
     mousetrap "^1.6.1"
     prop-types "^15.5.10"
 
-"@folio/stripes-smart-components@~2.1.0":
-  version "2.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.1.0.tgz#8197f6043e3a7bfff5b2225b77a1806365aedcf5"
+"@folio/stripes-smart-components@~2.3.0":
+  version "2.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-smart-components/-/stripes-smart-components-2.3.0.tgz#0da3841f2d50262449abe2e8e4fac3a668840da4"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.1.0"
-    "@folio/stripes-connect" "~4.1.0"
-    "@folio/stripes-core" "~3.1.0"
-    "@folio/stripes-form" "~2.1.0"
+    "@folio/stripes-connect" "~5.0.0"
+    "@folio/stripes-core" "~3.3.0"
+    "@folio/stripes-form" "~2.3.0"
     "@folio/stripes-logger" "~1.0.0"
     classnames "^2.2.6"
     lodash "^4.17.4"
@@ -851,19 +751,19 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@2.1.0":
-  version "2.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.1.0.tgz#79f5b0a4150140d8d767a50e309df2bd58e48aa7"
+"@folio/stripes@2.3.0":
+  version "2.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.3.0.tgz#bbc39ed405d2183061d38ece2bce00884179542c"
   dependencies:
     "@folio/stripes-components" "~5.1.0"
-    "@folio/stripes-connect" "~4.1.0"
-    "@folio/stripes-core" "~3.1.0"
-    "@folio/stripes-form" "~2.1.0"
+    "@folio/stripes-connect" "~5.0.0"
+    "@folio/stripes-core" "~3.3.0"
+    "@folio/stripes-form" "~2.3.0"
     "@folio/stripes-logger" "~1.0.0"
-    "@folio/stripes-smart-components" "~2.1.0"
+    "@folio/stripes-smart-components" "~2.3.0"
     "@folio/stripes-util" "~1.3.0"
-    react "~16.6.3"
-    react-dom "~16.6.3"
+    react "~16.8.6"
+    react-dom "~16.8.6"
     react-redux "~5.1.1"
     redux "~3.7.2"
 
@@ -8839,7 +8739,7 @@ react-dom-factories@^1.0.0:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
 
-react-dom@^16.3.0, react-dom@^16.6.3, react-dom@^16.8.6:
+react-dom@^16.6.3, react-dom@^16.8.6, react-dom@~16.8.6:
   version "16.8.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   dependencies:
@@ -8847,15 +8747,6 @@ react-dom@^16.3.0, react-dom@^16.6.3, react-dom@^16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
-
-react-dom@~16.6.3:
-  version "16.6.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.11.2"
 
 react-dropzone@^7.0.1:
   version "7.0.1"
@@ -9070,7 +8961,7 @@ react-transition-group@^2.0.0, react-transition-group@^2.2.0, react-transition-g
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.2.0, react@^16.3.0, react@^16.6.3, react@^16.8.6:
+react@^16.2.0, react@^16.6.3, react@^16.8.6, react@~16.8.6:
   version "16.8.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   dependencies:
@@ -9078,15 +8969,6 @@ react@^16.2.0, react@^16.3.0, react@^16.6.3, react@^16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
-
-react@~16.6.3:
-  version "16.6.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.11.2"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -9626,13 +9508,6 @@ sanitize-html@1.18.2:
 sax@>=0.6.0, sax@^1.2.4, sax@~1.2.1, sax@~1.2.4:
   version "1.2.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
-
-scheduler@^0.11.2:
-  version "0.11.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/scheduler/-/scheduler-0.11.3.tgz#b5769b90cf8b1464f3f3cfcafe8e3cd7555a2d6b"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 scheduler@^0.13.6:
   version "0.13.6"
