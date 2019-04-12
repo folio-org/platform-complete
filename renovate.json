@@ -1,13 +1,22 @@
 {
   "baseBranches": ["master", "q1-2019"],
   "branchPrefix": "renovate_",
-  "autoMerge": false,
+  "automerge": false,
   "separateMinorPatch": true,
   "updateLockFiles": false,
   "rangeStrategy": "replace",
   "ignoreDeps": ["eslint","lodash","react","react-dom","react-redux","redux"],
- 
 
+  "major": {
+    "enabled": false
+  },
+  "minor": {
+    "enabled": false
+  },
+  "patch": {
+    "enabled": true
+  },
+ 
   "packageRules": [
     { 
       "baseBranchList": ["q1-2019"],
@@ -25,4 +34,3 @@
     }
   ]
 }
-    
