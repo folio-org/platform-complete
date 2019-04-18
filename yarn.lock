@@ -353,7 +353,7 @@
     react-router-dom "^4.1.1"
     redux-form "^7.3.0"
 
-"@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0":
+"@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0", "@folio/inventory@^1.7.0":
   version "1.7.1000451"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.7.1000451.tgz#f03a6be87ff9d7037a08d4adb9e07b0efdc32813"
   dependencies:
@@ -389,8 +389,8 @@
     redux-form "^7.0.3"
 
 "@folio/orders@>=1.1.0":
-  version "1.3.1000279"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.3.1000279.tgz#601a893c883614f1d0fcce1ac13f9b83f315f022"
+  version "1.3.1000280"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.3.1000280.tgz#10ffeb9d4647805f2f3f47b1e54a78112c981e32"
   dependencies:
     lodash "^4.17.11"
     moment "^2.22.2"
@@ -401,6 +401,7 @@
     react-router-prop-types "^1.0.4"
     redux-form "^7.3.0"
   optionalDependencies:
+    "@folio/plugin-create-item" "^1.0.0"
     "@folio/plugin-find-instance" "^1.1.0"
     "@folio/plugin-find-user" "^1.1.0"
     "@folio/plugin-find-vendor" "^1.1.0"
@@ -474,6 +475,16 @@
     react-dom "^16.6.3"
     react-redux "^5.1.1"
     redux "^3.7.2"
+
+"@folio/plugin-create-item@^1.0.0":
+  version "1.0.10001"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-item/-/plugin-create-item-1.0.10001.tgz#cd29a31e6468cd5ab7522edd1777b267b8651813"
+  dependencies:
+    "@folio/inventory" "^1.7.0"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
 
 "@folio/plugin-find-agreement@>=2.0.0":
   version "2.1.100012"
