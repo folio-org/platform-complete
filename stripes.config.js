@@ -7,6 +7,7 @@ const platformComplete = {
     '@folio/data-import': {},
     '@folio/eholdings' : {},
     '@folio/finance' : {},
+    '@folio/plugin-create-item' : {},
     '@folio/plugin-find-vendor' : {},
   },
   branding: {
