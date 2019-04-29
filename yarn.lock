@@ -343,8 +343,8 @@
     eslint-plugin-react "7.9.1"
 
 "@folio/finance@>=1.1.0":
-  version "1.3.100061"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-1.3.100061.tgz#f2e202e487e9b2f4917b81ab54f5f5b2559682a4"
+  version "1.3.100062"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-1.3.100062.tgz#411c2ae26824dfdb2d04468c1d0452f094d613dc"
   dependencies:
     lodash "^4.17.5"
     prop-types "^15.5.10"
@@ -388,8 +388,8 @@
     redux-form "^7.0.3"
 
 "@folio/orders@>=1.1.0":
-  version "1.3.1000290"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.3.1000290.tgz#35160baad138d80c49f9a5b45ad86be3b3fbe47b"
+  version "1.3.1000292"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.3.1000292.tgz#d10cbf06d9f8a3100ae63db27f223ceb399e3aed"
   dependencies:
     lodash "^4.17.11"
     moment "^2.22.2"
@@ -402,8 +402,8 @@
   optionalDependencies:
     "@folio/plugin-create-item" "^1.0.0"
     "@folio/plugin-find-instance" "^1.1.0"
+    "@folio/plugin-find-organization" "^1.0.0"
     "@folio/plugin-find-user" "^1.1.0"
-    "@folio/plugin-find-vendor" "^1.1.0"
 
 "@folio/organization@>=2.5.1":
   version "2.8.1000207"
@@ -415,7 +415,7 @@
     react-intl "^2.3.0"
     redux-form "^7.0.3"
 
-"@folio/organizations@>=1.0.0":
+"@folio/organizations@>=1.0.0", "@folio/organizations@^1.0.0":
   version "1.0.100030"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-1.0.100030.tgz#dd0797b1755bdccb55b9a0bdb508e90ab760c162"
   dependencies:
@@ -509,6 +509,14 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
+"@folio/plugin-find-organization@^1.0.0":
+  version "1.0.10003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-organization/-/plugin-find-organization-1.0.10003.tgz#84a01db32568cc4cf6e25174ec4abcdd1f1e22e3"
+  dependencies:
+    "@folio/organizations" "^1.0.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@>=1.5.0", "@folio/plugin-find-user@^1.1.0":
   version "1.6.100054"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-1.6.100054.tgz#4dd36067d2ff8406d489533712a7ade0562eeb6e"
@@ -518,7 +526,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-vendor@>=1.1.0", "@folio/plugin-find-vendor@^1.1.0":
+"@folio/plugin-find-vendor@>=1.1.0":
   version "1.3.200031"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-vendor/-/plugin-find-vendor-1.3.200031.tgz#e63ad3e40c67cbda555a02939797ddece70283a9"
   dependencies:
