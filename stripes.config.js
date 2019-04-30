@@ -8,6 +8,7 @@ const platformComplete = {
     '@folio/eholdings' : {},
     '@folio/finance' : {},
     '@folio/plugin-create-item' : {},
+    '@folio/plugin-find-contact' : {},
     '@folio/plugin-find-organization' : {},
   },
   branding: {
