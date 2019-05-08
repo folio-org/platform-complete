@@ -17,7 +17,7 @@ const platformComplete = {
       alt: 'Opentown Libraries',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/folio-favicon.png',
     },
   }
 };
