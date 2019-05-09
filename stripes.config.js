@@ -27,7 +27,6 @@ const platformComplete = {
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-organization' : {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-find-vendor': {},
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
