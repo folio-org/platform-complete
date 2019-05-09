@@ -13,17 +13,17 @@ const platformComplete = {
     '@folio/developer' : {},
     '@folio/eholdings' : {},
     '@folio/erm-usage': {},
-    '@folio/inventory' : {},
-    '@folio/finance' : {},
+    '@folio/inventory': {},
+    '@folio/finance': {},
     '@folio/licenses': {},
-    '@folio/myprofile' : {},
-    '@folio/notes' : {},
+    '@folio/myprofile': {},
+    '@folio/notes': {},
     '@folio/orders': {},
-    '@folio/organization' : {},
-    '@folio/plugin-create-item' : {},
+    '@folio/organization': {},
+    '@folio/plugin-create-item': {},
     '@folio/plugin-find-agreement': {},
-    '@folio/plugin-find-instance' : {},
-    '@folio/plugin-find-contact' : {},
+    '@folio/plugin-find-instance': {},
+    '@folio/plugin-find-contact': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-organization' : {},
     '@folio/plugin-find-user' : {},
@@ -35,7 +35,6 @@ const platformComplete = {
     '@folio/tenant-settings' : {},
     '@folio/users' : {},
     '@folio/vendors': {}
-
   },
   branding: {
     logo: {
