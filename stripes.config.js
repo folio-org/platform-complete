@@ -20,19 +20,19 @@ module.exports = {
     '@folio/licenses': {},
     '@folio/myprofile' : {},
     '@folio/orders': {},
+    '@folio/organizations' : {},
     '@folio/organization' : {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-find-vendor': {},
+    '@folio/plugin-find-organization': {},
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
-    '@folio/users' : {},
-    '@folio/vendors': {}
+    '@folio/users' : {}
   },
   branding: {
     logo: {

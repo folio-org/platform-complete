@@ -389,9 +389,9 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/orders@1.3.1":
-  version "1.3.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.3.1.tgz#308978aea7307db94ccf0ac595e5accd681c8352"
+"@folio/orders@1.4.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.4.0.tgz#4a8a6c3a1be9526f3f910ea6eed5f348e1dfa08b"
   dependencies:
     lodash "^4.17.11"
     moment "^2.22.2"
@@ -402,9 +402,10 @@
     react-router-prop-types "^1.0.4"
     redux-form "^7.3.0"
   optionalDependencies:
+    "@folio/plugin-create-item" "^1.0.0"
     "@folio/plugin-find-instance" "^1.1.0"
+    "@folio/plugin-find-organization" "^1.0.0"
     "@folio/plugin-find-user" "^1.1.0"
-    "@folio/plugin-find-vendor" "^1.1.0"
 
 "@folio/organization@2.8.1":
   version "2.8.1"
@@ -416,7 +417,20 @@
     react-intl "^2.3.0"
     redux-form "^7.0.3"
 
-"@folio/plugin-create-item@1.0.0":
+"@folio/organizations@1.0.0", "@folio/organizations@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.0.0.tgz#7e37100da0b237e032cc60ce7e696a882f4c40aa"
+  dependencies:
+    lodash "^4.17.5"
+    moment-timezone "^0.5.20"
+    prop-types "^15.5.10"
+    query-string "^6.1.0"
+    react-router-dom "^4.3.1"
+    react-tether "^1.0.1"
+    redux-form "^7.3.0"
+    uuid "^3.0.1"
+
+"@folio/plugin-create-item@1.0.0", "@folio/plugin-create-item@^1.0.0":
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.0.0.tgz#b079b46eb6c3cddbc6b89681923a159dea14544f"
   dependencies:
@@ -450,19 +464,19 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
+"@folio/plugin-find-organization@1.0.0", "@folio/plugin-find-organization@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.0.0.tgz#25ac5379a37a9a4a953c8784f5662e6ba187fe3e"
+  dependencies:
+    "@folio/organizations" "^1.0.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+
 "@folio/plugin-find-user@1.6.0", "@folio/plugin-find-user@^1.1.0":
   version "1.6.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.6.0.tgz#37c2cef125038ca2628f475ed88f1e17de8e4c59"
   dependencies:
     "@folio/users" "^2.17.0"
-    classnames "^2.2.5"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-vendor@1.3.2", "@folio/plugin-find-vendor@^1.1.0":
-  version "1.3.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-vendor/-/plugin-find-vendor-1.3.2.tgz#710f815d77d305736e0bea3fe2e893d5f5f92d65"
-  dependencies:
-    "@folio/vendors" "^1.1.0"
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
@@ -948,19 +962,6 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/vendors@1.5.0", "@folio/vendors@^1.1.0":
-  version "1.5.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/vendors/-/vendors-1.5.0.tgz#e1409e79f70fa924326d5f86daf7ef3a847f119f"
-  dependencies:
-    lodash "^4.17.5"
-    moment-timezone "^0.5.20"
-    prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react-router-dom "^4.3.1"
-    react-tether "^1.0.1"
-    redux-form "^7.3.0"
-    uuid "^3.0.1"
-
 "@jimp/bmp@^0.5.4":
   version "0.5.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/@jimp/bmp/-/bmp-0.5.4.tgz#b7b375aa774f26154912569864d5466e71333ef1"
@@ -1213,8 +1214,8 @@
     parchment "^1.1.2"
 
 "@types/react@*":
-  version "16.8.16"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.8.16.tgz#2bf980b4fb29cceeb01b2c139b3e185e57d3e08e"
+  version "16.8.17"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.8.17.tgz#f287b76a5badb93bc9aa3f54521a3eb53d6c2374"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -1700,9 +1701,10 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
 
 assert@^1.1.1:
-  version "1.4.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/assert/-/assert-1.4.1.tgz#99912d591836b5a6f5b345c0f07eefc08fc65d91"
+  version "1.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/assert/-/assert-1.5.0.tgz#55c109aaf6e0aefdb3dc4b71240c70bf574b18eb"
   dependencies:
+    object-assign "^4.1.1"
     util "0.10.3"
 
 assign-symbols@^1.0.0:
@@ -4229,8 +4231,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.127, electron-to-chromium@^1.3.47:
-  version "1.3.131"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.131.tgz#205a0b7a276b3f56bc056f19178909243054252a"
+  version "1.3.133"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.133.tgz#c47639c19b91feee3e22fad69f5556142007008c"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -5388,8 +5390,8 @@ glob@7.1.2:
     path-is-absolute "^1.0.0"
 
 glob@^7.0.3, glob@^7.0.5, glob@^7.0.6, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
-  version "7.1.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
+  version "7.1.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -7698,8 +7700,8 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.17:
-  version "1.1.17"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.17.tgz#71ea4631f0a97d5cd4f65f7d04ecf9072eac711a"
+  version "1.1.18"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.18.tgz#cc98fd75598a324a77188ebddf6650e9cbd8b1d5"
   dependencies:
     semver "^5.3.0"
 
@@ -10246,8 +10248,8 @@ signal-exit@^3.0.0, signal-exit@^3.0.1, signal-exit@^3.0.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
 simple-git@^1.89.0:
-  version "1.112.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/simple-git/-/simple-git-1.112.0.tgz#2aec1b124c3705adf6baf977b663a0632f50267f"
+  version "1.113.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/simple-git/-/simple-git-1.113.0.tgz#668989728a1e9cf4ec6c72b69ea2eecc93489bea"
   dependencies:
     debug "^4.0.1"
 
@@ -11371,8 +11373,8 @@ vary@~1.1.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
 vendors@^1.0.0:
-  version "1.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/vendors/-/vendors-1.0.2.tgz#7fcb5eef9f5623b156bcea89ec37d63676f21801"
+  version "1.0.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/vendors/-/vendors-1.0.3.tgz#a6467781abd366217c050f8202e7e50cc9eef8c0"
 
 verror@1.10.0:
   version "1.10.0"
@@ -11523,8 +11525,8 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.0.0, webpack@^4.10.2:
-  version "4.30.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.30.0.tgz#aca76ef75630a22c49fcc235b39b4c57591d33a9"
+  version "4.31.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.31.0.tgz#ae201d45f0571336e42d1c2b5c8ab56c4d3b0c63"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
