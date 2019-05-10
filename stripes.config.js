@@ -22,7 +22,9 @@ module.exports = {
     '@folio/orders': {},
     '@folio/organizations' : {},
     '@folio/organization' : {},
+    '@folio/plugin-create-item': {},
     '@folio/plugin-find-agreement': {},
+    '@folio/plugin-find-contact': {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user' : {},
@@ -44,4 +46,3 @@ module.exports = {
     },
   }
 };
-
