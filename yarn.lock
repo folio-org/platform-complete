@@ -344,13 +344,13 @@
     eslint-plugin-react "7.11.0"
     webpack "^4.0.0"
 
-"@folio/finance@1.3.0":
-  version "1.3.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-1.3.0.tgz#2f75c413773d9e9064d2542475c0c00b72eb55aa"
+"@folio/finance@1.4.1":
+  version "1.4.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-1.4.1.tgz#a26eff8640970b359b586f3eab6376b04a1d6408"
   dependencies:
     lodash "^4.17.5"
     prop-types "^15.5.10"
-    query-string "^5.0.0"
+    query-string "^6.1.0"
     react-router-dom "^4.1.1"
     redux-form "^7.3.0"
 
@@ -417,9 +417,9 @@
     react-intl "^2.3.0"
     redux-form "^7.0.3"
 
-"@folio/organizations@1.0.0", "@folio/organizations@^1.0.0":
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.0.0.tgz#7e37100da0b237e032cc60ce7e696a882f4c40aa"
+"@folio/organizations@1.1.0", "@folio/organizations@^1.0.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.1.0.tgz#17178e93f64a968cf35841477196a91ee5f5a569"
   dependencies:
     lodash "^4.17.5"
     moment-timezone "^0.5.20"
@@ -448,6 +448,16 @@
     prop-types "^15.6.0"
     react-intl "^2.4.0"
 
+"@folio/plugin-find-contact@1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-contact/-/plugin-find-contact-1.0.0.tgz#79de298e69906ef1f487631ec67a04963ff742f2"
+  dependencies:
+    "@folio/organizations" "^1.0.0"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
 "@folio/plugin-find-instance@1.4.0", "@folio/plugin-find-instance@^1.1.0":
   version "1.4.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-1.4.0.tgz#94f84ee34eacaa1981a7573dc117214164155015"
@@ -464,9 +474,9 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-organization@1.0.0", "@folio/plugin-find-organization@^1.0.0":
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.0.0.tgz#25ac5379a37a9a4a953c8784f5662e6ba187fe3e"
+"@folio/plugin-find-organization@1.1.0", "@folio/plugin-find-organization@^1.0.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.1.0.tgz#756afcbac7851ee049af4c2a99fe836283076b2d"
   dependencies:
     "@folio/organizations" "^1.0.0"
     classnames "^2.2.5"
@@ -845,9 +855,18 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-erm-components@1.3.3", "@folio/stripes-erm-components@^1.0.6", "@folio/stripes-erm-components@^1.2.1":
+"@folio/stripes-erm-components@1.3.3":
   version "1.3.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.3.3.tgz#d7f5bd2a975b6996db51ba6690e87c83855d35d1"
+  dependencies:
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+    react-intl "^2.4.0"
+    redux-form "^7.0.3"
+
+"@folio/stripes-erm-components@^1.0.6", "@folio/stripes-erm-components@^1.2.1":
+  version "1.3.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.3.4.tgz#16daf14833031478768060a585ebb66f8c8e632d"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
@@ -3843,8 +3862,8 @@ d@1:
     es5-ext "^0.10.9"
 
 damerau-levenshtein@^1.0.4:
-  version "1.0.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/damerau-levenshtein/-/damerau-levenshtein-1.0.4.tgz#03191c432cb6eea168bb77f3a55ffdccb8978514"
+  version "1.0.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/damerau-levenshtein/-/damerau-levenshtein-1.0.5.tgz#780cf7144eb2e8dbd1c3bb83ae31100ccc31a414"
 
 dashdash@^1.12.0:
   version "1.14.1"
