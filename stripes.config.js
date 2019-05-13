@@ -19,6 +19,7 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/licenses': {},
     '@folio/myprofile' : {},
+    '@folio/notes' : {},
     '@folio/orders': {},
     '@folio/organizations' : {},
     '@folio/organization' : {},
