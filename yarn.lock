@@ -658,9 +658,9 @@
     redux "^3.6.0"
     uuid "^3.0.1"
 
-"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.5.0":
-  version "3.5.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.5.0.tgz#05dd5c21115e918bf0976e1ca59d1a0d8df56322"
+"@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.5.0", "@folio/stripes-core@~3.5.1":
+  version "3.5.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.5.1.tgz#ae2995066e10754471440eb2daecd24e51bcfcbf"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.3.0"
@@ -824,13 +824,13 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes@2.6.0":
-  version "2.6.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.6.0.tgz#35bf25c0c0f202db42debc28650964854a35e404"
+"@folio/stripes@2.6.1":
+  version "2.6.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-2.6.1.tgz#27a6bd35e5b716cfa608c973a02327b99ed9af21"
   dependencies:
     "@folio/stripes-components" "~5.3.0"
     "@folio/stripes-connect" "~5.2.0"
-    "@folio/stripes-core" "~3.5.0"
+    "@folio/stripes-core" "~3.5.1"
     "@folio/stripes-form" "~2.5.0"
     "@folio/stripes-logger" "~1.0.0"
     "@folio/stripes-smart-components" "~2.6.3"
@@ -848,9 +848,27 @@
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
-"@folio/users@2.21.1", "@folio/users@^2.17.0":
+"@folio/users@2.21.1":
   version "2.21.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.21.1.tgz#a51793829cf3e016c1b86b8f43bb7b3bd90d5bd7"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.0"
+    hashcode "^1.0.3"
+    lodash "^4.17.4"
+    moment "^2.22.2"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-hot-loader "^4.3.12"
+    react-intl "^2.5.0"
+    react-router-dom "^4.0.0"
+    redux-form "^7.0.3"
+    uuid "^3.0.1"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^1.1.0"
+
+"@folio/users@^2.17.0":
+  version "2.22.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-2.22.0.tgz#14ef5eed84a7bf668a123c98526143009e62d15f"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     hashcode "^1.0.3"
@@ -1092,8 +1110,8 @@
     core-js "^2.5.7"
 
 "@types/node@*":
-  version "12.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.0.0.tgz#d11813b9c0ff8aaca29f04cbc12817f4c7d656e5"
+  version "12.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.0.1.tgz#3dde31f8da274dfeb90e96abf55038fef46285f0"
 
 "@types/node@^8.0.24":
   version "8.10.48"
