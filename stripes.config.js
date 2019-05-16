@@ -26,7 +26,6 @@ module.exports = {
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/orders' : {},
-    '@folio/organization' : {},
     '@folio/organizations' : {},
     '@folio/plugin-create-item' : {},
     '@folio/plugin-find-agreement' : {},
