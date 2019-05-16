@@ -10,7 +10,7 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/organization",
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings",
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
@@ -30,7 +30,6 @@
     "@folio/notes": "1.0.0",
     "@folio/orders": "1.4.0",
     "@folio/organizations": "1.1.0",
-    "@folio/organization": "2.8.1",
     "@folio/plugin-create-item": "1.0.0",
     "@folio/plugin-find-agreement": "2.1.1",
     "@folio/plugin-find-contact": "1.0.0",
@@ -44,6 +43,7 @@
     "@folio/stripes": "2.6.1",
     "@folio/stripes-erm-components": "1.3.4",
     "@folio/tags": "1.3.2",
+    "@folio/tenant-settings": "2.8.1",
     "@folio/users": "2.22.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
