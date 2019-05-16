@@ -22,7 +22,6 @@ module.exports = {
     '@folio/notes' : {},
     '@folio/orders': {},
     '@folio/organizations' : {},
-    '@folio/organization' : {},
     '@folio/plugin-create-item': {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-contact': {},
@@ -35,6 +34,7 @@ module.exports = {
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
+    '@folio/tenant-settings' : {},
     '@folio/users' : {}
   },
   branding: {
