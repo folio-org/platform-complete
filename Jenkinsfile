@@ -39,7 +39,7 @@ pipeline {
 
     stage('Test Interface Dependencies') {
       steps { 
-        platformDepCheck('diku','install.json')
+        platformDepCheck('diku',"${env.WORKSPACE}/stripes-install.json")
       }
     }
 
