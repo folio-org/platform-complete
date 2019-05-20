@@ -109,7 +109,7 @@ The included Dockerfile allows for building a container that serves the stripes 
 ```
 docker build -f docker/Dockerfile \
   --build-arg OKAPI_URL=http://localhost:9130 \
-  --build-arg TENANT=diku -t stripes .
+  --build-arg TENANT_ID=diku -t stripes .
 ```
 The nginx server name can be passed to the container at runtime. The defualt value is `localhost` if no argument as passed. For example, to have nginx use `127.0.0.1` as the server name:
 ```

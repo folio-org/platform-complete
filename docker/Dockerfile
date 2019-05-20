@@ -8,7 +8,7 @@ WORKDIR /etc/folio/stripes
 
 COPY . /etc/folio/stripes/
 
-RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
+RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 RUN yarn install
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
