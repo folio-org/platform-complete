@@ -31,10 +31,14 @@ pipeline {
 
     stage('Build Stripes Platform') {
       steps {
-         // remove existing yarn.lock
-         sh 'rm -f yarn.lock'
-         sh 'yarn install'
-         sh 'yarn build ./output'
+        // the tenant and okapi url are irrelevant here. 
+        buildStripesPlatform('https://folio-snapshot-okapi.aws.indexdata.com','diku')
+      }
+    }
+
+    stage('Test Interface Dependencies') {
+      steps { 
+        platformDepCheck('diku','./install.json')
       }
     }
 
