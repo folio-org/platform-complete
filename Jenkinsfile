@@ -42,6 +42,7 @@ pipeline {
         script {
           def stripesInstallJson = readFile('./stripes-install.json')
           platformDepCheck('diku',stripesInstallJson)
+        }
       }
     }
 
