@@ -5,6 +5,7 @@ pipeline {
   environment {
     origin = 'platform-complete'
     branch = 'snapshot'
+    folioRegistry = 'http://folio-registry.aws.indexdata.com'
   }
 
   options {
