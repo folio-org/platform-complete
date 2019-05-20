@@ -39,7 +39,9 @@ pipeline {
 
     stage('Test Interface Dependencies') {
       steps { 
-        platformDepCheck('diku',"${env.WORKSPACE}/stripes-install.json")
+        script {
+          def stripesInstallJson = readFile('./stripes-install.json')
+          platformDepCheck('diku',stripesInstallJson)
       }
     }
 
