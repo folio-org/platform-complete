@@ -21,6 +21,7 @@ module.exports = {
     '@folio/eholdings' : {},
     '@folio/erm-usage' : {},
     '@folio/inventory' : {},
+    '@folio/invoice' : {},
     '@folio/finance' : {},
     '@folio/licenses' : {},
     '@folio/myprofile' : {},
