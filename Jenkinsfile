@@ -5,6 +5,7 @@ pipeline {
   environment {
     origin = 'platform-complete'
     branch = 'snapshot'
+    folioRegistry = 'http://folio-registry.aws.indexdata.com'
   }
 
   options {
@@ -38,7 +39,10 @@ pipeline {
 
     stage('Test Interface Dependencies') {
       steps { 
-        platformDepCheck('diku','./install.json')
+        script {
+          def stripesInstallJson = readFile('./stripes-install.json')
+          platformDepCheck('diku',stripesInstallJson)
+        }
       }
     }
 
