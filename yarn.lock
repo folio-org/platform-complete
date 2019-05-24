@@ -377,10 +377,10 @@
     react-router-dom "^4.1.1"
 
 "@folio/licenses@>=2.0.0", "@folio/licenses@^3.0.0":
-  version "3.2.1000111"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-3.2.1000111.tgz#c928c0999e36c4946e5e606e36c0458fd714ee9a"
+  version "3.2.1000112"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-3.2.1000112.tgz#a049479fd41057b4aae32cb5d9e4d2758cdc6c71"
   dependencies:
-    "@folio/stripes-erm-components" "^1.3.2"
+    "@folio/stripes-erm-components" "^1.3.6"
     lodash "^4.17.11"
     prop-types "^15.6.0"
     react-intl "^2.4.0"
@@ -748,12 +748,13 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-erm-components@^1.1.0", "@folio/stripes-erm-components@^1.3.2", "@folio/stripes-erm-components@^1.3.4":
-  version "1.3.500037"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-erm-components/-/stripes-erm-components-1.3.500037.tgz#58f4217ba9c86d3677591da04621e87c678833f2"
+"@folio/stripes-erm-components@^1.1.0", "@folio/stripes-erm-components@^1.3.4", "@folio/stripes-erm-components@^1.3.6":
+  version "1.3.600054"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-erm-components/-/stripes-erm-components-1.3.600054.tgz#41e37a1bcb89c28f2fb1033b31ebb2c15f991951"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
+    react-dropzone "^10.0.0"
     react-intl "^2.4.0"
     redux-form "^7.0.3"
 
@@ -4803,7 +4804,7 @@ file-saver@^2.0.0:
   version "2.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/file-saver/-/file-saver-2.0.2.tgz#06d6e728a9ea2df2cce2f8d9e84dfcdc338ec17a"
 
-file-selector@^0.1.8:
+file-selector@^0.1.11, file-selector@^0.1.8:
   version "0.1.12"
   resolved "https://repository.folio.org/repository/npm-ci-all/file-selector/-/file-selector-0.1.12.tgz#fe726547be219a787a9dcc640575a04a032b1fd0"
   dependencies:
@@ -9110,6 +9111,14 @@ react-dom@^16.6.3, react-dom@^16.8.6, react-dom@~16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
+
+react-dropzone@^10.0.0:
+  version "10.1.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-dropzone/-/react-dropzone-10.1.5.tgz#5f2817ab924b270010c7034fe01f49b6240b9c91"
+  dependencies:
+    attr-accept "^1.1.3"
+    file-selector "^0.1.11"
+    prop-types "^15.7.2"
 
 react-dropzone@^7.0.1:
   version "7.0.1"
