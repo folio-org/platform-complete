@@ -3,6 +3,7 @@
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
+  "separateMajorMinor": true,
   "updateLockFiles": false,
   "rangeStrategy": "replace",
   "ignoreDeps": ["eslint","lodash","react","react-dom","react-redux","redux"],
@@ -28,7 +29,6 @@
     { 
       "baseBranchList": ["master"],
       "packagePatterns": ["^@folio/"],
-      "groupName": "FOLIO packages",
       "updateTypes": ["minor","patch"], 
       "enabled": true
     }
