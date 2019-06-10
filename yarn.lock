@@ -118,7 +118,7 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5":
   version "7.4.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
   dependencies:
@@ -293,8 +293,8 @@
     redux-form "^7.0.3"
 
 "@folio/eholdings@>=1.1.0":
-  version "1.6.1000547"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.6.1000547.tgz#722eb078d7ba91bae8e89b722b6691be934fbff9"
+  version "1.6.1000548"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-1.6.1000548.tgz#0b1cb7a3e6479dcb6f8c37156624d49644305cf9"
   dependencies:
     classnames "^2.2.5"
     final-form "^4.10.0"
@@ -350,8 +350,8 @@
     redux-form "^7.3.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.4.0", "@folio/inventory@^1.7.0":
-  version "1.8.1000497"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000497.tgz#84657b9384d4778b59b2cb34ae375b99f1fbe573"
+  version "1.8.1000498"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.8.1000498.tgz#9dbd006998af68566e2dc49c2598b375b4cdea65"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     lodash "^4.17.4"
@@ -364,12 +364,14 @@
     redux-form "^7.0.3"
 
 "@folio/invoice@>=1.0.0":
-  version "1.0.100012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.0.100012.tgz#dc4879b99b477214fc15a7cc43df0d4e92865597"
+  version "1.0.100013"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.0.100013.tgz#fd56686a5c7d4a751cd1360df3876006de6f5ea3"
   dependencies:
+    final-form "^4.13.1"
     lodash "^4.17.11"
     moment "^2.22.2"
     prop-types "^15.6.0"
+    react-final-form "^6.0.1"
     react-intl "^2.4.0"
     react-router-dom "^4.1.1"
     react-router-prop-types "^1.0.4"
@@ -4742,7 +4744,7 @@ final-form-focus@^1.1.0:
   version "1.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-focus/-/final-form-focus-1.1.2.tgz#8ea5c4bd802e220cebaa47a587bb0be164eb6806"
 
-final-form@^4.10.0, final-form@^4.12.0:
+final-form@^4.10.0, final-form@^4.12.0, final-form@^4.13.1:
   version "4.13.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.13.1.tgz#5893b1fe490a36198b219b351eec135d7394cdcf"
   dependencies:
@@ -8795,6 +8797,13 @@ react-final-form@^4.1.0:
   dependencies:
     "@babel/runtime" "^7.3.4"
 
+react-final-form@^6.0.1:
+  version "6.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.0.1.tgz#7be4e42b05db065c511d566c5db535f5c9081a1b"
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    ts-essentials "^2.0.2"
+
 react-flexbox-grid@1.1.3:
   version "1.1.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-flexbox-grid/-/react-flexbox-grid-1.1.3.tgz#4e61c7ff68d1eb1ae131c01a7c29b39803c54a0e"
@@ -10428,6 +10437,10 @@ trim-right@^1.0.1:
 tryer@^1.0.0:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
+
+ts-essentials@^2.0.2:
+  version "2.0.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ts-essentials/-/ts-essentials-2.0.7.tgz#f2bcc9d747289ffa8076727a7067f673f4e6d0f2"
 
 ts-invariant@^0.3.2:
   version "0.3.3"
