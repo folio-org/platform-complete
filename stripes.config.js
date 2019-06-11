@@ -26,6 +26,7 @@ module.exports = {
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-contact': {},
     '@folio/plugin-find-instance' : {},
+    '@folio/plugin-find-interface' : {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-organization': {},
