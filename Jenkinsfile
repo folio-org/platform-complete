@@ -18,7 +18,7 @@ pipeline {
   }
 
   options {
-    timeout(30)
+    timeout(60)
     buildDiscarder(logRotator(numToKeepStr: '30'))
   }
 
