@@ -56,6 +56,11 @@ pipeline {
       }
       stages {
         stage('Build Stripes Platform') {
+          when { 
+            not {
+              branch 'master'
+            }
+          }
           steps {
             echo "Okapi URL: ${env.okapiUrl}"
             echo "Tenant: ${env.tenant}"
