@@ -103,9 +103,7 @@ pipeline {
           }
           steps {
             // build FOLIO instance
-            withEnv(['NODE_ENV=']) {
-              buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
-            }
+            buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
             script { 
               def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
             }
