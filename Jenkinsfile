@@ -65,7 +65,9 @@ pipeline {
             echo "Okapi URL: ${env.okapiUrl}"
             echo "Tenant: ${env.tenant}"
 
-            buildStripesPlatform(env.okapiUrl,env.tenant)
+            withEnv(['NODE_ENV=development']) {
+              buildStripesPlatform(env.okapiUrl,env.tenant)
+            }
           }
         }
 
