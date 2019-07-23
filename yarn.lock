@@ -350,7 +350,7 @@
     react-router-dom "^4.1.1"
     redux-form "^7.3.0"
 
-"@folio/inventory@1.10.1", "@folio/inventory@^1.4.0", "@folio/inventory@^1.8.0":
+"@folio/inventory@1.10.1", "@folio/inventory@^1.10.0", "@folio/inventory@^1.4.0", "@folio/inventory@^1.8.0":
   version "1.10.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.10.1.tgz#1711abf65fe0ccc3c212bf693a2b10c46df90a8d"
   dependencies:
@@ -428,11 +428,21 @@
     "@folio/plugin-find-contact" "^1.1.0"
     "@folio/plugin-find-interface" "^1.0.0"
 
-"@folio/plugin-create-item@1.1.0", "@folio/plugin-create-item@^1.1.0":
+"@folio/plugin-create-item@1.1.0":
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.1.0.tgz#e29cec86d4a4432ff1b3a808ed838efff76cd762"
   dependencies:
     "@folio/inventory" "^1.8.0"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
+"@folio/plugin-create-item@^1.1.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.2.0.tgz#fd3f5b195fed4780384f0afddc893d28cafde3b2"
+  dependencies:
+    "@folio/inventory" "^1.10.0"
     classnames "^2.2.5"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -9380,8 +9390,8 @@ semver-diff@^2.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
 
 semver@^6.0.0:
-  version "6.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-6.2.0.tgz#4d813d9590aaf8a9192693d6c85b9344de5901db"
+  version "6.3.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
 
 send@0.17.1:
   version "0.17.1"
