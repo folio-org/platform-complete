@@ -394,10 +394,11 @@
     react-intl "^2.4.0"
     react-router-dom "^4.1.1"
 
-"@folio/orders@1.5.0":
-  version "1.5.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.5.0.tgz#63fc1918d34be8737930bac108efb35129870ded"
+"@folio/orders@1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.6.0.tgz#e3bc8cf30fcbe4f803daafc68624e98283c6cb11"
   dependencies:
+    "@folio/stripes-acq-components" "^1.0.0"
     lodash "^4.17.11"
     moment "^2.22.2"
     prop-types "^15.6.2"
@@ -556,6 +557,15 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
+
+"@folio/stripes-acq-components@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.0.0.tgz#3fae942298fc043b95b4fa3e4a249abc190a0c09"
+  dependencies:
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    react-intl "^2.9.0"
+    redux-form "^7.4.2"
 
 "@folio/stripes-cli@^1.10.0":
   version "1.12.1"
@@ -6970,7 +6980,7 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17, moment-timezone@^0.5.20:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.0.0, moment@^2.17.1, moment@^2.19.1, moment@^2.22.1, moment@^2.22.2:
+"moment@>= 2.9.0", moment@^2.0.0, moment@^2.17.1, moment@^2.19.1, moment@^2.22.1, moment@^2.22.2, moment@^2.24.0:
   version "2.24.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
 
@@ -8653,7 +8663,7 @@ react-hot-loader@4.8.8, react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
     shallowequal "^1.0.2"
     source-map "^0.7.3"
 
-react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.7.0, react-intl@^2.7.2, react-intl@^2.8.0:
+react-intl@^2.3.0, react-intl@^2.4.0, react-intl@^2.5.0, react-intl@^2.7.0, react-intl@^2.7.2, react-intl@^2.8.0, react-intl@^2.9.0:
   version "2.9.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   dependencies:
@@ -8942,7 +8952,7 @@ redux-actions@^2.2.1:
     reduce-reducers "^0.4.3"
     to-camel-case "^1.0.0"
 
-redux-form@^7.0.3, redux-form@^7.3.0:
+redux-form@^7.0.3, redux-form@^7.3.0, redux-form@^7.4.2:
   version "7.4.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/redux-form/-/redux-form-7.4.2.tgz#d6061088fb682eb9fc5fb9749bd8b102f03154b0"
   dependencies:
