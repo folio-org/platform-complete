@@ -6,6 +6,7 @@ module.exports = {
     showPerms: false
   },
   modules: {
+    '@folio/acquisition-units': {},
     '@folio/agreements': {},
     '@folio/calendar' : {},
     '@folio/checkin' : {},
@@ -17,6 +18,7 @@ module.exports = {
     '@folio/erm-usage': {},
     '@folio/finance' : {},
     '@folio/inventory' : {},
+    '@folio/invoice': {},
     '@folio/licenses': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
@@ -30,9 +32,11 @@ module.exports = {
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-organization': {},
+    '@folio/plugin-find-po-line': {},
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
+    '@folio/stripes-acq-components' : {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings' : {},
