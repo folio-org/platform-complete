@@ -186,6 +186,25 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@folio/acquisition-units@1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/acquisition-units/-/acquisition-units-1.0.0.tgz#211f4346a28f9e6f62d2e1850528226d08ad17f4"
+  dependencies:
+    lodash "^4.17.11"
+    moment "^2.22.2"
+    prop-types "^15.6.0"
+    query-string "^6.7.0"
+    react "^16.8.6"
+    react-dom "^16.5.1"
+    react-intl "^2.4.0"
+    react-redux "^5.0.7"
+    react-router-dom "^4.1.1"
+    react-router-prop-types "^1.0.4"
+    redux "^4.0.0"
+    redux-form "^7.4.2"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^1.8.0"
+
 "@folio/agreements@2.5.0", "@folio/agreements@^2.0.0":
   version "2.5.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-2.5.0.tgz#9017b5e4143eba5b648d52470e5d33f8b9ed1ab4"
@@ -340,9 +359,9 @@
     eslint-plugin-react "7.11.0"
     webpack "^4.0.0"
 
-"@folio/finance@1.5.0":
-  version "1.5.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-1.5.0.tgz#83d5c2345a7dc8e8c9531c35fed181b87e1df36e"
+"@folio/finance@1.6.0":
+  version "1.6.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-1.6.0.tgz#740062a332f1cb0af7bfba2ba9c03f5832dea16f"
   dependencies:
     lodash "^4.17.5"
     prop-types "^15.5.10"
@@ -350,7 +369,7 @@
     react-router-dom "^4.1.1"
     redux-form "^7.3.0"
 
-"@folio/inventory@1.10.1", "@folio/inventory@^1.4.0", "@folio/inventory@^1.8.0":
+"@folio/inventory@1.10.1", "@folio/inventory@^1.10.0", "@folio/inventory@^1.4.0", "@folio/inventory@^1.8.0":
   version "1.10.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.10.1.tgz#1711abf65fe0ccc3c212bf693a2b10c46df90a8d"
   dependencies:
@@ -363,6 +382,22 @@
     react-router "^4.0.0"
     react-router-dom "^4.0.0"
     redux-form "^7.0.3"
+
+"@folio/invoice@1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/invoice/-/invoice-1.0.0.tgz#ef793ff4d259c73bebab48da38bcca655e278555"
+  dependencies:
+    "@folio/stripes-acq-components" "^1.0.0"
+    lodash "^4.17.11"
+    moment "^2.22.2"
+    prop-types "^15.6.0"
+    query-string "^6.7.0"
+    react-intl "^2.4.0"
+    react-router-dom "^4.1.1"
+    react-router-prop-types "^1.0.4"
+    redux-form "^7.4.2"
+  optionalDependencies:
+    "@folio/plugin-find-po-line" "^1.0.0"
 
 "@folio/licenses@3.2.2":
   version "3.2.2"
@@ -394,7 +429,7 @@
     react-intl "^2.4.0"
     react-router-dom "^4.1.1"
 
-"@folio/orders@1.6.0":
+"@folio/orders@1.6.0", "@folio/orders@^1.5.0":
   version "1.6.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.6.0.tgz#e3bc8cf30fcbe4f803daafc68624e98283c6cb11"
   dependencies:
@@ -428,11 +463,21 @@
     "@folio/plugin-find-contact" "^1.1.0"
     "@folio/plugin-find-interface" "^1.0.0"
 
-"@folio/plugin-create-item@1.1.0", "@folio/plugin-create-item@^1.1.0":
+"@folio/plugin-create-item@1.1.0":
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.1.0.tgz#e29cec86d4a4432ff1b3a808ed838efff76cd762"
   dependencies:
     "@folio/inventory" "^1.8.0"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
+"@folio/plugin-create-item@^1.1.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.2.0.tgz#fd3f5b195fed4780384f0afddc893d28cafde3b2"
+  dependencies:
+    "@folio/inventory" "^1.10.0"
     classnames "^2.2.5"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -489,7 +534,18 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@1.8.0", "@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.7.0":
+"@folio/plugin-find-po-line@1.0.0", "@folio/plugin-find-po-line@^1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-1.0.0.tgz#5f9e327013e22c5c481dff29e458f6b7e0d92709"
+  dependencies:
+    "@folio/orders" "^1.5.0"
+    "@folio/stripes-acq-components" "^1.0.0"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
+"@folio/plugin-find-user@1.8.0", "@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.7.0", "@folio/plugin-find-user@^1.8.0":
   version "1.8.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.8.0.tgz#16ce7cca2fbaa5bc5f17a0576e02269d4febac19"
   dependencies:
@@ -558,7 +614,7 @@
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
 
-"@folio/stripes-acq-components@^1.0.0":
+"@folio/stripes-acq-components@1.0.0", "@folio/stripes-acq-components@^1.0.0":
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.0.0.tgz#3fae942298fc043b95b4fa3e4a249abc190a0c09"
   dependencies:
@@ -7187,8 +7243,8 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.25:
-  version "1.1.25"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.25.tgz#0c2d7dbc7fed30fbe02a9ee3007b8c90bf0133d3"
+  version "1.1.26"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.26.tgz#f30563edc5c7dc20cf524cc8652ffa7be0762937"
   dependencies:
     semver "^5.3.0"
 
@@ -8394,7 +8450,7 @@ query-string@^5.0.0, query-string@^5.1.0:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.1.0, query-string@^6.6.0:
+query-string@^6.1.0, query-string@^6.6.0, query-string@^6.7.0:
   version "6.8.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.8.1.tgz#62c54a7ef37d01b538c8fd56f95740c81d438a26"
   dependencies:
@@ -8582,7 +8638,7 @@ react-dom-factories@^1.0.0:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
 
-react-dom@^16.6.3, react-dom@^16.8.6, react-dom@~16.8.6:
+react-dom@^16.5.1, react-dom@^16.6.3, react-dom@^16.8.6, react-dom@~16.8.6:
   version "16.8.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   dependencies:
@@ -8726,7 +8782,7 @@ react-quill@^1.2.7, react-quill@^1.3.3:
     quill "^1.2.6"
     react-dom-factories "^1.0.0"
 
-react-redux@^5.0.2, react-redux@^5.1.1, react-redux@~5.1.1:
+react-redux@^5.0.2, react-redux@^5.0.7, react-redux@^5.1.1, react-redux@~5.1.1:
   version "5.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-5.1.1.tgz#88e368682c7fa80e34e055cd7ac56f5936b0f52f"
   dependencies:
@@ -9380,8 +9436,8 @@ semver-diff@^2.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
 
 semver@^6.0.0:
-  version "6.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-6.2.0.tgz#4d813d9590aaf8a9192693d6c85b9344de5901db"
+  version "6.3.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
 
 send@0.17.1:
   version "0.17.1"
