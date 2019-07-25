@@ -27,6 +27,7 @@ module.exports = {
     '@folio/plugin-create-item': {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-contact': {},
+    '@folio/plugin-find-erm-usage-data-provider': {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-interface' : {},
     '@folio/plugin-find-license': {},
