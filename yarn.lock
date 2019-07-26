@@ -811,8 +811,8 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0", "@folio/stripes-core@~3.7.0":
-  version "3.7.1000574"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.7.1000574.tgz#50fb54d020922c86c4d4c6e583d846000d5443b8"
+  version "3.7.1000575"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-3.7.1000575.tgz#bf69ea853d5505211d3779e775803126f03ae121"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.5.0"
@@ -891,6 +891,8 @@
     rxjs "^5.4.3"
     serialize-javascript "^1.4.0"
     style-loader "^0.22.1"
+    svgo "^1.2.2"
+    svgo-loader "^2.2.1"
     tapable "^1.0.0"
     typescript "^2.8.1"
     uuid "^3.0.0"
@@ -6709,7 +6711,7 @@ loader-utils@^0.2.16:
     json5 "^0.5.0"
     object-assign "^4.0.1"
 
-loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3:
+loader-utils@^1.0.2, loader-utils@^1.0.3, loader-utils@^1.1.0, loader-utils@^1.2.3:
   version "1.2.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
   dependencies:
@@ -10255,6 +10257,13 @@ supports-color@^6.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/supports-color/-/supports-color-6.1.0.tgz#0764abc69c63d5ac842dd4867e8d025e880df8f3"
   dependencies:
     has-flag "^3.0.0"
+
+svgo-loader@^2.2.1:
+  version "2.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/svgo-loader/-/svgo-loader-2.2.1.tgz#ca1c9ad22e120bb45a5250233737da4d85521704"
+  dependencies:
+    js-yaml "^3.13.1"
+    loader-utils "^1.0.3"
 
 svgo@^1.0.0, svgo@^1.2.2:
   version "1.3.0"
