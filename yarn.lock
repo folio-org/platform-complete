@@ -454,8 +454,8 @@
     redux-form "^7.3.0"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.10.0", "@folio/inventory@^1.4.0":
-  version "1.12.1000563"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000563.tgz#f439cf0a4a87c66afe3d129fb9431193db675678"
+  version "1.12.1000564"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.12.1000564.tgz#5537979342ce688fdf30eebd1c6496174f41f567"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     final-form "^4.18.2"
@@ -725,8 +725,8 @@
     redux-form "^7.4.2"
 
 "@folio/stripes-cli@^1.10.0":
-  version "1.13.1000196"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.13.1000196.tgz#25a19b7bfc5170ce91d534e1b2652e2629e46c53"
+  version "1.13.1000197"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-1.13.1000197.tgz#12185a827cb636cc7d92b4551d094a0ca15d1b93"
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.6.0"
@@ -735,6 +735,7 @@
     debug "^4.0.1"
     fast-xml-parser "^3.12.10"
     find-up "^2.1.0"
+    fs-extra "^8.1.0"
     get-stdin "^6.0.0"
     global-dirs "^0.1.1"
     http-server "^0.11.1"
@@ -742,6 +743,7 @@
     inquirer "^6.3.1"
     is-installed-globally "^0.1.0"
     is-path-inside "^1.0.1"
+    istanbul-reports "^2.2.6"
     just-kebab-case "^1.0.0"
     just-pascal-case "^1.0.0"
     karma "^3.0.0"
@@ -5099,6 +5101,14 @@ fs-extra@^3.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
+fs-extra@^8.1.0:
+  version "8.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-minipass@^1.2.5:
   version "1.2.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/fs-minipass/-/fs-minipass-1.2.6.tgz#2c5cc30ded81282bfe8a0d7c7c1853ddeb102c07"
@@ -5297,7 +5307,7 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0:
   version "4.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/graceful-fs/-/graceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
 
@@ -6318,7 +6328,7 @@ istanbul-reports@^1.4.1:
   dependencies:
     handlebars "^4.0.3"
 
-istanbul-reports@^2.2.4:
+istanbul-reports@^2.2.4, istanbul-reports@^2.2.6:
   version "2.2.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/istanbul-reports/-/istanbul-reports-2.2.6.tgz#7b4f2660d82b29303a8fe6091f8ca4bf058da1af"
   dependencies:
@@ -6463,6 +6473,12 @@ jsonfile@^2.1.0:
 jsonfile@^3.0.0:
   version "3.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/jsonfile/-/jsonfile-3.0.1.tgz#a5ecc6f65f53f662c4415c7675a0331d0992ec66"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
   optionalDependencies:
     graceful-fs "^4.1.6"
 
