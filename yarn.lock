@@ -471,8 +471,8 @@
     react-router-dom "^4.0.0"
 
 "@folio/invoice@>=1.0.0":
-  version "1.0.100060"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.0.100060.tgz#afc7898f74da1f304998f82b79b7209447325f6e"
+  version "1.0.100061"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.0.100061.tgz#e0578d7eea93c61026789c369155a2b79ffc9430"
   dependencies:
     "@folio/stripes-acq-components" "^1.0.0"
     lodash "^4.17.11"
@@ -550,8 +550,8 @@
     "@folio/plugin-find-user" "^1.7.0"
 
 "@folio/organizations@>=1.0.0", "@folio/organizations@^1.0.0", "@folio/organizations@^1.2.0":
-  version "1.3.1000103"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-1.3.1000103.tgz#14635e70ff5061349d942f70850525e95bfe59db"
+  version "1.3.1000104"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-1.3.1000104.tgz#3d8d54075c482232f1e039ca667b17e29d83a8ec"
   dependencies:
     "@folio/stripes-acq-components" "^1.0.0"
     lodash "^4.17.5"
@@ -1310,8 +1310,8 @@
     parchment "^1.1.2"
 
 "@types/react@*":
-  version "16.9.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.0.tgz#27434f16d889a335eb4626d1f1e67eda54039e5b"
+  version "16.9.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-16.9.1.tgz#862c83b4c9d5cd116e42fd9a4f3694843cd2c051"
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -6193,6 +6193,10 @@ is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
 
+is-wsl@^2.1.0:
+  version "2.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/is-wsl/-/is-wsl-2.1.0.tgz#94369bbeb2249ef07b831b1b08590e686330ccbb"
+
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -6590,8 +6594,10 @@ karma-coverage-istanbul-reporter@^2.0.3:
     minimatch "^3.0.4"
 
 karma-firefox-launcher@^1.1.0:
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/karma-firefox-launcher/-/karma-firefox-launcher-1.1.0.tgz#2c47030452f04531eb7d13d4fc7669630bb93339"
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/karma-firefox-launcher/-/karma-firefox-launcher-1.2.0.tgz#64fe03dd10300f9754d48f9ebfbf31f6c94a200c"
+  dependencies:
+    is-wsl "^2.1.0"
 
 karma-junit-reporter@^1.2.0:
   version "1.2.0"
