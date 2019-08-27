@@ -532,14 +532,16 @@
     "@folio/plugin-find-organization" "^1.2.0"
     "@folio/plugin-find-user" "^1.7.0"
 
-"@folio/organizations@1.3.0", "@folio/organizations@^1.0.0", "@folio/organizations@^1.2.0":
-  version "1.3.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.3.0.tgz#fc5f6bbf14e64dcc046948d54ab5fb5f92b660a5"
+"@folio/organizations@1.4.0", "@folio/organizations@^1.0.0", "@folio/organizations@^1.2.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.4.0.tgz#ac020344f30a08657b4789ef9886f5740972ce10"
   dependencies:
+    "@folio/stripes-acq-components" "^1.0.0"
     lodash "^4.17.5"
     moment-timezone "^0.5.20"
     prop-types "^15.5.10"
     query-string "^6.1.0"
+    react-router "^4.0.0"
     react-router-dom "^4.3.1"
     react-tether "^1.0.1"
     redux-form "^7.3.0"
@@ -654,7 +656,7 @@
     uncontrollable "^5.0.0"
     warning "^3.0.0"
 
-"@folio/react-intl-safe-html@^1.0.0", "@folio/react-intl-safe-html@^1.0.1", "@folio/react-intl-safe-html@^1.0.2":
+"@folio/react-intl-safe-html@^1.0.0", "@folio/react-intl-safe-html@^1.0.1", "@folio/react-intl-safe-html@^1.0.2", "@folio/react-intl-safe-html@^1.0.3":
   version "1.0.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/react-intl-safe-html/-/react-intl-safe-html-1.0.3.tgz#3080f7b0aa94d8d7744da7028a39138fd17a2815"
   dependencies:
@@ -697,12 +699,24 @@
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
 
-"@folio/stripes-acq-components@1.0.0", "@folio/stripes-acq-components@^1.0.0":
+"@folio/stripes-acq-components@1.0.0":
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.0.0.tgz#3fae942298fc043b95b4fa3e4a249abc190a0c09"
   dependencies:
     moment "^2.24.0"
     prop-types "^15.7.2"
+    react-intl "^2.9.0"
+    redux-form "^7.4.2"
+
+"@folio/stripes-acq-components@^1.0.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.1.0.tgz#ada7c1fc448efdfc9d063fbf74f0a01beba20099"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.3"
+    lodash "^4.17.11"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    react-dropzone "^9.0.0"
     react-intl "^2.9.0"
     redux-form "^7.4.2"
 
@@ -4236,8 +4250,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.191, electron-to-chromium@^1.3.47:
-  version "1.3.237"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.237.tgz#39c5d1da59d6fd16ff705b97e772bb3b5dfda7e4"
+  version "1.3.241"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.241.tgz#859dc49ab7f90773ed698767372d384190f60cb1"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -7193,8 +7207,8 @@ minimist@~0.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
 minipass@^2.2.1, minipass@^2.3.5:
-  version "2.3.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.3.5.tgz#cacebe492022497f656b0f0f51e2682a9ed2d848"
+  version "2.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/minipass/-/minipass-2.4.0.tgz#38f0af94f42fb6f34d3d7d82a90e2c99cd3ff485"
   dependencies:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
@@ -10011,8 +10025,8 @@ sourcemapped-stacktrace@^1.1.6:
     source-map "0.5.6"
 
 spawn-wrap@^1.4.2:
-  version "1.4.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/spawn-wrap/-/spawn-wrap-1.4.2.tgz#cff58e73a8224617b6561abdc32586ea0c82248c"
+  version "1.4.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/spawn-wrap/-/spawn-wrap-1.4.3.tgz#81b7670e170cca247d80bf5faf0cfb713bdcf848"
   dependencies:
     foreground-child "^1.5.6"
     mkdirp "^0.5.0"
@@ -10452,8 +10466,8 @@ terser-webpack-plugin@^1.4.1:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.2.0.tgz#4b1b5f4424b426a7a47e80d6aae45e0d7979aef0"
+  version "4.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.2.1.tgz#1052cfe17576c66e7bc70fcc7119f22b155bdac1"
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
