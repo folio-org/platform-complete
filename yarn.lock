@@ -422,7 +422,7 @@
     redux-actions "^2.2.1"
     redux-observable "^0.15.0"
 
-"@folio/erm-usage@2.3.0", "@folio/erm-usage@^2.3.0":
+"@folio/erm-usage@2.3.0":
   version "2.3.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/erm-usage/-/erm-usage-2.3.0.tgz#0b14adcb25a3ad640b4a0ebb3ade8595d3cd3ca6"
   dependencies:
@@ -432,6 +432,20 @@
     react-dropzone "^9.0.0"
     react-intl "^2.5.0"
     react-router-dom "^4.1.1"
+    redux-form "^7.0.3"
+
+"@folio/erm-usage@^2.3.0":
+  version "2.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/erm-usage/-/erm-usage-2.4.0.tgz#76ae4e488bf78b8a75788aeea4e1d03de20c908b"
+  dependencies:
+    file-saver "^2.0.0"
+    lodash "^4.17.4"
+    moment "^2.24.0"
+    prop-types "^15.6.0"
+    react-dropzone "^9.0.0"
+    react-intl "^2.5.0"
+    react-router-dom "^4.1.1"
+    react-router-prop-types "^1.0.4"
     redux-form "^7.0.3"
 
 "@folio/eslint-config-stripes@^3.2.1":
@@ -486,14 +500,18 @@
   optionalDependencies:
     "@folio/plugin-find-po-line" "^1.0.0"
 
-"@folio/licenses@3.4.0":
-  version "3.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/licenses/-/licenses-3.4.0.tgz#3fb0eeb8800d4c0e30f4c5441575c1c75fcf065a"
+"@folio/licenses@3.5.0":
+  version "3.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/licenses/-/licenses-3.5.0.tgz#717704c19a6ab4a5d4378d61f2590a96b260162c"
   dependencies:
     "@folio/stripes-erm-components" "^1.6.0"
     compose-function "^3.0.3"
+    final-form "^4.18.4"
+    final-form-arrays "^3.0.1"
     lodash "^4.17.11"
     prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
     react-intl "^2.4.0"
     react-router-dom "^4.1.1"
     react-router-prop-types "^1.0.4"
@@ -5039,7 +5057,7 @@ final-form-focus@^1.1.0, final-form-focus@^1.1.2:
   version "1.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-focus/-/final-form-focus-1.1.2.tgz#8ea5c4bd802e220cebaa47a587bb0be164eb6806"
 
-final-form@^4.10.0, final-form@^4.18.2:
+final-form@^4.10.0, final-form@^4.18.2, final-form@^4.18.4:
   version "4.18.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.18.5.tgz#e359cfaf2892ef135d92fcf22e06b475dda3a885"
   dependencies:
