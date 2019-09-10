@@ -291,9 +291,9 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.8.0"
 
-"@folio/agreements@3.2.2":
-  version "3.2.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-3.2.2.tgz#35ae8782cebb8dc17642a4263bc6b37c7b2f2282"
+"@folio/agreements@3.2.3":
+  version "3.2.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-3.2.3.tgz#8d9884aa2a1557c7afaef35782eb16ebcd0c2814"
   dependencies:
     "@folio/stripes-erm-components" "^1.7.0"
     compose-function "^3.0.3"
@@ -1049,9 +1049,20 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-erm-components@1.7.1", "@folio/stripes-erm-components@^1.4.0", "@folio/stripes-erm-components@^1.6.0", "@folio/stripes-erm-components@^1.7.0":
+"@folio/stripes-erm-components@1.7.1":
   version "1.7.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.7.1.tgz#1959c4998abc78913cc9b31ff49db8b18d061ace"
+  dependencies:
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+    react-dropzone "^10.0.0"
+    react-intl "^2.4.0"
+    react-router-dom "^4.1.1"
+    redux-form "^7.0.3"
+
+"@folio/stripes-erm-components@^1.4.0", "@folio/stripes-erm-components@^1.6.0", "@folio/stripes-erm-components@^1.7.0":
+  version "1.7.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.7.2.tgz#f12e3d179dcb4cd698c5370d507535c88e178fce"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
