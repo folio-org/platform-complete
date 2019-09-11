@@ -523,7 +523,7 @@
     react-intl "^2.9.0"
     react-router-dom "^4.1.1"
 
-"@folio/orders@1.6.0", "@folio/orders@^1.5.0":
+"@folio/orders@1.6.0", "@folio/orders@^1.5.0", "@folio/orders@^1.6.0":
   version "1.6.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.6.0.tgz#e3bc8cf30fcbe4f803daafc68624e98283c6cb11"
   dependencies:
@@ -542,7 +542,7 @@
     "@folio/plugin-find-organization" "^1.2.0"
     "@folio/plugin-find-user" "^1.7.0"
 
-"@folio/organizations@1.4.0", "@folio/organizations@^1.0.0", "@folio/organizations@^1.2.0":
+"@folio/organizations@1.4.0":
   version "1.4.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.4.0.tgz#ac020344f30a08657b4789ef9886f5740972ce10"
   dependencies:
@@ -559,9 +559,36 @@
     "@folio/plugin-find-contact" "^1.1.0"
     "@folio/plugin-find-interface" "^1.0.0"
 
-"@folio/plugin-create-item@1.2.0", "@folio/plugin-create-item@^1.1.0":
+"@folio/organizations@^1.0.0", "@folio/organizations@^1.2.0", "@folio/organizations@^1.4.0":
+  version "1.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.5.0.tgz#8ef88b763d9a21e5247a53ebd89d8bf4b4c3cb7d"
+  dependencies:
+    "@folio/stripes-acq-components" "^1.0.0"
+    lodash "^4.17.5"
+    moment-timezone "^0.5.20"
+    prop-types "^15.5.10"
+    query-string "^6.1.0"
+    react-router "^4.0.0"
+    react-router-dom "^4.3.1"
+    react-tether "^1.0.1"
+    redux-form "^7.3.0"
+  optionalDependencies:
+    "@folio/plugin-find-contact" "^1.1.0"
+    "@folio/plugin-find-interface" "^1.0.0"
+
+"@folio/plugin-create-item@1.2.0":
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.2.0.tgz#fd3f5b195fed4780384f0afddc893d28cafde3b2"
+  dependencies:
+    "@folio/inventory" "^1.10.0"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
+"@folio/plugin-create-item@^1.1.0":
+  version "1.3.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.3.1.tgz#f7f9ec7fbff94af4179c3ccf7bd4a240b3f1f231"
   dependencies:
     "@folio/inventory" "^1.10.0"
     classnames "^2.2.5"
@@ -578,12 +605,22 @@
     prop-types "^15.6.0"
     react-intl "^2.4.0"
 
-"@folio/plugin-find-contact@1.2.0", "@folio/plugin-find-contact@^1.1.0":
+"@folio/plugin-find-contact@1.2.0":
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-contact/-/plugin-find-contact-1.2.0.tgz#59ac5ba941b1208eb41230e5e03015001c7544f4"
   dependencies:
     "@folio/organizations" "^1.0.0"
     classnames "^2.2.5"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
+"@folio/plugin-find-contact@^1.1.0":
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-contact/-/plugin-find-contact-1.3.0.tgz#b32300cffc9d3dfd9783dbd8e5a82b2f30d6e17f"
+  dependencies:
+    "@folio/organizations" "^1.4.0"
+    "@folio/stripes-acq-components" "^1.1.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
     react-intl "^2.8.0"
@@ -604,12 +641,12 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-interface@1.1.0", "@folio/plugin-find-interface@^1.0.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-interface/-/plugin-find-interface-1.1.0.tgz#8f5c0c6979d0d5712cc45600c35ea22223cab4d3"
+"@folio/plugin-find-interface@1.2.0", "@folio/plugin-find-interface@^1.0.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-interface/-/plugin-find-interface-1.2.0.tgz#109338c97fb9849f6972ea1c80d7ccb498f0bb9b"
   dependencies:
-    "@folio/organizations" "^1.0.0"
-    classnames "^2.2.5"
+    "@folio/organizations" "^1.4.0"
+    "@folio/stripes-acq-components" "^1.1.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
     react-intl "^2.8.0"
@@ -621,7 +658,7 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-organization@1.3.0", "@folio/plugin-find-organization@^1.2.0":
+"@folio/plugin-find-organization@1.3.0":
   version "1.3.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.3.0.tgz#221e4a4ac5e0bf62e2d7eef79745693b62187178"
   dependencies:
@@ -629,7 +666,15 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-po-line@1.0.0", "@folio/plugin-find-po-line@^1.0.0":
+"@folio/plugin-find-organization@^1.2.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.4.0.tgz#b6a59dbb370c931b21dca2eb3bbb2a223b64be6a"
+  dependencies:
+    "@folio/organizations" "^1.2.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-po-line@1.0.0":
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-1.0.0.tgz#5f9e327013e22c5c481dff29e458f6b7e0d92709"
   dependencies:
@@ -640,9 +685,28 @@
     prop-types "^15.6.0"
     react-intl "^2.8.0"
 
-"@folio/plugin-find-user@1.8.0", "@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.7.0", "@folio/plugin-find-user@^1.8.0":
+"@folio/plugin-find-po-line@^1.0.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-1.1.0.tgz#22abbcaf63c507ba9aeb4792dc90ee0bed18014f"
+  dependencies:
+    "@folio/orders" "^1.6.0"
+    "@folio/stripes-acq-components" "^1.1.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    react-intl "^2.8.0"
+
+"@folio/plugin-find-user@1.8.0":
   version "1.8.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.8.0.tgz#16ce7cca2fbaa5bc5f17a0576e02269d4febac19"
+  dependencies:
+    classnames "^2.2.5"
+    dom-helpers "^3.4.0"
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.7.0", "@folio/plugin-find-user@^1.8.0":
+  version "1.9.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.9.0.tgz#ce741d4698615cb605ee9003100bfea0652d5fe9"
   dependencies:
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -709,7 +773,7 @@
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
 
-"@folio/stripes-acq-components@1.1.0", "@folio/stripes-acq-components@^1.0.0":
+"@folio/stripes-acq-components@1.1.0":
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.1.0.tgz#ada7c1fc448efdfc9d063fbf74f0a01beba20099"
   dependencies:
@@ -721,9 +785,22 @@
     react-intl "^2.9.0"
     redux-form "^7.4.2"
 
+"@folio/stripes-acq-components@^1.0.0", "@folio/stripes-acq-components@^1.1.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.2.0.tgz#956c328a916db5403e8242f4acc55df6cae1bbbd"
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.3"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    react-dropzone "^9.0.0"
+    react-intl "^2.9.0"
+    redux-form "^7.4.2"
+
 "@folio/stripes-cli@^1.10.0":
-  version "1.13.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-cli/-/stripes-cli-1.13.0.tgz#99f8b77e81c72535e96623c7bd8b6ecaf7eacc13"
+  version "1.14.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-cli/-/stripes-cli-1.14.0.tgz#4a6cff5c3047724162936d0a032cd915c48f9883"
   dependencies:
     "@folio/stripes-core" "^2.17.1 || ^3.0.0"
     "@folio/stripes-testing" "^1.6.0"
@@ -732,6 +809,7 @@
     debug "^4.0.1"
     fast-xml-parser "^3.12.10"
     find-up "^2.1.0"
+    fs-extra "^8.1.0"
     get-stdin "^6.0.0"
     global-dirs "^0.1.1"
     http-server "^0.11.1"
@@ -739,6 +817,7 @@
     inquirer "^6.3.1"
     is-installed-globally "^0.1.0"
     is-path-inside "^1.0.1"
+    istanbul-reports "^2.2.6"
     just-kebab-case "^1.0.0"
     just-pascal-case "^1.0.0"
     karma "^3.0.0"
@@ -1289,12 +1368,12 @@
     core-js "^2.5.7"
 
 "@types/node@>=6":
-  version "12.7.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.4.tgz#64db61e0359eb5a8d99b55e05c729f130a678b04"
+  version "12.7.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-12.7.5.tgz#e19436e7f8e9b4601005d73673b6dc4784ffcc2f"
 
 "@types/node@^8.0.24":
-  version "8.10.53"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-8.10.53.tgz#5fa08eef810b08b2c03073e360b54f7bad899db1"
+  version "8.10.54"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-8.10.54.tgz#1c88eb253ac1210f1a5876953fb70f7cc4928402"
 
 "@types/prop-types@*", "@types/prop-types@^15.5.3":
   version "15.7.2"
@@ -4162,8 +4241,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.254"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.254.tgz#af9795b9b2af0729997331a033ddc767af758224"
+  version "1.3.255"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.255.tgz#9f4b4f9ffd559dd7a81fef962186fc918d118b66"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -5122,6 +5201,14 @@ fs-extra@^3.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
+fs-extra@^8.1.0:
+  version "8.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-minipass@^1.2.5:
   version "1.2.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/fs-minipass/-/fs-minipass-1.2.6.tgz#2c5cc30ded81282bfe8a0d7c7c1853ddeb102c07"
@@ -5320,7 +5407,7 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0:
   version "4.2.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/graceful-fs/-/graceful-fs-4.2.2.tgz#6f0952605d0140c1cfdb138ed005775b92d67b02"
 
@@ -6328,7 +6415,7 @@ istanbul-reports@^1.4.1:
   dependencies:
     handlebars "^4.0.3"
 
-istanbul-reports@^2.2.4:
+istanbul-reports@^2.2.4, istanbul-reports@^2.2.6:
   version "2.2.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/istanbul-reports/-/istanbul-reports-2.2.6.tgz#7b4f2660d82b29303a8fe6091f8ca4bf058da1af"
   dependencies:
@@ -6473,6 +6560,12 @@ jsonfile@^2.1.0:
 jsonfile@^3.0.0:
   version "3.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/jsonfile/-/jsonfile-3.0.1.tgz#a5ecc6f65f53f662c4415c7675a0331d0992ec66"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
   optionalDependencies:
     graceful-fs "^4.1.6"
 
