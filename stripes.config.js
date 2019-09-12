@@ -20,6 +20,7 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/invoice': {},
     '@folio/licenses': {},
+    '@folio/local-kb-admin': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/orders': {},
