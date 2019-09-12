@@ -272,16 +272,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@folio/acquisition-units@1.0.0":
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/acquisition-units/-/acquisition-units-1.0.0.tgz#211f4346a28f9e6f62d2e1850528226d08ad17f4"
+"@folio/acquisition-units@1.1.0":
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/acquisition-units/-/acquisition-units-1.1.0.tgz#5ff9140cfb04549adb3035d5cab9daca8ae397ea"
   dependencies:
     lodash "^4.17.11"
     moment "^2.22.2"
     prop-types "^15.6.0"
     query-string "^6.7.0"
-    react "^16.8.6"
-    react-dom "^16.5.1"
     react-intl "^2.4.0"
     react-redux "^5.0.7"
     react-router-dom "^4.1.1"
@@ -289,11 +287,11 @@
     redux "^4.0.0"
     redux-form "^7.4.2"
   optionalDependencies:
-    "@folio/plugin-find-user" "^1.8.0"
+    "@folio/plugin-find-user" "^1.9.0"
 
-"@folio/agreements@3.2.2":
-  version "3.2.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-3.2.2.tgz#35ae8782cebb8dc17642a4263bc6b37c7b2f2282"
+"@folio/agreements@3.2.3":
+  version "3.2.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-3.2.3.tgz#8d9884aa2a1557c7afaef35782eb16ebcd0c2814"
   dependencies:
     "@folio/stripes-erm-components" "^1.7.0"
     compose-function "^3.0.3"
@@ -372,9 +370,9 @@
     react-to-print "^1.0.21"
     redux-form "^7.0.3"
 
-"@folio/data-import@1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-1.4.0.tgz#1636fd1d4e2b62188e46972183e8e58aaea876ae"
+"@folio/data-import@1.5.0":
+  version "1.5.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-1.5.0.tgz#db473abc7423a616316d01ae4a8cc1980e855465"
   dependencies:
     classnames "^2.2.5"
     lodash "^4.16.4"
@@ -515,15 +513,15 @@
     react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
-"@folio/notes@1.2.0":
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/notes/-/notes-1.2.0.tgz#06f495c9926a8ecda5eb894b91ff2c7d02327a4f"
+"@folio/notes@1.3.0":
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/notes/-/notes-1.3.0.tgz#2293b750802c51a3cb4caf8d62b5f604a085f879"
   dependencies:
     prop-types "^15.6.0"
     react-intl "^2.9.0"
     react-router-dom "^4.1.1"
 
-"@folio/orders@1.7.0", "@folio/orders@^1.5.0", "@folio/orders@^1.6.0":
+"@folio/orders@1.7.0", "@folio/orders@^1.6.0":
   version "1.7.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-1.7.0.tgz#0d4c919122dff822cec542d9102d6db05fa82a89"
   dependencies:
@@ -542,24 +540,7 @@
     "@folio/plugin-find-organization" "^1.4.0"
     "@folio/plugin-find-user" "^1.9.0"
 
-"@folio/organizations@1.4.0":
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.4.0.tgz#ac020344f30a08657b4789ef9886f5740972ce10"
-  dependencies:
-    "@folio/stripes-acq-components" "^1.0.0"
-    lodash "^4.17.5"
-    moment-timezone "^0.5.20"
-    prop-types "^15.5.10"
-    query-string "^6.1.0"
-    react-router "^4.0.0"
-    react-router-dom "^4.3.1"
-    react-tether "^1.0.1"
-    redux-form "^7.3.0"
-  optionalDependencies:
-    "@folio/plugin-find-contact" "^1.1.0"
-    "@folio/plugin-find-interface" "^1.0.0"
-
-"@folio/organizations@^1.0.0", "@folio/organizations@^1.2.0", "@folio/organizations@^1.4.0":
+"@folio/organizations@1.5.0", "@folio/organizations@^1.2.0", "@folio/organizations@^1.4.0":
   version "1.5.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/organizations/-/organizations-1.5.0.tgz#8ef88b763d9a21e5247a53ebd89d8bf4b4c3cb7d"
   dependencies:
@@ -576,17 +557,7 @@
     "@folio/plugin-find-contact" "^1.1.0"
     "@folio/plugin-find-interface" "^1.0.0"
 
-"@folio/plugin-create-item@1.2.0":
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.2.0.tgz#fd3f5b195fed4780384f0afddc893d28cafde3b2"
-  dependencies:
-    "@folio/inventory" "^1.10.0"
-    classnames "^2.2.5"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    react-intl "^2.8.0"
-
-"@folio/plugin-create-item@^1.3.1":
+"@folio/plugin-create-item@1.3.1", "@folio/plugin-create-item@^1.3.1":
   version "1.3.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-1.3.1.tgz#f7f9ec7fbff94af4179c3ccf7bd4a240b3f1f231"
   dependencies:
@@ -605,17 +576,7 @@
     prop-types "^15.6.0"
     react-intl "^2.4.0"
 
-"@folio/plugin-find-contact@1.2.0":
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-contact/-/plugin-find-contact-1.2.0.tgz#59ac5ba941b1208eb41230e5e03015001c7544f4"
-  dependencies:
-    "@folio/organizations" "^1.0.0"
-    classnames "^2.2.5"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    react-intl "^2.8.0"
-
-"@folio/plugin-find-contact@^1.1.0":
+"@folio/plugin-find-contact@1.3.0", "@folio/plugin-find-contact@^1.1.0":
   version "1.3.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-contact/-/plugin-find-contact-1.3.0.tgz#b32300cffc9d3dfd9783dbd8e5a82b2f30d6e17f"
   dependencies:
@@ -642,17 +603,7 @@
     prop-types "^15.6.0"
     react-intl "^2.8.0"
 
-"@folio/plugin-find-interface@1.1.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-interface/-/plugin-find-interface-1.1.0.tgz#8f5c0c6979d0d5712cc45600c35ea22223cab4d3"
-  dependencies:
-    "@folio/organizations" "^1.0.0"
-    classnames "^2.2.5"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    react-intl "^2.8.0"
-
-"@folio/plugin-find-interface@^1.0.0":
+"@folio/plugin-find-interface@1.2.0", "@folio/plugin-find-interface@^1.0.0":
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-interface/-/plugin-find-interface-1.2.0.tgz#109338c97fb9849f6972ea1c80d7ccb498f0bb9b"
   dependencies:
@@ -669,15 +620,7 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-organization@1.3.0":
-  version "1.3.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.3.0.tgz#221e4a4ac5e0bf62e2d7eef79745693b62187178"
-  dependencies:
-    "@folio/organizations" "^1.2.0"
-    classnames "^2.2.5"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-organization@^1.4.0":
+"@folio/plugin-find-organization@1.4.0", "@folio/plugin-find-organization@^1.4.0":
   version "1.4.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-organization/-/plugin-find-organization-1.4.0.tgz#b6a59dbb370c931b21dca2eb3bbb2a223b64be6a"
   dependencies:
@@ -685,18 +628,7 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-po-line@1.0.0":
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-1.0.0.tgz#5f9e327013e22c5c481dff29e458f6b7e0d92709"
-  dependencies:
-    "@folio/orders" "^1.5.0"
-    "@folio/stripes-acq-components" "^1.0.0"
-    classnames "^2.2.5"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    react-intl "^2.8.0"
-
-"@folio/plugin-find-po-line@^1.0.0":
+"@folio/plugin-find-po-line@1.1.0", "@folio/plugin-find-po-line@^1.0.0":
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-1.1.0.tgz#22abbcaf63c507ba9aeb4792dc90ee0bed18014f"
   dependencies:
@@ -706,16 +638,7 @@
     prop-types "^15.6.0"
     react-intl "^2.8.0"
 
-"@folio/plugin-find-user@1.8.0":
-  version "1.8.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.8.0.tgz#16ce7cca2fbaa5bc5f17a0576e02269d4febac19"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.8.0", "@folio/plugin-find-user@^1.9.0":
+"@folio/plugin-find-user@1.9.0", "@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.9.0":
   version "1.9.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-1.9.0.tgz#ce741d4698615cb605ee9003100bfea0652d5fe9"
   dependencies:
@@ -784,19 +707,7 @@
     prop-types "^15.6.0"
     react-router-dom "^4.1.1"
 
-"@folio/stripes-acq-components@1.1.0":
-  version "1.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.1.0.tgz#ada7c1fc448efdfc9d063fbf74f0a01beba20099"
-  dependencies:
-    "@folio/react-intl-safe-html" "^1.0.3"
-    lodash "^4.17.11"
-    moment "^2.24.0"
-    prop-types "^15.7.2"
-    react-dropzone "^9.0.0"
-    react-intl "^2.9.0"
-    redux-form "^7.4.2"
-
-"@folio/stripes-acq-components@^1.0.0", "@folio/stripes-acq-components@^1.1.0", "@folio/stripes-acq-components@^1.2.0":
+"@folio/stripes-acq-components@1.2.0", "@folio/stripes-acq-components@^1.0.0", "@folio/stripes-acq-components@^1.1.0", "@folio/stripes-acq-components@^1.2.0":
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-1.2.0.tgz#956c328a916db5403e8242f4acc55df6cae1bbbd"
   dependencies:
@@ -992,18 +903,7 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-erm-components@1.7.1":
-  version "1.7.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.7.1.tgz#1959c4998abc78913cc9b31ff49db8b18d061ace"
-  dependencies:
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-    react-dropzone "^10.0.0"
-    react-intl "^2.4.0"
-    react-router-dom "^4.1.1"
-    redux-form "^7.0.3"
-
-"@folio/stripes-erm-components@^1.4.0", "@folio/stripes-erm-components@^1.6.0", "@folio/stripes-erm-components@^1.7.0":
+"@folio/stripes-erm-components@1.7.2", "@folio/stripes-erm-components@^1.4.0", "@folio/stripes-erm-components@^1.6.0", "@folio/stripes-erm-components@^1.7.0":
   version "1.7.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.7.2.tgz#f12e3d179dcb4cd698c5370d507535c88e178fce"
   dependencies:
@@ -8920,7 +8820,7 @@ react-dom-factories@^1.0.0:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
 
-react-dom@^16.5.1, react-dom@^16.6.3:
+react-dom@^16.6.3:
   version "16.9.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   dependencies:
@@ -9195,7 +9095,7 @@ react-virtualized-auto-sizer@^1.0.2:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.2.tgz#a61dd4f756458bbf63bd895a92379f9b70f803bd"
 
-react@^16.2.0, react@^16.6.3, react@^16.8.6:
+react@^16.2.0, react@^16.6.3:
   version "16.9.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   dependencies:
