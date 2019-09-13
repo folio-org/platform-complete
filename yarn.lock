@@ -354,9 +354,9 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^1.1.0"
 
-"@folio/circulation@1.10.0":
-  version "1.10.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-1.10.0.tgz#1084586c196b3201d270a34175c045961ead85bd"
+"@folio/circulation@1.11.0":
+  version "1.11.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation/-/circulation-1.11.0.tgz#657cc4fb2d4f258d42a118ccbe93d45775cc0b68"
   dependencies:
     html-to-react "^1.3.3"
     isomorphic-fetch "^2.2.1"
@@ -456,21 +456,7 @@
     react-router-dom "^4.1.1"
     redux-form "^7.3.0"
 
-"@folio/inventory@1.11.1":
-  version "1.11.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.11.1.tgz#3ed2bfa56c56af5d1ceebcbe5f6b612ae5ef9701"
-  dependencies:
-    "@folio/react-intl-safe-html" "^1.0.2"
-    lodash "^4.17.4"
-    prop-types "^15.5.10"
-    query-string "^5.0.0"
-    react-hot-loader "^4.3.12"
-    react-intl "^2.3.0"
-    react-router "^4.0.0"
-    react-router-dom "^4.0.0"
-    redux-form "^7.0.3"
-
-"@folio/inventory@^1.10.0":
+"@folio/inventory@1.12.0", "@folio/inventory@^1.10.0":
   version "1.12.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-1.12.0.tgz#1de1657df154986bebaa7539fc3fe81f19c32cc5"
   dependencies:
@@ -520,6 +506,23 @@
     react-intl "^2.4.0"
     react-router-dom "^4.1.1"
     react-router-prop-types "^1.0.4"
+    redux-form "^7.0.3"
+
+"@folio/local-kb-admin@1.1.1":
+  version "1.1.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/local-kb-admin/-/local-kb-admin-1.1.1.tgz#79f77694e4db156e3811f247bf27577f6dad7875"
+  dependencies:
+    "@folio/stripes-erm-components" "^1.4.0"
+    compose-function "^3.0.3"
+    final-form "^4.18.5"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    query-string "^6.6.0"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.1"
+    react-intl "^2.4.0"
+    react-router-dom "^4.1.1"
     redux-form "^7.0.3"
 
 "@folio/myprofile@1.7.0":
@@ -1042,9 +1045,9 @@
     react-intl "^2.7.2"
     redux-form "^7.0.3"
 
-"@folio/tenant-settings@2.12.0":
-  version "2.12.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/tenant-settings/-/tenant-settings-2.12.0.tgz#1c1a0ad0e7d966d68822aecffa077b35fb568397"
+"@folio/tenant-settings@2.13.0":
+  version "2.13.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/tenant-settings/-/tenant-settings-2.13.0.tgz#5c1e37ca92909d10f839862a43bd6ffe1686f81b"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.1"
     lodash "^4.17.4"
@@ -4178,8 +4181,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.47:
-  version "1.3.256"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.256.tgz#7f680d5f04df8e2bd9cb9758026d70f5ff1808a9"
+  version "1.3.257"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.257.tgz#35da0ad5833b27184c8298804c498a4d2f4ed27d"
 
 electron@^2.0.18:
   version "2.0.18"
@@ -4937,7 +4940,7 @@ final-form-focus@^1.1.0, final-form-focus@^1.1.2:
   version "1.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-focus/-/final-form-focus-1.1.2.tgz#8ea5c4bd802e220cebaa47a587bb0be164eb6806"
 
-final-form@^4.10.0, final-form@^4.18.2, final-form@^4.18.4:
+final-form@^4.10.0, final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5:
   version "4.18.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.18.5.tgz#e359cfaf2892ef135d92fcf22e06b475dda3a885"
   dependencies:
@@ -5506,8 +5509,8 @@ hex-color-regex@^1.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
 
 history@^4.6.3, history@^4.7.2:
-  version "4.10.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/history/-/history-4.10.0.tgz#68301fedd6d3484e4a6adbc957551d6d238d4cb2"
+  version "4.10.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/history/-/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
   dependencies:
     "@babel/runtime" "^7.1.2"
     loose-envify "^1.2.0"
@@ -7168,8 +7171,8 @@ minipass@^2.2.1, minipass@^2.3.5:
     yallist "^3.0.0"
 
 minizlib@^1.2.1:
-  version "1.2.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/minizlib/-/minizlib-1.2.1.tgz#dd27ea6136243c7c880684e8672bb3a45fd9b614"
+  version "1.2.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/minizlib/-/minizlib-1.2.2.tgz#6f0ccc82fa53e1bf2ff145f220d2da9fa6e3a166"
   dependencies:
     minipass "^2.2.1"
 
@@ -8901,7 +8904,7 @@ react-final-form-arrays@^1.1.0:
   dependencies:
     react-lifecycles-compat "^3.0.4"
 
-react-final-form-arrays@^3.1.0:
+react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.1:
   version "3.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form-arrays/-/react-final-form-arrays-3.1.1.tgz#39d23e7ede966e418cad209e8fde46da1d603e99"
   dependencies:
@@ -11048,8 +11051,8 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.0.0, webpack@^4.10.2:
-  version "4.39.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.39.3.tgz#a02179d1032156b713b6ec2da7e0df9d037def50"
+  version "4.40.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.40.1.tgz#26ec01fc9ee7ea5ab5ec1d4ab95cb185ac20c116"
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
