@@ -438,11 +438,12 @@
     redux-form "^7.4.2"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.10.0":
-  version "1.13.1000730"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000730.tgz#1ddbeed7988794bfa15617e0c10060a8eb8b1b86"
-  integrity sha512-pK54c+JZjYK9098AoMMh/4jd6EKP2SNUSGhkIKiRovhSf7BOlIWjIwkR8tDFsweuSHjm6RkNrcR5+3Zn/ccctw==
+  version "1.13.1000731"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000731.tgz#ae10987bb34dc00a74d839926cbb5f6881d282af"
+  integrity sha512-OLmaB8rQK2opwTDMGbXq694u8PN4SYhnJfMHFKQplUCyTjAMQQ/HnaEkOuNMRt6PmNwi3OIJr62kIJAHLTl/vg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
+    "@folio/stripes-util" "^1.6.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     lodash "^4.17.4"
@@ -1047,6 +1048,16 @@
     debug "^4.0.1"
     minimist "^1.2.0"
     nightmare "^3.0.2"
+
+"@folio/stripes-util@^1.6.0":
+  version "1.6.100021"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.100021.tgz#92caa1e92167d9acc4e63ea5faeb16b2fc99b2a2"
+  integrity sha512-KxX35wbcC6zI/QzYNTdTd+A1fHpwOWaeAmP92TYmv7IYOIsaWX09NdXiIQSyj3kfkrVrnl11sVUvBH14aVjBGw==
+  dependencies:
+    json2csv "^4.2.1"
+    lodash "^4.17.4"
+    query-string "^5.0.0"
+    react-intl "^2.4.0"
 
 "@folio/stripes-util@~1.5.0":
   version "1.5.100019"
