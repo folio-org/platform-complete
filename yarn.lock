@@ -329,12 +329,15 @@
     redux-form "^7.0.3"
 
 "@folio/courses@>=1.0.0":
-  version "1.0.100041"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-1.0.100041.tgz#3a902769f10e994042b60cc346cd05249c994c6c"
-  integrity sha512-PIAXY1+Bx8mHDxefRJe6dP7n8awD2ENYOi/fALBV6QpKl2GOePt4RlnTZpj6vZLrQBShOuFyHBNKjhAKU9qdRQ==
+  version "1.0.100042"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-1.0.100042.tgz#82412d062ae0f8ad3899a793079714f30df0d1d4"
+  integrity sha512-egY1XLWnRdzSuzHhr6Ax3zQl9iY17xMwyvwwG2FFTJhOFGWrXPX+lgAr8CC9Fs3G282B6xtvPsH/Xt3+79QnnQ==
   dependencies:
     "@folio/stripes-components" "^5.9.1000914"
+    "@folio/stripes-util" "^1.6.100024"
+    final-form-set-field-data "^1.0.2"
     lodash "^4.17.15"
+    react-final-form "^6.3.3"
 
 "@folio/data-import@>=0.0.0":
   version "1.7.1000306"
@@ -439,9 +442,9 @@
     redux-form "^7.4.2"
 
 "@folio/inventory@>=1.4.0", "@folio/inventory@^1.10.0":
-  version "1.13.1000736"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000736.tgz#50ab7f9962e0fc52718d33f17a14f129da67fd1d"
-  integrity sha512-A55N27qP/ApjkhWxGbefZ61fUd0qcIAwYhLujLnDTgrLUFAycGzcGwV5EHliN5CUoZxgLobK0jEpDY63KdjzHw==
+  version "1.13.1000737"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-1.13.1000737.tgz#9c062c2a19f6148be83b89e73c3562728c8fa334"
+  integrity sha512-uftZoiHleugPfiu/vFtCLXtN0abvZYppEJwlz2d6I8fPlPlI4fV5mLKkzH/HjNXMrJAFVLc0ZicMVMEkxhShJA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-util" "^1.6.0"
@@ -812,9 +815,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@^5.9.1000914", "@folio/stripes-components@~5.9.0":
-  version "5.9.1000925"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000925.tgz#63dd602594866d4d8a33ae483422acf80ca09ed6"
-  integrity sha512-FXP3ZDlPqo5CnSdvjQkJNN9T1sCRHUPcxWGvpqzOU3rr6odkNvCvzODX/2Bg63KOyR68zPNTU/9HGhicZiav1g==
+  version "5.9.1000926"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-5.9.1000926.tgz#d232f9707dfde9decbd3075a7031acd221a3486d"
+  integrity sha512-bWUnZ4ZqpbbaaORz4il8mf+qoiVIkbf3zaaXH4caD8ioPSxkiabNbgSrzcf5H8/2BHob4KR6dBIqwsdFtQdnIQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^2.0.0"
     classnames "^2.2.5"
@@ -1050,10 +1053,10 @@
     minimist "^1.2.0"
     nightmare "^3.0.2"
 
-"@folio/stripes-util@^1.6.0", "@folio/stripes-util@~1.6.1":
-  version "1.6.100024"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.100024.tgz#6aa7f67c14d4daf86756dff8948a17c558cb8376"
-  integrity sha512-ABQfggXsR2E1Jky65P+dOe4KHzHkWBNExXUN68FfXRiJBlR4pPwAFgU25dHzl//gjIuVzE3iW64pPPZXyWMdgA==
+"@folio/stripes-util@^1.6.0", "@folio/stripes-util@^1.6.100024", "@folio/stripes-util@~1.6.1":
+  version "1.6.100025"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-1.6.100025.tgz#b35b7851b78d40f12f418ce783e8382464430e7f"
+  integrity sha512-S0P5ZHo67D69S+c8XaF730W5/8ecmLQ7koiZMPlEuJhTS6qEjKOUtx32LHrcVNDvu2+o5j6yrC60MWm3EnDMRA==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -10459,7 +10462,7 @@ react-final-form-listeners@^1.0.2:
   dependencies:
     "@babel/runtime" "^7.1.5"
 
-react-final-form@6.3.0, react-final-form@^6.3.0:
+react-final-form@6.3.0, react-final-form@^6.3.0, react-final-form@^6.3.3:
   version "6.3.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.3.0.tgz#b85ae123a3796b3e0c8f56033c8a5037f4497e76"
   integrity sha512-jijhXR1fFGUBQwNOSqF4MK8XJO7Ynl1p8vcFsnQS0INSkGI52+4IagjUgtHj3w8EviIHPFK/Eflji6FELUl07w==
