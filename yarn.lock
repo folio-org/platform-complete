@@ -339,7 +339,7 @@
     lodash "^4.17.15"
     react-final-form "^6.3.3"
 
-"@folio/data-import@>=0.0.0":
+"@folio/data-import@>=0.0.0", "@folio/data-import@^1.7.0":
   version "1.7.1000306"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-1.7.1000306.tgz#46890444014012dd9065f94534e30cf8d2162973"
   integrity sha512-Axh/tXOJVSoJPzfFJjnCmzGKaKtcQTdkOKVAuaNIYB3AJewzNKrlgyZRipoe3SeVhP4qkN9Lmc+PdeI0CtXS0g==
@@ -633,6 +633,19 @@
     "@folio/erm-usage" "^2.3.0"
     classnames "^2.2.5"
     prop-types "^15.6.0"
+
+"@folio/plugin-find-import-profile@>=1.1.0":
+  version "1.1.100020"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-import-profile/-/plugin-find-import-profile-1.1.100020.tgz#9a790d9c699827988be2c2a3c2bf70ae98a982f9"
+  integrity sha512-rPqaLXK09TZedLaVSrn6SUNRS2eN5im2b6grczeYH5m44EifjS49e3QpONC/aPc0X+XHJ8zCysP/veEDOxQvjQ==
+  dependencies:
+    "@folio/data-import" "^1.7.0"
+    "@folio/stripes-acq-components" "^1.1.0"
+    classnames "^2.2.5"
+    lodash "^4.16.4"
+    prop-types "^15.6.0"
+    react-highlighter "^0.4.3"
+    react-intl "^2.8.0"
 
 "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^1.5.0":
   version "1.6.100036"
