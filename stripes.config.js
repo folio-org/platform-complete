@@ -12,6 +12,7 @@ module.exports = {
     '@folio/checkin' : {},
     '@folio/checkout' : {},
     '@folio/circulation' : {},
+    '@folio/data-import' : {},
     '@folio/developer' : {},
     '@folio/eholdings' : {},
     '@folio/erm-usage': {},
