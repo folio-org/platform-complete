@@ -43,6 +43,7 @@ module.exports = {
     '@folio/plugin-find-organization' : {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
+    '@folio/receiving' : {},
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
