@@ -239,9 +239,9 @@
     "@folio/plugin-find-user" "^1.9.0"
 
 "@folio/agreements@>=2.0.0":
-  version "3.4.1000310"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-3.4.1000310.tgz#2e80809a1d96b9614b69df759b32c2760eebaf48"
-  integrity sha512-sKM0s/NTMfZcjGLp9+ck3L+wcyVKQ2yHVY2FZDxK4+U5UfAwzDU4LJAN32dOuqW4SjRfptjgLAVH/B4mKbhYxw==
+  version "3.4.1000311"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-3.4.1000311.tgz#c29cf95135673fa42e30184464d13c4ae023e61b"
+  integrity sha512-NBAj40KXooB8ZpcMlPUPYpVWIV+YHoi7TFONWeycYVdyRlV2VGaHVwImD/qVPzu6GJ9o350FlXlqvfp/45ydsA==
   dependencies:
     "@folio/stripes-erm-components" "^2.0.0"
     compose-function "^3.0.3"
@@ -479,9 +479,9 @@
     "@folio/plugin-find-po-line" "^1.0.0"
 
 "@folio/licenses@>=2.0.0":
-  version "3.7.1000217"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-3.7.1000217.tgz#b7c92c92712c130fcf099166a328dff6e6326577"
-  integrity sha512-ucaZn/ezWXujJbZfIIttKSjxF5x3ZIX9BZOeGjvFN2/wORdAU3Vp/he5iC4QTkLVwTd0lXidD+DGDP93+K5rNA==
+  version "3.7.1000218"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-3.7.1000218.tgz#f68a4d22d90f3ad686f7b209ff3bc187e76d3622"
+  integrity sha512-V7MwS6UplMDc26f4UM3wZrJCJPc37P/csasR2SNC5xSVUowr83I/HLx92Ff+v2b7hB6gzvxdLnqCI5yecIh1xQ==
   dependencies:
     "@folio/stripes-erm-components" "^2.0.0"
     compose-function "^3.0.3"
@@ -719,6 +719,20 @@
   integrity sha512-Iet+qCQvPqFb0a8rcwqHTN2yhDBoeB+YtzZMOH4N4/D0NbLN9Fm0ef6bvnwwZqqhw8z+V2yc5cRx1nibCjHdDA==
   dependencies:
     sanitize-html "1.18.2"
+
+"@folio/receiving@>=1.0.0":
+  version "1.0.100036"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-1.0.100036.tgz#c18ce9f177963bfa19e9a8516b495235b5360c6f"
+  integrity sha512-iP7K7xE7O2pezH1qcaZQeJUsOXWtPvxVwxRSEJ5xuEF7RgyygmnletV/Zrf6eBEDZkc4cP+p2EuwDHESj3oEHg==
+  dependencies:
+    "@folio/stripes-acq-components" "^1.3.1"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    query-string "^6.1.0"
+    react-dom "^16.5.1"
+    react-hot-loader "^4.3.12"
+    react-intl "^2.5.0"
+    react-router-prop-types "^1.0.4"
 
 "@folio/requests@>=1.4.1":
   version "1.14.1000410"
@@ -10448,6 +10462,16 @@ react-dom-factories@^1.0.0:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
   integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
+
+react-dom@^16.5.1:
+  version "16.12.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
+  integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
 
 react-dom@~16.8.6:
   version "16.8.6"
