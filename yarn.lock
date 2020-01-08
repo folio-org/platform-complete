@@ -722,14 +722,15 @@
     sanitize-html "1.18.2"
 
 "@folio/receiving@>=1.0.0":
-  version "1.0.100037"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-1.0.100037.tgz#8ff8aa973720b04f58447fbf4447aec38f86037a"
-  integrity sha512-qNHzIoh/JTyDj3wjoPX2m1hF3JMdBZBWMj/8vvapQiRcHu8s8qgtSMN6QPyRuzRm0Blrea12DrfHczK4U52RhA==
+  version "1.0.100038"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-1.0.100038.tgz#7a45a9f534b3d32cf1eee867045282969ff7df69"
+  integrity sha512-+K7uy0vZbVXN48jqe1NEZVau0z+HGQX00mXfxg9fwhhUYYwbY/DBYjxXGzeqzXLKvwCAKieyKoZ9JcjVXibggg==
   dependencies:
     "@folio/stripes-acq-components" "^1.3.1"
     lodash "^4.17.5"
     prop-types "^15.5.10"
     query-string "^6.1.0"
+    react "^16.5.1"
     react-dom "^16.5.1"
     react-hot-loader "^4.3.12"
     react-intl "^2.5.0"
@@ -10802,6 +10803,15 @@ react-virtualized-auto-sizer@^1.0.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.2.tgz#a61dd4f756458bbf63bd895a92379f9b70f803bd"
   integrity sha512-MYXhTY1BZpdJFjUovvYHVBmkq79szK/k7V3MO+36gJkWGkrXKtyr4vCPtpphaTLRAdDNoYEYFZWE8LjN+PIHNg==
 
+react@^16.5.1:
+  version "16.12.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
+  integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+
 react@~16.8.6:
   version "16.8.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
@@ -12383,9 +12393,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.6.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.1.tgz#913e35e0d38a75285a7913ba01d753c4089ebdbd"
-  integrity sha512-w0f2OWFD7ka3zwetgVAhNMeyzEbj39ht2Tb0qKflw9PmW9Qbo5tjTh01QJLkhO9t9RDDQYvk+WXqpECI2C6i2A==
+  version "4.6.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/terser/-/terser-4.6.2.tgz#cb1cf055e7f70caa5863f00ba3e67dc3c97b5150"
+  integrity sha512-6FUjJdY2i3WZAtYBtnV06OOcOfzl+4hSKYE9wgac8rkLRBToPDDrBB2AcHwQD/OKDxbnvhVy2YgOPWO2SsKWqg==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
