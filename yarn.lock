@@ -463,9 +463,9 @@
     redux-form "^7.0.3"
 
 "@folio/invoice@>=1.0.0":
-  version "1.2.1000165"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.2.1000165.tgz#8f783c76130d7ad4799da838df440288fdf24b98"
-  integrity sha512-3hnUHcZrGJs3nhsbmm2XQhNrWDpZkW9r3tOl16FAe9kXimjqAssgEbs8PxwSAetcIUXVu1KpD+gJZ4jn8OIjYQ==
+  version "1.2.1000166"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.2.1000166.tgz#8472940cfa62879a9254ddab46c981efcd6c1cb8"
+  integrity sha512-UjMkie1fiC2aUpChuFMyTiLee/yuXlyOh3iIp01tL9cTdiKSd3bZvQ8hvBeH1wJLAF3VnPx3smzPiaSAHcEFZw==
   dependencies:
     "@folio/stripes-acq-components" "^1.3.1"
     lodash "^4.17.11"
@@ -693,7 +693,7 @@
     dom-helpers "^3.4.0"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-po-line@>=1.0.0", "@folio/plugin-find-po-line@^1.0.0":
+"@folio/plugin-find-po-line@>=1.0.0", "@folio/plugin-find-po-line@^1.0.0", "@folio/plugin-find-po-line@^1.2.0":
   version "1.2.100037"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-po-line/-/plugin-find-po-line-1.2.100037.tgz#022490cec0cdf64e9cc2137337a8c3901abf27a1"
   integrity sha512-UPhto/bHGOOQ5Gu6Fbc6Qf4dZEdDWZ+S7KRV3VbKrlWQODdnV083Kibtep6mZ35h0TXj3ud50XFPV8qM0wkDhQ==
@@ -722,19 +722,26 @@
     sanitize-html "1.18.2"
 
 "@folio/receiving@>=1.0.0":
-  version "1.0.100038"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-1.0.100038.tgz#7a45a9f534b3d32cf1eee867045282969ff7df69"
-  integrity sha512-+K7uy0vZbVXN48jqe1NEZVau0z+HGQX00mXfxg9fwhhUYYwbY/DBYjxXGzeqzXLKvwCAKieyKoZ9JcjVXibggg==
+  version "1.0.100039"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-1.0.100039.tgz#d01b1fdf3f191cd3c7bd3fe594915e272364cfac"
+  integrity sha512-uKEx4MDNc67jE13OcS2QvQJhSaKb7OMdRUjIIyTkgRg80OwRTvJuMlodEXi5Hdb87u8AsSCkF6CPJKz1zgXs0Q==
   dependencies:
     "@folio/stripes-acq-components" "^1.3.1"
+    final-form "^4.18.2"
     lodash "^4.17.5"
     prop-types "^15.5.10"
     query-string "^6.1.0"
     react "^16.5.1"
     react-dom "^16.5.1"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
     react-hot-loader "^4.3.12"
     react-intl "^2.5.0"
     react-router-prop-types "^1.0.4"
+  optionalDependencies:
+    "@folio/plugin-find-instance" "^1.5.0"
+    "@folio/plugin-find-po-line" "^1.2.0"
 
 "@folio/requests@>=1.4.1":
   version "1.14.1000412"
@@ -781,9 +788,9 @@
     react-router-dom "^4.1.1"
 
 "@folio/stripes-acq-components@^1.0.0", "@folio/stripes-acq-components@^1.1.0", "@folio/stripes-acq-components@^1.2.0", "@folio/stripes-acq-components@^1.3.1":
-  version "1.3.2000146"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-1.3.2000146.tgz#5c166da6fed1fc7594f620458d589b832cb982e3"
-  integrity sha512-7AlyZM7T5EFGSDM2L5leq1VCr3Gnyagni3pd2SniGgP4pqmqTPJRO/Al7NtIv7V8xm6OEY/ThWL0pH2GesPE9g==
+  version "1.3.2000147"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-1.3.2000147.tgz#b29512c905449003545ba57ca4a8e266899cb786"
+  integrity sha512-pd2Q+2YkqI65omki0+tBadpvp61KOjW0zUhKVc8wQyEe3jS503g/PX7TVKG75dby/NghqkntBA0LMPapBHQnaA==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.3"
     classnames "^2.2.5"
