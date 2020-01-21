@@ -19,6 +19,7 @@ module.exports = {
     '@folio/circulation' : {},
     '@folio/courses' : {},
     '@folio/data-import' : {},
+    '@folio/data-export' : {},
     '@folio/developer' : {},
     '@folio/eholdings' : {},
     '@folio/erm-usage' : {},
