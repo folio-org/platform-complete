@@ -50,6 +50,7 @@ module.exports = {
     '@folio/servicepoints' : {},
     '@folio/stripes-acq-components' : {},
     '@folio/stripes-erm-components' : {},
+    '@folio/stripes-data-transfer-components' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
