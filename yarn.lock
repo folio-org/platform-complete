@@ -1139,15 +1139,19 @@
     redux-observable "^0.15.0"
 
 "@folio/erm-usage@>=1.0.3":
-  version "2.5.1000144"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/erm-usage/-/erm-usage-2.5.1000144.tgz#b6ab354ecb7d22ff95fec8e529372441f02ad8c9"
-  integrity sha512-Sfe+YDFtqPu+A9N9SGi6mSrfpRiOyegKWyg5eEitFfd491cmc6RnxTCNq0gkpzOUxPSiKgLVb3FD43wApwiSeg==
+  version "2.5.1000145"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/erm-usage/-/erm-usage-2.5.1000145.tgz#206e7772c23900719eebb00cb85b76f05cf280e1"
+  integrity sha512-/IKtO3hpckkamieATlp94ahosvm19ieclUCq9QootCk5XkMvq5nsEU0W/GMTZ2PP95OtH/ZMjBrruvBg6IiOnQ==
   dependencies:
     file-saver "^2.0.0"
+    final-form "^4.18.7"
+    final-form-arrays "^3.0.2"
     lodash "^4.17.4"
     moment "^2.24.0"
     prop-types "^15.6.0"
     react-dropzone "^9.0.0"
+    react-final-form "^6.3.5"
+    react-final-form-arrays "^3.1.1"
     react-intl "^2.5.0"
     react-router-dom "^4.1.1"
     react-router-prop-types "^1.0.4"
@@ -1210,9 +1214,9 @@
     redux-form "^7.0.3"
 
 "@folio/invoice@>=1.0.0":
-  version "1.2.1000189"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.2.1000189.tgz#b7a869a05ef69800b98a21b94a0bf72c2e0a845f"
-  integrity sha512-hn5lrYP0rOJIIAN3ruFl766+txYMAka3q8a07MyYpIX9p55O5JOw+Mhxlj7Iu7gOCrqv/jxQ2nSpMP7C6yfBUg==
+  version "1.2.1000190"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-1.2.1000190.tgz#ca7685e030f5ea1ed13765da8e9612130583bf14"
+  integrity sha512-q+0FnUx9ymvV2HddJObdbhHrQhsvwkhc/rhTBXcjhTU10HqJieCtvaxhgy9C+s3BZMUD7oClih2IBedgJS/e9Q==
   dependencies:
     "@folio/stripes-acq-components" "^1.3.1"
     lodash "^4.17.11"
@@ -5952,7 +5956,7 @@ final-form-arrays@3.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-arrays/-/final-form-arrays-3.0.1.tgz#862e5e946d391039ebcdfadbe55fc3a63849e559"
   integrity sha512-GKXecufCNCjDcz1+3peL21LuuTlApoxCcnpOnmfeJfC3xAlFKGdytYMfifP7W1IEWTGC8twTv3zItESkej8qpg==
 
-final-form-arrays@^3.0.1:
+final-form-arrays@^3.0.1, final-form-arrays@^3.0.2:
   version "3.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-arrays/-/final-form-arrays-3.0.2.tgz#9f3bef778dec61432357744eb6f3abef7e7f3847"
   integrity sha512-TfO8aZNz3RrsZCDx8GHMQcyztDNpGxSSi9w4wpSNKlmv2PfFWVVM8P7Yj5tj4n0OWax+x5YwTLhT5BnqSlCi+w==
@@ -5972,7 +5976,7 @@ final-form-set-field-data@^1.0.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-set-field-data/-/final-form-set-field-data-1.0.2.tgz#ce19095af5d607148c1e6ce3403d75d40223d848"
   integrity sha512-gAnENimyQ5GW3OEGca5pbwm4lYshW2orzfBlPUYqzcm7ZxkQrVO8FqCAgEcCM+Rq9U1OU0q+D+UkqETvvDY6jw==
 
-final-form@4.18.2, final-form@4.18.5, final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5:
+final-form@4.18.2, final-form@4.18.5, final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7:
   version "4.18.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.18.5.tgz#e359cfaf2892ef135d92fcf22e06b475dda3a885"
   integrity sha512-DH/I2W7fWxU8J8ZsbYJ5jLvUbhbatCvLhIKlsU17MvY6W3QnetPEyuX5mcxXgIGFNFKxfvqsG3pDy/1/VwOiTw==
@@ -10982,7 +10986,7 @@ react-final-form-listeners@^1.0.2:
   dependencies:
     "@babel/runtime" "^7.1.5"
 
-react-final-form@6.3.0, react-final-form@^6.3.0:
+react-final-form@6.3.0, react-final-form@^6.3.0, react-final-form@^6.3.5:
   version "6.3.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.3.0.tgz#b85ae123a3796b3e0c8f56033c8a5037f4497e76"
   integrity sha512-jijhXR1fFGUBQwNOSqF4MK8XJO7Ynl1p8vcFsnQS0INSkGI52+4IagjUgtHj3w8EviIHPFK/Eflji6FELUl07w==
@@ -13574,9 +13578,9 @@ webpack-virtual-modules@^0.1.10:
     debug "^3.0.0"
 
 webpack@^4.10.2:
-  version "4.41.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.41.5.tgz#3210f1886bce5310e62bb97204d18c263341b77c"
-  integrity sha512-wp0Co4vpyumnp3KlkmpM5LWuzvZYayDwM2n17EHFr4qxBBbRokC7DJawPJC7TfSFZ9HZ6GsdH40EBj4UV0nmpw==
+  version "4.41.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-4.41.6.tgz#12f2f804bf6542ef166755050d4afbc8f66ba7e1"
+  integrity sha512-yxXfV0Zv9WMGRD+QexkZzmGIh54bsvEs+9aRWxnN8erLWEOehAKUTeNBoUbA6HPEZPlRo7KDi2ZcNveoZgK9MA==
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
