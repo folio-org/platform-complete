@@ -1298,10 +1298,30 @@
     react-intl "^2.9.0"
     react-router-dom "^4.1.1"
 
-"@folio/orders@>=1.1.0", "@folio/orders@^1.6.0":
-  version "1.8.3000689"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.8.3000689.tgz#0982626b61edc66f8df95444ef9817f82d66c71b"
-  integrity sha512-dVCHm7zhoRewr5oWCW97J/OUJ+9uKxkrk28baJRKTSbnEXJIyAc0zDie9jLPIXgfxdmiZIwsQdQ3aPDYOzHUOA==
+"@folio/orders@>=1.1.0":
+  version "2.0.1000691"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-2.0.1000691.tgz#afcdb4efa641217b26a54ac561d2184844519c98"
+  integrity sha512-jGyUI9N5SSaXBa30MENcvh3INBkR+A2gMdxAeyZDdlVFsHPTf82jtwVWNuHcURUrsJaFtu3Hrud2FaUTM7DrYQ==
+  dependencies:
+    "@folio/stripes-acq-components" "^1.3.1"
+    classnames "^2.2.5"
+    lodash "^4.17.11"
+    moment "^2.22.2"
+    prop-types "^15.6.2"
+    query-string "^6.1.0"
+    react-redux "5.1.1"
+    react-router-prop-types "^1.0.4"
+    redux-form "^7.4.2"
+  optionalDependencies:
+    "@folio/plugin-create-item" "^1.4.0"
+    "@folio/plugin-find-instance" "^1.5.0"
+    "@folio/plugin-find-organization" "^1.4.0"
+    "@folio/plugin-find-user" "^1.9.0"
+
+"@folio/orders@^1.6.0":
+  version "1.8.3000690"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.8.3000690.tgz#907a1ac18d85972ce7dce53af86f6334002b60c0"
+  integrity sha512-j4dPQFgOtflpdtFNR0SZOCjLMUiRv1GCbLbnadL1Xn706PcW4w7J3vnWlyt1E2G/K5WIlxGkkNDMRqcfbdkOkQ==
   dependencies:
     "@folio/stripes-acq-components" "^1.3.1"
     classnames "^2.2.5"
@@ -1818,9 +1838,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~3.0.0":
-  version "3.0.1000639"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000639.tgz#31f7e9fcea33747bf86cd737b45742db8e048547"
-  integrity sha512-mUAra+IMhkhFhkrRAOqMecGfbEsoCeVqe6Kc3dXRMAKfRTxO9MNgI8jdDWG62UWoYaL13wF2dqlGKj6oDO78LA==
+  version "3.0.1000640"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-3.0.1000640.tgz#f91bd67467fd1c5eb910000bb048e035e91594d5"
+  integrity sha512-glsWBcNqWoQ9N3n7DjP4+ydQLQ2EkFBcHUswPTvvrVuYcCWF7XT2HsTQW6PpupyaJmagScBxQFl2YY0OrmrAfw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~6.0.0"
@@ -1838,6 +1858,8 @@
     prop-types-extra "^1.1.0"
     query-string "^5.0.0"
     react-final-form "^6.3.0"
+    react-router "^4.2.0"
+    react-router-dom "^4.0.0"
     react-router-prop-types "^1.0.4"
     react-transition-group "^2.4.0"
     react-virtualized-auto-sizer "^1.0.2"
