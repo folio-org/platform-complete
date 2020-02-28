@@ -1296,7 +1296,7 @@
     react-intl "^2.9.0"
     react-router-dom "^4.1.1"
 
-"@folio/orders@>=1.1.0":
+"@folio/orders@>=1.1.0", "@folio/orders@^2.0.0":
   version "2.0.1000691"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-2.0.1000691.tgz#afcdb4efa641217b26a54ac561d2184844519c98"
   integrity sha512-jGyUI9N5SSaXBa30MENcvh3INBkR+A2gMdxAeyZDdlVFsHPTf82jtwVWNuHcURUrsJaFtu3Hrud2FaUTM7DrYQ==
@@ -1307,27 +1307,6 @@
     moment "^2.22.2"
     prop-types "^15.6.2"
     query-string "^6.1.0"
-    react-redux "5.1.1"
-    react-router-prop-types "^1.0.4"
-    redux-form "^7.4.2"
-  optionalDependencies:
-    "@folio/plugin-create-item" "^1.4.0"
-    "@folio/plugin-find-instance" "^1.5.0"
-    "@folio/plugin-find-organization" "^1.4.0"
-    "@folio/plugin-find-user" "^1.9.0"
-
-"@folio/orders@^1.6.0":
-  version "1.8.3000690"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-1.8.3000690.tgz#907a1ac18d85972ce7dce53af86f6334002b60c0"
-  integrity sha512-j4dPQFgOtflpdtFNR0SZOCjLMUiRv1GCbLbnadL1Xn706PcW4w7J3vnWlyt1E2G/K5WIlxGkkNDMRqcfbdkOkQ==
-  dependencies:
-    "@folio/stripes-acq-components" "^1.3.1"
-    classnames "^2.2.5"
-    lodash "^4.17.11"
-    moment "^2.22.2"
-    prop-types "^15.6.2"
-    query-string "^6.1.0"
-    react-intl "^2.4.0"
     react-redux "5.1.1"
     react-router-prop-types "^1.0.4"
     redux-form "^7.4.2"
@@ -1448,15 +1427,14 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-po-line@>=1.0.0", "@folio/plugin-find-po-line@^1.0.0", "@folio/plugin-find-po-line@^1.2.0":
-  version "1.2.100045"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-po-line/-/plugin-find-po-line-1.2.100045.tgz#610a2a88e336cc6cfb1bb528c276bc11e9aa80c6"
-  integrity sha512-3R6JsCS1yNsbOom/N3T4lARQGDrKHSSoaBbh6Rdtn3AAd7VYRBEQB81YzAv/sbjLJjVllaBfIe8smghVCw1Sxw==
+  version "1.2.100047"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-po-line/-/plugin-find-po-line-1.2.100047.tgz#f6a2a36a5022de5e413aef15550b21a0799a93e2"
+  integrity sha512-uYxMQxjUKrANqhgW+NOV8KTZ639DwNtEGXBZRMXveJ0la0PWYLfA+TxBRx7kjOdsuwJwHkB49ttXIgGR2uSJqw==
   dependencies:
-    "@folio/orders" "^1.6.0"
+    "@folio/orders" "^2.0.0"
     "@folio/stripes-acq-components" "^1.1.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
-    react-intl "^2.8.0"
 
 "@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^1.1.0", "@folio/plugin-find-user@^1.9.0":
   version "1.9.100094"
