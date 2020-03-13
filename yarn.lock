@@ -956,11 +956,11 @@
     pretender "^2.0.0"
 
 "@folio/acquisition-units@>=1.0.0":
-  version "1.2.100052"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/acquisition-units/-/acquisition-units-1.2.100052.tgz#572f00caeb45fb9213fe4cebfe3406f65766a954"
-  integrity sha512-ZclE6CfbPgSIgGUr5gIgQGtVkHfVexQpvk1NVjwjjMzaO5PuqXSkbpM7mlxDUYuIEE0zDi0oSPQay3q7/HlctA==
+  version "2.0.100053"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/acquisition-units/-/acquisition-units-2.0.100053.tgz#615fdc19e8014b20694a510a0124755585336c89"
+  integrity sha512-eslAsisE4Y79bymssBDjs5+0tce191oVvAZXBZyqH30YkW0Sg2dLkx2/JbMe3RhiTT6YphGZJkfpqQgpp4NkDQ==
   dependencies:
-    "@folio/stripes-acq-components" "^1.2.0"
+    "@folio/stripes-acq-components" "^2.0.0"
     lodash "^4.17.11"
     moment "^2.22.2"
     prop-types "^15.6.0"
@@ -970,7 +970,7 @@
     redux "^4.0.0"
     redux-form "^7.4.2"
   optionalDependencies:
-    "@folio/plugin-find-user" "^1.9.0"
+    "@folio/plugin-find-user" "^2.0.0"
 
 "@folio/agreements@>=2.0.0":
   version "3.4.1000380"
@@ -1449,7 +1449,17 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-organization@>=1.0.0", "@folio/plugin-find-organization@^1.4.0", "@folio/plugin-find-organization@^1.5.0":
+"@folio/plugin-find-organization@>=1.0.0":
+  version "2.0.100041"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-organization/-/plugin-find-organization-2.0.100041.tgz#87b136ea9f88c82c66be10a674966878feb58c06"
+  integrity sha512-vnNFnznsLIOtw1LRe8gBb9SpKunDjMPg9rdcH6hE1iHgsRQRCgIxB2HZvSxAH3znzh8UClkiys3XXfsXyqjo/g==
+  dependencies:
+    "@folio/stripes-acq-components" "^2.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^3.4.0"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-organization@^1.4.0", "@folio/plugin-find-organization@^1.5.0":
   version "1.5.100040"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-organization/-/plugin-find-organization-1.5.100040.tgz#f10545e9b1d9df208a1653744894f08b777b6530"
   integrity sha512-yzzkAAHHjWjGvq9YP+61/D+S4wC2aCFR2sHlRo6wOAYoV9IZF44IisLxeCjhegCeDU94BP8szJr/zHaltD8Rzw==
@@ -1468,7 +1478,7 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^2.0.100095":
+"@folio/plugin-find-user@>=1.3.0", "@folio/plugin-find-user@^2.0.0", "@folio/plugin-find-user@^2.0.100095":
   version "2.0.1000100"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-user/-/plugin-find-user-2.0.1000100.tgz#844d9342dccba1982991b36cb70bc0c5f7f79421"
   integrity sha512-vUdNrAMmT+zcAmVr4oWFqWVFq7pgQiw/BiW3Dte3tqyE0UuK8AGfShPMO6BNtt1xrdoL0GjMvj7BRjV62MAUiw==
@@ -1570,6 +1580,23 @@
     react-dropzone "^9.0.0"
     react-final-form "^6.3.0"
     react-redux "5.1.1"
+    redux-form "^7.4.2"
+
+"@folio/stripes-acq-components@^2.0.0":
+  version "2.0.1000210"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.0.1000210.tgz#18a851231a701bf2e0ec5ccb1b49e37ff4008c1e"
+  integrity sha512-bsLpEuDOllO0BOQzrEKMO4rFJeJlyFKBGK3/uND0v8DKunNp5uZq3vDbierU07IOKsF1HEUKRvx4p7Q2FyHpyA==
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.3"
+    classnames "^2.2.5"
+    dom-helpers "^3.4.0"
+    final-form "^4.18.2"
+    lodash "^4.17.11"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    query-string "^6.1.0"
+    react-dropzone "^9.0.0"
+    react-final-form "^6.3.0"
     redux-form "^7.4.2"
 
 "@folio/stripes-cli@^1.10.0":
