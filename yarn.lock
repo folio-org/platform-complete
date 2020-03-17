@@ -1927,9 +1927,9 @@
     redux-form "^7.0.3"
 
 "@folio/users@>=2.17.0":
-  version "2.26.10001008"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-2.26.10001008.tgz#d53111b29711ef47cf6aa88a37f35f766fc989f7"
-  integrity sha512-SLHYJw11BxN3oqQ19AH+u8ky4qozsx8Rd23VaPBlvWnyQGHZ8kMxNVegHAbRusWazwPDq3V7Z6mZYBv4Sv7xPQ==
+  version "3.0.10001011"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-3.0.10001011.tgz#825c2388c2ccbf15ce26b577a22683376ac7ac1d"
+  integrity sha512-dmnvs5aqVbYN7qyHPl2DOLHxpQU7YKSDp20jBqASwVvHF+H+gXe4GO9LKfb1P3h6EZ9STdjzpyxxvBBe07RIXQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.0"
     "@folio/stripes-util" "^2.0.0"
@@ -6822,9 +6822,9 @@ html-to-react@^1.3.3:
     ramda "^0.26"
 
 "html-webpack-plugin@>=4.0.0 || ^4.0.0-beta.11", html-webpack-plugin@^4.0.0-beta.10:
-  version "4.0.0-beta.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/html-webpack-plugin/-/html-webpack-plugin-4.0.0-beta.11.tgz#3059a69144b5aecef97708196ca32f9e68677715"
-  integrity sha512-4Xzepf0qWxf8CGg7/WQM5qBB2Lc/NFI7MhU59eUDTkuQp3skZczH4UA1d6oQyDEIoMDgERVhRyTdtUPZ5s5HBg==
+  version "4.0.0-beta.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/html-webpack-plugin/-/html-webpack-plugin-4.0.0-beta.12.tgz#b4f363fab70c91f6f01cfa828222c9874682c619"
+  integrity sha512-vp7Hzv3DhA782L2JlPoo9IVvkmTjzfmWELSYc+xgS32GcHCk5hPOpQ5M0NgIHk9o4xsZBm1xcBQBX5D0Thju1g==
   dependencies:
     html-minifier-terser "^5.0.1"
     loader-utils "^1.2.3"
@@ -8975,12 +8975,19 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
+mkdirp@0.5.1:
   version "0.5.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
+  version "0.5.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mkdirp/-/mkdirp-0.5.3.tgz#5a514b7179259287952881e94410ec5465659f8c"
+  integrity sha512-P+2gwrFqx8lhew375MQHHeTlY8AuOJSrGf0R5ddkEndUkmwpgUob/vQuBD1V22/Cw1/lJr4x+EjllSezBThzBg==
+  dependencies:
+    minimist "^1.2.5"
 
 mocha-jenkins-reporter@^0.4.1:
   version "0.4.2"
