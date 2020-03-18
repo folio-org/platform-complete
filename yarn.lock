@@ -1224,9 +1224,9 @@
     "@folio/plugin-find-po-line" "*"
 
 "@folio/licenses@>=2.0.0":
-  version "3.7.1000262"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-3.7.1000262.tgz#11cfe1f573b5226694ab66c7f1f54caa18f55230"
-  integrity sha512-PLreXLzQ3Dcez9JZfPRiM1H5VSXhWuqdj+5qKlqhtQVa9dgReE0y8K1nHG66Kfg9KMRgAyQc5mnZFSKucTNZQg==
+  version "3.7.1000263"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-3.7.1000263.tgz#9faf58aa0e3657a8dd721c40204be06b36d734b2"
+  integrity sha512-4u1rZ30RMskjdojCe1fyBSnI+cSpgR4t4KEgThWjv5/BezzOrVj3gxo+CG5MZTuYNMa9LeijPYuwlvkl3y7BJQ==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.3"
     "@folio/stripes-erm-components" "^2.3.0"
@@ -1771,9 +1771,9 @@
     redux-form "^7.0.3"
 
 "@folio/stripes-erm-components@^1.4.0||^2.0.0", "@folio/stripes-erm-components@^2.0.0", "@folio/stripes-erm-components@^2.3.0":
-  version "2.3.1000134"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-erm-components/-/stripes-erm-components-2.3.1000134.tgz#d88057045ebafbbe6a50ebfc9482b13063c9baf0"
-  integrity sha512-oegkV/RXDVtzI9rgOoxt9uEhOLSw858k0jD3+nTkJWMHskq1Swy7ji1XpLj9RsgML+nl/gkTQoXWOZC3L2VHIQ==
+  version "2.3.1000192"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-erm-components/-/stripes-erm-components-2.3.1000192.tgz#6486649aa7c6b3496fb57ebe2da0b5dde3343b52"
+  integrity sha512-tj3yVzdnHJ/DIdaBvYhDFIASyy9Uj9/ML2T3qLm0OJEnD+5LU3prxgBPRl7lBopchulg89WQ0LxL59zqz5orXw==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.3"
     final-form "^4.18.4"
@@ -1784,6 +1784,7 @@
     react-dropzone "^10.0.0"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
+    react-final-form-html5-validation "^1.0.3"
 
 "@folio/stripes-final-form@~2.1.0":
   version "2.1.100042"
@@ -2220,9 +2221,12 @@
   integrity sha512-M/BexG/p05C5lFfMunxo/QcgIJnMT2vDVCd00wNqK2ImZONIlEETZwWJu1QtLxtmYlSHlCFl3JNzp0tLe7OJ5g==
 
 "@restart/hooks@^0.3.12":
-  version "0.3.21"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.21.tgz#5264d12019ffb844dc1fc44d55517ded7b580ee2"
-  integrity sha512-Wcu3CFJV+iiqPEIoPVx3/CYnZBRgPeRABo6bLJByRH9ptJXyObn7WYPG7Rv0cg3+55bqcBbG0xEfovzwE2PNXg==
+  version "0.3.22"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@restart/hooks/-/hooks-0.3.22.tgz#bb7e27c832bf576f56977d0a0b8b9d8ccee877b8"
+  integrity sha512-tW0T3hP6emYNOc76/iC96rlu+f7JYLSVk/Wnn+7dj1gJUcw4CkQNLy16vx2mBLtVKsFMZ9miVEZXat8blruDHQ==
+  dependencies:
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -8337,7 +8341,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.10, lodash-es@^4.17.11, lodash-es@^4.2.1:
+lodash-es@^4.17.10, lodash-es@^4.17.11, lodash-es@^4.17.15, lodash-es@^4.2.1:
   version "4.17.15"
   resolved "https://repository.folio.org/repository/npm-ci-all/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
@@ -11046,6 +11050,11 @@ react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.1:
   integrity sha512-e6S1x9597cvI4QPniOPmllXXandDAqCCuBo4AvXstZYgcV8whsqzk8aCrmQEy6eEfy2tEhvn6f4VI1GY+JBRsg==
   dependencies:
     "@babel/runtime" "^7.4.5"
+
+react-final-form-html5-validation@^1.0.3:
+  version "1.0.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form-html5-validation/-/react-final-form-html5-validation-1.0.3.tgz#b04b8025510bd8d751ea2ff58b90c7b7a7358a96"
+  integrity sha512-gNJ8xO/qcIRZYzWglPT7/KC1EDpsfMw+h/tKvcqYntcELN3TWga7yiyda0yLQnx19RNyDlU97wUDraX2Sar/bg==
 
 react-final-form-listeners@^1.0.2:
   version "1.0.2"
