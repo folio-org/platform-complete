@@ -31,6 +31,7 @@ module.exports = {
     '@folio/marccat' : {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
+    '@folio/oai-pmh' : {},
     '@folio/orders' : {},
     '@folio/organizations' : {},
     '@folio/plugin-create-item' : {},
