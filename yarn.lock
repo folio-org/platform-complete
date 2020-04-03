@@ -6687,13 +6687,14 @@ handlebars-loader@^1.7.1:
     object-assign "^4.1.0"
 
 handlebars@^4.5.1:
-  version "4.7.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/handlebars/-/handlebars-4.7.5.tgz#3105d3f54038976bd54e5ae0c711c70d4ed040f8"
-  integrity sha512-PiM2ZRLZ0X+CIRSX66u7tkQi3rzrlSHAuioMBI1XP8DsfDaXEA+sD7Iyyoz4QACFuhX5z+IimN+n3BFWvvgWrQ==
+  version "4.7.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
+  integrity sha512-1f2BACcBfiwAfStCKZNrUCgqNZkGsAT7UM3kkYtXuLo0KnaVfjKOyf7PRzB6++aK9STyT1Pd2ZCPe3EGOXleXA==
   dependencies:
+    minimist "^1.2.5"
     neo-async "^2.6.0"
     source-map "^0.6.1"
-    yargs "^14.2.3"
+    wordwrap "^1.0.0"
   optionalDependencies:
     uglify-js "^3.1.4"
 
@@ -13904,6 +13905,11 @@ word-wrap@~1.2.3:
   resolved "https://repository.folio.org/repository/npm-ci-all/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
+wordwrap@^1.0.0:
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
+
 wordwrap@~0.0.2:
   version "0.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
@@ -14069,14 +14075,6 @@ yargs-parser@^13.0.0, yargs-parser@^13.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^15.0.1:
-  version "15.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/yargs-parser/-/yargs-parser-15.0.1.tgz#54786af40b820dcb2fb8025b11b4d659d76323b3"
-  integrity sha512-0OAMV2mAZQrs3FkNpDQcBk1x5HXb8X4twADss4S0Iuk+2dGnLOE/fRHrsYm542GduMveyA77OF4wrNJuanRCWw==
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs@^13.1.0, yargs@^13.2.2:
   version "13.3.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
@@ -14092,23 +14090,6 @@ yargs@^13.1.0, yargs@^13.2.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
-
-yargs@^14.2.3:
-  version "14.2.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/yargs/-/yargs-14.2.3.tgz#1a1c3edced1afb2a2fea33604bc6d1d8d688a414"
-  integrity sha512-ZbotRWhF+lkjijC/VhmOT9wSgyBQ7+zr13+YLkhfsSiTriYsMzkTUFP18pFhWwBeMa5gUc1MzbhrO6/VB7c9Xg==
-  dependencies:
-    cliui "^5.0.0"
-    decamelize "^1.2.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^15.0.1"
 
 yauzl@^2.10.0:
   version "2.10.0"
