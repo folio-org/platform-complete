@@ -1284,8 +1284,8 @@
 
 "@folio/finance@2.0.1":
   version "2.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-2.0.1.tgz#2514ab06360649b5d674912b5ef6323b2d37bbd8"
-  integrity sha512-0+GGW4ItH0nCoplbXgJWnMlvLux28yV7tPuepKbef/RE8RCExq0JcshA1pa9jd5aD49oKGLhH4VL2hryBAU8xA==
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-2.0.1.tgz#45595b5e5a004f724402ef7ed163be7f507cced9"
+  integrity sha512-fHjKC3zut5AZIxNKBr4e4UPnleh1uqbx+I8MmsC5EFeW2nvzUWVFllutocIslYrzyDMex+bGq5nIjtS9CpKKMQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.0.0"
     final-form "^4.18.2"
@@ -1428,10 +1428,10 @@
     "@folio/plugin-find-contact" "^2.0.0"
     "@folio/plugin-find-interface" "^2.0.0"
 
-"@folio/plugin-create-item@*", "@folio/plugin-create-item@2.0.0":
-  version "2.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-2.0.0.tgz#68b0f984e0abc01040e2aad649a201980dc41cc6"
-  integrity sha512-vdU9/VFkhw2TdiyWYjvafbqh9Fq7lIl2e4oMm7NaMM+OQZ59VxnZnOh09dU8tWXt2vrxY4EZE8+SDRHKSoTfBw==
+"@folio/plugin-create-item@*", "@folio/plugin-create-item@2.0.1":
+  version "2.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-item/-/plugin-create-item-2.0.1.tgz#038f24ee64a4368c4f464b09c1438100419d76e5"
+  integrity sha512-1OII0v/b/I2Zn1YtVb0XCx+9Kbh+bFzXF77l9cDwCBsDPewXQPjBzyJ7LOe7jrzKMp0FNgVmNyUkqtwqbaQYcg==
   dependencies:
     "@folio/inventory" "*"
     classnames "^2.2.5"
@@ -1605,10 +1605,27 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@2.0.2", "@folio/stripes-acq-components@^2.0.0", "@folio/stripes-acq-components@^2.0.1", "@folio/stripes-acq-components@^2.0.2":
+"@folio/stripes-acq-components@2.0.2":
   version "2.0.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-2.0.2.tgz#b62ad10172477249d192450d0d91b49ce04a30c9"
   integrity sha512-GW01cxizv7nc6W2XLAQiqVPV69tOLk7aY4q5of1Jlp9ToLEDn06EkGfdZOail3Zg7hvIq2uznI04Y7hEmH7eZw==
+  dependencies:
+    "@folio/react-intl-safe-html" "^1.0.3"
+    classnames "^2.2.5"
+    dom-helpers "^3.4.0"
+    final-form "^4.18.2"
+    lodash "^4.17.11"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    query-string "^6.1.0"
+    react-dropzone "^9.0.0"
+    react-final-form "^6.3.0"
+    redux-form "^7.4.2"
+
+"@folio/stripes-acq-components@^2.0.0", "@folio/stripes-acq-components@^2.0.1", "@folio/stripes-acq-components@^2.0.2":
+  version "2.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-2.0.3.tgz#5144c75afcebc04def46dc38eee9b784a01f9aa8"
+  integrity sha512-naOnp8lo+PN5TzONvOIYxp/QlZBAeZlqJlyFR0e0wOPcKzBaE/daKNRA4KgilS0xojy+9r4xizCYYsRa9kcSzg==
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.3"
     classnames "^2.2.5"
