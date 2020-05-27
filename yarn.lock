@@ -1325,9 +1325,9 @@
     react-final-form-arrays "^3.1.1"
 
 "@folio/marccat@>=1.8.5":
-  version "2.0.1000369"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marccat/-/marccat-2.0.1000369.tgz#2490380898ec2b1322f1683a2920d633c8b3aa27"
-  integrity sha512-NQATiZSxecc7iXjLuV14m5HXJgmrsiC2xNYgb8GrD3yp4ELyw5NAGDr69pSCA/TBIviVAlgueZrSwO/zOVZqSg==
+  version "2.0.1000370"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marccat/-/marccat-2.0.1000370.tgz#df5ca77a549d8dd6e357049490b171274dcbc5a1"
+  integrity sha512-XXIXIlZs2CHuPEB9u4S1UiW0iMfmE3A68OlpX1HFMIiLe9t3FWFvB3GExpG9/A8BM55CrwXKychwwr06wpTCLQ==
   dependencies:
     babel-plugin-transform-class-properties "^6.24.1"
     classnames "^2.2.5"
@@ -1339,7 +1339,7 @@
     prop-types-extra "^1.1.0"
     react-final-form "^6.3.0"
     react-hot-loader "^4.3.12"
-    react-intl "^2.4.0"
+    react-intl "^4.5.1"
     react-router "^4.3.1"
     react-router-dom "^4.3.1"
     redux-actions "^2.2.1"
@@ -4333,9 +4333,9 @@ compose-function@^3.0.3:
     arity-n "^1.0.4"
 
 compute-scroll-into-view@^1.0.2:
-  version "1.0.13"
-  resolved "https://repository.folio.org/repository/npm-ci-all/compute-scroll-into-view/-/compute-scroll-into-view-1.0.13.tgz#be1b1663b0e3f56cd5f7713082549f562a3477e2"
-  integrity sha512-o+w9w7A98aAFi/GjK8cxSV+CdASuPa2rR5UWs3+yHkJzWqaKoBEufFNWYaXInCSmUfDCVhesG+v9MTWqOjsxFg==
+  version "1.0.14"
+  resolved "https://repository.folio.org/repository/npm-ci-all/compute-scroll-into-view/-/compute-scroll-into-view-1.0.14.tgz#80e3ebb25d6aa89f42e533956cb4b16a04cfe759"
+  integrity sha512-mKDjINe3tc6hGelUMNDzuhorIUZ7kS7BwyY0r2wQd2HOH2tRuJykiC06iSEX8y1TuhNzvz4GcJnK16mM2J1NMQ==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -7438,20 +7438,10 @@ interpret@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
 
-intl-format-cache@^2.0.5:
-  version "2.2.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-format-cache/-/intl-format-cache-2.2.9.tgz#fb560de20c549cda20b569cf1ffb6dc62b5b93b4"
-  integrity sha512-Zv/u8wRpekckv0cLkwpVdABYST4hZNTDaX7reFetrYTJwxExR2VyTqQm+l0WmL0Qo8Mjb9Tf33qnfj0T7pjxdQ==
-
 intl-format-cache@^4.2.32:
   version "4.2.32"
   resolved "https://repository.folio.org/repository/npm-ci-all/intl-format-cache/-/intl-format-cache-4.2.32.tgz#c971a58f7e6d85a7c1f7a24d512704912e8293e6"
   integrity sha512-1u+BxrCMR4ePA82OpfFXeOAAVKeizTaSGtAizUhoxeRbmCUyHj6+/OWQJc0aXLWob1FIzSebMf64uX37S7LT7A==
-
-intl-messageformat-parser@1.4.0:
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat-parser/-/intl-messageformat-parser-1.4.0.tgz#b43d45a97468cadbe44331d74bb1e8dea44fc075"
-  integrity sha1-tD1FqXRoytvkQzHXS7Ho3qRPwHU=
 
 intl-messageformat-parser@^5.0.10:
   version "5.0.10"
@@ -7459,13 +7449,6 @@ intl-messageformat-parser@^5.0.10:
   integrity sha512-eBYx1bRYjDJ06iZz0W6sAuI1CLLQDaEeWDaDO68w7mCM1sODY0TBkqNebnhetoe2dYHoGtQJWDIuYpW3f11IJA==
   dependencies:
     "@formatjs/intl-numberformat" "^4.2.0"
-
-intl-messageformat@^2.0.0, intl-messageformat@^2.1.0:
-  version "2.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-2.2.0.tgz#345bcd46de630b7683330c2e52177ff5eab484fc"
-  integrity sha1-NFvNRt5jC3aDMwwuUhd/9eq0hPw=
-  dependencies:
-    intl-messageformat-parser "1.4.0"
 
 intl-messageformat@^8.3.17:
   version "8.3.17"
@@ -7475,14 +7458,7 @@ intl-messageformat@^8.3.17:
     intl-format-cache "^4.2.32"
     intl-messageformat-parser "^5.0.10"
 
-intl-relativeformat@^2.1.0:
-  version "2.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-relativeformat/-/intl-relativeformat-2.2.0.tgz#6aca95d019ec8d30b6c5653b6629f9983ea5b6c5"
-  integrity sha512-4bV/7kSKaPEmu6ArxXf9xjv1ny74Zkwuey8Pm01NH4zggPP7JHwg2STk8Y3JdspCKRDriwIyLRfEXnj2ZLr4Bw==
-  dependencies:
-    intl-messageformat "^2.0.0"
-
-invariant@2.2.4, invariant@^2.1.0, invariant@^2.1.1, invariant@^2.2.2, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.1.0, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -9118,9 +9094,9 @@ mime@1.6.0, mime@^1.3.4, mime@^1.6.0:
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
 mime@^2.3.1, mime@^2.4.4:
-  version "2.4.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/mime/-/mime-2.4.5.tgz#d8de2ecb92982dedbb6541c9b6841d7f218ea009"
-  integrity sha512-3hQhEUF027BuxZjQA3s7rIv/7VCQPa27hN9u9g87sEkWaKwQPuXOkVKtOeiyUrnWqTDiOs8Ed2rwg733mB0R5w==
+  version "2.4.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mime/-/mime-2.4.6.tgz#e5b407c90db442f2beb5b162373d07b69affa4d1"
+  integrity sha512-RZKhC3EmpBchfTGBVb8fb+RL2cWyw/32lshnsETttkBAyAUXSGHxbEJWWRXc751DrIxG1q04b8QwMbAwkRPpUA==
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -11382,18 +11358,7 @@ react-hot-loader@^4.0.0, react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-intl@^2.4.0:
-  version "2.9.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
-  integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
-  dependencies:
-    hoist-non-react-statics "^3.3.0"
-    intl-format-cache "^2.0.5"
-    intl-messageformat "^2.1.0"
-    intl-relativeformat "^2.1.0"
-    invariant "^2.1.1"
-
-react-intl@^4.5.3:
+react-intl@^4.5.1, react-intl@^4.5.3:
   version "4.6.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-4.6.0.tgz#cfa10ab205cf83a9c787c77d7362ad24a70c9a22"
   integrity sha512-UMFi3fNFXSVHrQp1m2JKsMMKEZD0h46+yhFGI+ZuA5qhSuiCXLu2j4QoYaAjMaIAOjZ6uHL8XjbJkjh0jDkzFQ==
