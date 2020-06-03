@@ -41,6 +41,7 @@ pipeline {
          anyOf {
            expression { env.skipBuild != 'true' }
            environment name:  'JOB_NAME', value: 'Automation/build-platform-complete-snapshot'
+         }
        }  
 
        stages {
