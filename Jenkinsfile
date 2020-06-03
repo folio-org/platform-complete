@@ -38,9 +38,9 @@ pipeline {
    
     stage('Do Build') {
        when {
-         expression {
-           env.skipBuild != 'true'
-         }
+         anyOf {
+           expression { env.skipBuild != 'true' }
+           environment name:  'JOB_NAME', value: 'Automation/build-platform-complete-snapshot'
        }  
 
        stages {
