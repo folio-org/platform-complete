@@ -1092,10 +1092,10 @@
     react-hot-loader "^4.3.12"
     react-to-print "^2.3.2"
 
-"@folio/checkout@4.0.0":
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkout/-/checkout-4.0.0.tgz#85a03d99d0814cdcdda4dac11f54402915cf529b"
-  integrity sha512-oSlZebS72hMsTCso+m/gcUoyPS+4othWE1Q9itxbp51zM05qNXqsDGvnT7bnFJpNCgb6z9qXIgJ9yQjz46FORw==
+"@folio/checkout@4.0.1":
+  version "4.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkout/-/checkout-4.0.1.tgz#c36d462f15129a27ee4945ea06f626df5ce84efb"
+  integrity sha512-2B7vRa8rADt8Ll/dzAIsh4e6Z1MZ6BBIZCgZTIcpXcZR4J6kJyb7VfOfCUF1IivSHtt7N6mLJJFb2R0tKWbnLw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1107,7 +1107,7 @@
     react-final-form "^6.4.0"
     react-hot-loader "^4.3.12"
   optionalDependencies:
-    "@folio/plugin-find-user" "^2.0.0"
+    "@folio/plugin-find-user" "^3.0.0"
 
 "@folio/circulation@3.0.0":
   version "3.0.0"
@@ -1246,7 +1246,30 @@
     react-final-form-listeners "^1.0.2"
     redux-form "^7.4.2"
 
-"@folio/inventory@*", "@folio/inventory@3.0.0":
+"@folio/inventory@*":
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-3.0.1.tgz#c350e809aa6da500fd6bbe40cf630302b0de44c5"
+  integrity sha512-MA4W7iP3qpNTYiJXpMl+rivgJ4kyxo2MqXT7WTs+efK2UvwwxbdLx4Enou1SidgDbxOPHmb/T5sJSe8ur5Kxyg==
+  dependencies:
+    "@folio/react-intl-safe-html" "^2.0.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.4"
+    moment "~2.24.0"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-copy-to-clipboard "^5.0.1"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-hot-loader "^4.3.12"
+    react-router-prop-types "^1.0.4"
+    redux-form "^7.0.3"
+  optionalDependencies:
+    "@folio/plugin-find-instance" "^3.0.0"
+    "@folio/quick-marc" "^1.0.0"
+
+"@folio/inventory@3.0.0":
   version "3.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-3.0.0.tgz#2c49dea8f449e852fb3805f6045aff9a361013f7"
   integrity sha512-4uBBuHZgiLJVasafXssX8OwRFIQmh327lZWaX6IHyhbU1W75+Hlx5FVmjmuaz6kNhnLPXHAGsKRKek+o06XCQg==
@@ -1438,7 +1461,7 @@
     react-highlighter "^0.4.3"
     redux-form "^7.0.3"
 
-"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@3.0.0":
+"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@3.0.0", "@folio/plugin-find-instance@^3.0.0":
   version "3.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-3.0.0.tgz#10e8c1dd6323f93c273c0f15d346dd152240b906"
   integrity sha512-YdeYxQRR7x3e+cGAg2Q5fb2v4BGcGPoMmMnGPXk7jWxxoxHJ+cCIVRlnQ050oHuDLHaUGlJ/rAC+N67VNEOkYg==
@@ -1505,7 +1528,7 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-user@*", "@folio/plugin-find-user@3.0.0":
+"@folio/plugin-find-user@*", "@folio/plugin-find-user@3.0.0", "@folio/plugin-find-user@^3.0.0":
   version "3.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-user/-/plugin-find-user-3.0.0.tgz#52a5bb25f3bce3d85fa271e30ec855db6f304143"
   integrity sha512-ZcQ0dC1fBqEdd2sNu3Eg5VMXW8QjiAa8rkIJ/dZmRJjefzxRBgaRj1NccSwmBWHgC1mbGBKohy9Omxdz4uIWsQ==
@@ -5248,9 +5271,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.413:
-  version "1.3.477"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.477.tgz#7e6b931d0c1a2572101a6e9a835128c50fd49323"
-  integrity sha512-81p6DZ/XmHDD7O0ITJMa7ESo9bSCfE+v3Fny3MIYR0y77xmhoriu2ShNOLXcPS4eowF6dkxw6d2QqxTkS3DjBg==
+  version "1.3.478"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.478.tgz#cfa0f2f0d3012463438a3bc81f50f2d109aca450"
+  integrity sha512-pt9GUDD52uEO9ZXWcG4UuW/HwE8T+a8iFP7K2qqWrHB5wUxbbvCIXGBVpQDDQwSR766Nn4AkmLYxOUNd4Ji5Dw==
 
 electron@^2.0.18:
   version "2.0.18"
@@ -9425,9 +9448,9 @@ object-copy@^0.1.0:
     kind-of "^3.0.3"
 
 object-inspect@^1.7.0:
-  version "1.7.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/object-inspect/-/object-inspect-1.7.0.tgz#f4f6bd181ad77f006b5ece60bd0b6f398ff74a67"
-  integrity sha512-a7pEHdh1xKIAgTySUGgLMx/xwDZskN1Ud6egYYN3EdRW4ZMPNEDUTF+hwy2LUC+Bl+SyLXANnwz/jyh/qutKUw==
+  version "1.8.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/object-inspect/-/object-inspect-1.8.0.tgz#df807e5ecf53a609cc6bfe93eac3cc7be5b3a9d0"
+  integrity sha512-jLdtEOB112fORuypAyl/50VRVIBIdVQOSUUGQHzJ4xBSbit81zRarz7GThkEFZy1RceYrWYcPcBFPQwHyAc1gA==
 
 object-is@^1.0.1:
   version "1.1.2"
