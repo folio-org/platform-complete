@@ -25,6 +25,7 @@ module.exports = {
     '@folio/local-kb-admin': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
+    '@folio/oai-pmh' : {},
     '@folio/orders': {},
     '@folio/organizations' : {},
     '@folio/plugin-create-item': {},
