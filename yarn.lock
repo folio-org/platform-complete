@@ -3336,13 +3336,13 @@ autobind-decorator@^2.1.0:
   integrity sha512-OGYhWUO72V6DafbF8PM8rm3EPbfuyMZcJhtm5/n26IDwO18pohE4eNazLoCGhPiXOCD0gEGmrbU3849QvM8bbw==
 
 autoprefixer@^9.1.1:
-  version "9.8.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/autoprefixer/-/autoprefixer-9.8.3.tgz#e04c8b7f72c608e4aef1b74a542946e2ed271753"
-  integrity sha512-Y3CkEPqPqGw0TNBcMoUAxeZT9WEOAh0BPYENOTrN/bEfNBqjlYWjHbR1PKduBrmAVn8WbEZtMA3gAZO5MgV7Pg==
+  version "9.8.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/autoprefixer/-/autoprefixer-9.8.4.tgz#736f1012673a70fa3464671d78d41abd54512863"
+  integrity sha512-84aYfXlpUe45lvmS+HoAWKCkirI/sw4JK0/bTeeqgHYco3dcsOn0NqdejISjptsYwNji/21dnkDri9PsYKk89A==
   dependencies:
     browserslist "^4.12.0"
     caniuse-lite "^1.0.30001087"
-    kleur "^4.0.1"
+    colorette "^1.2.0"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
     postcss "^7.0.32"
@@ -4429,6 +4429,11 @@ color@^3.0.0, color@^3.1.2:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
+
+colorette@^1.2.0:
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/colorette/-/colorette-1.2.0.tgz#45306add826d196e8c87236ac05d797f25982e63"
+  integrity sha512-soRSroY+OF/8OdA3PTQXwaDJeMc7TfknKKrxeSCencL2a4+Tx5zhxmmv7hdpCjhKBjehzp8+bwe/T68K0hpIjw==
 
 colors@1.0.3:
   version "1.0.3"
@@ -8621,11 +8626,6 @@ klaw@^1.0.0:
   integrity sha1-QIhDO0azsbolnXh4XY6W9zugJDk=
   optionalDependencies:
     graceful-fs "^4.1.9"
-
-kleur@^4.0.1:
-  version "4.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/kleur/-/kleur-4.0.1.tgz#3d4948534b666e2578f93b6fafb62108e64f05ef"
-  integrity sha512-Qs6SqCLm63rd0kNVh+wO4XsWLU6kgfwwaPYsLiClWf0Tewkzsa6MvB21bespb8cz+ANS+2t3So1ge3gintzhlw==
 
 kopy@^8.2.3:
   version "8.3.1"
@@ -13436,10 +13436,11 @@ through2@^2.0.0, through2@^2.0.2:
     xtend "~4.0.1"
 
 through2@^3.0.1:
-  version "3.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/through2/-/through2-3.0.1.tgz#39276e713c3302edf9e388dd9c812dd3b825bd5a"
-  integrity sha512-M96dvTalPT3YbYLaKaCuwu+j06D/8Jfib0o/PxbVt6Amhv3dUAtW6rTV1jPgJSBG83I/e04Y6xkVdVhSRhi0ww==
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/through2/-/through2-3.0.2.tgz#99f88931cfc761ec7678b41d5d7336b5b6a07bf4"
+  integrity sha512-enaDQ4MUyP2W6ZyT6EsMzqBPZaM/avg8iuo+l2d3QCs0J+6RaqkHV/2/lOwDTueBHeJ/2LG9lrLW3d5rWPucuQ==
   dependencies:
+    inherits "^2.0.4"
     readable-stream "2 || 3"
 
 through2@~0.2.3:
