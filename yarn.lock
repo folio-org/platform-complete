@@ -1110,22 +1110,20 @@
     "@folio/plugin-find-user" "^3.0.0"
 
 "@folio/circulation@>=1.3.0":
-  version "3.0.1000515"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-3.0.1000515.tgz#896b44fc02dae245065cc56ea1b399b47cc291ce"
-  integrity sha512-fVZWkC14hfjmI2vYi3onkpGo3sGNWUVFK8bFBKaoP8QOrO9IQNUUytkXKxNaCS7953nL9xQt5MS9cMgLjcIhbg==
+  version "3.0.1000516"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-3.0.1000516.tgz#c372f478add73080e3e513ab136597033247836d"
+  integrity sha512-V3C2Yui5XzsM3934bBmAlR2uuD7POoE27j21FPJMPbChjqCbL3fnwBaGLzLK44+GguiaqIiDdUgoeyJCWzELVw==
   dependencies:
+    "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     html-to-react "^1.3.3"
     lodash "^4.17.4"
     moment "^2.25.3"
     prop-types "^15.5.10"
-    react-barcode "^1.3.2"
     react-codemirror2 "^1.0.0"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
-    react-quill "^1.2.7"
-    react-to-print "^2.3.2"
     redux-form "^7.0.3"
 
 "@folio/courses@>=1.0.0":
@@ -1250,9 +1248,9 @@
     redux-form "^7.4.2"
 
 "@folio/inventory@*", "@folio/inventory@>=1.4.0":
-  version "4.0.1000946"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-4.0.1000946.tgz#0ae54d18d13899c4cb2efd56be9041a600e6dcd7"
-  integrity sha512-JVZxZJPw59G0fh20cz+dQnvBprTtXIw3+HJrVfee1SRywuh5CPSuk5mmF6BwgXSx/4QMDM9mKJ+W4PJ4VI8fPg==
+  version "4.0.1000947"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-4.0.1000947.tgz#acf25a3bef61c5c29824e5adca3e35df11f9c522"
+  integrity sha512-0iJjqH9X/wk02TkfH67fCFlqEjBAymEfyqFdSLLl8hGHqJupVIu1bYE30xGkpnRUtxHAUj7znPzhwfN66Letpw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -1919,6 +1917,19 @@
     react-transition-group "^2.4.0"
     react-virtualized-auto-sizer "^1.0.2"
     redux-form "^7.0.3"
+
+"@folio/stripes-template-editor@^1.0.0":
+  version "1.0.10002"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-template-editor/-/stripes-template-editor-1.0.10002.tgz#fb98125cde5c4de07e1689475c001b1b8d9babd8"
+  integrity sha512-b4UYXn+cK55oLMaIEU56ilqxJ0vVfW57o0JAQ+gh766pR/NNchmRqKkLd0l/vEIF2RyHMMtSR74Ek+WmLcWbFg==
+  dependencies:
+    html-to-react "^1.3.3"
+    lodash "^4.17.4"
+    moment "^2.25.3"
+    prop-types "^15.5.10"
+    react-barcode "^1.3.2"
+    react-quill "^1.2.7"
+    react-to-print "^2.3.2"
 
 "@folio/stripes-testing@^2.0.0":
   version "2.0.100073"
