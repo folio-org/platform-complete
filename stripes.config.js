@@ -50,7 +50,6 @@ module.exports = {
     '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
-    '@folio/stripes-acq-components' : {},
     '@folio/stripes-erm-components' : {},
     '@folio/stripes-data-transfer-components' : {},
     '@folio/tags' : {},
