@@ -53,7 +53,6 @@ module.exports = {
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components' : {},
-    '@folio/stripes-data-transfer-components' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
