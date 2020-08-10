@@ -21,7 +21,7 @@ stages:
   - name: Deploy
     steps:
       - applyAppConfig:
-          catalogTemplate: p-rlq5p:folijet-helmcharts-platform-complete
+          catalogTemplate: p-mf42h:folijet-helmcharts-platform-complete
           version: 0.1.7
           answers:
             image.repository: docker.dev.folio.org/platform-complete
