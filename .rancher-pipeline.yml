@@ -15,7 +15,7 @@ stages:
           - sourceName: tenant-config
             sourceKey: OKAPI_URL
         cpuLimit: 1500m
-        memoryLimit: 8Gi
+        memoryLimit: 10Gi
         cpuRequest: 100m
         memoryRequest: 100Mi
   - name: Deploy
