@@ -1119,9 +1119,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "4.0.1000448"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000448.tgz#ebccc4fdf783b4bd0279c7fe51134b223d10c9f3"
-  integrity sha512-qJh2n22Y0K8E+cL/l0BfWJVBWRy1D47ZC1v8yQip1iTWVuu+O4l9pG4liWbgP/OvdAW4ARju7fe6XEYKKjUrhg==
+  version "4.0.1000449"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-4.0.1000449.tgz#a91adf2a9e6ba6badf31cea4fe443865b6aeaac6"
+  integrity sha512-gY8dWerSsWr0Hiv9mfms0oAaAK9rAf/LAL6oBKunGqZZV3Fiz2X4aEDGMyP84e9RMIxKhXKgR9+UcgR13849KQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.19.1"
@@ -1133,6 +1133,7 @@
     react-final-form "^6.4.0"
     react-hot-loader "^4.3.12"
   optionalDependencies:
+    "@folio/plugin-create-inventory-records" "^1.0.0"
     "@folio/plugin-find-user" "^3.0.0"
 
 "@folio/circulation@>=1.3.0":
@@ -1464,6 +1465,20 @@
   optionalDependencies:
     "@folio/plugin-find-contact" "*"
     "@folio/plugin-find-interface" "*"
+
+"@folio/plugin-create-inventory-records@^1.0.0":
+  version "1.0.10006"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-1.0.10006.tgz#7f9bbcb89134e017c46cc31683db5a5439894ebf"
+  integrity sha512-yDIWjLSXhs9I0yBmFvOgDMB+T74Q0GMg9cpcHFweUHJBXxhbkzfqnxxJTMiZmVty8GIhNczf/RD8dbcxsj/oPA==
+  dependencies:
+    classnames "^2.2.5"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-create-item@>=1.0.0":
   version "2.1.100053"
