@@ -2531,9 +2531,9 @@
     universal-user-agent "^6.0.0"
 
 "@octokit/graphql@^4.3.1":
-  version "4.5.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/graphql/-/graphql-4.5.3.tgz#d5ff0d4a8a33e98614a2a7359dac98bc285e062f"
-  integrity sha512-JyYvi3j2tOb5ofASEpcg1Advs07H+Ag+I+ez7buuZfNVAmh1IYcDTuxd4gnYH8S2PSGu+f5IdDGxMmkK+5zsdA==
+  version "4.5.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/graphql/-/graphql-4.5.4.tgz#c9ef75b0406ebf195bf5f4ed2304a77ed7df27c7"
+  integrity sha512-ITpZ+dQc0cXAW1FmDkHJJM+8Lb6anUnin0VB5hLBilnYVdLC0ICFU/KIvT7OXfW9S81DE3U4Vx2EypDG1OYaPA==
   dependencies:
     "@octokit/request" "^5.3.0"
     "@octokit/types" "^5.0.0"
@@ -4640,11 +4640,11 @@ concat-stream@^1.5.0, concat-stream@^1.6.2:
     typedarray "^0.0.6"
 
 configstore@^3.0.0, configstore@^3.1.1:
-  version "3.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/configstore/-/configstore-3.1.2.tgz#c6f25defaeef26df12dd33414b001fe81a543f8f"
-  integrity sha512-vtv5HtGjcYUgFrXc6Kx747B83MRRVS5R1VTEQoXvuP+kMI+if6uywV0nDGoiydJRy4yk7h9od5Og0kxx4zUXmw==
+  version "3.1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/configstore/-/configstore-3.1.3.tgz#9674882b18fb397e3b8bd874d2749f62a31a4dd4"
+  integrity sha512-UEMhsBl7f/4siMBkpfm6971dJTVRP032kWkPmQXFIevhAzXcX2KjJMCWtmwqmdCuAlGAVX7DVY6ZkG6e/mh9Cw==
   dependencies:
-    dot-prop "^4.1.0"
+    dot-prop "npm:dot-prop-legacy@^4.2.1"
     graceful-fs "^4.1.2"
     make-dir "^1.0.0"
     unique-string "^1.0.0"
@@ -5521,19 +5521,19 @@ dot-case@^3.0.3:
     no-case "^3.0.3"
     tslib "^1.10.0"
 
-dot-prop@^4.1.0:
-  version "4.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
-  integrity sha512-tUMXrxlExSW6U2EXiiKGSBVdYgtV8qlHL+C10TsW4PURY/ic+eaysnSkwB4kA/mBlCyy/IKDJ+Lc3wbWeaXtuQ==
-  dependencies:
-    is-obj "^1.0.0"
-
 dot-prop@^5.2.0:
   version "5.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/dot-prop/-/dot-prop-5.2.0.tgz#c34ecc29556dc45f1f4c22697b6f4904e0cc4fcb"
   integrity sha512-uEUyaDKoSQ1M4Oq8l45hSE26SnTxL6snNnqvK/VWx5wJhmff5z0FUVJDKDanor/6w3kzE3i7XZOk+7wC0EXr1A==
   dependencies:
     is-obj "^2.0.0"
+
+"dot-prop@npm:dot-prop-legacy@^4.2.1":
+  version "4.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dot-prop-legacy/-/dot-prop-legacy-4.2.1.tgz#ca8f75d79f1471af35d9129a2647aa346bf0df07"
+  integrity sha512-OpVdloKY3b038o/XJ8zV0b6Uh2VZ/WJhdG2L94YOy+OeFjTZBWxeYfQVx5doIezkWCg7UVTjP2hGQBeSeljTag==
+  dependencies:
+    is-obj "^1.0.0"
 
 downshift@^2.0.16:
   version "2.2.3"
