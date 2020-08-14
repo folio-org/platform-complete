@@ -4650,11 +4650,11 @@ concat-stream@^1.5.0, concat-stream@^1.6.2:
     typedarray "^0.0.6"
 
 configstore@^3.0.0, configstore@^3.1.1:
-  version "3.1.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/configstore/-/configstore-3.1.3.tgz#9674882b18fb397e3b8bd874d2749f62a31a4dd4"
-  integrity sha512-UEMhsBl7f/4siMBkpfm6971dJTVRP032kWkPmQXFIevhAzXcX2KjJMCWtmwqmdCuAlGAVX7DVY6ZkG6e/mh9Cw==
+  version "3.1.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/configstore/-/configstore-3.1.4.tgz#596122c2e5d47630438a3f622156be3a771a82a4"
+  integrity sha512-0zrqA+vOj4tKAFjho2DjcPby8YNYvU0g2fJLusolvRxpeC3qzfLTrTdPK1/lreiOd2J6prloAR6dcXhcr7mJEw==
   dependencies:
-    dot-prop "npm:dot-prop-legacy@^4.2.1"
+    dot-prop-legacy "^4.2.1"
     graceful-fs "^4.1.2"
     make-dir "^1.0.0"
     unique-string "^1.0.0"
@@ -5531,19 +5531,19 @@ dot-case@^3.0.3:
     no-case "^3.0.3"
     tslib "^1.10.0"
 
+dot-prop-legacy@^4.2.1:
+  version "4.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dot-prop-legacy/-/dot-prop-legacy-4.2.1.tgz#ca8f75d79f1471af35d9129a2647aa346bf0df07"
+  integrity sha512-OpVdloKY3b038o/XJ8zV0b6Uh2VZ/WJhdG2L94YOy+OeFjTZBWxeYfQVx5doIezkWCg7UVTjP2hGQBeSeljTag==
+  dependencies:
+    is-obj "^1.0.0"
+
 dot-prop@^5.2.0:
   version "5.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/dot-prop/-/dot-prop-5.2.0.tgz#c34ecc29556dc45f1f4c22697b6f4904e0cc4fcb"
   integrity sha512-uEUyaDKoSQ1M4Oq8l45hSE26SnTxL6snNnqvK/VWx5wJhmff5z0FUVJDKDanor/6w3kzE3i7XZOk+7wC0EXr1A==
   dependencies:
     is-obj "^2.0.0"
-
-"dot-prop@npm:dot-prop-legacy@^4.2.1":
-  version "4.2.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dot-prop-legacy/-/dot-prop-legacy-4.2.1.tgz#ca8f75d79f1471af35d9129a2647aa346bf0df07"
-  integrity sha512-OpVdloKY3b038o/XJ8zV0b6Uh2VZ/WJhdG2L94YOy+OeFjTZBWxeYfQVx5doIezkWCg7UVTjP2hGQBeSeljTag==
-  dependencies:
-    is-obj "^1.0.0"
 
 downshift@^2.0.16:
   version "2.2.3"
