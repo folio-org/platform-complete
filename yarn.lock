@@ -1765,9 +1765,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~8.0.0":
-  version "8.0.10001144"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001144.tgz#96c8e085bf9d1d905455211c38e7863372158065"
-  integrity sha512-VAKkEPBvOH7Y8LjCzBJjnOPgDodi92ufQhfwrIyLh2XBO8eMH/yxXOMoMHdbBEd7oKaZZmBnR75YJ8Mj0agJzA==
+  version "8.0.10001145"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-8.0.10001145.tgz#a1c0531db54825b2eb666d04fe667fe31c19305e"
+  integrity sha512-hE8B/QIibMawOyb726uOSqZFpcKstpiw90J+trLEeAlV+4EqtgQBfh7wue3lECbcS/1rBcQs1nSUHneG8qg+aw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -1789,7 +1789,7 @@
     react-flexbox-grid "1.1.3"
     react-highlight-words "^0.16.0"
     react-hot-loader "^4.0.0"
-    react-overlays "^0.8.3"
+    react-overlays "^3.2.0"
     react-quill "^1.3.3"
     react-svg-loader "^3.0.3"
     react-tether "^1.0.1"
@@ -2606,6 +2606,11 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@popperjs/core@^2.0.0":
+  version "2.4.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@popperjs/core/-/core-2.4.4.tgz#11d5db19bd178936ec89cd84519c4de439574398"
+  integrity sha512-1oO6+dN5kdIA3sKPZhRGJTfGVP4SWV6KqlMOwry4J3HfyD68sl/3KmG7DeYUzvN+RbhXDnv/D8vNNB8168tAMg==
+
 "@rehooks/local-storage@^2.3.0", "@rehooks/local-storage@^2.4.0":
   version "2.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@rehooks/local-storage/-/local-storage-2.4.0.tgz#fb884b2b657cad5f77aa6ab60bb3532f0e0725d2"
@@ -2746,6 +2751,11 @@
   integrity sha512-KswB5C7Kwduwjj04Ykz+AjvPcfgv/37Za24O2EDzYNbwyzOo8+ydtvzUfZ5UMguiVu29Gx44l1A6VsPPcmYu9w==
   dependencies:
     source-map "^0.6.1"
+
+"@types/warning@^3.0.0":
+  version "3.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/warning/-/warning-3.0.0.tgz#0d2501268ad8f9962b740d387c4654f5f8e23e52"
+  integrity sha1-DSUBJorY+ZYrdA04fEZU9fjiPlI=
 
 "@types/webpack-sources@*":
   version "1.4.2"
@@ -11763,6 +11773,20 @@ react-overlays@^2.0.0-0:
     "@restart/hooks" "^0.3.12"
     dom-helpers "^5.1.0"
     popper.js "^1.15.0"
+    prop-types "^15.7.2"
+    uncontrollable "^7.0.0"
+    warning "^4.0.3"
+
+react-overlays@^3.2.0:
+  version "3.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-overlays/-/react-overlays-3.2.0.tgz#ed8335adb0871e701b0fc8396c44dfd2467e7a55"
+  integrity sha512-YTgCmw6l4uBOYylSnc3V8WLX+A0EoGnzDrqkYz0K7MUKbMBZFpaxLXH4EF9eZbspd+syZHQ5XAABI7n/zak1EA==
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    "@popperjs/core" "^2.0.0"
+    "@restart/hooks" "^0.3.12"
+    "@types/warning" "^3.0.0"
+    dom-helpers "^5.1.0"
     prop-types "^15.7.2"
     uncontrollable "^7.0.0"
     warning "^4.0.3"
