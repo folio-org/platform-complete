@@ -1,7 +1,7 @@
 # FOLIO complete platform
 
 
-Copyright (C) 2015-2019 The Open Library Foundation
+Copyright (C) 2015-2020 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
 Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
@@ -68,7 +68,7 @@ $ yarn test-int --show
 
 To skip the build step and run integration tests against a build that is already running, provide the URL.
 ```
-$ yarn test-int --url http://folio-testing.aws.indexdata.com/
+$ yarn test-int --url https://folio-testing.dev.folio.org/
 ```
 
 As a convenience, `--local` can be used in place of `--url http://localhost:3000` for running tests against a development server that has already been started.
@@ -81,7 +81,7 @@ $ yarn test-int --local
 Regression tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all tests defined for the individual apps.
 
 ```
-$ yarn test-regression --url http://folio-testing.aws.indexdata.com/
+$ yarn test-regression --url https://folio-testing.dev.folio.org/
 ```
 
 ### Running specific tests
