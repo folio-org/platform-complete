@@ -21,7 +21,7 @@ stages:
   - name: Deploy
     steps:
       - applyAppConfig:
-          catalogTemplate: p-mc7n8:thunderjet-helmcharts-platform-complete
+          catalogTemplate: p-9mktx:thunderjet-helmcharts-platform-complete
           version: 0.1.7
           answers:
             image.repository: docker.dev.folio.org/platform-complete
