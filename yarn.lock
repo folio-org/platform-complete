@@ -2095,46 +2095,24 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/ecma402-abstract/-/ecma402-abstract-1.1.0.tgz#a109d2cc963953ba7cb22ffb998abd6a4e9b7e18"
   integrity sha512-t5wDT1bIF5v5O9mk/reI0TvhqBKs0WiLf2ihVQcUvVCc0qb7poP/KFXWPehooaARDNRJ66LGFLVOHPPsJ+W2Xg==
 
-"@formatjs/intl-datetimeformat@^1.3.3":
-  version "1.3.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-datetimeformat/-/intl-datetimeformat-1.3.3.tgz#3bf877005a2519df1ce008aa63bc960c9e1b8334"
-  integrity sha512-wLHQOqKU+I0sINFPA7jabYm/O+ep90NtMv88wCgtWjoHWkfpgK4MJ7mRU01O7Vm/a3onaYvfM4NISdSSLLmHuw==
-  dependencies:
-    "@formatjs/intl-getcanonicallocales" "^1.2.7"
-    "@formatjs/intl-utils" "^3.5.0"
-
-"@formatjs/intl-displaynames@^2.2.3", "@formatjs/intl-displaynames@^2.2.9":
+"@formatjs/intl-displaynames@^2.2.3":
   version "2.2.9"
   resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-displaynames/-/intl-displaynames-2.2.9.tgz#4e2a15f50b3c77d52c80c46f4cb3db32fdf46aea"
   integrity sha512-MjjG9SXBre8WwqRHMtaX0wD9T4VvEiNp5U/K96GDE8rHzHxAdP8wKEqlau9ZP47O+bSi7JN5cOTAHoUBpMsn6Q==
   dependencies:
     "@formatjs/intl-utils" "^3.5.0"
 
-"@formatjs/intl-getcanonicallocales@^1.2.7":
-  version "1.4.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-getcanonicallocales/-/intl-getcanonicallocales-1.4.3.tgz#390288950eb2c17487dadb33340ab16cc14e18bc"
-  integrity sha512-GgQor2o9EFfM46fCHoLE02EW+Wvf3eIdwiwczqBN6rCY4vagROltKtLdCUyLfN0tK5pZmDSV78Gupa6plI2lfA==
+"@formatjs/intl-displaynames@^3.3.5":
+  version "3.3.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-displaynames/-/intl-displaynames-3.3.5.tgz#fbef275372bdb11b8e48207838387436084dc925"
+  integrity sha512-UJl/J/dkkN00lJaBBTrJVM9R+eg1jPrGcR8E3VueMMLFB2BIiYpz2td7bj9KNu9mMKPCidR4tG510wPkGr+2vA==
   dependencies:
-    cldr-core "36.0.0"
+    "@formatjs/ecma402-abstract" "^1.1.0"
 
-"@formatjs/intl-listformat@^2.2.9":
-  version "2.2.9"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-listformat/-/intl-listformat-2.2.9.tgz#b6b5eeff06c547fb0c8a03a28807edaf70318640"
-  integrity sha512-RC9wrQf7XXRP73Np1+WDR71HdT91mcdiNgH6m9HVFWa3tgv8rk43QJSMbehPqgcJ1l1pm6Uwm0wURAz8YJVX3A==
-  dependencies:
-    "@formatjs/intl-utils" "^3.5.0"
-
-"@formatjs/intl-numberformat@^4.2.11":
-  version "4.2.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-numberformat/-/intl-numberformat-4.2.11.tgz#b7d2446b5bb2e6d760d66d9d053e51c045439936"
-  integrity sha512-LiPrkg2sRZsH0F6XOz9Esgu+Ou6vux3QPiNDHKKrHL5T4pRbcethI9+vwttnY44FIVnTxjQdywkcJILLjgWPUw==
-  dependencies:
-    "@formatjs/intl-utils" "^3.5.0"
-
-"@formatjs/intl-numberformat@^5.5.2":
-  version "5.5.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-numberformat/-/intl-numberformat-5.5.5.tgz#ea7bc94a825dfd3ffb8020731a4ebcbcc22f0a1f"
-  integrity sha512-FuiiVK3hFWws5Wgco5IS8q8Dvi6I4oQ5645xk0cy28nx1K4QnGRvPSWhhRVE8sLr7v3PBm5bLpK52bf9cXoYlw==
+"@formatjs/intl-listformat@^4.2.4":
+  version "4.2.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-listformat/-/intl-listformat-4.2.4.tgz#2d9b2cad870648ea49098afad63887f369e1d8d9"
+  integrity sha512-Sq5Mujfal66XrO58xIbO95RSPhRln197PNDiLSgdIudM4o50TLevnKrmh3bkdCi6wYZXSdOvhQSpnFvX7TKu2Q==
   dependencies:
     "@formatjs/ecma402-abstract" "^1.1.0"
 
@@ -2145,12 +2123,19 @@
   dependencies:
     "@formatjs/intl-utils" "^3.5.0"
 
-"@formatjs/intl-relativetimeformat@^5.2.11", "@formatjs/intl-relativetimeformat@^5.2.3":
+"@formatjs/intl-relativetimeformat@^5.2.3":
   version "5.2.11"
   resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-5.2.11.tgz#a77ee656c7def637aa54056f7316c6c2501f926c"
   integrity sha512-Lf7SEIICJ4cGX1vFAMeyRQG8L1Pf18qfXXX4OWIswUnCyCcoIidLMvVN2xjrtB/OToc6mgZhhCTF35hRA0hl7Q==
   dependencies:
     "@formatjs/intl-utils" "^3.5.0"
+
+"@formatjs/intl-relativetimeformat@^7.2.4":
+  version "7.2.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-7.2.4.tgz#fa5fadfbdcc75ae553d152f39155e0bd5b7f3e37"
+  integrity sha512-hlGX73yZ3BmwOOAb9iGlWdeyO2Rvpp+mIE2+7qgvnR54RdIA0zwAg+osxS8FqU5YUfoAMcsP43q5Kz625WymRA==
+  dependencies:
+    "@formatjs/ecma402-abstract" "^1.1.0"
 
 "@formatjs/intl-utils@^3.5.0":
   version "3.8.4"
@@ -2158,6 +2143,19 @@
   integrity sha512-j5C6NyfKevIxsfLK8KwO1C0vvP7k1+h4A9cFpc+cr6mEwCc1sPkr17dzh0Ke6k9U5pQccAQoXdcNBl3IYa4+ZQ==
   dependencies:
     emojis-list "^3.0.0"
+
+"@formatjs/intl@^1.2.1":
+  version "1.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl/-/intl-1.2.1.tgz#a2a421b9c2b96a6f5fc590456526736fac600e73"
+  integrity sha512-Z4Dq3pWLSTwTKukEdJXTiySuoMItfUto5++hWVOzxVkJE0EaHzumZXSlUmHhtU+l4CjyxfYy/Fb9k2QTbGDNtg==
+  dependencies:
+    "@formatjs/ecma402-abstract" "^1.1.0"
+    "@formatjs/intl-displaynames" "^3.3.5"
+    "@formatjs/intl-listformat" "^4.2.4"
+    "@formatjs/intl-relativetimeformat" "^7.2.4"
+    fast-memoize "^2.5.2"
+    intl-messageformat "^9.3.5"
+    intl-messageformat-parser "^6.0.4"
 
 "@hot-loader/react-dom@^16.8.6":
   version "16.13.0"
@@ -2680,11 +2678,6 @@
   version "5.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/html-minifier-terser/-/html-minifier-terser-5.1.0.tgz#551a4589b6ee2cc9c1dff08056128aec29b94880"
   integrity sha512-iYCgjm1dGPRuo12+BStjd1HiVQqhlRhWDOQigNxn023HcjnhsiFz9pc6CzJj4HwDCSQca9bxTL4PxJDbkdm3PA==
-
-"@types/invariant@^2.2.31":
-  version "2.2.33"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/invariant/-/invariant-2.2.33.tgz#ec5eec29c63bf5e4ca164e9feb3ef7337cdcbadb"
-  integrity sha512-/jUNmS8d4bCKdqslfxW6dg/9Gksfzxz67IYfqApHn+HvHlMVXwYv2zpTDnS/yaK9BB0i0GlBTaYci0EFE62Hmw==
 
 "@types/json-schema@^7.0.4":
   version "7.0.5"
@@ -4335,11 +4328,6 @@ classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
-
-cldr-core@36.0.0:
-  version "36.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/cldr-core/-/cldr-core-36.0.0.tgz#1d2148ed6802411845baeeb21432d7bbfde7d4f7"
-  integrity sha512-QLnAjt20rZe38c8h8OJ9jPND+O4o5O8Nw0TK/P3KpNn1cmOhMu0rk6Kc3ap96c5OStQ9gAngs9+Be2sum26NOw==
 
 clean-css@^4.2.3:
   version "4.2.3"
@@ -6409,6 +6397,11 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.6:
   resolved "https://repository.folio.org/repository/npm-ci-all/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-memoize@^2.5.2:
+  version "2.5.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/fast-memoize/-/fast-memoize-2.5.2.tgz#79e3bb6a4ec867ea40ba0e7146816f6cdce9b57e"
+  integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
+
 fast-xml-parser@^3.12.10:
   version "3.17.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/fast-xml-parser/-/fast-xml-parser-3.17.4.tgz#d668495fb3e4bbcf7970f3c24ac0019d82e76477"
@@ -7773,25 +7766,20 @@ interpret@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
 
-intl-format-cache@^4.2.43:
-  version "4.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-format-cache/-/intl-format-cache-4.3.1.tgz#484d31a9872161e6c02139349b259a6229ade377"
-  integrity sha512-OEUYNA7D06agqPOYhbTkl0T8HA3QKSuwWh1HiClEnpd9vw7N+3XsQt5iZ0GUEchp5CW1fQk/tary+NsbF3yQ1Q==
-
-intl-messageformat-parser@^5.2.1:
-  version "5.5.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat-parser/-/intl-messageformat-parser-5.5.1.tgz#f09a692755813e6220081e3374df3fb1698bd0c6"
-  integrity sha512-TvB3LqF2VtP6yI6HXlRT5TxX98HKha6hCcrg9dwlPwNaedVNuQA9KgBdtWKgiyakyCTYHQ+KJeFEstNKfZr64w==
+intl-messageformat-parser@^6.0.4:
+  version "6.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat-parser/-/intl-messageformat-parser-6.0.4.tgz#487a16ad58ee681ae67a3e86bae76ae7b7e7e03c"
+  integrity sha512-jdD/LbP0xI9N0/ce/U3yzxvKIlXTQHOj1bvj56K7+hnJD3hoD1pOuvMf3393wmze952RVD5poRfQpoTjy4CajA==
   dependencies:
-    "@formatjs/intl-numberformat" "^5.5.2"
+    "@formatjs/ecma402-abstract" "^1.1.0"
 
-intl-messageformat@^8.4.1:
-  version "8.4.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-8.4.1.tgz#f31c811efc561700b61ab4ee4716b870787c0fe5"
-  integrity sha512-N4jLt0KebfqXZZZQRwBwZMrqwccHzZnN6KSeUsfidIoHMPIlLIgq08KcYsn7bZS6adh1KKH4/99VODWDDDu85Q==
+intl-messageformat@^9.3.5:
+  version "9.3.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-9.3.5.tgz#8b8fdfcf5d20e85682da24d4f709ef5903742310"
+  integrity sha512-tLut2QoEf+8XBMHdInTIl5AYbLdpyjap28R9MqvAlXrJh0TbB8MYb5un2lRnmIwJdbBKcVrLPp397WjKe2O2cA==
   dependencies:
-    intl-format-cache "^4.2.43"
-    intl-messageformat-parser "^5.2.1"
+    fast-memoize "^2.5.2"
+    intl-messageformat-parser "^6.0.4"
 
 invariant@2.2.4, invariant@^2.1.0, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -11713,23 +11701,21 @@ react-hot-loader@^4.0.0, react-hot-loader@^4.3.10, react-hot-loader@^4.3.12:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-intl@^4.7.2:
-  version "4.7.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-4.7.6.tgz#7538df3412ca5aae882ce709b1e0ba291a41a282"
-  integrity sha512-esfz1/WAZjN7WixC1ZiRDWrvH+OSdZ6ZcRYguEqeS69lycj/x8L3ckzF0+5cmbkJGvBLG5ppFZ6DOO0mCk8gUw==
+react-intl@^5.7.0:
+  version "5.7.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-5.7.1.tgz#d3599285ca5eab68620cdd14fbc8c09a264a12b2"
+  integrity sha512-zBMBJBZMxaa3e2EHAe3oWug38fp2mmcW8KZwnf/fa4uwR4/Ct/PtHYtQ8yZC1VSIE8hGih6COWj7dKjNK2JPIQ==
   dependencies:
-    "@formatjs/intl-datetimeformat" "^1.3.3"
-    "@formatjs/intl-displaynames" "^2.2.9"
-    "@formatjs/intl-listformat" "^2.2.9"
-    "@formatjs/intl-numberformat" "^4.2.11"
-    "@formatjs/intl-relativetimeformat" "^5.2.11"
-    "@formatjs/intl-utils" "^3.5.0"
+    "@formatjs/ecma402-abstract" "^1.1.0"
+    "@formatjs/intl" "^1.2.1"
+    "@formatjs/intl-displaynames" "^3.3.5"
+    "@formatjs/intl-listformat" "^4.2.4"
+    "@formatjs/intl-relativetimeformat" "^7.2.4"
     "@types/hoist-non-react-statics" "^3.3.1"
-    "@types/invariant" "^2.2.31"
+    fast-memoize "^2.5.2"
     hoist-non-react-statics "^3.3.2"
-    intl-format-cache "^4.2.43"
-    intl-messageformat "^8.4.1"
-    intl-messageformat-parser "^5.2.1"
+    intl-messageformat "^9.3.5"
+    intl-messageformat-parser "^6.0.4"
     shallow-equal "^1.2.1"
 
 react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6, react-is@^16.9.0:
