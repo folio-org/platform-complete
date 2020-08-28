@@ -17,6 +17,16 @@
   "patch": {
     "enabled": true
   },
+
+  "regexManagers": [
+    { 
+      "fileMatch": [ "^install-extras.json$" ],
+      "matchStrings": [ "\\\"(?<moduleName>(mod|edge)-.*?)-(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+?)\\\"" ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "folioorg/{{{moduleName}}}"
+    }
+  ],
+
  
   "packageRules": [
     { 
