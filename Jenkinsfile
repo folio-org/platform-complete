@@ -77,13 +77,18 @@ pipeline {
           }
           steps {
             script {
-              echo "Creating install-pre.json list"
+              echo "Creating okapi preseed module list."
               sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
               def installPreJson = readFile('./install-pre.json')
               platformDepCheck(env.tenant,installPreJson)
               echo 'Generating backend dependency list to okapi-install.json'
               sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
               sh 'cat okapi-install.json'
+              echo "Append edge modules to final stripes-install.json."
+              sh 'mv stripes-install.json stripes-install-pre.json'
+              sh 'jq \'map(select(.id | test(\"edge-\"; \"i\")))\' install.json > install-edge.json'
+              sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-edge.json > stripes-install.json'
+              sh 'cat stripes-install.json'
             }
             // archive install.json
             sh 'mkdir -p ci'
