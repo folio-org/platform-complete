@@ -47,6 +47,7 @@ module.exports = {
     '@folio/plugin-find-interface' : {},
     '@folio/plugin-find-license' : {},
     '@folio/plugin-find-organization' : {},
+    '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
     '@folio/quick-marc' : {},
