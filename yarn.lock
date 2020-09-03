@@ -995,7 +995,7 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5", "@babel/runtime@^7.10.0", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5", "@babel/runtime@^7.10.0", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.11.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
@@ -1177,9 +1177,9 @@
     react-hot-loader "^4.3.12"
 
 "@folio/data-export@>=1.0.0":
-  version "2.0.1000144"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-2.0.1000144.tgz#afe1277c02fb1780e772050d11b9618d55874f9f"
-  integrity sha512-0XErURW3rxw8F9N2b4nA+Nk2sO4LhdOAF3XRwdHBkUWlWl1w4UAngJq0zvcUFtdFARToQKs9enlu1toPVj7XVA==
+  version "2.0.1000145"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-2.0.1000145.tgz#d93b3ffde5ff3a21333b2417aa8d565444ecdf1e"
+  integrity sha512-8N2kWeB14d7TUB1y2gQxtY6Vk63J+4DQnimduJLMRgefeYkYvL2AQ0lJzc5uLBQRQXwiuPEyZ07gppEykPN4Vw==
   dependencies:
     "@folio/stripes-data-transfer-components" "^2.0.0"
     classnames "^2.2.5"
@@ -1188,6 +1188,7 @@
     react-final-form "^6.3.5"
     react-final-form-arrays "^3.1.1"
     react-router-prop-types "^1.0.4"
+    react-window "^1.8.5"
     redux-form "^7.0.3"
 
 "@folio/data-import@>=0.0.0", "@folio/data-import@^3.0.0":
@@ -9321,15 +9322,15 @@ media-typer@0.3.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+"memoize-one@>=3.1.1 <6", memoize-one@^5.0.0, memoize-one@^5.0.4, memoize-one@^5.1.1:
+  version "5.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
+  integrity sha512-HKeeBpWvqiVJD57ZUAsJNm71eHTykffzcLZVYWiVfQeI1rJtuEaS7hQiEpWfVVk18donPwJEcFKIkCmPJNOhHA==
+
 memoize-one@^4.0.0, memoize-one@^4.0.3:
   version "4.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/memoize-one/-/memoize-one-4.1.0.tgz#a2387c58c03fff27ca390c31b764a79addf3f906"
   integrity sha512-2GApq0yI/b22J2j9rhbrAlsHb0Qcz+7yWxeLG8h+95sl1XPUgeLimQSOdur4Vw7cUhrBHwaUZxWFZueojqNRzA==
-
-memoize-one@^5.0.0, memoize-one@^5.0.4, memoize-one@^5.1.1:
-  version "5.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
-  integrity sha512-HKeeBpWvqiVJD57ZUAsJNm71eHTykffzcLZVYWiVfQeI1rJtuEaS7hQiEpWfVVk18donPwJEcFKIkCmPJNOhHA==
 
 memory-fs@^0.2.0:
   version "0.2.0"
@@ -11943,6 +11944,14 @@ react-virtualized-auto-sizer@^1.0.2:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.2.tgz#a61dd4f756458bbf63bd895a92379f9b70f803bd"
   integrity sha512-MYXhTY1BZpdJFjUovvYHVBmkq79szK/k7V3MO+36gJkWGkrXKtyr4vCPtpphaTLRAdDNoYEYFZWE8LjN+PIHNg==
+
+react-window@^1.8.5:
+  version "1.8.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-window/-/react-window-1.8.5.tgz#a56b39307e79979721021f5d06a67742ecca52d1"
+  integrity sha512-HeTwlNa37AFa8MDZFZOKcNEkuF2YflA0hpGPiTT9vR7OawEt+GZbfM6wqkBahD3D3pUjIabQYzsnY/BSJbgq6Q==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    memoize-one ">=3.1.1 <6"
 
 react@~16.13.1:
   version "16.13.1"
