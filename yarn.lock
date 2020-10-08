@@ -1409,9 +1409,9 @@
     react-final-form-arrays "^3.1.1"
 
 "@folio/marccat@>=1.8.5":
-  version "3.0.1000408"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marccat/-/marccat-3.0.1000408.tgz#4294f44fdfc5b3cb51cf7379659ead21faaf5245"
-  integrity sha512-ma0o4mMZ1Cf1WT5q+QIU5JpO8rrak5oxcLCV18dXPydmE3rA4NSwJjtMdBCzHeDBv1vQQhAhQR6mvu8g6CsteA==
+  version "3.0.1000409"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marccat/-/marccat-3.0.1000409.tgz#5e766b081324a7e0cccdd90766d7a0cf2445a07b"
+  integrity sha512-oA4ZhrqOrvWboLVgUSbHWhxMGDV2hSPpfM5V5om7iFBr13ziRKpoTU8icrHw6M1nBaTJlqUc484TcFlVk/ouzQ==
   dependencies:
     babel-plugin-transform-class-properties "^6.24.1"
     classnames "^2.2.5"
@@ -1424,7 +1424,7 @@
     react-final-form "^6.3.0"
     react-hot-loader "^4.3.12"
     redux-actions "^2.2.1"
-    redux-observable "^0.15.0"
+    redux-observable "^0.19.0"
 
 "@folio/myprofile@>=1.1.0":
   version "4.0.1000101"
@@ -6973,6 +6973,11 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
+gitbook-plugin-github@^2.0.0:
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/gitbook-plugin-github/-/gitbook-plugin-github-2.0.0.tgz#5166e763cfcc402d432880b7a6c85c1c54b56a8d"
+  integrity sha1-UWbnY8/MQC1DKIC3pshcHFS1ao0=
+
 github-from-package@0.0.0:
   version "0.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
@@ -12123,6 +12128,13 @@ redux-observable@^0.15.0:
   version "0.15.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/redux-observable/-/redux-observable-0.15.0.tgz#8c01231f022073b653ae4bc6c6fd53c38e1c46fb"
   integrity sha512-nZZm3YNj94H3eRWMdy/I/89BV+F3NKWWAs1hoGyuR1CcpTcAYjpEd/gG6YDoDs5aiOw69ggGXIEjzpLQR3AVdA==
+
+redux-observable@^0.19.0:
+  version "0.19.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/redux-observable/-/redux-observable-0.19.0.tgz#6c1b8b58bc6ef7284c47aaad26963e02b1b425fb"
+  integrity sha512-OdYdKKQ+sgnoAE2SA3KW4Qolb5iVlTUch53qc61+WAiN2c3uPfBxFNGkxAl5fXpEAh75d1RlAfJNa+CPBkMZQA==
+  dependencies:
+    gitbook-plugin-github "^2.0.0"
 
 redux-thunk@^2.1.0:
   version "2.3.0"
