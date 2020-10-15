@@ -28,6 +28,7 @@ module.exports = {
     '@folio/oai-pmh' : {},
     '@folio/orders': {},
     '@folio/organizations' : {},
+    '@folio/plugin-create-inventory-record' : {},
     '@folio/plugin-create-item': {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-contact': {},
