@@ -51,7 +51,6 @@ module.exports = {
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-acq-components' : {},
-    '@folio/stripes-data-transfer-components' : {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings' : {},
