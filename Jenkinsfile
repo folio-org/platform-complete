@@ -1,4 +1,4 @@
-@Library ('folio_jenkins_shared_libs@FOLIO-2836-pin-okapi') _
+@Library ('folio_jenkins_shared_libs') _
 
 
 pipeline {
