@@ -84,7 +84,7 @@ pipeline {
               sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
               def installPreJson = readFile('./install-pre.json')
               def okapiVersion = sh returnStdout: true, script: 'jq -r \'.[].id\' install-extras.json | grep okapi | cut -d - -f 2'
-              platformDepCheck(env.tenant,installPreJson,OkapiVersion)
+              platformDepCheck(env.tenant,installPreJson,okapiVersion)
               echo 'Generating backend dependency list to okapi-install.json'
               sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
               sh 'cat okapi-install.json'
