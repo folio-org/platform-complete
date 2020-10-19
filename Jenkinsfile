@@ -1,4 +1,4 @@
-@Library ('folio_jenkins_shared_libs') _
+@Library ('folio_jenkins_shared_libs@FOLIO-2836-pin-okapi') _
 
 
 pipeline {
@@ -83,7 +83,8 @@ pipeline {
               echo "Creating okapi preseed module list."
               sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
               def installPreJson = readFile('./install-pre.json')
-              platformDepCheck(env.tenant,installPreJson)
+              def okapiVersion = sh returnStdout: true, script: 'jq -r \'.[].id\' install-extras.json | grep okapi | cut -d - -f 2'
+              platformDepCheck(env.tenant,installPreJson,OkapiVersion)
               echo 'Generating backend dependency list to okapi-install.json'
               sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
               sh 'cat okapi-install.json'
