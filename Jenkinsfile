@@ -65,6 +65,9 @@ pipeline {
             echo "Okapi URL: ${env.okapiUrl}"
             echo "Tenant: ${env.tenant}"
 
+            // Remove existing .yarnrc on build image for release builds.
+            // Use repo configuration.
+            sh 'rm -f /home/jenkins/.yarnrc'
             buildStripesPlatform(env.okapiUrl,env.tenant)
           }
         }
@@ -80,7 +83,8 @@ pipeline {
               echo "Creating okapi preseed module list."
               sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
               def installPreJson = readFile('./install-pre.json')
-              platformDepCheck(env.tenant,installPreJson)
+              def okapiVersion = sh(returnStdout: true, script: 'jq -r \'.[].id\' install-extras.json | grep okapi | cut -d - -f 2').trim()
+              platformDepCheck(env.tenant,installPreJson,okapiVersion)
               echo 'Generating backend dependency list to okapi-install.json'
               sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
               sh 'cat okapi-install.json'
