@@ -65,6 +65,9 @@ pipeline {
             echo "Okapi URL: ${env.okapiUrl}"
             echo "Tenant: ${env.tenant}"
 
+            // Remove existing .yarnrc on build image for release builds.
+            // Use repo configuration.
+            sh 'rm -f /home/jenkins/.yarnrc'
             buildStripesPlatform(env.okapiUrl,env.tenant)
           }
         }
