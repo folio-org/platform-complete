@@ -4,7 +4,7 @@ stages:
       - publishImageConfig:
           dockerfilePath: ./docker/Dockerfile
           buildContext: ./
-          tag: docker.dev.folio.org/platform-complete:spitfire-latest
+          tag: docker.dev.folio.org/platform-complete:spitfire-${CICD_EXECUTION_SEQUENCE}
           pushRemote: true
           registry: docker.dev.folio.org
         env:
@@ -25,7 +25,7 @@ stages:
           version: 0.1.7
           answers:
             image.repository: docker.dev.folio.org/platform-complete
-            image.tag: spitfire-latest
+            image.tag: spitfire-${CICD_EXECUTION_SEQUENCE}
             ingress.enabled: true
             ingress.hosts[0].host: spitfire.ci.folio.org
             ingress.hosts[0].paths[0]: /
