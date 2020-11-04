@@ -44,7 +44,6 @@ module.exports = {
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-organization': {},
-    '@folio/plugin-find-po-line': {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
     '@folio/requests' : {},
