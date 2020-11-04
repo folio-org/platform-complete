@@ -1366,6 +1366,21 @@
     "@folio/plugin-find-organization" "*"
     "@folio/plugin-find-po-line" "*"
 
+"@folio/ldp@>=1.1.0":
+  version "1.1.100013"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/ldp/-/ldp-1.1.100013.tgz#e742dcdcfb4859d8cd862871afb70f3abb5330e0"
+  integrity sha512-K7OAh4tJeAWF5n4gPy08iG6mhig52Lnspq1xKYRD22tFMfmgD2XcFWlBUocZ3E5kIp2b0qlEWHULBBtymj2ggQ==
+  dependencies:
+    chart.js "^2.9.3"
+    final-form "^4.20.1"
+    final-form-arrays "^3.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.get "^4.4.2"
+    prop-types "^15.6.0"
+    react-final-form "^6.5.1"
+    react-final-form-arrays "^3.1.2"
+    uuid "^8.3.1"
+
 "@folio/licenses@>=2.0.0":
   version "5.1.1000339"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-5.1.1000339.tgz#5c7bed9d61869da05e102abf023e66f1fdd341da"
@@ -4200,6 +4215,29 @@ chardet@^0.7.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
+chart.js@^2.9.3:
+  version "2.9.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chart.js/-/chart.js-2.9.4.tgz#0827f9563faffb2dc5c06562f8eb10337d5b9684"
+  integrity sha512-B07aAzxcrikjAPyV+01j7BmOpxtQETxTSlQ26BEYJ+3iUkbNKaOJ/nDbT6JjyqYxseM0ON12COHYdU2cTIjC7A==
+  dependencies:
+    chartjs-color "^2.1.0"
+    moment "^2.10.2"
+
+chartjs-color-string@^0.6.0:
+  version "0.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chartjs-color-string/-/chartjs-color-string-0.6.0.tgz#1df096621c0e70720a64f4135ea171d051402f71"
+  integrity sha512-TIB5OKn1hPJvO7JcteW4WY/63v6KwEdt6udfnDE9iCAZgy+V4SrbSxoIbTw/xkUIapjEI4ExGtD0+6D3KyFd7A==
+  dependencies:
+    color-name "^1.0.0"
+
+chartjs-color@^2.1.0:
+  version "2.4.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chartjs-color/-/chartjs-color-2.4.1.tgz#6118bba202fe1ea79dd7f7c0f9da93467296c3b0"
+  integrity sha512-haqOg1+Yebys/Ts/9bLo/BqUcONQOdr/hoEr2LLTRl6C5LXctUdHxsCYfvQVg5JIxITrfCNUDr4ntqmQk9+/0w==
+  dependencies:
+    chartjs-color-string "^0.6.0"
+    color-convert "^1.9.3"
+
 check-types@^8.0.3:
   version "8.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
@@ -4414,7 +4452,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.3.0, color-convert@^1.9.0, color-convert@^1.9.1:
+color-convert@^1.3.0, color-convert@^1.9.0, color-convert@^1.9.1, color-convert@^1.9.3:
   version "1.9.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   integrity sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==
@@ -6565,7 +6603,7 @@ final-form@4.18.2:
   dependencies:
     "@babel/runtime" "^7.3.1"
 
-final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.1:
+final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.1, final-form@^4.20.1:
   version "4.20.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.20.1.tgz#525a7f7f27f55c28d8994b157b24d6104fc560e9"
   integrity sha512-IIsOK3JRxJrN72OBj7vFWZxtGt3xc1bYwJVPchjVWmDol9DlzMSAOPB+vwe75TUYsw1JaH0fTQnIgwSQZQ9Acg==
@@ -9608,7 +9646,7 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17, moment-timezone@^0.5.20:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.25.3, moment@~2.24.0, moment@~2.29.0:
+"moment@>= 2.9.0", moment@^2.10.2, moment@^2.25.3, moment@~2.24.0, moment@~2.29.0:
   version "2.29.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
@@ -14105,6 +14143,11 @@ uuid@^3.0.0, uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^8.3.1:
+  version "8.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
+  integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
 
 v8-compile-cache@^2.0.3:
   version "2.2.0"
