@@ -28,6 +28,7 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/invoice' : {},
     '@folio/finance' : {},
+    '@folio/ldp' : {},
     '@folio/licenses' : {},
     '@folio/local-kb-admin': {},
     '@folio/marccat' : {},
