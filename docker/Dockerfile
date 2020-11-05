@@ -7,11 +7,14 @@ RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes
 
 COPY . /etc/folio/stripes/
+WORKDIR /etc/folio/stripes/platform-complete
 
 RUN apk add --no-cache alpine-sdk python
 RUN yarn config set python /usr/bin/python
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
+RUN npm config set @folio:registry https://repository.folio.org/repository/npm-folioci/
+RUN yarn config list
 RUN yarn install
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
