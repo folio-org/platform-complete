@@ -21,8 +21,8 @@ stages:
   - name: Deploy
     steps:
       - applyAppConfig:
-          catalogTemplate: p-2whxd:spitfire-helmcharts-platform-complete
-          version: 0.1.10
+          catalogTemplate: p-htqfq:spitfire-helmcharts-platform-complete
+          version: 0.1.13
           answers:
             image.repository: docker.dev.folio.org/platform-complete
             image.tag: spitfire-${CICD_EXECUTION_SEQUENCE}
