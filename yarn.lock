@@ -1849,9 +1849,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "@folio/stripes-core@~7.0.0":
-  version "7.0.1000805"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000805.tgz#ba7605facbe0245678649537d8242d33eb63c387"
-  integrity sha512-0wgXcY67gNIRwQ9myVMfRSXODOEw8pCt5tSmgzIvsK0WVcubQTBLjnKsuPC/2cZXk+0jMoQy3mj+G6xszdQoPg==
+  version "7.0.1000806"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000806.tgz#8b4a33d02fc2069a00f3b67ce9c36389e9bb3bc5"
+  integrity sha512-tHssaufHi1xxFKhpLhQ1sogyG/5vik2Vc1ok4XJofM4ywoEw8OoGKq/Hz5yg5zamLmW4ZpTsNJ1zGdnhSyXVCw==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@babel/core" "^7.8.0"
@@ -1912,7 +1912,7 @@
     postcss-calc "^6.0.0"
     postcss-color-function "^4.0.0"
     postcss-custom-media "^6.0.0"
-    postcss-custom-properties "^9.1.1"
+    postcss-custom-properties "^10.0.0"
     postcss-import "^12.0.0"
     postcss-loader "^3.0.0"
     postcss-media-minmax "^3.0.0"
@@ -8451,11 +8451,6 @@ ip-regex@^2.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
   integrity sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk=
 
-ip-regex@^4.1.0:
-  version "4.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ip-regex/-/ip-regex-4.2.0.tgz#a03f5eb661d9a154e3973a03de8b23dd0ad6892e"
-  integrity sha512-n5cDDeTWWRwK1EBoWwRti+8nP4NbytBBY0pldmnIkq6Z55KNFmWofh4rl9dPZpj+U/nVq7gweR3ylrvMt4YZ5A==
-
 ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
@@ -8855,12 +8850,10 @@ is-typedarray@^1.0.0, is-typedarray@~1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
 
-is-url-superb@^3.0.0:
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/is-url-superb/-/is-url-superb-3.0.0.tgz#b9a1da878a1ac73659047d1e6f4ef22c209d3e25"
-  integrity sha512-3faQP+wHCGDQT1qReM5zCPx2mxoal6DzbzquFlCYJLWyy4WPTved33ea2xFbX37z4NoriEwZGIYhFtx8RUB5wQ==
-  dependencies:
-    url-regex "^5.0.0"
+is-url-superb@^4.0.0:
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/is-url-superb/-/is-url-superb-4.0.0.tgz#b54d1d2499bb16792748ac967aa3ecb41a33a8c2"
+  integrity sha512-GI+WjezhPPcbM+tqE9LnmsY5qqjwHzTvjJ36wxYX5ujNXefSUJ/T17r5bqDV8yLhcgB59KTPNOc9O9cmHTPWsA==
 
 is-utf8@^0.2.0:
   version "0.2.1"
@@ -11964,13 +11957,13 @@ postcss-custom-media@^6.0.0:
   dependencies:
     postcss "^6.0.1"
 
-postcss-custom-properties@^9.1.1:
-  version "9.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-properties/-/postcss-custom-properties-9.2.0.tgz#80bae0d6e0c510245ace7ede95ac527712ea24e7"
-  integrity sha512-IFRV7LwapFkNa3MtvFpw+MEhgyUpaVZ62VlR5EM0AbmnGbNhU9qIE8u02vgUbl1gLkHK6sterEavamVPOwdE8g==
+postcss-custom-properties@^10.0.0:
+  version "10.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-properties/-/postcss-custom-properties-10.0.0.tgz#5cb31afc530f58ad241f1e836dd5f5f7065334df"
+  integrity sha512-55BPj5FudpCiPZzBaO+MOeqmwMDa+nV9/0QBJBfhZjYg6D9hE+rW9lpMBLTJoF4OTXnS5Po4yM1nMlgkPbCxFg==
   dependencies:
     postcss "^7.0.17"
-    postcss-values-parser "^3.0.5"
+    postcss-values-parser "^4.0.0"
 
 postcss-discard-comments@^4.0.2:
   version "4.0.2"
@@ -12318,15 +12311,14 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
 
-postcss-values-parser@^3.0.5:
-  version "3.2.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-values-parser/-/postcss-values-parser-3.2.1.tgz#55114607de6631338ba8728d3e9c15785adcc027"
-  integrity sha512-SQ7/88VE9LhJh9gc27/hqnSU/aZaREVJcRVccXBmajgP2RkjdJzNyH/a9GCVMI5nsRhT0jC5HpUMwfkz81DVVg==
+postcss-values-parser@^4.0.0:
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-values-parser/-/postcss-values-parser-4.0.0.tgz#3b4625e649279613f52842f1c81f2064321beec7"
+  integrity sha512-R9x2D87FcbhwXUmoCXJR85M1BLII5suXRuXibGYyBJ7lVDEpRIdKZh4+8q5S+/+A4m0IoG1U5tFw39asyhX/Hw==
   dependencies:
     color-name "^1.1.4"
-    is-url-superb "^3.0.0"
+    is-url-superb "^4.0.0"
     postcss "^7.0.5"
-    url-regex "^5.0.0"
 
 postcss@^6.0.1, postcss@^6.0.22, postcss@^6.0.23:
   version "6.0.23"
@@ -15042,11 +15034,6 @@ tinycolor2@^1.1.2, tinycolor2@^1.4.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
-tlds@^1.203.0:
-  version "1.216.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tlds/-/tlds-1.216.0.tgz#9749abcbe1bafb4f7b22d44391bd7bf64fa8a435"
-  integrity sha512-y9A+eMRKLdAOclcFRTk3durpvCWiEdWcQhCOopCO654pckH9+o5Z5VgBsTTAFqtyxB8yFRXSG1q7BCCeHyrm0w==
-
 tmp@0.0.33, tmp@0.0.x, tmp@^0.0.33:
   version "0.0.33"
   resolved "https://repository.folio.org/repository/npm-ci-all/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -15508,14 +15495,6 @@ url-regex@^3.0.0:
   integrity sha1-260eDJ4p4QXdCx8J9oYvf9tIJyQ=
   dependencies:
     ip-regex "^1.0.1"
-
-url-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/url-regex/-/url-regex-5.0.0.tgz#8f5456ab83d898d18b2f91753a702649b873273a"
-  integrity sha512-O08GjTiAFNsSlrUWfqF1jH0H1W3m35ZyadHrGv5krdnmPPoxP27oDTqux/579PtaroiSGm5yma6KT1mHFH6Y/g==
-  dependencies:
-    ip-regex "^4.1.0"
-    tlds "^1.203.0"
 
 url@^0.11.0:
   version "0.11.0"
