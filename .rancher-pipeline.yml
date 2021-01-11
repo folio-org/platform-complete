@@ -4,7 +4,7 @@ stages:
       - publishImageConfig:
           dockerfilePath: ./docker/Dockerfile
           buildContext: ./
-          tag: docker.dev.folio.org/platform-complete:folijet-latest
+          tag: docker.dev.folio.org/platform-complete:folijet-${CICD_EXECUTION_SEQUENCE}
           pushRemote: true
           registry: docker.dev.folio.org
         env:
@@ -21,11 +21,11 @@ stages:
   - name: Deploy
     steps:
       - applyAppConfig:
-          catalogTemplate: p-mf42h:folijet-helmcharts-platform-complete
-          version: 0.1.7
+          catalogTemplate: p-gh7sb:folijet-helmcharts-platform-complete
+          version: 0.1.13
           answers:
             image.repository: docker.dev.folio.org/platform-complete
-            image.tag: folijet-latest
+            image.tag: folijet-${CICD_EXECUTION_SEQUENCE}
             ingress.enabled: true
             ingress.hosts[0].host: folijet.ci.folio.org
             ingress.hosts[0].paths[0]: /
