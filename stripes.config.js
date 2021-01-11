@@ -31,7 +31,6 @@ module.exports = {
     '@folio/ldp' : {},
     '@folio/licenses' : {},
     '@folio/local-kb-admin': {},
-    '@folio/marccat' : {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/oai-pmh' : {},
