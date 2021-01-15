@@ -1169,9 +1169,9 @@
     "@folio/plugin-create-inventory-records" "^2.0.0"
 
 "@folio/data-export@>=1.0.0":
-  version "3.0.2000213"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-3.0.2000213.tgz#a9972dcbe845b9b0174e22dffaf1d25e0a6334b1"
-  integrity sha512-gDqQi+XyEj087F8WBub4Z4Yk3ye/QOhqwP16QtEnrFcyT/P8HUIDBudfaKPxtEMotfadoSNtT/4drZYRYxCgZQ==
+  version "3.0.2000214"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-3.0.2000214.tgz#07915a9ced0d7082cc2d60d359aaf7d3dbaf4100"
+  integrity sha512-qxDFK2PrF02s9P2TOggrxqXoy0/vFU/6QtOeqR4H2sHmB18XqZzvKaXnpw/ImE6Ad8MjMXTIzKlcYKf/oAPjYg==
   dependencies:
     "@folio/stripes-data-transfer-components" "^3.0.0"
     classnames "^2.2.5"
@@ -4468,7 +4468,7 @@ caching-transform@^3.0.2:
     package-hash "^3.0.0"
     write-file-atomic "^2.4.2"
 
-call-bind@^1.0.0:
+call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
   integrity sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==
@@ -6227,7 +6227,7 @@ error-ex@^1.2.0, error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
+es-abstract@^1.17.2:
   version "1.17.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/es-abstract/-/es-abstract-1.17.7.tgz#a4de61b2f66989fc7421676c1cb9787573ace54c"
   integrity sha512-VBl/gnfcJ7OercKA9MVaegWsBHFjV492syMudcnQZvt/Dw8ezpcOHYZXa/J96O8vx+g4x65YKhxOwDUh63aS5g==
@@ -13223,12 +13223,12 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     safe-regex "^1.1.0"
 
 regexp.prototype.flags@^1.2.0:
-  version "1.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/regexp.prototype.flags/-/regexp.prototype.flags-1.3.0.tgz#7aba89b3c13a64509dabcf3ca8d9fbb9bdf5cb75"
-  integrity sha512-2+Q0C5g951OlYlJz6yu5/M33IcsESLlLfsyIaLJaG4FA2r4yP8MvVMJUUP/fVBkSpbbbZlS5gynbEWLipiiXiQ==
+  version "1.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/regexp.prototype.flags/-/regexp.prototype.flags-1.3.1.tgz#7ef352ae8d159e758c0eadca6f8fcb4eef07be26"
+  integrity sha512-JiBdRBq91WlY7uRJ0ds7R+dU02i6LKi8r3BuQhNXn+kmeLN+EfHhfjqMRis1zJxnlu88hq/4dx0P2OP3APRTOA==
   dependencies:
+    call-bind "^1.0.2"
     define-properties "^1.1.3"
-    es-abstract "^1.17.0-next.1"
 
 regexpp@^2.0.1:
   version "2.0.1"
