@@ -5,4 +5,6 @@
 * Add `ui-plugin-create-inventory-records` to the list of dependencies and modules.
 * Update `react-intl` to `^5.7.0`, STRIPES-694
 * Update `moment` to `~2.29.0`. STRIPES-702
+* Update `redux` to `^4.0`, `react-redux` to `^7.2`. Refs STRIPES-721.
+
 
