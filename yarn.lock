@@ -1189,10 +1189,10 @@
     react-hot-loader "^4.3.12"
     redux-form "^7.0.3"
 
-"@folio/eholdings@5.0.3":
-  version "5.0.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/eholdings/-/eholdings-5.0.3.tgz#a07c1b4db1f47f8510108aafb1b617879b4054b3"
-  integrity sha512-q1fwxn2NaBjyxx1NJKqwkbotGIgS3H0v2YoV6VyxRGJ8wOPTpFiGOQwHVJDayqx/8LAdwRI8v1XnoatcnfS/Ug==
+"@folio/eholdings@5.0.4":
+  version "5.0.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/eholdings/-/eholdings-5.0.4.tgz#7edc7f760afc30625308ca200d1500faf23838b9"
+  integrity sha512-GsLyEzZMpQgHnewQ/XMxkKa3RFPE3VzMkE+jzzVo426LvEPEPZtprQ8P7U+Svza/cXqr5ObzE01EXMoPWcJ9Ag==
   dependencies:
     classnames "^2.2.5"
     final-form "4.18.2"
@@ -1277,10 +1277,10 @@
     react-final-form-listeners "^1.0.2"
     redux-form "^7.4.2"
 
-"@folio/inventory@5.0.5":
-  version "5.0.5"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-5.0.5.tgz#3cbb4234c4a7cb93972a4d6a2fd278347e18d877"
-  integrity sha512-/TKYg06X9XWAKFbbrsdt+Wt5oJM1NbiGEtytyowH9D1rljQ9s/IKYTDD8kkRaXOXx4CRtHGLheb3NLhPGQ7YnQ==
+"@folio/inventory@5.0.6":
+  version "5.0.6"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-5.0.6.tgz#c606415d66ea11856484d1e7c2fd3f8b0d85b68a"
+  integrity sha512-/cL0T2sD6AVC6x3b2e+MtgHuszgg0UD5OZi6OmHHH8jQpIsivH6XYhc2yvsLUsD4xTiADV+/CrSqewfoiD6FVg==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     file-saver "^2.0.0"
@@ -1303,12 +1303,12 @@
     "@folio/plugin-find-instance" "^4.0.0"
     "@folio/quick-marc" "^2.0.0"
 
-"@folio/invoice@2.2.2":
-  version "2.2.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/invoice/-/invoice-2.2.2.tgz#b19b6fb3a4d9ef7873f19c63cb2969c8f94287b7"
-  integrity sha512-5CFffbYfot4zlNvJI7opsMq3geVSZtWGd39co+FksBBFuB5ctCuzoyPn+wYX3NtQhlizT3VHYW+tLe9aHyEEmA==
+"@folio/invoice@2.2.3":
+  version "2.2.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/invoice/-/invoice-2.2.3.tgz#ed4e8c544e55bb23b5f46674817da7d74ed4117d"
+  integrity sha512-/wkOReo3zYpY96tBfDvIf8sINKJ1uy+C5ILK2XNNXMgLJMSeT/hzIrFyoLgJ7Igq4PtOw4NUl9fnN2audfiVrw==
   dependencies:
-    "@folio/stripes-acq-components" "^2.2.2"
+    "@folio/stripes-acq-components" "^2.2.0"
     file-saver "^2.0.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -5849,22 +5849,24 @@ es-abstract@^1.17.2:
     string.prototype.trimstart "^1.0.1"
 
 es-abstract@^1.18.0-next.1:
-  version "1.18.0-next.1"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.18.0-next.1.tgz#6e3a0a4bda717e5023ab3b8e90bec36108d22c68"
-  integrity sha512-I4UGspA0wpZXWENrdA0uHbnhte683t3qT/1VFH9aX2dA5PPSf6QW5HHXf5HImaqPmjXaVeVk4RGWnaylmV7uAA==
+  version "1.18.0-next.2"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.18.0-next.2.tgz#088101a55f0541f595e7e057199e27ddc8f3a5c2"
+  integrity sha512-Ih4ZMFHEtZupnUh6497zEL4y2+w8+1ljnCyaTa+adcoafI1GOvMwFlDjBLfWR7y9VLfrjRJe9ocuHY1PSR9jjw==
   dependencies:
+    call-bind "^1.0.2"
     es-to-primitive "^1.2.1"
     function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
     has "^1.0.3"
     has-symbols "^1.0.1"
     is-callable "^1.2.2"
-    is-negative-zero "^2.0.0"
+    is-negative-zero "^2.0.1"
     is-regex "^1.1.1"
-    object-inspect "^1.8.0"
+    object-inspect "^1.9.0"
     object-keys "^1.1.1"
-    object.assign "^4.1.1"
-    string.prototype.trimend "^1.0.1"
-    string.prototype.trimstart "^1.0.1"
+    object.assign "^4.1.2"
+    string.prototype.trimend "^1.0.3"
+    string.prototype.trimstart "^1.0.3"
 
 es-to-primitive@^1.2.1:
   version "1.2.1"
@@ -8068,7 +8070,7 @@ is-installed-globally@^0.1.0:
     global-dirs "^0.1.0"
     is-path-inside "^1.0.0"
 
-is-negative-zero@^2.0.0:
+is-negative-zero@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/is-negative-zero/-/is-negative-zero-2.0.1.tgz#3de746c18dda2319241a53675908d8f766f11c24"
   integrity sha512-2z6JzQvZRa9A2Y7xC6dQQm4FSTSTNWjKIYYTt4246eMTJmIo0Q+ZyOsU66X8lxK1AbB92dFeglPLrhwpeRKO6w==
@@ -9948,7 +9950,7 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
-object-inspect@^1.8.0:
+object-inspect@^1.8.0, object-inspect@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.9.0.tgz#c90521d74e1127b67266ded3394ad6116986533a"
   integrity sha512-i3Bp9iTqwhaLZBxGkRfo5ZbE07BQRT7MGu8+nNgwW9ItGp1TzCTw2DLEoWwjClxBjOFI/hWljTAmYGCEwmtnOw==
@@ -13044,7 +13046,7 @@ string-width@^4.1.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
 
-string.prototype.trimend@^1.0.1:
+string.prototype.trimend@^1.0.1, string.prototype.trimend@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/string.prototype.trimend/-/string.prototype.trimend-1.0.3.tgz#a22bd53cca5c7cf44d7c9d5c732118873d6cd18b"
   integrity sha512-ayH0pB+uf0U28CtjlLvL7NaohvR1amUvVZk+y3DYb0Ey2PUV5zPkkKy9+U1ndVEIXO8hNg18eIv9Jntbii+dKw==
@@ -13052,7 +13054,7 @@ string.prototype.trimend@^1.0.1:
     call-bind "^1.0.0"
     define-properties "^1.1.3"
 
-string.prototype.trimstart@^1.0.1:
+string.prototype.trimstart@^1.0.1, string.prototype.trimstart@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/string.prototype.trimstart/-/string.prototype.trimstart-1.0.3.tgz#9b4cb590e123bb36564401d59824298de50fd5aa"
   integrity sha512-oBIBUy5lea5tt0ovtOFiEQaBkoBBkyJhZXzJYrSmDo5IUUqbOPvVezuRs/agBIdZ2p2Eo1FD6bD9USyBLfl3xg==
