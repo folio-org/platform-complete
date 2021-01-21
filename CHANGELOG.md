@@ -7,5 +7,6 @@
 * Update `moment` to `~2.29.0`. STRIPES-702
 * Update `redux` to `^4.0`, `react-redux` to `^7.2`. Refs STRIPES-721.
 * Update `react` to `~17.0`. STRIPES-722.
+* Provide `react-titled`. Refs STCOR-503.
 
 
