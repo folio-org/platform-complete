@@ -17,7 +17,7 @@ RUN npm config set @folio:registry https://repository.folio.org/repository/npm-f
 RUN yarn config list
 RUN yarn install
 RUN yarn build-module-descriptors
-RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
+RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID --sourcemap
 
 # nginx stage
 FROM nginx:stable-alpine
