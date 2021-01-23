@@ -1067,10 +1067,10 @@
     redux-form "^7.0.3"
     style-loader "^0.21.0"
 
-"@folio/checkin@4.0.1":
-  version "4.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkin/-/checkin-4.0.1.tgz#3ac907b3aedd95d5bcd3ba79a9026a7e861a8a97"
-  integrity sha512-bZHTtY7oXAaXkPNPQLrQ51ZRJZe6rYh6WOFnGFgSLmY/Vj5GcA0WT2AMQA7DuISxlxN5DMh4s9QAWIOQspB9rA==
+"@folio/checkin@4.0.2":
+  version "4.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/checkin/-/checkin-4.0.2.tgz#c2ef2e42f4bc645a29c58a66b3d0331e51435cd1"
+  integrity sha512-EB9tTql2wxEWQHY2XHETd+Sv8UOw6/jw2uApp3PphKDZFnepR/u3e+ZVq7rQ+4ykOXu+XYrWHsz4ioS0DaQ4Yw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     dateformat "^2.0.0"
@@ -2647,17 +2647,17 @@
     "@octokit/types" "^6.0.0"
     universal-user-agent "^6.0.0"
 
-"@octokit/openapi-types@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-2.3.1.tgz#4e06e97bfcce5ad64fe89a1b5bdbed05e31ed1ab"
-  integrity sha512-KTzpRDT07euvbBYbPs121YDqq5DT94nBDFIyogsDhOnWL8yDCHev6myeiPTgS+VLmyUbdNCYu6L/gVj+Bd1q8Q==
+"@octokit/openapi-types@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-3.2.0.tgz#d62d0ff7147dbf4d218616b2484ee2a5d023055d"
+  integrity sha512-X7yW/fpzF3uTAE+LbPD3HEeeU+/49o0V4kNA/yv8jQ3BDpFayv/osTOhY1y1mLXljW2bOJcOCSGZo4jFKPJ6Vw==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.7.1.tgz#4a0d9b180e3041d3ce5b08771647fb24f091b40f"
-  integrity sha512-dUsxsEIrBqhlQNfXRhMhXOTQi0SSG38+QWcPGO226HFPFJk44vWukegHfMG3496vLv9T2oT7IuAGssGpcUg5bQ==
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-2.8.0.tgz#2b41e12b494e895bf5fb5b12565d2c80a0ecc6ae"
+  integrity sha512-HtuEQ2AYE4YFEBQN0iHmMsIvVucd5RsnwJmRKIsfAg1/ZeoMaU+jXMnTAZqIUEmcVJA27LjHUm3f1hxf8Fpdxw==
   dependencies:
-    "@octokit/types" "^6.3.1"
+    "@octokit/types" "^6.4.0"
 
 "@octokit/plugin-request-log@^1.0.0":
   version "1.0.2"
@@ -2719,12 +2719,12 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@octokit/types@^6.0.0", "@octokit/types@^6.0.3", "@octokit/types@^6.3.1":
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-6.3.2.tgz#d57069a0c3c1ae57a87342f1700e4184c9e038ed"
-  integrity sha512-H6cbnDumWOQJneyNKCBWgnktRqTWcEm6gq2cIS3frtVgpCqB8zguromnjIWJW375btjnxwmbYBTEAEouruZ2Yw==
+"@octokit/types@^6.0.0", "@octokit/types@^6.0.3", "@octokit/types@^6.4.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-6.5.0.tgz#8f27c52d57eb4096fb05a290f4afc90194e08b19"
+  integrity sha512-mzCy7lkYQv+kM58W37uTg/mWoJ4nvRDRCkjSdqlrgA28hJEYNJTMYiGTvmq39cdtnMPJd0hshysBEAaH4D5C7w==
   dependencies:
-    "@octokit/openapi-types" "^2.3.1"
+    "@octokit/openapi-types" "^3.2.0"
     "@types/node" ">= 8"
 
 "@popperjs/core@^2.0.0":
@@ -4304,9 +4304,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001173:
-  version "1.0.30001178"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001178.tgz#3ad813b2b2c7d585b0be0a2440e1e233c6eabdbc"
-  integrity sha512-VtdZLC0vsXykKni8Uztx45xynytOi71Ufx9T8kHptSw9AL4dpqailUJJHavttuzUe1KYuBYtChiWv+BAb7mPmQ==
+  version "1.0.30001179"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
+  integrity sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -7833,9 +7833,9 @@ ip-regex@^1.0.1:
   integrity sha1-3FiQdvZZ9BnCIgOaMzFvHHOH7/0=
 
 ip-regex@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.2.0.tgz#a03f5eb661d9a154e3973a03de8b23dd0ad6892e"
-  integrity sha512-n5cDDeTWWRwK1EBoWwRti+8nP4NbytBBY0pldmnIkq6Z55KNFmWofh4rl9dPZpj+U/nVq7gweR3ylrvMt4YZ5A==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.3.0.tgz#687275ab0f57fa76978ff8f4dddc8a23d5990db5"
+  integrity sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==
 
 ipaddr.js@1.9.1:
   version "1.9.1"
