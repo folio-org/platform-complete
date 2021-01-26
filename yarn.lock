@@ -980,7 +980,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.12.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -1858,9 +1858,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "@folio/stripes-core@~7.0.0":
-  version "7.0.1000826"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000826.tgz#5de135de95982a77e20333fe23d321c338b7a4b9"
-  integrity sha512-WP36lKC8H33MwgBqcpAsJNFaNqhlVlMSwvLPt8ni9SIInn2QrH0g2bkTXgR0JN3m+uIlclfFjCne4vwoj5gfUA==
+  version "7.0.1000827"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000827.tgz#843dea6ecb86d67a7050edcce9d55b8a9a53501f"
+  integrity sha512-YRa/F0BirnDVViLeImobRvlsPaTHe3TEQVCDyg7Y0bpf11SDBkeCXbmYguqnbQnhF6Wwzj9p6JCudC5MuIQXZA==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@babel/core" "^7.8.0"
@@ -1933,6 +1933,7 @@
     react-cookie "^2.1.4"
     react-final-form "^6.3.0"
     react-hot-loader "^4.3.10"
+    react-query "^3.6.0"
     react-redux "^7.2.0"
     react-titled "^1.0.0"
     react-transform-catch-errors "^1.0.2"
@@ -10367,6 +10368,14 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+match-sorter@^6.0.2:
+  version "6.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/match-sorter/-/match-sorter-6.1.0.tgz#7fec6808d94311a35fef7fd842a11634f2361bd7"
+  integrity sha512-sKPMf4kbF7Dm5Crx0bbfLpokK68PUJ/0STUIOPa1ZmTZEA3lCaPK3gapQR573oLmvdkTfGojzySkIwuq6Z6xRQ==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    remove-accents "0.4.2"
+
 math-random@^1.0.1:
   version "1.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/math-random/-/math-random-1.0.4.tgz#5dd6943c938548267016d4e34f057583080c514c"
@@ -12931,6 +12940,14 @@ react-overlays@^3.2.0:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
+react-query@^3.6.0:
+  version "3.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.6.0.tgz#3da307a4a4cb6ea95f9c95b7e50b5281d5244e4d"
+  integrity sha512-39ptLt4qaKO1DE+ta6SpPutweEgDvUQj/KlebC+okJ9Nxbs5ExxKV8RYlLeop6vdDFyiMmwYrt1POiF8oWGh1A==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    match-sorter "^6.0.2"
+
 react-quill@^1.2.7, react-quill@^1.3.3:
   version "1.3.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-quill/-/react-quill-1.3.5.tgz#8c4ad759da03365b17c79c6c52afa9772259844e"
@@ -13391,6 +13408,11 @@ release-zalgo@^1.0.0:
   integrity sha1-CXALflB0Mpc5Mw5TXFqQ+2eFFzA=
   dependencies:
     es6-error "^4.0.1"
+
+remove-accents@0.4.2:
+  version "0.4.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/remove-accents/-/remove-accents-0.4.2.tgz#0a43d3aaae1e80db919e07ae254b285d9e1c7bb5"
+  integrity sha1-CkPTqq4egNuRngeuJUsoXZ4ce7U=
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
