@@ -7,8 +7,7 @@ module.exports = {
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
-    showPerms: false,
-    hasAllPerms: true
+    showPerms: false
   },
 
   modules: {
