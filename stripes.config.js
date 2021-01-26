@@ -26,6 +26,7 @@ module.exports = {
     '@folio/erm-comparisons': {},
     '@folio/erm-usage' : {},
     '@folio/inventory' : {},
+    '@folio/inventory-es': {},
     '@folio/invoice' : {},
     '@folio/finance' : {},
     '@folio/ldp' : {},
