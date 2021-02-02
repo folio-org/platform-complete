@@ -1338,9 +1338,9 @@
     redux-form "^8.3.0"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001138"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001138.tgz#1a401182b89d74fb63b77302c35b16a5fe48fe06"
-  integrity sha512-ONpOkD4eJbqzlgU+OZdb0lWi1+eAJgLRbXi+IJg+gFkLrVjuX9LzNr6E4zFhs6zik7FTpwF8o057WvNGDEXzkQ==
+  version "5.0.10001141"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001141.tgz#9cfaaf2ab05813128a7717cb6dcecc544e3662f2"
+  integrity sha512-xr8/NamSvpgTqK7vpgqtG/9eVw/FqalBAaq135AfGdBUKJK1/yxKwnn/MO6gnWH3SLkNGiYcjIj20BB+fLU7sQ==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1704,9 +1704,9 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/requests@>=1.4.1":
-  version "4.0.1000609"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000609.tgz#f27eb0611a91ce47d63fe48b1eedf1b044344fb0"
-  integrity sha512-FGttLtq6ro9e2a22gVOC2eOO7kVr2TPuAKBKfjpmH2gZlhTK8lSJPmYmHYNGY6GzrTJL4T1ixKwdEne8W4MnDQ==
+  version "4.0.1000610"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-4.0.1000610.tgz#af27de10df7868b76f201aa356fa0775f1f618a7"
+  integrity sha512-wWh0gvYtIYfHfMXckE2/Gha13dSCbikCD0w5ptF4Wg4xMdl7b7LilFH7SdWnQCIaLy5qc2iu7C+xbLEacYjbJA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     html-to-react "^1.3.3"
@@ -4186,7 +4186,7 @@ bmp-js@^0.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/bmp-js/-/bmp-js-0.1.0.tgz#e05a63f796a6c1ff25f4771ec7adadc148c07233"
   integrity sha1-4Fpj95amwf8l9Hcex62twUjAcjM=
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.4.0:
+bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
   version "4.11.9"
   resolved "https://repository.folio.org/repository/npm-ci-all/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
   integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
@@ -4270,7 +4270,7 @@ braces@^3.0.1, braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-brorand@^1.0.1:
+brorand@^1.0.1, brorand@^1.1.0:
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
@@ -6157,17 +6157,17 @@ element-is-visible@^1.0.0:
   integrity sha512-OegdS3Zoz+LOcLlZhPEnE8K0DKhxfcbN2JHTDSiH5jTZQgaUk/Dl+nkQ8d8eJzs/qZ21apeS3ezEIHfu6SzyDQ==
 
 elliptic@^6.5.3:
-  version "6.5.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
-  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
+  version "6.5.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
+  integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
   dependencies:
-    bn.js "^4.4.0"
-    brorand "^1.0.1"
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
     hash.js "^1.0.0"
-    hmac-drbg "^1.0.0"
-    inherits "^2.0.1"
-    minimalistic-assert "^1.0.0"
-    minimalistic-crypto-utils "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 emittery@^0.7.1:
   version "0.7.2"
@@ -7940,7 +7940,7 @@ history@^4.6.3, history@^4.9.0:
     tiny-warning "^1.0.0"
     value-equal "^1.0.1"
 
-hmac-drbg@^1.0.0:
+hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   integrity sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
@@ -10519,7 +10519,7 @@ minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
-minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
+minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
