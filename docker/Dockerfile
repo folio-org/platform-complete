@@ -16,8 +16,11 @@ RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-
 RUN npm config set @folio:registry https://repository.folio.org/repository/npm-folioci/
 RUN yarn config list
 RUN yarn install
+RUN yarn why @folio/stripes-acq-components
+RUN yarn list --pattern @folio
+RUN yarn list
 RUN yarn build-module-descriptors
-RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID --sourcemap
+RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID --sourcemap --no-minify
 
 # nginx stage
 FROM nginx:stable-alpine

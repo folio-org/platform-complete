@@ -9,13 +9,15 @@ module.exports = {
     '@folio/agreements' : {},
     '@folio/inventory' : {},
     '@folio/quick-marc' : {},
-    '@folio/data-import' : {},  
+    '@folio/data-import' : {},
     '@folio/eholdings' : {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/plugin-find-agreement' : {},
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-user' : {},
+    '@folio/plugin-find-organization' : {},
+    '@folio/stripes-acq-components' : {},
     '@folio/users' : {}
   },
   branding: {
