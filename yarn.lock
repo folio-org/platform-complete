@@ -1459,10 +1459,11 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/orders@>=1.1.0":
-  version "2.2.6000961"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-2.2.6000961.tgz#0a08f0d904ab9b4510d48d25cfe87631c1119e76"
-  integrity sha512-q2IT4AeWAxSnjyfmD+PWMskjT9HzUsSU6Nz2Qh4jzSAuigNQyJHMQba+oKbzmJMKu5YxfGL4cxSRJ1mEt4h+Pw==
+  version "2.2.6000962"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-2.2.6000962.tgz#9e0cf59c3aa1a6f958ea324d68d0bfd45f7ec7bc"
+  integrity sha512-1kBdmjV0MeNMhqkG9Ce27XBFOm9iUEnPkSx63W6y6d7Uce/ER26HjrS+B24shyyY97QoL9D2wnjxxCD9F6UpUw==
   dependencies:
+    "@folio/plugin-find-po-line" "^2.2.1"
     "@folio/stripes-acq-components" "^2.2.0"
     classnames "^2.2.5"
     final-form "^4.19.1"
@@ -1477,7 +1478,6 @@
   optionalDependencies:
     "@folio/plugin-find-instance" "*"
     "@folio/plugin-find-organization" "*"
-    "@folio/plugin-find-po-line" "*"
     "@folio/plugin-find-user" "*"
 
 "@folio/organizations@>=1.0.0":
@@ -1618,7 +1618,7 @@
     qs "^6.9.6"
     react-final-form "^6.3.0"
 
-"@folio/plugin-find-po-line@*", "@folio/plugin-find-po-line@>=1.0.0":
+"@folio/plugin-find-po-line@*", "@folio/plugin-find-po-line@>=1.0.0", "@folio/plugin-find-po-line@^2.2.1":
   version "2.2.100082"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-po-line/-/plugin-find-po-line-2.2.100082.tgz#4700f9acfdf281853805490bff76eb6218cdfb6a"
   integrity sha512-hV41NzKaQIK89w5lQGiHzFcR0LYTFUeFNx0AHzljhNNomTGYbKyROpuhqcKXjkirOyaBvg7fZ57KWYN61+KvpA==
@@ -1819,9 +1819,9 @@
     yargs "^13.1.0"
 
 "@folio/stripes-components@~9.0.0":
-  version "9.0.10001261"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001261.tgz#9b6354b1ea0f6c69c5a0b79d78fa74df7ef8e448"
-  integrity sha512-pd7TjRSd9YnBtFK1HPhYN94FlSeOLiRhqH+cY+QO+FiDu1cH4ROLGTaLMXHXJpsv1ng3huDtWQN/+FBSQoVWTg==
+  version "9.0.10001262"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-9.0.10001262.tgz#503f78c841cf273508486672c1e74ee409490227"
+  integrity sha512-hKPjMT+bpCIXD4IWOAbInFbkZdFszFgYdBQoNeApNSBemnic/WxkKp6xZRhdAJfsoLEtTeW8Kjdf2BL63Tz/HA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
