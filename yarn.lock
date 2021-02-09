@@ -2012,11 +2012,12 @@
     react-to-print "^2.3.2"
 
 "@folio/stripes-testing@^2.0.0":
-  version "2.0.100077"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100077.tgz#92911ae199c7382a907d7bd24ddbea95cbfa7563"
-  integrity sha512-DkZD9ezvxt4M7US3qkCGi0759qeGEomLV9ddU137sdr2QxAvyqqeI1Fg/ooWGnPk5ApepJJlToKxZfJytOAx8w==
+  version "2.0.100078"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-2.0.100078.tgz#0163310663da3bda19c6173a0e402de4bd696d65"
+  integrity sha512-ZyPfNOQ/iYEoHnK9xWHO0eqjrgdXNwr0d6Sl3TeAkWjCdvUnDUfyoAoqBEXL8m01GWwBePGOzfJ9IZbOeBYSqQ==
   dependencies:
     "@bigtest/interactor" "^0.23.0"
+    date-fns "^2.16.1"
     debug "^4.0.1"
     element-is-visible "^1.0.0"
     minimist "^1.2.0"
@@ -3344,23 +3345,23 @@
     "@xtuc/long" "4.2.2"
 
 "@wry/context@^0.5.2":
-  version "0.5.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/context/-/context-0.5.3.tgz#537db8a5b51f98507dc38f869b3a48c672f48942"
-  integrity sha512-n0uKHiWpf2ArHhmcHcUsKA+Dj0gtye/h56VmsDcoMRuK/ZPFeHKi8ck5L/ftqtF12ZbQR9l8xMPV7y+xybaRDA==
+  version "0.5.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/context/-/context-0.5.4.tgz#b6c28038872e0a0e1ff14eb40b5bf4cab2ab4e06"
+  integrity sha512-/pktJKHUXDr4D6TJqWgudOPJW2Z+Nb+bqk40jufA3uTkLbnCRKdJPiYDIa/c7mfcPH8Hr6O8zjCERpg5Sq04Zg==
   dependencies:
     tslib "^1.14.1"
 
 "@wry/equality@^0.3.0":
-  version "0.3.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/equality/-/equality-0.3.1.tgz#81080cdc2e0d8265cd303faa0c64b38a77884e06"
-  integrity sha512-8/Ftr3jUZ4EXhACfSwPIfNsE8V6WKesdjp+Dxi78Bej6qlasAxiz0/F8j0miACRj9CL4vC5Y5FsfwwEYAuhWbg==
+  version "0.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/equality/-/equality-0.3.2.tgz#566a8d05225f1e559fc6589c8b50fa085413c6be"
+  integrity sha512-yi0VRqw+ygqM/WVZUze5meAhe2evOHBFXqK8onNVdNNB+Tyn8/07FZpeDklECBHeT9KN9DY2JpCVGNQY6RCRDg==
   dependencies:
     tslib "^1.14.1"
 
 "@wry/trie@^0.2.1":
-  version "0.2.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/trie/-/trie-0.2.1.tgz#4191e1d4a85dd77dfede383d65563138ed82fc47"
-  integrity sha512-sYkuXZqArky2MLQCv4tLW6hX3N8AfTZ5ZMBc8jC6Yy35WYr82UYLLtjS7k/uRGHOA0yTSjuNadG6QQ6a5CS5hQ==
+  version "0.2.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@wry/trie/-/trie-0.2.2.tgz#99f20f0fcbbcda17006069b155c826cbabfc402f"
+  integrity sha512-OxqBB39x6MfHaa2HpMiRMfhuUnQTddD32Ko020eBeJXq87ivX6xnSSnzKHVbA21p7iqBASz8n/07b6W5wW1BVQ==
   dependencies:
     tslib "^1.14.1"
 
@@ -5664,6 +5665,11 @@ date-arithmetic@^4.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/date-arithmetic/-/date-arithmetic-4.1.0.tgz#e5d6434e9deb71f79760a37b729e4a515e730ddf"
   integrity sha512-QWxYLR5P/6GStZcdem+V1xoto6DMadYWpMXU82ES3/RfR3Wdwr3D0+be7mgOJ+Ov0G9D5Dmb9T17sNLQYj9XOg==
 
+date-fns@^2.16.1:
+  version "2.17.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.17.0.tgz#afa55daea539239db0a64e236ce716ef3d681ba1"
+  integrity sha512-ZEhqxUtEZeGgg9eHNSOAJ8O9xqSgiJdrL0lzSSfMF54x6KXWJiOH/xntSJ9YomJPrYH/p08t6gWjGWq1SDJlSA==
+
 date-format@^2.0.0:
   version "2.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/date-format/-/date-format-2.1.0.tgz#31d5b5ea211cf5fd764cd38baf9d033df7e125cf"
@@ -6157,9 +6163,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.649:
-  version "1.3.659"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.659.tgz#479eb1a80044ad3664ebd548e7b225fefe06a914"
-  integrity sha512-VPc1LcvuQYGjam6k7JcB6uJFTMo2YNlJ6rSbwbxApZQdow7X81kh/vDB6LB5B8DNmvkbKnpZkLmpKmnvoKA+Gw==
+  version "1.3.660"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.660.tgz#bfa8ce23735391cbd1c75c38f483e3179d0e0370"
+  integrity sha512-UOSKNfUBY8FDOSo4mfaUsN3KftlNLcYOg9v5apqLvNcWj+Ogy/i9SEDMZpfSVOeDkOcpu9iusucX6jxTWzqGLA==
 
 electron@^2.0.18:
   version "2.0.18"
