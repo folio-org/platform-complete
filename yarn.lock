@@ -2130,9 +2130,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "5.0.1000184"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000184.tgz#4718ce988a604f4949ca6d2e4039606dd2ab38fb"
-  integrity sha512-FjyzqGH1YNcTjUdZWXEBBsGSJSK8CAZRaaRXowzjqjXY7sQED4yvyVnsqXq/pwRICD27IOKVJv3Myg+KJTlM0g==
+  version "5.0.1000185"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000185.tgz#f7427380a47fdca35e4c9587922dc00cbb56dad0"
+  integrity sha512-kuysFo7j3YrrAarh5h5ZmkGWuQKUgjvhgRMJC2Glb0vxwh6r4ZtEN/MjyNFha2jRS7BHd82d38MJg2eYnDURtA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -7189,6 +7189,11 @@ fill-range@^7.0.1:
   integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
   dependencies:
     to-regex-range "^5.0.1"
+
+filter-obj@^1.1.0:
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+  integrity sha1-mzERErxsYSehbgFsbF1/GeCAXFs=
 
 final-form-arrays@3.0.1:
   version "3.0.1"
@@ -12469,11 +12474,12 @@ query-string@^5.0.0, query-string@^5.1.0:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.0.0, query-string@^6.1.0, query-string@^6.6.0, query-string@^6.7.0, query-string@^6.8.1:
-  version "6.13.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.13.8.tgz#8cf231759c85484da3cf05a851810d8e825c1159"
-  integrity sha512-jxJzQI2edQPE/NPUOusNjO/ZOGqr1o2OBa/3M00fU76FsLXDVbJDv/p7ng5OdQyorKrkRz1oqfwmbe5MAMePQg==
+  version "6.14.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-6.14.0.tgz#0b7b7ca326f5facf10dd2d45d26645cd287f8c92"
+  integrity sha512-In3o+lUxlgejoVJgwEdYtdxrmlL0cQWJXj0+kkI7RWVo7hg5AhFtybeKlC9Dpgbr8eOC4ydpEh8017WwyfzqVQ==
   dependencies:
     decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
