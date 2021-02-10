@@ -1498,6 +1498,23 @@
     "@folio/plugin-find-contact" "*"
     "@folio/plugin-find-interface" "*"
 
+"@folio/plugin-bursar-export@^1.0.0":
+  version "1.0.10002"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-1.0.10002.tgz#6f39742b21c5e14e1fdac1f637e353d52c9f668f"
+  integrity sha512-P90OWxGtWsyZx76p3XycRRM2m5RO+5ayozxDZ1q2Icaa15klCze+5mV6aIQJ46P1Do/UQwq05dCXjp9DIp4QDw==
+  dependencies:
+    "@folio/stripes-acq-components" "^2.1.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-hot-loader "^4.3.12"
+    react-router-prop-types "^1.0.4"
+    uuid "^3.0.1"
+
 "@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^2.0.0":
   version "2.0.100048"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-2.0.100048.tgz#64ce09d65fe0320331a35f5eb7255b691257d79d"
@@ -1748,9 +1765,9 @@
     prop-types "^15.6.0"
 
 "@folio/stripes-acq-components@>=2.2.0", "@folio/stripes-acq-components@^2.1.0", "@folio/stripes-acq-components@^2.2.0", "@folio/stripes-acq-components@^2.2.2":
-  version "2.2.3000429"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000429.tgz#626268ee238a3abe02b5cd4678b662f3e92d833d"
-  integrity sha512-vI4tHSA9IjKsufDlV/8bQTrsEeh+3ySrrlWvb3tsm5RBWyc6yH9jOk2BcT3Y2An1SQtEaYxqAokqjOz58SdRsA==
+  version "2.2.3000430"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.2.3000430.tgz#9d16cccd9d3f68dfc563409fde79a999f2499e66"
+  integrity sha512-UJIEeLbp31pauNt/xQjgTzQuuLkGr6nLkrMmQVTHaolTBJCkuE1z1Fi9yCR6STSLIvTr9zXD9UscLLlnipMNrA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
@@ -2130,9 +2147,9 @@
     redux-form "^8.3.7"
 
 "@folio/tenant-settings@>=2.5.1":
-  version "5.0.1000185"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000185.tgz#f7427380a47fdca35e4c9587922dc00cbb56dad0"
-  integrity sha512-kuysFo7j3YrrAarh5h5ZmkGWuQKUgjvhgRMJC2Glb0vxwh6r4ZtEN/MjyNFha2jRS7BHd82d38MJg2eYnDURtA==
+  version "5.0.1000186"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/tenant-settings/-/tenant-settings-5.0.1000186.tgz#e4ac5a712963778d53428e3688848f2e3f370bfb"
+  integrity sha512-n3cSj/6QblQ6Rn5TCXbD/4nnnblAi8kyE3mWNGfR9tAk/MtHvB2CXoOQUB/NTqlyIR78pb7mzPWxkQgHMHdziA==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     final-form "^4.18.2"
@@ -2142,6 +2159,8 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
     redux-form "^8.0.0"
+  optionalDependencies:
+    "@folio/plugin-bursar-export" "^1.0.0"
 
 "@folio/users@>=2.17.0":
   version "6.0.10001374"
