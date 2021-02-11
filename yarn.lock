@@ -1893,9 +1893,9 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@~7.0.0":
-  version "7.0.1000840"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000840.tgz#84d4004d9f5f4d013cbf383b5b668a54ceb91fa2"
-  integrity sha512-0xAvUyZT+bDxgbmO9nyWzX+/oVsz7OTW4Qk+mhwph/Q9Z1Vq/zNNB4bfrzKNhakRibhmbqOvh2fgad/u5mPZVA==
+  version "7.0.1000841"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-7.0.1000841.tgz#ca74e123f27016ea009d0beb539b23656805fa7a"
+  integrity sha512-33H2cLiQpX2AFk15CSv4VlSXt+TI2Im5PAuHdZyT/axVouGP7IrZjv52YIMTHcz6umRXPuA5OPfIyNiegnD5sg==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@folio/stripes-components" "~9.0.0"
@@ -1934,6 +1934,7 @@
     rtl-detect "^1.0.2"
     rxjs "^5.5.0"
     rxjs-compat "^6.5.4"
+    swr "^0.4.1"
 
 "@folio/stripes-data-transfer-components@^3.0.0", "@folio/stripes-data-transfer-components@^3.0.2":
   version "3.0.2000133"
@@ -5871,6 +5872,11 @@ dequal@1.0.0:
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/dequal/-/dequal-1.0.0.tgz#41c6065e70de738541c82cdbedea5292277a017e"
   integrity sha512-/Nd1EQbQbI9UbSHrMiKZjFLrXSnU328iQdZKPQf78XQI6C+gutkFUeoHpG5J08Ioa6HeRbRNFpSIclh1xyG0mw==
+
+dequal@2.0.2:
+  version "2.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
+  integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
 
 des.js@^1.0.0:
   version "1.0.1"
@@ -14623,6 +14629,13 @@ svgo@^1.0.0, svgo@^1.2.2:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swr@^0.4.1:
+  version "0.4.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/swr/-/swr-0.4.2.tgz#4a9ed5e9948088af145c79d716d294cb99712a29"
+  integrity sha512-SKGxcAfyijj/lE5ja5zVMDqJNudASH3WZPRUakDVOePTM18FnsXgugndjl9BSRwj+jokFCulMDe7F2pQL+VhEw==
+  dependencies:
+    dequal "2.0.2"
 
 symbol-observable@1.0.1:
   version "1.0.1"
