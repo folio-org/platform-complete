@@ -22,7 +22,7 @@ stages:
     steps:
       - applyAppConfig:
           catalogTemplate: p-s8mdd:falcon-helmcharts-platform-complete
-          version: 0.1.10
+          version: 0.1.13
           answers:
             image.tag: falcon-${CICD_EXECUTION_SEQUENCE}
             ingress.enabled: "true"
