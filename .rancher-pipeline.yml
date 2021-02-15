@@ -18,22 +18,22 @@ stages:
         cpuLimit: 1500m
         memoryRequest: 100Mi
         memoryLimit: 8Gi
-  - name: Deploy
-    steps:
-      - applyAppConfig:
-          catalogTemplate: p-s8mdd:falcon-helmcharts-platform-complete
-          version: 0.1.13
-          answers:
-            image.tag: falcon-${CICD_EXECUTION_SEQUENCE}
-            ingress.enabled: "true"
-            ingress.hosts[0].host: falcon.ci.folio.org
-            ingress.hosts[0].paths[0]: /
-            resources.limits.memory: 500Mi
-            resources.limits.cpu: 500m
-            resources.requests.memory: 250Mi
-            resources.requests.cpu: 250m
-          name: platform-complete
-          targetNamespace: falcon
+#  - name: Deploy
+#    steps:
+#      - applyAppConfig:
+#          catalogTemplate: p-s8mdd:falcon-helmcharts-platform-complete
+#          version: 0.1.13
+#          answers:
+#            image.tag: falcon-${CICD_EXECUTION_SEQUENCE}
+#            ingress.enabled: "true"
+#            ingress.hosts[0].host: falcon.ci.folio.org
+#            ingress.hosts[0].paths[0]: /
+#            resources.limits.memory: 500Mi
+#            resources.limits.cpu: 500m
+#            resources.requests.memory: 250Mi
+#            resources.requests.cpu: 250m
+#          name: platform-complete
+#          targetNamespace: falcon
 timeout: 60
 branch:
   include:
