@@ -22,6 +22,8 @@ RUN yarn list
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID --sourcemap --no-minify
 
+RUN ls ./
+
 # nginx stage
 FROM nginx:stable-alpine
 EXPOSE 80
