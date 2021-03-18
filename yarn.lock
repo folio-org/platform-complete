@@ -1205,7 +1205,32 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@>=0.0.0", "@folio/data-import@^3.0.0":
+"@folio/data-import@>=0.0.0":
+  version "4.0.1000794"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-4.0.1000794.tgz#36167e3f48ae88246e4f492e8066c0a91c462982"
+  integrity sha512-TW6C+cO3LnGoV733PpozhjO4y2kaqDNPTkw0aXc0ENvNXt4bbAQWUdXh3UujFNF1+0vKum0nqnJ5TknA6/hZmA==
+  dependencies:
+    "@folio/react-intl-safe-html" "^2.0.0"
+    "@folio/stripes-acq-components" ">=2.2.0"
+    "@folio/stripes-data-transfer-components" "^3.0.0"
+    "@folio/stripes-final-form" "^5.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    faker "^4.1.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.16.4"
+    miragejs "^0.1.40"
+    moment "~2.24.0"
+    prop-types "^15.6.0"
+    react-dropzone "^7.0.1"
+    react-final-form "^6.3.0"
+    react-highlighter "^0.4.3"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "*"
+
+"@folio/data-import@^3.0.0":
   version "3.0.3000792"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-3.0.3000792.tgz#95bcf879dd47d113f973e79cc5fb201d23b75e22"
   integrity sha512-+9YBqTlcXSuYlYZ4Y3WElV+5AnqITpDz+tuBC1xPhTQnQ5Zbttx6uaZlUeUfpOgC6Uy2CXhgdwGC8Nm6ZYFN6g==
@@ -1327,12 +1352,12 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/finance@>=1.1.0":
-  version "2.2.1000466"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-2.2.1000466.tgz#a821802ed34b3c198e2cf2a22ed4fcaf235266f2"
-  integrity sha512-yl1RrA3t4mg94wPs8PC8YxAs73HztOSAhhD2vA/4HdXUxScXkg1E0Zv6Y91vUfC0y2zkBU4mSdnlA6QCYWm1Zw==
+  version "2.3.1000468"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-2.3.1000468.tgz#9cbcbbb2968cd28df740380b56855556f5461dcc"
+  integrity sha512-vFx6iNTzow2VjQA2J3+jRfrCLDy1zmBBPAfsBp5F+FSyBQUZUqjO++LWrdKg0M0rLyzpWidEex7+NRyTwYKGXA==
   dependencies:
-    "@folio/stripes-acq-components" "^2.2.0"
-    "@folio/stripes-data-transfer-components" "^3.0.2"
+    "@folio/stripes-acq-components" "~2.3.0"
+    "@folio/stripes-data-transfer-components" "^4.0.0"
     "@rehooks/local-storage" "^2.4.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1572,9 +1597,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-find-agreement@>=2.0.0":
-  version "6.0.100090"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-agreement/-/plugin-find-agreement-6.0.100090.tgz#b322437e895cddfa7c3d6622adb9fcbc7beb9c50"
-  integrity sha512-efMqCVRE8d3PLCCURjCrmguTucItuiiz6wyJB3A0yauS4QDatc9oVnxG6YruYmiuUzQC59iuQEpwloU+UeWTWA==
+  version "6.1.100092"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-agreement/-/plugin-find-agreement-6.1.100092.tgz#c0c7fca89b407f23de2d9728dd68272b8c3ad153"
+  integrity sha512-KBDFYKXiy5a9fxxoKTUgM1fGr/r2f4aRyFH7PXtp74hdS1rZQ1uS3ARmGvMqOu5gb0f/zJ0IMLxyRXja1hBHAg==
   dependencies:
     "@folio/stripes-erm-components" "^5.0.0"
     dom-helpers "^3.4.0"
@@ -1591,9 +1616,9 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-eresource@>=1.0.0":
-  version "2.0.100029"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-2.0.100029.tgz#baa417963df473b68ce69f70bbe76d2e4dd8e7b5"
-  integrity sha512-TKFtGNAmVIdKE48KgGloSeNh6lzJPnBD2Ajd7WjmqfYJA0ufOqnXzokPhZXY+rTDF7FPEoUuHahUUKCSrXAVCA==
+  version "2.1.100031"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-2.1.100031.tgz#4c3307f6ceeecb0415623769283d37b7baa2e079"
+  integrity sha512-ltaOb8CEKMqaNlJnkk/PgE5RS0Z7YqOpgQDrWH2sSHZyp9yG45wS6YlXN7i4AnAiT3ydj/bJwINPcQIPvGy2CA==
   dependencies:
     "@folio/stripes-erm-components" "^5.0.0"
     dom-helpers "^3.4.0"
@@ -1996,7 +2021,7 @@
     rxjs-compat "^6.5.4"
     swr "^0.4.1"
 
-"@folio/stripes-data-transfer-components@^3.0.0", "@folio/stripes-data-transfer-components@^3.0.2":
+"@folio/stripes-data-transfer-components@^3.0.0":
   version "3.0.2000134"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-3.0.2000134.tgz#7d8aee996781299f90005345b0c9799f83af919f"
   integrity sha512-Ms/L0fZFto/ixLcx5JySxIORmwsVXIX2AAvCvj1FT5+902EBK/EhiJAJqeffql4d2y08383Q2zd9zCqMU4vCVw==
