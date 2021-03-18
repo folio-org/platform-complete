@@ -1398,11 +1398,11 @@
     "@folio/quick-marc" "^2.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "5.0.10001201"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001201.tgz#2c8aa2095573187242612627d8513f890dd67e3f"
-  integrity sha512-rLAyKGlxaCL+4WYtSrxDc9WzaLiDyszFDLw9wKPZNDOqbv+6lM9QnklMMsSlFoRWnhkKiB06wQhxMkvQg50FOQ==
+  version "5.0.10001202"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-5.0.10001202.tgz#8ac6285bbc02485b618dd1cb8d5bd3a329db1988"
+  integrity sha512-8R0FM67xycWZdgL51XShOQN/SR89u54L+WjqOZCp/i9ekYGkDVmCwJBc4Mm0pz/qdPAPAlGycvIKqra7EwebZw==
   dependencies:
-    "@folio/react-intl-safe-html" "^2.0.0"
+    "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
     file-saver "^2.0.0"
     final-form "^4.18.2"
@@ -1422,8 +1422,8 @@
     redux-form "^8.3.7"
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^2.0.0"
-    "@folio/plugin-find-instance" "^4.0.0"
-    "@folio/quick-marc" "^2.0.0"
+    "@folio/plugin-find-instance" "^5.0.0"
+    "@folio/quick-marc" "^3.0.0"
 
 "@folio/invoice@>=1.0.0":
   version "2.2.4000422"
@@ -1651,7 +1651,7 @@
     react-highlighter "^0.4.3"
     redux-form "^8.3.7"
 
-"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@>=1.1.0":
+"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^5.0.0":
   version "5.0.100071"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-5.0.100071.tgz#d6c7a77b4a35e674e31d82eba073f72692edae20"
   integrity sha512-Tel2+6SGRg8KEdOwe7IyOwbqkRTmIvPU8q1Pm8NDta0SawtPg6FGAnnpPaV76bwPrJ9gnci31txsg9wsmA972Q==
@@ -1741,7 +1741,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/quick-marc@>=1.0.0":
+"@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^3.0.0":
   version "3.0.1000133"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000133.tgz#09d31f556d0ab4a9baea88acef2a561a54ac9df4"
   integrity sha512-OR4VA2D/xYcLQHR5NvT6/8dMddlQJRkOvqsBLSFJqC53eUI8OWf6kfNtOiuvNykEHKJsTt8xSgaotUdol7amUw==
@@ -2268,9 +2268,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "6.0.10001405"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001405.tgz#54010e921685a2cbeab2926fdfe3592b4994b0c6"
-  integrity sha512-rvSrY+HCpxCSMdt177HZ9lwTpyFVnT4bWjgtQW74eSS2F6QbN/jmOmUvBol32sTZIQ2LNVhueNsXlfe+KG1Yjw==
+  version "6.0.10001406"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-6.0.10001406.tgz#3a685c9a3a0222f6b56b443e539a01bdf2289bea"
+  integrity sha512-52KpcAvEQ7QAP1dCtI0kpt9MZHrtla8Xw8CbX/Di5UTYxEcVtx12rSR8b7ctNJyJV5S82LASV8jzWs/dWIok6w==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form-set-field-data "^1.0.2"
@@ -2287,7 +2287,7 @@
     react-router-prop-types "^1.0.4"
     uuid "^3.0.1"
   optionalDependencies:
-    "@folio/plugin-find-user" "^4.0.0"
+    "@folio/plugin-find-user" "^5.0.0"
 
 "@formatjs/ecma402-abstract@1.6.3":
   version "1.6.3"
@@ -5843,9 +5843,9 @@ ejs@^2.2.4, ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.649:
-  version "1.3.691"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.691.tgz#a671eaf135a3ccec0915eb8d844a0952aba79f3b"
-  integrity sha512-ZqiO69KImmOGCyoH0icQPU3SndJiW93juEvf63gQngyhODO6SpQIPMTOHldtCs5DS5GMKvAkquk230E2zt2vpw==
+  version "1.3.692"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.692.tgz#4d00479055a7282cdd1b19caec09ed7779529640"
+  integrity sha512-Ix+zDUAXWZuUzqKdhkgN5dP7ZM+IwMG4yAGFGDLpGJP/3vNEEwuHG1LIhtXUfW0FFV0j38t5PUv2n/3MFSRviQ==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
