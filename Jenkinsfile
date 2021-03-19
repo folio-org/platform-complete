@@ -105,18 +105,21 @@ pipeline {
           }
         }
 
-        stage('Build FOLIO Instance') {
-          when {
-            changeRequest()
-          }
-          steps {
-            // build FOLIO instance
-            buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
-            script { 
-              def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
-            }
-          }
-        }
+/*
+ *       stage('Build FOLIO Instance') {
+ *         when {
+ *           changeRequest()
+ *         }
+ *         steps {
+ *           // build FOLIO instance
+ *           buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
+ *           script { 
+ *             def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
+ *           }
+ *
+ *         }
+ *       }
+ */
 
         stage('Publish NPM Package') {
           when {
