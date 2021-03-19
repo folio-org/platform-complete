@@ -20,6 +20,7 @@ module.exports = {
     '@folio/eholdings' : {},
     '@folio/erm-comparisons' : {},
     '@folio/erm-usage': {},
+    '@folio/export-manager': {},
     '@folio/finance' : {},
     '@folio/inventory' : {},
     '@folio/invoice': {},
