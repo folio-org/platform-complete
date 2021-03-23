@@ -33,7 +33,7 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/compat-data/-/compat-data-7.13.12.tgz#a8a5ccac19c200f9dd49624cac6e19d7be1236a1"
   integrity sha512-3eJJ841uKxeV8dcN/2yGEUy+RfgQspPEgQat85umsE1rotuquQ2AbIub4S6j7c50a2d+4myc+zSlnXeIHrOnhQ==
 
-"@babel/core@^7.4.5", "@babel/core@^7.8.0":
+"@babel/core@^7.4.5", "@babel/core@^7.9.0":
   version "7.13.10"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/core/-/core-7.13.10.tgz#07de050bbd8193fcd8a3c27918c0890613a94559"
   integrity sha512-bfIYcT0BdKeAZrovpMqX2Mx5NrgAckGbwT982AkdS5GNfn3KMGiprlBAtmBcFZRUmpaufS6WZFP8trvx8ptFDw==
@@ -945,7 +945,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.0.0", "@babel/preset-react@^7.7.4":
+"@babel/preset-react@^7.0.0", "@babel/preset-react@^7.9.0":
   version "7.12.13"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/preset-react/-/preset-react-7.12.13.tgz#5f911b2eb24277fa686820d5bd81cad9a0602a0a"
   integrity sha512-TYM0V9z6Abb6dj1K7i5NrEhA13oS5ujUYQYDfqIBXYHOc2c2VkFgc+q9kyssIyUfy4/hEwqrgSlJ/Qgv8zJLsA==
@@ -2131,11 +2131,11 @@
     query-string "^5.0.0"
 
 "@folio/stripes-webpack@^1.0.0":
-  version "1.1.10009"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.1.10009.tgz#b321eed727afd1d42f536b37a4d708fa8d9611a9"
-  integrity sha512-WMfqqfAZbGU4SbG8sASoijW0mYx0iJ7f/g2fZ+BD+371OL+2dehh7WQOqM6ouio4WDAV2bHD8OhpH69dM1EDmQ==
+  version "1.2.100010"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.2.100010.tgz#66939d16b2bd063550beec299cb62f34c3d6b19f"
+  integrity sha512-EbC3yxjf4CRbIyj6Z0uYDqnMjRyNtSdL7puV4jl4x2jBf1c7sJLDQclPH3EHYn/WcFiaoxepMeUfYf6bJXA3Vw==
   dependencies:
-    "@babel/core" "^7.8.0"
+    "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
     "@babel/plugin-proposal-decorators" "^7.0.0"
     "@babel/plugin-proposal-export-namespace-from" "^7.0.0"
@@ -2145,7 +2145,7 @@
     "@babel/plugin-syntax-import-meta" "^7.0.0"
     "@babel/preset-env" "^7.0.0"
     "@babel/preset-flow" "^7.7.4"
-    "@babel/preset-react" "^7.7.4"
+    "@babel/preset-react" "^7.9.0"
     "@babel/preset-typescript" "^7.7.7"
     "@babel/register" "^7.0.0"
     "@bigtest/mirage" "^0.0.1"
@@ -2899,7 +2899,7 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/hoist-non-react-statics@^3.0.1", "@types/hoist-non-react-statics@^3.3.1":
+"@types/hoist-non-react-statics@^3.0.1", "@types/hoist-non-react-statics@^3.3.0", "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
   integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
@@ -2967,6 +2967,16 @@
   integrity sha512-IhW3fPW+bkt9MLNlycw8u8fWb7oO7W5URC9MfZYHBlA24rex9rs23D5DETChu1zvgVdc5ka64ICjJOgQMr6Shw==
   dependencies:
     parchment "^1.1.2"
+
+"@types/react-redux@^7.1.16":
+  version "7.1.16"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-redux/-/react-redux-7.1.16.tgz#0fbd04c2500c12105494c83d4a3e45c084e3cb21"
+  integrity sha512-f/FKzIrZwZk7YEO9E1yoxIuDNRiDducxkFlkw/GNMGEnK9n4K8wJzlJBghpSuOVDgEUHoDkDF7Gi9lHNQR4siw==
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
 
 "@types/react@*", "@types/react@>=16.9.11":
   version "17.0.3"
@@ -11742,11 +11752,12 @@ react-quill@^1.2.7, react-quill@^1.3.3:
     react-dom-factories "^1.0.0"
 
 react-redux@^7.0.3, react-redux@^7.2.0, react-redux@^7.2.2, react-redux@~7.2.0:
-  version "7.2.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-7.2.2.tgz#03862e803a30b6b9ef8582dadcc810947f74b736"
-  integrity sha512-8+CQ1EvIVFkYL/vu6Olo7JFLWop1qRUeb46sGtIMDCSpgwPQq8fPLpirIB0iTqFe9XYEFPHssdX8/UwN6pAkEA==
+  version "7.2.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-7.2.3.tgz#4c084618600bb199012687da9e42123cca3f0be9"
+  integrity sha512-ZhAmQ1lrK+Pyi0ZXNMUZuYxYAZd59wFuVDGUt536kSGdD0ya9Q7BfsE95E3TsFLE3kOSFp5m6G5qbatE+Ic1+w==
   dependencies:
     "@babel/runtime" "^7.12.1"
+    "@types/react-redux" "^7.1.16"
     hoist-non-react-statics "^3.3.2"
     loose-envify "^1.4.0"
     prop-types "^15.7.2"
