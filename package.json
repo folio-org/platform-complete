@@ -9,8 +9,6 @@
     "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
-    "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings",
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
@@ -41,13 +39,13 @@
     "@folio/orders": "2.3.0",
     "@folio/organizations": "2.3.0",
     "@folio/plugin-bursar-export": "1.0.0",
-    "@folio/plugin-create-inventory-records": "1.0.0",
+    "@folio/plugin-create-inventory-records": "2.0.0",
     "@folio/plugin-find-agreement": "6.0.0",
     "@folio/plugin-find-contact": "2.3.0",
     "@folio/plugin-find-eresource": "2.0.0",
     "@folio/plugin-find-erm-usage-data-provider": "3.0.0",
     "@folio/plugin-find-import-profile": "4.0.0",
-    "@folio/plugin-find-instance": "4.0.0",
+    "@folio/plugin-find-instance": "5.0.0",
     "@folio/plugin-find-interface": "2.3.0",
     "@folio/plugin-find-license": "6.0.0",
     "@folio/plugin-find-organization": "2.3.0",
@@ -85,6 +83,7 @@
   },
   "resolutions": {
     "@folio/stripes-cli": "^2.1.0",
+    "final-form": "4.20.1",
     "react-hot-loader": "4.8.8",
     "rxjs": "^5.4.3",
     "@folio/react-intl-safe-html": "3.0.0",
