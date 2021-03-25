@@ -1382,12 +1382,13 @@
     "@folio/quick-marc" "^2.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "6.0.10001204"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-6.0.10001204.tgz#b86d47f61395c55a8738d761f6220c166bf71513"
-  integrity sha512-O2bZrvsKnen6OClMGnKYua2b1NlfMaXnWUU0znpl195hMBwwi7P/2or3nSOXNpjkb0ReLgK4w/JSmVq0AzeLpQ==
+  version "6.0.10001205"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-6.0.10001205.tgz#f11974f1028dafb50e75e52f39c3316b54b51475"
+  integrity sha512-LUchRSaeg8lysyg/mzUL3u82iSuNMfJNBzjNSJz0fshs4gqGt/vpPRakdL+ssh+K0jgdKZaAiiwEd5wyrLjJhA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
+    "@testing-library/react-hooks" "^5.1.0"
     file-saver "^2.0.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -2862,6 +2863,18 @@
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
+"@testing-library/react-hooks@^5.1.0":
+  version "5.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/react-hooks/-/react-hooks-5.1.0.tgz#6014b7536d0e9427a1e73ce1d073c49a6af5fb3b"
+  integrity sha512-ChRyyA14e0CeVkWGp24v8q/IiWUqH+B8daRx4lGZme4dsudmMNWz+Qo2Q2NzbD2O5rAVXh2hSbS/KTKeqHYhkw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@types/react" ">=16.9.0"
+    "@types/react-dom" ">=16.9.0"
+    "@types/react-test-renderer" ">=16.9.0"
+    filter-console "^0.1.1"
+    react-error-boundary "^3.1.0"
+
 "@testing-library/user-event@^12.8.0":
   version "12.8.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/user-event/-/user-event-12.8.3.tgz#1aa3ed4b9f79340a1e1836bc7f57c501e838704a"
@@ -2968,6 +2981,13 @@
   dependencies:
     parchment "^1.1.2"
 
+"@types/react-dom@>=16.9.0":
+  version "17.0.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-dom/-/react-dom-17.0.3.tgz#7fdf37b8af9d6d40127137865bb3fff8871d7ee1"
+  integrity sha512-4NnJbCeWE+8YBzupn/YrJxZ8VnjcJq5iR1laqQ1vkpQgBiA7bwk0Rp24fxsdNinzJY2U+HHS4dJJDPdoMjdJ7w==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-redux@^7.1.16":
   version "7.1.16"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-redux/-/react-redux-7.1.16.tgz#0fbd04c2500c12105494c83d4a3e45c084e3cb21"
@@ -2978,7 +2998,14 @@
     hoist-non-react-statics "^3.3.0"
     redux "^4.0.0"
 
-"@types/react@*", "@types/react@>=16.9.11":
+"@types/react-test-renderer@>=16.9.0":
+  version "17.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-test-renderer/-/react-test-renderer-17.0.1.tgz#3120f7d1c157fba9df0118dae20cb0297ee0e06b"
+  integrity sha512-3Fi2O6Zzq/f3QR9dRnlnHso9bMl7weKCviFmfF6B4LS1Uat6Hkm15k0ZAQuDz+UBq6B3+g+NM6IT2nr5QgPzCw==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@>=16.9.0", "@types/react@>=16.9.11":
   version "17.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-17.0.3.tgz#ba6e215368501ac3826951eef2904574c262cc79"
   integrity sha512-wYOUxIgs2HZZ0ACNiIayItyluADNbONl7kt8lkLjVK8IitMH5QMyAh75Fwhmo37r1m7L2JaFj03sIfxBVDvRAg==
@@ -6725,6 +6752,11 @@ fill-range@^7.0.1:
   integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
   dependencies:
     to-regex-range "^5.0.1"
+
+filter-console@^0.1.1:
+  version "0.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/filter-console/-/filter-console-0.1.1.tgz#6242be28982bba7415bcc6db74a79f4a294fa67c"
+  integrity sha512-zrXoV1Uaz52DqPs+qEwNJWJFAWZpYJ47UNmpN9q4j+/EYsz85uV0DC9k8tRND5kYmoVzL0W+Y75q4Rg8sRJCdg==
 
 filter-obj@^1.1.0:
   version "1.1.0"
@@ -11558,6 +11590,13 @@ react-dropzone@^9.0.0:
     file-selector "^0.1.8"
     prop-types "^15.6.2"
     prop-types-extra "^1.1.0"
+
+react-error-boundary@^3.1.0:
+  version "3.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-error-boundary/-/react-error-boundary-3.1.1.tgz#932c5ca5cbab8ec4fe37fd7b415aa5c3a47597e7"
+  integrity sha512-W3xCd9zXnanqrTUeViceufD3mIW8Ut29BUD+S2f0eO2XCOU8b6UrJfY46RDGe5lxCJzfe4j0yvIfh0RbTZhKJw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
 
 react-fast-compare@^3.2.0:
   version "3.2.0"
