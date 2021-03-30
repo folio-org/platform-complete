@@ -14,7 +14,8 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/agreements": ">=6.0.0",
+    "@folio/agreements": "git://github.com/folio-org/ui-agreements.git#UIU-2087",
+    "@folio/licenses": "git://github.com/folio-org/ui-licenses.git#UIU-2087",
     "@folio/eholdings": "git://github.com/folio-org/ui-eholdings.git#master",
     "@folio/inventory": "git://github.com/folio-org/ui-inventory.git#master",
     "@folio/quick-marc": "git://github.com/folio-org/ui-quick-marc.git#master",
@@ -27,7 +28,7 @@
     "@folio/plugin-find-organization": ">=2.0.0",
     "@folio/stripes": "^6.0.0",
     "@folio/stripes-acq-components": ">=2.0.0",
-    "@folio/users": "^6.0.0",
+    "@folio/users": "git://github.com/folio-org/ui-users.git#UIU-2087",
     "moment": "~2.25.3",
     "react": "~16.14.0",
     "react-dom": "~16.8.6",

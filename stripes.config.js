@@ -7,6 +7,7 @@ module.exports = {
   },
   modules: {
     '@folio/agreements' : {},
+    '@folio/licenses' : {},
     '@folio/inventory' : {},
     '@folio/quick-marc' : {},
     '@folio/data-import' : {},
