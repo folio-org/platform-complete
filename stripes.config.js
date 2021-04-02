@@ -11,6 +11,7 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/quick-marc' : {},
     '@folio/data-import' : {},
+    '@folio/tenant-settings' : {},
     '@folio/eholdings' : {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
