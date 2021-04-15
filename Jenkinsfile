@@ -71,41 +71,6 @@ pipeline {
            }
          }
 
-         // If stripes build is successful, update yarn.lock and commit
-         stage('Update Branch Install Artifacts') {
-           when { 
-             anyOf {
-               environment name:  'JOB_NAME', value: 'Automation/build-platform-complete-snapshot'
-               branch 'snapshot'
-             }
-           }
-           steps {
-             script {
-               def installFiles = ['stripes-install.json',
-                                   'okapi-install.json',
-                                   'install.json',
-                                   'yarn.lock']
-
-               sh "git checkout $env.branch"
-               sh 'git add yarn.lock'
-
-               for (int i = 0; i < installFiles.size(); i++) {
-                sh "git add ${env.WORKSPACE}/${installFiles[i]}"
-               } 
-
-               def commitStatus = sh(returnStatus: true, 
-                                     script: 'git commit -m "[CI SKIP] Updating install files"')
-
-               if ( commitStatus == 0 ) {
-                 sshGitPush(origin: env.origin, branch: env.branch)
-               }
-               else {
-                 echo "No changes to artifacts"
-               }
-             }
-           }
-         }
-
          stage('Publish Snapshot NPM') {
            when {
              buildingTag()
