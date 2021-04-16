@@ -1355,6 +1355,33 @@
     react-final-form-listeners "^1.0.2"
     redux-form "^8.3.0"
 
+"@folio/inventory-es@>=5.0.1":
+  version "6.2.100044"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory-es/-/inventory-es-6.2.100044.tgz#729ee7601b15e168b7c38ba6ede00344ab69e292"
+  integrity sha512-tA2kiNzXpApvC0IYuY8PvRX0/XUk35MYIESK1z/s9HBWsFZeoNkqNaImrOxC0rFjU0MGSl5vkehxv/zsj4JCxw==
+  dependencies:
+    "@folio/react-intl-safe-html" "^2.0.0"
+    classnames "^2.2.6"
+    file-saver "^2.0.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.4"
+    moment "~2.24.0"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-beautiful-dnd "^13.0.0"
+    react-copy-to-clipboard "^5.0.1"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-hot-loader "^4.3.12"
+    react-router-prop-types "^1.0.4"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-create-inventory-records" "^2.0.0"
+    "@folio/plugin-find-instance" "^4.0.0"
+    "@folio/quick-marc" "^2.0.0"
+
 "@folio/inventory@>=1.4.0":
   version "7.0.10001220"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-7.0.10001220.tgz#0400d8b5997d08f95cd414bd4992345efafada5d"
@@ -1623,6 +1650,16 @@
     prop-types "^15.6.0"
     sinon "^9.0.2"
 
+"@folio/plugin-find-instance@^4.0.0":
+  version "4.0.100068"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-4.0.100068.tgz#74917541db3c2af80e07575c6a91856741e1e3f7"
+  integrity sha512-uk20ZcuYKoN7xmFKLtpN08azqKU/qYLEy71uqcJUdKSjmBwHhLWt4ODmsK4MxgUK8JjyvYQRJoBBllX3A7wPoA==
+  dependencies:
+    classnames "^2.2.6"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    sinon "^9.0.2"
+
 "@folio/plugin-find-interface@*", "@folio/plugin-find-interface@>=1.0.0":
   version "2.3.100076"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-interface/-/plugin-find-interface-2.3.100076.tgz#17d428edfbab951e88bc8887c4560c12ed761b5e"
@@ -1697,6 +1734,23 @@
   version "3.0.1000144"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.0.1000144.tgz#0e9219deec3710a9c52617ff893aa4cfe5cebeab"
   integrity sha512-J8t/SlfxkzPqGa16YcWnAkjyFYJfnYNmgfXzjb10rjojOTWAqHKi9M0fja6GutHZqLHrgvUQY5Jeo9ihF+8Llw==
+  dependencies:
+    "@folio/stripes-acq-components" "^2.1.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-hot-loader "^4.3.12"
+    react-router-prop-types "^1.0.4"
+    uuid "^3.0.1"
+
+"@folio/quick-marc@^2.0.0":
+  version "2.0.1000130"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-2.0.1000130.tgz#afb79cb180e13fff0bf4a3322d0a9033ad22a6ee"
+  integrity sha512-70UGvdL5l+VLMs1vhSFBXP3AZ23fwOxrXKsIWZ3fbOHUO2gm2rLtwao8xTentpzgZKcC2RuywQq5uHlCVqEvBA==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
