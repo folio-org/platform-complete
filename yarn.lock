@@ -1139,9 +1139,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "6.0.1000530"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-6.0.1000530.tgz#241ecc1139f1a6777e2c84e8859903db756c9b39"
-  integrity sha512-IKfZs2lgK62gKqN4vFuAfeYvRoj9ccNG95FFRVXUC4HpYgfHCLWwTxMmsSC41/44aJyVBgzIMbbRzw6ukzpXBQ==
+  version "6.0.1000531"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-6.0.1000531.tgz#e03f3b5e02ab36dd24242dec68a329f7a125aedf"
+  integrity sha512-BCNiUY/brQMNG699Itz/IFXjKp3IbKuTGu9zEFyMYM6eDWFmSmb9tVUEuhDUgyqlW+xG5WE6csyHTrsU8jJtsA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     final-form "^4.19.1"
@@ -1152,6 +1152,7 @@
     react-final-form "^6.4.0"
     react-hot-loader "^4.3.12"
   optionalDependencies:
+    "@folio/circulation" "^5.0.0"
     "@folio/plugin-create-inventory-records" "^2.0.0"
     "@folio/plugin-find-user" "^5.0.0"
 
@@ -1169,10 +1170,10 @@
     react-hot-loader "^4.3.12"
     react-router-prop-types "^1.0.4"
 
-"@folio/circulation@>=1.3.0":
-  version "5.0.1000664"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000664.tgz#2aeef81303bd69b29d0ca5d0106da2aeaccbd787"
-  integrity sha512-C6IOhhiGvaYaRMkTFXKWPyjHwKj/0tH3uVGGIXBLJFVjDdOk+DRVY2YfxhkPmS7KGVGViQvPbeTyhYzl2H3sAA==
+"@folio/circulation@>=1.3.0", "@folio/circulation@^5.0.0":
+  version "5.0.1000666"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000666.tgz#caaa0521b6f563ec6b2fc772ffa464db08b9c0dc"
+  integrity sha512-pU9nu5K+yJ9icZ48nYTSCvC3CC5nmEPPL8w7XoHBFOtxduYRjvocIi4Q+4r4NBzw6Vpieq7OCsEDijt8n2VDjA==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
     final-form "^4.18.2"
