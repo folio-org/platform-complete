@@ -7,6 +7,7 @@ module.exports = {
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
+    maxUnpagedResourceCount: 2000,
     showPerms: false
   },
 
@@ -27,6 +28,7 @@ module.exports = {
     '@folio/erm-usage' : {},
     '@folio/export-manager': {},
     '@folio/inventory' : {},
+    '@folio/inventory-es' : {},
     '@folio/invoice' : {},
     '@folio/finance' : {},
     '@folio/ldp' : {},
