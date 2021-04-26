@@ -2273,19 +2273,24 @@
   dependencies:
     tslib "^2.1.0"
 
-"@formatjs/icu-messageformat-parser@1.1.6":
-  version "1.1.6"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-1.1.6.tgz#1f970542edc7cc49df183b397c3a1cda1d40ad63"
-  integrity sha512-ED5VvuJvx0Bswx/lsdbOBHggjJGoyUpBRDivAFl6VWWjGI+2btx6kCHAlDWEZtw7ekrsKTIRwFArkfZQMnNGYw==
+"@formatjs/fast-memoize@1.1.1":
+  version "1.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/fast-memoize/-/fast-memoize-1.1.1.tgz#3006b58aca1e39a98aca213356b42da5d173f26b"
+  integrity sha512-mIqBr5uigIlx13eZTOPSEh2buDiy3BCdMYUtewICREQjbb4xarDiVWoXSnrERM7NanZ+0TAHNXSqDe6HpEFQUg==
+
+"@formatjs/icu-messageformat-parser@1.2.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-1.2.0.tgz#474174d925ad360fac9d5cb2a45d64233b44ea14"
+  integrity sha512-GqKY2531LNgZzjX55r5aBsB/4a1SSiL0xA9ku1SInjFVYfQPUelekEeCtAfSgShuPv4i0QKLv5cfZA51mw26pQ==
   dependencies:
     "@formatjs/ecma402-abstract" "1.6.5"
-    "@formatjs/icu-skeleton-parser" "1.1.2"
+    "@formatjs/icu-skeleton-parser" "1.2.0"
     tslib "^2.1.0"
 
-"@formatjs/icu-skeleton-parser@1.1.2":
-  version "1.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-1.1.2.tgz#b559f32a920ea6600df53735143b59e6cc087c1d"
-  integrity sha512-R0hxPsnq9oOW50HnqKjzuqzUOEUWRdSqqt2wvLCwlFMEx6+MsLW35yzbB9fnxfRZ6vVnYO69TxBfXvvsK2VoUw==
+"@formatjs/icu-skeleton-parser@1.2.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-1.2.0.tgz#23acb46fc938651746e1c9f2a02db4f21c099184"
+  integrity sha512-20BMeDUPUUHTlf2ttr+kW9N8VGZR+6xqp34sO6vC73GNNRFmAdH+p9GOkyemitQRij7lqvVCD1wUXN/tQ5l3Ow==
   dependencies:
     "@formatjs/ecma402-abstract" "1.6.5"
     tslib "^2.1.0"
@@ -2334,17 +2339,17 @@
   dependencies:
     emojis-list "^3.0.0"
 
-"@formatjs/intl@1.10.0":
-  version "1.10.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl/-/intl-1.10.0.tgz#325c92d57d09e1277a3e844bc909134098af56bc"
-  integrity sha512-fBohMy+zw6B9KTkdloRc/5tPHA5meLU0DnFI+hWfIW104b3SZhtr4XRXq9KJGh45Edkfimw8G3D68JzvW6UIXw==
+"@formatjs/intl@1.10.2":
+  version "1.10.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/intl/-/intl-1.10.2.tgz#ace1b0e5adba2b6f84b762cb8d36f0736594fa87"
+  integrity sha512-m6RMWDXtVqpBbaj1K/HM8CW9/vmt8ZpsmIXYfROHqKtkn/5Spe26uyKhUYOG9WJMp+LlLvCjOe2xoocOyrM/Rg==
   dependencies:
     "@formatjs/ecma402-abstract" "1.6.5"
-    "@formatjs/icu-messageformat-parser" "1.1.6"
+    "@formatjs/fast-memoize" "1.1.1"
+    "@formatjs/icu-messageformat-parser" "1.2.0"
     "@formatjs/intl-displaynames" "4.0.13"
     "@formatjs/intl-listformat" "5.0.14"
-    fast-memoize "^2.5.2"
-    intl-messageformat "9.6.8"
+    intl-messageformat "9.6.10"
     tslib "^2.1.0"
 
 "@graphql-typed-document-node/core@^3.0.0":
@@ -6641,11 +6646,6 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.6:
   resolved "https://repository.folio.org/repository/npm-ci-all/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fast-memoize@^2.5.2:
-  version "2.5.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/fast-memoize/-/fast-memoize-2.5.2.tgz#79e3bb6a4ec867ea40ba0e7146816f6cdce9b57e"
-  integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
-
 fast-xml-parser@^3.12.10:
   version "3.19.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/fast-xml-parser/-/fast-xml-parser-3.19.0.tgz#cb637ec3f3999f51406dd8ff0e6fc4d83e520d01"
@@ -7983,13 +7983,13 @@ interpret@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
 
-intl-messageformat@9.6.8:
-  version "9.6.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-9.6.8.tgz#6059f810ee21411ca3d83a21bce00b2784f8b10f"
-  integrity sha512-VOtRTSO0jq6MoUMyUoxXkclMfQmOPoJZJTNBPpF4uUULN9DYRZeUs2pQHWv0MmAF2owzZ8pqol9VH/Cx0k1xnw==
+intl-messageformat@9.6.10:
+  version "9.6.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-9.6.10.tgz#ac8420f0cbcb6080cccced11326ce3f2e37d035c"
+  integrity sha512-XqY+vN3AHLkl1aAygAgKHHA4KW4jrnj4NBlp3wKp+AZfG4UbxrOAJc3Pb4rLpQIRDawD00WCE/9IBqaRjHn4Gg==
   dependencies:
-    "@formatjs/icu-messageformat-parser" "1.1.6"
-    fast-memoize "^2.5.2"
+    "@formatjs/fast-memoize" "1.1.1"
+    "@formatjs/icu-messageformat-parser" "1.2.0"
     tslib "^2.1.0"
 
 invariant@2.2.4, invariant@^2.1.0, invariant@^2.2.2, invariant@^2.2.4:
@@ -11811,18 +11811,18 @@ react-inspector@^5.1.0:
     prop-types "^15.0.0"
 
 react-intl@^5.7.0:
-  version "5.16.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-5.16.0.tgz#c13167966f864a11bdafa8e9ac5478cc3c11bff5"
-  integrity sha512-DmTWrXkQLkOp0LiAIvNIzxqJ79CFscmjPQb1fYTJQpXPjGLiB+e2PE7CxxI7xTeUariINh4AXaYuGgKYXLUyxw==
+  version "5.17.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-intl/-/react-intl-5.17.0.tgz#7434ba18088bd2960a508c50455dc9bdc1b9e252"
+  integrity sha512-+31pThvxEvcBJwCOPehnAFk5eVo9PXEW1QWLanf4BO33NKS8cWx9n0F2y8Y35k6+sdnCjFp3P/n2/PyNa6/Lzw==
   dependencies:
     "@formatjs/ecma402-abstract" "1.6.5"
-    "@formatjs/icu-messageformat-parser" "1.1.6"
-    "@formatjs/intl" "1.10.0"
+    "@formatjs/icu-messageformat-parser" "1.2.0"
+    "@formatjs/intl" "1.10.2"
     "@formatjs/intl-displaynames" "4.0.13"
     "@formatjs/intl-listformat" "5.0.14"
     "@types/hoist-non-react-statics" "^3.3.1"
     hoist-non-react-statics "^3.3.2"
-    intl-messageformat "9.6.8"
+    intl-messageformat "9.6.10"
     tslib "^2.1.0"
 
 react-is@^16.13.1, react-is@^16.3.2, react-is@^16.4.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
