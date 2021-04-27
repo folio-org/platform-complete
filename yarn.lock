@@ -1202,6 +1202,25 @@
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^2.0.0"
 
+"@folio/dashboard@>=1.0.0":
+  version "1.0.100038"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/dashboard/-/dashboard-1.0.100038.tgz#9f91fa972b4fcbc31a987d2247291eb2c81ed792"
+  integrity sha512-vKNl/yFH2qf+lA4TPybhZmGlhv4m+xgjypJyX9SmuFJTjzXabI6mqmm6EgShGkJySv7SiYQeBy0lomuwElOKOw==
+  dependencies:
+    "@folio/react-intl-safe-html" "^2.0.0"
+    "@folio/stripes-erm-components" "^5.0.0"
+    classnames "^2.2.6"
+    compose-function "^3.0.3"
+    final-form "^4.19.0"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    query-string "^6.6.0"
+    react-beautiful-dnd "^13.0.0"
+    react-final-form "^6.4.0"
+    react-final-form-arrays "^3.1.1"
+    react-table "^7.6.3"
+
 "@folio/data-export@>=1.0.0":
   version "4.0.1000237"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-4.0.1000237.tgz#36bba57b6f1a78b728366c06b4f80962eda3cba0"
@@ -1732,6 +1751,16 @@
     dom-helpers "^3.4.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
+
+"@folio/plugin-resource-registry@>=1.0.0":
+  version "1.0.10006"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-resource-registry/-/plugin-resource-registry-1.0.10006.tgz#0c05e16cde972394b3ed6246454575c88664e070"
+  integrity sha512-hLFnehDaBxsD8qcu8T+N61pstDPDY3g91e22Q3NcRvxWIHrJZ+BncuLnUYigrwd7EZpp6XURIcjS20SVvUSlzQ==
+  dependencies:
+    dom-helpers "^3.4.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    urijs "^1.19.6"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^3.0.0":
   version "3.0.1000151"
@@ -2767,10 +2796,10 @@
     "@octokit/types" "^6.0.3"
     universal-user-agent "^6.0.0"
 
-"@octokit/openapi-types@^6.1.1":
-  version "6.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/openapi-types/-/openapi-types-6.1.1.tgz#27f9386fcbcb9846b27b1bc8a41ba6f313c922a6"
-  integrity sha512-ICBhnEb+ahi/TTdNuYb/kTyKVBgAM0VD4k6JPzlhJyzt3Z+Tq/bynwCD+gpkJP7AEcNnzC8YO5R39trmzEo2UA==
+"@octokit/openapi-types@^6.2.0":
+  version "6.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/openapi-types/-/openapi-types-6.2.0.tgz#6ea796b20c7111b9e422a4d607f796c1179622cd"
+  integrity sha512-V2vFYuawjpP5KUb8CPYsq20bXT4qnE8sH1QKpYqUlcNOntBiRr/VzGVvY0s+YXGgrVbFUVO4EI0VnHYSVBWfBg==
 
 "@octokit/plugin-paginate-rest@^2.2.0":
   version "2.13.3"
@@ -2838,11 +2867,11 @@
     "@types/node" ">= 8"
 
 "@octokit/types@^6.0.3", "@octokit/types@^6.11.0", "@octokit/types@^6.7.1":
-  version "6.13.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/types/-/types-6.13.2.tgz#e3423dc733567ac4836e116b34d154a8e9cbbf3c"
-  integrity sha512-jN5LImYHvv7W6SZargq1UMJ3EiaqIz5qkpfsv4GAb4b16SGqctxtOU2TQAZxvsKHkOw2A4zxdsi5wR9en1/ezQ==
+  version "6.14.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@octokit/types/-/types-6.14.0.tgz#587529b4a461d8b7621b99845718dc5c79281f52"
+  integrity sha512-43qHvDsPsKgNt4W4al3dyU6s2XZ7ZMsiiIw8rQcM9CyEo7g9W8/6m1W4xHuRqmEjTfG1U4qsE/E4Jftw1/Ak1g==
   dependencies:
-    "@octokit/openapi-types" "^6.1.1"
+    "@octokit/openapi-types" "^6.2.0"
 
 "@popperjs/core@^2.0.0":
   version "2.9.2"
@@ -6864,7 +6893,7 @@ final-form-set-field-data@^1.0.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form-set-field-data/-/final-form-set-field-data-1.0.2.tgz#ce19095af5d607148c1e6ce3403d75d40223d848"
   integrity sha512-gAnENimyQ5GW3OEGca5pbwm4lYshW2orzfBlPUYqzcm7ZxkQrVO8FqCAgEcCM+Rq9U1OU0q+D+UkqETvvDY6jw==
 
-final-form@4.18.2, final-form@4.20.1, final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.1, final-form@^4.20.1:
+final-form@4.18.2, final-form@4.20.1, final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.0, final-form@^4.19.1, final-form@^4.20.1:
   version "4.20.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/final-form/-/final-form-4.20.1.tgz#525a7f7f27f55c28d8994b157b24d6104fc560e9"
   integrity sha512-IIsOK3JRxJrN72OBj7vFWZxtGt3xc1bYwJVPchjVWmDol9DlzMSAOPB+vwe75TUYsw1JaH0fTQnIgwSQZQ9Acg==
@@ -11983,6 +12012,11 @@ react-svg-loader@^3.0.3:
     loader-utils "^1.2.3"
     react-svg-core "^3.0.3"
 
+react-table@^7.6.3:
+  version "7.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-table/-/react-table-7.7.0.tgz#e2ce14d7fe3a559f7444e9ecfe8231ea8373f912"
+  integrity sha512-jBlj70iBwOTvvImsU9t01LjFjy4sXEtclBovl3mTiqjz23Reu0DKnRza4zlLtOPACx6j2/7MrQIthIK1Wi+LIA==
+
 react-tether@^1.0.1:
   version "1.0.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-tether/-/react-tether-1.0.5.tgz#6d106e0039b1aa0e14d1266925486cd9cff2d217"
@@ -14032,6 +14066,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+urijs@^1.19.6:
+  version "1.19.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/urijs/-/urijs-1.19.6.tgz#51f8cb17ca16faefb20b9a31ac60f84aa2b7c870"
+  integrity sha512-eSXsXZ2jLvGWeLYlQA3Gh36BcjF+0amo92+wHPyN1mdR8Nxf75fuEuYTd9c0a+m/vhCjRK0ESlE9YNLW+E1VEw==
 
 urix@^0.1.0:
   version "0.1.0"
