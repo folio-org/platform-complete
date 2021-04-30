@@ -1,0 +1,188 @@
+@Library ('folio_jenkins_shared_libs') _
+
+/*
+ *  parameters {
+ *    choice(
+ *       name: 'PLATFORM',
+ *       defaultValue: 'platform-complete',
+ *       description: 'Platform repo in https://github.com/folio-org/' 
+ *    )
+ *  }
+ */
+
+pipeline {
+
+  environment {
+    BRANCH = "${GIT_BRANCH.split("/")[1]}"
+    OKAPI_TENANT = 'diku'
+    SLACK_CHANNEL = '#hosted-reference-envs'
+    ANSIBLE_CONFIG = "${env.WORKSPACE}/folio-infrastructure/CI/ansible/ansible.cfg"
+    DOCKERHUB_CI_PULL = credentials('dockerhub-ci-pull-account')
+    DOCKER_REGISTRIES = credentials('okapi-docker-registries-pull-json')
+    folioRegistry = 'https://folio-registry.dev.folio.org'
+  }
+
+  options {
+    timeout(60)
+    buildDiscarder(logRotator(numToKeepStr: '30'))
+  }
+
+  agent {
+    node {
+      label 'platform-build'
+    }
+  }
+
+  stages {
+    stage('Setup') {
+      steps {
+        sendNotifications 'STARTED'
+          echo 'On branch: ' + env.BRANCH
+
+        script {
+          currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
+   
+          if (params.PLATFORM == 'platform-core') {
+            env.folio_config = 'snapshot-core'
+            env.ec2_instanceType = 'm5.xlarge'
+            env.ec2_group = 'build_snapshot_core'
+          } 
+          else {
+            env.folio_config = 'snapshot'
+            env.ec2_instanceType = 'm5.2xlarge' 
+            env.ec2_group = 'build_snapshot'
+          }
+        }
+      }
+    }
+   
+    stage('Build Stripes Platform') {
+      steps {
+        // the tenant and okapi url are irrelevant here. 
+        buildStripesPlatform("https://dummy-name-okapi.dev.folio.org", env.OKAPI_TENANT)
+      }
+    }
+
+    stage('Check Interface Dependencies') {
+      steps { 
+        script {
+          echo "Creating okapi preseed module list."
+          sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
+          def installPreJson = readFile('./install-pre.json')
+          platformDepCheck('diku',installPreJson)
+          echo 'Generating backend dependency list to okapi-install.json' 
+          sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
+          sh 'cat okapi-install.json'
+          echo "Append edge modules to final stripes-install.json."
+          sh 'mv stripes-install.json stripes-install-pre.json'
+          sh 'jq \'map(select(.id | test(\"edge-\"; \"i\")))\' install.json > install-edge.json'
+          sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-edge.json > stripes-install.json' 
+          sh 'cat stripes-install.json'
+        }
+      }
+    }
+
+    stage('Build FOLIO instance') {
+      steps {
+        checkout([$class: 'GitSCM',
+                  branches: [[name: '*/master']],
+                  doGenerateSubmoduleConfigurations: false,
+                  extensions: [[$class: 'SubmoduleOption',
+                  disableSubmodules: false,
+                  parentCredentials: false,
+                  recursiveSubmodules: true,
+                  reference: '',
+                  trackingSubmodules: true],
+                  [$class: 'RelativeTargetDirectory', relativeTargetDir: 'folio-infrastructure']],
+                  submoduleCfg: [],
+                  userRemoteConfigs: [[credentialsId: 'cd96210b-c06f-4f09-a836-f992a685a97a',
+                                      url: 'https://github.com/folio-org/folio-infrastructure']]
+                ])
+
+        withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+                          accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                          credentialsId: 'jenkins-aws',
+                          secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+
+          dir("${env.WORKSPACE}/folio-infrastructure") { 
+            logFileFilter {
+              ansiblePlaybook(credentialsId: '11657186-f4d4-4099-ab72-2a32e023cced',
+                              disableHostKeyChecking: true,
+                              installation: 'Ansible',
+                              inventory: 'CI/ansible/inventory',
+                              playbook: "CI/ansible/build-snapshot-platform.yml",
+                              sudoUser: null,
+                              vaultCredentialsId: 'ansible-vault-pass',
+                              extraVars: [ec2_group: "${env.ec2_group}",
+                                          instance_type: "${env.ec2_instanceType}",
+                                          build_module_list_files: "${env.WORKSPACE}",
+                                          folio_config: "${env.folio_config}" ],
+                              extras: "-e \"{\\\"docker_image_repo\\\":{\\\"username\\\":\\\"${env.DOCKERHUB_CI_PULL_USR}\\\",\\\"password\\\":\\\"${env.DOCKERHUB_CI_PULL_PSW}\\\"}}\"")
+            }
+          }
+        }
+      }
+    }
+
+    // If stripes build is successful, update yarn.lock and commit
+
+
+   stage('Update Branch Install Artifacts') {
+     steps {
+       script {
+         dir("$env.WORKSPACE") {
+           def installFiles = ['stripes-install.json',
+                               'okapi-install.json',
+                               'install.json',
+                               'yarn.lock']
+
+           sh "git checkout $env.BRANCH"
+           sh 'git add yarn.lock'
+
+           for (int i = 0; i < installFiles.size(); i++) {
+             sh "git add ${env.WORKSPACE}/${installFiles[i]}"
+           } 
+
+           def commitStatus = sh(returnStatus: true, 
+                                 script: 'git commit -m "[CI SKIP] Updating install files"')
+
+           if ( commitStatus == 0 ) {
+             sshGitPush(origin: params.PLATFORM, branch: env.BRANCH)
+           }
+           else {
+             echo "No changes to artifacts"
+           }
+         }
+       } 
+     }
+   }     
+
+  }      // end stages
+
+  post {
+    failure {
+      slackSend channel: "$env.SLACK_CHANNEL", 
+                message: "Failure: ${env.JOB_NAME} ${env.BUILD_DISPLAY_NAME} (<${env.BUILD_URL}|Open>)"
+    }
+    always {
+      sendNotifications currentBuild.result
+    }
+    cleanup {
+      withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+                        accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                        credentialsId: 'jenkins-aws',
+                        secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+        script {
+          def instance = sh(returnStdout: true, script: "aws --region us-east-1 --output text ec2 describe-instances --filters 'Name=tag:Group,Values=${env.ec2_group}' 'Name=instance-state-name,Values=running' --query 'Reservations[*].Instances[*].[InstanceId]'")
+
+          if (instance) {
+            echo "Terminating instance: $instance"
+            sh "aws --region us-east-1 --output text ec2 terminate-instances --instance-ids $instance"
+          }
+        }
+      }
+    }
+
+  }
+}
+

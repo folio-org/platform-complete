@@ -7,6 +7,7 @@ module.exports = {
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
+    maxUnpagedResourceCount: 2000,
     showPerms: false
   },
 
@@ -21,6 +22,7 @@ module.exports = {
     '@folio/courses' : {},
     '@folio/data-import' : {},
     '@folio/data-export' : {},
+    '@folio/dashboard' : {},
     '@folio/developer' : {},
     '@folio/eholdings' : {},
     '@folio/erm-comparisons': {},
@@ -52,7 +54,9 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
+    '@folio/plugin-resource-registry' : {},
     '@folio/quick-marc' : {},
+    '@folio/marc-authorities': {},
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
