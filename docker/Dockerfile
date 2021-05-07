@@ -1,4 +1,4 @@
-ROM node:15-alpine as stripes_build
+fROM node:15-alpine as stripes_build
 
 ARG OKAPI_URL=http://localhost:9130
 ARG TENANT_ID=diku
