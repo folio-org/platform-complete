@@ -1068,6 +1068,25 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
+"@bigtest/globals@^0.7.5":
+  version "0.7.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@bigtest/globals/-/globals-0.7.5.tgz#b958321276c5548b6e1fc20b20aa8c7b8cd28b1e"
+  integrity sha512-69Z6/eN1LyavydNDQhGD7jVPbNthPdyT6mVWNFu41yy2CtufMkATX+7TNBNm1jHtZ3Z6GKkFH8BKZMGq3o6HSQ==
+  dependencies:
+    "@bigtest/suite" "^0.11.2"
+    effection "^0.8.0"
+
+"@bigtest/interactor@^0.28.1":
+  version "0.28.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@bigtest/interactor/-/interactor-0.28.2.tgz#52fcfc15a95f798cff4494eeb81755c833058c37"
+  integrity sha512-fUlFI6c5uAhK29lBMCj0UQXxnjK+f/aeodHF0FhYbkA/2vPzSdvGvmtDt33mqoaCp8Lo/jhtaftbrd3pTK53oA==
+  dependencies:
+    "@bigtest/globals" "^0.7.5"
+    "@bigtest/performance" "^0.5.0"
+    change-case "^4.1.1"
+    element-is-visible "^1.0.0"
+    lodash.isequal "^4.5.0"
+
 "@bigtest/mirage@^0.0.1":
   version "0.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/@bigtest/mirage/-/mirage-0.0.1.tgz#c13462680ce1d91d5b1a73a2f90489b0d6039e83"
@@ -1077,6 +1096,16 @@
     inflected "^2.0.2"
     lodash "^4.17.4"
     pretender "^2.0.0"
+
+"@bigtest/performance@^0.5.0":
+  version "0.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@bigtest/performance/-/performance-0.5.0.tgz#195f2c445cbe2ebe4357e08f7b39449240bf62d7"
+  integrity sha512-5lmaul6UIdyEApxapYumCShEdKca7PjwYlcIHiu/5iI032DUQsq4dygYMX07cgevfCZSR2fss57uMGfdB22GbQ==
+
+"@bigtest/suite@^0.11.2":
+  version "0.11.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@bigtest/suite/-/suite-0.11.3.tgz#f6c915ad91c69567d8585f8f4efe479b1e1b1ba0"
+  integrity sha512-50M5zC0xjEE9maNayWNNUKatR6NSEPrwNOVjEZKVRL3n3DdNwBV5OIE2xuwVIaWz1Wgbdg/lsojLefRNzOIapA==
 
 "@folio/acquisition-units@>=1.0.0":
   version "2.3.1000100"
@@ -1093,9 +1122,9 @@
     "@folio/plugin-find-user" "*"
 
 "@folio/agreements@>=2.0.0":
-  version "6.1.1000686"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-6.1.1000686.tgz#f97524b6ff0cdc84e03ac91b27a2f18d9d1b6beb"
-  integrity sha512-o37PcFGZPP08IDh/qRZ11XxmMGLEcKY9Ax3jPJfz6vif454Q4Y1P2/38CiCUGHT1MM3yC8Ji0uh3wLZ/C3eA+Q==
+  version "6.1.1000687"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-6.1.1000687.tgz#f16f5ddf9e7680264c4e0d13428c3c7d074229bd"
+  integrity sha512-HnDLTW1tqzxk3Epx9jLCb4OKIxVmPJwB1mbPqHC04w0rmUMwlocqK6xhooZYBDMItK8eWMFGBnRRd+vPMTL5/Q==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-erm-components" "^5.0.0"
@@ -2160,14 +2189,15 @@
     react-to-print "^2.3.2"
 
 "@folio/stripes-testing@^3.0.0":
-  version "3.0.100084"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-3.0.100084.tgz#0753fdb615ced18be5e6af177b4b723db2aaad1e"
-  integrity sha512-0HlPqMIT95HfKGgpfAnyy/s/dGf4U5jtDnVhCSbxHC1X4fZguLTJcMBB6J/2LAuAbleb/5s77KTb8nTh0z0pcg==
+  version "3.0.100087"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-3.0.100087.tgz#a40a46ca93622d7c89a850412318f8ecd984c581"
+  integrity sha512-LVEGQNyG6vnaErz/+cAKgldD89epmgINqzJwm1zSovMsK8dn2oBJQqUY2q5TJFWv8cMyWSsxuqyNcfHtcBz0kw==
   dependencies:
+    "@bigtest/interactor" "^0.28.1"
     date-fns "^2.16.1"
     debug "^4.0.1"
     element-is-visible "^1.0.0"
-    uuid "^3.0.1"
+    minimist "^1.2.0"
 
 "@folio/stripes-util@~4.2.0":
   version "4.2.100048"
@@ -4466,7 +4496,7 @@ callsites@^3.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-camel-case@^4.1.1:
+camel-case@^4.1.1, camel-case@^4.1.2:
   version "4.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/camel-case/-/camel-case-4.1.2.tgz#9728072a954f805228225a6deea6b38461e1bd5a"
   integrity sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==
@@ -4503,6 +4533,15 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001219:
   version "1.0.30001228"
   resolved "https://repository.folio.org/repository/npm-ci-all/caniuse-lite/-/caniuse-lite-1.0.30001228.tgz#bfdc5942cd3326fa51ee0b42fbef4da9d492a7fa"
   integrity sha512-QQmLOGJ3DEgokHbMSA8cj2a+geXqmnpyOFT0lhQV6P3/YOJvGDEwoedcwxEQ30gJIwIIunHIicunJ2rzK5gB2A==
+
+capital-case@^1.0.4:
+  version "1.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/capital-case/-/capital-case-1.0.4.tgz#9d130292353c9249f6b00fa5852bee38a717e669"
+  integrity sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
+    upper-case-first "^2.0.2"
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -4541,6 +4580,24 @@ chalk@^4.0.0, chalk@^4.1.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+change-case@^4.1.1:
+  version "4.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/change-case/-/change-case-4.1.2.tgz#fedfc5f136045e2398c0410ee441f95704641e12"
+  integrity sha512-bSxY2ws9OtviILG1EiY5K7NNxkqg/JnRnFxLtKQ96JaviiIxi7djMrSd0ECT9AC+lttClmYwKw53BWpOMblo7A==
+  dependencies:
+    camel-case "^4.1.2"
+    capital-case "^1.0.4"
+    constant-case "^3.0.4"
+    dot-case "^3.0.4"
+    header-case "^2.0.4"
+    no-case "^3.0.4"
+    param-case "^3.0.4"
+    pascal-case "^3.1.2"
+    path-case "^3.0.4"
+    sentence-case "^3.0.4"
+    snake-case "^3.0.4"
+    tslib "^2.0.3"
 
 change-emitter@^0.1.2:
   version "0.1.6"
@@ -4962,6 +5019,15 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+
+constant-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/constant-case/-/constant-case-3.0.4.tgz#3b84a9aeaf4cf31ec45e6bf5de91bdfb0589faf1"
+  integrity sha512-I2hSBi7Vvs7BEuJDr5dDHfzb/Ruj3FyvFyh7KLilAjNQw3Be+xgqUBA2W6scVEcL0hL1dwPRtIqEPVUCKkSsyQ==
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
+    upper-case "^2.0.2"
 
 constants-browserify@^1.0.0:
   version "1.0.0"
@@ -5881,6 +5947,11 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+effection@^0.8.0:
+  version "0.8.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/effection/-/effection-0.8.0.tgz#55426e611825af610ac31858496853319d757126"
+  integrity sha512-sohyRJ+StqWnPWbTe+0n9SdZUzXlCphHRVjAIEpJZ1UXGe/RyWX5HL1woxQYcfD6HngBEnpLh2Knx0II2IT0Iw==
 
 ejs@^2.2.4, ejs@^2.6.1:
   version "2.7.4"
@@ -7533,6 +7604,14 @@ he@1.2.0, he@^1.2.0:
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
+header-case@^2.0.4:
+  version "2.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/header-case/-/header-case-2.0.4.tgz#5a42e63b55177349cf405beb8d775acabb92c063"
+  integrity sha512-H/vuk5TEEVZwrR0lp2zed9OCo1uAILMlx0JEMgC26rzyJJ3N1v6XkwHHXJQdR2doSjcGPM6OKPYoJgf0plJ11Q==
+  dependencies:
+    capital-case "^1.0.4"
+    tslib "^2.0.3"
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
@@ -10429,7 +10508,7 @@ parallel-transform@^1.1.0:
     inherits "^2.0.3"
     readable-stream "^2.1.5"
 
-param-case@^3.0.3:
+param-case@^3.0.3, param-case@^3.0.4:
   version "3.0.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/param-case/-/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
   integrity sha512-RXlj7zCYokReqWpOPH9oYivUzLYZ5vAPIfEmCTNViosC78F8F0H9y7T7gG2M39ymgutxF5gcFEsyZQSph9Bp3A==
@@ -10563,6 +10642,14 @@ path-browserify@0.0.1:
   version "0.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/path-browserify/-/path-browserify-0.0.1.tgz#e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a"
   integrity sha512-BapA40NHICOS+USX9SN4tyhq+A2RrN/Ws5F0Z5aMHDp98Fl86lX8Oti8B7uN93L4Ifv4fHOEA+pQw87gmMO/lQ==
+
+path-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/path-case/-/path-case-3.0.4.tgz#9168645334eb942658375c56f80b4c0cb5f82c6f"
+  integrity sha512-qO4qCFjXqVTrcbPt/hQfhTQ+VhFsqNKOPtytgNKkKxSoEp3XPUQ8ObFuePylOIok5gjn69ry8XiULxCwot3Wfg==
+  dependencies:
+    dot-case "^3.0.4"
+    tslib "^2.0.3"
 
 path-dirname@^1.0.0:
   version "1.0.2"
@@ -12689,6 +12776,15 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
+sentence-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/sentence-case/-/sentence-case-3.0.4.tgz#3645a7b8c117c787fde8702056225bb62a45131f"
+  integrity sha512-8LS0JInaQMCRoQ7YUytAo/xUu5W2XnQxV2HI/6uM6U7CITS1RqPElr30V6uIqyMKM9lJGRVFy5/4CuzcixNYSg==
+  dependencies:
+    no-case "^3.0.4"
+    tslib "^2.0.3"
+    upper-case-first "^2.0.2"
+
 serialize-javascript@5.0.1, serialize-javascript@^5.0.0:
   version "5.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/serialize-javascript/-/serialize-javascript-5.0.1.tgz#7886ec848049a462467a97d3d918ebb2aaf934f4"
@@ -12852,6 +12948,14 @@ slice-ansi@^2.1.0:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
+
+snake-case@^3.0.4:
+  version "3.0.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/snake-case/-/snake-case-3.0.4.tgz#4f2bbd568e9935abdfd593f34c691dadb49c452c"
+  integrity sha512-LAOh4z89bGQvl9pFfNF8V146i7o7/CqFPbqzYgP+yYzDIDeS9HaNFtXABamRW+AQzEVODcvE79ljJ+8a9YSdMg==
+  dependencies:
+    dot-case "^3.0.4"
+    tslib "^2.0.3"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -13978,6 +14082,20 @@ update-notifier@^2.3.0:
     latest-version "^3.0.0"
     semver-diff "^2.0.0"
     xdg-basedir "^3.0.0"
+
+upper-case-first@^2.0.2:
+  version "2.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/upper-case-first/-/upper-case-first-2.0.2.tgz#992c3273f882abd19d1e02894cc147117f844324"
+  integrity sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==
+  dependencies:
+    tslib "^2.0.3"
+
+upper-case@^2.0.2:
+  version "2.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/upper-case/-/upper-case-2.0.2.tgz#d89810823faab1df1549b7d97a76f8662bae6f7a"
+  integrity sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==
+  dependencies:
+    tslib "^2.0.3"
 
 uri-js@^4.2.2:
   version "4.4.1"
