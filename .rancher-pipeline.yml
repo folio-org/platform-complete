@@ -1,0 +1,41 @@
+stages:
+  - name: Build and Push
+    steps:
+      - publishImageConfig:
+          dockerfilePath: ./docker/Dockerfile
+          buildContext: ./
+          tag: docker.dev.folio.org/platform-complete:volaris-${CICD_EXECUTION_SEQUENCE}
+          pushRemote: true
+          registry: docker.dev.folio.org
+        env:
+          PLUGIN_BUILD_ARGS_FROM_ENV: OKAPI_URL, TENANT_ID
+        envFrom:
+          - sourceName: tenant-config
+            sourceKey: TENANT_ID
+          - sourceName: tenant-config
+            sourceKey: OKAPI_URL
+        cpuLimit: 1500m
+        memoryLimit: 8Gi
+        cpuRequest: 100m
+        memoryRequest: 100Mi
+  - name: Deploy
+    steps:
+      - applyAppConfig:
+          catalogTemplate: p-bxflg:volaris-helmcharts-platform-complete
+          version: 0.1.13
+          answers:
+            image.repository: docker.dev.folio.org/platform-complete
+            image.tag: volaris-${CICD_EXECUTION_SEQUENCE}
+            ingress.enabled: true
+            ingress.hosts[0].host: volaris.ci.folio.org
+            ingress.hosts[0].paths[0]: /
+            resources.limits.cpu: 700m
+            resources.limits.memory: 786Mi
+            postJob.enabled: false
+          name: platform-complete
+          targetNamespace: volaris
+timeout: 60
+branch:
+  include:
+    - volaris-rancher
+notification: {}
