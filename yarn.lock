@@ -1413,6 +1413,17 @@
     react-final-form-listeners "^1.0.2"
     redux-form "^8.3.0"
 
+"@folio/inn-reach@git://github.com/folio-org/ui-inn-reach.git#master":
+  version "1.1.0"
+  resolved "git://github.com/folio-org/ui-inn-reach.git#e7f01a69be0abcf9be1f1c00a4f3e7b4d4a135ea"
+  dependencies:
+    "@folio/stripes-data-transfer-components" "^4.0.0"
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    uuid "^3.0.2"
+
 "@folio/inventory-es@>=1.6.0":
   version "6.3.100053"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory-es/-/inventory-es-6.3.100053.tgz#f1ad71ae16ea0276c70bddf246d81ded5766488b"
@@ -14311,7 +14322,7 @@ utils-merge@1.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.0.0, uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.0, uuid@^3.0.1, uuid@^3.0.2, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
@@ -14399,8 +14410,10 @@ watchpack@^1.7.4:
   resolved "https://repository.folio.org/repository/npm-ci-all/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
