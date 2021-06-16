@@ -30,16 +30,9 @@
   "packageRules": [
     { 
       "baseBranchList": ["master"],
-      "packagePatterns": ["^@folio/"],
+      "packagePatterns": ["^@folio/","^folioorg/"],
       "groupName": "Master branch updates",
       "updateTypes": ["minor","patch"], 
-      "enabled": true
-    },
-    { 
-      "baseBranchList": ["R1-2021"],
-      "packagePatterns": ["^@folio/", "^folioorg/"],
-      "groupName": "FOLIO R1 2021 updates",
-      "updateTypes": ["patch"], 
       "enabled": true
     }
   ]
