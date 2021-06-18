@@ -23,6 +23,7 @@ module.exports = {
     '@folio/erm-usage': {},
     '@folio/export-manager': {},
     '@folio/finance' : {},
+    '@folio/ldp': {},
     '@folio/inventory' : {},
     '@folio/inventory-es' : {},
     '@folio/invoice': {},
