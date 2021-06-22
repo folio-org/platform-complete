@@ -1210,11 +1210,12 @@
     "@folio/plugin-find-user" "^5.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^5.0.0":
-  version "5.0.1000686"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.0.1000686.tgz#9146d8609140a76b64573663183cd9e78f9994da"
-  integrity sha512-5az9DFjTuUJG5+CuQdsee8Ii+TndYvlA5G04pdYL7pVcfWAlKzGajNJU4085B1Djyy6PeTWtqWHXeKCwYe7Z7A==
+  version "5.1.1000689"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-5.1.1000689.tgz#60ab4027cd76eecd212bef034a9acfbeea034ab3"
+  integrity sha512-kvLYq9m0cixLJyflo1tAdRYBTOsbO7TgEVh/tYkoKzwlLXxrbFvpBoTBprTKcPVDkTI09OWup/5r5c1YPTolkA==
   dependencies:
     "@folio/stripes-template-editor" "^1.0.0"
+    codemirror "^5.61.1"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     final-form-set-field-data "^1.0.2"
@@ -1222,7 +1223,7 @@
     lodash "^4.17.4"
     moment-timezone "^0.5.33"
     prop-types "^15.5.10"
-    react-codemirror2 "^1.0.0"
+    react-codemirror2 "^7.2.1"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
 
@@ -1311,9 +1312,9 @@
     redux-form "^8.0.3"
 
 "@folio/eholdings@>=1.1.0":
-  version "6.1.1000950"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-6.1.1000950.tgz#f30404bb8d84d2369f65cb2605aee8149dac04c9"
-  integrity sha512-KKTyQL7cH0s2Ags6hofec0o03A6VZTzPuK88qeCzloMsUva1Lwgeol+M6HiaaIJ23miRRmHLSPh66Dz9/ZePkQ==
+  version "6.1.1000951"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-6.1.1000951.tgz#db664659ac017f0a2f7a93f93010b3d4704fdc8a"
+  integrity sha512-YfyOu7rrRk0XN/SyQqOXZcY6JCVM7+8QhXubAr18IBu80vtONYtsE+BbrWtnY0fC+E2LnTH+/CpECWywF63+Yw==
   dependencies:
     classnames "^2.2.5"
     currency-symbol-map "^4.0.4"
@@ -4754,10 +4755,10 @@ code-point-at@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codemirror@5.29.0:
-  version "5.29.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/codemirror/-/codemirror-5.29.0.tgz#e68de1350e2f0ce804a3930576d0ae318736e967"
-  integrity sha512-nlG9m0YQ0gFhdEdnKDG+XJRB/bW+K6M9Axs01+LScjVamWtd4dEwgyohf/r4voW1efnGi6U6hHHvDQ9tt9BtoA==
+codemirror@^5.61.1:
+  version "5.62.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/codemirror/-/codemirror-5.62.0.tgz#e9ecd012e6f9eaf2e05ff4a449ff750f51619e22"
+  integrity sha512-Xnl3304iCc8nyVZuRkzDVVwc794uc9QNX0UcPGeNic1fbzkSrO4l4GVXho9tRNKBgPYZXgocUqXyfIv3BILhCQ==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -11323,12 +11324,10 @@ react-chartjs-2@^2.11.1:
     lodash "^4.17.19"
     prop-types "^15.7.2"
 
-react-codemirror2@^1.0.0:
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-codemirror2/-/react-codemirror2-1.0.0.tgz#b529a6c5c91219f92c751f43a17721cdaf36b05f"
-  integrity sha512-55DMKGnitG9DX8Uyu5e61h+v+ZWKCOdGa2dYFiuYixIii6mVqHC3xQE5UCmC+0fNCg8+jEN2tNUTeVMer8T/vw==
-  dependencies:
-    codemirror "5.29.0"
+react-codemirror2@^7.2.1:
+  version "7.2.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-codemirror2/-/react-codemirror2-7.2.1.tgz#38dab492fcbe5fb8ebf5630e5bb7922db8d3a10c"
+  integrity sha512-t7YFmz1AXdlImgHXA9Ja0T6AWuopilub24jRaQdPVbzUJVNKIYuy3uCFZYa7CE5S3UW6SrSa5nAqVQvtzRF9gw==
 
 react-cookie@^4.0.3:
   version "4.0.3"
