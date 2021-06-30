@@ -95,7 +95,7 @@ pipeline {
                   trackingSubmodules: true],
                   [$class: 'RelativeTargetDirectory', relativeTargetDir: 'folio-infrastructure']],
                   submoduleCfg: [],
-                  userRemoteConfigs: [[credentialsId: 'cd96210b-c06f-4f09-a836-f992a685a97a',
+                  userRemoteConfigs: [[credentialsId: 'id-jenkins-github-personal-token-with-username',
                                       url: 'https://github.com/folio-org/folio-infrastructure']]
                 ])
 
