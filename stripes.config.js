@@ -15,6 +15,7 @@ module.exports = {
     '@folio/circulation' : {},
     '@folio/circulation-log' : {},
     '@folio/courses' : {},
+    '@folio/dashboard': {},
     '@folio/data-export' : {},
     '@folio/data-import' : {},
     '@folio/developer' : {},
