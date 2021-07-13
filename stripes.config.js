@@ -54,7 +54,6 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-resource-registry' : {},
     '@folio/quick-marc' : {},
     '@folio/marc-authorities': {},
     '@folio/receiving' : {},
@@ -63,6 +62,7 @@ module.exports = {
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components' : {},
+    '@folio/stripes-registry' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
