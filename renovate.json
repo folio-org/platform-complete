@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["master", "R1-2021","q3-2020"],
+  "baseBranches": ["main", "master", "R1-2021","q3-2020"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -29,9 +29,9 @@
  
   "packageRules": [
     { 
-      "baseBranchList": ["master"],
+      "baseBranchList": ["main", "master"],
       "packagePatterns": ["^@folio/","^folioorg/"],
-      "groupName": "Master branch updates",
+      "groupName": "Main branch updates",
       "updateTypes": ["minor","patch"], 
       "enabled": true
     }
