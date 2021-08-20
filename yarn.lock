@@ -1679,7 +1679,7 @@
     react-highlighter "^0.4.3"
     redux-form "^8.3.7"
 
-"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@5.1.1", "@folio/plugin-find-instance@^5.0.0":
+"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@5.1.1", "@folio/plugin-find-instance@^4.0.0", "@folio/plugin-find-instance@^5.0.0":
   version "5.1.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-5.1.1.tgz#3c45bb643f5918a5c9055c7a5265b60e2561cf33"
   integrity sha512-+aM3uirIyI+DKY5oJ7kWklnkgzGpZ9DgikvwS4iCp+ZPclb+t/oyGhin6t0zZ1Fnk+WFcyUp3fDRI5rt966/qw==
@@ -1687,16 +1687,6 @@
     classnames "^2.2.6"
     lodash "^4.17.11"
     moment "^2.29.1"
-    prop-types "^15.6.0"
-    sinon "^9.0.2"
-
-"@folio/plugin-find-instance@^4.0.0":
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-instance/-/plugin-find-instance-4.0.0.tgz#a89ac9bc3bd2ec5e79937fde52c64822ee2b84af"
-  integrity sha512-f8+qzIATK3DxoeIu438wuVHkjjxc/3WlXRAwQnFRlr5gbRGTC7Cde4oPBB3Y1+KxO/nMFkZ0ZHpVFM+WSCX3Zg==
-  dependencies:
-    classnames "^2.2.6"
-    lodash "^4.17.11"
     prop-types "^15.6.0"
     sinon "^9.0.2"
 
@@ -1872,31 +1862,11 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^2.1.0", "@folio/stripes-acq-components@~2.4.0":
+"@folio/stripes-acq-components@^2.1.0", "@folio/stripes-acq-components@~2.3.0", "@folio/stripes-acq-components@~2.4.0", "@folio/stripes-acq-components@~2.4.3":
   version "2.4.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-2.4.3.tgz#bd772dc6c2f074d020d02814c00debd8d9292c1a"
   integrity sha512-WJFUf9W0zY6zdLT/xEylQjjntRLSrkZeQBlhHhGF/jz1Y55a0lRU+6c5GE9oKIwSZc7f9V6+EPNWVFWFJs04Ng==
   dependencies:
-    "@rehooks/local-storage" "^2.4.0"
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.2"
-    lodash "^4.17.11"
-    prop-types "^15.7.2"
-    query-string "^6.1.0"
-    react-dropzone "^10.0.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.1"
-    react-hot-loader "^4.3.12"
-    redux-form "^8.3.0"
-
-"@folio/stripes-acq-components@~2.3.0":
-  version "2.3.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-2.3.3.tgz#bbb8e4ef8966e5d747ceb2c8927f55e1584bfbe5"
-  integrity sha512-SqigHvk9pLhebRqMAFjxD7MyNHIakNzD34ZuQoimulrDAfmcDSWv+WYJKIA1B8XP3r9tfB9aIuFP7ifd7MOXpA==
-  dependencies:
-    "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -2894,10 +2864,10 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.3.tgz#8b68da1ebd7fc603999cf6ebee34a4899a14b88e"
   integrity sha512-xDu17cEfh7Kid/d95kB6tZsLOmSWKCZKtprnhVepjsSaCij+lM3mItSJDuuHDMbCWTh8Ejmebwb+KONcCJ0eXQ==
 
-"@rehooks/local-storage@2.4.0", "@rehooks/local-storage@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@rehooks/local-storage/-/local-storage-2.4.0.tgz#fb884b2b657cad5f77aa6ab60bb3532f0e0725d2"
-  integrity sha512-LoXDbEHsuIckVgBsFAv8SuU/M7memjyfWut9Zf36TQXqqCHBRFv8bweg9PymQCa1aWIMjNrZQflFdo55FDlXYg==
+"@rehooks/local-storage@2.4.0", "@rehooks/local-storage@2.4.1", "@rehooks/local-storage@^2.4.0":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@rehooks/local-storage/-/local-storage-2.4.1.tgz#a35bf8ea03d8bf2202029a7b5885ed2806a3594b"
+  integrity sha512-btOCPMDDG5PtNw+qNMTG9HGsgQTUYa3bvZ/ELDSeZ4YA9IGJA97oP6Tcb9EOrN7OqC8zpsiO7qxvpYP01PE+XQ==
 
 "@restart/hooks@^0.3.12":
   version "0.3.27"
@@ -3043,9 +3013,9 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "16.6.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.6.1.tgz#aee62c7b966f55fc66c7b6dfa1d58db2a616da61"
-  integrity sha512-Sr7BhXEAer9xyGuCN3Ek9eg9xPviCF2gfu9kTfuU2HkTVAMYSDeX40fvpmo72n5nansg3nsBjuQBrsS28r+NUw==
+  version "16.6.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.6.2.tgz#331b7b9f8621c638284787c5559423822fdffc50"
+  integrity sha512-LSw8TZt12ZudbpHc6EkIyDM3nHVWKYrAvGy6EAJfNfjusbwnThqjqxUKKRwuV3iWYeW/LYMzNgaq3MaLffQ2xA==
 
 "@types/prop-types@*", "@types/prop-types@^15.7.3":
   version "15.7.4"
@@ -3094,9 +3064,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@17", "@types/react@>=16.9.0", "@types/react@>=16.9.11":
-  version "17.0.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.18.tgz#4109cbbd901be9582e5e39e3d77acd7b66bb7fbe"
-  integrity sha512-YTLgu7oS5zvSqq49X5Iue5oAbVGhgPc5Au29SJC4VeE17V6gASoOxVkUDy9pXFMRFxCWCD9fLeweNFizo3UzOg==
+  version "17.0.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.19.tgz#8f2a85e8180a43b57966b237d26a29481dacc991"
+  integrity sha512-sX1HisdB1/ZESixMTGnMxH9TDe8Sk709734fEQZzCV/4lSu9kJCPbo2PbTRoZM+53Pp0P10hYVyReUueGwUi4A==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -5863,9 +5833,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.811:
-  version "1.3.811"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.811.tgz#df5a7b18267a0b8b6ffed0dde63b9fb701f777f8"
-  integrity sha512-hv3kgf6YSd+jQ7J+7Kdm44yux/1vxcAwfGV/6M6Nq4E9zJ3Bml/P2+vULCvqLS6Lh9knBCQ7iEMvyeDiGe5EbA==
+  version "1.3.813"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.813.tgz#751a007d71c00faed8b5e9edaf3634c14b9c5a1f"
+  integrity sha512-YcSRImHt6JZZ2sSuQ4Bzajtk98igQ0iKkksqlzZLzbh4p0OIyJRSvUbsgqfcR8txdfsoYCc4ym306t4p2kP/aw==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
@@ -8565,9 +8535,9 @@ jsontoxml@^1.0.1:
   integrity sha512-dtKGq0K8EWQBRqcAaePSgKR4Hyjfsz/LkurHSV3Cxk4H+h2fWDeaN2jzABz+ZmOJylgXS7FGeWmbZ6jgYUMdJQ==
 
 jspdf-autotable@^3.5.14:
-  version "3.5.15"
-  resolved "https://registry.yarnpkg.com/jspdf-autotable/-/jspdf-autotable-3.5.15.tgz#0d69763c31950db7e76b4fe0d5d24a19a9bd7ebb"
-  integrity sha512-TFDmrflPqfnI4Oco7noBVhWIozch/2bty3x/3iOiuDBBk8wGlmSCIEMYXhQJQ1/nk28cMROkHEu0b5j0O0O56Q==
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/jspdf-autotable/-/jspdf-autotable-3.5.20.tgz#9bd702a09d7f9a839e1c320ca4ac5675cd4edd78"
+  integrity sha512-FX43+hZQG9WXhD87oY4FsiaunA3d3FGeYFTx93LM+VXqBXIutuE3jmp1vK8oCVVUHohuOsi3Bp4/Li5Nko8EjA==
 
 jspdf@^2.3.1:
   version "2.3.1"
@@ -8882,9 +8852,9 @@ loader-utils@^2.0.0:
     json5 "^2.1.2"
 
 localforage@^1.5.6:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.9.0.tgz#f3e4d32a8300b362b4634cc4e066d9d00d2f09d1"
-  integrity sha512-rR1oyNrKulpe+VM9cYmcFn6tsHuokyVHFaCM3+osEmxaHTbEk8oQu6eGDfS6DQLWi/N67XRmB8ECG37OES368g==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.10.0.tgz#5c465dc5f62b2807c3a84c0c6a1b1b3212781dd4"
+  integrity sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==
   dependencies:
     lie "3.1.1"
 
@@ -11587,9 +11557,9 @@ react-overlays@^3.2.0:
     warning "^4.0.3"
 
 react-query@^3.13.0, react-query@^3.6.0, react-query@^3.9.8:
-  version "3.19.6"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.19.6.tgz#02bda891a3f0a0534934d9024350d655b268e82c"
-  integrity sha512-21WfvDgBXvPzJtG4gAxi0h6ipOUNPKZGR3vZJ17m/kHGbj9g6rPblc0lG4sY5oVLpM05LP+BdDt/IYfy0IIKmg==
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.20.0.tgz#47947f1e4d4637e452f593eb9bb10a1aeb1f45bc"
+  integrity sha512-2SZFCGdmDpNqASC3LjVbOtUjzPqNabYdXnSC5qF79FQsCdM27jtadB30MHiqRG9Fg6FjPBUI/1qhIf3sa++ndg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
@@ -13150,9 +13120,9 @@ tar-stream@^2.1.4:
     readable-stream "^3.1.1"
 
 tar@^5.0.5:
-  version "5.0.9"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-5.0.9.tgz#bbdffcb5949fa61e691dbcac03f248fe08b5828a"
-  integrity sha512-XvvsfjcXKwCmAKTmxRyG5XbyUO0eZ8tyKXkAQd+At0SxOFCN/WvuxWXNAR/UCGXCvoDi+rLi5FV5q7wVhC5X/w==
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-5.0.11.tgz#f6e972e26960f71387c88e4313b202889be09292"
+  integrity sha512-E6q48d5y4XSCD+Xmwc0yc8lXuyDK38E0FB8N4S/drQRtXOMUhfhDxbB0xr2KKDhNfO51CFmoa6Oz00nAkWsjnA==
   dependencies:
     chownr "^1.1.4"
     fs-minipass "^2.1.0"
