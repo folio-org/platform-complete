@@ -3218,6 +3218,11 @@
   dependencies:
     "@types/yargs-parser" "*"
 
+"@types/zen-observable@0.8.3":
+  version "0.8.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/zen-observable/-/zen-observable-0.8.3.tgz#781d360c282436494b32fe7d9f7f8e64b3118aa3"
+  integrity sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==
+
 "@ungap/promise-all-settled@1.1.2":
   version "1.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/@ungap/promise-all-settled/-/promise-all-settled-1.1.2.tgz#aa58042711d6e3275dd37dc597e5d31e8c290a44"
@@ -14322,10 +14327,11 @@ yocto-queue@^0.1.0:
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 zen-observable-ts@^1.1.0:
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/zen-observable-ts/-/zen-observable-ts-1.2.0.tgz#6925f60e9a5e8f3af72151b9d37e5789ccf70139"
-  integrity sha512-3IklmJSChXaqAD2gPz6yKHThAnZL46D51x5EPpN/MHuPjrepVdSg3qI7f5fh1RT8Y+K46Owo9fpVuJiuJXLMMA==
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/zen-observable-ts/-/zen-observable-ts-1.1.0.tgz#2d1aa9d79b87058e9b75698b92791c1838551f83"
+  integrity sha512-1h4zlLSqI2cRLPJUHJFL8bCWHhkpuXkF+dbGkRaWjgDIG26DmzyshUMrdV/rL3UnR+mhaX4fRq8LPouq0MYYIA==
   dependencies:
+    "@types/zen-observable" "0.8.3"
     zen-observable "0.8.15"
 
 zen-observable@0.8.15:
