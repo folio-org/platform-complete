@@ -20,7 +20,8 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
     '@folio/tenant-settings' : {},
-    '@folio/users' : {}
+    '@folio/users' : {},
+    '@folio/data-import' : {}
   },
 
   branding: {
