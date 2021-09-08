@@ -1481,9 +1481,9 @@
     "@folio/quick-marc" "^3.0.0"
 
 "@folio/invoice@>=1.0.0":
-  version "2.4.2000489"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-2.4.2000489.tgz#93f0194fd724c9753c335ac0e28f90ce7281d5ce"
-  integrity sha512-gAPQX2kVeGOP8AURGGGCH7n43ZmU1QOya1Dn4xOebjTLuk+saoACyst16hhae+REOFTHy/BmCiHWe6F9aCKzmw==
+  version "2.4.4000490"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-2.4.4000490.tgz#6d848d04e515e69f98bf537b849a1fc9d127f959"
+  integrity sha512-jIA41WX/BQm3kTu1e6M8cfqxPY47ReZjF/v6T14TGYqigeKv/nvJ9OQwpdu/CC4ELVeqg3JOQBxmr5ciNsOOuQ==
   dependencies:
     "@folio/stripes-acq-components" "~2.4.0"
     file-saver "^2.0.0"
@@ -1798,9 +1798,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^3.0.0":
-  version "3.1.1000180"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.1.1000180.tgz#8d83afcaeeebdce2ae5c4111b6c683bb4feaaf55"
-  integrity sha512-r09BJ3nSsE6QOMjsKFZTcRjPGlKWMVxkCORZP49398uAkgJLJRpSokzCpNFyva2RZoYMztfJQdkvA/amfNwq4A==
+  version "3.1.1000181"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.1.1000181.tgz#d3d1ffb0aa3dcefebad9bc70308108c224e0e7ff"
+  integrity sha512-FKqJ2eX1AfpkNxRxfi6WOandoW+MvqwiQxzXSCTpsJ4PfSwNjjJckn3Y58HxXVy6nlZzO7XkkpN65lh5jq9AgQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -2090,9 +2090,9 @@
     swr "^0.4.1"
 
 "@folio/stripes-data-transfer-components@^4.0.0":
-  version "4.1.1000154"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-4.1.1000154.tgz#160b5be7063b25ae6d03edf73c5bb40468db3a53"
-  integrity sha512-3YU42KntXCNAB+/6KiAddoXFOilYW2mdHmk8u9nYQt8mfab3V+UYXsZlS9R3NIVGpN1CMySH6QY/6otkpAs8AA==
+  version "4.1.1000155"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-4.1.1000155.tgz#9165e886637ed847cbb24e2049423661a60dd8f2"
+  integrity sha512-AWdXrf+7lEnjsOHeXwRLdToOHAHbNQ0MQIVL3Q7ulIiOfJqZCBvVyRBxmY9Zk/8BVAVde8ZlUbP0FtpQ6AwcCA==
   dependencies:
     classnames "^2.2.5"
     compose-function "^3.0.3"
@@ -2100,7 +2100,7 @@
     pretender "^3.4.3"
     prop-types "^15.6.0"
     query-string "^5.0.0"
-    react-dropzone "^7.0.1"
+    react-dropzone "^11.3.4"
     react-router-prop-types "^1.0.4"
 
 "@folio/stripes-erm-components@^5.0.0", "@folio/stripes-erm-components@^5.1.0":
@@ -3791,7 +3791,7 @@ attr-accept@^1.1.3:
   dependencies:
     core-js "^2.5.0"
 
-attr-accept@^2.0.0:
+attr-accept@^2.0.0, attr-accept@^2.2.1:
   version "2.2.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/attr-accept/-/attr-accept-2.2.2.tgz#646613809660110749e92f2c10833b70968d929b"
   integrity sha512-7prDjvt9HmqiZ0cl5CRjtS84sEyhsHP2coDkaZKRKVfCDo9s7iw7ChVmar78Gu9pC4SoR/28wFu/G5JJhTnqEg==
@@ -6730,6 +6730,13 @@ file-selector@^0.1.12, file-selector@^0.1.8:
   integrity sha512-kCWw3+Aai8Uox+5tHCNgMFaUdgidxvMnLWO6fM5sZ0hA2wlHP5/DHGF0ECe84BiB95qdJbKNEJhWKVDvMN+JDQ==
   dependencies:
     tslib "^2.0.1"
+
+file-selector@^0.2.2:
+  version "0.2.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/file-selector/-/file-selector-0.2.4.tgz#7b98286f9dbb9925f420130ea5ed0a69238d4d80"
+  integrity sha512-ZDsQNbrv6qRi1YTDOEWzf5J2KjZ9KMI1Q2SGeTkCJmNNW25Jg4TW4UMcmoqcg4WrAyKRcpBXdbWRxkfrOzVRbA==
+  dependencies:
+    tslib "^2.0.3"
 
 file-type@^3.1.0, file-type@^3.8.0:
   version "3.9.0"
@@ -11477,6 +11484,15 @@ react-dropzone@^10.0.0:
   dependencies:
     attr-accept "^2.0.0"
     file-selector "^0.1.12"
+    prop-types "^15.7.2"
+
+react-dropzone@^11.3.4:
+  version "11.3.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-dropzone/-/react-dropzone-11.3.4.tgz#aeb098df5c4491e165042c9f0b5e2e7185484740"
+  integrity sha512-B1nzNRZ4F1cnrfEC0T6KXeBN1mCPinu4JCoTrp7NjB+442KSPxqfDrw41QIA2kAwlYs1+wj/0BTedeM5hc2+xw==
+  dependencies:
+    attr-accept "^2.2.1"
+    file-selector "^0.2.2"
     prop-types "^15.7.2"
 
 react-dropzone@^7.0.1:
