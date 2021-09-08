@@ -28,6 +28,7 @@ module.exports = {
     '@folio/erm-comparisons': {},
     '@folio/erm-usage' : {},
     '@folio/export-manager': {},
+    '@folio/inn-reach' : {},
     '@folio/inventory' : {},
     '@folio/inventory-es' : {},
     '@folio/invoice' : {},
@@ -54,7 +55,6 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-resource-registry' : {},
     '@folio/quick-marc' : {},
     '@folio/marc-authorities': {},
     '@folio/receiving' : {},
@@ -63,6 +63,7 @@ module.exports = {
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components' : {},
+    '@folio/stripes-registry' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
