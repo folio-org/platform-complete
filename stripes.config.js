@@ -13,6 +13,7 @@ module.exports = {
 
   modules: {
     '@folio/inn-reach' : {},
+    '@folio/plugin-find-user' : {},
     '@folio/calendar' : {},
     '@folio/checkin' : {},
     '@folio/checkout' : {},
