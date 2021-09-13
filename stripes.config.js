@@ -38,6 +38,7 @@ module.exports = {
     '@folio/local-kb-admin': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
+    '@folio/oa' : {},
     '@folio/oai-pmh' : {},
     '@folio/orders' : {},
     '@folio/organizations' : {},
