@@ -1291,7 +1291,30 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@>=0.0.0", "@folio/data-import@^4.0.0":
+"@folio/data-import@>=0.0.0":
+  version "5.0.1000897"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-5.0.1000897.tgz#d866105a52f325520a8a50eb80a9965ce2a1d10c"
+  integrity sha512-ncOkh6JOxdq0g9POpHjbK84gUTCXDDFOih2wVzKDzfgWVeI5EfVBjOHwY6C1kUZE1hihBcA+QoeiuwElr2pUZw==
+  dependencies:
+    "@folio/stripes-acq-components" "~3.0.0"
+    "@folio/stripes-data-transfer-components" "^4.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    faker "^4.1.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.17.21"
+    miragejs "^0.1.40"
+    moment "~2.24.0"
+    prop-types "^15.6.0"
+    react-dropzone "^7.0.1"
+    react-final-form "^6.3.0"
+    react-highlighter "^0.4.3"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "*"
+
+"@folio/data-import@^4.0.0":
   version "4.1.4000896"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-4.1.4000896.tgz#46de858378f4aa828e2b0680ac6471941f91721d"
   integrity sha512-Bu2QOwcUudAisfVmiEIOFXjSGl94yLtylb4D7ha/8F+HDDFt/u9ZHfKWQKxs1DrKDcb2G/8fk6aRjVbsq1QZ5Q==
@@ -1328,9 +1351,9 @@
     redux-form "^8.0.3"
 
 "@folio/eholdings@>=1.1.0":
-  version "6.1.10001024"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-6.1.10001024.tgz#26eb16a4bd257b2a976fff7c7436e552acff57b2"
-  integrity sha512-mKjbka4G0PbD+LL1Ve2EfUljLH0PTtx5kaSf28w9UZwxzSK2m6Okp2UJ1hx0mNPfI0cLAB4i+dHdEdlrUqh6tQ==
+  version "6.1.10001026"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/eholdings/-/eholdings-6.1.10001026.tgz#43020f9f46006f4d6d38036eebf25713c35bf9b4"
+  integrity sha512-sIsU0YFaAg45Nqjt3eNg0f6+JA24ifdnRxWLtx6tUmFWlwzoFcXjZ7GH46py4KahNrjhFIJ4KZdh9K2jYMFyqA==
   dependencies:
     classnames "^2.2.5"
     currency-symbol-map "^4.0.4"
@@ -1627,9 +1650,9 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/orders@>=1.1.0":
-  version "3.0.10001104"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-3.0.10001104.tgz#542c274aa3ba33b91560240b5d3b7af7fddc5711"
-  integrity sha512-XeFw0aZkz17WOat0EfjYWzee6MUc0jEl2boCEKd5uIQfyj6WrwRxQEjnlsh67gk41aDAZeMLKEUs7QLcl69Yiw==
+  version "3.0.10001105"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-3.0.10001105.tgz#99fe45603a7be93ae220a36b10f694fbace708d3"
+  integrity sha512-1tUgDPntLwotBpP7M0k7Bx4fnSAYW4Jt1nyK+fLjBTzNWrJ8vfqun+qiaYRCnlqQpJFw73wWcgS1fwj/YcSfzQ==
   dependencies:
     "@folio/plugin-find-po-line" "^2.3.0"
     "@folio/stripes-acq-components" "~3.0.0"
@@ -3623,10 +3646,10 @@ ansi-escapes@^4.2.1:
   dependencies:
     type-fest "^0.21.3"
 
-ansi-html@0.0.7:
-  version "0.0.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ansi-html/-/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
-  integrity sha1-gTWEAhliqenm/QOflA0S9WynhZ4=
+ansi-html-community@0.0.8:
+  version "0.0.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ansi-html-community/-/ansi-html-community-0.0.8.tgz#69fbc4d6ccbe383f9736934ae34c3f8290f1bf41"
+  integrity sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -7588,10 +7611,10 @@ hsla-regex@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
   integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
 
-html-entities@^1.2.0:
-  version "1.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/html-entities/-/html-entities-1.4.0.tgz#cfbd1b01d2afaf9adca1b10ae7dffab98c71d2dc"
-  integrity sha512-8nxjcBcd8wovbeKx7h3wTji4e6+rhaVuPNpMqwWgnHh+N9ToqsCs6XztWRBPQ+UtzsoMAdKZtUENoVzU/EMtZA==
+html-entities@^2.1.0:
+  version "2.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/html-entities/-/html-entities-2.3.2.tgz#760b404685cb1d794e4f4b744332e3b00dcfe488"
+  integrity sha512-c3Ab/url5ksaT0WyleslpBEthOzWhrjQbg75y7XUsfSzi3Dgzt0l8w5e7DylRn15MTlMMD58dTfzddNS2kcAjQ==
 
 html-escaper@^2.0.0:
   version "2.0.2"
@@ -11523,9 +11546,9 @@ react-dropzone@^10.0.0:
     prop-types "^15.7.2"
 
 react-dropzone@^11.3.4:
-  version "11.3.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-dropzone/-/react-dropzone-11.3.5.tgz#ec524829ac3742c98b9a85bf609dadc9c9df4487"
-  integrity sha512-O6SpF5Krf9mzmSZgVJfXqNilpzdFBVd3fL6ROGvku7J1nxa7AIaf23ojmLCWWy0/fgjCe+xQLJuHgLFmyAaM/A==
+  version "11.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-dropzone/-/react-dropzone-11.4.0.tgz#bbf3b2491341864c91c218a606a7f2568e5a94a8"
+  integrity sha512-5NRpAN4ZmpEn0kvtkO18rPInE7n4eVjGeTLP/c0JcGAnV+5yrpr5QHdPH27M05SP2tsjkRoRf02DCK/4fxbsog==
   dependencies:
     attr-accept "^2.2.1"
     file-selector "^0.2.2"
@@ -14063,14 +14086,14 @@ webpack-dev-middleware@^3.1.3, webpack-dev-middleware@^3.7.0:
     webpack-log "^2.0.0"
 
 webpack-hot-middleware@^2.22.2:
-  version "2.25.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-hot-middleware/-/webpack-hot-middleware-2.25.0.tgz#4528a0a63ec37f8f8ef565cf9e534d57d09fe706"
-  integrity sha512-xs5dPOrGPCzuRXNi8F6rwhawWvQQkeli5Ro48PRuQh8pYPCPmNnltP9itiUPT4xI8oW+y0m59lyyeQk54s5VgA==
+  version "2.25.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/webpack-hot-middleware/-/webpack-hot-middleware-2.25.1.tgz#581f59edf0781743f4ca4c200fd32c9266c6cf7c"
+  integrity sha512-Koh0KyU/RPYwel/khxbsDz9ibDivmUbrRuKSSQvW42KSDdO4w23WI3SkHpSUKHE76LrFnnM/L7JCrpBwu8AXYw==
   dependencies:
-    ansi-html "0.0.7"
-    html-entities "^1.2.0"
+    ansi-html-community "0.0.8"
+    html-entities "^2.1.0"
     querystring "^0.2.0"
-    strip-ansi "^3.0.0"
+    strip-ansi "^6.0.0"
 
 webpack-log@^2.0.0:
   version "2.0.0"
