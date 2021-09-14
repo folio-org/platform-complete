@@ -1291,35 +1291,12 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@>=0.0.0":
+"@folio/data-import@>=0.0.0", "@folio/data-import@^5.0.0":
   version "5.0.1000897"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-5.0.1000897.tgz#d866105a52f325520a8a50eb80a9965ce2a1d10c"
   integrity sha512-ncOkh6JOxdq0g9POpHjbK84gUTCXDDFOih2wVzKDzfgWVeI5EfVBjOHwY6C1kUZE1hihBcA+QoeiuwElr2pUZw==
   dependencies:
     "@folio/stripes-acq-components" "~3.0.0"
-    "@folio/stripes-data-transfer-components" "^4.0.0"
-    classnames "^2.2.5"
-    dom-helpers "^5.2.0"
-    faker "^4.1.0"
-    final-form "^4.18.2"
-    inflected "^2.0.4"
-    lodash "^4.17.21"
-    miragejs "^0.1.40"
-    moment "~2.24.0"
-    prop-types "^15.6.0"
-    react-dropzone "^7.0.1"
-    react-final-form "^6.3.0"
-    react-highlighter "^0.4.3"
-    redux-form "^8.3.7"
-  optionalDependencies:
-    "@folio/plugin-find-organization" "*"
-
-"@folio/data-import@^4.0.0":
-  version "4.1.4000896"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-4.1.4000896.tgz#46de858378f4aa828e2b0680ac6471941f91721d"
-  integrity sha512-Bu2QOwcUudAisfVmiEIOFXjSGl94yLtylb4D7ha/8F+HDDFt/u9ZHfKWQKxs1DrKDcb2G/8fk6aRjVbsq1QZ5Q==
-  dependencies:
-    "@folio/stripes-acq-components" "~2.3.0"
     "@folio/stripes-data-transfer-components" "^4.0.0"
     classnames "^2.2.5"
     dom-helpers "^5.2.0"
@@ -1762,12 +1739,12 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-import-profile@>=1.1.0":
-  version "4.1.100089"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-import-profile/-/plugin-find-import-profile-4.1.100089.tgz#e451be384b9439546443ea9973e51097e0d4de11"
-  integrity sha512-AWzvZJraRXLsZnTzQLW2Vm79ceHUEiR634YJ7ZySwCX4Qk9gupqyQ0qDGakouSUZtr5ZcIQoZMmAQNIPGPOvtg==
+  version "5.0.100090"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-import-profile/-/plugin-find-import-profile-5.0.100090.tgz#d8c6c9ac70cfbda0e8053b543bf67887190bcc40"
+  integrity sha512-nX8FilFEGvKrwtdBPXrybMQ4cQisH3qMcqRby6KAbhgKrt69OD6idNhVMWlOYIEWiL5hJ1gD5xEwQQeMjAyqnA==
   dependencies:
-    "@folio/data-import" "^4.0.0"
-    "@folio/stripes-acq-components" "~2.3.0"
+    "@folio/data-import" "^5.0.0"
+    "@folio/stripes-acq-components" "~3.0.0"
     "@folio/stripes-data-transfer-components" "^4.0.0"
     classnames "^2.2.5"
     lodash "^4.16.4"
@@ -2022,25 +1999,6 @@
   version "3.0.1000518"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.0.1000518.tgz#5e0812c6d00e1afd0f220d676d0cab7bff607c9e"
   integrity sha512-jOj4uGC7rouL2uEUQdPvpmpZWoff8wgLAhNZ2AYgRq+T0KecnuzOBuA/qs1eWg2z38+BRnMiXmTL0VwDZsUNlA==
-  dependencies:
-    "@rehooks/local-storage" "^2.4.0"
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.2"
-    lodash "^4.17.11"
-    prop-types "^15.7.2"
-    query-string "^6.1.0"
-    react-dropzone "^10.0.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.1"
-    react-hot-loader "^4.3.12"
-    redux-form "^8.3.0"
-
-"@folio/stripes-acq-components@~2.3.0":
-  version "2.3.3000488"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.3.3000488.tgz#c723a4141ec7bb3b117999d87818ec29b6265fe7"
-  integrity sha512-LfoLvk/3FRgFMNdh+CxPD5Ak/wLIG4SFfoa3TMJ/jHpGGjaneEUtC933IM0s3TtZcEVVuU4WGLJM6/rfit1c8A==
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -3667,9 +3625,9 @@ ansi-regex@^4.1.0:
   integrity sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==
 
 ansi-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
-  integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
+  version "5.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+  integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
 
 ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
