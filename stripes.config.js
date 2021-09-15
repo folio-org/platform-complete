@@ -28,6 +28,7 @@ module.exports = {
     '@folio/erm-comparisons': {},
     '@folio/erm-usage' : {},
     '@folio/export-manager': {},
+    '@folio/handler-stripes-registry': {},
     '@folio/inn-reach' : {},
     '@folio/inventory' : {},
     '@folio/inventory-es' : {},
@@ -64,7 +65,6 @@ module.exports = {
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components' : {},
-    '@folio/stripes-registry' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
