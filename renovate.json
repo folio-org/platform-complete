@@ -48,6 +48,22 @@
       "groupName": "FOLIO R1 2021 updates",
       "updateTypes": ["patch"], 
       "enabled": true
-    }
+    },
+    { 
+      "baseBranchList": ["main", "master"],
+      "matchPackageNames": ["folioorg/mod-inventory-storage"],
+      "allowedVersions": ">=21.0.7" 
+      "groupName": "mod-inventory-storage updates main branch",
+      "updateTypes": ["minor","patch"], 
+      "enabled": true
+    },
+    { 
+      "baseBranchList": ["R2-2021"],
+      "matchPackageNames": ["folioorg/mod-inventory-storage"],
+      "allowedVersions": ">=21.0.7" 
+      "groupName": "mod-inventory-storage updates R2-2021 branch",
+      "updateTypes": ["patch"], 
+      "enabled": true
+    },
   ]
 }
