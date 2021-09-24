@@ -1696,10 +1696,11 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-eusage-reports@>=1.0.0":
-  version "1.0.1000142"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-1.0.1000142.tgz#3bd24f63ca975768c9f4c6406b01a70446d8d27f"
-  integrity sha512-Q5m4Naj9Djm3lhZcK7n3aXrzSvOZfFqERwPE/cm0xOHvebQYs8xazQr06zN8NGfRJgK1za3QlRsVk+emhmaxJg==
+  version "1.0.1000146"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-1.0.1000146.tgz#178a43cb0e8f92b5d2db197baab2a3963eff995f"
+  integrity sha512-fZsfzd4up0iXOns9iENLUVuw+dB7nkRdssqys0YgNBQ1giNvHl6C+k2WOlt5Pnp1LEuStmOi5slDRgzBGyyuDQ==
   dependencies:
+    "@folio/stripes-acq-components" "^2.4.3"
     "@folio/stripes-webpack" "^1.2.0"
     lodash "^4.17.21"
     randomcolor "^0.6.2"
@@ -1977,7 +1978,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^2.1.0", "@folio/stripes-acq-components@~2.4.0":
+"@folio/stripes-acq-components@^2.1.0", "@folio/stripes-acq-components@^2.4.3", "@folio/stripes-acq-components@~2.4.0":
   version "2.4.3000516"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.4.3000516.tgz#3b85602ddbff2a595c22e69f0a9e7428db964da0"
   integrity sha512-4BW3YGF5SGuOuwvKELI7kZuwoJgfrZ6a7kQCrOCjNz5sni7LAMUKpH+lFfgcgTCO6O8azrFceypN6Cjl/GLG2w==
@@ -2017,12 +2018,12 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.0.0", "@folio/stripes-cli@^2.4.0":
-  version "2.4.1000256"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.4.1000256.tgz#660f01747dbc01af3f22086de27f256118b1b112"
-  integrity sha512-mIL8e4JiwbmBFHZboEUTUJHV5htJeM/+8s9tuHlmKHLM/QQ4Pn3wuPBT66YRIZm4oWcvv259ein/VtnUsziC9g==
+  version "2.4.1000258"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.4.1000258.tgz#e2d891ba6a1675affe342f11dcb22650c0c154a8"
+  integrity sha512-ud+IETYQAFUIJCUv3fJuEllklNPNoftpeb5qKFD2Do3cLm844EzEtZh6buteMYgL3/lpVOT9cEz0JAEfOCkkxw==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
-    "@folio/stripes-webpack" "^1.4.0"
+    "@folio/stripes-webpack" "^2.0.0"
     "@octokit/rest" "^18.6.0"
     babel-plugin-istanbul "^6.0.0"
     configstore "^3.1.1"
@@ -2059,8 +2060,6 @@
     resolve-from "^4.0.0"
     resolve-pkg "^1.0.0"
     rimraf "^2.6.2"
-    rxjs "^5.5.0"
-    rxjs-compat "^6.5.4"
     semver "^5.6.0"
     simple-git "^1.89.0"
     supports-color "^4.5.0"
@@ -2102,9 +2101,9 @@
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~7.0.0":
-  version "7.0.10000027"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-7.0.10000027.tgz#3b53534c1169a7bec7a33c89f535f2e1e49cae86"
-  integrity sha512-rV7GUyaox2WT3sOPv0adlpVkWI/K6+4sefIqAVHEQSryj+oueNukGIXmiKbvLukVH313FUaMZyuPS2ik3ac5wQ==
+  version "7.0.10000032"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-connect/-/stripes-connect-7.0.10000032.tgz#31219cd4c8484d0885ae88cb5701e31b59e5fd87"
+  integrity sha512-NtJhTh52ddNFJx59bf4coxSovQpGtNdzNPjrG3Mpc8DHxQFFuT+gDnUdpC/VMVBjHlrtu6n5irRXWQqcURMqxA==
   dependencies:
     lodash "^4.17.11"
     prop-types "^15.5.10"
@@ -2310,7 +2309,7 @@
     lodash "^4.17.4"
     query-string "^5.0.0"
 
-"@folio/stripes-webpack@^1.2.0", "@folio/stripes-webpack@^1.4.0":
+"@folio/stripes-webpack@^1.2.0":
   version "1.4.100028"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-1.4.100028.tgz#d22e943cac14ecdcb5c61278ee8a5abe301144fd"
   integrity sha512-qTqqAGm1h1xXvG2qehhqIJtRNWhKy1v3MhlallYTZNkeLz+CXJnUM2nVmJzRQTDFdr00r7YcrsYtxNmHWuF4mQ==
@@ -2330,6 +2329,76 @@
     "@babel/register" "^7.0.0"
     "@bigtest/mirage" "^0.0.1"
     "@hot-loader/react-dom" "^16.8.6"
+    add-asset-html-webpack-plugin "^3.1.3"
+    autoprefixer "^9.1.1"
+    babel-loader "^8.0.0"
+    babel-plugin-lodash "^3.3.4"
+    babel-plugin-remove-jsx-attributes "^0.0.2"
+    commander "^2.9.0"
+    connect-history-api-fallback "^1.3.0"
+    core-js "^3.6.1"
+    css-loader "^5.0.0"
+    csv-loader "^3.0.3"
+    debug "^4.0.1"
+    duplicate-package-checker-webpack-plugin "^3.0.0"
+    express "^4.14.0"
+    favicons-webpack-plugin "^3.0.1"
+    file-loader "^1.1.11"
+    handlebars-loader "^1.7.1"
+    html-webpack-plugin "^4.0.0-beta.10"
+    lodash-webpack-plugin "^0.11.5"
+    mini-css-extract-plugin "^1.6.2"
+    node-object-hash "^1.2.0"
+    optimize-css-assets-webpack-plugin "5.0.6"
+    postcss "^7.0.36"
+    postcss-calc "^7.0.0"
+    postcss-color-function "^4.1.0"
+    postcss-custom-media "^7.0.0"
+    postcss-custom-properties "^10.0.0"
+    postcss-import "^12.0.1"
+    postcss-loader "^4.0.0"
+    postcss-media-minmax "^4.0.0"
+    postcss-nesting "^7.0.1"
+    postcss-url "^8.0.0"
+    react-hot-loader "^4.3.10"
+    regenerator-runtime "^0.13.3"
+    rimraf "^2.5.4"
+    rtl-detect "^1.0.2"
+    semver "^7.1.3"
+    serialize-javascript "^5.0.0"
+    style-loader "^1.0.0"
+    svgo "^1.2.2"
+    svgo-loader "^2.2.1"
+    tapable "^1.0.0"
+    ts-loader "^8.2.0"
+    typescript "^4.2.4"
+    use-deep-compare "^1.1.0"
+    uuid "^3.0.0"
+    webpack "^4.27.0"
+    webpack-dev-middleware "^3.1.3"
+    webpack-hot-middleware "^2.22.2"
+    webpack-virtual-modules "^0.1.10"
+
+"@folio/stripes-webpack@^2.0.0":
+  version "2.0.100029"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-2.0.100029.tgz#4a6cc1ad52fca4301379a5a519c21e5f49035d2d"
+  integrity sha512-qQgRG8++nGogCdRBelY2RyxlHt/VUVq9qD4hGMiCz7mYnd5ietxV/cynK0V2eDPdwA6+Nb8L9opyIGIE8agqHQ==
+  dependencies:
+    "@babel/core" "^7.9.0"
+    "@babel/plugin-proposal-class-properties" "^7.0.0"
+    "@babel/plugin-proposal-decorators" "^7.0.0"
+    "@babel/plugin-proposal-export-namespace-from" "^7.0.0"
+    "@babel/plugin-proposal-function-sent" "^7.0.0"
+    "@babel/plugin-proposal-numeric-separator" "^7.0.0"
+    "@babel/plugin-proposal-throw-expressions" "^7.0.0"
+    "@babel/plugin-syntax-import-meta" "^7.0.0"
+    "@babel/preset-env" "^7.0.0"
+    "@babel/preset-flow" "^7.7.4"
+    "@babel/preset-react" "^7.9.0"
+    "@babel/preset-typescript" "^7.7.7"
+    "@babel/register" "^7.0.0"
+    "@bigtest/mirage" "^0.0.1"
+    "@hot-loader/react-dom" "^17.0.1"
     add-asset-html-webpack-plugin "^3.1.3"
     autoprefixer "^9.1.1"
     babel-loader "^8.0.0"
@@ -2554,6 +2623,15 @@
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+"@hot-loader/react-dom@^17.0.1":
+  version "17.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@hot-loader/react-dom/-/react-dom-17.0.1.tgz#0c75b4dd068f819435dafb3e8809ca1749695656"
+  integrity sha512-QttzEibkIFkl/WV1dsLXg73YIweNo9ySbB0/26068RqFGWyv7pKyictWsaQXqSj1y66/BDn3kglCHgroGrv3vA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.1"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -12452,7 +12530,7 @@ scheduler@^0.19.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-scheduler@^0.20.2:
+scheduler@^0.20.1, scheduler@^0.20.2:
   version "0.20.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/scheduler/-/scheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
   integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
