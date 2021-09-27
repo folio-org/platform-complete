@@ -36,6 +36,7 @@ module.exports = {
     '@folio/organizations' : {},
     '@folio/plugin-bursar-export': {},
     '@folio/plugin-create-inventory-records' : {},
+    '@folio/plugin-eusage-reports' : {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-contact': {},
     '@folio/plugin-find-eresource': {},
