@@ -1243,9 +1243,9 @@
     react-final-form-arrays "^3.1.0"
 
 "@folio/courses@>=1.0.0":
-  version "5.0.1000379"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-5.0.1000379.tgz#c36bb0c0303631ed33d96cf861dd503dbd0cd1a8"
-  integrity sha512-jrFkUhr/7DK431KcIY6kllI50FUOeLdtRKmRNhQBHJLVH4DNbixDKdZk1226MVT9ZuYidmNE5RpzyvFCzQmJgA==
+  version "5.0.1000380"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-5.0.1000380.tgz#3bf5538e70a18783595b8ef593857751862c35db"
+  integrity sha512-poZWp37oJYpmhy37XYRp5myCSVOQvdaCP/hAuO4ba35hIzH6BXDIeCutEIZeDtO+Usdr4eFutD9qYICL4Uc2SQ==
   dependencies:
     final-form-set-field-data "^1.0.2"
     ky "^0.23.0"
@@ -1452,9 +1452,9 @@
     "@folio/plugin-find-user" "^5.0.1"
 
 "@folio/inventory@>=1.4.0":
-  version "8.0.10001308"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001308.tgz#123d65cad5ee0cb6756f142c4252b42e7d88ba54"
-  integrity sha512-BbULxJvOjnpAmGZprdTEahCj6toJldfg9tQ+b0BVgivoTS+rE6CxdS9aUG7hsdoUur1cbmfSuFqx7zBi9Y51NA==
+  version "8.0.10001310"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001310.tgz#baa0f798f086394f68edb9294d7ac7231660a5b5"
+  integrity sha512-cylDd4uHWDD1ztHynHqU6+UwGiogb/0PczjZVel0D7gKVb/SI2BSbf5RMKB50mJiEJZcsmRWYJd1xKDbgIk9Ww==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1470,16 +1470,16 @@
     query-string "^5.0.0"
     react-beautiful-dnd "^13.0.0"
     react-copy-to-clipboard "^5.0.1"
-    react-final-form "^6.3.0"
+    react-final-form "^6.5.6"
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
     react-hot-loader "^4.3.12"
     react-router-prop-types "^1.0.4"
     redux-form "^8.3.7"
   optionalDependencies:
-    "@folio/plugin-create-inventory-records" "^2.0.0"
-    "@folio/plugin-find-instance" "^5.0.0"
-    "@folio/quick-marc" "^3.0.0"
+    "@folio/plugin-create-inventory-records" "^3.0.0"
+    "@folio/plugin-find-instance" "^6.0.0"
+    "@folio/quick-marc" "^4.0.0"
 
 "@folio/invoice@>=1.0.0":
   version "3.0.1000495"
@@ -1667,7 +1667,7 @@
     react-router-prop-types "^1.0.4"
     uuid "^3.0.1"
 
-"@folio/plugin-create-inventory-records@>=1.0.0":
+"@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^3.0.0":
   version "3.0.100074"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-3.0.100074.tgz#ab4beed9fd7e82b092867b36bb25fec222e8c782"
   integrity sha512-/Nh+SQOnIiJkaEy8h4lq+udg02WBHgexFEIFtO6NH0lEk5vOaIB716lKrgMANG/3uWlalQBg593LLD9SytHQkA==
@@ -1762,21 +1762,10 @@
     react-highlighter "^0.4.3"
     redux-form "^8.3.7"
 
-"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@>=1.1.0":
+"@folio/plugin-find-instance@*", "@folio/plugin-find-instance@>=1.1.0", "@folio/plugin-find-instance@^6.0.0":
   version "6.0.100086"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-6.0.100086.tgz#4094e73217786ed4f2792e3982b0e443ca9017b0"
   integrity sha512-2Ha84vM4DfDcAqMNeanltNFqBTn/8DChtPifJcVfN6WwMQ9dH9h+aV8X4Msgmj/LBVYIG44ctphVCAI5vRLneQ==
-  dependencies:
-    classnames "^2.2.6"
-    lodash "^4.17.11"
-    moment "^2.29.1"
-    prop-types "^15.6.0"
-    sinon "^9.0.2"
-
-"@folio/plugin-find-instance@^5.0.0":
-  version "5.1.100085"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-5.1.100085.tgz#1951edfb8759ac7f1e3b22f8b406e36cf1b781f0"
-  integrity sha512-xiclxIAYPqD97tJsUInHNUpGZpAdtLbBuTvm5bGm04FDFhvJjvUgeF52B2CRK2NBjdiNZejP7jgu2ZlAiGnFdQ==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1863,27 +1852,10 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/quick-marc@>=1.0.0":
+"@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^4.0.0":
   version "4.0.1000192"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.1000192.tgz#821af6e0a761a9d32ab2143fee055f130393f00a"
   integrity sha512-HYtQdGZ/gbsrtr6xjNin7w3kZsznOFlONXaxjCZvj3WPJdGfIGSAbnHJ/13d3zzi9FEU1O4BTC2g98VDQaGXdQ==
-  dependencies:
-    "@folio/stripes-acq-components" "^2.1.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    lodash "^4.17.5"
-    prop-types "^15.5.10"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-    react-final-form-listeners "^1.0.2"
-    react-hot-loader "^4.3.12"
-    react-router-prop-types "^1.0.4"
-    uuid "^3.0.1"
-
-"@folio/quick-marc@^3.0.0":
-  version "3.1.1000181"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-3.1.1000181.tgz#d3d1ffb0aa3dcefebad9bc70308108c224e0e7ff"
-  integrity sha512-FKqJ2eX1AfpkNxRxfi6WOandoW+MvqwiQxzXSCTpsJ4PfSwNjjJckn3Y58HxXVy6nlZzO7XkkpN65lh5jq9AgQ==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -3307,9 +3279,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@16 || 17", "@types/react@>=16.9.0", "@types/react@>=16.9.11":
-  version "17.0.24"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-17.0.24.tgz#7e1b3f78d0fc53782543f9bce6d949959a5880bd"
-  integrity sha512-eIpyco99gTH+FTI3J7Oi/OH8MZoFMJuztNRimDOJwH4iGIsKV2qkGnk4M9VzlaVWeEEWLWSQRy0FEA0Kz218cg==
+  version "17.0.25"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-17.0.25.tgz#8b88c226e54910762decc9de2aa36b4dc9240503"
+  integrity sha512-IXrzSOr3CVbEQgmjEdCWF57J7CVaJ7lL/n4penxHm8h0XIcr0AxqGucogh2zj3qRxgk4M4JImOP/MfomkPOhvQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -11654,7 +11626,7 @@ react-final-form@6.3.0:
     "@babel/runtime" "^7.4.5"
     ts-essentials "^2.0.8"
 
-react-final-form@^6.3.0, react-final-form@^6.3.5, react-final-form@^6.4.0, react-final-form@^6.5.1, react-final-form@^6.5.2:
+react-final-form@^6.3.0, react-final-form@^6.3.5, react-final-form@^6.4.0, react-final-form@^6.5.1, react-final-form@^6.5.2, react-final-form@^6.5.6:
   version "6.5.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-final-form/-/react-final-form-6.5.6.tgz#30c8035b1c2d405cb3ff1a1a6de53976da3f2103"
   integrity sha512-UwmB+nzIccV/3SJ8/HRvAOVAKTvoFBCVnbn1LXb7cydsR+uDz3Py8HtE99N27Ke45DgPZ9t+tp4qRVYXEWHyyw==
