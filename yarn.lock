@@ -1710,12 +1710,13 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-eusage-reports@>=1.0.0":
-  version "1.2.1000155"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-1.2.1000155.tgz#da8f0f7b318bd437043794deae0d28c62bcb6946"
-  integrity sha512-KCscxXhWfTRxftHE3ThhtKPge+FNVChsjnJiCWkyN9IVFkmdLypqe0h6ta0n+HFwJAASuPXMaKZ5uk9/0YICfg==
+  version "1.2.1000156"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-1.2.1000156.tgz#156a55bced8b48642bae81a8b52815c5b23731e6"
+  integrity sha512-34GJqYXCA2lICh2Oi/ymqHzPpOO1zfMo4cA9WB2RD5qznH3uglzaUq1WXcdOpWENVX6cvWS4aCu/0e9QAj14gA==
   dependencies:
     "@folio/stripes-acq-components" "^2.4.3"
     "@folio/stripes-webpack" "^1.2.0"
+    chart.js "^3.1.0"
     lodash "^4.17.21"
     randomcolor "^0.6.2"
     react-chartjs-2 "^2.11.1"
@@ -1867,9 +1868,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^4.0.0":
-  version "4.0.1000192"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.1000192.tgz#821af6e0a761a9d32ab2143fee055f130393f00a"
-  integrity sha512-HYtQdGZ/gbsrtr6xjNin7w3kZsznOFlONXaxjCZvj3WPJdGfIGSAbnHJ/13d3zzi9FEU1O4BTC2g98VDQaGXdQ==
+  version "4.0.1000193"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.1000193.tgz#ef37939d6585a1442c09ce447e4fbc05d84edff3"
+  integrity sha512-kY+NgG3DZFTNkKBPUibwAgPTQfF8hfTn0XjnKXTQO5rd4reCW4HAZLGM37F+OILRhiEWv66DW+UZobiFVWiGDw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
@@ -2271,9 +2272,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-util@~5.0.0":
-  version "5.0.10000012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.0.10000012.tgz#52e117737a21e4fee41257c5c8dfa85f662afb9d"
-  integrity sha512-ohir4+ujfZZkgvk8rLD32oCGWQLJSObi/VwFo8xrVtfT+D20Y2TSj5p16C2ys5TklnU3wiV0IPbdhTIfrOaCHg==
+  version "5.0.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.0.1000003.tgz#5a4ba855916c330926987dd30d54b6b9fbddc28f"
+  integrity sha512-GgRRWoxVJF5mCXsfnJ+2vis+y+MIgtgQ8n6caChJG8soFoPnRudhtJT13Gv13ypPTlPRIjhqZX57zspuYkJ5qw==
   dependencies:
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -4672,6 +4673,11 @@ chart.js@^2.9.3, chart.js@^2.9.4:
   dependencies:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
+
+chart.js@^3.1.0:
+  version "3.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chart.js/-/chart.js-3.5.1.tgz#73e24d23a4134a70ccdb5e79a917f156b6f3644a"
+  integrity sha512-m5kzt72I1WQ9LILwQC4syla/LD/N413RYv2Dx2nnTkRS9iv/ey1xLTt0DnPc/eWV4zI+BgEgDYBIzbQhZHc/PQ==
 
 chartjs-color-string@^0.6.0:
   version "0.6.0"
