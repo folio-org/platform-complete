@@ -1692,9 +1692,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-eusage-reports@>=1.0.0":
-  version "2.2.1000179"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-2.2.1000179.tgz#f71a9823b6b7e8fd2bd2133a5c040653c2bc7a28"
-  integrity sha512-Al317tSebhQFMTyIHXUWuUdwH/7/ZF+peBWFpMs3yvbLt2qeVOgxperS4C9m/V3AMdOtaQZde2tk2BdBLAwEMQ==
+  version "2.2.1000180"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-2.2.1000180.tgz#dbec185713d22c92c3be63a6b0872798be065a17"
+  integrity sha512-8E0i713R88/4q/IsUUVs2M083cKndUzqa5HiMwlx9EysdeM2kP9jC+/ZuJMBFv5rdRKODwMFtQpInSKAh9hNKg==
   dependencies:
     "@folio/stripes-acq-components" "^3.0.0"
     "@folio/stripes-webpack" "^2.0.0"
@@ -2222,9 +2222,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~7.0.0":
-  version "7.0.10000012"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.0.10000012.tgz#855b7b8b556190279d9514c9c42d88a29d9306d7"
-  integrity sha512-SQi0wchthJhONEg0rwaS9PfHUgI3Hrdh3mSta/H00Q0Ljsjx6qJZg9Sf8LmFUX/bLVVuBCvRkITAekKCP0IIYA==
+  version "7.0.10000019"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-7.0.10000019.tgz#dd2f6d55a52fa06ac4179b3f2196c51a0ac7aaa2"
+  integrity sha512-Vrd1Tz3M/dNO1e9GPt4IntoTagZu3MRVMGPhxXFO+xIi60cJaW3x4FTI+nevERAetGHj8PLDfJE/GXyDJGf6Vw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@rehooks/local-storage" "2.4.0"
@@ -13027,6 +13027,15 @@ string-width@^1.0.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
+"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0:
+  version "4.2.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
 string-width@^3.0.0, string-width@^3.1.0:
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
@@ -13035,15 +13044,6 @@ string-width@^3.0.0, string-width@^3.1.0:
     emoji-regex "^7.0.1"
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
-
-string-width@^4.1.0, string-width@^4.2.0:
-  version "4.2.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
 
 string.prototype.trimend@^1.0.4:
   version "1.0.4"
@@ -14182,12 +14182,19 @@ which@^1.2.1, which@^1.2.9, which@^1.3.0:
   dependencies:
     isexe "^2.0.0"
 
-wide-align@1.1.3, wide-align@^1.1.0:
+wide-align@1.1.3:
   version "1.1.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/wide-align/-/wide-align-1.1.3.tgz#ae074e6bdc0c14a431e804e624549c633b000457"
   integrity sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
   dependencies:
     string-width "^1.0.2 || 2"
+
+wide-align@^1.1.0:
+  version "1.1.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/wide-align/-/wide-align-1.1.5.tgz#df1d4c206854369ecf3c9a4898f1b23fbd9d15d3"
+  integrity sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==
+  dependencies:
+    string-width "^1.0.2 || 2 || 3 || 4"
 
 widest-line@^2.0.0:
   version "2.0.1"
