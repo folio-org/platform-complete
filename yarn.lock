@@ -1447,9 +1447,9 @@
     "@folio/plugin-find-user" "^5.0.1"
 
 "@folio/inventory@>=1.4.0":
-  version "8.0.10001328"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001328.tgz#ca0d0e0b20486b8d074d663af7c633fa7222d7bd"
-  integrity sha512-KxLi09hkoSiMeiyJw82mBEJBzQTQTz6wes8Jy14/YhtXzBm++cysEVGlRkIvNFDAmdlQAJ+T4SkywpzNiqrpnw==
+  version "8.0.10001329"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001329.tgz#9e9d97c092cd8d20c1c3211d5c745578d18cece5"
+  integrity sha512-M748/YTca7UqLnXRlfz/1S0NaMRCOTWnjrOq919IU/wNY1Kb5xedEiRo/U+CLG+fWrl1jAjCnT9PZpAmTNfBJw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1474,7 +1474,7 @@
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^3.0.0"
     "@folio/plugin-find-instance" "^6.0.0"
-    "@folio/quick-marc" "^4.0.0"
+    "@folio/quick-marc" "^5.0.0"
 
 "@folio/invoice@>=1.0.0":
   version "3.0.1000501"
@@ -1847,10 +1847,27 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^4.0.0":
+"@folio/quick-marc@>=1.0.0":
   version "4.0.1000205"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-4.0.1000205.tgz#5881ea560959b2269bd19866a2d5e3f726a123d2"
   integrity sha512-paZHpv4IxE8eVChnEjkN6M9sWIxqSK6mLpZu2pZJ/EShKh+ptfoE0hVOk1POfuWJ4r9joAOSiTt/HQtbDH8WqA==
+  dependencies:
+    "@folio/stripes-acq-components" "^2.1.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-hot-loader "^4.3.12"
+    react-router-prop-types "^1.0.4"
+    uuid "^3.0.1"
+
+"@folio/quick-marc@^5.0.0":
+  version "5.0.1000204"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.1000204.tgz#92175f67747cbdf677330dc67a034ae10a8b251b"
+  integrity sha512-8lwff3+wcSy8TjL8ETc3KPstc7QJzu6hRRa0OM8/Gq8a3Q0CcliDX7lFGHXf++lU7nMFhnqn0q4e2awOtbE9Vw==
   dependencies:
     "@folio/stripes-acq-components" "^2.1.0"
     final-form "^4.18.2"
