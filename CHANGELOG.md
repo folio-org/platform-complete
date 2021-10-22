@@ -9,4 +9,5 @@
 * Provide `react-titled`. Refs STCOR-503.
 * Update `@folio/stripes-cli` to `v2`. Refs STRIPES-733.
 * Provide `react-query` and `swr`. Refs STRIPES-735.
-
+* Update `react` to `v171. Refs STRIPES-722.
+* Provide `rxjs` `v6`. Refs STRIPES-723.
