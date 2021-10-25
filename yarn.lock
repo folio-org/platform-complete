@@ -1447,9 +1447,9 @@
     "@folio/plugin-find-user" "^5.0.1"
 
 "@folio/inventory@>=1.4.0":
-  version "8.0.10001335"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10001335.tgz#1fcbe1d154e5d76c27a78e6b393a5033d58ec5ef"
-  integrity sha512-WHJxyB7EAOWdxwCo0URIFbAEnMFKypcEZBldPvF+YBSH0xA8VNDhTEaQvH3P4Qtfenxtx5UjIKeZckefks73jg==
+  version "8.0.10000017"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-8.0.10000017.tgz#7589d87f7fc1b5e7aa3646068ef4c40890bd4d73"
+  integrity sha512-dGyb8FlN0Q+hzoNSQo8HYTY66sYheZc2VziSMX4yHjRX9MMRd6qy6jXIt7v3KWYQzqkd/1XaS/vtnLJU0U+1xA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.0.0"
     "@testing-library/dom" "^7.29.4"
@@ -1604,11 +1604,11 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/orders@>=1.1.0":
-  version "3.0.10001125"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-3.0.10001125.tgz#1757287593b052455edecb8059a91d5f638ffb6b"
-  integrity sha512-/9nb/b+vj6OfvsJgH8Y/RJS/EqNyuibYljtel1v6WSpefYtNdtKiFzrSTDykGX5qK6uNr5nMxUNf/RY52T2SeQ==
+  version "3.0.10001126"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/orders/-/orders-3.0.10001126.tgz#26e22f055381a775e289a190eb4a42d8dc3b379f"
+  integrity sha512-RHsW9SCuUjbfPEgourOegNeWqOYHOwUkYGyJT0GanOMXz+dxDNq66PQEVbB8VqpkGhNCmA5HKktHaUry/2eAmw==
   dependencies:
-    "@folio/plugin-find-po-line" "^2.3.0"
+    "@folio/plugin-find-po-line" "^3.0.0"
     "@folio/stripes-acq-components" "~3.0.0"
     classnames "^2.2.5"
     final-form "^4.19.1"
@@ -1809,21 +1809,12 @@
     qs "^6.9.6"
     react-final-form "^6.3.0"
 
-"@folio/plugin-find-po-line@*", "@folio/plugin-find-po-line@>=1.0.0":
+"@folio/plugin-find-po-line@*", "@folio/plugin-find-po-line@>=1.0.0", "@folio/plugin-find-po-line@^3.0.0":
   version "3.0.1000110"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-po-line/-/plugin-find-po-line-3.0.1000110.tgz#06b22d2cfa381bc820a340bf8c8c8275cee62e8e"
   integrity sha512-kwQb4r/i3OaCaJOa80XEPehAki6VKi2xHUgCddlwkFyyrnULWR4F4nIeYX9UkLsfVe2XT+YZy0sIpHqckzEKtQ==
   dependencies:
     "@folio/stripes-acq-components" "~3.0.0"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-po-line@^2.3.0":
-  version "2.4.1000106"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-po-line/-/plugin-find-po-line-2.4.1000106.tgz#c3cc0c8352965ee99378f98c89124f9c2bd2a07b"
-  integrity sha512-RjIUwTwrFFulRJq2OmHDo1Jtb8WhAk3OuKGAud/nZi1BA1siqgPCO5vh9JqR9ca21JB1RvZMoACjmfZbFbC5ng==
-  dependencies:
-    "@folio/stripes-acq-components" "~2.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
@@ -1959,7 +1950,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^2.1.0", "@folio/stripes-acq-components@~2.4.0":
+"@folio/stripes-acq-components@^2.1.0":
   version "2.4.3000516"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.4.3000516.tgz#3b85602ddbff2a595c22e69f0a9e7428db964da0"
   integrity sha512-4BW3YGF5SGuOuwvKELI7kZuwoJgfrZ6a7kQCrOCjNz5sni7LAMUKpH+lFfgcgTCO6O8azrFceypN6Cjl/GLG2w==
@@ -7676,14 +7667,14 @@ html-to-react@^1.3.3:
     ramda "^0.27.1"
 
 "html-webpack-plugin@>=4.0.0 || ^4.0.0-beta.11":
-  version "5.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/html-webpack-plugin/-/html-webpack-plugin-5.4.0.tgz#d016cd9594be5c243bb5c12287af43babbe1c094"
-  integrity sha512-cSUdckNOIqKc0nOrCJG7zkvzEIUcXjzEiVbKdEdIzW3BD5T4xPK6boV1mrTrPDZiL+aAr/j45eqbNL1akU2ZRA==
+  version "5.5.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/html-webpack-plugin/-/html-webpack-plugin-5.5.0.tgz#c3911936f57681c1f9f4d8b68c158cd9dfe52f50"
+  integrity sha512-sy88PC2cRTVxvETRgUHFrL4No3UxvcH8G1NepGhqaTT+GXN2kTamqasot0inS5hXeg1cMbFDt27zzo9p35lZVw==
   dependencies:
     "@types/html-minifier-terser" "^6.0.0"
     html-minifier-terser "^6.0.2"
     lodash "^4.17.21"
-    pretty-error "^3.0.4"
+    pretty-error "^4.0.0"
     tapable "^2.0.0"
 
 html-webpack-plugin@^4.0.0-beta.10:
@@ -11301,13 +11292,13 @@ pretty-error@^2.1.1:
     lodash "^4.17.20"
     renderkid "^2.0.4"
 
-pretty-error@^3.0.4:
-  version "3.0.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/pretty-error/-/pretty-error-3.0.4.tgz#94b1d54f76c1ed95b9c604b9de2194838e5b574e"
-  integrity sha512-ytLFLfv1So4AO1UkoBF6GXQgJRaKbiSiGFICaOPNwQ3CMvBvXpLRubeQWyPGnsbV/t9ml9qto6IeCsho0aEvwQ==
+pretty-error@^4.0.0:
+  version "4.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/pretty-error/-/pretty-error-4.0.0.tgz#90a703f46dd7234adb46d0f84823e9d1cb8f10d6"
+  integrity sha512-AoJ5YMAcXKYxKhuJGdcvse+Voc6v1RgnsR3nWcYU7q4t6z0Q6T86sv5Zq8VIRbOWWFpvdGE83LtdSMNd+6Y0xw==
   dependencies:
     lodash "^4.17.20"
-    renderkid "^2.0.6"
+    renderkid "^3.0.0"
 
 pretty-format@^26.6.2:
   version "26.6.2"
@@ -12371,7 +12362,7 @@ remove-trailing-separator@^1.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renderkid@^2.0.4, renderkid@^2.0.6:
+renderkid@^2.0.4:
   version "2.0.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/renderkid/-/renderkid-2.0.7.tgz#464f276a6bdcee606f4a15993f9b29fc74ca8609"
   integrity sha512-oCcFyxaMrKsKcTY59qnCAtmDVSLfPbrv6A3tVbPdFMMrv5jaK10V6m40cKsoPNhAqN6rmHW9sswW4o3ruSrwUQ==
@@ -12381,6 +12372,17 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     htmlparser2 "^6.1.0"
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
+
+renderkid@^3.0.0:
+  version "3.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/renderkid/-/renderkid-3.0.0.tgz#5fd823e4d6951d37358ecc9a58b1f06836b6268a"
+  integrity sha512-q/7VIQA8lmM1hF+jn+sFSPWGlMkSAeNYcPLmDQx2zzuiDfaLrOmumR8iaUKlenFgh0XRPIUeSPlH3A+AW3Z5pg==
+  dependencies:
+    css-select "^4.1.3"
+    dom-converter "^0.2.0"
+    htmlparser2 "^6.1.0"
+    lodash "^4.17.21"
+    strip-ansi "^6.0.1"
 
 repeat-element@^1.1.2:
   version "1.1.4"
