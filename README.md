@@ -26,7 +26,7 @@ configuration file.
 
 The `yarn.lock` and `*-install.json` files in this repository can be
 used to build a FOLIO system with the components that represent the
-"Q3 2018" FOLIO release. For an example of how to deploy such a
+"R2-2021" FOLIO release. For an example of how to deploy such a
 system, see the
 [Single Server Deployment Guide](https://github.com/folio-org/folio-install/blob/q3-2018/single-server.md).
 
@@ -36,6 +36,15 @@ Install platform dependencies
 ```
 $ yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 $ yarn install
+```
+
+Note: A sharp-libvips NPM dependency is not fully compatible with Nodejs v16 and will
+fail 'yarn install'.  To resolve this, set the following environment variable prior to
+running 'yarn install' when Nodejs version is v16+:
+
+```
+CXXFLAGS="-std=c++17"
+
 ```
 
 ## Build and serve
