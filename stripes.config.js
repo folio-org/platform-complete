@@ -22,7 +22,8 @@ module.exports = {
     '@folio/myprofile' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {},
-    '@folio/data-import' : {}
+    '@folio/data-import' : {},
+    '@folio/requests': {}
   },
 
   branding: {
