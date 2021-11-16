@@ -1411,9 +1411,9 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/finance@>=1.1.0":
-  version "3.0.1000535"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-3.0.1000535.tgz#d6dcb24032750d64ba216f7101c51a8296221688"
-  integrity sha512-doLhug6YaWQMJITur97qrZoXodICYhkWr7yCMKWd3wRCueg6N13C4fN/j7nJknxrTozXC1DtRvKj6Ag/k7SOWw==
+  version "3.0.1000536"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-3.0.1000536.tgz#8c81f69cc3e1ff09cf9fda2968731a1507d83722"
+  integrity sha512-qjgLMNH6RkXyYgG+D2J2VSuSA7Ph3chC6JDUBbxm1InWp3GuEzm531M6xUmnFRRkWi+rnTu+lMCBf1xiUDhgjQ==
   dependencies:
     "@folio/stripes-acq-components" "~3.0.0"
     "@folio/stripes-data-transfer-components" "~5.0.0"
@@ -1428,6 +1428,8 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
     redux-form "^8.3.0"
+  optionalDependencies:
+    "@folio/plugin-find-fund" "*"
 
 "@folio/handler-stripes-registry@>=1.0.0", "@folio/handler-stripes-registry@^1.0.0":
   version "1.0.10008"
@@ -1747,6 +1749,14 @@
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
+
+"@folio/plugin-find-fund@*":
+  version "1.0.10004"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-fund/-/plugin-find-fund-1.0.10004.tgz#2bf99bbc46059b58a2632126d108f3dde03dcf18"
+  integrity sha512-G3ZyR6nrwsx+mvv+w6sbWU/koT8Ndhu2GSWiMbLDPjjBYsLlQ6L/F7BFRhaSdMz7O3HIyjDoxSW/P0LQDJlAxQ==
+  dependencies:
+    "@folio/stripes-acq-components" "~3.0.0"
+    prop-types "^15.5.10"
 
 "@folio/plugin-find-import-profile@>=1.1.0":
   version "5.0.100098"
