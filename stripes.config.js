@@ -47,6 +47,7 @@ module.exports = {
     '@folio/plugin-create-inventory-records' : {},
     '@folio/plugin-find-agreement' : {},
     '@folio/plugin-find-erm-usage-data-provider' : {},
+    '@folio/plugin-find-fund' : {},
     '@folio/plugin-eusage-reports': {},
     '@folio/plugin-find-import-profile' : {},
     '@folio/plugin-find-instance' : {},
