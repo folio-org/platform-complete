@@ -23,7 +23,8 @@ module.exports = {
     '@folio/tenant-settings' : {},
     '@folio/users' : {},
     '@folio/data-import' : {},
-    '@folio/requests': {}
+    '@folio/requests': {},
+    '@folio/developer': {},
   },
 
   branding: {
