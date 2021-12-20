@@ -1,4 +1,4 @@
-FROM node:15-alpine as stripes_build
+FROM node:14-alpine3.14 as stripes_build
 
 ARG OKAPI_URL=http://localhost:9130
 ARG TENANT_ID=diku
