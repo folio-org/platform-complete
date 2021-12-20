@@ -10,8 +10,7 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings",
-    "lint": "eslint test/ui-testing"
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings"
   },
   "dependencies": {
     "@folio/acquisition-units": ">=1.0.0",
@@ -87,7 +86,6 @@
     "swr": "^0.4.2"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^5.0.0",
     "@folio/stripes-cli": "^2.0.0",
     "eslint": "^6.2.1",
     "lodash": "^4.17.5"
