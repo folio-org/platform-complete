@@ -15,7 +15,7 @@ to generate client bundles along with a utility for generating
 module descriptors for each Stripes module.
 
 Please see the
-[quick start guide](https://github.com/folio-org/stripes-core/blob/master/doc/quick-start.md)
+[quick start guide](https://github.com/folio-org/stripes/blob/master/doc/quick-start.md)
 for more information.
 
 The `stripes.config.js` is a configuration for a specific tenant. In
