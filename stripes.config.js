@@ -14,6 +14,7 @@ module.exports = {
     '@folio/tenant-settings' : {},
     '@folio/eholdings' : {},
     '@folio/myprofile' : {},
+    '@folio/marc-authorities' : {},
     '@folio/notes' : {},
     '@folio/plugin-find-agreement' : {},
     '@folio/plugin-find-package-title': {},
