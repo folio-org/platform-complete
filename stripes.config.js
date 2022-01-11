@@ -3,6 +3,7 @@ module.exports = {
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
+    maxUnpagedResourceCount: 2000,
     showPerms: false
   },
   modules: {

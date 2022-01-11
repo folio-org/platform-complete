@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-complete",
-  "version": "3.3.0",
+  "version": "3.7.0",
   "license": "Apache-2.0",
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=8192 $NODE_OPTIONS\"; stripes build stripes.config.js --sourcemap",
@@ -9,8 +9,6 @@
     "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
-    "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings",
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
@@ -25,7 +23,7 @@
     "@folio/myprofile": ">=6.0.0",
     "@folio/notes": ">=6.0.0",
     "@folio/plugin-find-agreement": ">=8.0.0",
-    "@folio/plugin-find-package-title": ">=3.1.0",
+    "@folio/plugin-find-package-title": ">=4.0.0",
     "@folio/plugin-find-user": ">=6.0.0",
     "@folio/plugin-find-organization": ">=3.0.0",
     "@folio/stripes": "^7.0.0",
@@ -33,7 +31,7 @@
     "@folio/stripes-components": "git://github.com/folio-org/stripes-components.git#master",
     "@folio/stripes-acq-components": ">=3.0.0",
     "@folio/users": "git://github.com/folio-org/ui-users.git#master",
-    "moment": "~2.25.3",
+    "moment": "~2.29.0",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
     "react-intl": "^5.8.0",
@@ -50,9 +48,14 @@
   },
   "resolutions": {
     "rxjs": "^6.6.3",
+    "@folio/stripes-components": "git://github.com/folio-org/stripes-components.git#master",
+    "colors": "1.4.0",
+    "@folio/react-intl-safe-html": "3.1.0",
+    "@folio/stripes-cli": "^2.4.0",
+    "@rehooks/local-storage": "2.4.0",
+    "final-form": "^4.20.4",
     "minimist": "^1.2.3",
-    "moment": "2.25.3",
-    "redux-form": "^8.0.0",
-    "@folio/stripes-components": "git://github.com/folio-org/stripes-components.git#master"
+    "moment": "~2.29.1",
+    "redux-form": "^8.0.0"
   }
 }

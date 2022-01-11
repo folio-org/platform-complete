@@ -1,6 +1,6 @@
 # FOLIO complete platform
 
-Copyright (C) 2015-2019 The Open Library Foundation
+Copyright (C) 2015-2021 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
 Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
@@ -26,9 +26,15 @@ configuration file.
 
 The `yarn.lock` and `*-install.json` files in this repository can be
 used to build a FOLIO system with the components that represent the
-"Q3 2018" FOLIO release. For an example of how to deploy such a
+latest, compatible set of FOLIO releases. For an example of how to deploy such a
 system, see the
 [Single Server Deployment Guide](https://github.com/folio-org/folio-install/blob/q3-2018/single-server.md).
+
+Descriptions of key files and key branches of this repository and
+how to change them are in the
+[Release Procedures](https://dev.folio.org/guidelines/release-procedures/#add-to-platforms)
+and in
+[DevOps - Install Backend Module](https://dev.folio.org/guides/devops-install-backend-module/#platform-explanation).
 
 ## Installation
 
@@ -36,6 +42,15 @@ Install platform dependencies
 ```
 $ yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 $ yarn install
+```
+
+Note: A sharp-libvips NPM dependency is not fully compatible with Nodejs v16 and will
+fail 'yarn install'.  To resolve this, set the following environment variable prior to
+running 'yarn install' when Nodejs version is v16+:
+
+```
+CXXFLAGS="-std=c++17" 
+
 ```
 
 ## Build and serve
@@ -73,7 +88,7 @@ $ yarn test-int --show
 
 To skip the build step and run integration tests against a build that is already running, provide the URL.
 ```
-$ yarn test-int --url http://folio-testing.aws.indexdata.com/
+$ yarn test-int --url https://folio-testing.dev.folio.org/
 ```
 
 As a convenience, `--local` can be used in place of `--url http://localhost:3000` for running tests against a development server that has already been started.
@@ -86,7 +101,7 @@ $ yarn test-int --local
 Regression tests for the entire platform and its apps can be run with the "test-regression" script.  This will invoke both cross-module tests defined in this platform's repository as well as all tests defined for the individual apps.
 
 ```
-$ yarn test-regression --url http://folio-testing.aws.indexdata.com/
+$ yarn test-regression --url https://folio-testing.dev.folio.org/
 ```
 
 ### Running specific tests
