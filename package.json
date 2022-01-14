@@ -10,8 +10,7 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings",
-    "lint": "eslint test/ui-testing"
+    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings"
   },
   "dependencies": {
     "@folio/acquisition-units": ">=1.0.0",
@@ -53,6 +52,7 @@
     "@folio/plugin-find-contact": ">=1.0.0",
     "@folio/plugin-find-eresource": ">=1.0.0",
     "@folio/plugin-find-erm-usage-data-provider": ">=1.0.0",
+    "@folio/plugin-find-fund": ">=1.0.0",
     "@folio/plugin-find-import-profile": ">=1.1.0",
     "@folio/plugin-find-instance": ">=1.1.0",
     "@folio/plugin-find-interface": ">=1.0.0",
@@ -75,7 +75,7 @@
     "moment": "~2.29.0",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
-    "react-intl": "^5.7.0",
+    "react-intl": "5.21.0",
     "react-query": "^3.13.0",
     "react-redux": "^7.2.2",
     "react-router": "^5.2.0",
@@ -86,7 +86,6 @@
     "swr": "^0.4.2"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^5.0.0",
     "@folio/stripes-cli": "^2.0.0",
     "eslint": "^6.2.1",
     "lodash": "^4.17.5"
@@ -94,6 +93,7 @@
   "resolutions": {
     "@folio/stripes-cli": "^2.4.0",
     "@rehooks/local-storage": "2.4.0",
+    "colors": "1.4.0",
     "final-form": "^4.20.4",
     "minimist": "^1.2.3",
     "moment": "~2.29.0",
