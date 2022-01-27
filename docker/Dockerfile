@@ -9,8 +9,8 @@ WORKDIR /etc/folio/stripes
 
 COPY . /etc/folio/stripes/
 
-RUN apk add --no-cache alpine-sdk python2
-RUN yarn config set python /usr/bin/python2
+RUN apk add --no-cache alpine-sdk python3
+RUN yarn config set python /usr/bin/python3
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
 RUN yarn install
