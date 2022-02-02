@@ -1144,14 +1144,16 @@
     "@folio/plugin-find-user" "*"
 
 "@folio/agreements@>=2.0.0":
-  version "8.1.1000862"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.1.1000862.tgz#5e5badc776adefa1513aa20ab5b988467ef3c938"
-  integrity sha512-iqZgiOBMPWOQUBoRdA3zIZspftvOyZVHwn8yyZgS+OVB6y9yWYdpmXDmxRopfdLaVp6MM5/zPicLK4VUSjkfQg==
+  version "8.1.1000863"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.1.1000863.tgz#5dcce0276ee0851355a92d262ba4392d7b0e90d9"
+  integrity sha512-TMc/EwzefxLzklYTwMwHEr5JMm0GfvMOk4bx3TFU/Gli3Vja16o4mNttQ3PxQYZdlXprG3p/TVHdMOYw23WXvw==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
+    "@folio/stripes-acq-components" "^3.0.2"
     "@folio/stripes-erm-components" "^6.0.0"
     "@k-int/stripes-kint-components" "^1.6.0"
     "@rehooks/local-storage" "2.4.0"
+    "@testing-library/react-hooks" "^7.0.2"
     compose-function "^3.0.3"
     final-form "^4.18.4"
     final-form-arrays "^3.0.1"
@@ -3106,6 +3108,17 @@
     "@types/react-dom" ">=16.9.0"
     "@types/react-test-renderer" ">=16.9.0"
     filter-console "^0.1.1"
+    react-error-boundary "^3.1.0"
+
+"@testing-library/react-hooks@^7.0.2":
+  version "7.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/react-hooks/-/react-hooks-7.0.2.tgz#3388d07f562d91e7f2431a4a21b5186062ecfee0"
+  integrity sha512-dYxpz8u9m4q1TuzfcUApqi8iFfR6R0FaMbr2hjZJy1uC8z+bO/K4v8Gs9eogGKYQop7QsrBTFkv/BCF7MzD2Cg==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@types/react" ">=16.9.0"
+    "@types/react-dom" ">=16.9.0"
+    "@types/react-test-renderer" ">=16.9.0"
     react-error-boundary "^3.1.0"
 
 "@testing-library/react@^12.1.2":
