@@ -1301,10 +1301,33 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@5.0.3", "@folio/data-import@^5.0.0":
+"@folio/data-import@5.0.3":
   version "5.0.3"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-5.0.3.tgz#4027bcab716361e0b8a1440fc7b6e4c167ce8869"
   integrity sha512-cXpJCZRbs2J1LOQjJnzAlYbFVbv8pMpaB1Jf7zQUUjgpB1Kcap8OaOjhW22p+6SdgAvpP4MPwoObkOd0pA+PuA==
+  dependencies:
+    "@folio/stripes-acq-components" "~3.0.0"
+    "@folio/stripes-data-transfer-components" "^5.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    faker "^4.1.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.17.21"
+    miragejs "^0.1.40"
+    moment "~2.24.0"
+    prop-types "^15.6.0"
+    react-dropzone "^7.0.1"
+    react-final-form "^6.3.0"
+    react-highlighter "^0.4.3"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "*"
+
+"@folio/data-import@^5.0.0":
+  version "5.0.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-5.0.4.tgz#37437ac29b20bb589d116ebdd57f4ebd86816248"
+  integrity sha512-/sQnNnS+2G1LIS5fPBhbjvFMfiuu9a8Fe95sM+FNHnjgl9+DsMj5BhD2m9OT7MdCIS+fFRF0106QWMB9L2nDZQ==
   dependencies:
     "@folio/stripes-acq-components" "~3.0.0"
     "@folio/stripes-data-transfer-components" "^5.0.0"
@@ -2838,9 +2861,9 @@
   integrity sha512-Ht8wIW5v165atIX1p+JvKR5ONzUyF4Ac8DZIQ5kZs9zrb6M8SJNXpx1zn04rn65VjBMygRoMXcyYwNK0fT7bEg==
 
 "@jridgewell/trace-mapping@^0.3.0":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.2.tgz#e051581782a770c30ba219634f2019241c5d3cde"
-  integrity sha512-9KzzH4kMjA2XmBRHfqG2/Vtl7s92l6uNDd0wW7frDE+EUvQFGqNXhWp0UGJjSkt3v2AYjzOZn1QO9XaTNJIt1Q==
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.4.tgz#f6a0832dffd5b8a6aaa633b7d9f8e8e94c83a0c3"
+  integrity sha512-vFv9ttIedivx0ux3QSjhgtCVjPZd5l46ZOMDSCwnH1yUO2e964gO8LZGyv2QkqcgR6TnBU1v+1IFqmeoG+0UJQ==
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
@@ -4616,9 +4639,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001286:
-  version "1.0.30001309"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001309.tgz#e0ee78b9bec0704f67304b00ff3c5c0c768a9f62"
-  integrity sha512-Pl8vfigmBXXq+/yUz1jUwULeq9xhMJznzdc/xwl4WclDAuebcTHVefpz8lE/bMI+UN7TOkSSe7B7RnZd6+dzjA==
+  version "1.0.30001310"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001310.tgz#da02cd07432c9eece6992689d1b84ca18139eea8"
+  integrity sha512-cb9xTV8k9HTIUA3GnPUJCk0meUnrHL5gy5QePfDjxHyNBcnzPzrHFv5GqfP7ue5b1ZyzZL0RJboD6hQlPXjhjg==
 
 canvg@^3.0.6:
   version "3.0.10"
@@ -6071,9 +6094,9 @@ ejs@^2.2.4:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.4.17:
-  version "1.4.66"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.66.tgz#d7453d363dcd7b06ed1757adcde34d724e27b367"
-  integrity sha512-f1RXFMsvwufWLwYUxTiP7HmjprKXrqEWHiQkjAYa9DJeVIlZk5v8gBGcaV+FhtXLly6C1OTVzQY+2UQrACiLlg==
+  version "1.4.67"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.67.tgz#699e59d6959d05f87865e12b3055bbcf492bbbee"
+  integrity sha512-A6a2jEPLueEDfb7kvh7/E94RKKnIb01qL+4I7RFxtajmo+G9F5Ei7HgY5PRbQ4RDrh6DGDW66P0hD5XI2nRAcg==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
