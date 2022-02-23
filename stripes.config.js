@@ -26,6 +26,7 @@ module.exports = {
     '@folio/data-import' : {},
     '@folio/requests': {},
     '@folio/developer': {},
+    '@folio/servicepoints': {},
   },
 
   branding: {
