@@ -1401,14 +1401,14 @@
     redux-observable "^1.2.0"
 
 "@folio/erm-comparisons@>=1.0.0":
-  version "4.1.1000110"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/erm-comparisons/-/erm-comparisons-4.1.1000110.tgz#f35e044e3c2625bd71141c0dba640206ccd18fe6"
-  integrity sha512-CC1OBSmoPaIy7rRO1GZeJq1efRsmhcClghL8pm4CS2z0pPHiLntsiJzf2O2vXZ4BMkcR/LBd2usW6Xwoi2M64A==
+  version "4.2.1000112"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/erm-comparisons/-/erm-comparisons-4.2.1000112.tgz#37e7a60ccf194ecedc391763e85ddcc3f9db7700"
+  integrity sha512-99KyeUqge1Siz8EafbafUxAgj7mnaLOe27DQLSDmvIjw1Lw/6jbLbzs19A5TTFO1byp0IS+jLJklrU0Uqsfb9g==
   dependencies:
-    "@folio/handler-stripes-registry" "^1.0.0"
+    "@folio/handler-stripes-registry" "^1.1.0"
     "@folio/react-intl-safe-html" "^3.1.0"
-    "@folio/stripes-erm-components" "^6.0.0"
-    "@folio/stripes-testing" "^4.0.0"
+    "@folio/stripes-erm-components" "^6.1.0"
+    "@folio/stripes-testing" "^4.2.0"
     "@testing-library/react" "^12.1.2"
     compose-function "^3.0.3"
     final-form "^4.18.5"
@@ -1470,7 +1470,7 @@
   optionalDependencies:
     "@folio/plugin-find-fund" "*"
 
-"@folio/handler-stripes-registry@>=1.0.0", "@folio/handler-stripes-registry@^1.0.0", "@folio/handler-stripes-registry@^1.1.1":
+"@folio/handler-stripes-registry@>=1.0.0", "@folio/handler-stripes-registry@^1.0.0", "@folio/handler-stripes-registry@^1.1.0", "@folio/handler-stripes-registry@^1.1.1":
   version "1.2.100012"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/handler-stripes-registry/-/handler-stripes-registry-1.2.100012.tgz#b9d66debd3cab27828add3386b3c7792e699ba63"
   integrity sha512-qHB2IHBXdm1ZU9KaF6immqnCmCpiwVBNyL094enEpP/1vQrV8tjS1NRPWnL9T9Sv8wU/Owlx9vXdCrwTZg64Wg==
@@ -1625,9 +1625,9 @@
     redux-form "^8.3.7"
 
 "@folio/notes@>=1.0.0":
-  version "6.0.1000106"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/notes/-/notes-6.0.1000106.tgz#0a36ee251289b85c84a07771b3ff05558ec8f0b6"
-  integrity sha512-LQJNy7aybjHoUUyP0ICUi47To8yPVf43yaZOouYNF973dBtcZ6f8taPVdZhG1i4eVqR2s6kfNgOy6v6/D8HOLQ==
+  version "6.1.1000107"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/notes/-/notes-6.1.1000107.tgz#2b227ef389da5a8ae693fa880d8ccc3c5af4d6ff"
+  integrity sha512-fEZhGhGSQR0Ey2DE65gIjqDQHrHZKS/c3stsEaopxbdvWho7qeQSMnHar3ZwKv1oqvVYfRWJjQeREGRkb9D/dg==
   dependencies:
     prop-types "^15.6.0"
 
@@ -1762,11 +1762,13 @@
     "@folio/plugin-find-eresource" "^2.1.0 || ^3.0.0 || ^4.0.0"
 
 "@folio/plugin-find-agreement@>=2.0.0":
-  version "8.0.1000117"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-agreement/-/plugin-find-agreement-8.0.1000117.tgz#3b80e73ac5b90a519fc299b5615473c5515ef4ad"
-  integrity sha512-gJzt6m4KibjS29VkV8fQSuAU1/2Ii6k6mp2VPudLMQfvrm4Pzeqkvp+ybwQ9ZHgpfhqzpH7k1FpKYDFgzdJFaQ==
+  version "8.1.1000120"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-agreement/-/plugin-find-agreement-8.1.1000120.tgz#e190daa9ca6f082da04dd8c032b810234cb6813f"
+  integrity sha512-Sbl6hun8f5YtloQJBfdNxozOap/tGfqzbhiwB3gZnKX5zhjDdzT3em9w/RizKiAL9bLg1PbT8W/AznboHwEyTw==
   dependencies:
-    "@folio/stripes-erm-components" "^6.0.0"
+    "@folio/stripes-erm-components" "^6.1.0"
+    "@folio/stripes-testing" "^4.2.0"
+    "@testing-library/react" "^12.1.2"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -1781,11 +1783,13 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-eresource@>=1.0.0", "@folio/plugin-find-eresource@^2.1.0 || ^3.0.0 || ^4.0.0":
-  version "4.0.100049"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-4.0.100049.tgz#6014fc3ae76c6bd04fa09566ccc8bb8f4d96cc49"
-  integrity sha512-+TRVHSPQQvOs71nb1ckrfwj2N+AZOipvHEa3YPuOWr+y7jJ58esFDrZcUJCoZE7uRYpLLq9NqWNKgw9WzRD6eA==
+  version "4.0.100051"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-4.0.100051.tgz#40e447a6794c2a892dccaaac6429647a0b877b73"
+  integrity sha512-D93wkQmzobg+8UCFlQt5F0MM78H5EUwuuf/GaLbDKIkmqmUIFKZI9k7cE092CCdy+t5AkBkk3kp4QsMypNpXPw==
   dependencies:
     "@folio/stripes-erm-components" "^6.0.0"
+    "@folio/stripes-testing" "^4.0.0"
+    "@testing-library/react" "^12.1.2"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -1845,11 +1849,13 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-license@>=2.0.0":
-  version "8.0.1000116"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-license/-/plugin-find-license-8.0.1000116.tgz#24ccc7d71268080aa39d29cfd6f0a548cf18da89"
-  integrity sha512-xPZ/ndCqnC5jvm0IMm6aXaslI01Iy80fpphackhvzR+9HtFiLMkxg6fF5R/NXKLd+cSZ2EFvMFldtArffaOjoQ==
+  version "8.1.1000119"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-license/-/plugin-find-license-8.1.1000119.tgz#da5abf561161af4f4ce9441f94c110b564134745"
+  integrity sha512-cvGfH1WnMlEZ1u4MR0vHg9RVgetDcvCiKOqUH9xBWR/O8z9E22l8/S01L6zyh6vXFQ1m8Q+KRn6EWRUkCedtGw==
   dependencies:
-    "@folio/stripes-erm-components" "^6.0.0"
+    "@folio/stripes-erm-components" "^6.1.0"
+    "@folio/stripes-testing" "^4.2.0"
+    "@testing-library/react" "^12.1.2"
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
@@ -1906,11 +1912,11 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^5.0.0":
-  version "5.0.10000010"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000010.tgz#ca065d2b7cd7403e7c12f5d2eb8dbdadd7700164"
-  integrity sha512-2GEhi0QnQGmUHsVKk3n3vPMU5Ru9SE/vRYX40PckKW7QvnoxdW1i55oj//ichrcw/2V7Ku8wzh5xOQyYSJZ5UQ==
+  version "5.0.10000013"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.0.10000013.tgz#7c27edfb4050fc6c5a7347d9e3bfdbc774595ae4"
+  integrity sha512-76xRVAQQbjvjSduqLaJwpx5JHuabxX3YR4SUlybGeiIwnC7bmQhh0SsH/+dcUnzC5yqpc4f8hsUlI1APRejVUg==
   dependencies:
-    "@folio/stripes-acq-components" "^2.1.0"
+    "@folio/stripes-acq-components" "~3.1.0"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
     lodash "^4.17.5"
@@ -2000,25 +2006,6 @@
     "@folio/react-intl-safe-html" "^3.0.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
-
-"@folio/stripes-acq-components@^2.1.0":
-  version "2.4.3000516"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-2.4.3000516.tgz#3b85602ddbff2a595c22e69f0a9e7428db964da0"
-  integrity sha512-4BW3YGF5SGuOuwvKELI7kZuwoJgfrZ6a7kQCrOCjNz5sni7LAMUKpH+lFfgcgTCO6O8azrFceypN6Cjl/GLG2w==
-  dependencies:
-    "@rehooks/local-storage" "^2.4.0"
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.2"
-    lodash "^4.17.11"
-    prop-types "^15.7.2"
-    query-string "^6.1.0"
-    react-dropzone "^10.0.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.1"
-    react-hot-loader "^4.3.12"
-    redux-form "^8.3.0"
 
 "@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@~3.1.0":
   version "3.1.1000567"
@@ -2322,10 +2309,10 @@
     element-is-visible "^1.0.0"
     minimist "^1.2.0"
 
-"@folio/stripes-testing@^4.0.0":
-  version "4.3.1000001244"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.3.1000001244.tgz#71e79312dbddc04f4599b3b4454ee44252b0fa66"
-  integrity sha512-zkiwJBoyTSftvrIg/zzgRRoOX8wnb84IeLi+8xZb7miTe82Zes6Eo+WtBXBaR56LscGsgLj3TgsPyyVhnGn40w==
+"@folio/stripes-testing@^4.0.0", "@folio/stripes-testing@^4.2.0":
+  version "4.3.1000001267"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.3.1000001267.tgz#b858dcb71fc8b274985c93c721541d2be0067a15"
+  integrity sha512-DdOEwclb+yhkNV1NZTWxBA/sFlcqY3WdKO7hxL5lRTJ6NXV9oJNZ0FpXnSP3c6VpQPDhsX0JTTgDz4hWvZlGiA==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.0"
     axe-core "4.3.3"
