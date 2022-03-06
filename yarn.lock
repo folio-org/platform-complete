@@ -1155,10 +1155,10 @@
   optionalDependencies:
     "@folio/plugin-find-user" "*"
 
-"@folio/agreements@8.0.2":
-  version "8.0.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-8.0.2.tgz#3185d9e9543d4b1cdc345dd4496c06cd95e93d37"
-  integrity sha512-M5ha3neVOh9XIrNfzyJfQ9pESieJCUVn+/xINAW9Mc7q6ivjVTtEvC4GCqitr9tN+pprsxe4FvnQt3RR3G6jMw==
+"@folio/agreements@8.0.3":
+  version "8.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-8.0.3.tgz#c3eca3f825b3dfe602ae76151a133f36226291f5"
+  integrity sha512-BFeRwEFMi7wbhJMordbcoPmijP4ZCXXxlHiSPEpdnqO9f6AQ2JE1Fa+3dg1Mxf7Tc335N787WUEDI5cbsMpuFw==
   dependencies:
     "@folio/react-intl-safe-html" "^2.0.0"
     "@folio/stripes-erm-components" "^6.0.0"
@@ -1443,10 +1443,19 @@
     react-final-form-listeners "^1.0.2"
     redux-form "^8.3.0"
 
-"@folio/handler-stripes-registry@1.0.0", "@folio/handler-stripes-registry@^1.0.0":
+"@folio/handler-stripes-registry@1.0.0":
   version "1.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/handler-stripes-registry/-/handler-stripes-registry-1.0.0.tgz#04c8a9327f8492b981b69ee173277ac5b145899a"
   integrity sha512-8ejryTYCeNs7DKiId3PpOP/K5V/uPZedPoMP7z6OeEE7sZKRz45c3FtfJZRc7gM83wGENHcA83bKJUZ95Uz1Gg==
+  dependencies:
+    dom-helpers "^3.4.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+
+"@folio/handler-stripes-registry@^1.0.0":
+  version "1.1.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/handler-stripes-registry/-/handler-stripes-registry-1.1.1.tgz#79c0a06c1db6f3084beb684a93a2f6508aae49f3"
+  integrity sha512-aX7sR7mHDnIU8NVncFS7MNG1/xuJey6JDvC4JthJj2zYIPnzSE3npgB7+iTDtgP7Nw+n3+hA1Y7qEID8IpdFcg==
   dependencies:
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
@@ -3153,16 +3162,16 @@
   integrity sha512-taW5/WYqo36N7V39oYyHP9Ipfd5pNFvGTIQsNGj86xV88YQ7GnI30/yMfKDF7Zgin0m3e+ikX88FvImnK4RjGw==
 
 "@types/react-dom@>=16.9.0":
-  version "17.0.11"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
-  integrity sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==
+  version "17.0.12"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.12.tgz#f08dfbc3c6d35084ffd3db6f09bdea8913de8494"
+  integrity sha512-SeJ430ndLI15JtRSHuzotn7AIdUtr8bdk6XW8mMfzjZo3vahRgJGHZqHiI4nAzCHTVG4qC21ObfsHBVUEHcDhg==
   dependencies:
     "@types/react" "*"
 
 "@types/react-redux@^7.1.20":
-  version "7.1.22"
-  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.22.tgz#0eab76a37ef477cc4b53665aeaf29cb60631b72a"
-  integrity sha512-GxIA1kM7ClU73I6wg9IRTVwSO9GS+SAKZKe0Enj+82HMU6aoESFU2HNAdNi3+J53IaOHPiUfT3kSG4L828joDQ==
+  version "7.1.23"
+  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.23.tgz#3c2bb1bcc698ae69d70735f33c5a8e95f41ac528"
+  integrity sha512-D02o3FPfqQlfu2WeEYwh3x2otYd2Dk1o8wAfsA0B1C2AJEFxE663Ozu7JzuWbznGgW248NaOF6wsqCGNq9d3qw==
   dependencies:
     "@types/hoist-non-react-statics" "^3.3.0"
     "@types/react" "*"
@@ -5588,9 +5597,9 @@ date-fns@^2.16.1:
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
 date-format@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/date-format/-/date-format-4.0.3.tgz#f63de5dc08dc02efd8ef32bf2a6918e486f35873"
-  integrity sha512-7P3FyqDcfeznLZp2b+OMitV9Sz2lUnsT87WaTat9nVwqsBkTzPG3lPLNwW3en6F4pHUiWzr6vb8CLhjdK9bcxQ==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/date-format/-/date-format-4.0.4.tgz#b58036e29e74121fca3e1b3e0dc4a62c65faa233"
+  integrity sha512-/jyf4rhB17ge328HJuJjAcmRtCsGd+NDeAtahRBTaK6vSPR6MO5HlrAit3Nn7dVjaa6sowW0WXt8yQtLyZQFRg==
 
 dateformat@^2.0.0:
   version "2.2.0"
@@ -7498,9 +7507,9 @@ has-flag@^4.0.0:
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
 has-symbols@^1.0.1, has-symbols@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
-  integrity sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.3.tgz#bb7b2c4349251dce87b125f7bdf874aa7c8b39f8"
+  integrity sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==
 
 has-tostringtag@^1.0.0:
   version "1.0.0"
