@@ -9,6 +9,7 @@ module.exports = {
   modules: {
     '@folio/acquisition-units': {},
     '@folio/agreements': {},
+    '@folio/bulk-edit': {},
     '@folio/calendar' : {},
     '@folio/checkin' : {},
     '@folio/checkout' : {},
@@ -31,6 +32,7 @@ module.exports = {
     '@folio/ldp': {},
     '@folio/licenses': {},
     '@folio/local-kb-admin': {},
+    '@folio/marc-authorities': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/oai-pmh' : {},
@@ -43,6 +45,7 @@ module.exports = {
     '@folio/plugin-find-contact': {},
     '@folio/plugin-find-eresource': {},
     '@folio/plugin-find-erm-usage-data-provider': {},
+    '@folio/plugin-find-fund': {},
     '@folio/plugin-find-import-profile' : {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-interface' : {},
