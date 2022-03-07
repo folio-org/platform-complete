@@ -1344,9 +1344,9 @@
     react-window "^1.8.5"
 
 "@folio/data-import@>=0.0.0", "@folio/data-import@^5.0.0":
-  version "5.0.4000995"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-5.0.4000995.tgz#f36b27903297ad6bd3df82791f6eed8a01d36ee3"
-  integrity sha512-1RUEGlaMFjGU5npl3fnjZ6AHVJRFW0BDw6Zy7kpLgOktqCMK8c0/EJ+J57tx0efcLmhqC8shhNBpU9uBAfjEtg==
+  version "5.1.1000998"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-5.1.1000998.tgz#e46b2288925b16b55e18edceffba3b3bb48677dc"
+  integrity sha512-sSeP8QAplYA+iwD6CI2tIwjTSeTlnBMZKF27o8IPwE3Av7ocVj68latWWxVS3Z5RZkLXEH58TdZ7eygDrW2yEg==
   dependencies:
     "@folio/stripes-acq-components" "~3.0.0"
     "@folio/stripes-data-transfer-components" "^5.0.0"
@@ -1633,14 +1633,14 @@
     prop-types "^15.6.0"
 
 "@folio/oa@>=1.0.0":
-  version "1.0.1000111"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oa/-/oa-1.0.1000111.tgz#24edcb035bb50be2a9b948ba3653b01edf6aa2ed"
-  integrity sha512-OK1E/rer1IICgMfDFOSzEszhlcHIP18F1i7yjxzOoArBbrXy5SDaqfry6hFFVqDvLqS21DNKNa7nS1XhV/gl6A==
+  version "1.0.1000112"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oa/-/oa-1.0.1000112.tgz#9538890a838e5e9a22c2c3f62946f66cb5486d4f"
+  integrity sha512-8IBZ9J3MgJeqA8R1u+coP0lF6IdUZrvb2XxINEzCNn0Kll+QRDwbSaLj09nghnHSQhTV/BVZzDoMeBE8mPalYw==
   dependencies:
     "@folio/handler-stripes-registry" "^1.0.0"
     "@folio/react-intl-safe-html" "^3.1.0"
     "@folio/stripes-erm-components" "^6.0.0"
-    "@k-int/stripes-kint-components" "^1.7.0"
+    "@k-int/stripes-kint-components" "^2.0.0"
     classnames "^2.2.6"
     compose-function "^3.0.3"
     final-form "^4.18.5"
@@ -2223,11 +2223,13 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/stripes-erm-components@^6.0.0", "@folio/stripes-erm-components@^6.1.0":
-  version "6.2.1000423"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-erm-components/-/stripes-erm-components-6.2.1000423.tgz#1643f07ae1ea73cd161cb7f7998e3ed52d194f81"
-  integrity sha512-yPUDnNiYMCjqnPok4NKB+8x6Nv/SZ0JoyIzlOmV6oSJODFfTO5i2qrQkLTwSQrvVpAGm6YE+Fn/eGpXUUNoYoQ==
+  version "6.2.1000424"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-erm-components/-/stripes-erm-components-6.2.1000424.tgz#607f6675b59ab4c3ea262568a40e7d513edb2933"
+  integrity sha512-LUsEaG+fenuMzTyapDfrkqLClCWJNq92drJOBlMOznjvQatUto6b04sq/VAr7IF8DtLGHWPdCGdmyImbwYnFhA==
   dependencies:
     "@folio/react-intl-safe-html" "^3.1.0"
+    "@folio/stripes-testing" "^4.2.0"
+    "@testing-library/react" "^12.1.2"
     final-form "^4.18.4"
     final-form-arrays "^3.0.1"
     lodash "^4.17.4"
@@ -2938,6 +2940,16 @@
   integrity sha512-8rv41rUcHU/qwpzZZUEsTVbG6fLPnEjERWNW4r8MFkakFXdT5ohV7b6JF4G0yxYfgXiZOKYB3V77TDHAh2xjMw==
   dependencies:
     "@rehooks/local-storage" "2.4.0"
+    react-resize-detector "^6.7.6"
+
+"@k-int/stripes-kint-components@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-2.0.0.tgz#55c4e39b9082df426c53b9f2676d09f99de64587"
+  integrity sha512-8Dq0Rtcwhlawp7kmFGEKt5PjV8suP0BwgC79i63hDd/U2Ef/uQsa3mi1L8b2TzWFS0JqPa6JC45pPeyrRD3Klw==
+  dependencies:
+    "@folio/react-intl-safe-html" "^3.1.0"
+    "@rehooks/local-storage" "2.4.0"
+    compose-function "^3.0.3"
     react-resize-detector "^6.7.6"
 
 "@miragejs/pretender-node-polyfill@^0.1.0":
