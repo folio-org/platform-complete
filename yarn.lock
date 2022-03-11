@@ -1627,12 +1627,16 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
 
-"@folio/marc-authorities@0.1.0":
-  version "0.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/marc-authorities/-/marc-authorities-0.1.0.tgz#1b7b39f37a8bd51cfb858cb743e34f2867747b31"
-  integrity sha512-iUn++xYua62/URvsWhPiPai8LQHy9ytlFYVc+I/Ox2N7OzsCgqMpJ9tcWSoeY2ePO4KAf9E6YohWmP/QNgFPXg==
+"@folio/marc-authorities@1.0.0":
+  version "1.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/marc-authorities/-/marc-authorities-1.0.0.tgz#1294ab59eeb58495db3722c1bfc55cac29d5c3bf"
+  integrity sha512-vcr8IrFDJHXw6+eo5HN/MEVm6DB3CeYHlw640RDK8dkz57JhIWDBQCFaj8H4KrDSkp7oyJ4Zl8rpqGhNnv/1lw==
   dependencies:
+    "@folio/quick-marc" "^5.0.0"
+    "@folio/stripes-acq-components" "^3.0.2"
+    "@rehooks/local-storage" "2.4.0"
     prop-types "^15.6.0"
+    query-string "^7.0.1"
 
 "@folio/myprofile@7.0.0":
   version "7.0.0"
@@ -2008,7 +2012,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.1.0", "@folio/stripes-acq-components@~3.1.0":
+"@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.0", "@folio/stripes-acq-components@~3.1.0":
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-3.1.0.tgz#7eb5aec39c29f866612c4ebe461ce89d2aec2ce2"
   integrity sha512-Pso3+PEN295179xT1YR35oMJKQ/gt/8ReRKiBljJOo7JfsvOT3lHoxKo3NYQJjQ3WSIFSVfws6EwDlWVnqIt7Q==
@@ -10735,6 +10739,16 @@ query-string@^6.0.0, query-string@^6.1.0, query-string@^6.6.0, query-string@^6.7
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
+query-string@^7.0.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-7.1.1.tgz#754620669db978625a90f635f12617c271a088e1"
+  integrity sha512-MplouLRDHBZSG9z7fpuAAcI7aAYjDLhtsiVZsevsfaHWDS2IDdORKbSd1kWUA+V4zyva/HZoSfpwnYMMQDhb0w==
   dependencies:
     decode-uri-component "^0.2.0"
     filter-obj "^1.1.0"
