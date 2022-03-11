@@ -175,10 +175,10 @@ pipeline {
         script {
           def instance = sh(returnStdout: true, script: "aws --region us-east-1 --output text ec2 describe-instances --filters 'Name=tag:Group,Values=${env.ec2_group}' 'Name=instance-state-name,Values=running' --query 'Reservations[*].Instances[*].[InstanceId]'")
 
-          if (instance) {
-            echo "Terminating instance: $instance"
-            sh "aws --region us-east-1 --output text ec2 terminate-instances --instance-ids $instance"
-          }
+         // if (instance) {
+         //   echo "Terminating instance: $instance"
+         //   sh "aws --region us-east-1 --output text ec2 terminate-instances --instance-ids $instance"
+         // }
         }
       }
     }
