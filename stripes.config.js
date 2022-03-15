@@ -9,7 +9,6 @@ module.exports = {
   modules: {
     '@folio/acquisition-units': {},
     '@folio/agreements': {},
-    '@folio/bulk-edit': {},
     '@folio/calendar' : {},
     '@folio/checkin' : {},
     '@folio/checkout' : {},
