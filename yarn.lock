@@ -1223,9 +1223,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "8.0.100000174"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000174.tgz#415d694948bd0c334b0323e11afc593ef88bb26c"
-  integrity sha512-OPffsF+xc9JK/1KjYlwZPC/sJCmV7/wn5lZOh1Z7DgbFmVNesbjpDmBTAKNNUO6fYAVhRduPp3txV/bJGba2aA==
+  version "8.0.100000192"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-8.0.100000192.tgz#bb4bb3f57c3d0b97464a62705b83028f9138ba9b"
+  integrity sha512-zOCiyb1vlWHWAmEXvEdQQTXydyjaRKn6ZSEGj/el+SrMun5mf9Y8Jck/QQ8SQhKR7+GNP7KIEdzUfCenXOAMKw==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1236,7 +1236,7 @@
     react-final-form "^6.4.0"
     react-hot-loader "^4.3.12"
   optionalDependencies:
-    "@folio/circulation" "^6.0.0"
+    "@folio/circulation" "^7.0.0"
     "@folio/plugin-create-inventory-records" "^3.0.0"
     "@folio/plugin-find-user" "^6.0.0"
 
@@ -1256,28 +1256,10 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^6.0.0"
 
-"@folio/circulation@>=1.3.0":
+"@folio/circulation@>=1.3.0", "@folio/circulation@^7.0.0":
   version "7.0.100000446"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.0.100000446.tgz#b5ee85c6f4b241355a175e98e03f28ef71f12060"
   integrity sha512-JAL4y4kgMP7bu7rQbgOXES/m3nkJpzUkqjetZe2i2q9K1lFBSdKg9go9hb0uoXEXeMnccdLAV1Qy7AlY2rWEIw==
-  dependencies:
-    "@folio/stripes-template-editor" "^3.0.0"
-    codemirror "^5.61.1"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    final-form-set-field-data "^1.0.2"
-    html-to-react "^1.3.3"
-    lodash "^4.17.4"
-    moment-timezone "^0.5.33"
-    prop-types "^15.5.10"
-    react-codemirror2 "^7.2.1"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-
-"@folio/circulation@^6.0.0":
-  version "6.0.100000326"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-6.0.100000326.tgz#7fe8a00477f685c446f3419271e70124cf470fb1"
-  integrity sha512-iZSCdvlYUgzFERzwwnxbWTShVCzithQSzxWPXJeF1RuyR+shhoOLnrGepSpif+qiSs+1qdTArU+UFSLohdnaEg==
   dependencies:
     "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
