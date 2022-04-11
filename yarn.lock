@@ -3139,13 +3139,13 @@
     react-error-boundary "^3.1.0"
 
 "@testing-library/react@^12.1.2":
-  version "12.1.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/react/-/react-12.1.4.tgz#09674b117e550af713db3f4ec4c0942aa8bbf2c0"
-  integrity sha512-jiPKOm7vyUw311Hn/HlNQ9P8/lHNtArAx0PisXyFixDDvfl8DbD6EUdbshK5eqauvBSvzZd19itqQ9j3nferJA==
+  version "12.1.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/react/-/react-12.1.5.tgz#bb248f72f02a5ac9d949dea07279095fa577963b"
+  integrity sha512-OfTXCJUFgjd/digLUuPxa0+/3ZxsQmE7ub9kcbW/wi96Bh3o/p5vrETcBGfP17NWPGqeYYl5LTRpwyGoMC4ysg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
-    "@types/react-dom" "*"
+    "@types/react-dom" "<18.0.0"
 
 "@testing-library/user-event@^13.2.1":
   version "13.5.0"
@@ -3304,7 +3304,14 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/raf/-/raf-3.4.0.tgz#2b72cbd55405e071f1c4d29992638e022b20acc2"
   integrity sha512-taW5/WYqo36N7V39oYyHP9Ipfd5pNFvGTIQsNGj86xV88YQ7GnI30/yMfKDF7Zgin0m3e+ikX88FvImnK4RjGw==
 
-"@types/react-dom@*", "@types/react-dom@>=16.9.0":
+"@types/react-dom@<18.0.0":
+  version "17.0.15"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-dom/-/react-dom-17.0.15.tgz#f2c8efde11521a4b7991e076cb9c70ba3bb0d156"
+  integrity sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==
+  dependencies:
+    "@types/react" "^17"
+
+"@types/react-dom@>=16.9.0":
   version "18.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/react-dom/-/react-dom-18.0.0.tgz#b13f8d098e4b0c45df4f1ed123833143b0c71141"
   integrity sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==
@@ -3337,7 +3344,7 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@16 || 17":
+"@types/react@16 || 17", "@types/react@^17":
   version "17.0.44"
   resolved "https://repository.folio.org/repository/npm-ci-all/@types/react/-/react-17.0.44.tgz#c3714bd34dd551ab20b8015d9d0dbec812a51ec7"
   integrity sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==
