@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["main", "master", "R3-2021", "R2-2021", "R1-2021"],
+  "baseBranches": ["main", "master","R1-2022","R3-2021","R2-2021","R1-2021"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -32,6 +32,13 @@
       "baseBranchList": ["main", "master"],
       "packagePatterns": ["^@folio/","^folioorg/"],
       "groupName": "Main branch updates",
+      "updateTypes": ["patch"], 
+      "enabled": true
+    },
+    { 
+      "baseBranchList": ["R1-2022"],
+      "packagePatterns": ["^@folio/", "^folioorg/"],
+      "groupName": "FOLIO R1 2022 updates",
       "updateTypes": ["patch"], 
       "enabled": true
     },
