@@ -3,7 +3,7 @@
 // const { merge } = require('lodash');
 
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: { 'url':'https://okapi-bugfest-lotus.int.aws.folio.org', 'tenant':'fs09000000' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
