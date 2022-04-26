@@ -1900,9 +1900,9 @@
   integrity sha512-Pj4znI9iy5RnRD23weAd6SqWjSgAz66GFIBYxOdtf677gQwg54eNxoxL3tAEKY+9PGYEeW5550SNX9mS7Blawg==
 
 "@folio/receiving@>=1.0.0":
-  version "2.1.1000343"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-2.1.1000343.tgz#6a8724fa952857ef69f58882d8570b9c50c63ff7"
-  integrity sha512-YRut2969MOZN4eqMwoA/yfKWoxKjMy3MB5VwRwuRmDQXtuANLwi6Pqi8xVJmU9+RmsgYdjTDPYtXeXAWYgUmEw==
+  version "2.1.1000344"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/receiving/-/receiving-2.1.1000344.tgz#173032a33bc037fc97a9bbd4dfec2cabd8f04fef"
+  integrity sha512-2862CBoT4+fkFMlifd9Vtm4m/2091iq7DWPviWrJsFN3CaOxbMYoXkdEBHzzRsQr2ZhrEk1NFfmNZv9coHpXfA==
   dependencies:
     "@folio/stripes-acq-components" "~3.1.0"
     final-form "^4.18.2"
@@ -2011,9 +2011,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-cli@^2.0.0", "@folio/stripes-cli@^2.4.0":
-  version "2.6.10000094"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.6.10000094.tgz#22db405992775934c1966be9e771df454b10833a"
-  integrity sha512-74vl27F5vo9jr/R0Tg2XrU8M2akdK8+sqFFcC3GOH56XmQOELin6BC6d7svxiPAeGPwHPrUbo7//JhEq+EpI8g==
+  version "2.6.100000101"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-2.6.100000101.tgz#1b5a7b2cf388775815880f141d4bac33547fea0c"
+  integrity sha512-vGinrL5DkwQJ6oqOtWLR8bhl75quazlanMo3bS7tDDpE2ZvpcIMlgzPLAHAJIGLApji7vZMpUGadGHFS8zWkCQ==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
     "@folio/stripes-webpack" "^3.0.3"
@@ -2054,7 +2054,7 @@
     resolve-pkg "^1.0.0"
     rimraf "^2.6.2"
     semver "^5.6.0"
-    simple-git "^1.89.0"
+    simple-git "^3.5.0"
     supports-color "^4.5.0"
     update-notifier "^2.3.0"
     webpack "~5.68.0"
@@ -2892,6 +2892,18 @@
     "@rehooks/local-storage" "2.4.0"
     compose-function "^3.0.3"
     react-resize-detector "^6.7.6"
+
+"@kwsites/file-exists@^1.1.1":
+  version "1.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@kwsites/file-exists/-/file-exists-1.1.1.tgz#ad1efcac13e1987d8dbaf235ef3be5b0d96faa99"
+  integrity sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==
+  dependencies:
+    debug "^4.1.1"
+
+"@kwsites/promise-deferred@^1.1.1":
+  version "1.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
+  integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
 "@miragejs/pretender-node-polyfill@^0.1.0":
   version "0.1.2"
@@ -5348,7 +5360,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
+debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.3, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
   version "4.3.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -11777,12 +11789,14 @@ simple-get@^3.0.3, simple-get@^3.1.0:
     once "^1.3.1"
     simple-concat "^1.0.0"
 
-simple-git@^1.89.0:
-  version "1.132.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/simple-git/-/simple-git-1.132.0.tgz#53ac4c5ec9e74e37c2fd461e23309f22fcdf09b1"
-  integrity sha512-xauHm1YqCTom1sC9eOjfq3/9RKiUA9iPnxBbrY2DdL8l4ADMu0jjM5l5lphQP5YWNqAL2aXC/OeuQ76vHtW5fg==
+simple-git@^3.5.0:
+  version "3.7.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/simple-git/-/simple-git-3.7.1.tgz#cb85c59da4da3d69792d206dd28cfbd803941fac"
+  integrity sha512-+Osjtsumbtew2y9to0pOYjNzSIr4NkKGBg7Po5SUtjQhaJf2QBmiTX/9E9cv9rmc7oUiSGFIB9e7ys5ibnT9+A==
   dependencies:
-    debug "^4.0.1"
+    "@kwsites/file-exists" "^1.1.1"
+    "@kwsites/promise-deferred" "^1.1.1"
+    debug "^4.3.3"
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
