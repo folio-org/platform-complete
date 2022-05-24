@@ -1,6 +1,5 @@
 @Library ('folio_jenkins_shared_libs') _
 
-
 pipeline {
 
   environment {
