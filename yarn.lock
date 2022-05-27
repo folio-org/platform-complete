@@ -1150,22 +1150,22 @@
     "@folio/plugin-find-user" "*"
 
 "@folio/agreements@>=2.0.0":
-  version "8.2.1000899"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.2.1000899.tgz#a477ed42fa787a3034eb39b72dbb09b032ba6b55"
-  integrity sha512-Dsa9ZaUK2M15skkXqXJr/QzUZrWkTGO1V+wBjaeCcDhD4JjZGV0yTEFAtOC9E4z7cuWPFJs/a3vMad/QV+fx9w==
+  version "8.2.1000900"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.2.1000900.tgz#2a9fda044c03706a87e543e9d379d39affd3b3f5"
+  integrity sha512-zPMcPLK2Y3aBFDb2h62RMuzozbPLFBAT0zPkO5Yvn6amnGkc0YUS6dNTsSoU/da1w0namS0yX4mDbPL3PMjebg==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.0"
     "@folio/stripes-erm-components" "^6.1.0"
     "@k-int/stripes-kint-components" "^2.5.0"
-    "@rehooks/local-storage" "2.4.0"
-    "@testing-library/react-hooks" "^7.0.2"
+    "@rehooks/local-storage" "2.4.4"
+    "@testing-library/react-hooks" "^8.0.0"
     compose-function "^3.0.3"
     final-form "^4.18.4"
     final-form-arrays "^3.0.1"
     final-form-set-field-data "^1.0.2"
     lodash "^4.17.11"
     prop-types "^15.6.0"
-    query-string "^6.6.0"
+    query-string "^7.1.1"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
     react-router-prop-types "^1.0.4"
@@ -1311,9 +1311,9 @@
     react-window "^1.8.5"
 
 "@folio/data-import@>=0.0.0", "@folio/data-import@^5.0.0":
-  version "5.1.30001057"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-5.1.30001057.tgz#1e5451ba90b86747e1abf6dea1e3bd5371293d13"
-  integrity sha512-vt82fjxOCKOWGgDI9EtZzIxKJ4G4fyOIoEbvbi0mm11pQn9Wn0GddSagD67O4GZpBIN2FdGTWRl1JMv1JMU72Q==
+  version "5.1.30001059"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-5.1.30001059.tgz#d5573fd036a54a87b03c6abe3ce4c3cf5dea9dfd"
+  integrity sha512-g4X2nHkJCqhYnve2ZTQN8B8MmZbYDa1dM0l/KneegaX9sif1OQfeesJwxYW3Asg7MnXTY7L/DdJGtmrzva/vsw==
   dependencies:
     "@folio/stripes-acq-components" "~3.0.0"
     "@folio/stripes-data-transfer-components" "^5.0.0"
@@ -3070,7 +3070,7 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
   integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
-"@rehooks/local-storage@2.4.0", "@rehooks/local-storage@^2.4.0":
+"@rehooks/local-storage@2.4.0", "@rehooks/local-storage@2.4.4", "@rehooks/local-storage@^2.4.0":
   version "2.4.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@rehooks/local-storage/-/local-storage-2.4.0.tgz#fb884b2b657cad5f77aa6ab60bb3532f0e0725d2"
   integrity sha512-LoXDbEHsuIckVgBsFAv8SuU/M7memjyfWut9Zf36TQXqqCHBRFv8bweg9PymQCa1aWIMjNrZQflFdo55FDlXYg==
@@ -3162,15 +3162,12 @@
     filter-console "^0.1.1"
     react-error-boundary "^3.1.0"
 
-"@testing-library/react-hooks@^7.0.2":
-  version "7.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/react-hooks/-/react-hooks-7.0.2.tgz#3388d07f562d91e7f2431a4a21b5186062ecfee0"
-  integrity sha512-dYxpz8u9m4q1TuzfcUApqi8iFfR6R0FaMbr2hjZJy1uC8z+bO/K4v8Gs9eogGKYQop7QsrBTFkv/BCF7MzD2Cg==
+"@testing-library/react-hooks@^8.0.0":
+  version "8.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@testing-library/react-hooks/-/react-hooks-8.0.0.tgz#7d0164bffce4647f506039de0a97f6fcbd20f4bf"
+  integrity sha512-uZqcgtcUUtw7Z9N32W13qQhVAD+Xki2hxbTR461MKax8T6Jr8nsUvZB+vcBTkzY2nFvsUet434CsgF0ncW2yFw==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@types/react" ">=16.9.0"
-    "@types/react-dom" ">=16.9.0"
-    "@types/react-test-renderer" ">=16.9.0"
     react-error-boundary "^3.1.0"
 
 "@testing-library/react@^12.1.2":
@@ -9988,7 +9985,7 @@ query-string@^6.0.0, query-string@^6.1.0, query-string@^6.6.0, query-string@^6.7
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
-query-string@^7.0.1:
+query-string@^7.0.1, query-string@^7.1.1:
   version "7.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/query-string/-/query-string-7.1.1.tgz#754620669db978625a90f635f12617c271a088e1"
   integrity sha512-MplouLRDHBZSG9z7fpuAAcI7aAYjDLhtsiVZsevsfaHWDS2IDdORKbSd1kWUA+V4zyva/HZoSfpwnYMMQDhb0w==
