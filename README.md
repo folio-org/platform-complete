@@ -133,6 +133,8 @@ docker run stripes 127.0.0.1
 
 ## Additional information
 
+[_Finding what module versions are included in a flower release_](doc/finding-module-versions.md)
+
 See project [FOLIO](https://issues.folio.org/browse/FOLIO)
 at the [FOLIO issue tracker](https://dev.folio.org/guidelines/issue-tracker/).
 
