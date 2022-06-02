@@ -168,6 +168,8 @@ pipeline {
       sendNotifications currentBuild.result
     }
     cleanup {
+      echo "Sleeping during cleanup to enable ansible error reporting."
+      sleep 10
       withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
                         accessKeyVariable: 'AWS_ACCESS_KEY_ID',
                         credentialsId: 'jenkins-aws',
