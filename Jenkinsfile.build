@@ -117,7 +117,7 @@ pipeline {
                                           instance_type: "${env.ec2_instanceType}",
                                           build_module_list_files: "${env.WORKSPACE}",
                                           folio_config: "${env.folio_config}" ],
-                              extras: "-e \"{\\\"docker_image_repo\\\":{\\\"username\\\":\\\"${env.DOCKERHUB_CI_PULL_USR}\\\",\\\"password\\\":\\\"${env.DOCKERHUB_CI_PULL_PSW}\\\"}}\" -e ANSIBLE_DEBUG=1")
+                              extras: "-e \"{\\\"docker_image_repo\\\":{\\\"username\\\":\\\"${env.DOCKERHUB_CI_PULL_USR}\\\",\\\"password\\\":\\\"${env.DOCKERHUB_CI_PULL_PSW}\\\"}}\"")
             }
           }
         }
