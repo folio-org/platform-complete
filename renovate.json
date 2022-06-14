@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["main", "master","R1-2022","R3-2021","R2-2021","R1-2021"],
+  "baseBranches": ["main", "master","R1-2022","R3-2021"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -49,20 +49,6 @@
       "updateTypes": ["patch"], 
       "enabled": true,
       "excludePackageNames": ["folioorg/mod-inn-reach","folioorg/edge-inn-reach"]
-    },
-    { 
-      "baseBranchList": ["R2-2021"],
-      "packagePatterns": ["^@folio/", "^folioorg/"],
-      "groupName": "FOLIO R2 2021 updates",
-      "updateTypes": ["patch"], 
-      "enabled": true
-    },
-    { 
-      "baseBranchList": ["R1-2021"],
-      "packagePatterns": ["^@folio/", "^folioorg/"],
-      "groupName": "FOLIO R1 2021 updates",
-      "updateTypes": ["patch"], 
-      "enabled": true
     }
   ]
 }
