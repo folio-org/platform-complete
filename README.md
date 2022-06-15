@@ -36,6 +36,22 @@ how to change them are in the
 and in
 [DevOps - Install Backend Module](https://dev.folio.org/guides/devops-install-backend-module/#platform-explanation).
 
+## Supported releases
+
+The master branch is for the next flower release,
+[Morning Glory (R2-2022)](https://wiki.folio.org/pages/viewpage.action?pageId=79468624),
+it is work in progress.
+
+Only the two latest releases are supported with critical bug and security fixes:
+* Branch [R1-2022](https://github.com/folio-org/platform-complete/tree/R1-2022) and the
+  R1-2022-… tags of the [Lotus](https://wiki.folio.org/display/REL/Lotus+%28R1+2022%29+Release+Notes)
+  release
+* Branch [R3-2021](https://github.com/folio-org/platform-complete/tree/R3-2021) and the
+  R3-2021-… tags of the [Kiwi](https://wiki.folio.org/display/REL/Kiwi+%28R3+2021%29+Release+Notes)
+  release
+
+Older releases have reached end-of-life and are out of support.
+
 ## Installation
 
 Install platform dependencies
