@@ -30,6 +30,7 @@ module.exports = {
     '@folio/erm-usage' : {},
     '@folio/export-manager': {},
     '@folio/handler-stripes-registry': {},
+    "@folio/gobi-settings": {},
     '@folio/inn-reach' : {},
     '@folio/inventory' : {},
     '@folio/invoice' : {},
