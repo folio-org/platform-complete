@@ -66,6 +66,7 @@ module.exports = {
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/search' : {},
+    '@folio/service-interaction': {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components' : {},
     '@folio/tags' : {},
