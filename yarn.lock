@@ -1151,9 +1151,9 @@
     "@folio/plugin-find-user" "*"
 
 "@folio/agreements@>=2.0.0":
-  version "8.3.10000033"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.3.10000033.tgz#135c3484533f9bb8da46458398a83c42ba3639f6"
-  integrity sha512-mVvEbaDav1ptO16zkjK6wTU/FN7LXUYH5fOkYeejNK7jYUuXR+P4FwOEC6a3BXA1MzlGsrJCvGkiy1e4Eyn8JA==
+  version "8.3.10000036"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.3.10000036.tgz#1d36a412f86b0c3cff6e4932299a3742b47263b7"
+  integrity sha512-Utla1uqsCs2DOAvNhg4GOsOLYQujOqpcpFxAMNlJWQocwa+py5P3sRhYE00rQ6AVke8Qk8ScKbVaW/tSBQHrJw==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.0"
     "@folio/stripes-erm-components" "^6.2.0"
@@ -1543,13 +1543,13 @@
     uuid "^8.3.1"
 
 "@folio/licenses@>=2.0.0":
-  version "8.3.1000493"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-8.3.1000493.tgz#7d2ac713314037445d40c1cdd16f489d3e41ae93"
-  integrity sha512-lf6OBazIkbFUa5RfJvEe1TcsHEY5KBJtfsqJcSVGefbpWrNmPZF1+36k4L6qMf2zB5uAU+arv9FEbyfA8oqRJA==
+  version "8.3.1000494"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/licenses/-/licenses-8.3.1000494.tgz#c86d70ce57167f7e360b0b7de501e6c24c7525f0"
+  integrity sha512-dtjX0bri1YrcjQrrEqsMGA1ntGrz4W9ElWDrzyeu4mFtV5y3i5/G/8wv+xmkeneeUnuRDImTAnlQX86Nd61vpg==
   dependencies:
     "@folio/stripes-erm-components" "^6.2.0"
     "@folio/stripes-testing" "^4.2.0"
-    "@k-int/stripes-kint-components" "^2.6.5"
+    "@k-int/stripes-kint-components" "^2.7.0"
     "@rehooks/local-storage" "2.4.4"
     "@testing-library/react" "^12.1.2"
     compose-function "^3.0.3"
@@ -1755,12 +1755,13 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-eresource@>=1.0.0", "@folio/plugin-find-eresource@^2.1.0 || ^3.0.0 || ^4.0.0":
-  version "4.3.100065"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-4.3.100065.tgz#ce8959c40c01f7e0cddb710aaf56722351c8048a"
-  integrity sha512-vxV2vZsHf7KF3iWunZWZ3KeDr2ACbq1Kv3J0BWfNrj8UmmwWRe2h2l81JcAwiVlFjycaHM13HoToRpYPT2l1Jg==
+  version "4.3.100066"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-4.3.100066.tgz#c5606f8abe2c211622812d30a0978fef365e2702"
+  integrity sha512-uISRgn6IwmqkBu5WDO0oi1gZ24avWWAait8a06jaDq5c6SKi0Ao4W3eE554C9W6mrAXzxV6ZLmpoaI9IYZwWxw==
   dependencies:
     "@folio/stripes-erm-components" "^6.2.0"
     "@folio/stripes-testing" "^4.2.0"
+    "@k-int/stripes-kint-components" "^2.7.0"
     "@testing-library/react" "^12.1.2"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
@@ -2928,7 +2929,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@k-int/stripes-kint-components@^2.5.0", "@k-int/stripes-kint-components@^2.6.5", "@k-int/stripes-kint-components@^2.7.0":
+"@k-int/stripes-kint-components@^2.5.0", "@k-int/stripes-kint-components@^2.7.0":
   version "2.7.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-2.7.0.tgz#ca1e02d1eda0074ad4fed3395121ed4f8fcef738"
   integrity sha512-9dCTDgNZ7MzA0+U63qo+dIVF9LR5oC79U6V32EJvhThbkVrV6DjU2bnIG90YOBG/lxFBqb5f58UkpE4YS5iKCA==
@@ -5259,7 +5260,7 @@ date-fns@^2.16.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
-date-format@^4.0.10:
+date-format@^4.0.10, date-format@^4.0.11:
   version "4.0.11"
   resolved "https://repository.folio.org/repository/npm-ci-all/date-format/-/date-format-4.0.11.tgz#ae0d1e069d7f0687938fd06f98c12f3a6276e526"
   integrity sha512-VS20KRyorrbMCQmpdl2hg5KaOUsda1RbnsJg461FfrcyCUg+pkd0b40BSW4niQyTheww4DBXQnS7HwSrKkipLw==
@@ -8376,11 +8377,11 @@ log-symbols@^2.1.0:
     chalk "^2.0.1"
 
 log4js@^6.4.1:
-  version "6.5.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/log4js/-/log4js-6.5.2.tgz#9ae371e5b3cb3a3a209c24686e5547f8670834e5"
-  integrity sha512-DXtpNtt+KDOMT7RHUDIur/WsSA3rntlUh9Zg4XCdV42wUuMmbFkl38+LZ92Z5QvQA7mD5kAVkLiBSEH/tvUB8A==
+  version "6.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/log4js/-/log4js-6.6.0.tgz#e8fd00143d1e0ecf1d10959bb69b90b1b30137f3"
+  integrity sha512-3v8R7fd45UB6THucSht6wN2/7AZEruQbXdjygPZcxt5TA/msO6si9CN5MefUuKXbYnJHTBnYcx4famwcyQd+sA==
   dependencies:
-    date-format "^4.0.10"
+    date-format "^4.0.11"
     debug "^4.3.4"
     flatted "^3.2.5"
     rfdc "^1.3.0"
