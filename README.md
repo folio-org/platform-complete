@@ -28,7 +28,7 @@ The `yarn.lock` and `*-install.json` files in this repository can be
 used to build a FOLIO system with the components that represent the
 latest, compatible set of FOLIO releases. For an example of how to deploy such a
 system, see the
-[Single Server Deployment Guide](https://github.com/folio-org/folio-install/blob/q3-2018/single-server.md).
+[Single Server Deployment Guide](https://juniper.docs.folio.org/docs/getting-started/installation/singleserverwithcontainers/).
 
 Descriptions of key files and key branches of this repository and
 how to change them are in the
