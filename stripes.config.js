@@ -47,6 +47,7 @@ module.exports = {
     '@folio/plugin-bursar-export': {},
     '@folio/plugin-create-inventory-records' : {},
     '@folio/plugin-find-agreement' : {},
+    '@folio/plugin-find-authority' : {},
     '@folio/plugin-find-erm-usage-data-provider' : {},
     '@folio/plugin-find-fund' : {},
     '@folio/plugin-eusage-reports': {},
