@@ -1750,10 +1750,10 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-authority@>=0.1.0":
-  version "0.1.10000033"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-0.1.10000033.tgz#67c8d486fb3640f2ad3403ea82cd9716f451593f"
-  integrity sha512-oDAwgESUbPZN2BgoxgCm2DX3JrVHUpQqUtuGMSCPH21ZEpmJA+YI0T1nOzvIL7fdha+nk35q05A0lL4RhuPHtg==
+"@folio/plugin-find-authority@>=0.1.0", "@folio/plugin-find-authority@^0.1.0":
+  version "0.1.10000038"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-0.1.10000038.tgz#d1a2fccf810720be3563736158edcdc8906e977c"
+  integrity sha512-ew8BrkzYorLy+QbOY4H51CsgVNTHFeQGCuRrbJgh5O/d0hWGH2N6vmdAEqxa/haAXjK0Xy2RA1QnwTOc3iySzQ==
   dependencies:
     prop-types "^15.6.0"
 
@@ -1897,9 +1897,9 @@
     prop-types "^15.6.0"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^5.0.0":
-  version "5.1.100000293"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.100000293.tgz#d6cf6858b34b7070f6b0794a2458adc0f299c347"
-  integrity sha512-UuRqzZykOkU0DL6aMuDWe7qLLNuPg899khosJmZypZFtGHy+MQN4rBmu2YV6pZ0Lj2mE3dD6HcftBcpu/2M4Iw==
+  version "5.1.100000296"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-5.1.100000296.tgz#1b085b802b69735e5763821b4f2dd1bf1b14b2e7"
+  integrity sha512-ql1rwZOOe8+PPVIHGPCe1/qf8qTHwDau2IEocV7P7J1gtnXPm0UyjVc2hvsc3LwrRxeOs69VUw7hDYC2WnivMA==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -1911,6 +1911,8 @@
     react-final-form-listeners "^1.0.2"
     react-router-prop-types "^1.0.4"
     uuid "^8.3.2"
+  optionalDependencies:
+    "@folio/plugin-find-authority" "^0.1.0"
 
 "@folio/react-intl-safe-html@^3.1.0":
   version "3.1.100019"
@@ -2317,9 +2319,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-testing@^4.2.0":
-  version "4.3.1000004104"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.3.1000004104.tgz#9c7e68078489d2485adc30ecc67dec8ae320d61d"
-  integrity sha512-LyAd9VFSvDZIZmxcma8nbteM4CD9IEwFFZhlehXE9i4hn9G2JE9DSVc3/5vFJsdjwEnpJsVTpj7Uy7gwwd11jA==
+  version "4.3.1000004117"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.3.1000004117.tgz#e285a1e99e7c1a25920b077aeb487275d5714ed3"
+  integrity sha512-tp3FlondG9MCNUTKOogj2zIVxS7Iezg2c5Yqe6FKCwAHQ22F4gIq9D1ABA9MMvBYkLa5oluqi3Nh2HpKCM9nsQ==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.2"
     axe-core "4.3.3"
