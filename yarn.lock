@@ -1751,11 +1751,12 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-find-authority@>=0.1.0", "@folio/plugin-find-authority@^0.1.0":
-  version "0.1.10000038"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-0.1.10000038.tgz#d1a2fccf810720be3563736158edcdc8906e977c"
-  integrity sha512-ew8BrkzYorLy+QbOY4H51CsgVNTHFeQGCuRrbJgh5O/d0hWGH2N6vmdAEqxa/haAXjK0Xy2RA1QnwTOc3iySzQ==
+  version "0.1.10000051"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-authority/-/plugin-find-authority-0.1.10000051.tgz#8da2a8b4ca5d9e345ff223adf03b6330c8aefaeb"
+  integrity sha512-tel7v9Pv3vTsOxyCHZmei+4dvIWLcKP+JfGkTfikN4QYPFZ9HdDQhnfStYchjCT49BVRQx8dKebisZ2iftN9Ww==
   dependencies:
-    prop-types "^15.6.0"
+    "@folio/stripes-authority-components" "^0.1.0"
+    query-string "^7.0.1"
 
 "@folio/plugin-find-contact@*", "@folio/plugin-find-contact@>=1.0.0":
   version "3.2.10000016"
@@ -2039,6 +2040,17 @@
     react-final-form-arrays "^3.1.1"
     react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
+
+"@folio/stripes-authority-components@^0.1.0":
+  version "0.1.10000026"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-0.1.10000026.tgz#1c59e816f438df4c9389a54afcc3513167352243"
+  integrity sha512-RFpjo/BXa0OM6FAkAm57Acz9/gZBTqQ4ZE17U/3d9olMhN+56qhavzj2HcgLn8Sddk3EpN5pqE3XEked4CT/lA==
+  dependencies:
+    "@folio/quick-marc" "^5.0.0"
+    "@folio/stripes-acq-components" "^3.0.2"
+    "@rehooks/local-storage" "2.4.0"
+    prop-types "^15.6.0"
+    query-string "^7.0.1"
 
 "@folio/stripes-cli@^2.0.0", "@folio/stripes-cli@^2.4.0":
   version "2.6.100000161"
@@ -11997,9 +12009,9 @@ type@^1.0.1:
   integrity sha512-+5nt5AAniqsCnu2cEQQdpzCAh33kVx8n0VoFidKpB1dVVLAN/F+bgVOqOJqOnEnrhp222clB5p3vUlD+1QAnfg==
 
 type@^2.5.0:
-  version "2.6.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/type/-/type-2.6.0.tgz#3ca6099af5981d36ca86b78442973694278a219f"
-  integrity sha512-eiDBDOmkih5pMbo9OqsqPRGMljLodLcwd5XD5JbtNB0o89xZAwynY9EdCDsJU7LtcVCClu9DvM7/0Ep1hYX3EQ==
+  version "2.6.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/type/-/type-2.6.1.tgz#808f389ec777205cc3cd97c1c88ec1a913105aae"
+  integrity sha512-OvgH5rB0XM+iDZGQ1Eg/o7IZn0XYJFVrN/9FQ4OWIYILyJJgVP2s1hLTOFn6UOZoDUI/HctGa0PFlE2n2HW3NQ==
 
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
