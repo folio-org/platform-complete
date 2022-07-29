@@ -19,9 +19,11 @@ module.exports = {
     '@folio/notes' : {},
     '@folio/plugin-find-agreement' : {},
     '@folio/plugin-find-package-title': {},
+    '@folio/plugin-find-authority': {},
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-organization' : {},
     '@folio/stripes-acq-components' : {},
+    '@folio/stripes-authority-components' : {},
     '@folio/users' : {}
   },
   branding: {
