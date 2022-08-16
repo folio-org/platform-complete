@@ -23,6 +23,7 @@ module.exports = {
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-organization' : {},
     '@folio/stripes-acq-components' : {},
+    '@folio/stripes-erm-components' : {},
     '@folio/stripes-authority-components' : {},
     '@folio/users' : {}
   },
