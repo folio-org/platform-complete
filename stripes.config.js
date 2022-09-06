@@ -53,7 +53,6 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-find-organization': {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
