@@ -1150,6 +1150,13 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@effection/core@2.2.0":
+  version "2.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@effection/core/-/core-2.2.0.tgz#4d11d7948144aecd70a26daf8abaa29ee89bc259"
+  integrity sha512-1RBMrDS0Ya02NEM0TQQRwzlGDSZmwoHhuD3qmWp9NLjZowhO1gJBZ16fQL2NbKvcpS71xho+oZsDedId+C1q8Q==
+  dependencies:
+    abort-controller "^3.0.0"
+
 "@folio/acquisition-units@>=1.0.0":
   version "3.2.10000047"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/acquisition-units/-/acquisition-units-3.2.10000047.tgz#fd2eb499c5304627c53e7b44b46b4f9ccb01512e"
@@ -2095,9 +2102,9 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@~10.2.0":
-  version "10.2.1000001768"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001768.tgz#1d719c8a750d5798b013ca287ad51b9f5d2d9545"
-  integrity sha512-hFW3GBg5oen1wnRQEW+HJ40dPqBkTdF7Kvk9Grv0Mi2hfp7/HOxFagIsVb1tMisQwplqZAnuzQuRbozb4pGQcg==
+  version "10.2.1000001773"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-10.2.1000001773.tgz#437511c1fe10214758802f03d1495a6eaae855fd"
+  integrity sha512-w6bLgM865EuUEJONnfLLy0WyUZqBTrUXlDU8j2MGPcBqa6/6MXkxvlfWOseuIvWSmDRzQv5yQys1DXI6kRQ2cQ==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -2534,12 +2541,13 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
   integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
 
-"@interactors/core@1.0.0-rc1.2":
-  version "1.0.0-rc1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/core/-/core-1.0.0-rc1.2.tgz#df76e71dd6f961e8d68fe4ea5a438d5d3a197830"
-  integrity sha512-+u1gOrfsaRblqoTtdBTANiDOGXXLlERlOHev8Yb9iAfvpMFgmz9mvy5ZCjkMO+y4Kd+Xanr35ZPGzTD+wvf+1w==
+"@interactors/core@1.0.0-rc1.3":
+  version "1.0.0-rc1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/core/-/core-1.0.0-rc1.3.tgz#3a948ce7bde1c7e8d08d7704525f2ee94d0f699b"
+  integrity sha512-QkcV8+Bw+/7ZgGOJXP3uZgQDklr/1uiZspP0lVEwJa/PLyJEHrDghPyvJ8ulQE6CRN41nKGS49C9biXEPyqM2Q==
   dependencies:
-    "@interactors/globals" "1.0.0-rc1.1"
+    "@effection/core" "2.2.0"
+    "@interactors/globals" "1.0.0-rc1.2"
     "@testing-library/dom" "^8.5.0"
     "@testing-library/user-event" "^13.2.1"
     change-case "^4.1.1"
@@ -2547,26 +2555,28 @@
     lodash.isequal "^4.5.0"
     performance-api "^1.0.0"
 
-"@interactors/globals@1.0.0-rc1.1":
-  version "1.0.0-rc1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/globals/-/globals-1.0.0-rc1.1.tgz#85d4bfd514313c0cbf9b013c4e4fc6ca36ff181e"
-  integrity sha512-liLDRok1UeKQi9YrLzSfxXMTYY9Pl+SxxvhpxPoJ8xFbRVYmuGRXfkKOLEV0NBrEzg2t0ZLX0joukSUEnSd54A==
+"@interactors/globals@1.0.0-rc1.2":
+  version "1.0.0-rc1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/globals/-/globals-1.0.0-rc1.2.tgz#3ea1c570e5b771c009cbf687b8d97a644e679b90"
+  integrity sha512-GPgE+Y06zsms3fFSCaEMGpgzdCLqUlZ6he6BmuSiVuYYkBnSnAUA9dolMsiz8Le6bWO9Ee6ewbqda19ZeI6YFg==
+  dependencies:
+    "@effection/core" "2.2.0"
 
 "@interactors/html@^1.0.0-rc1.2":
-  version "1.0.0-rc1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/html/-/html-1.0.0-rc1.2.tgz#3791e4e432ffbf326b172dc2490005763247b38b"
-  integrity sha512-/MPv+AfjC9gtpNeYrtb2f8PB8OOwqojibaz1/Qyu0f7tfq4zR1BdEfHnORfv3EWA/WFuUWHN4BsxvKTPS0fPvw==
+  version "1.0.0-rc1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/html/-/html-1.0.0-rc1.3.tgz#ea645987326019adcebeecc9846dbe3d0812ce1c"
+  integrity sha512-3IA3v9QnIfDe0XDeK+GfvZDn42DBpYThnfar0fTeKYDZbUiMizrqqdWpjY2KIj8sL7K8oNplJzj8Fj6msojINA==
   dependencies:
-    "@interactors/core" "1.0.0-rc1.2"
-    "@interactors/keyboard" "1.0.0-rc1.2"
+    "@interactors/core" "1.0.0-rc1.3"
+    "@interactors/keyboard" "1.0.0-rc1.3"
 
-"@interactors/keyboard@1.0.0-rc1.2":
-  version "1.0.0-rc1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/keyboard/-/keyboard-1.0.0-rc1.2.tgz#6cacb59c78754d490c4f7715ab4e6095bea70280"
-  integrity sha512-CaT057/OIbo/jovrVjPbcngaRpbT2LML5xq20cZ8s+0RD932DEEnhplm+B333JXcSrucmaWXCsP34BU3DQMbew==
+"@interactors/keyboard@1.0.0-rc1.3":
+  version "1.0.0-rc1.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@interactors/keyboard/-/keyboard-1.0.0-rc1.3.tgz#0729e8fab8c0586a5c0fcaaf4ee61bd6a829c510"
+  integrity sha512-VhmLBMQVz3N588+b6fxyuJe5/tzC/H3VBodJfQlrYnpJEe4bZaMHnPhZPS8ZYnhPCMGMsF5DJBxDFSZVgAPetw==
   dependencies:
-    "@interactors/core" "1.0.0-rc1.2"
-    "@interactors/globals" "1.0.0-rc1.1"
+    "@interactors/core" "1.0.0-rc1.3"
+    "@interactors/globals" "1.0.0-rc1.2"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -3624,6 +3634,13 @@
   version "4.2.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
+
+abort-controller@^3.0.0:
+  version "3.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
+  integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
+  dependencies:
+    event-target-shim "^5.0.0"
 
 accepts@~1.3.4, accepts@~1.3.8:
   version "1.3.8"
@@ -6147,6 +6164,11 @@ event-stream@=3.3.4:
     split "0.3"
     stream-combiner "~0.0.4"
     through "~2.3.1"
+
+event-target-shim@^5.0.0:
+  version "5.0.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
+  integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
 
 eventemitter3@^2.0.3:
   version "2.0.3"
