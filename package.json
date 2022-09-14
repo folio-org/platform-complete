@@ -4,6 +4,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build stripes.config.js",
+    "install": "yarn install --ignore-scripts",
+    "postinstall": "npm rebuild sharp",
     "stripes": "stripes",
     "start": "stripes serve stripes.config.js",
     "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
