@@ -57,7 +57,6 @@ module.exports = {
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
-    '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
