@@ -66,6 +66,7 @@ module.exports = {
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
+    '@folio/serials-management': {},
     '@folio/service-interaction': {},
     '@folio/servicepoints' : {},
     '@folio/stripes-authority-components' : {},
