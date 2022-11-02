@@ -3,6 +3,7 @@
 # 2022-R3, Nolana (IN PROGRESS)
 
 * Add additional shared third-party dependencies. Refs FOLIO-3602.
+* Bump `stripes-erm-components` from `v6` to `v7`. Refs FOLIO-3620.
 
 ## 1.0.0 (IN PROGRESS)
 * Add oai-pmh module. Refs MODOAIPMH-94.
