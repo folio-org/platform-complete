@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["main", "master","R2-2022","R1-2022"],
+  "baseBranches": ["main", "master","R3-2022","R2-2022"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -36,18 +36,18 @@
       "enabled": true
     },
     { 
-      "baseBranchList": ["R1-2022"],
-      "packagePatterns": ["^@folio/", "^folioorg/"],
-      "groupName": "FOLIO R1 2022 updates",
-      "updateTypes": ["patch"], 
-      "enabled": true
-    },
-    { 
       "baseBranchList": ["R2-2022"],
       "packagePatterns": ["^@folio/", "^folioorg/"],
       "groupName": "FOLIO R2 2022 updates",
       "updateTypes": ["patch"], 
-      "enabled": true,
+      "enabled": true
+    },
+    { 
+      "baseBranchList": ["R3-2022"],
+      "packagePatterns": ["^@folio/", "^folioorg/"],
+      "groupName": "FOLIO R3 2022 updates",
+      "updateTypes": ["patch"], 
+      "enabled": true
     }
   ]
 }
