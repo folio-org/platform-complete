@@ -1234,15 +1234,17 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/calendar@>=2.0.5":
-  version "8.0.100000556"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-8.0.100000556.tgz#143e2ea25c3ff979bf058921733202e6a097e283"
-  integrity sha512-p93uynskYNtFT5lvP35KsB2tBbxvRaYdmtNM20yvZHqA9XV8bPhoNSwvKNYiqBWLJdmD1BvEPZg5+rmFTXBLKw==
+  version "8.0.100000561"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/calendar/-/calendar-8.0.100000561.tgz#d7ccd96801764a9db4f6a773c9a874359bc79332"
+  integrity sha512-wKNIBkEvy2YcrMw7Y7V3XIrPXRpUvUDlX16tcqsgJwNrhwEHQn9uevgA+VYhgmo7auD5BDr02jXe+GuTHFPhEg==
   dependencies:
     "@types/memoizee" "^0.4.8"
     "@types/react-router-dom" "^5.2.0"
     classnames "^2.3.1"
+    cypress "^10.11.0"
     dayjs "^1.11.2"
     dom-helpers "^5.2.1"
+    dotenv "^16.0.3"
     fuzzysort "^2.0.1"
     history "^4.9.0"
     ky "^0.31.1"
@@ -5149,6 +5151,54 @@ cypress@10.9.0:
     untildify "^4.0.0"
     yauzl "^2.10.0"
 
+cypress@^10.11.0:
+  version "10.11.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/cypress/-/cypress-10.11.0.tgz#e9fbdd7638bae3d8fb7619fd75a6330d11ebb4e8"
+  integrity sha512-lsaE7dprw5DoXM00skni6W5ElVVLGAdRUUdZjX2dYsGjbY/QnpzWZ95Zom1mkGg0hAaO/QVTZoFVS7Jgr/GUPA==
+  dependencies:
+    "@cypress/request" "^2.88.10"
+    "@cypress/xvfb" "^1.2.4"
+    "@types/node" "^14.14.31"
+    "@types/sinonjs__fake-timers" "8.1.1"
+    "@types/sizzle" "^2.3.2"
+    arch "^2.2.0"
+    blob-util "^2.0.2"
+    bluebird "^3.7.2"
+    buffer "^5.6.0"
+    cachedir "^2.3.0"
+    chalk "^4.1.0"
+    check-more-types "^2.24.0"
+    cli-cursor "^3.1.0"
+    cli-table3 "~0.6.1"
+    commander "^5.1.0"
+    common-tags "^1.8.0"
+    dayjs "^1.10.4"
+    debug "^4.3.2"
+    enquirer "^2.3.6"
+    eventemitter2 "6.4.7"
+    execa "4.1.0"
+    executable "^4.1.1"
+    extract-zip "2.0.1"
+    figures "^3.2.0"
+    fs-extra "^9.1.0"
+    getos "^3.2.1"
+    is-ci "^3.0.0"
+    is-installed-globally "~0.4.0"
+    lazy-ass "^1.6.0"
+    listr2 "^3.8.3"
+    lodash "^4.17.21"
+    log-symbols "^4.0.0"
+    minimist "^1.2.6"
+    ospath "^1.2.2"
+    pretty-bytes "^5.6.0"
+    proxy-from-env "1.0.0"
+    request-progress "^3.0.0"
+    semver "^7.3.2"
+    supports-color "^8.1.1"
+    tmp "~0.2.1"
+    untildify "^4.0.0"
+    yauzl "^2.10.0"
+
 d@1, d@^1.0.1:
   version "1.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/d/-/d-1.0.1.tgz#8698095372d58dbee346ffd0c7093f99f8f9eb5a"
@@ -5563,6 +5613,11 @@ dot-prop@^5.2.0:
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
   dependencies:
     is-obj "^2.0.0"
+
+dotenv@^16.0.3:
+  version "16.0.3"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
 
 downshift@^2.0.16:
   version "2.2.3"
