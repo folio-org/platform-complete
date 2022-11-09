@@ -1349,13 +1349,15 @@
     react-table "^7.6.3"
 
 "@folio/data-export@>=1.0.0":
-  version "5.3.100000100"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-5.3.100000100.tgz#16f466d013658a2cd5614ff61a2bb9971a3052dc"
-  integrity sha512-4QIouPMf0YSAPbjOv44G5AIzXTt3M24Xaq4mZTLqNbzzWS5ZAOgwJkgdT/YdgCjaYxQlqAEanS6lOCIgpjb+2A==
+  version "5.3.100000106"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-5.3.100000106.tgz#890355754c2372535b87e73687e6aa9f74198e6d"
+  integrity sha512-4gBOp79zICrewEv3Fai7k9wlQIO0NysDs+Ek5VV/QAXYvQnYNUNS40RXU6u/CPG/MZlSwQVSYklmKBxNVKmZtA==
   dependencies:
-    "@folio/stripes-data-transfer-components" "^5.2.1"
+    "@folio/stripes-acq-components" "^3.3.0"
+    "@folio/stripes-data-transfer-components" "^5.3.0"
     classnames "^2.2.5"
     lodash "^4.16.4"
+    moment "^2.29.4"
     prop-types "^15.6.0"
     react-final-form "^6.3.5"
     react-final-form-arrays "^3.1.1"
@@ -2009,7 +2011,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.0", "@folio/stripes-acq-components@^3.1.1", "@folio/stripes-acq-components@^3.2.0", "@folio/stripes-acq-components@~3.3.0":
+"@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.0", "@folio/stripes-acq-components@^3.1.1", "@folio/stripes-acq-components@^3.2.0", "@folio/stripes-acq-components@^3.3.0", "@folio/stripes-acq-components@~3.3.0":
   version "3.3.100000138"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-3.3.100000138.tgz#14dac005bf41c672772e6190ea6ebf30358f8789"
   integrity sha512-OOgrEZ3rmtXbOEo6iPD0ZU1P4VlEh0mIYNR3QTHzaHK/rZE5zGDnTnu6kkdmeI+qAqnhR0pNJ+0mwm3Ex3HFQw==
@@ -2191,7 +2193,7 @@
     swr "^0.4.1"
     use-deep-compare "^1.1.0"
 
-"@folio/stripes-data-transfer-components@^5.2.0", "@folio/stripes-data-transfer-components@^5.2.1", "@folio/stripes-data-transfer-components@^5.3.0", "@folio/stripes-data-transfer-components@~5.3.0":
+"@folio/stripes-data-transfer-components@^5.2.0", "@folio/stripes-data-transfer-components@^5.3.0", "@folio/stripes-data-transfer-components@~5.3.0":
   version "5.3.100000121"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-5.3.100000121.tgz#ed6c64eb06e5e87d1aeb004f158bc6c653614dce"
   integrity sha512-hacd01IrBzsSKZ8JVYcRAFSptJjf0uPS12avcQNk++glt+Zu8gvF3fWK3qtPWTOfI7jaaUWVV5+CUErmgzKhIA==
@@ -8837,7 +8839,7 @@ moment-timezone@^0.5.14, moment-timezone@^0.5.17, moment-timezone@^0.5.20, momen
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.2, moment@^2.25.3, moment@^2.29.1, moment@^2.29.3, moment@~2.24.0, moment@~2.29.0:
+"moment@>= 2.9.0", moment@^2.10.2, moment@^2.25.3, moment@^2.29.1, moment@^2.29.3, moment@^2.29.4, moment@~2.24.0, moment@~2.29.0:
   version "2.29.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
