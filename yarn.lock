@@ -1200,12 +1200,12 @@
     "@folio/plugin-find-user" "*"
 
 "@folio/agreements@>=2.0.0":
-  version "8.4.100000497"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.4.100000497.tgz#69c6edec9ba510882f043636893636d73c0beb77"
-  integrity sha512-AbAG/1ehZ9fTe2jpedGKv5WKEdBHEyEvT2lL3tN/XI4/6Tshoy3/gbaAbzKOzpHczy0NcBW9G5fRVaWHCfzF5w==
+  version "8.4.100000502"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-8.4.100000502.tgz#2a2ae8a26222940f7b1f9bc8f06ce0cc8b8ad82b"
+  integrity sha512-llzShnY0s8dBcDhTBejZ3CTgJlC14Zx4jbT3xkOgUfNEV47hYaEaosjNHOil7BGAaSHHOptXULK6Yawizx/CQw==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.0"
-    "@k-int/stripes-kint-components" "^3.0.2"
+    "@k-int/stripes-kint-components" "^4.0.0"
     "@rehooks/local-storage" "2.4.4"
     compose-function "^3.0.3"
     final-form "^4.18.4"
@@ -1332,11 +1332,11 @@
     "@folio/plugin-create-inventory-records" "^3.2.0"
 
 "@folio/dashboard@>=1.0.0":
-  version "3.1.100000170"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/dashboard/-/dashboard-3.1.100000170.tgz#f8df88477c767bea0e3f5ea3b809675675235feb"
-  integrity sha512-GlaoE6Qzh0OdF4kFF3jxCp7CN7qn550xL1pz59jUbQ/KONf1BVhzAhpWF0OFE65qpXJQFEf46DlFQCXzmOj/AQ==
+  version "3.1.100000176"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/dashboard/-/dashboard-3.1.100000176.tgz#50d42d052b8223a3d151499ad529d05a9115516f"
+  integrity sha512-8zl9Lzvy7/KeaihK7SmvXUjwk+LIG4kfpp66j4gJ3Rd7ckbrsubBzry2OVa/HnFKdZ6czVOYShL1aLYpDvMbnw==
   dependencies:
-    "@k-int/stripes-kint-components" "^2.8.2"
+    "@k-int/stripes-kint-components" "^4.0.0"
     compose-function "^3.0.3"
     final-form "^4.19.0"
     final-form-arrays "^3.0.1"
@@ -2465,9 +2465,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "8.3.1000002286"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.3.1000002286.tgz#e7e6d47ba450cef10991f4b83bbf153ab40c1a11"
-  integrity sha512-U8UYVAJzUEzVQs8B1m0v96YSpbkh6r7ifheJ9Lqt5OPV6LuGVawf+c3il3iHlszUU1CN56FPO08Dza9KfgZqkA==
+  version "8.3.1000002309"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-8.3.1000002309.tgz#1fe3c20da5ac02084ea90129999940ae1ab646da"
+  integrity sha512-jAX9U2mmByVh8XQpaWytDXIlX1cZSNTk0ZT580s4j8k/SsnWcPR810C3lDu0P4zsOFNy4F5Sy0qc6Nkn2jV/Dw==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -2680,16 +2680,7 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@k-int/stripes-kint-components@^2.8.2":
-  version "2.8.3"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-2.8.3.tgz#dcfe2d8243c9867335e731dfcc2d60fb07fa9c7e"
-  integrity sha512-YBez9Fw42M4GtoZKLZEsTTFcLAX2C5OcdV9jZkpygXMpoYKZMWOLmjI21FhNUnhj5LEg493qzeOSSc3mv8TNXg==
-  dependencies:
-    "@rehooks/local-storage" "2.4.0"
-    compose-function "^3.0.3"
-    react-resize-detector "^6.7.6"
-
-"@k-int/stripes-kint-components@^3.0.2", "@k-int/stripes-kint-components@^3.1.0":
+"@k-int/stripes-kint-components@^3.1.0":
   version "3.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-3.2.1.tgz#a63631ab40b8791bfc8ee2c37f9a809213f3ba23"
   integrity sha512-nrS4nTLp2Vu+n+zMmM7CXS8FXIbNYz+NaQHuzyXWqBkhFhokNMSZKH+oKXVC74qMtINoVAsAxUlcOFOvTmS57g==
@@ -3240,11 +3231,6 @@
     "@types/prop-types" "*"
     "@types/scheduler" "*"
     csstype "^3.0.2"
-
-"@types/resize-observer-browser@^0.1.6":
-  version "0.1.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/resize-observer-browser/-/resize-observer-browser-0.1.7.tgz#294aaadf24ac6580b8fbd1fe3ab7b59fe85f9ef3"
-  integrity sha512-G9eN0Sn0ii9PWQ3Vl72jDPgeJwRWhv2Qk/nQkJuWmRmOB4HX3/BhD5SE1dZs/hzPZL/WKnvF0RHdTSG54QJFyg==
 
 "@types/responselike@^1.0.0":
   version "1.0.0"
@@ -5589,9 +5575,9 @@ domhandler@^5.0, domhandler@^5.0.1, domhandler@^5.0.2:
     domelementtype "^2.3.0"
 
 dompurify@^2.2.0:
-  version "2.4.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.4.0.tgz#c9c88390f024c2823332615c9e20a453cf3825dd"
-  integrity sha512-Be9tbQMZds4a3C6xTmz68NlMfeONA//4dOavl/1rNw50E+/QO0KVpbcU0PcaW0nsQxurXls9ZocqFxk8R2mWEA==
+  version "2.4.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/dompurify/-/dompurify-2.4.1.tgz#f9cb1a275fde9af6f2d0a2644ef648dd6847b631"
+  integrity sha512-ewwFzHzrrneRjxzmK6oVz/rZn9VWspGFRDb4/rRtIsM1n36t9AKma/ye8syCpcw+XJ25kOK/hOG7t1j2I2yBqA==
 
 domutils@^1.7.0:
   version "1.7.0"
@@ -10436,15 +10422,6 @@ react-refresh@^0.11.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
-react-resize-detector@^6.7.6:
-  version "6.7.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/react-resize-detector/-/react-resize-detector-6.7.8.tgz#318c85d1335e50f99d4fb8eb9ec34e066db597d0"
-  integrity sha512-0FaEcUBAbn+pq3PT5a9hHRebUfuS1SRLGLpIw8LydU7zX429I6XJgKerKAMPsJH0qWAl6o5bVKNqFJqr6tGPYw==
-  dependencies:
-    "@types/resize-observer-browser" "^0.1.6"
-    lodash "^4.17.21"
-    resize-observer-polyfill "^1.5.1"
-
 react-resize-detector@^7.1.2:
   version "7.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-resize-detector/-/react-resize-detector-7.1.2.tgz#8ef975dd8c3d56f9a5160ac382ef7136dcd2d86c"
@@ -10824,11 +10801,6 @@ reselect@^4.0.0:
   version "4.1.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/reselect/-/reselect-4.1.7.tgz#56480d9ff3d3188970ee2b76527bd94a95567a42"
   integrity sha512-Zu1xbUt3/OPwsXL46hvOOoQrap2azE7ZQbokq61BQfiXvhewsKDwhMeZjTX9sX0nvw1t/U5Audyn1I9P/m9z0A==
-
-resize-observer-polyfill@^1.5.1:
-  version "1.5.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
-  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-alpn@^1.0.0:
   version "1.2.1"
