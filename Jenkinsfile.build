@@ -163,11 +163,25 @@ pipeline {
     failure {
       slackSend channel: "$env.SLACK_CHANNEL", 
                 message: "Failure: ${env.JOB_NAME} ${env.BUILD_DISPLAY_NAME} (<${env.BUILD_URL}|Open>)"
+      // publish the Okapi on failure. 
+      withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+                        accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                        credentialsId: 'jenkins-aws',
+                        secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+        script {
+            // find ec2 instance
+            def sshIp = sh (returnStdout: true, script:"aws --region us-east-1 ec2 describe-instances --filters 'Name=tag:Group,Values=${env.ec2_group}' --query 'Reservations[*].Instances[*].PrivateIpAddress' --output text").trim()
+            publishOkapiLog(sshIp)
+        }            
+      }
+
     }
     always {
       sendNotifications currentBuild.result
     }
     cleanup {
+      echo "Sleeping during cleanup to enable ansible error reporting."
+      sleep 10
       withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
                         accessKeyVariable: 'AWS_ACCESS_KEY_ID',
                         credentialsId: 'jenkins-aws',

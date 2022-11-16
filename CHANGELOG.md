@@ -1,5 +1,10 @@
 # Change history for platform-complete
 
+# 2022-R3, Nolana (IN PROGRESS)
+
+* Add additional shared third-party dependencies. Refs FOLIO-3602.
+* Bump `stripes-erm-components` from `v6` to `v7`. Refs FOLIO-3620.
+
 ## 1.0.0 (IN PROGRESS)
 * Add oai-pmh module. Refs MODOAIPMH-94.
 * Add `ui-plugin-create-inventory-records` to the list of dependencies and modules.
@@ -13,3 +18,4 @@
 * Provide `rxjs` `v6`. Refs STRIPES-723.
 * Lock to `react-intl` `v5.21.1`. Refs FOLIO-3342.
 * Lock to `colors` `1.4.0`. Refs FOLIO-3383.
+* Unlock `react-intl` from `v5.21.0`. Refs FOLIO-3503.
