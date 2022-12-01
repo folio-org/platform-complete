@@ -138,11 +138,11 @@ $ yarn test-regression --run users:new_user
 The included Dockerfile allows for building a container that serves the stripes platform using Nginx. Pass in the Okapi URL and tenant ID as build arguments. The defaults are shown below:
 
 ```
-docker build -f docker/Dockerfile \
+docker build -f docker/Dockerfile --no-cache=true \
   --build-arg OKAPI_URL=http://localhost:9130 \
   --build-arg TENANT_ID=diku -t stripes .
 ```
-The nginx server name can be passed to the container at runtime. The defualt value is `localhost` if no argument as passed. For example, to have nginx use `127.0.0.1` as the server name:
+The nginx server name can be passed to the container at runtime. The default value is `localhost` if no argument is passed. For example, to have nginx use `127.0.0.1` as the server name:
 ```
 docker run stripes 127.0.0.1
 ```
