@@ -5,6 +5,7 @@
 * Add additional shared third-party dependencies. Refs FOLIO-3602.
 * Bump `stripes-erm-components` from `v6` to `v7`. Refs FOLIO-3620.
 * Lock `enhanced-resolve` to `~5.10.0` to avoid the buggy 5.11.0 release. Refs STRWEB-61.
+* Remove `enhanced-resolve` resolutions entry. Refs STRWEB-62.
 
 ## 1.0.0 (IN PROGRESS)
 * Add oai-pmh module. Refs MODOAIPMH-94.
