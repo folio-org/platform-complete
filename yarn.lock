@@ -1642,13 +1642,12 @@
     react-final-form-arrays "^3.1.2"
     react-router-prop-types "^1.0.4"
 
-"@folio/orders@3.3.3":
-  version "3.3.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-3.3.3.tgz#c20bf2795b2bd614f80e785ac008858d5963a3ed"
-  integrity sha512-UxBjS9uCKjtL1kdqaw4vnMVqmuPutE6MU8ctyl6oqFJNCMNR9GUWWoRsOniBqPKJNuaALlnvjhmxra7xvIg69A==
+"@folio/orders@https://github.com/folio-org/ui-orders.git#master":
+  version "3.3.2"
+  resolved "https://github.com/folio-org/ui-orders.git#5c64d0f9c9872d96f16817c4551487689fefa2b4"
   dependencies:
     "@folio/plugin-find-po-line" "^3.2.0"
-    "@folio/stripes-acq-components" "~3.3.0"
+    "@folio/stripes-acq-components" "~3.4.0"
     classnames "^2.2.5"
     final-form "^4.19.1"
     lodash "^4.17.19"
@@ -1977,10 +1976,9 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.0", "@folio/stripes-acq-components@^3.1.1", "@folio/stripes-acq-components@^3.2.0", "@folio/stripes-acq-components@~3.3.0", "@folio/stripes-acq-components@~3.3.2":
-  version "3.3.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-3.3.2.tgz#5c7eaa1f01e6df87034abbd5d49f11277e4e3139"
-  integrity sha512-d2BXePusDPGvSlUeMa95Jc7sAeGO6KhFvxh7Z0N+vjRVOEPz2aXfOAamuvddZ2j2nf57FAmcIhW5dVe1c/L+VQ==
+"@folio/stripes-acq-components@^3.0.0", "@folio/stripes-acq-components@^3.0.2", "@folio/stripes-acq-components@^3.1.0", "@folio/stripes-acq-components@^3.1.1", "@folio/stripes-acq-components@^3.2.0", "@folio/stripes-acq-components@https://github.com/folio-org/stripes-acq-components.git#UISACQCOMP-131", "@folio/stripes-acq-components@~3.2.0", "@folio/stripes-acq-components@~3.3.0", "@folio/stripes-acq-components@~3.3.2", "@folio/stripes-acq-components@~3.4.0":
+  version "3.4.0"
+  resolved "https://github.com/folio-org/stripes-acq-components.git#517409cdeb4b5c640ab12694d01640d6c04028a7"
   dependencies:
     "@rehooks/local-storage" "^2.4.0"
     classnames "^2.2.5"
@@ -1989,27 +1987,8 @@
     final-form-arrays "^3.0.2"
     lodash "^4.17.11"
     prop-types "^15.7.2"
-    query-string "^6.1.0"
+    query-string "^7.1.2"
     react-beautiful-dnd "^13.1.0"
-    react-dropzone "^10.0.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.1"
-    react-virtualized-auto-sizer "^1.0.6"
-    redux-form "^8.3.0"
-
-"@folio/stripes-acq-components@~3.2.0":
-  version "3.2.4"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-3.2.4.tgz#c0e166ebda8aa46db93ca1f5463a282e3eeec997"
-  integrity sha512-vaOTNpeyZRucQexQhA91A4q2cwTj7l7hS+8LekYSZtdjkqAqNEkKxjY/+Z6SvBOZLz7b8HWlOlZWmfV0O84rng==
-  dependencies:
-    "@rehooks/local-storage" "^2.4.0"
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.2"
-    lodash "^4.17.11"
-    prop-types "^15.7.2"
-    query-string "^6.1.0"
     react-dropzone "^10.0.0"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
@@ -9965,7 +9944,7 @@ query-string@^6.0.0, query-string@^6.1.0, query-string@^6.6.0, query-string@^6.7
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
-query-string@^7.0.1, query-string@^7.1.1:
+query-string@^7.0.1, query-string@^7.1.1, query-string@^7.1.2:
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-7.1.3.tgz#a1cf90e994abb113a325804a972d98276fe02328"
   integrity sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==
