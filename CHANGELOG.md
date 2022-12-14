@@ -1,4 +1,6 @@
 # Change history for platform-complete
+# 2023-R1, Orchid (IN PROGRESS)
+* Bump `stripes-erm-components` from `v7` to `v8`. Refs ERM-2235 and ERM-2453
 
 # 2022-R3, Nolana (IN PROGRESS)
 
