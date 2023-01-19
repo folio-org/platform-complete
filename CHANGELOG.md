@@ -3,6 +3,7 @@
 
 * Bump `stripes-erm-components` from `v7` to `v8`. Refs ERM-2235 and ERM-2453
 * Bump `stripes` to `8.0.0`. Refs STCOM-1067, STSMACOM-1067, STCOR-663, et al.
+* Upgrade `react-redux` to `v8`. Refs STRIPES-834.
 
 # 2022-R3, Nolana
 
