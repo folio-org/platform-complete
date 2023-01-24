@@ -1143,20 +1143,25 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@csstools/css-parser-algorithms@^1.0.0":
+"@csstools/cascade-layer-name-parser@^1.0.0":
   version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-parser-algorithms/-/css-parser-algorithms-1.0.0.tgz#63f0ecbb926abf92d6cd8d076663650ad340db8c"
-  integrity sha512-lPphY34yfV15tEXiz/SYaU8hwqAhbAwqiTExv5tOfc7QZxT70VVYrsiPBaX1osdWZFowrDEAhHe4H3JnyzbjhA==
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-1.0.0.tgz#cc899fbfd2206a1b8f0a939b14ed8d42643d1758"
+  integrity sha512-JxdLxJMDximX1vxCFJdwC7MD4aXNSFbOxBZuYKg2FEz4MLR0UFVmamPtzthzqzxAcU0K6ShvEFfMBrEEb16U+A==
 
-"@csstools/css-tokenizer@^1.0.0":
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-tokenizer/-/css-tokenizer-1.0.0.tgz#161c0c9b632952ee8c2f0a62eb479d736a5627ff"
-  integrity sha512-xdFjdQ+zqqkOsmee+kYRieZD9Cqh4hr01YBQ2/8NtTkMMxbtRX18MC50LX6cMrtaLryqmIdZHN9e16/l0QqnQw==
+"@csstools/css-parser-algorithms@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.0.0.tgz#2f27a1f2aef94f5d009d3d83f08f1e095dff2b30"
+  integrity sha512-RbukP8OjQvuH85veuzOq8abPjsvqvleZaQC6W0GJFGpwLUh8XmFMQjvtuIM9bQ589YFx4lwwAcSwN4nfcvxIEw==
 
-"@csstools/media-query-list-parser@^1.0.0":
-  version "1.0.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/media-query-list-parser/-/media-query-list-parser-1.0.0.tgz#17d08bfbcca677fc018e3dc3f54172a38c2fdca5"
-  integrity sha512-HsTj5ejI8NKKZ4IEd6kK2kQZA/JmIVlUV8+XvO/YS9ntrlYPnbmFT3rkqtbxOVfEafblYCNOpeNw1c+fKGkAqw==
+"@csstools/css-tokenizer@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-tokenizer/-/css-tokenizer-2.0.0.tgz#fa2a7e8f4ed965e73ba30ee80c00fa64980fd11e"
+  integrity sha512-IB6EFP0Hc/YEz1sJVD47oFqJP6TXMB+OW1jXSYnOk5g+6wpk2/zkuBa0gm5edIMM9nVUZ3hF0xCBnyFbK5OIyg==
+
+"@csstools/media-query-list-parser@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/media-query-list-parser/-/media-query-list-parser-2.0.0.tgz#06c6dce65656e4970927a603e910c6f949c5c07f"
+  integrity sha512-84kEbyJjh2T4Lnz8EkVQrwNANP+dtNb0SDkI3P7kqKnGorPknQUuq8Iqf2v5UsaH08XzPp3ouVJNsyPOdI2B/Q==
 
 "@csstools/selector-specificity@^2.0.0":
   version "2.1.0"
@@ -1955,9 +1960,9 @@
     prop-types "^15.5.10"
 
 "@folio/quick-marc@>=1.0.0":
-  version "6.0.1000001016"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-6.0.1000001016.tgz#518795840f509cb338cb0512dc1b9d477624e25e"
-  integrity sha512-Q1zIel/dQcQNUIZfjYnTDCtuAuNHL6h++fiocqsdg4JmtvmK579jPyM38+d120xNDdIQLlbLefwLbUiaB6EkDQ==
+  version "6.0.1000001021"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-6.0.1000001021.tgz#adfc824a429dee5f2eb5e7ec73786d857f95f2d8"
+  integrity sha512-eUWAYhknDfdqjVCPaYWjqvsu3RfT8tt8QCQsPNbE+oo0c7xUQofd1Dnj3IQbWxrTm162+LJT6SHJ+xhvTslkRA==
   dependencies:
     "@folio/stripes-acq-components" "^3.1.1"
     final-form "^4.18.2"
@@ -9339,13 +9344,14 @@ postcss-convert-values@^5.1.3:
     postcss-value-parser "^4.2.0"
 
 postcss-custom-media@^9.0.1:
-  version "9.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-media/-/postcss-custom-media-9.0.1.tgz#b59ecc762cf5ba4b540434e0043f5b3ce8c80bce"
-  integrity sha512-CimS72gZZ0V4WPFg7t7EqFVLxJ0mqwAJSsuk+LNHSo9ApC7d/SuOr65sKrUY/D8locOh+3s4yO7IdqQ9cRSR7Q==
+  version "9.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/postcss-custom-media/-/postcss-custom-media-9.1.0.tgz#09afcf2aef4ae931ab3e594e20eab0dd2eacf3f2"
+  integrity sha512-K9sIQhdsXazHyhHaMIL/wztFV6ABHi6NwxNPO3q0o0T2zkI4oEqI1TjeoncBKIY6xPrqnWTV40KF8AJ7yd0W6g==
   dependencies:
-    "@csstools/css-parser-algorithms" "^1.0.0"
-    "@csstools/css-tokenizer" "^1.0.0"
-    "@csstools/media-query-list-parser" "^1.0.0"
+    "@csstools/cascade-layer-name-parser" "^1.0.0"
+    "@csstools/css-parser-algorithms" "^2.0.0"
+    "@csstools/css-tokenizer" "^2.0.0"
+    "@csstools/media-query-list-parser" "^2.0.0"
 
 postcss-custom-properties@12.1.11:
   version "12.1.11"
