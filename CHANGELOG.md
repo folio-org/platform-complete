@@ -5,6 +5,7 @@
 * Bump `stripes` to `8.0.0`. Refs STCOM-1067, STSMACOM-1067, STCOR-663, et al.
 * Upgrade `react-redux` to `v8`. Refs STRIPES-834.
 * Remove `swr`. Refs STCOR-611.
+* Bump `stripes-authority-components`. Refs UISAUTCOMP-37
 
 # 2022-R3, Nolana
 
