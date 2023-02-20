@@ -2014,13 +2014,15 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-query-builder@>=1.0.0":
-  version "1.0.10007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.10007.tgz#23c54fd7abb576ca0c91aed029bdf7203d074228"
-  integrity sha512-j/qYP/U2vR2nLfb0L3f9UMcRcNwFdlRTm5/mtg47ELflry+Sl0FiNCeOJQI2zZIHKebw08lZ6JzzpfHx4gjlOQ==
+  version "1.0.10008"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.10008.tgz#0d4307daabfef4892b73cd1031bd1d41f1604f4e"
+  integrity sha512-S5NoXP7FoKtsUic1NCqlonz0YQT6kuavZ8C4KyLacLANCSv4jTFfSRCRTX1RP1I8H7OrkO0AEVUtvATKxluEAg==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
+    ky "^0.33.2"
     lodash "^4.17.5"
     prop-types "^15.5.10"
+    react-query "^3.39.3"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^6.0.0":
   version "6.0.1000001129"
@@ -7806,6 +7808,11 @@ ky@^0.31.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/ky/-/ky-0.31.4.tgz#c629a707053a92611cefa23079a0b0b60131b4b4"
   integrity sha512-OFuAD3riwhAfHK3J4FrhlujFRpm0ELBEfDHZfFpw89OTozQt3NLF39lNblUO5udj5vSkyaBKnLai/rFCzBfISQ==
 
+ky@^0.33.2:
+  version "0.33.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ky/-/ky-0.33.2.tgz#76ad8f0403d1e6531f1a5931c79716ed420492b5"
+  integrity sha512-f6oS2rKUcPu5FzdqCDbFpmzis/JlqFZw8uIHm/jf8Kc3vtnW+VDhuashOAKyBZv8bFiZFZUMNxTC0JtahEvujA==
+
 latest-version@^5.1.0:
   version "5.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/latest-version/-/latest-version-5.1.0.tgz#119dfe908fe38d15dfa43ecd13fa12ec8832face"
@@ -9993,7 +10000,7 @@ react-overlays@^4.1.1:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-query@^3.13.0, react-query@^3.24.2, react-query@^3.38.1, react-query@^3.39.1, react-query@^3.39.2, react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.13.0, react-query@^3.24.2, react-query@^3.38.1, react-query@^3.39.1, react-query@^3.39.2, react-query@^3.39.3, react-query@^3.6.0, react-query@^3.9.8:
   version "3.39.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
   integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
