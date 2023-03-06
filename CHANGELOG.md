@@ -1,11 +1,16 @@
 # Change history for platform-complete
-# 2023-R1, Orchid (IN PROGRESS)
 
-* Bump `stripes-erm-components` from `v7` to `v8`. Refs ERM-2235 and ERM-2453
+# 2023-R2, Poppy (IN PROGRESS)
+
+# 2023-R1, Orchid
+
+* Bump `stripes-erm-components` to `v8`. Refs ERM-2235 and ERM-2453
 * Bump `stripes` to `8.0.0`. Refs STCOM-1067, STSMACOM-1067, STCOR-663, et al.
 * Upgrade `react-redux` to `v8`. Refs STRIPES-834.
 * Remove `swr`. Refs STCOR-611.
-* Bump `stripes-authority-components`. Refs UISAUTCOMP-37
+* Bump `stripes-authority-components` to `v2`. Refs UISAUTCOMP-37.
+* Bump `stripes-cli` to `^2.7.0`. Refs STCLI-227.
+* Bump `@rehooks/local-storage` to `^2.4.4`. Refs STRIPES-839.
 
 # 2022-R3, Nolana
 
