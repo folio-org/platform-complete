@@ -1,6 +1,6 @@
 # Change history for platform-complete
 
-# 2023-R1, Orchid
+## 2023-R1, Orchid
 
 * Bump `stripes-erm-components` to `v8`. Refs ERM-2235 and ERM-2453.
 * Bump `stripes` to `8.0.0`. Refs STCOM-1067, STSMACOM-1067, STCOR-663, et al.
@@ -10,7 +10,7 @@
 * Bump `stripes-authority-components` to `v2`. Refs UISAUTCOMP-37.
 * Bump `@rehooks/local-storage` to `2.4.4`. Refs STRIPES-839.
 
-# 2022-R3, Nolana
+## 2022-R3, Nolana
 
 * Add additional shared third-party dependencies. Refs FOLIO-3602.
 * Bump `stripes-erm-components` from `v6` to `v7`. Refs FOLIO-3620.
