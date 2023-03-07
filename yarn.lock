@@ -1713,10 +1713,10 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
 
-"@folio/plugin-eusage-reports@2.4.0":
-  version "2.4.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-eusage-reports/-/plugin-eusage-reports-2.4.0.tgz#b61e6b0911c39cc0a807379541c1c3c4656f1a4c"
-  integrity sha512-fHAdlCtQLcZNuRSqehkvoW+axvtQh8ulXTmahY1HizmWOp2NxNIUi5keL//b5P82ug5Mpc4JzzR+Rpd7RdtNIw==
+"@folio/plugin-eusage-reports@2.4.1":
+  version "2.4.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-eusage-reports/-/plugin-eusage-reports-2.4.1.tgz#c2a0f8e5b512ef7076eba217e8931e7d1a0494a0"
+  integrity sha512-LJkizhGhSmJYjB8DNIlWYvdNq6k+DrfIP5jay2lWiiITEBx+R+w+OUvgK2V8+lXbXTYfBXAWxQQQEbhF4tzvLA==
   dependencies:
     chart.js "^2.6.0"
     lodash "^4.17.21"
@@ -1724,7 +1724,7 @@
     randomcolor "^0.6.2"
     react-chartjs-2 "^2.11.1"
   optionalDependencies:
-    "@folio/plugin-find-eresource" "^2.1.0 || ^3.0.0 || ^4.0.0"
+    "@folio/plugin-find-eresource" "^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
 
 "@folio/plugin-find-agreement@9.0.2":
   version "9.0.2"
@@ -1759,23 +1759,12 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-eresource@5.0.2":
+"@folio/plugin-find-eresource@5.0.2", "@folio/plugin-find-eresource@^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0":
   version "5.0.2"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-eresource/-/plugin-find-eresource-5.0.2.tgz#b7aea733fe3b82da9f550b4b0c9ee7f733caf505"
   integrity sha512-UTTi3oBlBHazR7OEB13ZSE9N4I3eoKlgo8F5o6CZekVTQFGwEJO1cFqEtVzd2LtClDlyZuxuA7cYD8f0K2NkiA==
   dependencies:
     "@k-int/stripes-kint-components" "^4.0.0"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    query-string "^7.1.1"
-
-"@folio/plugin-find-eresource@^2.1.0 || ^3.0.0 || ^4.0.0":
-  version "4.3.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-eresource/-/plugin-find-eresource-4.3.0.tgz#5b328ba4514912f386f2747de2c84324809bf95e"
-  integrity sha512-MAXv6TQr8FAwE/yG/JH9T2m5FuobmNDwhMq05lCvNVwdkIJb2EPp2YEz5yYkrEBTAQQ9LjFUogNsgjvHdq8KDg==
-  dependencies:
-    "@k-int/stripes-kint-components" "^3.0.3"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -2086,10 +2075,10 @@
     redux "^4.0.0"
     uuid "^8.3.2"
 
-"@folio/stripes-core@~9.0.2":
-  version "9.0.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-9.0.2.tgz#482e2895dbeca66f05cfc312337496cd1ae5668e"
-  integrity sha512-/cMtsU9V1X+TisoHkrDQ9RZOYOeoh7piC3UfjGKzG3HeMDMsUzlh35qsZUWxwPbNIu2ravUQZLCVPApBQP9rFg==
+"@folio/stripes-core@~9.0.3":
+  version "9.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-9.0.3.tgz#f4080827c1df4a3b148d59b5d0f7c0e2fbc82d3f"
+  integrity sha512-iepwb5pi9S5w2PfBi1lJ5QWoCTeQPzpDxhRoQhf+al59yNRRVNIoiI4RGqakKhVMtY50vgssu9iI9haDu+sA9A==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -2326,14 +2315,14 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.4.3"
 
-"@folio/stripes@8.0.2":
-  version "8.0.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-8.0.2.tgz#e73e9320b5ee217e92ee8603c044851dbe7d75f4"
-  integrity sha512-4ndcVnjl7usYY9hbFYXoRGHaeFl4SdPOCISbR6xtBMBMTuqihrOMZG+9+mYXFxPIg9sAJjg1mFlPJ7R2XLuDJg==
+"@folio/stripes@8.0.3":
+  version "8.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-8.0.3.tgz#c41e1fc5087f3cee467a3d78c2f33007bfa37056"
+  integrity sha512-DSgu5jc8lfMfH+zda+JLdWQ9539RpTHNMofSa1EaLnj21o7xofdjpmxc4I7416cQnHO2KVi1SrQ6q/1EVv+Xiw==
   dependencies:
     "@folio/stripes-components" "~11.0.1"
     "@folio/stripes-connect" "~8.1.0"
-    "@folio/stripes-core" "~9.0.2"
+    "@folio/stripes-core" "~9.0.3"
     "@folio/stripes-final-form" "~7.0.0"
     "@folio/stripes-form" "~8.0.0"
     "@folio/stripes-logger" "~1.0.0"
@@ -2522,16 +2511,6 @@
   dependencies:
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
-
-"@k-int/stripes-kint-components@^3.0.3":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@k-int/stripes-kint-components/-/stripes-kint-components-3.2.2.tgz#cd8e8db83cb80b6dd92d723a41b2105139d7673f"
-  integrity sha512-CIsOdqiZbypvKBTXDlHhVV2zZKvOovFpw1j2ItjvpQYk4NLupNOqyNQZCFPi5UGY4uVabMalXGYQl6UUUpo1IQ==
-  dependencies:
-    "@rehooks/local-storage" "2.4.0"
-    compose-function "^3.0.3"
-    react-resize-detector "^7.1.2"
-    zustand "^4.0.0"
 
 "@k-int/stripes-kint-components@^4.0.0":
   version "4.4.2"
@@ -3733,9 +3712,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001426, caniuse-lite@^1.0.30001449:
-  version "1.0.30001460"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001460.tgz#31d2e26f0a2309860ed3eff154e03890d9d851a7"
-  integrity sha512-Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==
+  version "1.0.30001462"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001462.tgz#b2e801e37536d453731286857c8520d3dcee15fe"
+  integrity sha512-PDd20WuOBPiasZ7KbFnmQRyuLE7cFXW2PVd7dmALzbkUXEP46upAuCDm9eY9vho8fgNMGmbAX92QBZHzcnWIqw==
 
 canvg@^3.0.6:
   version "3.0.10"
@@ -4905,9 +4884,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.320"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.320.tgz#4d83a90ff74f93939c5413c2ac5a16c696600632"
-  integrity sha512-h70iRscrNluMZPVICXYl5SSB+rBKo22XfuIS1ER0OQxQZpKTnFpuS6coj7wY9M/3trv7OR88rRMOlKmRvDty7Q==
+  version "1.4.322"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.322.tgz#e0afa1d115b66c1d47869db40d8f2f3729cecc16"
+  integrity sha512-KovjizNC9XB7dno/2GjxX8VS0SlfPpCjtyoKft+bCO+UfD8bFy16hY4Sh9s0h9BDxbRH2U0zX5VBjpM1LTcNlg==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
@@ -7351,9 +7330,9 @@ log-symbols@^2.1.0:
     chalk "^2.0.1"
 
 log4js@^6.4.1:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/log4js/-/log4js-6.8.0.tgz#f0fe9b2b82725aaf97f20692e23381a5c5722448"
-  integrity sha512-g+V8gZyurIexrOvWQ+AcZsIvuK/lBnx2argejZxL4gVZ4Hq02kUYH6WZOnqxgBml+zzQZYdaEoTN84B6Hzm8Fg==
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/log4js/-/log4js-6.9.0.tgz#2687c08b330f610054e79c492b35c677c9b183eb"
+  integrity sha512-sAGxJKqxXFlK+05OlMH6SIDAdvgQHj95EfSDOfkHW6BQUlkz+fZw8PWhydfRHq+0UuWYWR55mVnR+KTnWE2JDA==
   dependencies:
     date-format "^4.0.14"
     debug "^4.3.4"
@@ -8840,10 +8819,17 @@ qjobs@^1.2.0:
   resolved "https://registry.yarnpkg.com/qjobs/-/qjobs-1.2.0.tgz#c45e9c61800bd087ef88d7e256423bdd49e5d071"
   integrity sha512-8YOJEHtxpySA3fFDyCRxA+UUV+fA+rTWnuWvylOK/NCjhY+b4ocCtmu8TtsWb+mYeU+GCHf/S66KZF/AsteKHg==
 
-qs@6.11.0, qs@^6.9.6:
+qs@6.11.0:
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
   integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
+  dependencies:
+    side-channel "^1.0.4"
+
+qs@^6.9.6:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.1.tgz#6c29dff97f0c0060765911ba65cbc9764186109f"
+  integrity sha512-0wsrzgTz/kAVIeuxSjnpGC56rzYtr6JT/2BwEvMaPhFIoYa1aGO8LbzuU1R0uUYQkLpWBTOj0l/CLAJB64J6nQ==
   dependencies:
     side-channel "^1.0.4"
 
