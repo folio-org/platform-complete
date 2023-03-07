@@ -1206,9 +1206,9 @@
     zustand "^4.1.5"
 
 "@folio/bulk-edit@>=1.0.0":
-  version "3.0.200000988"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/bulk-edit/-/bulk-edit-3.0.200000988.tgz#d0a5d40f91bd6c736119f891804fcfe8b15e610d"
-  integrity sha512-qqNR6/S+m9knez/aJRPIy27FlmT9BzOY1aPaI8n2JuwM4iSKT6+7H3yoYlo9HyiP0F7rqh5M3ZhKOdTuaudE+w==
+  version "3.0.200000993"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/bulk-edit/-/bulk-edit-3.0.200000993.tgz#de40fd65bb6847e54ab150222c36729c71759d2e"
+  integrity sha512-zL5IZXiKhzQhD0+2W1QaM2XZz/6T9MxF26a/ZGF6BdxPATvSEpvlAd5S5HdNuqK/Veg2Iqi2jar7DFq0vzijSA==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     file-saver "^2.0.5"
@@ -1255,9 +1255,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "9.0.100000640"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-9.0.100000640.tgz#7810b76b4171835dcacb1a0827ca609e74b28c7c"
-  integrity sha512-2c6WOSPCdHnlERlbV1LWmCmrqU0n8lb4CKy6cA9+lhd4dO1Mh9qiSqLkT1TwwmA2pY5P03Md6tBN+BWzQwQHYg==
+  version "9.0.100000643"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-9.0.100000643.tgz#1570698fce5e84dc446c8633fb0be174d213822f"
+  integrity sha512-8qo6IYR49Adf/VoQlrjUVVKysX1Fyl/YyZ8zPPDw6tRjBkRc4wzTk70jSSKapkka3849/q2CvAR4Wy2XJ6RK1w==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1267,7 +1267,7 @@
     react-audio-player "^0.9.0"
     react-final-form "^6.4.0"
   optionalDependencies:
-    "@folio/circulation" "^7.0.0"
+    "@folio/circulation" "^8.0.1"
     "@folio/plugin-create-inventory-records" "^3.0.0"
     "@folio/plugin-find-user" "^6.0.0"
 
@@ -1286,30 +1286,12 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^6.0.0"
 
-"@folio/circulation@>=1.3.0":
-  version "8.0.1000001198"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-8.0.1000001198.tgz#45561981935420460001b8c93ee5d3f246d40482"
-  integrity sha512-59kP2I9sWLyokN0oFbp7jceK6zo3chSqFQ7LetRPp7KHeSnrzNyujB2lyePa6ZVKhuCwQi/nX1kr2mjm1fiqnQ==
+"@folio/circulation@>=1.3.0", "@folio/circulation@^8.0.1":
+  version "8.0.1000001203"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-8.0.1000001203.tgz#10e95c2f1c07d47bbf3c5b1b81b58c7f55013ce7"
+  integrity sha512-5+dBglPYmhbg96eaFR5ue3optmAhSQizWRHhrTChgW7Momf6zU3xkQQ+PEcKE8CqN6uK8tF3M4XMc3cGkJn3xg==
   dependencies:
     "@folio/stripes-template-editor" "^3.2.0"
-    codemirror "^5.61.1"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    final-form-set-field-data "^1.0.2"
-    html-to-react "^1.3.3"
-    lodash "^4.17.4"
-    moment-timezone "^0.5.33"
-    prop-types "^15.5.10"
-    react-codemirror2 "^7.2.1"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-
-"@folio/circulation@^7.0.0":
-  version "7.2.1000001106"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-7.2.1000001106.tgz#4d7b067bd4fb2d4aff538c48f6e930b8451801d9"
-  integrity sha512-oqmHOwlvj3oxSnmmBLMqOPoXHVespn6aUHMlDKvR8FKMB68d/NSo9T83Z2e+Jg9l2jOVlo4CCJbLHY3ZdRS1Jg==
-  dependencies:
-    "@folio/stripes-template-editor" "^3.0.0"
     codemirror "^5.61.1"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1370,9 +1352,9 @@
     react-window "^1.8.5"
 
 "@folio/data-import@>=0.0.0", "@folio/data-import@^6.0.0":
-  version "6.0.100000919"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-6.0.100000919.tgz#4aef31c901941a223e0a9b84ef4099456610b271"
-  integrity sha512-G8NvnAjcUCkNpIi35/d+FnG6jGqtdPdStu2M3JVVU04bdgFZvoJCh4q+ACgLTBT60f6X9MpQUlFYlRIv+gpB4A==
+  version "6.0.100000931"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-6.0.100000931.tgz#b87acdaba04d61bf95e8d2d3f7edfe8c38bfd724"
+  integrity sha512-vpPwVXRFd4sbNXgh+PgUkbqMwNgSirTsja6dyiVEae+Bz5OEpzBuGAIg9lYKPjyl7iLdHg5WS52xSOdv1Tdl2A==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     "@folio/stripes-data-transfer-components" "^5.4.0"
