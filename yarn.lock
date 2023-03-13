@@ -1186,9 +1186,9 @@
     "@folio/plugin-find-user" "^6.3.0"
 
 "@folio/agreements@>=2.0.0":
-  version "9.1.100000803"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-9.1.100000803.tgz#2fe7d44af867d336828d6bdd49e8eff92fda1cef"
-  integrity sha512-tvM10lJTE+1av/AMAZSxm+jwuPQQUisUxjt1oKI4gSdQOA9mS4o7vqA/YJhu7Jiwx3wTOhuQq5XGFyXY3D/C4g==
+  version "9.1.100000818"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-9.1.100000818.tgz#a5e02c438c0c29a3366aea53cdbbfc3412b2edf5"
+  integrity sha512-or3pgtcdezhYyCQrUDoeBFenQeXV13yO0SniQFDxPzE1D/Ecbup8uohiMLp48uRZQ7Gxk/gC3oyHC+Zy1rM6tg==
   dependencies:
     "@folio/stripes-acq-components" "^4.0.0"
     "@k-int/stripes-kint-components" "^4.0.0"
@@ -1652,9 +1652,9 @@
     prop-types "^15.6.0"
 
 "@folio/oa@>=1.0.0":
-  version "1.1.100000820"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oa/-/oa-1.1.100000820.tgz#059e99780df6fe461465aea99d7a0a9c04ee9648"
-  integrity sha512-pWAEXs25hLY5qF4kGBOHVworxY4kBFRfR8Hj4WLgObz14yYl/VDR/fxU8a1uYzBAKgWFVd33659qH+jaz8pfqw==
+  version "1.1.100000823"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oa/-/oa-1.1.100000823.tgz#ce197ee5cbe256f1473d08a5970d0208bbdb9c29"
+  integrity sha512-DzTSGzoUItIjGl+CJMDgh2Jyx5EzLuMJaOFw4/MJMBD69xnCYe25vXXfDEvNadbN6xfdwMyxvQT0BNzBxYaWRg==
   dependencies:
     "@folio/stripes-acq-components" "^4.0.0"
     "@k-int/stripes-kint-components" "^4.4.0"
@@ -2303,11 +2303,12 @@
   integrity sha512-iLx5LfJ5lWCUQ/KYLjNcwa5kQofYitJocd8ABIif+KYky09t/D6NGJ5FrU7xT7QZmYMUkRy1aM4Ac4XrJjeKNA==
 
 "@folio/stripes-util@~5.2.1":
-  version "5.2.10000031"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.2.10000031.tgz#cd8ad05a1f54b696fddaf372a9a7a170be20928a"
-  integrity sha512-KvN1o8COIYQuDwoiumUaoQJyDIJowvme+lgcQSSkCoVv+Odq0Mruj/aqmBjgoEvwdpEw06EpbU4DSdzc79nlwg==
+  version "5.2.10000037"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.2.10000037.tgz#8090b2158134103e3b89b962d0d6513bdae67410"
+  integrity sha512-gUr7kBm7fYRMnjLP95y0TuHTmsi4glbV6wuAl3YvTHIX2ukWz9w5YDMJ3b+8YibXIYR0Zg4A6IwbYeSYPVs5dQ==
   dependencies:
-    json2csv "^4.2.1"
+    "@json2csv/plainjs" "^6.1.2"
+    "@json2csv/transforms" "^6.1.2"
     lodash "^4.17.4"
     query-string "^7.1.2"
 
@@ -2597,6 +2598,27 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@json2csv/formatters@^6.1.2":
+  version "6.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@json2csv/formatters/-/formatters-6.1.2.tgz#cf5bc34716d6b04e6727bb20629240ddf05f9c1e"
+  integrity sha512-l8i5EdQvHZHrtSgRFEXMkRnIn8CBopT/ecZSIyPKuee9+pm/Sxcb/r/N2jQWARnOQc7uyqQWAtpPpxU7HhZ2tg==
+
+"@json2csv/plainjs@^6.1.2":
+  version "6.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@json2csv/plainjs/-/plainjs-6.1.2.tgz#c830ca8ac2d32314cd6bf4bc2c9c152f75970dde"
+  integrity sha512-XNcBd6W4G5mlP6ZL13idEx21diQAM5AJgIe78RxRfZctWRppaZrtpiGTzhc/sNv7UM1FpfO/aa5wel4+aQW7MQ==
+  dependencies:
+    "@json2csv/formatters" "^6.1.2"
+    "@streamparser/json" "^0.0.10"
+    lodash.get "^4.4.2"
+
+"@json2csv/transforms@^6.1.2":
+  version "6.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@json2csv/transforms/-/transforms-6.1.2.tgz#60e3a8064aebd98222ca205aaab9b2db834eda76"
+  integrity sha512-Trt00/ILixxC6M1x8fl4iOugt7AFx8H7ZPgOdU0tVoR1w2o2HBMuBBR6kDytVgM+8Fk233WdUCyT017oPpmzPg==
+  dependencies:
+    lodash.get "^4.4.2"
+
 "@k-int/stripes-kint-components@^4.0.0", "@k-int/stripes-kint-components@^4.4.0":
   version "4.4.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-4.4.3.tgz#4152b35730fe3a080e908457f662472d84127605"
@@ -2792,6 +2814,11 @@
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
   integrity sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==
+
+"@streamparser/json@^0.0.10":
+  version "0.0.10"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@streamparser/json/-/json-0.0.10.tgz#852725c1d4310217636075826cd5664b7b447aee"
+  integrity sha512-juqNFdqqmY/nvsODq1Vba7PWIaqr01VcqICIrxbws97QKSQhQUMml8FqdHLmevwVpqH39H5mVXKFWiWCi1ke0w==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
