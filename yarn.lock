@@ -1990,9 +1990,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/serials-management@>=1.0.0":
-  version "1.0.100000325"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/serials-management/-/serials-management-1.0.100000325.tgz#9f108f7e8317a5f9567cc4839aefed4780b8f7c6"
-  integrity sha512-SJW0Iq3e/lqMOBZKUpjHFyIwpDxpByLDnybNBz+UYgdM33xuGAQOwFZ9tU3Gx51cnjcydkENnVcWqyW8hF1NxQ==
+  version "1.0.100000333"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/serials-management/-/serials-management-1.0.100000333.tgz#ae0938fce3a56df21f27b3ae85cbc1ea15517314"
+  integrity sha512-aFuUp3Ni4poXCrIoefHzGShk0xdCE8kuuUsP6JR+hmGsTPoU01HoqtykYC1SUO1urDH28XHKGVDqVRpUq+gdeQ==
   dependencies:
     "@k-int/stripes-kint-components" "^4.4.0"
     final-form "^4.18.4"
@@ -2303,12 +2303,11 @@
   integrity sha512-iLx5LfJ5lWCUQ/KYLjNcwa5kQofYitJocd8ABIif+KYky09t/D6NGJ5FrU7xT7QZmYMUkRy1aM4Ac4XrJjeKNA==
 
 "@folio/stripes-util@~5.2.1":
-  version "5.2.10000037"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.2.10000037.tgz#8090b2158134103e3b89b962d0d6513bdae67410"
-  integrity sha512-gUr7kBm7fYRMnjLP95y0TuHTmsi4glbV6wuAl3YvTHIX2ukWz9w5YDMJ3b+8YibXIYR0Zg4A6IwbYeSYPVs5dQ==
+  version "5.2.10000040"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-util/-/stripes-util-5.2.10000040.tgz#2e5772a41cbf75e56ffb9a47ed6378a74ab96b81"
+  integrity sha512-7A4AGT0XJZOOf1asHcIScaU0Ve04khnTIoeh7GZu2+WcXbMqe6+DtHQtEmwp6O+caEzdJUS0PCWGgPG9S3RO5A==
   dependencies:
-    "@json2csv/plainjs" "^6.1.2"
-    "@json2csv/transforms" "^6.1.2"
+    json2csv "^4.2.1"
     lodash "^4.17.4"
     query-string "^7.1.2"
 
@@ -2598,27 +2597,6 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@json2csv/formatters@^6.1.2":
-  version "6.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@json2csv/formatters/-/formatters-6.1.2.tgz#cf5bc34716d6b04e6727bb20629240ddf05f9c1e"
-  integrity sha512-l8i5EdQvHZHrtSgRFEXMkRnIn8CBopT/ecZSIyPKuee9+pm/Sxcb/r/N2jQWARnOQc7uyqQWAtpPpxU7HhZ2tg==
-
-"@json2csv/plainjs@^6.1.2":
-  version "6.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@json2csv/plainjs/-/plainjs-6.1.2.tgz#c830ca8ac2d32314cd6bf4bc2c9c152f75970dde"
-  integrity sha512-XNcBd6W4G5mlP6ZL13idEx21diQAM5AJgIe78RxRfZctWRppaZrtpiGTzhc/sNv7UM1FpfO/aa5wel4+aQW7MQ==
-  dependencies:
-    "@json2csv/formatters" "^6.1.2"
-    "@streamparser/json" "^0.0.10"
-    lodash.get "^4.4.2"
-
-"@json2csv/transforms@^6.1.2":
-  version "6.1.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@json2csv/transforms/-/transforms-6.1.2.tgz#60e3a8064aebd98222ca205aaab9b2db834eda76"
-  integrity sha512-Trt00/ILixxC6M1x8fl4iOugt7AFx8H7ZPgOdU0tVoR1w2o2HBMuBBR6kDytVgM+8Fk233WdUCyT017oPpmzPg==
-  dependencies:
-    lodash.get "^4.4.2"
-
 "@k-int/stripes-kint-components@^4.0.0", "@k-int/stripes-kint-components@^4.4.0":
   version "4.4.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-4.4.3.tgz#4152b35730fe3a080e908457f662472d84127605"
@@ -2814,11 +2792,6 @@
   version "3.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
   integrity sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==
-
-"@streamparser/json@^0.0.10":
-  version "0.0.10"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@streamparser/json/-/json-0.0.10.tgz#852725c1d4310217636075826cd5664b7b447aee"
-  integrity sha512-juqNFdqqmY/nvsODq1Vba7PWIaqr01VcqICIrxbws97QKSQhQUMml8FqdHLmevwVpqH39H5mVXKFWiWCi1ke0w==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
