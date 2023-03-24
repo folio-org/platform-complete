@@ -20,6 +20,7 @@ module.exports = {
     '@folio/checkout' : {},
     '@folio/circulation' : {},
     '@folio/circulation-log' : {},
+    '@folio/consortia-settings' : {},
     '@folio/courses' : {},
     '@folio/data-import' : {},
     '@folio/data-export' : {},
@@ -61,12 +62,13 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
+    '@folio/plugin-query-builder' : {},
     '@folio/quick-marc' : {},
     '@folio/marc-authorities': {},
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
-    '@folio/search' : {},
+    '@folio/serials-management': {},
     '@folio/service-interaction': {},
     '@folio/servicepoints' : {},
     '@folio/stripes-authority-components' : {},
@@ -78,11 +80,11 @@ module.exports = {
 
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
+      src: './tenant-assets/Approved_UA_Elephant.png',
       alt: 'Opentown Libraries',
     },
     favicon: {
-      src: './tenant-assets/folio-favicon.png',
+      src: './tenant-assets/ua-favicon.jpg',
     },
   },
 };
