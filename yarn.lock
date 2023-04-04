@@ -2012,10 +2012,10 @@
     webpack-bundle-analyzer "^4.4.2"
     yargs "^17.3.1"
 
-"@folio/stripes-components@~11.0.3":
-  version "11.0.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-11.0.3.tgz#17d52b3ec560245e73007cfd632dcbae2cc4db08"
-  integrity sha512-VmNpvoAy7KVqZmlHtKLddnnFp1vqT/JsMzteUk+jes/jnihnWhCSLL0tePysjNQ51fEsm71IB4XLc8RKn+uuUA==
+"@folio/stripes-components@~11.0.4":
+  version "11.0.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-11.0.4.tgz#29ccaae35082ec155a6838117875a263d4955c85"
+  integrity sha512-PvI+DNbUAfQXvXFDBZIxQVYQrHg5YyHgH2lcR1yezYlAMus8/Oj++Tz2eRUIR/cty/z+PccEc32CxWT8erY+pA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -2039,7 +2039,7 @@
     react-quill "^1.3.3"
     react-svg-loader "^3.0.3"
     react-transition-group "^2.2.1"
-    react-virtualized-auto-sizer "^1.0.2"
+    react-virtualized-auto-sizer "1.0.7"
     tai-password-strength "^1.1.1"
 
 "@folio/stripes-connect@~8.1.0":
@@ -2053,10 +2053,10 @@
     redux "^4.0.0"
     uuid "^8.3.2"
 
-"@folio/stripes-core@~9.0.5":
-  version "9.0.6"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-9.0.6.tgz#8e7c7937f190b554b6720850b7116af8bd57886b"
-  integrity sha512-2sULKHe96ZARMgvZAfs4chIVAiVi/cJbL72LPfaEBVuTXw23TKCcykhYG2h4WIHzottswBrvGP4baSBkyq9q9w==
+"@folio/stripes-core@~9.0.7":
+  version "9.0.7"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-9.0.7.tgz#a5c2678e4fc91ed35aeb23d90ea9419d30ceb99c"
+  integrity sha512-xqOk0rFuhjylSTEtM7pNa8xaFwY0lqSKw6fIwyAZXNf85J5M/i0OGksXOR57Tujls5TYDldYP5gemalwSzznaA==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -2293,14 +2293,14 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.4.3"
 
-"@folio/stripes@8.0.7":
-  version "8.0.7"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-8.0.7.tgz#ea21d1295421eee30cb19ef8f22972220f6d883b"
-  integrity sha512-IPnvPEAOtGsajo51hY4e3Q1tuGXot4DrsGkk/4iwjRmvS7fNKNZBGGj3uuwrhOHbo/5KKV0hcSbRXZNL4Bh+6w==
+"@folio/stripes@8.0.8":
+  version "8.0.8"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-8.0.8.tgz#5fe64e7c0af97c9628be87ff6c175e17514876a2"
+  integrity sha512-hSoV0Hpvr/PrY6W8SoH/a+0piZSvN8TGiglHbVG4OKsT+TKO8aU2xJVRX8AxhjPpubfyh04FgREcJBAUE15M3A==
   dependencies:
-    "@folio/stripes-components" "~11.0.3"
+    "@folio/stripes-components" "~11.0.4"
     "@folio/stripes-connect" "~8.1.0"
-    "@folio/stripes-core" "~9.0.5"
+    "@folio/stripes-core" "~9.0.7"
     "@folio/stripes-final-form" "~7.0.0"
     "@folio/stripes-form" "~8.0.0"
     "@folio/stripes-logger" "~1.0.0"
@@ -8433,9 +8433,9 @@ postcss-import@^15.0.1:
     resolve "^1.1.7"
 
 postcss-loader@^7.0.2:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-7.2.3.tgz#c2d491a769102e0aac228d53fb1ad376cc158bb2"
-  integrity sha512-H/PIjgbn2q7zFnmUMPvEupIFnOAg+fYWC/4F6DugK8uPITVYyEflnSjLFV0u20B3Qi88PzPiAlzn8hBSu3f8oA==
+  version "7.2.4"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-7.2.4.tgz#2884f4ca172de633b2cf1f93dc852968f0632ba9"
+  integrity sha512-F88rpxxNspo5hatIc+orYwZDtHFaVFOSIVAx+fBfJC1GmhWbVmPWtmg2gXKE1OxJbneOSGn8PWdIwsZFcruS+w==
   dependencies:
     cosmiconfig "^8.1.3"
     cosmiconfig-typescript-loader "^4.3.0"
@@ -9283,6 +9283,11 @@ react-transition-group@^2.2.1, react-transition-group@^2.4.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react-virtualized-auto-sizer@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-virtualized-auto-sizer/-/react-virtualized-auto-sizer-1.0.7.tgz#bfb8414698ad1597912473de3e2e5f82180c1195"
+  integrity sha512-Mxi6lwOmjwIjC1X4gABXMJcKHsOo0xWl3E3ugOgufB8GJU+MqrtY35aBuvCYv/razQ1Vbp7h1gWJjGjoNN5pmA==
 
 react-virtualized-auto-sizer@^1.0.2, react-virtualized-auto-sizer@^1.0.6:
   version "1.0.11"
