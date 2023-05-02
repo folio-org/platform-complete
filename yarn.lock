@@ -1459,9 +1459,9 @@
     react-table "^7.6.3"
 
 "@folio/data-export@>=1.0.0":
-  version "5.4.100000295"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-5.4.100000295.tgz#481ecf01ab0d7e99e3a314a9e6cbe703b4c56f45"
-  integrity sha512-uo2rR3n57lisVqetsje6t8UxaAshIuPCkgMgA89NDQqdVlGXFgDh2I99Ds4YVMV8O8CA286InUeitBDQwr6KXw==
+  version "5.4.100000298"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-export/-/data-export-5.4.100000298.tgz#09537c8809f21e0c6414393550effa02ba813d6f"
+  integrity sha512-Jaw84trQSLLWta6ITDjc/Dpwc9i2WeJteqBnmxF6Y6iMxtHsnWqbRf9R8ehhlhiDz8UbByCFAcBVvk4W6kAbWg==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     "@folio/stripes-data-transfer-components" "^5.3.0"
@@ -2007,17 +2007,17 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-query-builder@>=1.0.0":
-  version "1.0.100000273"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.100000273.tgz#2ca111677a63774b883b13501c0bb0e7996b0c36"
-  integrity sha512-FpOgzHncFVUrHkVUWWUWMxCg2TS6q3szPhEjyIDQtOkPQ3LaY/H0yhaKGEit8104N9HGa4qzRpG/CmBvhI0o3w==
+  version "1.0.100000285"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.100000285.tgz#18364bccc37ab8dfa7a0c86ac549bbaa87cd95c9"
+  integrity sha512-c9vxwBKrjExkG9IPtvEUj492GRXEs1Umr/uutg4WEJBPpqJ7LQbh07XokT/JYTNVKnhghRCey+QjULID1fR1Nw==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
+    "@tanstack/react-query" "4.29.5"
     jest-environment-jsdom "28.1.3"
     ky "^0.33.2"
     lodash "^4.17.5"
     moment "^2.29.4"
     prop-types "^15.5.10"
-    react-query "^3.39.3"
 
 "@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^6.0.0":
   version "6.0.2000001465"
@@ -2284,9 +2284,9 @@
     use-deep-compare "^1.1.0"
 
 "@folio/stripes-data-transfer-components@^5.2.0", "@folio/stripes-data-transfer-components@^5.3.0", "@folio/stripes-data-transfer-components@^5.4.0", "@folio/stripes-data-transfer-components@~5.4.0":
-  version "5.4.100000287"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-5.4.100000287.tgz#8bab67817897e5ea0a34fadee0de8e4078a31217"
-  integrity sha512-aKG59KHh70No4BrUAS8aovz83e2pWvAtxf1BirT6aTkLM7Mvcq92gOZumYj8Z1YpOFpKWn2v5RI2yLdwRStLKQ==
+  version "5.4.100000290"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-5.4.100000290.tgz#66b1561e953e89a6af4126def89db11699e8e612"
+  integrity sha512-pVBdwYr06KbjARrvVNlhhaAzRWzJjWsvzv/ol2tsZzh3quj8lLPHSjkuoyI2Ll68pPhw9TxHCvpYTmYDwIgTGw==
   dependencies:
     classnames "^2.2.5"
     compose-function "^3.0.3"
@@ -2939,6 +2939,19 @@
   integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
   dependencies:
     defer-to-connect "^1.0.1"
+
+"@tanstack/query-core@4.29.5":
+  version "4.29.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@tanstack/query-core/-/query-core-4.29.5.tgz#a0273e88bf2fc102c4c893dc7c034127b67fd5d9"
+  integrity sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==
+
+"@tanstack/react-query@4.29.5":
+  version "4.29.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@tanstack/react-query/-/react-query-4.29.5.tgz#3890741291f9f925933243d78bd74dfc59d64208"
+  integrity sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==
+  dependencies:
+    "@tanstack/query-core" "4.29.5"
+    use-sync-external-store "^1.2.0"
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -9311,7 +9324,7 @@ react-overlays@^5.2.1:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
-react-query@^3.13.0, react-query@^3.24.2, react-query@^3.38.1, react-query@^3.39.1, react-query@^3.39.2, react-query@^3.39.3, react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.13.0, react-query@^3.24.2, react-query@^3.38.1, react-query@^3.39.1, react-query@^3.39.2, react-query@^3.6.0, react-query@^3.9.8:
   version "3.39.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
   integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
@@ -10980,7 +10993,7 @@ use-memo-one@^1.1.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/use-memo-one/-/use-memo-one-1.1.3.tgz#2fd2e43a2169eabc7496960ace8c79efef975e99"
   integrity sha512-g66/K7ZQGYrI6dy8GLpVcMsBp4s17xNkYJVSMvTEevGy3nDxHOfE6z8BVE22+5G5x7t3+bhzrlTDB7ObrEE0cQ==
 
-use-sync-external-store@1.2.0, use-sync-external-store@^1.0.0:
+use-sync-external-store@1.2.0, use-sync-external-store@^1.0.0, use-sync-external-store@^1.2.0:
   version "1.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
   integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
