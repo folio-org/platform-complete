@@ -1380,9 +1380,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation-log@>=1.0.0":
-  version "3.0.100000169"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation-log/-/circulation-log-3.0.100000169.tgz#ce7c95fe2571109a47c6ed9db3b5108836cfad29"
-  integrity sha512-il5vYr0YobIU+3rIP1FHgJIHW2xWIwwfpYHwbGRmxx9Gsqx8mQSbk66tVHUYVd5rwc86u3F3cjPX8FkmGv3jeQ==
+  version "3.0.100000172"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation-log/-/circulation-log-3.0.100000172.tgz#d574c2c9c7e590f04fafc3169be5b567892b17bc"
+  integrity sha512-RYhpXPCRPDhMh7IwYY9Iq3walrnZk2d0s5OImIVuFyDqCRPentF3B0Trys6Cc0fX6Po/qMJEd4dTGQ3TMUfcrQ==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     lodash "^4.17.5"
@@ -1735,9 +1735,9 @@
     react-final-form-arrays "^3.1.1"
 
 "@folio/marc-authorities@>=1.0.0":
-  version "3.0.2000004643"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marc-authorities/-/marc-authorities-3.0.2000004643.tgz#1d03d8a9b5f72d4799a8e2b7688e220d5273809e"
-  integrity sha512-/P4qS2YES/cQA2oemnO+5wSjfwgltIH9Os9XdMDqXeYvCNGwOKhDzsewl6k8K/1/bQjB+y4CAALDmffgugc+SQ==
+  version "4.0.1000004666"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marc-authorities/-/marc-authorities-4.0.1000004666.tgz#206138f2e9913c3dd3d283eca040d3783d83280f"
+  integrity sha512-iZvH5OhOfvKQZuMUd+PoarwcSq38XRST3DgAazObiDEgLEnEMVuELn9+xSoFw2e7+xPym2pzWoSbnXewrIlw9w==
   dependencies:
     "@folio/quick-marc" "^6.0.0"
     "@folio/stripes-acq-components" "~4.0.0"
@@ -2019,7 +2019,27 @@
     moment "^2.29.4"
     prop-types "^15.5.10"
 
-"@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^6.0.0":
+"@folio/quick-marc@>=1.0.0":
+  version "7.0.1000001495"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-7.0.1000001495.tgz#7f5cbb2095155943bca161bc56ba7cf5e90ea3f4"
+  integrity sha512-LwhZ8AWwWJ2Wi8RYNP/z7sUdUEUKfR5NdpBNggeN7wc+4KCKAUHFs9Vb3cUNi7iz6gF4xSVPxSVcZ5LFQCGOyw==
+  dependencies:
+    "@folio/stripes-acq-components" "~4.0.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-query "^3.39.2"
+    react-router-prop-types "^1.0.4"
+    react-to-print "^2.14.11"
+    uuid "^8.3.2"
+  optionalDependencies:
+    "@folio/plugin-find-authority" "^2.0.0"
+
+"@folio/quick-marc@^6.0.0":
   version "6.0.2000001490"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-6.0.2000001490.tgz#69806e69095ab93820a6cdf72684ccc24857e817"
   integrity sha512-TInVvk83NGSErhTGcQlrXv27eTlYCFY8j5vPpiw9Q/ahVkMBtoHkZerQmFspXnKvs9rWyOOhKRe3nHZj1JvP+g==
@@ -2146,9 +2166,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-authority-components@>=2.0.0":
-  version "2.0.200000433"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-2.0.200000433.tgz#68267a7d594ca96c80fd554681240a4d54b2e4a6"
-  integrity sha512-ZfNRCxIhoMDzyovJNHS43nJn8MhunOFkIAiKnLm2F7Sjfxh5739ljoXBoTcAWvN/xX7jxv3ib+J7JIUXcaORaw==
+  version "2.0.200000438"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-2.0.200000438.tgz#125d9a1a4a997ccc991c53752b7544e63d011a90"
+  integrity sha512-meArODfDrc78T31hwRLCWn/3GEfiXCVlhRQZolJxQ34EJDTx0AYk2f/tcVoH++gInSMOEJWVaPICU8MnuSEoCg==
   dependencies:
     "@folio/quick-marc" "^6.0.0"
     "@folio/stripes-acq-components" "~4.0.0"
