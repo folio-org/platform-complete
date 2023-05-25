@@ -24,7 +24,7 @@ pipeline {
 
   agent {
     node {
-      label 'jenkins-agent-java11-test'
+      label 'jenkins-agent-java11'
     }
   }
 
