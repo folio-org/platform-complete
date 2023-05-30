@@ -344,6 +344,14 @@
     "@babel/helper-plugin-utils" "^7.18.6"
     "@babel/plugin-syntax-numeric-separator" "^7.10.4"
 
+"@babel/plugin-proposal-private-methods@^7.18.6":
+  version "7.18.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.18.6.tgz#5209de7d213457548a98436fa2882f52f4be6bea"
+  integrity sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.18.6"
+    "@babel/helper-plugin-utils" "^7.18.6"
+
 "@babel/plugin-proposal-private-property-in-object@^7.21.0":
   version "7.21.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.21.0.tgz#19496bd9883dd83c23c7d7fc45dcd9ad02dfa1dc"
@@ -1416,9 +1424,9 @@
     utility-types "^3.10.0"
 
 "@folio/checkin@>=1.3.0":
-  version "8.0.100000586"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-8.0.100000586.tgz#07c1b8edaa2243a795675c9bf78518171bf19ce3"
-  integrity sha512-8Cal8NCxVPp5g7APCSjaz1jTiTv18lAMCYnpsvamikzzgQB/yrbaapn5qLcR0Cr9H7rkKVxNP2ADqJEKGiGiHg==
+  version "8.0.100000590"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkin/-/checkin-8.0.100000590.tgz#0664b479810c87f0235b39e41145d45e68437501"
+  integrity sha512-D4rG2iA5lwa7eIFD76H1ifYCkP3F0tUYVmtsTEdLfVBC27dSN4T7nL2ITaPumMLaanrcwtFHTCmE2U5FIYlOwA==
   dependencies:
     dateformat "^2.0.0"
     final-form "^4.19.1"
@@ -1432,9 +1440,9 @@
     react-to-print "^2.3.2"
 
 "@folio/checkout@>=1.3.0":
-  version "9.0.100000714"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-9.0.100000714.tgz#dd914650f752540e88e69f4c026c530fc4385bf5"
-  integrity sha512-pcRo0ZwBl528Zp8vMQnjgqnffuW4UAnDC7rKf6TsJHZTMfCsITE1i1MjINtH8xB/t83dBc+JIP10nwe1dqRTaw==
+  version "9.0.100000726"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-9.0.100000726.tgz#f9d113c48259fbca1057922339b69bed9c974511"
+  integrity sha512-K3GK3FXKTKmDCoCZMUrbBLpS1w2J1D9zJS2mu/a1BvRAscWiHq6dN/57GU/J0WLLYMQpeZi3pqFmH/ivCttKFw==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1464,9 +1472,9 @@
     "@folio/plugin-find-user" "^6.0.0"
 
 "@folio/circulation@>=1.3.0", "@folio/circulation@^8.0.1":
-  version "8.0.1000001381"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-8.0.1000001381.tgz#e8d53f3264cd70ffed697b2fe8a4e6412e51ef1b"
-  integrity sha512-ya+LqcGlfLKsqHfpwDmeymgzmGDkH2tPr2OraD9hzpwIroSayI9aaeBgIRfT4Hgb/ccemCOC1lyYjuUBZblH0w==
+  version "8.0.1000001404"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-8.0.1000001404.tgz#28d04e780f0d9e442c41be1ed4a94cced47a4c6d"
+  integrity sha512-2Szvpp4v3YTXgB57gxu7Gw5+6h2v/+yaEtnfBYm1tf4YFKM6hoz/fJ41cr33sr1pl0iE9uOb+RApn0dXiEh5Pg==
   dependencies:
     "@folio/stripes-template-editor" "^3.2.0"
     codemirror "^5.61.1"
@@ -1701,11 +1709,11 @@
     "@folio/plugin-find-user" "^6.3.0"
 
 "@folio/inventory@>=1.4.0":
-  version "9.4.5000004360"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-9.4.5000004360.tgz#090ae40c8c5d01c62d65e40145c757daf11d8fd5"
-  integrity sha512-7ovSovLf1faLySn0mm5QR8ndeUzltdcB9efN4sVvqEeHYWyQIcSLjAg/u5by+SnQrp0zKzP2np7uDK8ykzc1zQ==
+  version "10.0.1000004387"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-10.0.1000004387.tgz#16ae3c805f77eb54b4dcf92c1b871c95a913c046"
+  integrity sha512-tudvOoaOTM0r0ffdgD8CcePBWP4Xz5t9hpf69TFb+meuUN4P7uoNDNA48fnHAgtckmK/Tj7bxaIoAw81hQy54Q==
   dependencies:
-    "@folio/quick-marc" "^6.0.0"
+    "@folio/quick-marc" "^7.0.0"
     "@folio/stripes-acq-components" "^4.0.0"
     file-saver "^2.0.0"
     final-form "^4.18.2"
@@ -2087,7 +2095,7 @@
     moment "^2.29.4"
     prop-types "^15.5.10"
 
-"@folio/quick-marc@>=1.0.0":
+"@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^7.0.0":
   version "7.0.1000001579"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-7.0.1000001579.tgz#9d045870824319040e52389f05a647b71c03e47e"
   integrity sha512-mSQACeHCFzj4VS9r735UtbCNK6lLXyWnXU7M8kqpeOia2XxyxKpWCQwWBs6Bn6FwxB+kxXJ5jVESlWR7iZIJyA==
@@ -2502,9 +2510,9 @@
     query-string "^7.1.2"
 
 "@folio/stripes-webpack@^4.2.0":
-  version "4.2.100000424"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-4.2.100000424.tgz#bcf6b409e80ecaec9e47d014456218c247128ba7"
-  integrity sha512-4/917up2e6ZpqTy3l6rINRlxqMetc96yPueeJrvKuxX69PpFlgv0mU/AnIV0c2tVKM5uZ5y/rRtlRjMSAy9iMQ==
+  version "4.2.100000456"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-4.2.100000456.tgz#b0259492f1ce9743383913221ae75cfde35d5b9b"
+  integrity sha512-vCNla3P2UHVpIAiJBeXJCh3Te/cSZaAVZ/YqcKoL+CfTnGi7pbS5JD/37uHCV4d7x5WwpUmb7t3lkl3GELGsKg==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.0.0"
@@ -2512,6 +2520,8 @@
     "@babel/plugin-proposal-export-namespace-from" "^7.0.0"
     "@babel/plugin-proposal-function-sent" "^7.0.0"
     "@babel/plugin-proposal-numeric-separator" "^7.0.0"
+    "@babel/plugin-proposal-private-methods" "^7.18.6"
+    "@babel/plugin-proposal-private-property-in-object" "^7.21.0"
     "@babel/plugin-proposal-throw-expressions" "^7.0.0"
     "@babel/plugin-syntax-import-meta" "^7.0.0"
     "@babel/preset-env" "^7.0.0"
