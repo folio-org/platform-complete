@@ -2305,9 +2305,9 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@~11.1.0":
-  version "11.1.1000003007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-11.1.1000003007.tgz#d317ad5ab7b9e8eb980c13ba586679f0077af548"
-  integrity sha512-otLBwxWEVKvEfVXikDjUWt2+51tIVFz1GHlFeYhUUKU0h1FQsIGVa/lev5CygMpTgiMyzmu+wzcc/CzgG643Lg==
+  version "11.1.1000003018"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-11.1.1000003018.tgz#d0eba0611afab078916b8a00af25aa2e558dd4ca"
+  integrity sha512-7C8FJftyMZkhWr5SzjWH0bsaMUj54JI2cQ09Cu6qTT3Dnhd8B2Sf9CWyJ5ORatSIdV1h2PUodUJ4pM6yo/O5tA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.5"
     classnames "^2.2.5"
@@ -2329,7 +2329,7 @@
     react-overlays "^5.2.1"
     react-quill "^2.0.0"
     react-svg-loader "^3.0.3"
-    react-transition-group "^2.2.1"
+    react-transition-group "^4.4.5"
     react-virtualized-auto-sizer "^1.0.2"
     tai-password-strength "^1.1.1"
 
@@ -5161,7 +5161,7 @@ dom-helpers@^3.4.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
 
-dom-helpers@^5.2.0, dom-helpers@^5.2.1:
+dom-helpers@^5.0.1, dom-helpers@^5.2.0, dom-helpers@^5.2.1:
   version "5.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/dom-helpers/-/dom-helpers-5.2.1.tgz#d9400536b2bf8225ad98fe052e029451ac40e902"
   integrity sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==
@@ -9660,6 +9660,16 @@ react-transition-group@^2.2.1, react-transition-group@^2.4.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react-transition-group@^4.4.5:
+  version "4.4.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-transition-group/-/react-transition-group-4.4.5.tgz#e53d4e3f3344da8521489fbef8f2581d42becdd1"
+  integrity sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react-virtualized-auto-sizer@^1.0.2, react-virtualized-auto-sizer@^1.0.6:
   version "1.0.20"
