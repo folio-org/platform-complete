@@ -1821,14 +1821,17 @@
     react-final-form-arrays "^3.1.1"
 
 "@folio/oai-pmh@>=1.0.0":
-  version "4.0.100000189"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oai-pmh/-/oai-pmh-4.0.100000189.tgz#a44c592f76c3f2acb5a7321f8cfd840873c679e6"
-  integrity sha512-sR0EclK+oAu5LX9CcGJ33IDc6YaOm5TeNVYvfs558xvImh6IUCzXGLYIf1YPn2vKOmUE2kUNA+ExukzpuGglGQ==
+  version "4.0.100000201"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oai-pmh/-/oai-pmh-4.0.100000201.tgz#9128f5e902b4fbbab49d9ceb1f16fd36e01da328"
+  integrity sha512-n38I8y14onaCsfG/4mmtj6daudPAtqL7qs4qAEf2iym0Htv575Dq8iX3xztsiSJ82S0nzeAPmnB7r+2B4ZtI1w==
   dependencies:
+    "@folio/stripes-acq-components" "^4.0.200000444"
     lodash "^4.17.15"
+    moment "^2.29.4"
     prop-types "^15.6.0"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.2"
+    react-query "^3.39.3"
     react-router-prop-types "^1.0.4"
 
 "@folio/orders@>=1.1.0":
@@ -1855,9 +1858,9 @@
     "@folio/plugin-find-user" "^6.3.0"
 
 "@folio/organizations@>=1.0.0":
-  version "4.0.100000291"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-4.0.100000291.tgz#d2ca8aa930984461f74c7255e7d1cca5d3eed856"
-  integrity sha512-0gQzCZ0jQjcEeAjjAzl/zr7eryJjCbdozrwpnKOyTn7re6xtUsQ44Eg14knuyob8s1OhUzHx7ZC1+PnSMFVARQ==
+  version "4.0.100000294"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-4.0.100000294.tgz#b795a2d1a2e9b470f144d1807f746711208aa119"
+  integrity sha512-54q5Cw/3jjuHXMwjI/HdJKenh7Ju+O4qbWep0xhx81JZy43wPTntIoyhDJcJ7vi4XUkzcXLzBq663KiAEarMfA==
   dependencies:
     "@folio/plugin-find-organization" "^4.0.0"
     "@folio/stripes-acq-components" "~4.0.0"
@@ -2189,7 +2192,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^4.0.0", "@folio/stripes-acq-components@~4.0.0":
+"@folio/stripes-acq-components@^4.0.0", "@folio/stripes-acq-components@^4.0.200000444", "@folio/stripes-acq-components@~4.0.0":
   version "4.0.200000451"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-4.0.200000451.tgz#33378ad946314ff070bd9870621d73a3f738fe7c"
   integrity sha512-iVjjwLnO4Tp6D+783+rXCFeAX20MTXmJpWjWDBQ+oF8b10JXfwc1Ux6hbQk0dN+PuB3ThyxKwgWHv24nADmbjA==
@@ -9468,7 +9471,7 @@ react-overlays@^5.2.1:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
-react-query@^3.13.0, react-query@^3.24.2, react-query@^3.38.1, react-query@^3.39.1, react-query@^3.39.2, react-query@^3.6.0, react-query@^3.9.8:
+react-query@^3.13.0, react-query@^3.24.2, react-query@^3.38.1, react-query@^3.39.1, react-query@^3.39.2, react-query@^3.39.3, react-query@^3.6.0, react-query@^3.9.8:
   version "3.39.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
   integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
