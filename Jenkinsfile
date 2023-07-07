@@ -15,7 +15,7 @@ pipeline {
 
   agent {
     node {
-      label 'jenkins-agent-java11'
+      label 'platform-build'
     }
   }
 
