@@ -24,7 +24,7 @@ pipeline {
 
   agent {
     node {
-      label 'jenkins-agent-java11'
+      label 'platform-build'
     }
   }
 
@@ -40,8 +40,8 @@ pipeline {
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
-          if (lastCommit == 0) { 
-              echo "CI SKIP detected.  Aborting build" 
+          if (lastCommit == 0) {
+              echo "CI SKIP detected.  Aborting build"
               env.skipBuild = 'true'
           }
         }
@@ -49,14 +49,14 @@ pipeline {
     }
 
     stage('Do Build') {
-      when { 
+      when {
         expression {
           env.skipBuild != 'true'
         }
       }
       stages {
         stage('Build Stripes Platform') {
-          when { 
+          when {
             not {
               branch 'master'
             }
@@ -113,7 +113,7 @@ pipeline {
  *         steps {
  *           // build FOLIO instance
  *           buildPlatformInstance(env.ec2Group,env.folioHostname,env.tenant)
- *           script { 
+ *           script {
  *             def pr_comment = pullRequest.comment("Instance available at $env.folioUrl")
  *           }
  *
@@ -166,7 +166,7 @@ pipeline {
                 sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
               else {
-                echo "No new changes.  No push to git origin needed" 
+                echo "No new changes.  No push to git origin needed"
               }
             }
           }
