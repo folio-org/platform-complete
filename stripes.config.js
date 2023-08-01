@@ -41,13 +41,14 @@ module.exports = {
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
   },
+
   branding: {
     logo: {
       src: './tenant-assets/opentown-libraries-logo.png',
       alt: 'Opentown Libraries',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/folio-favicon.png',
     },
-  }
+  },
 };
