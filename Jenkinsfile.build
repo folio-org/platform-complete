@@ -5,7 +5,7 @@
  *    choice(
  *       name: 'PLATFORM',
  *       defaultValue: 'platform-complete',
- *       description: 'Platform repo in https://github.com/folio-org/' 
+ *       description: 'Platform repo in https://github.com/folio-org/'
  *    )
  *  }
  */
@@ -41,42 +41,42 @@ pipeline {
 
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
-   
+
           if (params.PLATFORM == 'platform-core') {
             env.folio_config = 'snapshot-core'
             env.ec2_instanceType = 'm5.xlarge'
             env.ec2_group = 'build_snapshot_core'
-          } 
+          }
           else {
             env.folio_config = 'snapshot'
-            env.ec2_instanceType = 'm5.2xlarge' 
+            env.ec2_instanceType = 'm5.2xlarge'
             env.ec2_group = 'build_snapshot'
           }
         }
       }
     }
-   
+
     stage('Build Stripes Platform') {
       steps {
-        // the tenant and okapi url are irrelevant here. 
+        // the tenant and okapi url are irrelevant here.
         buildStripesPlatform("https://dummy-name-okapi.dev.folio.org", env.OKAPI_TENANT)
       }
     }
 
     stage('Check Interface Dependencies') {
-      steps { 
+      steps {
         script {
           echo "Creating okapi preseed module list."
           sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
           def installPreJson = readFile('./install-pre.json')
           platformDepCheck('diku',installPreJson)
-          echo 'Generating backend dependency list to okapi-install.json' 
+          echo 'Generating backend dependency list to okapi-install.json'
           sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
           sh 'cat okapi-install.json'
           echo "Append edge modules to final stripes-install.json."
           sh 'mv stripes-install.json stripes-install-pre.json'
           sh 'jq \'map(select(.id | test(\"edge-\"; \"i\")))\' install.json > install-edge.json'
-          sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-edge.json > stripes-install.json' 
+          sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-edge.json > stripes-install.json'
           sh 'cat stripes-install.json'
         }
       }
@@ -104,7 +104,7 @@ pipeline {
                           credentialsId: 'jenkins-aws',
                           secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
 
-          dir("${env.WORKSPACE}/folio-infrastructure") { 
+          dir("${env.WORKSPACE}/folio-infrastructure") {
             logFileFilter {
               ansiblePlaybook(credentialsId: '11657186-f4d4-4099-ab72-2a32e023cced',
                               disableHostKeyChecking: true,
@@ -141,9 +141,9 @@ pipeline {
 
            for (int i = 0; i < installFiles.size(); i++) {
              sh "git add ${env.WORKSPACE}/${installFiles[i]}"
-           } 
+           }
 
-           def commitStatus = sh(returnStatus: true, 
+           def commitStatus = sh(returnStatus: true,
                                  script: 'git commit -m "[CI SKIP] Updating install files"')
 
            if ( commitStatus == 0 ) {
@@ -153,16 +153,28 @@ pipeline {
              echo "No changes to artifacts"
            }
          }
-       } 
+       }
      }
-   }     
+   }
 
   }      // end stages
 
   post {
     failure {
-      slackSend channel: "$env.SLACK_CHANNEL", 
+      slackSend channel: "$env.SLACK_CHANNEL",
                 message: "Failure: ${env.JOB_NAME} ${env.BUILD_DISPLAY_NAME} (<${env.BUILD_URL}|Open>)"
+      // publish the Okapi on failure.
+      withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
+                        accessKeyVariable: 'AWS_ACCESS_KEY_ID',
+                        credentialsId: 'jenkins-aws',
+                        secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+        script {
+            // find ec2 instance
+            def sshIp = sh (returnStdout: true, script:"aws --region us-east-1 ec2 describe-instances --filters 'Name=tag:Group,Values=${env.ec2_group}' --query 'Reservations[*].Instances[*].PrivateIpAddress' --output text").trim()
+            publishOkapiLog(sshIp)
+        }
+      }
+
     }
     always {
       sendNotifications currentBuild.result
@@ -187,4 +199,3 @@ pipeline {
 
   }
 }
-
