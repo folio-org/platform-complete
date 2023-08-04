@@ -14,3 +14,4 @@
 * Lock to `react-intl` `v5.21.1`. Refs FOLIO-3342.
 * Lock to `colors` `1.4.0`. Refs FOLIO-3383.
 * Unlock `react-intl` from `v5.21.0`. Refs FOLIO-3503.
+* Bump `react` to `^18.2.0`, `stripes` to `^9.0.0`, `stripes-cli` to `3.0.0`. Refs STRIPES-870.
