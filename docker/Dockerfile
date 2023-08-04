@@ -16,7 +16,7 @@ RUN apk upgrade \
  && rm -rf /var/cache/apk/*
 RUN yarn config set python /usr/bin/python3
 
-RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
+RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
 RUN yarn install
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID

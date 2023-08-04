@@ -1444,6 +1444,25 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.0"
 
+"@folio/consortia-settings@>=1.0.0":
+  version "1.0.100000519"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/consortia-settings/-/consortia-settings-1.0.100000519.tgz#7c3e46dc9be87372ceba0f28bed1436e9e203fde"
+  integrity sha512-JQtghUqj8G18c74qNAVJnNc7vwYs7TSfmlRD9Bt2QWyDHyMohoVCVrEs0vTCXy9lNBD6wNAoosMdtHXZY1vKQQ==
+  dependencies:
+    "@folio/stripes-acq-components" "~4.0.0"
+    "@folio/stripes-data-transfer-components" "^5.4.0"
+    "@rehooks/local-storage" "^2.4.4"
+    dom-helpers "^3.4.0"
+    final-form "^4.20.9"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    query-string "^7.1.2"
+    react-final-form "^6.5.9"
+    react-final-form-arrays "^3.1.4"
+    react-final-form-listeners "^1.0.3"
+    react-router-prop-types "^1.0.5"
+    uuid "^9.0.0"
+
 "@folio/courses@>=1.0.0":
   version "5.4.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/courses/-/courses-5.4.0.tgz#b0ca0dd490194cbed64e1db4962a30deaadc4442"
@@ -1491,10 +1510,10 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@^6.0.0":
-  version "6.0.9"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-6.0.9.tgz#25057c2d086f61552c049c74653da17b6524cf7a"
-  integrity sha512-VzMBEs1275JSofclbzaGWB9GIXLbgbz5JRgX4chX6BZpB9AollB3Uc2BOKhM24qSfPKuSsPYNuF3SCt8fPTJFg==
+"@folio/data-import@>=0.0.0":
+  version "6.0.8000001541"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-6.0.8000001541.tgz#2b239d0bbe85107ffc56dcb5d5329e08fa244319"
+  integrity sha512-i4/MgZcDME5468xn4gm3ZqStcLtS++Hda65pfq/kSvqpxsvpqurUu6bASSZXhIwUXDS+/3Cs6L+4NwC3UlERVw==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     "@folio/stripes-data-transfer-components" "^5.4.0"
@@ -1510,9 +1529,10 @@
   optionalDependencies:
     "@folio/plugin-find-organization" "^4.0.0"
 
-"@folio/data-import@https://github.com/folio-org/ui-data-import.git#multiple-feature":
-  version "6.0.8"
-  resolved "https://github.com/folio-org/ui-data-import.git#5bd6911cd31236c301bdceb7dad9a4d9b78cfae7"
+"@folio/data-import@^6.0.0":
+  version "6.0.9"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-6.0.9.tgz#25057c2d086f61552c049c74653da17b6524cf7a"
+  integrity sha512-VzMBEs1275JSofclbzaGWB9GIXLbgbz5JRgX4chX6BZpB9AollB3Uc2BOKhM24qSfPKuSsPYNuF3SCt8fPTJFg==
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     "@folio/stripes-data-transfer-components" "^5.4.0"
@@ -6545,7 +6565,7 @@ final-form-set-field-data@^1.0.2:
   resolved "https://registry.yarnpkg.com/final-form-set-field-data/-/final-form-set-field-data-1.0.2.tgz#ce19095af5d607148c1e6ce3403d75d40223d848"
   integrity sha512-gAnENimyQ5GW3OEGca5pbwm4lYshW2orzfBlPUYqzcm7ZxkQrVO8FqCAgEcCM+Rq9U1OU0q+D+UkqETvvDY6jw==
 
-final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.0, final-form@^4.19.1, final-form@^4.20.1, final-form@^4.20.4, final-form@^4.20.7:
+final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.0, final-form@^4.19.1, final-form@^4.20.1, final-form@^4.20.4, final-form@^4.20.7, final-form@^4.20.9:
   version "4.20.9"
   resolved "https://registry.yarnpkg.com/final-form/-/final-form-4.20.9.tgz#647b459f8c504d77ec8f6e280015ab172982af2f"
   integrity sha512-shA1X/7v8RmukWMNRHx0l7+Bm41hOivY78IvOiBrPVHjyWFIyqqIEMCz7yTVRc9Ea+EU4WkZ5r4MH6whSo5taw==
@@ -9764,7 +9784,7 @@ postcss-calc@^8.2.3, postcss-calc@^8.2.4:
     postcss-selector-parser "^6.0.9"
     postcss-value-parser "^4.2.0"
 
-"postcss-color-function@github:folio-org/postcss-color-function":
+postcss-color-function@folio-org/postcss-color-function:
   version "4.1.0"
   resolved "https://codeload.github.com/folio-org/postcss-color-function/tar.gz/c128aad740ae740fb571c4b6493f467dd51efe85"
   dependencies:
@@ -10537,7 +10557,7 @@ react-fast-compare@^3.2.0:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.2.tgz#929a97a532304ce9fee4bcae44234f1ce2c21d49"
   integrity sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==
 
-react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.1, react-final-form-arrays@^3.1.2:
+react-final-form-arrays@^3.1.0, react-final-form-arrays@^3.1.1, react-final-form-arrays@^3.1.2, react-final-form-arrays@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/react-final-form-arrays/-/react-final-form-arrays-3.1.4.tgz#2744941d8fd200fc648481022e515588f60bbac3"
   integrity sha512-siVFAolUAe29rMR6u8VwepoysUcUdh6MLV2OWnCtKpsPRUdT9VUgECjAPaVMAH2GROZNiVB9On1H9MMrm9gdpg==
@@ -10732,7 +10752,7 @@ react-router-dom@^5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-router-prop-types@^1.0.4:
+react-router-prop-types@^1.0.4, react-router-prop-types@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/react-router-prop-types/-/react-router-prop-types-1.0.5.tgz#2e671d8412a793106bf70dc15c9ecc83ea4bc15b"
   integrity sha512-q1xlFU2ol2U5zeVbA5hyBuxD3scHenqgMgCTuJQUanA2SyG8A3Fb1S6DleOo1cnGJB5Q05hnLge64kRj+xsuPA==
