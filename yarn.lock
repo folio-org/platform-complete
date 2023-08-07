@@ -1311,11 +1311,11 @@
   integrity sha512-lAhycmKnVOuRYNtRtatQR1LPQf2oYCkRGkSFnseDAKPl8lu5SOsK/e1sXe5a0Pc5kHIHe6P2I/ilntNv2xf3cA==
 
 "@folio/acquisition-units@>=1.0.0":
-  version "4.0.100000123"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/acquisition-units/-/acquisition-units-4.0.100000123.tgz#560a6cb16f6881aa70a0c2913a081fe552fb6c67"
-  integrity sha512-my+SYsRJ54Nen1MnJkYV78JaHk5BHP4eUJ+irUZDxFs+hYEQU+0cKZAsg3Xx02mu3DfLJfH4VaoKb6hktsmV5Q==
+  version "5.0.100000148"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/acquisition-units/-/acquisition-units-5.0.100000148.tgz#e8093c06bcecc5e82288843ac56b8df812e01dc9"
+  integrity sha512-XLx2XUziLs9SN9r8yNO+uBFx8BlanaGBINn7+ufhZrMP/e97Km4y1dXdtQuF/dLez7V4EVnB/rr/25+ktqY/3w==
   dependencies:
-    "@folio/stripes-acq-components" "~4.0.0"
+    "@folio/stripes-acq-components" "~5.0.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
     query-string "^7.1.1"
@@ -1622,9 +1622,9 @@
     query-string "^7.1.2"
 
 "@folio/handler-stripes-registry@>=1.0.0":
-  version "1.5.10000064"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/handler-stripes-registry/-/handler-stripes-registry-1.5.10000064.tgz#e21c375ce0a3270f2c04df0d90374107df60a3ea"
-  integrity sha512-KtBxCyaTxUfOUX46nQqddOKQXFxB/BWCStncOMFATTNVZ+IADqSDvDBEMvjH7cMKqud9BRl98bRYj7wTF8qvzw==
+  version "2.0.10000081"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/handler-stripes-registry/-/handler-stripes-registry-2.0.10000081.tgz#d4184931e9b3f59601d6840fb67260dc78b5bdd3"
+  integrity sha512-892B/FZf0MzkE64HGCbst2nCX4SQz8GcluXkruehc6EuN8/6JcaiGNnmvCp2tc4ZfTHQPXZxeb/GKwOS4UiwIQ==
   dependencies:
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
@@ -2198,6 +2198,26 @@
     react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
 
+"@folio/stripes-acq-components@~5.0.0":
+  version "5.0.100000478"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-5.0.100000478.tgz#7032320c4fee5474737d7d3eeeca0a17116ae7d5"
+  integrity sha512-g/sIASy8yIPnPntqhwCF7uompbPgrgcWtFm4JMVv0OvCQ8/0kcSJnVQSdRKJrDZ151Mk5FBM2mun01Jp7GQ2Fg==
+  dependencies:
+    "@rehooks/local-storage" "^2.4.4"
+    classnames "^2.2.5"
+    dom-helpers "^3.4.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.2"
+    lodash "^4.17.11"
+    prop-types "^15.7.2"
+    query-string "^7.1.2"
+    react-beautiful-dnd "^13.1.0"
+    react-dropzone "^10.0.0"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.1"
+    react-virtualized-auto-sizer "^1.0.6"
+    redux-form "^8.3.0"
+
 "@folio/stripes-authority-components@>=2.0.0":
   version "3.0.100000535"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-3.0.100000535.tgz#fb32d9e93bcc4601dd132c6b2069bf50925bc01d"
@@ -2743,10 +2763,10 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jridgewell/resolve-uri@3.1.0":
-  version "3.1.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz#2203b118c157721addfe69d47b70465463066d78"
-  integrity sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==
+"@jridgewell/resolve-uri@^3.1.0":
+  version "3.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz#c08679063f279615a3326583ba3a90d1d82cc721"
+  integrity sha512-dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==
 
 "@jridgewell/set-array@^1.0.1":
   version "1.1.2"
@@ -2761,23 +2781,18 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jridgewell/sourcemap-codec@1.4.14":
-  version "1.4.14"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz#add4c98d341472a289190b424efbdb096991bb24"
-  integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
-
-"@jridgewell/sourcemap-codec@^1.4.10":
+"@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.14":
   version "1.4.15"
   resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
 "@jridgewell/trace-mapping@^0.3.17", "@jridgewell/trace-mapping@^0.3.9":
-  version "0.3.18"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/trace-mapping/-/trace-mapping-0.3.18.tgz#25783b2086daf6ff1dcb53c9249ae480e4dd4cd6"
-  integrity sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==
+  version "0.3.19"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@jridgewell/trace-mapping/-/trace-mapping-0.3.19.tgz#f8a3249862f91be48d3127c3cfe992f79b4b8811"
+  integrity sha512-kf37QtfW+Hwx/buWGMPcR60iF9ziHa6r/CZJIHbmcm4+0qrXiVdxegAH0F6yddEVQ7zdkjcGCgCzUu+BcbhQxw==
   dependencies:
-    "@jridgewell/resolve-uri" "3.1.0"
-    "@jridgewell/sourcemap-codec" "1.4.14"
+    "@jridgewell/resolve-uri" "^3.1.0"
+    "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@k-int/stripes-kint-components@^4.0.0", "@k-int/stripes-kint-components@^4.4.0", "@k-int/stripes-kint-components@^4.4.1", "@k-int/stripes-kint-components@^4.5.0", "@k-int/stripes-kint-components@^4.6.0":
   version "4.7.2"
