@@ -1580,10 +1580,28 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@>=0.0.0", "@folio/data-import@^6.0.0":
+"@folio/data-import@^6.0.0":
   version "6.0.8000001541"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-6.0.8000001541.tgz#2b239d0bbe85107ffc56dcb5d5329e08fa244319"
   integrity sha512-i4/MgZcDME5468xn4gm3ZqStcLtS++Hda65pfq/kSvqpxsvpqurUu6bASSZXhIwUXDS+/3Cs6L+4NwC3UlERVw==
+  dependencies:
+    "@folio/stripes-acq-components" "~4.0.0"
+    "@folio/stripes-data-transfer-components" "^5.4.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.17.21"
+    moment "~2.29.4"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "^4.0.0"
+
+"@folio/data-import@https://github.com/folio-org/ui-data-import.git#multiple-feature":
+  version "6.0.8"
+  resolved "https://github.com/folio-org/ui-data-import.git#d842e750f1436529d0a56cec1a14a067dff3e461"
   dependencies:
     "@folio/stripes-acq-components" "~4.0.0"
     "@folio/stripes-data-transfer-components" "^5.4.0"
@@ -2504,9 +2522,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-testing@^4.2.0":
-  version "4.6.10000012304"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.6.10000012304.tgz#0fd16ebdf994cc022ad2edd64d3b5ce466b4998c"
-  integrity sha512-Me7zDY3KTpanbD7ObQIfHwuu38BnhtylZY7l7PRYc0obfsCYuZRBrlCcG6qnQ1eQrGlccssL9qgncd44RpISsA==
+  version "4.6.10000012321"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.6.10000012321.tgz#d63e84249e1b4c5f9f9701f3103cbe2b550eca8d"
+  integrity sha512-w7lUByFx8H7OvAzehVOLkveqD1kRjEIVCOQjmKgiMe8lRwrLsbUML3ijKFA16LPzcopZ/1Ccw7QugkN+ydu+4A==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.4"
     axe-core "4.3.3"
@@ -11452,9 +11470,9 @@ streamroller@^3.1.5:
     fs-extra "^8.1.0"
 
 streamx@^2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.0.tgz#f58c92e6f726b5390dcabd6dd9094d29a854d698"
-  integrity sha512-HcxY6ncGjjklGs1xsP1aR71INYcsXFJet5CU1CHqihQ2J5nOsbd4OjgjHO42w/4QNv9gZb3BueV+Vxok5pLEXg==
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.1.tgz#396ad286d8bc3eeef8f5cea3f029e81237c024c6"
+  integrity sha512-fQMzy2O/Q47rgwErk/eGeLu/roaFWV0jVsogDmrszM9uIw8L5OA+t+V93MgYlufNptfjmYR1tOMWhei/Eh7TQA==
   dependencies:
     fast-fifo "^1.1.0"
     queue-tick "^1.0.1"
