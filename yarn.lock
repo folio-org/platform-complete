@@ -1622,11 +1622,11 @@
     prop-types "^15.6.0"
 
 "@folio/inn-reach@>=1.1.0":
-  version "3.0.100000354"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inn-reach/-/inn-reach-3.0.100000354.tgz#f8504ddeaadb9c7c2a3e600b1797884d8abe1818"
-  integrity sha512-Lfc9wgnP30rClAnqGJz+Ke2zkBrhVDtOavW58P8yoegIntfN9NMBP5YZtcrcSwaUwSBypApon5RUNlxDWjBTLw==
+  version "4.0.100000358"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inn-reach/-/inn-reach-4.0.100000358.tgz#9c560c8ffc0171b17fd43a0aab759157084a7860"
+  integrity sha512-mNKt9xXBe/d2hYBpIxkIy/bDs1T2RP5/6kDd3XVwcWbP2xGzEuoD1D8uWPvrkWDdZtprupFfyDy0FCsJARC39A==
   dependencies:
-    "@folio/stripes-data-transfer-components" "^5.2.0"
+    "@folio/stripes-data-transfer-components" "^6.0.0"
     "@folio/stripes-template-editor" "^3.0.0"
     classnames "^2.2.5"
     html-to-react "^1.3.3"
@@ -1638,7 +1638,7 @@
     react-to-print "^2.3.2"
     uuid "^8.3.2"
   optionalDependencies:
-    "@folio/plugin-find-user" "^6.3.0"
+    "@folio/plugin-find-user" "^7.0.0"
 
 "@folio/inventory@>=1.4.0":
   version "10.0.1000005133"
@@ -2348,10 +2348,23 @@
     rxjs "^6.6.3"
     use-deep-compare "^1.1.0"
 
-"@folio/stripes-data-transfer-components@^5.2.0", "@folio/stripes-data-transfer-components@^5.3.0", "@folio/stripes-data-transfer-components@^5.4.0", "@folio/stripes-data-transfer-components@~5.4.0":
+"@folio/stripes-data-transfer-components@^5.3.0", "@folio/stripes-data-transfer-components@^5.4.0", "@folio/stripes-data-transfer-components@~5.4.0":
   version "5.4.100000349"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-5.4.100000349.tgz#0e8198c5a1b9ee364c13adcc79c826ecffe99884"
   integrity sha512-u3mv45ZHDWBlxDJ7ODfkSq8aff4pfNTv57M16096ZQXgLOmyiagVHszUfwaQRWjZ6ZuUTFGo6z+z1O2Pazy2+w==
+  dependencies:
+    classnames "^2.2.5"
+    compose-function "^3.0.3"
+    lodash "^4.16.4"
+    prop-types "^15.6.0"
+    query-string "^7.1.2"
+    react-dropzone "^11.3.4"
+    react-router-prop-types "^1.0.4"
+
+"@folio/stripes-data-transfer-components@^6.0.0":
+  version "6.0.100000353"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-6.0.100000353.tgz#976bde6c0acc533b6a809c61752860b9a748fd34"
+  integrity sha512-hiZkZHBNWP8Bftsx/AM9gHf7c/Gmh9I+5UuHkVx4JellL3K88mbChs07ztOxO529XewX2QXeaP7lq2cgDFBtsw==
   dependencies:
     classnames "^2.2.5"
     compose-function "^3.0.3"
