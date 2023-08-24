@@ -1870,9 +1870,9 @@
     react-final-form-listeners "^1.0.2"
 
 "@folio/plugin-eusage-reports@>=1.0.0":
-  version "2.4.200000223"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-2.4.200000223.tgz#0256df6dac18d6198f076850e8b44b2f54a5f492"
-  integrity sha512-f30p0+aJg+jZeFi1qEHgp9R9Kr2AoMmrK63zVCuUOGITZXMfuTuqhBtg7xQnuAFj0gMa9clFMEdnU/aBg3FTbQ==
+  version "3.0.100000227"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-eusage-reports/-/plugin-eusage-reports-3.0.100000227.tgz#dde0ad0e0fa7b63962166765cc1478ffb1e1611c"
+  integrity sha512-JnjJVUTrnQh3vuk/3nmFxWCrxaDj43mu8is8cnmvQ/CnMZljbekv/Shgaoy1mB/F89RImK3xfr9tsZ+TyX2Dug==
   dependencies:
     chart.js "^2.6.0"
     lodash "^4.17.21"
@@ -1880,7 +1880,7 @@
     randomcolor "^0.6.2"
     react-chartjs-2 "^2.11.1"
   optionalDependencies:
-    "@folio/plugin-find-eresource" "^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
+    "@folio/plugin-find-eresource" "^6.0.0"
 
 "@folio/plugin-find-agreement@>=2.0.0":
   version "10.0.100000242"
@@ -1908,7 +1908,7 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-eresource@>=1.0.0":
+"@folio/plugin-find-eresource@>=1.0.0", "@folio/plugin-find-eresource@^6.0.0":
   version "6.0.100000218"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-6.0.100000218.tgz#427c98daf981137d78fff69ebcb00133a78f1feb"
   integrity sha512-3ALxJOnv8pKc2WfWoKp+shCiVcMHwuV/cYtH0kC4zn3onu05RG8AN7TyQ8thRPNnYZXc+5tivvts9d889PLnew==
@@ -1919,23 +1919,11 @@
     prop-types "^15.6.0"
     query-string "^7.1.1"
 
-"@folio/plugin-find-eresource@^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0":
-  version "5.1.100000210"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-eresource/-/plugin-find-eresource-5.1.100000210.tgz#1878384a8b1a19869df7c50692cdb999fde26b3a"
-  integrity sha512-p7R5uXUcmW28H4AyZ9HYoPG+p+rojyynPqMJfkJcNIA5kIV1k6ZXr1GWbtvQH7UkcE7D8EBXu24bBt5Bn3vyIA==
-  dependencies:
-    "@k-int/stripes-kint-components" "^4.0.0"
-    dom-helpers "^3.4.0"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-    query-string "^7.1.1"
-
 "@folio/plugin-find-erm-usage-data-provider@>=1.0.0":
-  version "5.0.100000127"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-erm-usage-data-provider/-/plugin-find-erm-usage-data-provider-5.0.100000127.tgz#20349fea34b6164df5aaceb318fff34bafb4fff2"
-  integrity sha512-NdF0EgDj0PZ9jp8j7sJG4tIcygbjGe9bQH30X3Y4kNGRJoZhS0M5JEVtlcmCOsy6HmrJcj8xiiFUX/YkUtgcsw==
+  version "6.0.100000145"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-erm-usage-data-provider/-/plugin-find-erm-usage-data-provider-6.0.100000145.tgz#7a881bc88ee17626a895b3c751ae162b0da639d5"
+  integrity sha512-gZLJ62iKPU2U3aySqjz1W/1PJg/i+ca7BJP3hp1NXPHBsIeIKyFozzjlFV6Go8emXyGvLQYCTtmB4O9L4rEfqA==
   dependencies:
-    "@folio/stripes-acq-components" "^4.0.0"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -2798,16 +2786,6 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
-
-"@k-int/stripes-kint-components@^4.0.0":
-  version "4.7.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-4.7.2.tgz#2f23e18fa443ddba528b32090e636a3c4948bcb9"
-  integrity sha512-aW0TzYkEYzYUCmpGgij+Hv5cp9wulKuR+hc1z3KFSacvIDhAsgAOBgwrhYsqtlehdgEzJM56f0qSZlCLb+J7kA==
-  dependencies:
-    "@rehooks/local-storage" "^2.4.4"
-    compose-function "^3.0.3"
-    react-resize-detector "^7.1.2"
-    zustand "^4.0.0"
 
 "@k-int/stripes-kint-components@^5.0.0":
   version "5.0.0"
@@ -7544,9 +7522,9 @@ jsonparse@^1.3.1:
   integrity sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==
 
 jspdf-autotable@^3.5.14:
-  version "3.5.31"
-  resolved "https://repository.folio.org/repository/npm-ci-all/jspdf-autotable/-/jspdf-autotable-3.5.31.tgz#95f0d113639560ba27339e6eb9e2601881839bcc"
-  integrity sha512-Lc1KuLGDQWW/5t57Z/+c2E94XQV3jV2QVU3xMRiwvcm/nMx79aCkpPCsxLzJZVFneZvz4XoA8+egQR1QajYiWw==
+  version "3.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/jspdf-autotable/-/jspdf-autotable-3.6.0.tgz#204157fba3dc0cd8a0ad4e28c47145b418102923"
+  integrity sha512-CxO+/WylWNpwEzRLoYXrBoYpv+GeWijZFn2nqGevzMaqqMr2acC5eRgBCaBNtoipzpyfBFbCdG/UsG1eonoLrw==
 
 jspdf@^2.3.1:
   version "2.5.1"
