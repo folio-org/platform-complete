@@ -768,9 +768,9 @@
     "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
 
 "@babel/plugin-transform-optional-chaining@^7.22.10", "@babel/plugin-transform-optional-chaining@^7.22.5":
-  version "7.22.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/plugin-transform-optional-chaining/-/plugin-transform-optional-chaining-7.22.11.tgz#062f0071f777aa06b31332cd90318d6b76444b74"
-  integrity sha512-7X2vGqH2ZKu7Imx0C+o5OysRwtF/wzdCAqmcD1N1v2Ww8CtOSC+p+VoV76skm47DLvBZ8kBFic+egqxM9S/p4g==
+  version "7.22.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@babel/plugin-transform-optional-chaining/-/plugin-transform-optional-chaining-7.22.12.tgz#d7ebf6a88cd2f4d307b0e000ab630acd8124b333"
+  integrity sha512-7XXCVqZtyFWqjDsYDY4T45w4mlx1rf7aOgkc/Ww76xkgBiOlmjPkx36PBLHa1k1rwWvVgYMPsbuVnIamx2ZQJw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.22.5"
     "@babel/helper-skip-transparent-expression-wrappers" "^7.22.5"
@@ -1484,7 +1484,26 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@>=0.0.0", "@folio/data-import@^6.0.0":
+"@folio/data-import@>=0.0.0":
+  version "7.0.1000001669"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-7.0.1000001669.tgz#5c261703995556ffeeef9f52fe9d461b67c181a9"
+  integrity sha512-qBuqNeuA1L/HFfIHqaxSsA2w56RvFLDkaccijZQWGtaNrmmE5c/0UlMn21UpSxYx443e239I1em5DSYHQ74Y9A==
+  dependencies:
+    "@folio/stripes-acq-components" "~5.0.0"
+    "@folio/stripes-data-transfer-components" "^6.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.17.21"
+    moment "~2.29.4"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "^4.0.0"
+
+"@folio/data-import@^6.0.0":
   version "6.0.8000001614"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-6.0.8000001614.tgz#ce789eee5a9643e3aa3c7d1b678e66b3d5878b85"
   integrity sha512-F0bHp3da9dbv00Kfmbme1C64A9JRkcgxZ4s0GI+pxGVoxgLt3tIi+1lrU5MshKIi27TFfpKSTC3IGuiMmzP13A==
