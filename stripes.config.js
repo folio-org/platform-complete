@@ -19,7 +19,7 @@ module.exports = {
     // '@folio/dashboard': {},
     '@folio/data-export' : {},
     '@folio/data-import' : {},
-    // '@folio/developer' : {},
+    '@folio/developer' : {},
     // '@folio/eholdings' : {},
     // '@folio/erm-comparisons' : {},
     // '@folio/erm-usage': {},
