@@ -4,7 +4,6 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build stripes.config.js",
-    "install": "yarn install --ignore-scripts",
     "postinstall": "npm rebuild sharp",
     "stripes": "stripes",
     "start": "stripes serve stripes.config.js",
@@ -25,7 +24,7 @@
     "@folio/courses": "5.4.0",
     "@folio/dashboard": "4.0.1",
     "@folio/data-export": "5.4.1",
-    "@folio/data-import": "6.0.9",
+    "@folio/data-import": "https://github.com/folio-org/ui-data-import#UIDATIMP-1509",
     "@folio/developer": "7.0.0",
     "@folio/eholdings": "8.0.3",
     "@folio/erm-comparisons": "5.0.0",
@@ -105,6 +104,7 @@
     "final-form": "^4.20.4",
     "minimist": "^1.2.3",
     "moment": "~2.29.1",
-    "redux-form": "^8.0.0"
+    "redux-form": "^8.0.0",
+    "@folio/data-import": "https://github.com/folio-org/ui-data-import#UIDATIMP-1509"
   }
 }
