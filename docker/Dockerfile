@@ -1,4 +1,4 @@
-FROM node:16-alpine as stripes_build
+FROM node:18-alpine as stripes_build
 
 ARG CXXFLAGS="-std=c++17"
 
