@@ -1,5 +1,7 @@
 FROM node:18-alpine as stripes_build
 
+ARG OKAPI_URL=http://localhost:9130
+ARG TENANT_ID=diku
 ARG CXXFLAGS="-std=c++17"
 
 RUN mkdir -p /etc/folio/stripes
@@ -14,11 +16,9 @@ RUN apk upgrade \
  && rm -rf /var/cache/apk/*
 RUN yarn config set python /usr/bin/python3
 
-RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
+RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
 RUN yarn install
 RUN yarn build-module-descriptors
-ARG OKAPI_URL=http://localhost:9130
-ARG TENANT_ID=diku
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 
 # nginx stage

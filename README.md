@@ -1,6 +1,7 @@
 # FOLIO complete platform
 
-Copyright (C) 2015-2023 The Open Library Foundation
+
+Copyright (C) 2015-2020 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
 Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
@@ -15,7 +16,7 @@ to generate client bundles along with a utility for generating
 module descriptors for each Stripes module.
 
 Please see the
-[quick start guide](https://github.com/folio-org/stripes/blob/master/doc/quick-start.md)
+[quick start guide](https://github.com/folio-org/stripes-core/blob/master/doc/quick-start.md)
 for more information.
 
 The `stripes.config.js` is a configuration for a specific tenant. In
@@ -24,49 +25,12 @@ include a different set of the available modules.  You can copy the
 `stripes.config.js` file to be your `stripes.config.js.local`
 configuration file.
 
-The `yarn.lock` and `*-install.json` files in this repository can be
-used to build a FOLIO system with the components that represent the
-latest, compatible set of FOLIO releases. For an example of how to deploy such a
-system, see the
-[Single Server Deployment Guide](https://juniper.docs.folio.org/docs/getting-started/installation/singleserverwithcontainers/).
-
-Descriptions of key files and key branches of this repository and
-how to change them are in the
-[Release Procedures](https://dev.folio.org/guidelines/release-procedures/#add-to-platforms)
-and in
-[DevOps - Install Backend Module](https://dev.folio.org/guides/devops-install-backend-module/#platform-explanation).
-
-## Supported releases
-
-The master branch is for the next flower release,
-[Morning Glory (R2-2022)](https://wiki.folio.org/pages/viewpage.action?pageId=79468624),
-it is work in progress.
-
-Only the two latest releases are supported with critical bug and security fixes:
-* Branch [R1-2022](https://github.com/folio-org/platform-complete/tree/R1-2022) and the
-  R1-2022-… tags of the [Lotus](https://wiki.folio.org/display/REL/Lotus+%28R1+2022%29+Release+Notes)
-  release
-* Branch [R3-2021](https://github.com/folio-org/platform-complete/tree/R3-2021) and the
-  R3-2021-… tags of the [Kiwi](https://wiki.folio.org/display/REL/Kiwi+%28R3+2021%29+Release+Notes)
-  release
-
-Older releases have reached end-of-life and are out of support.
-
 ## Installation
 
 Install platform dependencies
 ```
-$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
+$ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
 $ yarn install
-```
-
-Note: A sharp-libvips NPM dependency is not fully compatible with Nodejs v16 and will
-fail 'yarn install'.  To resolve this, set the following environment variable prior to
-running 'yarn install' when Nodejs version is v16+:
-
-```
-CXXFLAGS="-std=c++17" 
-
 ```
 
 ## Build and serve
@@ -133,28 +97,4 @@ Example running "new_user" test in `ui-users`:
 ```
 $ yarn test-regression --run users:new_user
 ```
-
-## Build stripes using the Dockerfile
-The included Dockerfile allows for building a container that serves the stripes platform using Nginx. Pass in the Okapi URL and tenant ID as build arguments. The defaults are shown below:
-
-```
-docker build -f docker/Dockerfile --no-cache=true \
-  --build-arg OKAPI_URL=http://localhost:9130 \
-  --build-arg TENANT_ID=diku -t stripes .
-```
-The nginx server name can be passed to the container at runtime. The default value is `localhost` if no argument is passed. For example, to have nginx use `127.0.0.1` as the server name:
-```
-docker run stripes 127.0.0.1
-```
-
-## Additional information
-
-[Finding what module versions are included in a flower release.](doc/finding-module-versions.md)
-
-[Finding which flower release a given installation runs.](https://lotus.docs.folio.org/docs/settings/system_software_versions/system_software_versions/)
-
-See project [FOLIO](https://issues.folio.org/browse/FOLIO)
-at the [FOLIO issue tracker](https://dev.folio.org/guidelines/issue-tracker/).
-
-Other FOLIO Developer documentation is at [dev.folio.org](https://dev.folio.org/)
 
