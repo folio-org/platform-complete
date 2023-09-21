@@ -1530,15 +1530,15 @@
     "@folio/plugin-find-organization" "^4.0.0"
 
 "@folio/developer@>=1.5.0":
-  version "8.0.100000483"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-8.0.100000483.tgz#eb1b4df671d836440ce297c1a6f403be73d96874"
-  integrity sha512-fKEBUZWrredvmj308lGYZiuOnQUAwCiybgyUOM+fGW5Pw/9qvVvXUHuKiNoqvB5t0AAcQEWkUt/dCJaQUpLqkg==
+  version "8.0.100000487"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-8.0.100000487.tgz#9871e44d4801174e3c4493546e2cd1449fa88bb0"
+  integrity sha512-NZ/hCks56PjlAjw/u11OEr7jAl5d/fAVYEt25WnS3QtRAz8x705KxAT+iWJ5KI/yZusSiwOsRHpQFo7+H1ILeQ==
   dependencies:
-    chart.js "^2.9.4"
+    chart.js "^4.4.0"
     ky "^0.23.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
-    react-chartjs-2 "^2.11.1"
+    react-chartjs-2 "^5.2.0"
     react-inspector "^6.0.0"
     react-query "^3.38.1"
 
@@ -1696,9 +1696,9 @@
     "@folio/plugin-find-instance" "^7.0.0"
 
 "@folio/invoice@>=1.0.0":
-  version "5.0.100000574"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-5.0.100000574.tgz#bd879781506c04d5fbd357be4d04add0863de572"
-  integrity sha512-42RZElx0thTK/Q/Dw8EQW1foa+/ptr/UAWgB57C3HUpCiRTebFFN2Bqpfd14WaAevEwvmg3RPemED5LFBBq43g==
+  version "5.0.100000577"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/invoice/-/invoice-5.0.100000577.tgz#90c24c696b894f642974e10f99642955ca66f064"
+  integrity sha512-T2mKHmpzuVhyqEQjvtWskMfxOWv2S1+9oFt2aEjpkptflg2egLX/Mkt576nHN1jx4nBypXP4KuPzhBpwvUs1Tw==
   dependencies:
     "@folio/stripes-acq-components" "~5.0.0"
     file-saver "^2.0.0"
@@ -2846,6 +2846,11 @@
     compose-function "^3.0.3"
     react-resize-detector "^7.1.2"
     zustand "^4.0.0"
+
+"@kurkle/color@^0.3.0":
+  version "0.3.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@kurkle/color/-/color-0.3.2.tgz#5acd38242e8bde4f9986e7913c8fdf49d3aa199f"
+  integrity sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==
 
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
@@ -4241,13 +4246,20 @@ chardet@^0.7.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chart.js@^2.6.0, chart.js@^2.9.3, chart.js@^2.9.4:
+chart.js@^2.6.0, chart.js@^2.9.3:
   version "2.9.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/chart.js/-/chart.js-2.9.4.tgz#0827f9563faffb2dc5c06562f8eb10337d5b9684"
   integrity sha512-B07aAzxcrikjAPyV+01j7BmOpxtQETxTSlQ26BEYJ+3iUkbNKaOJ/nDbT6JjyqYxseM0ON12COHYdU2cTIjC7A==
   dependencies:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
+
+chart.js@^4.4.0:
+  version "4.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/chart.js/-/chart.js-4.4.0.tgz#df843fdd9ec6bd88d7f07e2b95348d221bd2698c"
+  integrity sha512-vQEj6d+z0dcsKLlQvbKIMYFHd3t8W/7L2vfJIbYcfyPcRx92CsHqECpueN8qVGNlKyDcr5wBrYAYKnfu/9Q1hQ==
+  dependencies:
+    "@kurkle/color" "^0.3.0"
 
 chartjs-color-string@^0.6.0:
   version "0.6.0"
@@ -8882,6 +8894,11 @@ react-chartjs-2@^2.11.1:
     lodash "^4.17.19"
     prop-types "^15.7.2"
 
+react-chartjs-2@^5.2.0:
+  version "5.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/react-chartjs-2/-/react-chartjs-2-5.2.0.tgz#43c1e3549071c00a1a083ecbd26c1ad34d385f5d"
+  integrity sha512-98iN5aguJyVSxp5U3CblRLH67J8gkfyGNbiK3c+l1QI/G4irHMPQw44aEPmjVag+YKTyQ260NcF82GTQ3bdscA==
+
 react-codemirror2@^7.2.1:
   version "7.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-codemirror2/-/react-codemirror2-7.2.1.tgz#38dab492fcbe5fb8ebf5630e5bb7922db8d3a10c"
@@ -10570,9 +10587,9 @@ unpipe@1.0.0, unpipe@~1.0.0:
   integrity sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 
 update-browserslist-db@^1.0.11:
-  version "1.0.12"
-  resolved "https://repository.folio.org/repository/npm-ci-all/update-browserslist-db/-/update-browserslist-db-1.0.12.tgz#868ce670ac09b4a4d4c86b608701c0dee2dc41cd"
-  integrity sha512-tE1smlR58jxbFMtrMpFNRmsrOXlpNXss965T1CrpwuZUzUAg/TBQc94SpyhDLSzrqrJS9xTRBthnZAGcE1oaxg==
+  version "1.0.13"
+  resolved "https://repository.folio.org/repository/npm-ci-all/update-browserslist-db/-/update-browserslist-db-1.0.13.tgz#3c5e4f5c083661bd38ef64b6328c26ed6c8248c4"
+  integrity sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
