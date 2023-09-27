@@ -35,6 +35,8 @@ module.exports = {
     '@folio/plugin-find-user' : {},
     '@folio/quick-marc' : {},
     '@folio/marc-authorities': {},
+    '@folio/receiving' : {},
+    '@folio/requests' : {},
     '@folio/stripes-authority-components' : {},
     '@folio/stripes-erm-components' : {},
     '@folio/tags' : {},
