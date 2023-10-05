@@ -1404,12 +1404,12 @@
     "@folio/plugin-find-user" "^6.3.0"
 
 "@folio/agreements@>=2.0.0":
-  version "10.0.1000001179"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-10.0.1000001179.tgz#f58325aea3c652bdd68291a682b1253c8eba40dd"
-  integrity sha512-1FNCBupvOVPaLCUHi54ZU0FVgvd1YKurp+aJuA3zcwaPPgJWwy8bg8o7C6Z/i1x8zFmkPGVJ6l+sIi49uYNKBQ==
+  version "10.0.1000001210"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-10.0.1000001210.tgz#b25be6ab718d8c643f1d852998b512a7c3b82335"
+  integrity sha512-/Nt0chq3nLIV2VjmvtHyKtjZnGe91drEjtrA1m+z5nXqB8KHnVPIAuJfgPsmiYuRgsG0M2NzrYDRQP25ieScIw==
   dependencies:
     "@folio/stripes-acq-components" "^4.0.0"
-    "@k-int/stripes-kint-components" "^5.0.0"
+    "@k-int/stripes-kint-components" "^5.1.0"
     "@rehooks/local-storage" "^2.4.4"
     compose-function "^3.0.3"
     final-form "^4.18.4"
@@ -1760,9 +1760,9 @@
     "@folio/plugin-find-user" "^7.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "10.0.1000005541"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-10.0.1000005541.tgz#407ad52bd138da00b9d0f5b1d0a1ee4bb9f7406c"
-  integrity sha512-LRcS/PXoLlCkzzQWjdGAtHThkXQP+0AYxsxcCUFpzttOGxyhN3CXLGFVSzUIOw17/P8hWi3Pr7CaHqLcIBtv5Q==
+  version "10.0.1000005544"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-10.0.1000005544.tgz#8b1b6e96a357ec131bb37557fe0bae4470f2ecfe"
+  integrity sha512-b0FlqIrgrgsXPLMNgAEgC2ijGb5kmDOb6xTLksWGt22IUEewLcd4WVxYiytyZZsO8tycIDKyICtLKCF1ffLUBg==
   dependencies:
     "@folio/quick-marc" "^7.0.0"
     "@folio/stripes-acq-components" "^4.0.0"
@@ -2621,11 +2621,12 @@
     minimist "^1.2.0"
 
 "@folio/stripes-testing@^4.2.0":
-  version "4.6.10000014856"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.6.10000014856.tgz#efd7a22d73e1d1dfd639582f239dc6c8a48374ae"
-  integrity sha512-1k34xmX2sUcoPgz6AlTYsIncpLu2AiVErIAuN7tDONVrQndpzsJqIWB4BIUsP8cht0yxzx1VsqPPbFeAyTK8KA==
+  version "4.6.10000014878"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.6.10000014878.tgz#fdf813c18975aad131a0ba37a59745df65ba1a20"
+  integrity sha512-QFgnN8bdNsWE4l/qEZPE7UVlEaZVY3fLtputc027ZnP/H6bWhtT8KUMjhhH67wP7q1/R8r282cXQ6bgcwHJ07A==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.4"
+    "@interactors/keyboard" "^1.0.0-rc1.5"
     axe-core "4.3.3"
     cypress "10.9.0"
     cypress-cloud "^1.9.3"
@@ -2897,7 +2898,7 @@
     "@interactors/core" "1.0.0-rc1.5"
     "@interactors/keyboard" "1.0.0-rc1.5"
 
-"@interactors/keyboard@1.0.0-rc1.5":
+"@interactors/keyboard@1.0.0-rc1.5", "@interactors/keyboard@^1.0.0-rc1.5":
   version "1.0.0-rc1.5"
   resolved "https://registry.yarnpkg.com/@interactors/keyboard/-/keyboard-1.0.0-rc1.5.tgz#ce19fd35a4b753b86ceb7df88daaf2964274c166"
   integrity sha512-I0n+fIrMneJhMncsLwyA6fH5v/CAi1LUge1ryRUGOXA1m0eUMcj/ZvpyhtNjAWyw3EWRZvWg6hB/EO7JB3Zpxw==
@@ -2979,7 +2980,7 @@
     react-resize-detector "^7.1.2"
     zustand "^4.0.0"
 
-"@k-int/stripes-kint-components@^5.0.0":
+"@k-int/stripes-kint-components@^5.0.0", "@k-int/stripes-kint-components@^5.1.0":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@k-int/stripes-kint-components/-/stripes-kint-components-5.1.1.tgz#0bd367985a339796b4a2da75f457cdd5ae59245e"
   integrity sha512-UG7SED+s8H8sL7Kom+D9YMOSrmyWuaxJ3ZiVBuNc+QEuyGfC95H1/dEOHh8Quh0KUcYycOEUv1yfukL7QjhXNw==
@@ -3457,7 +3458,7 @@
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
   integrity sha512-oh/6byDPnL1zeNXFrDXFLyZjkr1MsBG667IM792caf1L2UPOOMf65NFzjUH/ltyfwjAGfs1rsX1eftK0jC/KIg==
 
-"@types/http-cache-semantics@*", "@types/http-cache-semantics@^4.0.1":
+"@types/http-cache-semantics@*", "@types/http-cache-semantics@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.2.tgz#abe102d06ccda1efdf0ed98c10ccf7f36a785a41"
   integrity sha512-FD+nQWA2zJjh4L9+pFXqWOi0Hs1ryBCfI+985NjluQ1p8EYtoLvjLOKidXBtZ4/IcxDX4o8/E8qDS3540tNliw==
@@ -4546,11 +4547,11 @@ cacheable-lookup@^7.0.0:
   integrity sha512-+qJyx4xiKra8mZrcwhjMRMUhD5NR1R8esPkzIYxX96JiecFoxAXFuz/GpR3+ev4PE1WamHip78wV0vcmPQtp8w==
 
 cacheable-request@^10.2.8:
-  version "10.2.13"
-  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-10.2.13.tgz#b7012bb4a2acdb18cb54d2dff751d766b3500842"
-  integrity sha512-3SD4rrMu1msNGEtNSt8Od6enwdo//U9s4ykmXfA2TD58kcLkCobtCDiby7kNyj7a/Q7lz/mAesAFI54rTdnvBA==
+  version "10.2.14"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-10.2.14.tgz#eb915b665fda41b79652782df3f553449c406b9d"
+  integrity sha512-zkDT5WAF4hSSoUgyfg5tFIxz8XQK+25W/TLVojJTMKBaxevLBBtLxgqguAuVQB8PVW79FVjHcU+GJ9tVbDZ9mQ==
   dependencies:
-    "@types/http-cache-semantics" "^4.0.1"
+    "@types/http-cache-semantics" "^4.0.2"
     get-stream "^6.0.1"
     http-cache-semantics "^4.1.1"
     keyv "^4.5.3"
@@ -6034,9 +6035,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.542"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.542.tgz#9bfe19d8ddafc2591e4a17d04e60a5f5acc54965"
-  integrity sha512-6+cpa00G09N3sfh2joln4VUXHquWrOFx3FLZqiVQvl45+zS9DskDBTPvob+BhvFRmTBkyDSk0vvLMMRo/qc6mQ==
+  version "1.4.543"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.543.tgz#51116ffc9fba1ee93514d6a40d34676aa6d7d1c4"
+  integrity sha512-t2ZP4AcGE0iKCCQCBx/K2426crYdxD3YU6l0uK2EO3FZH0pbC4pFz/sZm2ruZsND6hQBTcDWWlo/MLpiOdif5g==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
@@ -13091,8 +13092,8 @@ zen-observable@0.8.15:
   integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
 
 zustand@^4.0.0, zustand@^4.1.5:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.4.2.tgz#e26ad331d0a2e28a7d4aa126b00c7140b34904bb"
-  integrity sha512-qF3/vZHCrjPUX5DvPE3DPDZlh+FiAWRKlP9PI7SlW1MCk8q4vUCDqyWsbF8K41ne0Yx8eeeb0m1cypn1LqUMYQ==
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.4.3.tgz#1d54cf7fa4507ad8bf58e2f13e08ddc8a6730128"
+  integrity sha512-oRy+X3ZazZvLfmv6viIaQmtLOMeij1noakIsK/Y47PWYhT8glfXzQ4j0YcP5i0P0qI1A4rIB//SGROGyZhx91A==
   dependencies:
     use-sync-external-store "1.2.0"
