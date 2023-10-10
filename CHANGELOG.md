@@ -4,6 +4,8 @@
 
 * Bump `react` to `^18.2.0`, `stripes` to `^9.0.0`, `stripes-cli` to `3.0.0`. Refs STRIPES-870.
 * Bump `stripes-erm-components` to `^9.0.0`. Refs ERM-2989.
+* Bump `react-intl` to `^6.4.4`. Refs STRIPES-868.
+* Bump `react-titled` to `^2.0.0`.
 
 # 2023-R1, Orchid
 
