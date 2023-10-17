@@ -40,6 +40,7 @@ module.exports = {
     '@folio/oai-pmh' : {},
     '@folio/orders': {},
     '@folio/organizations' : {},
+    '@folio/plugin-bursar-export' : {},
     '@folio/plugin-create-inventory-records' : {},
     '@folio/plugin-eusage-reports' : {},
     '@folio/plugin-find-agreement': {},
