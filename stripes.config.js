@@ -19,7 +19,6 @@ module.exports = {
     '@folio/checkout': {},
     '@folio/circulation': {},
     '@folio/circulation-log': {},
-    '@folio/consortia-settings': {},
     '@folio/courses': {},
     '@folio/data-import': {},
     '@folio/data-export': {},
