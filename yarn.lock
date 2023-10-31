@@ -1514,12 +1514,13 @@
     "@folio/plugin-find-organization" "^5.0.0"
 
 "@folio/developer@>=1.5.0":
-  version "8.0.100000512"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-8.0.100000512.tgz#840aa61cdd8c46c6ad710ef9a7f9b6cb0843566f"
-  integrity sha512-dN7/negTXQoveblqtWL9XnNAvJX5W3TF+ufcAKlAPf5CpkP+Us/2BUXrcdoI8S3AB93MW+Hg+XUpxCv4qhGJhg==
+  version "8.0.100000522"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/developer/-/developer-8.0.100000522.tgz#99565709f84c27b34b4ec10e613b8f7358914ceb"
+  integrity sha512-yiimopMG1AXdDjhPTc9lPuB3El0wGUUjCRK0YULh+JMD46qhmXoiZ56ADLQ7MmaHeKwIdpnqAwMcqNeA8XZyeg==
   dependencies:
     chart.js "^4.4.0"
     ky "^0.23.0"
+    localforage "^1.10.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
     react-chartjs-2 "^5.2.0"
@@ -2290,9 +2291,9 @@
     uuid "^9.0.0"
 
 "@folio/stripes-core@~10.1.0":
-  version "10.1.1000001426"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-10.1.1000001426.tgz#f6ae381e9cd440498e5b66e52ff484984989d884"
-  integrity sha512-tc6YKYS/QfkZ9l1RvdCbpRQ1z6rcnDeyWlUs9qVLql06/Agfawt3sI4kcPQE5mm15jWrUewIyJOiF8oRhkieMw==
+  version "10.1.1000001431"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-10.1.1000001431.tgz#f7c8d27cb5e37ba5da4324cd5462874a4d106f25"
+  integrity sha512-Xo7xpvdDNyeCua16qs/lfOEd9D4RtjEOsVgS9I+hm/WtU+BKuOmmrZ9nMwywxZgZyt436smQD02RG2fS7zFapw==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -2301,6 +2302,7 @@
     graphql "^16.0.0"
     history "^4.6.3"
     hoist-non-react-statics "^3.3.0"
+    inactivity-timer "^1.0.0"
     jwt-decode "^3.1.2"
     ky "^0.23.0"
     localforage "^1.5.6"
@@ -2393,9 +2395,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~9.1.0":
-  version "9.1.1000001829"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-9.1.1000001829.tgz#295b24bc5502d2adabcd8cae471d27dbc7d72387"
-  integrity sha512-a9I29Hyel19ojEheP5u0CwvjmQRMT3dsMvWsCsdvVOY5wjMu4Wyud/OtifqEYvtC6pEA8tZw3BfRQJ6GxcDsPQ==
+  version "9.1.1000001832"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-9.1.1000001832.tgz#dfb9ee07a10973303593bbdd9d57cd1b89dda7b1"
+  integrity sha512-faTrZeva9Eb3nql9xoGgW54eXAxk8Trvr9O/EVrhwFgN99Jwy3J+LWVXA5J6CMTHBtTwK3+1OWRKTjFnXvYdVQ==
   dependencies:
     "@rehooks/local-storage" "^2.4.4"
     classnames "^2.2.6"
@@ -2468,9 +2470,9 @@
     query-string "^7.1.2"
 
 "@folio/stripes-webpack@^5.0.0":
-  version "5.0.100000520"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-5.0.100000520.tgz#907e4d21927805dd648b66e689c45fd54c84ac3a"
-  integrity sha512-EEtPgZgP86JrYV3UCh22ZGlF7Pbl6JxbnAg/5x1KpbBXNlLQSTDXUBcfr6iwwDYpWhWXZanODvWqRassIbsv5g==
+  version "5.0.100000551"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-5.0.100000551.tgz#bcd14ad3eead00a6d57ee399726e2d3e539353bc"
+  integrity sha512-ye32J/GWgaIK3wGMk/R0goBf0X3bs8hQThHaVBGhgszmdhp21ve3AqpgYQmgKKRoOsIkFRr8HSTf9usj4xLtqA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-decorators" "^7.0.0"
@@ -5213,9 +5215,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.570"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.570.tgz#5fb79061ead248a411bc8532da34d1dbf6ae23c1"
-  integrity sha512-5GxH0PLSIfXKOUMMHMCT4M0olwj1WwAxsQHzVW5Vh3kbsvGw8b4k7LHQmTLC2aRhsgFzrF57XJomca4XLc/WHA==
+  version "1.4.571"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.4.571.tgz#8aa71539eb82db98740c3ec861256cc34e0356fd"
+  integrity sha512-Sc+VtKwKCDj3f/kLBjdyjMpNzoZsU6WuL/wFb6EH8USmHEcebxRXcRrVpOpayxd52tuey4RUDpUsw5OS5LhJqg==
 
 element-is-visible@^1.0.0:
   version "1.0.0"
@@ -7357,7 +7359,7 @@ loader-utils@^2.0.0, loader-utils@^2.0.4:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-localforage@^1.5.6, localforage@^1.9.0:
+localforage@^1.10.0, localforage@^1.5.6, localforage@^1.9.0:
   version "1.10.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/localforage/-/localforage-1.10.0.tgz#5c465dc5f62b2807c3a84c0c6a1b1b3212781dd4"
   integrity sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==
