@@ -74,6 +74,7 @@ module.exports = {
     '@folio/servicepoints' : {},
     '@folio/stripes-authority-components' : {},
     '@folio/stripes-erm-components' : {},
+    '@folio/stripes-marc-components' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
     '@folio/users' : {}
