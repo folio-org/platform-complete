@@ -1,5 +1,9 @@
 # Change history for platform-complete
 
+# 2024-R1, Ramsons
+
+* Preserve console log on logout, at least for reference envs. Refs STCOR-761.
+
 # 2023-R2, Poppy (IN PROGRESS)
 
 * Bump `react` to `^18.2.0`, `stripes` to `^9.0.0`, `stripes-cli` to `3.0.0`. Refs STRIPES-870.
