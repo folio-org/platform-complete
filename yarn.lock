@@ -2061,9 +2061,9 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-query-builder@>=1.0.0":
-  version "1.0.100000595"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.100000595.tgz#7ef7f77a40826f7c66171ee05cc08fdf71183983"
-  integrity sha512-rbZVVdfpsDbCFwtrZYrHfQKyqs76FYurUl/pKrds04otIQoxdpUIPrG61WrU2JHR9mzKch3oBm34n2V6XePA4w==
+  version "1.0.100000599"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.100000599.tgz#a4ef8d4ce479c7865d34c5dcdc1e15b05475d8a3"
+  integrity sha512-R9FrUr+dyOp6cvxg1jEr5ittLsjUXL/WxthiQOaQgAfJ74McmQFnuAvB6PYezRyfiozAT1uWur26jO9KEPSthg==
   dependencies:
     "@folio/stripes-acq-components" "~5.0.0"
     "@tanstack/react-query" "4.29.5"
@@ -4136,7 +4136,7 @@ caching-transform@^4.0.0:
     package-hash "^4.0.0"
     write-file-atomic "^3.0.0"
 
-call-bind@^1.0.0, call-bind@^1.0.2:
+call-bind@^1.0.0, call-bind@^1.0.2, call-bind@^1.0.5:
   version "1.0.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/call-bind/-/call-bind-1.0.5.tgz#6fa2b7845ce0ea49bf4d8b9ef64727a2c2e2e513"
   integrity sha512-C3nQxfFZxFRVoJoGKKI8y3MOEo129NQ+FgQ08iye+Mk4zNZZGdjfs06bVTr+DBSlA66Q2VEcMki/cUCP4SercQ==
@@ -6942,6 +6942,11 @@ isarray@0.0.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
   integrity sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==
 
+isarray@^2.0.5:
+  version "2.0.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
+  integrity sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==
+
 isbinaryfile@^4.0.8:
   version "4.0.10"
   resolved "https://repository.folio.org/repository/npm-ci-all/isbinaryfile/-/isbinaryfile-4.0.10.tgz#0c5b5e30c2557a2f06febd37b7322946aaee42b3"
@@ -7124,11 +7129,14 @@ json-stable-stringify-without-jsonify@^1.0.1:
   integrity sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
 
 json-stable-stringify@^1.0.1:
-  version "1.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/json-stable-stringify/-/json-stable-stringify-1.0.2.tgz#e06f23128e0bbe342dc996ed5a19e28b57b580e0"
-  integrity sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==
+  version "1.1.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/json-stable-stringify/-/json-stable-stringify-1.1.0.tgz#43d39c7c8da34bfaf785a61a56808b0def9f747d"
+  integrity sha512-zfA+5SuwYN2VWqN1/5HZaDzQKLJHaBVMZIIM+wuYjdptkaQsqzDdqjqf+lZZJUuJq1aanHiY8LhH8LmH+qBYJA==
   dependencies:
+    call-bind "^1.0.5"
+    isarray "^2.0.5"
     jsonify "^0.0.1"
+    object-keys "^1.1.1"
 
 json2csv@^4.2.1:
   version "4.5.4"
