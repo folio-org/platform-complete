@@ -3,6 +3,7 @@
 # 2024-R1, Ramsons
 
 * Preserve console log on logout, at least for reference envs. Refs STCOR-761.
+* RTR via overriding global methods. Refs FOLIO-3627.
 
 # 2023-R2, Poppy (IN PROGRESS)
 
