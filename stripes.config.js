@@ -10,6 +10,7 @@ module.exports = {
     maxUnpagedResourceCount: 2000,
     showPerms: false,
     preserveConsole: true,
+    useSecureTokens: true,
   },
 
   modules: {
