@@ -1180,12 +1180,30 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-1.0.5.tgz#c4d276e32787651df0007af22c9fa70d9c9ca3c2"
   integrity sha512-v/5ODKNBMfBl0us/WQjlfsvSlYxfZLhNMVIsuCPib2ulTwGKYbKJbwqw671+qH9Y4wvWVnu7LBChvml/wBKjFg==
 
-"@csstools/css-parser-algorithms@^2.2.0":
+"@csstools/color-helpers@^3.0.2":
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/color-helpers/-/color-helpers-3.0.2.tgz#6571d289af8bfcc3a8d75357b35e6d17a8ba6848"
+  integrity sha512-NMVs/l7Y9eIKL5XjbCHEgGcG8LOUT2qVcRjX6EzkCdlvftHVKr2tHIPzHavfrULRZ5Q2gxrJ9f44dAlj6fX97Q==
+
+"@csstools/css-calc@^1.1.4":
+  version "1.1.4"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-calc/-/css-calc-1.1.4.tgz#70bf4c5b379cdc256d3936bf4a21e3a3454a3d68"
+  integrity sha512-ZV1TSmToiNcQL1P3hfzlzZzA02mmVkVmXGaUDUqpYUG84PmLhVSZpKX+KfxAuOcK7de04UXSQPBrAvaya6iiGg==
+
+"@csstools/css-color-parser@^1.4.0":
+  version "1.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-color-parser/-/css-color-parser-1.4.0.tgz#c8517457dcb6ad080848b1583aa029ab61221ce8"
+  integrity sha512-SlGd8E6ron24JYQPQAIzu5tvmWi1H4sDKTdA7UDnwF45oJv7AVESbOlOO1YjfBhrQFuvLWUgKiOY9DwGoAxwTA==
+  dependencies:
+    "@csstools/color-helpers" "^3.0.2"
+    "@csstools/css-calc" "^1.1.4"
+
+"@csstools/css-parser-algorithms@^2.2.0", "@csstools/css-parser-algorithms@^2.3.2":
   version "2.3.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.3.2.tgz#1e0d581dbf4518cb3e939c3b863cb7180c8cedad"
   integrity sha512-sLYGdAdEY2x7TSw9FtmdaTrh2wFtRJO5VMbBrA8tEqEod7GEggFmxTSK9XqExib3yMuYNcvcTdCZIP6ukdjAIA==
 
-"@csstools/css-tokenizer@^2.1.1":
+"@csstools/css-tokenizer@^2.1.1", "@csstools/css-tokenizer@^2.2.1":
   version "2.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/css-tokenizer/-/css-tokenizer-2.2.1.tgz#9dc431c9a5f61087af626e41ac2a79cce7bb253d"
   integrity sha512-Zmsf2f/CaEPWEVgw29odOj+WEVoiJy9s9NOv5GgNY9mZ1CZ7394By6wONrONrTsnNDv6F9hR02nvFihrGVGHBg==
@@ -1194,6 +1212,23 @@
   version "2.1.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/media-query-list-parser/-/media-query-list-parser-2.1.5.tgz#94bc8b3c3fd7112a40b7bf0b483e91eba0654a0f"
   integrity sha512-IxVBdYzR8pYe89JiyXQuYk4aVVoCPhMJkz6ElRwlVysjwURTsTk/bmY/z4FfeRE+CRBMlykPwXEVUg8lThv7AQ==
+
+"@csstools/postcss-progressive-custom-properties@^3.0.2":
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/postcss-progressive-custom-properties/-/postcss-progressive-custom-properties-3.0.2.tgz#0c18152160a425950cb69a12a9add55af4f688e7"
+  integrity sha512-YEvTozk1SxnV/PGL5DllBVDuLQ+jiQhyCSQiZJ6CwBMU5JQ9hFde3i1qqzZHuclZfptjrU0JjlX4ePsOhxNzHw==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-relative-color-syntax@^2.0.7":
+  version "2.0.7"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@csstools/postcss-relative-color-syntax/-/postcss-relative-color-syntax-2.0.7.tgz#1d017aa25e3cda513cf00401a91899e9d3b83659"
+  integrity sha512-2AiFbJSVF4EyymLxme4JzSrbXykHolx8DdZECHjYKMhoulhKLltx5ccYgtrK3BmXGd3v3nJrWFCc8JM8bjuiOg==
+  dependencies:
+    "@csstools/css-color-parser" "^1.4.0"
+    "@csstools/css-parser-algorithms" "^2.3.2"
+    "@csstools/css-tokenizer" "^2.2.1"
+    "@csstools/postcss-progressive-custom-properties" "^3.0.2"
 
 "@csstools/selector-specificity@^2.0.0":
   version "2.2.0"
@@ -2512,9 +2547,9 @@
     query-string "^7.1.2"
 
 "@folio/stripes-webpack@^5.0.0":
-  version "5.1.100000568"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-5.1.100000568.tgz#584f6277ecf346ae26cce0f545151d2461800403"
-  integrity sha512-5uqcpfWVU2HMbaxc2dCpXgCm4Af8g8pd/CrEseB+stMsYFSTGnaiw6OsgmppsAT4r8oQrHKfwZ47RYRn0KjYBA==
+  version "5.1.100000574"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-5.1.100000574.tgz#c1dd0809be164412bfa55ed898fa6ba0dd619066"
+  integrity sha512-56BfjbNl0II+TzmVtz52tRu/8BkbgmEzW8jPPRFyf5gW+LN2sO923ao++uppCegBAY3UYY0ZWFXTtjJqIb1qcA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-decorators" "^7.0.0"
@@ -2532,6 +2567,7 @@
     "@babel/preset-typescript" "^7.7.7"
     "@babel/register" "^7.0.0"
     "@cerner/duplicate-package-checker-webpack-plugin" "~2.1.0"
+    "@csstools/postcss-relative-color-syntax" "^2.0.7"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.4"
     "@svgr/webpack" "^8.1.0"
     add-asset-html-webpack-plugin "^5.0.2"
