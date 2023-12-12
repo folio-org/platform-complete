@@ -2549,9 +2549,9 @@
     query-string "^7.1.2"
 
 "@folio/stripes-webpack@^5.0.0":
-  version "5.1.100000574"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-5.1.100000574.tgz#c1dd0809be164412bfa55ed898fa6ba0dd619066"
-  integrity sha512-56BfjbNl0II+TzmVtz52tRu/8BkbgmEzW8jPPRFyf5gW+LN2sO923ao++uppCegBAY3UYY0ZWFXTtjJqIb1qcA==
+  version "5.1.100000580"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-5.1.100000580.tgz#a44f5d7e245e545a169e231d3f5534ee4408835e"
+  integrity sha512-v1H1+U8LD0/5AbUW1Qik1tj389IrHHA6GKIkKjA4DaF+IlRpj4OiQQHbTxZbIiCYZpiLoQMxEJ0UhsNh/dTdJg==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-decorators" "^7.0.0"
@@ -2572,7 +2572,7 @@
     "@csstools/postcss-relative-color-syntax" "^2.0.7"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.4"
     "@svgr/webpack" "^8.1.0"
-    add-asset-html-webpack-plugin "^5.0.2"
+    add-asset-html-webpack-plugin "^6.0.0"
     autoprefixer "^10.4.13"
     babel-loader "^9.1.3"
     babel-plugin-remove-jsx-attributes "^0.0.2"
@@ -2592,7 +2592,7 @@
     handlebars-loader "^1.7.1"
     html-webpack-plugin "^5.3.2"
     lodash "^4.17.21"
-    mini-css-extract-plugin "^1.6.2"
+    mini-css-extract-plugin "^2.7.6"
     node-object-hash "^1.2.0"
     postcss "^8.4.2"
     postcss-calc "^9.0.1"
@@ -3580,10 +3580,10 @@ acorn@^8.0.4, acorn@^8.7.1, acorn@^8.8.2:
   resolved "https://repository.folio.org/repository/npm-ci-all/acorn/-/acorn-8.11.2.tgz#ca0d78b51895be5390a5903c5b3bdcdaf78ae40b"
   integrity sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==
 
-add-asset-html-webpack-plugin@^5.0.2:
-  version "5.0.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/add-asset-html-webpack-plugin/-/add-asset-html-webpack-plugin-5.0.2.tgz#84b33492f5ecd8458b3926f0e308a61f0aca2569"
-  integrity sha512-tvizXk9TU8+0BMpygyLl3/ELnCkMfEFxBvrU1bbtgJMs+ZOZdXpAgM6zRljxtV6UsPIOVhcIUmZG9GYeaGiEJQ==
+add-asset-html-webpack-plugin@^6.0.0:
+  version "6.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/add-asset-html-webpack-plugin/-/add-asset-html-webpack-plugin-6.0.0.tgz#011bbafb70e5975e1916f61896f07a49281644d1"
+  integrity sha512-W5uv10hFCsYFwG6EM2pbV/RqLZT04jiUbR9uAaPSc2LC8XiGkEOfDtBagKzNxEKudK7i3EKWwPaFr8talsEb7g==
   dependencies:
     globby "^11.1.0"
     micromatch "^4.0.4"
@@ -7809,14 +7809,12 @@ mimic-response@^4.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/mimic-response/-/mimic-response-4.0.0.tgz#35468b19e7c75d10f5165ea25e75a5ceea7cf70f"
   integrity sha512-e5ISH9xMYU0DzrT+jl8q2ze9D6eWBto+I8CNpe+VI+K2J/F/k3PdkdTdz4wvGVH4NTpo+NRYTVIuMQEMMcsLqg==
 
-mini-css-extract-plugin@^1.6.2:
-  version "1.6.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/mini-css-extract-plugin/-/mini-css-extract-plugin-1.6.2.tgz#83172b4fd812f8fc4a09d6f6d16f924f53990ca8"
-  integrity sha512-WhDvO3SjGm40oV5y26GjMJYjd2UMqrLAGKy5YS2/3QKJy2F7jgynuHTir/tgUUOiNQu5saXHdc8reo7YuhhT4Q==
+mini-css-extract-plugin@^2.7.6:
+  version "2.7.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/mini-css-extract-plugin/-/mini-css-extract-plugin-2.7.6.tgz#282a3d38863fddcd2e0c220aaed5b90bc156564d"
+  integrity sha512-Qk7HcgaPkGG6eD77mLvZS1nmxlao3j+9PkrT9Uc7HAE1id3F41+DdBRYRYkbyfNRGzm8/YWtzhw7nVPmwhqTQw==
   dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
-    webpack-sources "^1.1.0"
+    schema-utils "^4.0.0"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -10974,7 +10972,7 @@ webpack-remove-empty-scripts@^1.0.1:
   dependencies:
     ansis "1.5.2"
 
-webpack-sources@^1.1.0, webpack-sources@^1.4.3:
+webpack-sources@^1.4.3:
   version "1.4.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   integrity sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
