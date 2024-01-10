@@ -1555,10 +1555,28 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@>=1.0.0", "@folio/data-import@^7.0.0":
+"@folio/data-import@^7.0.0":
   version "7.0.5000002222"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/data-import/-/data-import-7.0.5000002222.tgz#0b82a64a368616d6d0ce7937e2f5207b6ce7fe0c"
   integrity sha512-jAlRsTEj4Xvq5qcw/WBgHh66jMhqVitEbkZBke97/7QX961dKbkh5lNXLPSVeAxA6padpC1d8XEme1YKuY2LnA==
+  dependencies:
+    "@folio/stripes-acq-components" "^5.0.0"
+    "@folio/stripes-data-transfer-components" "^6.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.17.21"
+    moment "~2.29.4"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "^5.0.0"
+
+"@folio/data-import@https://github.com/folio-org/ui-data-import.git#UXPROD-4471":
+  version "7.0.5"
+  resolved "https://github.com/folio-org/ui-data-import.git#29aee501f2f7b8b9d486b211f18b77d49ed3005c"
   dependencies:
     "@folio/stripes-acq-components" "^5.0.0"
     "@folio/stripes-data-transfer-components" "^6.0.0"
