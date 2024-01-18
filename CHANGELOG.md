@@ -1,8 +1,9 @@
 # Change history for platform-complete
 
-# 2024-R1, Ramsons
+# 2024-R1, Quesnelia
 
 * Preserve console log on logout, at least for reference envs. Refs STCOR-761.
+* Use secure tokens in cookies (RTR). Refs STCOR-671.
 
 # 2023-R2, Poppy (IN PROGRESS)
 
