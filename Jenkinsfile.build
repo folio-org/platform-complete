@@ -50,7 +50,7 @@ pipeline {
           else {
             env.folio_config = 'snapshot'
             env.ec2_instanceType = 'm5.2xlarge' 
-            env.ec2_group = 'build_snapshot'
+            env.ec2_group = 'build_snapshot_test'
           }
         }
       }
