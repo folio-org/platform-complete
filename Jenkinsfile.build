@@ -29,7 +29,7 @@ pipeline {
 
   agent {
     node {
-      label 'platform-build'
+      label 'jenkins-agent-java17-test'
     }
   }
 
@@ -136,22 +136,23 @@ pipeline {
                                'install.json',
                                'yarn.lock']
 
-           sh "git checkout $env.BRANCH"
-           sh 'git add yarn.lock'
+           // sh "git checkout $env.BRANCH"
+           // sh 'git add yarn.lock'
 
-           for (int i = 0; i < installFiles.size(); i++) {
-             sh "git add ${env.WORKSPACE}/${installFiles[i]}"
-           } 
+           // for (int i = 0; i < installFiles.size(); i++) {
+           //  sh "git add ${env.WORKSPACE}/${installFiles[i]}"
+           //} 
 
-           def commitStatus = sh(returnStatus: true, 
-                                 script: 'git commit -m "[CI SKIP] Updating install files"')
+           //def commitStatus = sh(returnStatus: true, 
+           //                      script: 'git commit -m "[CI SKIP] Updating install files"')
 
-           if ( commitStatus == 0 ) {
-             sshGitPush(origin: params.PLATFORM, branch: env.BRANCH)
-           }
-           else {
-             echo "No changes to artifacts"
-           }
+           //if ( commitStatus == 0 ) {
+           //  sshGitPush(origin: params.PLATFORM, branch: env.BRANCH)
+           //}
+           //else {
+           //  echo "No changes to artifacts"
+           //}
+           echo "test build"
          }
        } 
      }
