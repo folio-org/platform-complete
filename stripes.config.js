@@ -35,7 +35,7 @@ module.exports = {
     '@folio/invoice': {},
     '@folio/finance': {},
     '@folio/ldp': {},
-    '@folio/lists' : {},
+    // '@folio/lists' : {},
     '@folio/licenses': {},
     '@folio/local-kb-admin': {},
     '@folio/myprofile': {},

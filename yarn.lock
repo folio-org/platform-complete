@@ -1803,19 +1803,6 @@
     react-final-form-arrays "^3.1.0"
     react-router-prop-types "^1.0.4"
 
-"@folio/lists@>=1.2.0":
-  version "2.0.600000625"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/lists/-/lists-2.0.600000625.tgz#07d09c4154e6b70e87e3c06834923429364d196f"
-  integrity sha512-KdUxAsY7wM3+125TmSxhrFRDV5bMZBRW6u1+t73mnJScOB/6chHE74ovLed/6qj0Nj4x6ax7NF3u8MUL7WbVzQ==
-  dependencies:
-    "@folio/stripes-acq-components" "~5.0.0"
-    date-fns "^2.29.3"
-    ky "^0.33.2"
-    lodash "^4.17.21"
-    prop-types "^15.6.0"
-  optionalDependencies:
-    "@folio/plugin-query-builder" ">=1.0.0"
-
 "@folio/local-kb-admin@>=1.0.0":
   version "7.1.100000515"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/local-kb-admin/-/local-kb-admin-7.1.100000515.tgz#3913054f35569cb96518ed5b9df66f43af994112"
@@ -2115,18 +2102,6 @@
     dom-helpers "^3.4.0"
     lodash "^4.17.4"
     prop-types "^15.6.0"
-
-"@folio/plugin-query-builder@>=1.0.0":
-  version "1.0.100000647"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.100000647.tgz#9f1d85b63eaafb10f833e61fcf44c148474b2ffb"
-  integrity sha512-+Orvc3u6iqMmU00mHIWnUZ/6z3QiNrq7ivIoEyM9NsivqtVyJBVvB5tfGSlyq44hPiBKmZrBEbQpz7UbkQS1/A==
-  dependencies:
-    "@folio/stripes-acq-components" "~5.0.0"
-    "@tanstack/react-query" "4.29.5"
-    ky "^0.33.2"
-    lodash "^4.17.5"
-    moment "^2.29.4"
-    prop-types "^15.5.10"
 
 "@folio/quick-marc@>=1.0.0":
   version "8.0.1000002211"
@@ -3229,19 +3204,6 @@
   integrity sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==
   dependencies:
     defer-to-connect "^2.0.1"
-
-"@tanstack/query-core@4.29.5":
-  version "4.29.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.5.tgz#a0273e88bf2fc102c4c893dc7c034127b67fd5d9"
-  integrity sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==
-
-"@tanstack/react-query@4.29.5":
-  version "4.29.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.5.tgz#3890741291f9f925933243d78bd74dfc59d64208"
-  integrity sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==
-  dependencies:
-    "@tanstack/query-core" "4.29.5"
-    use-sync-external-store "^1.2.0"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -4977,7 +4939,7 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
-date-fns@^2.16.1, date-fns@^2.29.3:
+date-fns@^2.16.1:
   version "2.30.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
   integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
@@ -7455,7 +7417,7 @@ ky@^0.31.1:
   resolved "https://registry.yarnpkg.com/ky/-/ky-0.31.4.tgz#c629a707053a92611cefa23079a0b0b60131b4b4"
   integrity sha512-OFuAD3riwhAfHK3J4FrhlujFRpm0ELBEfDHZfFpw89OTozQt3NLF39lNblUO5udj5vSkyaBKnLai/rFCzBfISQ==
 
-ky@^0.33.2, ky@^0.33.3:
+ky@^0.33.3:
   version "0.33.3"
   resolved "https://registry.yarnpkg.com/ky/-/ky-0.33.3.tgz#bf1ad322a3f2c3428c13cfa4b3af95e6c4a2f543"
   integrity sha512-CasD9OCEQSFIam2U8efFK81Yeg8vNMTBUqtMOHlrcWQHqUX3HeCl9Dr31u4toV7emlH8Mymk5+9p0lL6mKb/Xw==
@@ -10902,7 +10864,7 @@ use-memo-one@^1.1.1:
   resolved "https://registry.yarnpkg.com/use-memo-one/-/use-memo-one-1.1.3.tgz#2fd2e43a2169eabc7496960ace8c79efef975e99"
   integrity sha512-g66/K7ZQGYrI6dy8GLpVcMsBp4s17xNkYJVSMvTEevGy3nDxHOfE6z8BVE22+5G5x7t3+bhzrlTDB7ObrEE0cQ==
 
-use-sync-external-store@1.2.0, use-sync-external-store@^1.0.0, use-sync-external-store@^1.2.0:
+use-sync-external-store@1.2.0, use-sync-external-store@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
   integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
