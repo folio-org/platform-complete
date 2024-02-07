@@ -1802,17 +1802,16 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/lists@>=1.2.0":
-  version "2.0.600000625"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/lists/-/lists-2.0.600000625.tgz#07d09c4154e6b70e87e3c06834923429364d196f"
-  integrity sha512-KdUxAsY7wM3+125TmSxhrFRDV5bMZBRW6u1+t73mnJScOB/6chHE74ovLed/6qj0Nj4x6ax7NF3u8MUL7WbVzQ==
+  version "2.0.600000636"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/lists/-/lists-2.0.600000636.tgz#3e129a9746b9728e1dbc77e6787e13990805daeb"
+  integrity sha512-T3pm1znG/3sdFArLPJHdhVmAsETHqZdvcgSECbWCW0hYkQgwcfSEY1qmxSnpg9hRZzSUM6ukm0tCL2mdumAfVQ==
   dependencies:
+    "@folio/plugin-query-builder" "^1.0.2"
     "@folio/stripes-acq-components" "~5.0.0"
     date-fns "^2.29.3"
     ky "^0.33.2"
     lodash "^4.17.21"
     prop-types "^15.6.0"
-  optionalDependencies:
-    "@folio/plugin-query-builder" ">=1.0.0"
 
 "@folio/local-kb-admin@>=1.0.0":
   version "7.1.100000515"
@@ -2112,7 +2111,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-query-builder@>=1.0.0":
+"@folio/plugin-query-builder@>=1.0.0", "@folio/plugin-query-builder@^1.0.2":
   version "1.0.100000647"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.0.100000647.tgz#9f1d85b63eaafb10f833e61fcf44c148474b2ffb"
   integrity sha512-+Orvc3u6iqMmU00mHIWnUZ/6z3QiNrq7ivIoEyM9NsivqtVyJBVvB5tfGSlyq44hPiBKmZrBEbQpz7UbkQS1/A==
@@ -2125,9 +2124,9 @@
     prop-types "^15.5.10"
 
 "@folio/quick-marc@>=1.0.0":
-  version "8.0.1000002211"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-8.0.1000002211.tgz#61dd475e46f13810cd44045417db0d6b032c9ed5"
-  integrity sha512-clzZzJ5F5rdFxxxfuA0a0nZ35o+UM4jNr6MEQVyLYQtmxRGlUkHpJEsuiKvYkLhuDAQOAunFsev5y7JaTx083g==
+  version "8.0.1000002216"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-8.0.1000002216.tgz#a7c9dfd0fef027bfd4dde6c35efaf964ca09c5f8"
+  integrity sha512-lgTiCxjoeCB4/0yYTTp6F5nGECOkYgrghUAM3uNyjCIJEVsXvJ8yBzfA1E9fXlT3GlI1q6cMgRgaaf9Eli43Cg==
   dependencies:
     "@folio/stripes-acq-components" "^5.0.0"
     final-form "^4.18.2"
@@ -2383,7 +2382,7 @@
 
 "@folio/stripes-core@https://github.com/folio-org/stripes-core.git#STCOR-769", "@folio/stripes-core@~10.1.0":
   version "10.1.0"
-  resolved "https://github.com/folio-org/stripes-core.git#69824356134684cef0f07edb4d00ca37dd994aa6"
+  resolved "https://github.com/folio-org/stripes-core.git#00acd9b1de9140d5c3c1bdd60ca4f52846f30930"
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -2496,9 +2495,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~9.1.0":
-  version "9.1.1000002076"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-9.1.1000002076.tgz#42c63df03fd27736394b27eef85616e9e0d7604c"
-  integrity sha512-GGjSuW2qUftJgmQ/S0Rpk8mB+s+NeX6eTQNLoVfg+l/DKBlSHF/l8Nog2Pfc7VGzoD9a4D6WiSqY5nlAre1gjg==
+  version "9.1.1000002083"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-9.1.1000002083.tgz#6be125f64a54fd05f08a72362238924f19eefbdf"
+  integrity sha512-RnGMh6xnxIGMdwzARbxhb7RbAgKyhtzAygSlXpE3U5cR3UeifcOTjp/oXyJLmISxbekzGqtE6mEEdt0lO+TgCw==
   dependencies:
     "@rehooks/local-storage" "2.4.4"
     classnames "^2.2.6"
@@ -2684,9 +2683,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=1.0.0":
-  version "10.1.1000004865"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-10.1.1000004865.tgz#97b5b55e92d18b80a97ea6a61aa5b8b4c4e1324f"
-  integrity sha512-XFeIeCrqAnw3gUGvFyJ3ZG5K0gHLKhqBdlNA8LY9769600ja1ARub7mAA8LyAdjAdyn6Z6Lix+DJLPkbVaB8KQ==
+  version "10.1.1000004868"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-10.1.1000004868.tgz#d086e176ff1bd0cc14b6f8839b1f2d4f9399da58"
+  integrity sha512-PtzYFk3MWdVeOWq8DxICMc0UG7wEWpyEX/zOfUABMulI78sPNpnxeXstaNFTCA3jScx5DcZrQzbPT9YiR/f7oQ==
   dependencies:
     final-form-set-field-data "^1.0.2"
     hashcode "^1.0.3"
@@ -8747,9 +8746,9 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.1.0, postcss-value-parser@^
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.4.2, postcss@^8.4.33:
-  version "8.4.34"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.34.tgz#563276e86b4ff20dfa5eed0d394d4c53853b2051"
-  integrity sha512-4eLTO36woPSocqZ1zIrFD2K1v6wH7pY1uBh0JIM2KKfrVtGvPFiAku6aNOP0W1Wr9qwnaCsF0Z+CrVnryB2A8Q==
+  version "8.4.35"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.35.tgz#60997775689ce09011edf083a549cea44aabe2f7"
+  integrity sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
