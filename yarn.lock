@@ -1915,11 +1915,12 @@
     "@folio/plugin-find-interface" "^5.0.0"
 
 "@folio/plugin-bursar-export@>=1.0.0":
-  version "3.1.100000322"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-3.1.100000322.tgz#4a01d348628b7c84c47cd4659f63e858da7fcbb9"
-  integrity sha512-u3KDhRCqXoGTPWsgHAyxRJUEs04lzvzrKrlulW4KnUz/LzOUNSFV7tZ3eQPfsn0ubAGYZ72C1E4ZPXdLjQQudw==
+  version "4.0.100000417"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-bursar-export/-/plugin-bursar-export-4.0.100000417.tgz#e38b89251b48889c6e176645ab0322d04cab15e5"
+  integrity sha512-Ub3pUz/pkWfS5YX2J9FxYWonUJSYXMi1zaEHYXugdPlzEuO0dCvGF4sjEA+C5xGb+6QLhTlD/nWt7XzY3a2y7Q==
   dependencies:
-    "@folio/stripes-acq-components" "~5.0.0"
+    "@ngneat/falso" "^6.4.0"
+    classnames "^2.3.2"
     lodash "^4.17.5"
     prop-types "^15.5.10"
     react-final-form "^6.3.0"
@@ -2894,6 +2895,14 @@
   version "1.1.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
+
+"@ngneat/falso@^6.4.0":
+  version "6.4.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@ngneat/falso/-/falso-6.4.0.tgz#7ed98a95ab2a2dc39b0a0d317fe8c24512869edc"
+  integrity sha512-f6r036h2fX/AoHw1eV2t8+qWQwrbSrozs3zXMhhwoO7SJBc+DGMxRWEhFeYIinfwx0uhUH8ggx5+PDLzYESLOA==
+  dependencies:
+    seedrandom "3.0.5"
+    uuid "8.3.2"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -9862,6 +9871,11 @@ schema-utils@^4.0.0:
     ajv-formats "^2.1.1"
     ajv-keywords "^5.1.0"
 
+seedrandom@3.0.5:
+  version "3.0.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
+  integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
+
 semver-diff@^4.0.0:
   version "4.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/semver-diff/-/semver-diff-4.0.0.tgz#3afcf5ed6d62259f5c72d0d5d50dffbdc9680df5"
@@ -10956,7 +10970,7 @@ utrie@^1.0.2:
   dependencies:
     base64-arraybuffer "^1.0.2"
 
-uuid@^8.3.1, uuid@^8.3.2:
+uuid@8.3.2, uuid@^8.3.1, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
