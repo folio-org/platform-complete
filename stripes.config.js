@@ -6,7 +6,7 @@ module.exports = {
     maxUnpagedResourceCount: 2000,
     showPerms: false,
     preserveConsole: true,
-    useSecureTokens: false,
+    useSecureTokens: true,
   },
   modules: {
     '@folio/acquisition-units': {},
