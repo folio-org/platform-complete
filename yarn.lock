@@ -1643,12 +1643,12 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/finance@>=1.1.0":
-  version "6.0.100000686"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-6.0.100000686.tgz#6337ebcfed8c61540ce4e3a5a9302985eddfb37c"
-  integrity sha512-HuXNxmL6QIDubEoBbtmEpJjsPsuw+CNVZkTNWlSitEb+2lk7w4nXS9UywyBEAxIGKnZwmbla/O+NvimQQLnUjQ==
+  version "6.0.100000704"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-6.0.100000704.tgz#3a6897a2ad05315ee24281d0f1003f2da5224415"
+  integrity sha512-pWAmyaZSsBya7dxjGrDuvQvsdazK5CMC4KeW1y6r+pvcgGrCjWO4lFuVRKux8cKWJ5n24l1+lsN36Ro2C5PF0w==
   dependencies:
-    "@folio/stripes-acq-components" "~5.0.0"
-    "@folio/stripes-data-transfer-components" "~6.0.0"
+    "@folio/stripes-acq-components" "~5.1.0"
+    "@folio/stripes-data-transfer-components" "~6.1.0"
     "@rehooks/local-storage" "^2.4.4"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1897,9 +1897,9 @@
     "@folio/plugin-find-user" "^7.0.0"
 
 "@folio/organizations@>=1.0.0":
-  version "5.1.100000691"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-5.1.100000691.tgz#27b79fbdb352a36c0dcd89095d108392736057dc"
-  integrity sha512-0da3rc9FMB4G2XoqJRvTD6wPhIVSjvGZlpmyopKglJu0U53EjVCsZpPeYBr8lF0g+dusjJ10egKcoRB6bvesXQ==
+  version "5.1.100000694"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/organizations/-/organizations-5.1.100000694.tgz#e27992562340f980bf607a47022ce26cadb34266"
+  integrity sha512-WTSfhowPgl47ue6UWcmkffCyxOBSlWw8Jzxb7J873F4US7CRnjQiDBw/RPJWkRF4G9b3V8a64P2dFzNEW9yDOA==
   dependencies:
     "@folio/plugin-find-organization" "^5.0.0"
     "@folio/stripes-acq-components" "~5.1.0"
@@ -2102,11 +2102,11 @@
     prop-types "^15.6.0"
 
 "@folio/plugin-query-builder@>=1.0.0", "@folio/plugin-query-builder@^1.0.2":
-  version "1.1.100000819"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.1.100000819.tgz#b46ebd6051b5e9602d60443243cac814ac1baebb"
-  integrity sha512-nRbR8y2BqS+tXAsqjVhLuSepV8ak4dRJ4KLfHP6oxur9BgO9acV8mWKya7zvNb69ngTj9uPzGFzCryDGN5YCvw==
+  version "1.1.100000839"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.1.100000839.tgz#96ba47e0b224b7c5ef659e412ee291da2937b23a"
+  integrity sha512-lNGWmGcShti13xPoowZrf9HwUvsP5vs4ptyLJsH7ufJgfziegTptgVyykDXQEP5OGDQyVdYTFJVKxETsUpAVkQ==
   dependencies:
-    "@folio/stripes-acq-components" "~5.0.0"
+    "@folio/stripes-acq-components" "~5.1.0"
     "@tanstack/react-query" "4.29.5"
     ky "^0.33.2"
     lodash "^4.17.5"
@@ -2431,25 +2431,10 @@
     rxjs "^6.6.3"
     use-deep-compare "^1.1.0"
 
-"@folio/stripes-data-transfer-components@^6.0.0", "@folio/stripes-data-transfer-components@^6.1.0":
+"@folio/stripes-data-transfer-components@^6.0.0", "@folio/stripes-data-transfer-components@^6.1.0", "@folio/stripes-data-transfer-components@~6.1.0":
   version "6.1.100000471"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-6.1.100000471.tgz#b90e35c43095bb011e6d931bf2a5a29e7f231a3e"
   integrity sha512-EEst51IxHoWtd73Q2rMm3vQlOVAFU/Xe37c+WJgf7jGUnsAZecTpJx3HE699MAXcF+AAfkFPOfctG/u9hPTrBg==
-  dependencies:
-    classnames "^2.2.5"
-    compose-function "^3.0.3"
-    lodash "^4.16.4"
-    prop-types "^15.6.0"
-    query-string "^7.1.2"
-    react-dropzone "^11.3.4"
-    react-router-prop-types "^1.0.4"
-  optionalDependencies:
-    "@folio/plugin-find-user" "^7.0.0"
-
-"@folio/stripes-data-transfer-components@~6.0.0":
-  version "6.0.100000466"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-6.0.100000466.tgz#f4b6a2b8deceab6ae27088e7c3cdd98b5b63816a"
-  integrity sha512-d19m0XJsbNF6BNmxljEHL+RHynDt3b/spd1SW3Z1cwFKQpegCCnyHeMNQrOuWzVxRE/HdLozBa4YyVXy+WMEbQ==
   dependencies:
     classnames "^2.2.5"
     compose-function "^3.0.3"
