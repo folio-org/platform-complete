@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["main", "master","R2-2023","R1-2023", "R2-2023-Consortia"],
+  "baseBranches": ["main", "master","R2-2023","R1-2023", "R2-2023-Consortia","R1-2024", "R1-2024-Consortia"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -54,6 +54,20 @@
       "packagePatterns": ["^@folio/", "^folioorg/"],
       "groupName": "FOLIO R2 2023 updates Consortia",
       "updateTypes": ["patch"], 
+      "enabled": true
+    },
+    {
+      "baseBranchList": ["R1-2024-Consortia"],
+      "packagePatterns": ["^@folio/", "^folioorg/"],
+      "groupName": "FOLIO R1 2024 updates Consortia",
+      "updateTypes": ["patch"],
+      "enabled": true
+    },
+    {
+      "baseBranchList": ["R1-2024"],
+      "packagePatterns": ["^@folio/", "^folioorg/"],
+      "groupName": "FOLIO R1 2024 updates",
+      "updateTypes": ["patch"],
       "enabled": true
     }
   ]
