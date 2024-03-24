@@ -2,7 +2,7 @@
 
 
 pipeline {
-//cosmetic change to trigger job.
+
   environment {
     folioPlatform = 'platform-complete'
     folioHostname = "${env.folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
