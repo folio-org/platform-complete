@@ -23,6 +23,7 @@ module.exports = {
     '@folio/developer' : {},
     '@folio/erm-comparisons' : {},
     '@folio/erm-usage': {},
+    '@folio/eholdings' : {},
     '@folio/export-manager': {},
     '@folio/finance' : {},
     "@folio/gobi-settings": {},
