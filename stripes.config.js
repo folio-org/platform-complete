@@ -20,9 +20,9 @@ module.exports = {
     '@folio/data-export' : {},
     '@folio/data-import' : {},
     '@folio/developer' : {},
-    '@folio/eholdings' : {},
     '@folio/erm-comparisons' : {},
     '@folio/erm-usage': {},
+    '@folio/eholdings' : {},
     '@folio/export-manager': {},
     '@folio/finance' : {},
     "@folio/gobi-settings": {},
@@ -39,9 +39,8 @@ module.exports = {
     '@folio/oai-pmh' : {},
     '@folio/orders': {},
     '@folio/organizations' : {},
-    '@folio/plugin-bursar-export': {},
+    '@folio/plugin-bursar-export' : {},
     '@folio/plugin-create-inventory-records' : {},
-    '@folio/plugin-eusage-reports' : {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-authority' : {},
     '@folio/plugin-find-contact': {},
@@ -67,7 +66,9 @@ module.exports = {
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings' : {},
-    '@folio/users' : {}
+    '@folio/users' : {},
+    '@folio/serials-management' : {},
+    '@folio/stripes-marc-components' : {}
   },
   branding: {
     logo: {
