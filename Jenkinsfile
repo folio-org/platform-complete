@@ -1,5 +1,4 @@
 @Library ('folio_jenkins_shared_libs') _
-//cosmetic trigger
 
 pipeline {
 
@@ -154,7 +153,6 @@ pipeline {
 
               sh "git fetch --no-tags ${env.projUrl} " +
                  "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
-              sh "git commit -m ${env.CHANGE_BRANCH}"
               sh "git checkout -b ${env.CHANGE_BRANCH} origin/${env.CHANGE_BRANCH}"
 
               for (int i = 0; i < installFiles.size(); i++) {
