@@ -4,9 +4,7 @@ module.exports = {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
-    showPerms: false,
-    preserveConsole: true,
-    useSecureTokens: true,
+    showPerms: false
   },
   modules: {
     '@folio/acquisition-units': {},
@@ -63,7 +61,8 @@ module.exports = {
     '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/servicepoints' : {},
-    "@folio/service-interaction": {},
+    '@folio/service-interaction': {},
+    '@folio/plugin-eusage-reports': {},
     '@folio/stripes-authority-components' : {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
