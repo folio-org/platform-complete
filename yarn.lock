@@ -1529,12 +1529,12 @@
   optionalDependencies:
     "@folio/plugin-create-inventory-records" "^4.0.0"
 
-"@folio/dashboard@6.0.0":
-  version "6.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/dashboard/-/dashboard-6.0.0.tgz#9c2f6015175bde7cfbd55b170e29a5dc41b2bc3d"
-  integrity sha512-iMOoNLdD40lcZfRis6St1TcsXD3anjhIrZdvE71xdc41vH5dy/4HgPL97EPOP+RfIb/eSKILBebJu5ijO1iDyQ==
+"@folio/dashboard@5.0.0":
+  version "5.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/dashboard/-/dashboard-5.0.0.tgz#8986a52f679b3bd6476f09aa0436cd32c26f3fde"
+  integrity sha512-ypDpRDC0tJehxanJCd1PKNgrXnue1KT2tcFNgdyO1B+NMVObefptxNP0fMxzBhFzkilCuCMHCt9aSn3+yJAvjA==
   dependencies:
-    "@k-int/stripes-kint-components" "^5.5.1"
+    "@k-int/stripes-kint-components" "^5.1.1"
     compose-function "^3.0.3"
     final-form "^4.19.0"
     final-form-arrays "^3.0.1"
@@ -1926,6 +1926,19 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
 
+"@folio/plugin-eusage-reports@3.1.0":
+  version "3.1.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-eusage-reports/-/plugin-eusage-reports-3.1.0.tgz#f6c325fd973fc961581d99148181f57e5a99dc7f"
+  integrity sha512-dr2bf1jkZTlCfWy8M/a3cPqOkOhV8Zl7meu46nScZG0Ox6+TBHA9xPrxD4uS6RB8yTwp1wLlVnGopQIEZAq+BA==
+  dependencies:
+    chart.js "^4.4.0"
+    lodash "^4.17.21"
+    prop-types "*"
+    randomcolor "^0.6.2"
+    react-chartjs-2 "^5.2.0"
+  optionalDependencies:
+    "@folio/plugin-find-eresource" "^6.0.0"
+
 "@folio/plugin-find-agreement@11.0.1":
   version "11.0.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-agreement/-/plugin-find-agreement-11.0.1.tgz#ee116eae942bd6bf65f77384f9203c9b30084073"
@@ -1965,6 +1978,17 @@
   integrity sha512-LSgHc6VWalnqrj9A5ydnl4MIACy/nbLSE/vMVKDNGrATxatYO07UVt2o4tS583BoLmP3HEnZa7NlOhvEI3+Amw==
   dependencies:
     "@k-int/stripes-kint-components" "^5.5.1"
+    dom-helpers "^3.4.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    query-string "^7.1.1"
+
+"@folio/plugin-find-eresource@^6.0.0":
+  version "6.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-eresource/-/plugin-find-eresource-6.0.1.tgz#44f1d80c20320536314e7e47b9bf8516216d97c1"
+  integrity sha512-EVc7OJ9T3EV/K9us0undzUXjSKEFhDvDPge39nNkutabWRzGIqDyJBSI70Nqrq2jouJoeUu9h8NUSYbN5aNpjQ==
+  dependencies:
+    "@k-int/stripes-kint-components" "^5.1.1"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -2194,12 +2218,12 @@
   optionalDependencies:
     "@folio/plugin-find-po-line" "^5.1.0"
 
-"@folio/service-interaction@3.0.0":
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/service-interaction/-/service-interaction-3.0.0.tgz#59d3d3ebfa0845d032a47116070ba2f32e1e6141"
-  integrity sha512-SeArT/zLMDgUf8Nor5gp/WXf0sYFK0kBGJBEL76Xn8Jc256PmVW4rAQiShgqBHot2lawqz0yeyZ6vnDJZpXcrQ==
+"@folio/service-interaction@2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/service-interaction/-/service-interaction-2.0.0.tgz#39e8ed7b44f7e21a8080612a85f9d808dc19d5b2"
+  integrity sha512-Mbfk50aquyUMqF/uGxvWZh1GpN48BLOm779dtxrEo0iWEczpEpj/BKLvjD4vUMWiFwLp+syBn+hWlgAoAAMdNw==
   dependencies:
-    "@k-int/stripes-kint-components" "^5.5.1"
+    "@k-int/stripes-kint-components" "^5.1.1"
     dom-helpers "^3.4.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
@@ -2837,7 +2861,7 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@k-int/stripes-kint-components@^5.5.1":
+"@k-int/stripes-kint-components@^5.1.1", "@k-int/stripes-kint-components@^5.5.1":
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/@k-int/stripes-kint-components/-/stripes-kint-components-5.5.1.tgz#0893159f964172c42b06612145faaabcbd47e13e"
   integrity sha512-gRViF8wQYOEOLt2KpTvcbQ54lx47hVH+4J+qri3WF3o7WMTCEdBr3SEO8IZaRM4BjkEcoeZ0SLeKp+dvswE8Lg==
@@ -9049,6 +9073,11 @@ randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
   dependencies:
     safe-buffer "^5.1.0"
+
+randomcolor@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/randomcolor/-/randomcolor-0.6.2.tgz#7a57362ae1a1278439aeed2c15e5deb8ea33f56d"
+  integrity sha512-Mn6TbyYpFgwFuQ8KJKqf3bqqY9O1y37/0jgSK/61PUxV4QfIMv0+K2ioq8DfOjkBslcjwSzRfIDEXfzA9aCx7A==
 
 randomfill@^1.0.3:
   version "1.0.4"
