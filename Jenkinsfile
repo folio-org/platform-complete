@@ -1,5 +1,4 @@
 @Library ('folio_jenkins_shared_libs') _
-//cosmetic trigger
 
 pipeline {
 
