@@ -18,6 +18,7 @@ module.exports = {
     '@folio/circulation' : {},
     '@folio/circulation-log' : {},
     '@folio/courses' : {},
+    '@folio/consortia-settings' : {},
     '@folio/dashboard': {},
     '@folio/data-export' : {},
     '@folio/data-import' : {},
