@@ -1527,10 +1527,10 @@
     react-table "^7.6.3"
     validator "^13.9.0"
 
-"@folio/data-export@6.1.1":
-  version "6.1.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-export/-/data-export-6.1.1.tgz#1f7274eb11dc2669180de690ecb08b16a98e7727"
-  integrity sha512-HIoEkc9qQcVYFocX/nnwNLmwfdjDYpxqnlSOLg6LEhqRm1GQNQxcXG9ZUV6SA4TOyD+TtTvlW2cwILqgCNEpXw==
+"@folio/data-export@6.1.3":
+  version "6.1.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-export/-/data-export-6.1.3.tgz#0241b0e264534b4c31faa71640355c80611d8ffa"
+  integrity sha512-S/oNPXSwqqb8eZ6K8xOh0p8rXrPH4Ltp/1m0AfpY1vSRsG/0yhBzMrOHdplN4mPQw+j9viO3tm1YEtT4R2HAHA==
   dependencies:
     "@folio/stripes-acq-components" "~5.1.0"
     "@folio/stripes-data-transfer-components" "^6.1.0"
@@ -1797,13 +1797,13 @@
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
 
-"@folio/marc-authorities@5.0.0":
-  version "5.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/marc-authorities/-/marc-authorities-5.0.0.tgz#cc5a51c78c902fff9920aa7f0d503730c5d4feda"
-  integrity sha512-1fgF+Mf+JqgK0GlahxXGb/s8zBSBeFZTbRX9jMwLwI+9tHAjVekmpYijRa5R7QGwJufCbd1kX+sF1hHoQJT82Q==
+"@folio/marc-authorities@5.0.1":
+  version "5.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/marc-authorities/-/marc-authorities-5.0.1.tgz#1e3542e997e58fc8d9a4329a166e7cdf21643a54"
+  integrity sha512-fbHvDcXTmi7cylpQPqrJ538/bZTgkw2sJ/I0p096I8CSc9RcfUFvkmGjuN/hA5+qitY5Xc3djKVajBVTyHpHRw==
   dependencies:
     "@folio/quick-marc" "^7.0.0"
-    "@folio/stripes-acq-components" "^5.0.0"
+    "@folio/stripes-acq-components" "~5.1.0"
     "@rehooks/local-storage" "^2.4.4"
     query-string "^7.0.1"
 
@@ -2075,10 +2075,10 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-query-builder@1.1.3", "@folio/plugin-query-builder@^1.1.2":
-  version "1.1.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-query-builder/-/plugin-query-builder-1.1.3.tgz#ff15815d64f6ecb53800ee611ef229c7a88d1a46"
-  integrity sha512-taw7ZTvHwCivncJvcPB8Df7GHcUX4BTKKDjP2MA9OZdhmHOu3ie5AF3Ip4hpjIycNYnhxYx/yaZuUAX4N0pi7A==
+"@folio/plugin-query-builder@1.1.4", "@folio/plugin-query-builder@^1.1.2":
+  version "1.1.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-query-builder/-/plugin-query-builder-1.1.4.tgz#a671e793ab26ac71558986de43b85b5160db8bca"
+  integrity sha512-cznG/QCql6SfdRgjnsv5O1768gvbC1uZ9gzTI7t6MR/6r9AHUoQtxIvMLz9Y7Y2KLv4i1Gg1H9MoJm7zT6R9oQ==
   dependencies:
     "@folio/stripes-acq-components" "~5.1.0"
     "@tanstack/react-query" "4.29.5"
@@ -2237,12 +2237,12 @@
     react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
 
-"@folio/stripes-authority-components@4.0.0":
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-authority-components/-/stripes-authority-components-4.0.0.tgz#8fc22036e20079bcf69ad9aa6a2bd1ee38e56cb4"
-  integrity sha512-WORXW/mPF9mxV0Bmgv788cvcwbP+ibreFt7F7JaIXCYmqeYYHzn5ljQXTBO1I5fmcZjaUROqwGzY5qtxXsXr2Q==
+"@folio/stripes-authority-components@4.0.1":
+  version "4.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-authority-components/-/stripes-authority-components-4.0.1.tgz#aedb2dff306e7982eb7ae10c0e8440513e7d0bf8"
+  integrity sha512-7OlndUvjzZd275hc7cGmQP8lFZTnHUo7q+U9I92g/m7x7yvG5bFPInmTnBl2BN2DZHHJeiyI858oCivr9MDzHg==
   dependencies:
-    "@folio/stripes-acq-components" "^5.0.0"
+    "@folio/stripes-acq-components" "~5.1.0"
     "@rehooks/local-storage" "^2.4.4"
     classnames "^2.3.2"
     prop-types "^15.6.0"
@@ -3353,9 +3353,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@16 || 17 || 18", "@types/react@>=16.9.11":
-  version "18.2.73"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.73.tgz#0579548ad122660d99e00499d22e33b81e73ed94"
-  integrity sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==
+  version "18.2.74"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.74.tgz#2d52eb80e4e7c4ea8812c89181d6d590b53f958c"
+  integrity sha512-9AEqNZZyBx8OdZpxzQlaFEVCSFUM2YXJH46yPOiOpm078k6ZLOCcuAzGum/zK8YBwY+dbahVNbHrbgrAwIRlqw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -10539,9 +10539,9 @@ terser-webpack-plugin@^5.3.10:
     terser "^5.26.0"
 
 terser@^5.10.0, terser@^5.26.0:
-  version "5.30.1"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.30.1.tgz#4faaeedf00d322eb953dcc1f4eeaa9711c15f093"
-  integrity sha512-PJhOnRttZqqmIujxOQOMu4QuFGvh43lR7Youln3k6OJvmxwZ5FxK5rbCEh8XABRCpLf7ZnhrZuclCNCASsScnA==
+  version "5.30.2"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.30.2.tgz#79fc2222c241647cea54ab928ac987ffbe8ce9e2"
+  integrity sha512-vTDjRKYKip4dOFL5VizdoxHTYDfEXPdz5t+FbxCC5Rp2s+KbEO8w5wqMDPgj7CtFKZuzq7PXv28fZoXfqqBVuw==
   dependencies:
     "@jridgewell/source-map" "^0.3.3"
     acorn "^8.8.2"
