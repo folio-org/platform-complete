@@ -191,7 +191,7 @@ pipeline {
 
           if (instance) {
             echo "Terminating instance: $instance"
-//          sh "aws --region us-east-1 --output text ec2 terminate-instances --instance-ids $instance"
+            sh "aws --region us-east-1 --output text ec2 terminate-instances --instance-ids $instance"
           }
         }
       }
