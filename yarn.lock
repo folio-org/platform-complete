@@ -2323,10 +2323,21 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-query-builder@>=1.0.0", "@folio/plugin-query-builder@^1.1.2":
+"@folio/plugin-query-builder@^1.1.2":
   version "1.1.400000986"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-query-builder/-/plugin-query-builder-1.1.400000986.tgz#bae93d28271c4b35ef857fd663892b8b87af2d52"
   integrity sha512-YLwH3DpK+xpfApsfh2h66jSbQju1eoZMJ7JY2eaL/TOSpmDkIKthNiOO1Sfv07fi2pYgdHralrJ6kjFnhkmgcQ==
+  dependencies:
+    "@folio/stripes-acq-components" "~5.1.0"
+    ky "^0.33.2"
+    lodash "^4.17.5"
+    moment "^2.29.4"
+    prop-types "^15.5.10"
+    react-query "^3.6.0"
+
+"@folio/plugin-query-builder@https://github.com/folio-org/ui-plugin-query-builder#master":
+  version "1.1.4"
+  resolved "https://github.com/folio-org/ui-plugin-query-builder#e82f8888bb672efbd9839b9e098dff9e9d0f2bc3"
   dependencies:
     "@folio/stripes-acq-components" "~5.1.0"
     ky "^0.33.2"
@@ -10257,7 +10268,7 @@ postcss-calc@^9.0.1:
     postcss-selector-parser "^6.0.11"
     postcss-value-parser "^4.2.0"
 
-"postcss-color-function@github:folio-org/postcss-color-function":
+postcss-color-function@folio-org/postcss-color-function:
   version "4.1.0"
   resolved "https://codeload.github.com/folio-org/postcss-color-function/tar.gz/c128aad740ae740fb571c4b6493f467dd51efe85"
   dependencies:
