@@ -2471,7 +2471,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^5.0.0", "@folio/stripes-acq-components@^5.1.0", "@folio/stripes-acq-components@~5.1.0":
+"@folio/stripes-acq-components@^5.0.0", "@folio/stripes-acq-components@^5.1.0", "@folio/stripes-acq-components@~5.1.0", "@folio/stripes-acq-components@~5.1.1":
   version "5.1.1000001015"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-5.1.1000001015.tgz#1f32a37d0964f63444db6ebd411f1fb05a68d62f"
   integrity sha512-6lYK3BIw4YsNW1qjmvsU/jWyxQJ01qCainqcfAv400nANjNEfvkRSVkWu5O3DAg6xn2cOQexSCKG04g8mAKGkg==
@@ -2693,6 +2693,30 @@
     prop-types "^15.5.10"
     redux-form "^8.3.0"
 
+"@folio/stripes-inventory-components@>=1.0.0":
+  version "1.0.100000134"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-inventory-components/-/stripes-inventory-components-1.0.100000134.tgz#5fe8c4a401457f2e1b060e2b53b804b1ff1e5ff7"
+  integrity sha512-1cQvt6lJuq2pWMx+E7Wa7fKEyU+bn+FTqLglpF8+5lO+MCYj9EMFX1cP4xdlW8TGgn1N3Ur1KxgAvlWV0gC33w==
+  dependencies:
+    "@folio/stripes-acq-components" "~5.1.1"
+    file-saver "^2.0.0"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    history "^4.10.0"
+    ky "^0.23.0"
+    lodash "^4.17.4"
+    moment "~2.29.4"
+    prop-types "^15.5.10"
+    query-string "^5.0.0"
+    react-beautiful-dnd "^13.0.0"
+    react-copy-to-clipboard "^5.0.1"
+    react-final-form "^6.5.6"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-router-prop-types "^1.0.4"
+    redux-form "^8.3.7"
+    zustand "^4.1.1"
+
 "@folio/stripes-logger@~1.0.0":
   version "1.0.100012"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-logger/-/stripes-logger-1.0.100012.tgz#1362cceff6aa31af4687604f6fc3fd8ba33bde67"
@@ -2773,9 +2797,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-testing@^4.8.10000028785":
-  version "4.8.10000029980"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.8.10000029980.tgz#1c02f21f5fdfe289166b6058db2d3e22e14e7755"
-  integrity sha512-gjgPr69ujHea54Q6yno7xCLi5OppnpD6L2DaroLepYpjY8yN6DCObw7oubdwxc0t3J/uXwQa9yFOzN7cRlHWqg==
+  version "4.8.10000030000"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.8.10000030000.tgz#d63792aea6d6071095db12d93a18686f733c4fd2"
+  integrity sha512-+RFISGHBLmESK5/nk03m2eaGy0EyqaS4ByXgDBbnOn5MGWtZipQUuDLlb6aC65/1rXknF757vgdlGiPXgJbVTg==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.4"
     "@interactors/keyboard" "^1.0.0-rc1.5"
@@ -2921,9 +2945,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "11.0.1000005524"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-11.0.1000005524.tgz#9f03514ff42a0a68f09ff25a3de8ed9d577562e4"
-  integrity sha512-+PNWUD0VgiLx3X/AoKhVcPh5yd63JmqWmWesbjF2rKIpL7v85Xi46G/ay+oqQ9bytPIbe00eGksYWUuozHFNPw==
+  version "11.0.1000005528"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-11.0.1000005528.tgz#f0fe8b25b4e04ec4630ee674c62d2411a16b92a9"
+  integrity sha512-+FAd0L8Zg2ON6JOKQPu0S7CeKdlRH3qCDqq7E8NEd1AvkDSIQu3dw6VWssKwOwHN8TbDJKvNs1VbtBYbIqdO9w==
   dependencies:
     compressorjs "^1.2.1"
     final-form-set-field-data "^1.0.2"
