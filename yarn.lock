@@ -3338,16 +3338,16 @@
     "@octokit/openapi-types" "^18.0.0"
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.4":
-  version "0.5.13"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.13.tgz#02338a92a92f541a5189b97e922caf3215221e49"
-  integrity sha512-odZVYXly+JwzYri9rKqqUAk0cY6zLpv4dxoKinhoJNShV36Gpxf+CyDIILJ4tYsJ1ZxIWs233Y39iVnynvDA/g==
+  version "0.5.14"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.14.tgz#93418c8b35beaebec7d996b995b4edc0bd1e83ad"
+  integrity sha512-kmivGoNIyf4MolK7HoxvmIoR/J1ccM8iEShIlYzG27CdBmWsJEWNTwzocnlCkiF4iOSoWhf1QoQt71VGwq9r6Q==
   dependencies:
-    ansi-html-community "^0.0.8"
+    ansi-html "^0.0.9"
     core-js-pure "^3.23.3"
     error-stack-parser "^2.0.6"
     html-entities "^2.1.0"
     loader-utils "^2.0.4"
-    schema-utils "^3.0.0"
+    schema-utils "^4.2.0"
     source-map "^0.7.3"
 
 "@pnpm/config.env-replace@^1.1.0":
@@ -4140,10 +4140,15 @@ ansi-escapes@^4.2.1, ansi-escapes@^4.3.0:
   dependencies:
     type-fest "^0.21.3"
 
-ansi-html-community@0.0.8, ansi-html-community@^0.0.8:
+ansi-html-community@0.0.8:
   version "0.0.8"
   resolved "https://repository.folio.org/repository/npm-ci-all/ansi-html-community/-/ansi-html-community-0.0.8.tgz#69fbc4d6ccbe383f9736934ae34c3f8290f1bf41"
   integrity sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==
+
+ansi-html@^0.0.9:
+  version "0.0.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/ansi-html/-/ansi-html-0.0.9.tgz#6512d02342ae2cc68131952644a129cb734cd3f0"
+  integrity sha512-ozbS3LuenHVxNRh/wdnN16QapUHzauqSomAl1jwwJRRsGwFwtj644lIhxfWu0Fy0acCij2+AEgHvjscq3dlVXg==
 
 ansi-regex@^3.0.0:
   version "3.0.1"
@@ -11540,7 +11545,7 @@ scheduler@^0.23.2:
   dependencies:
     loose-envify "^1.1.0"
 
-schema-utils@^3.0.0, schema-utils@^3.1.1, schema-utils@^3.2.0:
+schema-utils@^3.1.1, schema-utils@^3.2.0:
   version "3.3.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/schema-utils/-/schema-utils-3.3.0.tgz#f50a88877c3c01652a15b622ae9e9795df7a60fe"
   integrity sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==
@@ -11549,7 +11554,7 @@ schema-utils@^3.0.0, schema-utils@^3.1.1, schema-utils@^3.2.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
-schema-utils@^4.0.0:
+schema-utils@^4.0.0, schema-utils@^4.2.0:
   version "4.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/schema-utils/-/schema-utils-4.2.0.tgz#70d7c93e153a273a805801882ebd3bff20d89c8b"
   integrity sha512-L0jRsrPpjdckP3oPug3/VxNKt2trR8TcabrM6FOAAlvC/9Phcmm+cuAgTlxBqdBR1WJx7Naj9WHw+aOmheSVbw==
