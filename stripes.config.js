@@ -81,7 +81,8 @@ module.exports = {
     '@folio/stripes-marc-components' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
-    '@folio/users' : {}
+    '@folio/users' : {},
+    '@folio/workflow' : {}
   },
 
   branding: {
