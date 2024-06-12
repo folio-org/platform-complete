@@ -3,7 +3,7 @@
 pipeline {
 
   environment {
-    origin = 'platform-complete'
+    origin = 'platform-minimal'
     branch = 'snapshot'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
   }
@@ -15,7 +15,7 @@ pipeline {
 
   agent {
     node {
-      label 'platform-build'
+      label 'jenkins-agent-java11'
     }
   }
 

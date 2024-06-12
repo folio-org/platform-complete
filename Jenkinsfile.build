@@ -4,7 +4,7 @@
  *  parameters {
  *    choice(
  *       name: 'PLATFORM',
- *       defaultValue: 'platform-complete',
+ *       defaultValue: 'platform-minimal',
  *       description: 'Platform repo in https://github.com/folio-org/' 
  *    )
  *  }
@@ -42,10 +42,10 @@ pipeline {
         script {
           currentBuild.displayName = "#${env.BUILD_NUMBER}-${env.JOB_BASE_NAME}"
    
-          if (params.PLATFORM == 'platform-core') {
-            env.folio_config = 'snapshot-core'
-            env.ec2_instanceType = 'm5.xlarge'
-            env.ec2_group = 'build_snapshot_core'
+          if (params.PLATFORM == 'platform-minimal') {
+            env.folio_config = 'snapshot-minimal'
+            env.ec2_instanceType = 'm5.large'
+            env.ec2_group = 'build_snapshot_minimal'
           } 
           else {
             env.folio_config = 'snapshot'
