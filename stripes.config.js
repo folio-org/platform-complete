@@ -8,7 +8,8 @@ module.exports = {
   },
 
   modules: {
-    '@folio/users' : {}
+    '@folio/users' : {},
+    '@folio/workflow' : {}
   },
 
   branding: {
