@@ -4,7 +4,7 @@ pipeline {
 
   environment {
     origin = 'platform-complete'
-    branch = 'snapshot'
+    branch = 'folijet-rancher'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
   }
 
