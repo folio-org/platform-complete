@@ -2789,9 +2789,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-testing@^4.8.10000028785":
-  version "4.8.10000030968"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.8.10000030968.tgz#26f021417797ce7884f6f92c495ba2139e675ee0"
-  integrity sha512-N52lqcDq/TJj3hdJQ3tEuudfQMx1jKvCHDRT5HCDSdOh7+m6CecCTwuei1pgTIWHkZH4fQVHZiUHVoTts8dEkA==
+  version "4.8.10000030979"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.8.10000030979.tgz#baa36740a082b141cf363ad37360186471de54fd"
+  integrity sha512-6LDmhYLqhw9GbyeWZndeDurYFYesESCAcReC0RmGP1wMuqxsRe8MqDU/rAPesTLzwlMAITEJVfQVhQcx8Jc35g==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.4"
     "@interactors/keyboard" "^1.0.0-rc1.5"
@@ -2937,9 +2937,9 @@
     redux-form "^8.0.0"
 
 "@folio/users@>=2.17.0":
-  version "11.0.1000005637"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-11.0.1000005637.tgz#2ec561cb471bf6d10772fe58a91c00010895db21"
-  integrity sha512-FSs6X9FIOhZkQR5dihbSe9tqwv18Q+h3cf9+OamtF5FbFIv5DqFx/kRzXJjL3wd5mSDBBKc0rOO0wGlNC+C9TQ==
+  version "11.0.1000005659"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/users/-/users-11.0.1000005659.tgz#4878b3621e86d59a3d8055dd6b6e5668b89b26d8"
+  integrity sha512-ghjN+IjBSN+XtKemYbXKUuneK1Ilo370s6qyztYerIebZPD9egioSYqwLLI3DAlP4Ej1p2G7jRI0FKyOmMyXNg==
   dependencies:
     compressorjs "^1.2.1"
     final-form-set-field-data "^1.0.2"
@@ -7164,13 +7164,25 @@ find-root@^1.0.0, find-root@^1.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
   integrity sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==
 
-find-test-names@1.28.18, find-test-names@^1.28.3:
+find-test-names@1.28.18:
   version "1.28.18"
   resolved "https://repository.folio.org/repository/npm-ci-all/find-test-names/-/find-test-names-1.28.18.tgz#a10acba4ebd2e6db8e182e0fcc6f85d78fa29969"
   integrity sha512-hhnGdkWK+qEA5Z02Tu0OqGQIUjFZNyOCE4WaJpbhW4hAF1+NZ7OCr0Bss9RCaj7BBtjoIjkU93utobQ8pg2iVg==
   dependencies:
     "@babel/parser" "^7.23.0"
     "@babel/plugin-syntax-jsx" "^7.22.5"
+    acorn-walk "^8.2.0"
+    debug "^4.3.3"
+    globby "^11.0.4"
+    simple-bin-help "^1.8.0"
+
+find-test-names@^1.28.3:
+  version "1.28.21"
+  resolved "https://repository.folio.org/repository/npm-ci-all/find-test-names/-/find-test-names-1.28.21.tgz#ced8070ed17d6abf6db4cbfc63d163a4da0b614f"
+  integrity sha512-imnPCkbhGZZEcrHseLeDcdOl/FfEswDJRKR/SjXqBFxx/5R3OMX5I3in9uRpsVFl/NWr3tZkP+Y5o0Rq2lImVw==
+  dependencies:
+    "@babel/parser" "^7.24.7"
+    "@babel/plugin-syntax-jsx" "^7.24.7"
     acorn-walk "^8.2.0"
     debug "^4.3.3"
     globby "^11.0.4"
