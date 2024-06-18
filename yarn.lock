@@ -296,7 +296,7 @@
     js-tokens "^4.0.0"
     picocolors "^1.0.0"
 
-"@babel/parser@^7.14.7", "@babel/parser@^7.23.0", "@babel/parser@^7.24.4", "@babel/parser@^7.24.7":
+"@babel/parser@^7.14.7", "@babel/parser@^7.24.4", "@babel/parser@^7.24.7":
   version "7.24.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/parser/-/parser-7.24.7.tgz#9a5226f92f0c5c8ead550b750f5608e766c8ce85"
   integrity sha512-9uUYRm6OqQrCqQdG1iCBwBPZgN8ciDBro2nIOFaiRz1/BCxaI7CNvQbDHvsArAC7Tw9Hda/B3U+6ui9u4HWXPw==
@@ -448,7 +448,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-jsx@^7.22.5", "@babel/plugin-syntax-jsx@^7.24.7":
+"@babel/plugin-syntax-jsx@^7.24.7":
   version "7.24.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.24.7.tgz#39a1fa4a7e3d3d7f34e2acc6be585b718d30e02d"
   integrity sha512-6ddciUPe/mpMnOKv/U+RSd2vvVy+Yw/JfBB0ZHYjEZt9NLHmCUylNYlsbqCCS1Bffjlb0fCwC9Vqz+sBz6PsiQ==
@@ -3661,9 +3661,9 @@
   integrity sha512-2gyorIBZu8GoDr9pYjROkxWWcFtHCquF7TVbN2I+/OvgZhnIGQS0vX5KJz4lXNKb8XOSfxFOSG5OLru1ESqLUg==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "20.14.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-20.14.4.tgz#3426db474378502882036d595ec9e79a9b17d1e6"
-  integrity sha512-1ChboN+57suCT2t/f8lwtPY/k3qTpuD/qnqQuYoBg6OQOcPyaw7PiZVdGpaZYAvhDDtqrt0oAaM8+oSu1xsUGw==
+  version "20.14.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-20.14.5.tgz#fe35e3022ebe58b8f201580eb24e1fcfc0f2487d"
+  integrity sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==
   dependencies:
     undici-types "~5.26.4"
 
@@ -7142,15 +7142,15 @@ find-cache-dir@^4.0.0:
     pkg-dir "^7.0.0"
 
 find-cypress-specs@^1.31.3:
-  version "1.43.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/find-cypress-specs/-/find-cypress-specs-1.43.4.tgz#01b04db5885d5e37a27e5e0cebc2b5770e02068b"
-  integrity sha512-GAdz6lfBndbOq9OOJ3psThQ56hqgL8tZUCOLnl60d/l56bvHkC0TNwyqlLfBObiscirSZWSgyGL86jJkrpFMrA==
+  version "1.43.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/find-cypress-specs/-/find-cypress-specs-1.43.5.tgz#6aea5f2ac687523b2f9de7b890d4a96d1ac05101"
+  integrity sha512-lLxsT+2zY4H4qh+rJNSp5BQTr/vzLy6UQaTdIj89/wc8S0+masJ63s+yYvT7glRaAmi1PfWrIi+6rRtAYwuNAg==
   dependencies:
     "@actions/core" "^1.10.0"
     arg "^5.0.1"
     console.table "^0.10.0"
     debug "^4.3.3"
-    find-test-names "1.28.18"
+    find-test-names "1.28.21"
     globby "^11.1.0"
     minimatch "^3.0.4"
     pluralize "^8.0.0"
@@ -7164,19 +7164,7 @@ find-root@^1.0.0, find-root@^1.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
   integrity sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==
 
-find-test-names@1.28.18:
-  version "1.28.18"
-  resolved "https://repository.folio.org/repository/npm-ci-all/find-test-names/-/find-test-names-1.28.18.tgz#a10acba4ebd2e6db8e182e0fcc6f85d78fa29969"
-  integrity sha512-hhnGdkWK+qEA5Z02Tu0OqGQIUjFZNyOCE4WaJpbhW4hAF1+NZ7OCr0Bss9RCaj7BBtjoIjkU93utobQ8pg2iVg==
-  dependencies:
-    "@babel/parser" "^7.23.0"
-    "@babel/plugin-syntax-jsx" "^7.22.5"
-    acorn-walk "^8.2.0"
-    debug "^4.3.3"
-    globby "^11.0.4"
-    simple-bin-help "^1.8.0"
-
-find-test-names@^1.28.3:
+find-test-names@1.28.21, find-test-names@^1.28.3:
   version "1.28.21"
   resolved "https://repository.folio.org/repository/npm-ci-all/find-test-names/-/find-test-names-1.28.21.tgz#ced8070ed17d6abf6db4cbfc63d163a4da0b614f"
   integrity sha512-imnPCkbhGZZEcrHseLeDcdOl/FfEswDJRKR/SjXqBFxx/5R3OMX5I3in9uRpsVFl/NWr3tZkP+Y5o0Rq2lImVw==
