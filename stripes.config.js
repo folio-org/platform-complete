@@ -26,6 +26,7 @@ module.exports = {
     '@folio/export-manager': {},
     '@folio/finance' : {},
     "@folio/gobi-settings": {},
+    '@folio/inn-reach' : {},
     '@folio/handler-stripes-registry': {},
     '@folio/inventory' : {},
     '@folio/invoice': {},
