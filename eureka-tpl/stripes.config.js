@@ -17,7 +17,13 @@ module.exports = {
     maxUnpagedResourceCount: 2000,
     showPerms: false,
     isSingleTenant: ${isSingleTenant},
-    tenantOptions: ${tenantOptions}
+    isEureka: true,
+    tenantOptions: ${tenantOptions},
+    useSecureTokens: true,
+    rtr: {
+      idleSessionTTL: '1h',
+      idleModalTTL: '30s',
+    }
   },
   modules,
   branding: {
