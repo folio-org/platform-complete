@@ -61,7 +61,6 @@ module.exports = {
   '@folio/stripes-authority-components' : {},
   '@folio/stripes-erm-components' : {},
   '@folio/tags': {},
-  '@folio-eis/task-list': {},
   '@folio/tenant-settings' : {},
   '@folio/users' : {},
   '@folio/plugin-select-application' : {},
