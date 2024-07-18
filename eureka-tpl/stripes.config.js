@@ -20,6 +20,9 @@ module.exports = {
     }
   },
 modules: {
+    '@folio/authorization-roles': {},
+    '@folio/authorization-policies': {},
+    '@folio/plugin-select-application': {},
     '@folio/acquisition-units': {},
     '@folio/agreements' : {},
     '@folio/bulk-edit': {},
