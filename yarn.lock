@@ -2716,14 +2716,15 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-inventory-components@>=1.0.0":
-  version "1.0.100000292"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-inventory-components/-/stripes-inventory-components-1.0.100000292.tgz#7d0ec0de32636119dc5ad6d4be0653d5234dcf3d"
-  integrity sha512-0DkXE2F7HRAaVj6RMuGI8Y+7eit9V+Ud98HxiUY2k2+1in4rkhjCkAMYAWX9gb3HQ13VG5HrynDqCOxG4MttIA==
+  version "1.0.100000299"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-inventory-components/-/stripes-inventory-components-1.0.100000299.tgz#97b1aadfd0a7a0de181ccf80c62302ff99283190"
+  integrity sha512-6ZeaT2MSeUcMy9waXzJlPLsr5Dzr+PgmlH2csaMKGrS84630DzduG5n3VCaheKUyPTwwVSXyG1XSAqIyOJxAqQ==
   dependencies:
     "@folio/stripes-acq-components" "~5.1.1"
     history "^4.10.0"
     lodash "^4.17.4"
     prop-types "^15.5.10"
+    query-string "^5.0.0"
     zustand "^4.1.1"
 
 "@folio/stripes-logger@~1.0.0":
@@ -7004,6 +7005,11 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
+fdir@^6.2.0:
+  version "6.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/fdir/-/fdir-6.2.0.tgz#9120f438d566ef3e808ca37864d9dd18e1a4f9b5"
+  integrity sha512-9XaWcDl0riOX5j2kYfy0kKdg7skw3IY6kA4LFT8Tk2yF9UdrADUy8D6AJuBLtf7ISm/MksumwAHE3WVbMRyCLw==
+
 fflate@^0.4.8:
   version "0.4.8"
   resolved "https://repository.folio.org/repository/npm-ci-all/fflate/-/fflate-0.4.8.tgz#f90b82aefbd8ac174213abb338bd7ef848f0f5ae"
@@ -10256,6 +10262,11 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   resolved "https://repository.folio.org/repository/npm-ci-all/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
+picomatch@^4.0.2:
+  version "4.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/picomatch/-/picomatch-4.0.2.tgz#77c742931e8f3b8820946c76cd0c1f13730d1dab"
+  integrity sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==
+
 pify@^2.2.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -11951,16 +11962,16 @@ spawn-wrap@^2.0.0:
     which "^2.0.1"
 
 spec-change@^1.11.0:
-  version "1.11.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/spec-change/-/spec-change-1.11.4.tgz#4707324fe40d69abb1346e9000d8449ce4365431"
-  integrity sha512-WWgiOvMuUhw+JWcLmdMOQVczYPpduuIklo3w9RSxrVZUC/BoNimhsmI25KTi3swofd4E48h04DdyjIFR/vn0xw==
+  version "1.11.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/spec-change/-/spec-change-1.11.5.tgz#6fcc6e755c2c7946a57e5bf789efbb6dfc8308e5"
+  integrity sha512-yAdLJ//ApF1mmunu5khilfjnEaLp9Q+fQtpPQaOhqd/WiFvCbVGY//Lldb4IHPx+JqgoLca/tJ//PoqzQ8zfiw==
   dependencies:
     arg "^5.0.2"
     debug "^4.3.4"
     deep-equal "^2.2.3"
     dependency-tree "^11.0.0"
-    globby "^11.1.0"
     lazy-ass "^2.0.3"
+    tinyglobby "^0.2.0"
 
 split-on-first@^1.0.0:
   version "1.1.0"
@@ -12429,6 +12440,14 @@ tiny-warning@^1.0.0:
   version "1.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
   integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
+
+tinyglobby@^0.2.0:
+  version "0.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tinyglobby/-/tinyglobby-0.2.0.tgz#a9d9ef839f87a505936a31882b1e8564c86a972f"
+  integrity sha512-+clyYQfAnNlt5a1x7CCQ6RLuTIztDfDAl6mAANvqRUlz6sVy5znCzJOhais8G6oyUyoeeaorLopO3HptVP8niA==
+  dependencies:
+    fdir "^6.2.0"
+    picomatch "^4.0.2"
 
 tmp-promise@^3.0.3:
   version "3.0.3"
