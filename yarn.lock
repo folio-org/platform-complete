@@ -5234,7 +5234,7 @@ commander@^10.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/commander/-/commander-10.0.1.tgz#881ee46b4f77d1c1dccc5823433aa39b022cbe06"
   integrity sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==
 
-commander@^12.0.0:
+commander@^12.0.0, commander@^12.1.0:
   version "12.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/commander/-/commander-12.1.0.tgz#01423b36f501259fdaac4d0e4d60c96c991585d3"
   integrity sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==
@@ -6055,7 +6055,7 @@ detective-typescript@^13.0.0:
     ast-module-types "^6.0.0"
     node-source-walk "^7.0.0"
 
-detective-vue2@^2.0.0:
+detective-vue2@^2.0.3:
   version "2.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/detective-vue2/-/detective-vue2-2.0.3.tgz#4a9d54de105cf744c05cd7a886c468c17813be51"
   integrity sha512-AgWdSfVnft8uPGnUkdvE1EDadEENDCzoSRMt2xZfpxsjqVO617zGWXbB8TGIxHaqHz/nHa6lOSgAB8/dt0yEug==
@@ -9563,13 +9563,13 @@ module-definition@^6.0.0:
     node-source-walk "^7.0.0"
 
 module-lookup-amd@^9.0.1:
-  version "9.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/module-lookup-amd/-/module-lookup-amd-9.0.1.tgz#2fb92d962b065e084add7e48d17c32cf3ff0056c"
-  integrity sha512-MFeZCK6j2k7fXlldyZ1FgA5goTmvLF0BCQKkxzapsvsPqhCM6NvanE0vy9x5HpY5ETF1yo+PCB9TZIow3PABYg==
+  version "9.0.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/module-lookup-amd/-/module-lookup-amd-9.0.2.tgz#e132b11356a3690ed46ab0164dde2c1ddcd3a8a5"
+  integrity sha512-p7PzSVEWiW9fHRX9oM+V4aV5B2nCVddVNv4DZ/JB6t9GsXY4E+ZVhPpnwUX7bbJyGeeVZqhS8q/JZ/H77IqPFA==
   dependencies:
-    commander "^12.0.0"
+    commander "^12.1.0"
     glob "^7.2.3"
-    requirejs "^2.3.6"
+    requirejs "^2.3.7"
     requirejs-config-file "^4.0.0"
 
 moment-range@^4.0.2:
@@ -10408,7 +10408,7 @@ postcss-values-parser@^6.0.2:
     is-url-superb "^4.0.0"
     quote-unquote "^1.0.0"
 
-postcss@^8.4.2, postcss@^8.4.33, postcss@^8.4.38, postcss@^8.4.39:
+postcss@^8.4.2, postcss@^8.4.33, postcss@^8.4.39, postcss@^8.4.40:
   version "8.4.40"
   resolved "https://repository.folio.org/repository/npm-ci-all/postcss/-/postcss-8.4.40.tgz#eb81f2a4dd7668ed869a6db25999e02e9ad909d8"
   integrity sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==
@@ -10436,12 +10436,12 @@ prebuild-install@^7.1.1:
     tunnel-agent "^0.6.0"
 
 precinct@^12.0.2:
-  version "12.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/precinct/-/precinct-12.1.1.tgz#458e217c6ab51f964a03c2a7352a40ab009c4611"
-  integrity sha512-Vmmtp0QdtM0Z5NzkRG09AgUgBwOpG0KW9KvG1vkltx+e2zrGCWbM5661f6lf8YjKbJhM39TICA6Wc36ZzX1PqQ==
+  version "12.1.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/precinct/-/precinct-12.1.2.tgz#e6982e5fc90a0f1b6696f3a96acbd91cd6b3c841"
+  integrity sha512-x2qVN3oSOp3D05ihCd8XdkIPuEQsyte7PSxzLqiRgktu79S5Dr1I75/S+zAup8/0cwjoiJTQztE9h0/sWp9bJQ==
   dependencies:
     "@dependents/detective-less" "^5.0.0"
-    commander "^12.0.0"
+    commander "^12.1.0"
     detective-amd "^6.0.0"
     detective-cjs "^6.0.0"
     detective-es6 "^5.0.0"
@@ -10450,11 +10450,11 @@ precinct@^12.0.2:
     detective-scss "^5.0.0"
     detective-stylus "^5.0.0"
     detective-typescript "^13.0.0"
-    detective-vue2 "^2.0.0"
+    detective-vue2 "^2.0.3"
     module-definition "^6.0.0"
     node-source-walk "^7.0.0"
-    postcss "^8.4.38"
-    typescript "^5.4.5"
+    postcss "^8.4.40"
+    typescript "^5.5.4"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -11384,7 +11384,7 @@ requirejs-config-file@^4.0.0:
     esprima "^4.0.0"
     stringify-object "^3.2.1"
 
-requirejs@^2.3.6:
+requirejs@^2.3.7:
   version "2.3.7"
   resolved "https://repository.folio.org/repository/npm-ci-all/requirejs/-/requirejs-2.3.7.tgz#0b22032e51a967900e0ae9f32762c23a87036bd0"
   integrity sha512-DouTG8T1WanGok6Qjg2SXuCMzszOo0eHeH9hDZ5Y4x8Je+9JB38HdTLT4/VA8OaUhBa0JPVHJ0pyBkM1z+pDsw==
@@ -12660,7 +12660,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@5, typescript@^5.3.3, typescript@^5.4.4, typescript@^5.4.5:
+typescript@5, typescript@^5.3.3, typescript@^5.4.4, typescript@^5.4.5, typescript@^5.5.4:
   version "5.5.4"
   resolved "https://repository.folio.org/repository/npm-ci-all/typescript/-/typescript-5.5.4.tgz#d9852d6c82bad2d2eda4fd74a5762a8f5909e9ba"
   integrity sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==
