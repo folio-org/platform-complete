@@ -7164,10 +7164,22 @@ find-root@^1.0.0, find-root@^1.1.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
   integrity sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==
 
-find-test-names@1.28.23, find-test-names@^1.28.3:
+find-test-names@1.28.23:
   version "1.28.23"
   resolved "https://repository.folio.org/repository/npm-ci-all/find-test-names/-/find-test-names-1.28.23.tgz#61ae107158410af4deaa2905e8967d0f28ab6330"
   integrity sha512-dbcUbTgORq61Qtb5tOoLJyZQDWEoMW+NQuHMm4AsqDR3/H797dO11hlGFT8LIcKYIsBYqcsND0PELVyd3RTNXg==
+  dependencies:
+    "@babel/parser" "^7.24.7"
+    "@babel/plugin-syntax-jsx" "^7.24.7"
+    acorn-walk "^8.2.0"
+    debug "^4.3.3"
+    globby "^11.0.4"
+    simple-bin-help "^1.8.0"
+
+find-test-names@^1.28.3:
+  version "1.28.24"
+  resolved "https://repository.folio.org/repository/npm-ci-all/find-test-names/-/find-test-names-1.28.24.tgz#69f632e3feb794f290c47dc7f4b259fc2cc7ca5a"
+  integrity sha512-JsKy+T85aWjoCZRbYEVgiLK25Kavv2X1ocdL/C4tMZZQegtXiRJMdopKy8508VGPoOgQP8oRGrf7XF5wFSw7RQ==
   dependencies:
     "@babel/parser" "^7.24.7"
     "@babel/plugin-syntax-jsx" "^7.24.7"
