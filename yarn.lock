@@ -1105,7 +1105,7 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.8", "@babel/runtime@^7.14.0", "@babel/runtime@^7.15.4", "@babel/runtime@^7.19.4", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.8", "@babel/runtime@^7.24.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.8", "@babel/runtime@^7.14.0", "@babel/runtime@^7.15.4", "@babel/runtime@^7.19.4", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.8", "@babel/runtime@^7.24.1", "@babel/runtime@^7.24.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.25.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@babel/runtime/-/runtime-7.25.0.tgz#3af9a91c1b739c569d5d80cc917280919c544ecb"
   integrity sha512-7dRy4DwXwtzBrPbZflqxnvfxLF8kdZXPkhymtDeFoFqE6ldzjQFgYTtYIFARcLEYDrqfBfYcZt1WqFxRoyC9Rw==
@@ -1702,10 +1702,11 @@
     "@folio/plugin-create-inventory-records" "^4.0.0"
 
 "@folio/dashboard@>=1.0.0":
-  version "6.1.100000639"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/dashboard/-/dashboard-6.1.100000639.tgz#a3fd2d7dec4bd242851bf8b1e8f12d10cc62d781"
-  integrity sha512-evSuD909aH7ieiVE+HV2/42yUlyrNl5u38MjCnNJazCDPH1LXmfzlySsiQI8asODoDpTZu0i7nqRBTQHoUNPDg==
+  version "6.1.1000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/dashboard/-/dashboard-6.1.1000003.tgz#02e7f7d1e4798a211ee68ee9a9a77b4a6740b7bc"
+  integrity sha512-EezVVfC1Bbdqi+WqDYsyqWqVer6Wu/RTzTThIOMFThSXFSGQ5DU8AmNjgvbj0RLYW2tLU5ifG9RT/OdmpZPrHg==
   dependencies:
+    "@hello-pangea/dnd" "^16.6.0"
     "@k-int/stripes-kint-components" "^5.8.0"
     compose-function "^3.0.3"
     final-form "^4.19.0"
@@ -1713,7 +1714,6 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
     query-string "^7.1.1"
-    react-beautiful-dnd "^13.0.0"
     react-final-form "^6.4.0"
     react-final-form-arrays "^3.1.1"
     react-grid-layout "^1.3.4"
@@ -2437,9 +2437,9 @@
     "@folio/plugin-find-user" "^7.0.0"
 
 "@folio/serials-management@>=1.0.0":
-  version "1.1.1000001351"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/serials-management/-/serials-management-1.1.1000001351.tgz#2d2b55178c74de26b2e525086e7ce9892803828b"
-  integrity sha512-vkFzyDwWmuULWsEB41aCkdjkR1rTkUfO82fn6j0n2cg8V5hyGEEzjA+YOaZEGu7JodBdZ8XUByENJY8BFyhvXg==
+  version "1.1.1000001354"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/serials-management/-/serials-management-1.1.1000001354.tgz#95188bc914e4045eb83bb6ab11f95bc2d6008891"
+  integrity sha512-fm6oFNuvDgo1mxkDd4tpgbHG9yrd+lXSK2MqoBpNjxJ0DQPUMufEn2soH0NYM9H0pDHotwGTs7fGBqI3Rn2xeA==
   dependencies:
     "@k-int/stripes-kint-components" "^5.8.0"
     final-form "^4.18.4"
@@ -2734,9 +2734,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@~9.2.0":
-  version "9.2.1000002418"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-9.2.1000002418.tgz#6990a3fcea06b7b7126bebb8fa36fa0c177cda90"
-  integrity sha512-c1aCZvUp+97FLSLB4O044lpnx2RtHO6XBXlZ1C2e9XHzv/EuqNg1thVGud6K5u28dDQRXrEcQ4YMNKiH0KTZ4A==
+  version "9.2.1000002427"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-9.2.1000002427.tgz#21a733f488b3117e8c544ae4cad11d16db1e2f98"
+  integrity sha512-MhiuIAKykDBWw+Y+SDvuq+iOj7DagyI3Mr2ezB00P1qaxsmwyJXhIy53xBDsFiCV0kSnSRMzYJ53Ph/SS7cgkg==
   dependencies:
     "@rehooks/local-storage" "2.4.4"
     classnames "^2.2.6"
@@ -2787,9 +2787,9 @@
     minimist "^1.2.0"
 
 "@folio/stripes-testing@^4.8.10000028785":
-  version "4.8.10000032406"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.8.10000032406.tgz#f4ee9d57babfd14c0e0748e23e178520f8ef8a02"
-  integrity sha512-sQGcioBRTuDMfMJC00Xdgr/quKXVycKPRjdLUpdpB+dFXOCW8L+xjMa6Nmlkx9h+AJAB21bWO7J95Dj9+nd1uA==
+  version "4.8.10000032412"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-testing/-/stripes-testing-4.8.10000032412.tgz#3425f3107f7bb4a79a33dfbc60a67aa6b7f1a98b"
+  integrity sha512-lOk+GZ1gICBs/KEzRFRC7wfRqfyvrViVAFloEkBraiJkU2X4uSBYWC3DivpO5abCeHb+w6hTl1KBTjVhhJm7xw==
   dependencies:
     "@interactors/html" "^1.0.0-rc1.4"
     "@interactors/keyboard" "^1.0.0-rc1.5"
@@ -3070,6 +3070,19 @@
   version "3.2.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@graphql-typed-document-node/core/-/core-3.2.0.tgz#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
   integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
+
+"@hello-pangea/dnd@^16.6.0":
+  version "16.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@hello-pangea/dnd/-/dnd-16.6.0.tgz#7509639c7bd13f55e537b65a9dcfcd54e7c99ac7"
+  integrity sha512-vfZ4GydqbtUPXSLfAvKvXQ6xwRzIjUSjVU0Sx+70VOhc2xx6CdmJXJ8YhH70RpbTUGjxctslQTHul9sIOxCfFQ==
+  dependencies:
+    "@babel/runtime" "^7.24.1"
+    css-box-model "^1.2.1"
+    memoize-one "^6.0.0"
+    raf-schd "^4.0.3"
+    react-redux "^8.1.3"
+    redux "^4.2.1"
+    use-memo-one "^1.1.3"
 
 "@interactors/core@1.0.0":
   version "1.0.0"
@@ -5505,7 +5518,7 @@ crypto-random-string@^4.0.0:
   dependencies:
     type-fest "^1.0.1"
 
-css-box-model@^1.2.0:
+css-box-model@^1.2.0, css-box-model@^1.2.1:
   version "1.2.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/css-box-model/-/css-box-model-1.2.1.tgz#59951d3b81fd6b2074a62d49444415b0d2b4d7c1"
   integrity sha512-a7Vr4Q/kd/aw96bnJG332W9V9LkJO69JRcaCYDUqjp6/z0w6VcZjgAcTbgFxEPfBgdnAwlh3iwu+hLopa+flJw==
@@ -10701,7 +10714,7 @@ quote-unquote@^1.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/quote-unquote/-/quote-unquote-1.0.0.tgz#67a9a77148effeaf81a4d428404a710baaac8a0b"
   integrity sha512-twwRO/ilhlG/FIgYeKGFqyHhoEhqgnKVkcmqMKi2r524gz3ZbDTcyFt38E9xjJI2vT+KbRNHVbnJ/e0I25Azwg==
 
-raf-schd@^4.0.2:
+raf-schd@^4.0.2, raf-schd@^4.0.3:
   version "4.0.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/raf-schd/-/raf-schd-4.0.3.tgz#5d6c34ef46f8b2a0e880a8fcdb743efc5bfdbc1a"
   integrity sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ==
@@ -11002,7 +11015,7 @@ react-redux@^7.2.0:
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-react-redux@^8.0.5:
+react-redux@^8.0.5, react-redux@^8.1.3:
   version "8.1.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-redux/-/react-redux-8.1.3.tgz#4fdc0462d0acb59af29a13c27ffef6f49ab4df46"
   integrity sha512-n0ZrutD7DaX/j9VscF+uTALI3oUPa/pO4Z3soOBIjuRn/FzVu6aehhysxZCLi6y7duMf52WNZGMl7CtuK5EnRw==
@@ -12829,7 +12842,7 @@ use-deep-compare@^1.1.0:
   dependencies:
     dequal "2.0.3"
 
-use-memo-one@^1.1.1:
+use-memo-one@^1.1.1, use-memo-one@^1.1.3:
   version "1.1.3"
   resolved "https://repository.folio.org/repository/npm-ci-all/use-memo-one/-/use-memo-one-1.1.3.tgz#2fd2e43a2169eabc7496960ace8c79efef975e99"
   integrity sha512-g66/K7ZQGYrI6dy8GLpVcMsBp4s17xNkYJVSMvTEevGy3nDxHOfE6z8BVE22+5G5x7t3+bhzrlTDB7ObrEE0cQ==
