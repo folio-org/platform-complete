@@ -11,9 +11,9 @@
     "@jridgewell/trace-mapping" "^0.3.24"
 
 "@apollo/client@^3.2.1":
-  version "3.11.3"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.11.3.tgz#f7e2c6c5166da3194b9d6c40e05b1d43f3cc7d0a"
-  integrity sha512-bocd9vQc9PSq4MG6129HKF8ujUirVod98he9OEWpyOs5CXnUC81zNRaUshA4wPSflR6mnx0yRuRankp1V8A+og==
+  version "3.11.4"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.11.4.tgz#8b0fed2d091d47597e8ddafca85776bf612ae3aa"
+  integrity sha512-bmgYKkULpym8wt8aXlAZ1heaYo0skLJ5ru0qJ+JCRoo03Pe+yIDbBCnqlDw6Mjj76hFkDw3HwFMgZC2Hxp30Mg==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@wry/caches" "^1.0.0"
@@ -1767,6 +1767,18 @@
     react-final-form-arrays "^3.1.0"
     react-router-prop-types "^1.0.4"
 
+"@folio/lists@3.0.2":
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/lists/-/lists-3.0.2.tgz#1f8b490a916c025c48240ffcb3452153f8e1c834"
+  integrity sha512-CJOaVy0NICNbEzIgBePHt/enI1JKnI0ABXOvDET6+/kHONeBntAy+pLAOYoVmoi4LUsMZ+DDkh5jwt9FsIajJQ==
+  dependencies:
+    "@folio/plugin-query-builder" "^1.1.2"
+    "@folio/stripes-acq-components" "~5.1.0"
+    date-fns "^2.29.3"
+    ky "^0.33.2"
+    lodash "^4.17.21"
+    prop-types "^15.6.0"
+
 "@folio/local-kb-admin@8.0.1":
   version "8.0.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/local-kb-admin/-/local-kb-admin-8.0.1.tgz#6af3804b05f7e0d3bd229ea2a3ecc8b1afc939a4"
@@ -2063,7 +2075,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-query-builder@1.1.5":
+"@folio/plugin-query-builder@1.1.5", "@folio/plugin-query-builder@^1.1.2":
   version "1.1.5"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-query-builder/-/plugin-query-builder-1.1.5.tgz#28bdadf8daa25785159ed84fcd17edbcdfffaa5b"
   integrity sha512-EgimkPXQw6AyLtvn+zRehzaKLgbmHN7i9JFtnvAV5rF2ahzewD2xXSyb+IkmStgPoU/i1q7U6qrR51PipTG62g==
@@ -4229,9 +4241,9 @@ camelcase@^7.0.1:
   integrity sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==
 
 caniuse-lite@^1.0.30001646:
-  version "1.0.30001650"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001650.tgz#dd1eba0938e39536d184c3c99b2569a13788bc16"
-  integrity sha512-fgEc7hP/LB7iicdXHUI9VsBsMZmUmlVJeQP2qqQW+3lkqVhbmjEU8zp+h5stWeilX+G7uXuIUIIlWlDw9jdt8g==
+  version "1.0.30001651"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001651.tgz#52de59529e8b02b1aedcaaf5c05d9e23c0c28138"
+  integrity sha512-9Cf+Xv1jJNe1xPZLGuUXLNkE1BoDkqRqYyFJ9TDYSqhduqA4hu4oR9HluGoWYQC/aj8WHjsGVV+bwkh0+tegRg==
 
 canvg@^3.0.6:
   version "3.0.10"
@@ -4956,7 +4968,7 @@ d@1, d@^1.0.1, d@^1.0.2:
     es5-ext "^0.10.64"
     type "^2.7.2"
 
-date-fns@^2.16.1:
+date-fns@^2.16.1, date-fns@^2.29.3:
   version "2.30.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
   integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
@@ -10513,9 +10525,9 @@ terser-webpack-plugin@^5.3.10:
     terser "^5.26.0"
 
 terser@^5.10.0, terser@^5.26.0:
-  version "5.31.3"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.31.3.tgz#b24b7beb46062f4653f049eea4f0cd165d0f0c38"
-  integrity sha512-pAfYn3NIZLyZpa83ZKigvj6Rn9c/vd5KfYGX7cN1mnzqgDcxWvrU5ZtAfIKhEXz9nRecw4z3LXkjaq96/qZqAA==
+  version "5.31.4"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.31.4.tgz#60274c4d3e20eb9a6468526a8878aba8e8428c5f"
+  integrity sha512-3OU03GgblDgu0g+sdnsVzhBPxnjV+WJuMmocN1qBBZDQ3ia7jZQSAkePeKbPlYAejGXUTYe1CmSaUeV51mvaIw==
   dependencies:
     "@jridgewell/source-map" "^0.3.3"
     acorn "^8.8.2"
