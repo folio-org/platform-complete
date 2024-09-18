@@ -2370,9 +2370,9 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@~12.2.0":
-  version "12.2.109000000160"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-12.2.109000000160.tgz#d0f440745769f638687f80f65a26f8fe5eedd9a3"
-  integrity sha512-5AXK7gT+du5od07eYoge8RkxWMd3X32O9THlV9SLEjB51BGcUbM4aEltL8TXi9lqv2K9VTFnGXY0KR/R4HH0xA==
+  version "12.2.109000000177"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-12.2.109000000177.tgz#514046c18ab9bcc54069c2504cf5fa41096e105f"
+  integrity sha512-/szFHlRhpYGvVa2Yt7gEBLfqvJ/8R9nCrlCqaexu7EiQ6KU0+ItP6VbTcDz1ZQSmk5wnrNwMsAwZWTpRDf07NQ==
   dependencies:
     "@csstools/postcss-global-data" "^2.1.1"
     "@folio/stripes-react-hotkeys" "^3.0.5"
@@ -2381,6 +2381,7 @@
     dayjs "^1.11.10"
     downshift "^9.0.4"
     flexboxgrid2 "^7.2.0"
+    focus-trap "^7.5.4"
     hoist-non-react-statics "^3.1.0"
     json2csv "^4.2.1"
     lodash "^4.17.4"
@@ -6150,6 +6151,13 @@ flexboxgrid2@^7.2.0:
   integrity sha512-O2bO5ZcBXnFy7cYmyt/CKb6CuwzNuUPxWJt8WOiaot8SetE9zyUahXGTSpKDm3+CTYQ5YeEMPeunMdjcxKJz4w==
   dependencies:
     normalize.css "^7.0.0"
+
+focus-trap@^7.5.4:
+  version "7.6.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/focus-trap/-/focus-trap-7.6.0.tgz#7f3edab8135eaca92ab59b6e963eb5cc42ded715"
+  integrity sha512-1td0l3pMkWJLFipobUcGaf+5DTY4PLDDrcqoSaKP8ediO/CoWCCYk/fT/Y2A4e6TNB+Sh6clRJCjOPPnKoNHnQ==
+  dependencies:
+    tabbable "^6.2.0"
 
 follow-redirects@^1.0.0:
   version "1.15.9"
@@ -10398,6 +10406,11 @@ symbol-observable@^4.0.0:
   version "4.0.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/symbol-observable/-/symbol-observable-4.0.0.tgz#5b425f192279e87f2f9b937ac8540d1984b39205"
   integrity sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==
+
+tabbable@^6.2.0:
+  version "6.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tabbable/-/tabbable-6.2.0.tgz#732fb62bc0175cfcec257330be187dcfba1f3b97"
+  integrity sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==
 
 table@^5.2.3:
   version "5.4.6"
