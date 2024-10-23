@@ -5,7 +5,7 @@
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=8192 $NODE_OPTIONS\"; stripes build stripes.config.js",
     "stripes": "stripes",
-    "start": "stripes serve stripes.config.js",
+    "start": "stripes serve stripes.config.js.local",
     "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
     "test": "echo 'No unit tests implemented'",
@@ -35,7 +35,7 @@
     "@folio/gobi-settings": ">=1.0.0",
     "@folio/handler-stripes-registry": ">=1.0.0",
     "@folio/inn-reach": ">=1.1.0",
-    "@folio/inventory": ">=1.0.0",
+    "@folio/inventory": ">=1.4.0",
     "@folio/invoice": ">=1.0.0",
     "@folio/ldp": ">=1.1.0",
     "@folio/licenses": ">=2.0.0",
