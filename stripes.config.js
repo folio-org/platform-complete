@@ -33,6 +33,7 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/invoice': {},
     '@folio/ldp': {},
+    '@folio/ld-folio-wrapper': {},
     '@folio/licenses': {},
     '@folio/lists': {},
     '@folio/local-kb-admin': {},

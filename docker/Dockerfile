@@ -13,6 +13,7 @@ RUN apk upgrade \
       python3 \
  && rm -rf /var/cache/apk/*
 RUN yarn config set python /usr/bin/python3
+RUN npm install -g npm@10.9.0
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 RUN yarn install
