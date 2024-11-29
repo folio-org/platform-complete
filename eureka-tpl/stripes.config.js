@@ -14,7 +14,7 @@ module.exports = {
     isSingleTenant: ${isSingleTenant},
     isEureka: true,
     tenantOptions: ${tenantOptions},
-    enableEcsRequests: ${enableEcsRequests ? enableEcsRequests : false},
+    enableEcsRequests: ${enableEcsRequests},
     rtr: {
       idleSessionTTL: '1h',
       idleModalTTL: '30s',
