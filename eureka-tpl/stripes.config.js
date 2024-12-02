@@ -19,7 +19,7 @@ module.exports = {
       idleModalTTL: '30s',
     }
   },
-modules: {
+  modules: {
     '@folio/authorization-roles': {},
     '@folio/authorization-policies': {},
     '@folio/plugin-select-application': {},
