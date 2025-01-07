@@ -1,9 +1,5 @@
 {
-  "baseBranches": [
-    "main",
-    "master",
-    "R2-2024"
-  ],
+  "baseBranches": ["main", "master", "R2-2024"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
@@ -18,21 +14,13 @@
     "react-redux",
     "redux"
   ],
-  "major": {
-    "enabled": false
-  },
-  "minor": {
-    "enabled": false
-  },
-  "patch": {
-    "enabled": true
-  },
+  "major": {"enabled": false},
+  "minor": {"enabled": false},
+  "patch": {"enabled": true},
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^install-extras.json$"
-      ],
+      "fileMatch": ["^install-extras.json$"],
       "matchStrings": [
         "\\\"(?<moduleName>(mod-|edge-|okapi).*?)-(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+?)\\\""
       ],
@@ -42,33 +30,18 @@
   ],
   "packageRules": [
     {
-      "matchBaseBranches": [
-        "main",
-        "master"
-      ],
+      "matchBaseBranches": ["main", "master"],
       "groupName": "Main branch updates",
-      "matchUpdateTypes": [
-        "patch"
-      ],
+      "matchUpdateTypes": ["patch"],
       "enabled": true,
-      "matchPackageNames": [
-        "/^@folio//",
-        "/^folioorg//"
-      ]
+      "matchPackageNames": ["/^@folio//", "/^folioorg//"]
     },
     {
-      "matchBaseBranches": [
-        "R2-2024"
-      ],
+      "matchBaseBranches": ["R2-2024"],
       "groupName": "FOLIO R2 2024 updates",
-      "matchUpdateTypes": [
-        "patch"
-      ],
+      "matchUpdateTypes": ["patch"],
       "enabled": true,
-      "matchPackageNames": [
-        "/^@folio//",
-        "/^folioorg//"
-      ]
+      "matchPackageNames": ["/^@folio//", "/^folioorg//"]
     }
   ]
 }
