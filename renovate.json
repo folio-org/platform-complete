@@ -1,46 +1,47 @@
 {
-  "baseBranches": ["main", "master","R2-2024-Consortia"],
+  "baseBranches": ["main", "master", "R2-2024-Consortia"],
   "branchPrefix": "renovate_",
   "automerge": false,
   "separateMinorPatch": true,
   "separateMajorMinor": true,
   "updateLockFiles": false,
   "rangeStrategy": "replace",
-  "ignoreDeps": ["eslint","lodash","react","react-dom","react-redux","redux"],
-
-  "major": {
-    "enabled": false
-  },
-  "minor": {
-    "enabled": false
-  },
-  "patch": {
-    "enabled": true
-  },
-
-  "regexManagers": [
+  "ignoreDeps": [
+    "eslint",
+    "lodash",
+    "react",
+    "react-dom",
+    "react-redux",
+    "redux"
+  ],
+  "major": {"enabled": false},
+  "minor": {"enabled": false},
+  "patch": {"enabled": true},
+  "customManagers": [
     {
-      "fileMatch": [ "^install-extras.json$" ],
-      "matchStrings": [ "\\\"(?<moduleName>(mod-|edge-|okapi).*?)-(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+?)\\\"" ],
+      "customType": "regex",
+      "fileMatch": ["^install-extras.json$"],
+      "matchStrings": [
+        "\\\"(?<moduleName>(mod-|edge-|okapi).*?)-(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+?)\\\""
+      ],
       "datasourceTemplate": "docker",
       "depNameTemplate": "folioorg/{{{moduleName}}}"
     }
   ],
-
   "packageRules": [
     {
-      "baseBranchList": ["main", "master"],
-      "packagePatterns": ["^@folio/","^folioorg/"],
+      "matchBaseBranches": ["main", "master"],
       "groupName": "Main branch updates",
-      "updateTypes": ["patch"],
-      "enabled": true
+      "matchUpdateTypes": ["patch"],
+      "enabled": true,
+      "matchPackageNames": ["/^@folio//", "/^folioorg//"]
     },
     {
-      "baseBranchList": ["R2-2024-Consortia"],
-      "packagePatterns": ["^@folio/", "^folioorg/"],
+      "matchBaseBranches": ["R2-2024-Consortia"],
       "groupName": "FOLIO R2 2024 updates Consortia",
-      "updateTypes": ["patch"],
-      "enabled": true
+      "matchUpdateTypes": ["patch"],
+      "enabled": true,
+      "matchPackageNames": ["/^@folio//", "/^folioorg//"]
     }
   ]
 }
