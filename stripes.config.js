@@ -28,6 +28,8 @@ module.exports = {
     '@folio/requests': {},
     '@folio/developer': {},
     '@folio/servicepoints': {},
+    '@folio/stripes-inventory-components' : {},
+    '@folio/stripes-marc-components' : {},
   },
 
   branding: {
