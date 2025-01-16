@@ -66,9 +66,9 @@ pipeline {
             echo "Tenant: ${env.tenant}"
 
             script {
-            // Remove existing .yarnrc on build image for release builds.
-            // Use repo configuration.
-            sh 'rm -f /home/jenkins/.yarnrc'
+              // Remove existing .yarnrc on build image for release builds.
+              // Use repo configuration.
+              sh 'rm -f /home/jenkins/.yarnrc'
               def branch = env.CHANGE_TARGET?.trim() ? env.CHANGE_TARGET : env.BRANCH_NAME
               buildStripesPlatform(env.okapiUrl, env.tenant, branch)
             }
