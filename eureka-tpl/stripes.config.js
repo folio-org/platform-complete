@@ -14,12 +14,13 @@ module.exports = {
     isSingleTenant: ${isSingleTenant},
     isEureka: true,
     tenantOptions: ${tenantOptions},
+    enableEcsRequests: ${enableEcsRequests},
     rtr: {
       idleSessionTTL: '1h',
       idleModalTTL: '30s',
     }
   },
-modules: {
+  modules: {
     '@folio/authorization-roles': {},
     '@folio/authorization-policies': {},
     '@folio/plugin-select-application': {},
@@ -31,6 +32,7 @@ modules: {
     '@folio/checkout' : {},
     '@folio/circulation' : {},
     '@folio/circulation-log' : {},
+    '@folio/claims' : {},
     '@folio/courses' : {},
     '@folio/data-import' : {},
     '@folio/data-export' : {},
