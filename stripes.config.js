@@ -20,7 +20,6 @@ module.exports = {
     '@folio/checkin' : {},
     '@folio/checkout' : {},
     '@folio/circulation' : {},
-    '@folio/consortia-settings' : {},
     '@folio/circulation-log' : {},
     '@folio/claims' : {},
     '@folio/courses' : {},
