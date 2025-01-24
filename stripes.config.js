@@ -14,7 +14,6 @@ module.exports = {
   },
 
   modules: {
-    '@folio/acquisition-units': {},
     '@folio/agreements' : {},
     '@folio/bulk-edit': {},
     '@folio/checkin' : {},
@@ -39,7 +38,6 @@ module.exports = {
     '@folio/finance' : {},
     '@folio/ldp' : {},
     '@folio/licenses' : {},
-    '@folio/lists' : {},
     '@folio/local-kb-admin': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
