@@ -71,7 +71,7 @@ pipeline {
           def installPreJson = readFile('./install-pre.json')
           platformDepCheck('diku',installPreJson)
           echo 'Removing Okapi version from install.json'
-          sh 'sed -i \'s/okapi-.*"/okapi"/\'' install.json
+          sh 'sed -i \'s/okapi-.*"/okapi"/\' install.json'
           sh 'cat install.json'
           echo 'Generating backend dependency list to okapi-install.json'
           sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
