@@ -140,6 +140,7 @@ pipeline {
                                'yarn.lock']
 
            sh "git checkout $env.BRANCH"
+           sh 'git pull'
            sh 'git add yarn.lock'
 
            for (int i = 0; i < installFiles.size(); i++) {
