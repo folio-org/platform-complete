@@ -1368,9 +1368,9 @@
     lodash "^4.17.21"
 
 "@folio/courses@>=1.0.0":
-  version "6.1.1099000000006"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-6.1.1099000000006.tgz#76fdf03d510dfd7fca61ce3a810b3c4b29e5444d"
-  integrity sha512-vh9M3dq1kY0WYrjIcStxdG/8gXoRMs5SaJ7HRscFIQ7arDtDlApPjk2rNZjsb5798u7Uoz5HOPhgkFcRk03gSw==
+  version "6.1.1099000000009"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-6.1.1099000000009.tgz#d83f307d1e90962ec3614e58ebb14d642b3d2fbc"
+  integrity sha512-lQOVzgjhQstIXx5dJyo1X/CiJm5zkQtuQH0cA9s36/LspvpFWffjPMqoNxt+waE8t11TKhlfifPdnyqRIS0/9A==
   dependencies:
     final-form-set-field-data "^1.0.2"
     ky "^0.23.0"
@@ -1379,7 +1379,7 @@
     query-string "^6.0.0"
     react-final-form "^6.3.0"
   optionalDependencies:
-    "@folio/plugin-create-inventory-records" "^4.0.0"
+    "@folio/plugin-create-inventory-records" "^4.0.0||^5.0.0"
 
 "@folio/dashboard@>=1.0.0":
   version "7.0.109900000000126"
@@ -1810,24 +1810,10 @@
     react-final-form-listeners "^1.0.2"
     react-router-prop-types "^1.0.4"
 
-"@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^5.0.0":
+"@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^4.0.0||^5.0.0", "@folio/plugin-create-inventory-records@^5.0.0":
   version "5.1.109000000655"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-5.1.109000000655.tgz#35e2cbc5e2bc9f0af45ede75d41cb2e5e83d0e58"
   integrity sha512-P9rt2asEv28+nbGo4y31ny82kYxy8+PT/kVePDN/paSSV83hRyb8I3cgeoUI/4JkBXBGba60fqLCYezcci4I1w==
-  dependencies:
-    classnames "^2.2.5"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-    react-final-form-listeners "^1.0.2"
-
-"@folio/plugin-create-inventory-records@^4.0.0":
-  version "4.1.109000000593"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-4.1.109000000593.tgz#00a200312729841c33f335e9d5d1b12e9acd6679"
-  integrity sha512-0nRlVv0Kyt57vd35I+wiP58AbwiGLeZWICYiayGRUC141Dq7TaBhXgjcpNbkBjw+PoJeol2r0oo6fV15LFXXMQ==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
