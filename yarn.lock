@@ -1088,6 +1088,45 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
+"@dnd-kit/accessibility@^3.1.1":
+  version "3.1.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@dnd-kit/accessibility/-/accessibility-3.1.1.tgz#3b4202bd6bb370a0730f6734867785919beac6af"
+  integrity sha512-2P+YgaXF+gRsIihwwY1gCsQSYnu9Zyj2py8kY5fFvUM1qm2WA2u639R6YNVfU4GWr+ZM5mqEsfHZZLoRONbemw==
+  dependencies:
+    tslib "^2.0.0"
+
+"@dnd-kit/core@^6.2.0":
+  version "6.3.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@dnd-kit/core/-/core-6.3.1.tgz#4c36406a62c7baac499726f899935f93f0e6d003"
+  integrity sha512-xkGBRQQab4RLwgXxoqETICr6S5JlogafbhNsidmrkVv2YRs5MLwpjoF2qpiGjQt8S9AoxtIV603s0GIUpY5eYQ==
+  dependencies:
+    "@dnd-kit/accessibility" "^3.1.1"
+    "@dnd-kit/utilities" "^3.2.2"
+    tslib "^2.0.0"
+
+"@dnd-kit/modifiers@^9.0.0":
+  version "9.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@dnd-kit/modifiers/-/modifiers-9.0.0.tgz#96a0280c77b10c716ef79d9792ce7ad04370771d"
+  integrity sha512-ybiLc66qRGuZoC20wdSSG6pDXFikui/dCNGthxv4Ndy8ylErY0N3KVxY2bgo7AWwIbxDmXDg3ylAFmnrjcbVvw==
+  dependencies:
+    "@dnd-kit/utilities" "^3.2.2"
+    tslib "^2.0.0"
+
+"@dnd-kit/sortable@^9.0.0":
+  version "9.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@dnd-kit/sortable/-/sortable-9.0.0.tgz#c1910adc8265753384c44888e588491e2c2869c6"
+  integrity sha512-3/9r8Mmba0nKTbo8kPnVSFZKf/VSy94nXZ3aUwzPEh78j/LooQ/EFKRZENak4PHKBkN53mgTF/z+Sd8H+FcAnQ==
+  dependencies:
+    "@dnd-kit/utilities" "^3.2.2"
+    tslib "^2.0.0"
+
+"@dnd-kit/utilities@^3.2.2":
+  version "3.2.2"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@dnd-kit/utilities/-/utilities-3.2.2.tgz#5a32b6af356dc5f74d61b37d6f7129a4040ced7b"
+  integrity sha512-+MKAJEOfaBe5SmV6t34p80MMKhjvUz0vRrvVJbPT0WElzaOJ/1xs+D+KDv+tD/NE5ujfrChEcshd4fLn0wpiqg==
+  dependencies:
+    tslib "^2.0.0"
+
 "@esbuild/android-arm64@0.17.19":
   version "0.17.19"
   resolved "https://repository.folio.org/repository/npm-ci-all/@esbuild/android-arm64/-/android-arm64-0.17.19.tgz#bafb75234a5d3d1b690e7c2956a599345e84a2fd"
@@ -1704,10 +1743,13 @@
     "@folio/quick-marc" "^9.0.0"
 
 "@folio/myprofile@>=1.1.0":
-  version "10.0.1099000000007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-10.0.1099000000007.tgz#41cc50e645d321a321ca8d73d09e1711f642dfb4"
-  integrity sha512-PLPmbe/66a/TyrVy4PECzSnvSLp9DzA6pKDFPrwUOi99vzekWnXXzfv4QA/RjCsPgHQfnSG+eRr3x3voaMyleQ==
+  version "10.0.10990000000025"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/myprofile/-/myprofile-10.0.10990000000025.tgz#9399fd604e778f72a69bb73e1ba18e06bb6d4c71"
+  integrity sha512-kZgPt+QgEphXBwYgE1LFu2nJyWZyK47sSta6OY7ifuG/TONeE6MOmO6xkM8gLAr36BOv/NSDZXpBV0vfjvhCyw==
   dependencies:
+    "@dnd-kit/core" "^6.2.0"
+    "@dnd-kit/modifiers" "^9.0.0"
+    "@dnd-kit/sortable" "^9.0.0"
     prop-types "^15.6.0"
     redux-form "^8.3.7"
 
@@ -10028,7 +10070,7 @@ ts-loader@^9.4.1:
     semver "^7.3.4"
     source-map "^0.7.4"
 
-tslib@2, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.6.2:
+tslib@2, tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.6.2:
   version "2.8.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
