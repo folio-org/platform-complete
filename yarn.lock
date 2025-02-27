@@ -1556,12 +1556,12 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/finance@>=1.1.0":
-  version "8.0.109900000000102"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-8.0.109900000000102.tgz#39cdf10c47c8a91fb0dce8c21d593bab8c1cee32"
-  integrity sha512-t8ImfqkV6XJ/of4wn2/xYtJ2fOQ6T6tEgoNnrjcqOtg1jz+Ap34rMh/m75mEY3DHPkyY2LKa4aHsfb/reyIcRA==
+  version "8.0.109900000000114"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/finance/-/finance-8.0.109900000000114.tgz#d07119863fc6db0e2437bd3671295f6ec0e41cea"
+  integrity sha512-yQX+j4VD/Y8y1mPxczblonves+EeRa7q3zHoRrScPr3eMtQISJotpm3a7WNfma/zmaXpN8uQU49QbDKM0yENHw==
   dependencies:
-    "@folio/stripes-acq-components" "~6.0.0"
-    "@folio/stripes-data-transfer-components" "~6.2.0"
+    "@folio/stripes-acq-components" "~7.0.0"
+    "@folio/stripes-data-transfer-components" "~7.0.0"
     "@rehooks/local-storage" "^2.4.4"
     final-form "^4.18.2"
     final-form-arrays "^3.0.1"
@@ -1575,7 +1575,7 @@
     react-final-form-listeners "^1.0.2"
     redux-form "^8.3.0"
   optionalDependencies:
-    "@folio/plugin-find-fund" "^3.0.0"
+    "@folio/plugin-find-fund" "^4.0.0"
 
 "@folio/gobi-settings@>=1.0.0":
   version "4.0.10990000000010"
@@ -1616,9 +1616,9 @@
     "@folio/plugin-find-user" "^7.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "13.1.109900000000195"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-13.1.109900000000195.tgz#66e215448b62ca748e6c3d6bfbfd2392517bf88e"
-  integrity sha512-m3fdKXmbWzroyfk7Gy7lRu9Dj+d9E3gbAv7Tp6LfFF5ejMPrl1Zk18n5HGDBlwgYsTnKpvgiGQ32WIxUpYGNzg==
+  version "13.1.109900000000215"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-13.1.109900000000215.tgz#79d56b1430178a84afe655a36849fa0f85d023bb"
+  integrity sha512-tPtZaS90GKLNOcBQGckzuvXAmP7cb6eh0Z4HpbiYhGtHkFFjw9wzi82+CLPIIgevs5cnL1r8vVbW/E2DpuF/lg==
   dependencies:
     "@folio/stripes-acq-components" "~6.0.0"
     classnames "^2.3.2"
@@ -1943,21 +1943,12 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-fund@>=1.0.0":
+"@folio/plugin-find-fund@>=1.0.0", "@folio/plugin-find-fund@^4.0.0":
   version "4.0.10990000000010"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-fund/-/plugin-find-fund-4.0.10990000000010.tgz#33fdb7ce23a6b5422bcf03d8c0e5d20877785a0d"
   integrity sha512-NPo2+w6cD6Ouv4upB1H+mtB6br/xFur2QE3QSJ6onhYtShff9yzu8llOsPCvmkWSeDFqz7rMhFUDF4ua2iqyxQ==
   dependencies:
     "@folio/stripes-acq-components" "~7.0.0"
-    lodash "^4.17.5"
-    prop-types "^15.5.10"
-
-"@folio/plugin-find-fund@^3.0.0":
-  version "3.2.1099000000007"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-fund/-/plugin-find-fund-3.2.1099000000007.tgz#f3dff932eedf11b46e5653b25a71f184da5e0ed2"
-  integrity sha512-DaivQeJrwZQFvZxi/nQmNkQkd7n3KTxLmuZ+aRznBdgSymKtAma9kUGxITDieXCaF2IHzOUlZ9BJOtEzyGByQA==
-  dependencies:
-    "@folio/stripes-acq-components" "~6.0.0"
     lodash "^4.17.5"
     prop-types "^15.5.10"
 
@@ -2440,10 +2431,26 @@
     rxjs "^6.6.3"
     use-deep-compare "^1.1.0"
 
-"@folio/stripes-data-transfer-components@^6.0.0", "@folio/stripes-data-transfer-components@^6.1.0", "@folio/stripes-data-transfer-components@^6.2.0", "@folio/stripes-data-transfer-components@~6.2.0":
+"@folio/stripes-data-transfer-components@^6.0.0", "@folio/stripes-data-transfer-components@^6.1.0", "@folio/stripes-data-transfer-components@^6.2.0":
   version "6.2.1099000000009"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-6.2.1099000000009.tgz#8e1ccdf59d04033c6030b737f75d74dcdc21c7d2"
   integrity sha512-Ld+NsgIlGB+q+OlBejSALWlx0KOmeak1ZDttdCSmU+VOgUywlPrR0sqXutS3HJXdQFp1+Nrs/aCUKTyOEmbdKg==
+  dependencies:
+    classnames "^2.2.5"
+    compose-function "^3.0.3"
+    lodash "^4.16.4"
+    moment "^2.30.1"
+    prop-types "^15.6.0"
+    query-string "^7.1.2"
+    react-dropzone "^11.3.4"
+    react-router-prop-types "^1.0.4"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^7.0.0"
+
+"@folio/stripes-data-transfer-components@~7.0.0":
+  version "7.0.10990000000014"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-data-transfer-components/-/stripes-data-transfer-components-7.0.10990000000014.tgz#4ffdc81b6ff1db08a2cf494cea8ef6b6394fd8ad"
+  integrity sha512-49mtyWE2kuQQbJPUgYZw0Z78W90tmo5uW4uWmglGnZZB75iF7ghEwtO4ODFEBLCdBLpK5vfeTzloPy/PNfJecg==
   dependencies:
     classnames "^2.2.5"
     compose-function "^3.0.3"
