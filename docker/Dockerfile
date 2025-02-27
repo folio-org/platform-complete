@@ -1,5 +1,8 @@
 FROM node:18-alpine as stripes_build
 
+ENV YARN_CACHE_FOLDER=/home/jenkins/agent/.cache/yarn
+ENV NODE_OPTIONS=--max-old-space-size=7168
+
 ARG OKAPI_URL=http://localhost:9130
 ARG TENANT_ID=diku
 ARG CXXFLAGS="-std=c++17"
