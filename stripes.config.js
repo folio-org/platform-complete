@@ -11,6 +11,9 @@ module.exports = {
     showPerms: false,
     preserveConsole: true,
     useSecureTokens: true,
+    rtr: {
+      idleSessionTTL: '130s',
+    },
   },
 
   modules: {
