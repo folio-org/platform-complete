@@ -16,7 +16,7 @@ module.exports = {
     tenantOptions: ${tenantOptions},
     enableEcsRequests: ${enableEcsRequests},
     rtr: {
-      idleSessionTTL: '1h',
+      idleSessionTTL: '130s',
       idleModalTTL: '30s',
     }
   },
