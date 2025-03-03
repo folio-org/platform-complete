@@ -28,44 +28,47 @@ pipeline {
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
 
-          if (lastCommit == 0) { 
-              echo "CI SKIP detected.  Aborting build" 
+          if (lastCommit == 0) {
+              echo "CI SKIP detected.  Aborting build"
               env.skipBuild = 'true'
-          } 
+          }
         }
       }
     }
-   
+
     stage('Do Build') {
        when {
          anyOf {
            expression { env.skipBuild != 'true' }
            environment name:  'JOB_NAME', value: 'Automation/build-platform-complete-snapshot'
          }
-       }  
+       }
 
        stages {
          stage('Build Stripes Platform') {
            steps {
-             // the tenant and okapi url are irrelevant here. 
+             // the tenant and okapi url are irrelevant here.
              buildStripesPlatform('https://localhost:9130','diku')
            }
          }
 
          stage('Check Interface Dependencies') {
-           steps { 
+           steps {
              script {
                echo "Creating okapi preseed module list."
                sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install.json install-extras.json > install-pre.json'
                def installPreJson = readFile('./install-pre.json')
                platformDepCheck('diku',installPreJson)
-               echo 'Generating backend dependency list to okapi-install.json' 
+               echo 'Removing Okapi version from install.json'
+               sh 'sed -i \'s/okapi-.*"/okapi"/\' install.json'
+               sh 'cat install.json'
+               echo 'Generating backend dependency list to okapi-install.json'
                sh 'jq \'map(select(.id | test(\"mod-\"; \"i\")))\' install.json > okapi-install.json'
                sh 'cat okapi-install.json'
                echo "Append edge modules to final stripes-install.json."
                sh 'mv stripes-install.json stripes-install-pre.json'
                sh 'jq \'map(select(.id | test(\"edge-\"; \"i\")))\' install.json > install-edge.json'
-               sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-edge.json > stripes-install.json' 
+               sh 'jq -s \'.[0]=([.[]]|flatten)|.[0]\' stripes-install-pre.json install-edge.json > stripes-install.json'
                sh 'cat stripes-install.json'
              }
            }
@@ -89,7 +92,7 @@ pipeline {
          }
 
       }    //end 'do buid' stage
-    }     // end inner stages 
+    }     // end inner stages
   }      // end outter stages
 
   post {
@@ -98,4 +101,3 @@ pipeline {
     }
   }
 }
-

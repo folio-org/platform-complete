@@ -1,11 +1,18 @@
 # Change history for platform-complete
 
+# 2025-R1, Sunflower
+
+* Bump `react-intl` to `^7`. Refs STRIPES-960.
+* Bump `@folio/stripes` to `^10`. Refs STRIPES-961.
+
+# 2024-R2, Ramsons
+
 # 2024-R1, Quesnelia
 
 * Preserve console log on logout, at least for reference envs. Refs STCOR-761.
 * Use secure tokens in cookies (RTR). Refs STCOR-671.
 
-# 2023-R2, Poppy (IN PROGRESS)
+# 2023-R2, Poppy 
 
 * Bump `react` to `^18.2.0`, `stripes` to `^9.0.0`, `stripes-cli` to `3.0.0`. Refs STRIPES-870.
 * Bump `stripes-erm-components` to `^9.0.0`. Refs ERM-2989.
