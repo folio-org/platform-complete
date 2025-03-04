@@ -4,6 +4,7 @@
 
 * Bump `react-intl` to `^7`. Refs STRIPES-960.
 * Bump `@folio/stripes` to `^10`. Refs STRIPES-961.
+* Order user-visible apps alphabetically by title in `stripes.config.js`. Refs FOLIO-4245. 
 
 # 2024-R2, Ramsons
 
