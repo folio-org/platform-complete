@@ -3,14 +3,11 @@
   "version": "1.1.0-SNAPSHOT",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=8000 $NODE_OPTIONS\"; stripes build stripes.config.js",
-    "stripes": "stripes",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=8000 $NODE_OPTIONS\"; stripes-build build stripes.config.js",
     "start": "stripes serve stripes.config.js",
-    "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
+    "build-module-descriptors": "stripes-build mod descriptor stripes.config.js --full --strict  --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
-    "test": "echo 'No unit tests implemented'",
-    "test-int": "stripes test nightmare stripes.config.js",
-    "test-regression": "stripes test nightmare stripes.config.js --run WD/platform-core/checkout/users/inventory/requests/circulation/tenant-settings"
+    "test": "echo 'No unit tests implemented'"
   },
   "dependencies": {
     "@folio/acquisition-units": ">=1.0.0",
@@ -77,15 +74,17 @@
     "@folio/servicepoints": ">=1.1.0",
     "@folio/stripes": "^10.0.0",
     "@folio/stripes-authority-components": ">=2.0.0",
-    "@folio/stripes-cli": "^4.0.0",
+    "@folio/stripes-build": "^1.0.0",
     "@folio/stripes-erm-components": "^9.0.0",
     "@folio/stripes-inventory-components": ">=1.0.0",
     "@folio/stripes-marc-components": ">=1.0.0",
     "@folio/tags": ">=1.1.0",
     "@folio/tenant-settings": ">=2.5.1",
     "@folio/users": ">=2.17.0",
+    "@types/lodash": "^4.14.197",
     "final-form": "^4.20.7",
     "final-form-arrays": "^3.0.2",
+    "lodash": "^4.17.5",
     "moment": "~2.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -103,8 +102,7 @@
     "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.197",
-    "lodash": "^4.17.5"
+    "@folio/stripes-cli": "^4.0.0"
   },
   "resolutions": {
     "typescript": "~5.5",
