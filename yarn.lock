@@ -1286,9 +1286,9 @@
     zustand "^4.1.5"
 
 "@folio/bulk-edit@>=1.0.0":
-  version "5.0.109900000000116"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/bulk-edit/-/bulk-edit-5.0.109900000000116.tgz#be8751391dd1d3aea6e04e56ace880a6186fba93"
-  integrity sha512-6GwvcGZgoEfLT2wvP3ZUBfUKPMhrv066SvyR41XJ11xm+bEWjaxkBdy4IrsCbUeRp7mHA9kkjzito0+x5Hswuw==
+  version "5.0.109900000000125"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/bulk-edit/-/bulk-edit-5.0.109900000000125.tgz#4c4f281ad138d2d4c78d2227e5830d1059bd32f9"
+  integrity sha512-5ZKzshX94qLLJ+5R5xuHs+eVni/5k44QhgbW0rnwF4g75+kR80vmTrzukDIW24zYHUR/VKhOI2B68O+EUs3zDw==
   dependencies:
     "@folio/stripes-acq-components" "^7.0.0"
     file-saver "^2.0.5"
@@ -1631,9 +1631,9 @@
     "@folio/plugin-find-user" "^8.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "14.0.109900000000449"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-14.0.109900000000449.tgz#d212a53407ef1c18a748ccec94b70beff6adf970"
-  integrity sha512-ybh2Gyntl4biW9WNmtcIK9sx1qAP9SiEj3ehluvYCnBhNnrcgoNXW0NoZuRfpEvBEMmq1QPqjsrczwK1fuHsEA==
+  version "13.0.109900000000462"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-13.0.109900000000462.tgz#c07b6a97f852268c4405f4f7c9e1781c1fbb8147"
+  integrity sha512-i2mAszH9aALE659MjBkEC+Vs4zGq93KfW/PKf8nkOU+mu1L5fpZtwBTZKJSez443z/S5+/q+zsABuXy+obQfdw==
   dependencies:
     "@folio/stripes-acq-components" "^7.0.0"
     classnames "^2.3.2"
@@ -1656,7 +1656,7 @@
     redux-form "^8.3.7"
     use-session-storage-state "^18.2.0"
   optionalDependencies:
-    "@folio/plugin-create-inventory-records" "^5.0.0"
+    "@folio/plugin-create-inventory-records" "^6.0.0"
     "@folio/plugin-find-instance" "^9.0.0"
 
 "@folio/invoice@>=1.0.0":
@@ -1776,12 +1776,12 @@
     prop-types "^15.6.0"
 
 "@folio/oa@>=1.0.0":
-  version "3.0.109900000000126"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oa/-/oa-3.0.109900000000126.tgz#1b8269338012e9b1989c9d8f9fc815d59b694918"
-  integrity sha512-ZOhVXGNQVLzPMoGb9i8ekxZkYj/Rw+mleTQNBNDbfLF2XkqIkuxtigqMqdi5Gn+M2+005EKl/lkQzR05p8fTkA==
+  version "3.1.109900000000136"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/oa/-/oa-3.1.109900000000136.tgz#2892c90e22e6db448c331fbfef9bf1fc760a79bb"
+  integrity sha512-pkI21Ov/GkNJ3G/ktpMAmPltR1wEXRsfwbwk9Q3p1XljezjWeccIaKukKikNhUoKliOpUN6K8F1sb5X69Sl5rg==
   dependencies:
-    "@folio/stripes-acq-components" "^6.0.2"
-    "@k-int/stripes-kint-components" "^5.11.0"
+    "@folio/stripes-acq-components" "^7.0.0"
+    "@k-int/stripes-kint-components" "^5.15.0"
     classnames "^2.2.6"
     compose-function "^3.0.3"
     final-form "^4.18.5"
@@ -1867,7 +1867,7 @@
     react-final-form-listeners "^1.0.2"
     react-router-prop-types "^1.0.4"
 
-"@folio/plugin-create-inventory-records@>=1.0.0":
+"@folio/plugin-create-inventory-records@>=1.0.0", "@folio/plugin-create-inventory-records@^6.0.0":
   version "6.0.10990000000016"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-6.0.10990000000016.tgz#be1ed04b99412b62ded31f8d02abd3a11a47f3e3"
   integrity sha512-WPxb+sGTOdVXOYODoRZTfkoGkJF+23UbatkSYYthoDfmM6OHr0eCNOOpfuqixDTSOjfgPvDdhPZJbnOC04nkGw==
@@ -2207,12 +2207,12 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^6.0.2", "@folio/stripes-acq-components@~6.0.0":
-  version "6.0.40990000000026"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-6.0.40990000000026.tgz#6ee9a6fbf6ec32b4d3c6b3aea33bc381cdcac83c"
-  integrity sha512-RKFDpO+BwEyPkmlJ36nQiwGa9zEGnYlYeXvqSsv+R/v3LC76tOzdjS8FL/UknGyKjn9/vJl29Fgqt4FeTd0giQ==
+"@folio/stripes-acq-components@^7.0.0", "@folio/stripes-acq-components@~7.0.0":
+  version "7.0.10990000000063"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-7.0.10990000000063.tgz#aa40310668cc3ab9257f23bd1974ae0ed511a74e"
+  integrity sha512-FpHgKAYwMnbcr2fhZ7Pmvw7PVb/PKUSnaaF4uGite+4NH3sDFck22oaOl9STFWM0gNy8hz+0012DOlALW0yi4A==
   dependencies:
-    "@folio/stripes-types" "^2.1.0"
+    "@folio/stripes-types" "^3.0.0"
     "@rehooks/local-storage" "^2.4.4"
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -2229,12 +2229,12 @@
     react-virtualized-auto-sizer "^1.0.6"
     redux-form "^8.3.0"
 
-"@folio/stripes-acq-components@^7.0.0", "@folio/stripes-acq-components@~7.0.0":
-  version "7.0.10990000000063"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-7.0.10990000000063.tgz#aa40310668cc3ab9257f23bd1974ae0ed511a74e"
-  integrity sha512-FpHgKAYwMnbcr2fhZ7Pmvw7PVb/PKUSnaaF4uGite+4NH3sDFck22oaOl9STFWM0gNy8hz+0012DOlALW0yi4A==
+"@folio/stripes-acq-components@~6.0.0":
+  version "6.0.40990000000026"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-acq-components/-/stripes-acq-components-6.0.40990000000026.tgz#6ee9a6fbf6ec32b4d3c6b3aea33bc381cdcac83c"
+  integrity sha512-RKFDpO+BwEyPkmlJ36nQiwGa9zEGnYlYeXvqSsv+R/v3LC76tOzdjS8FL/UknGyKjn9/vJl29Fgqt4FeTd0giQ==
   dependencies:
-    "@folio/stripes-types" "^3.0.0"
+    "@folio/stripes-types" "^2.1.0"
     "@rehooks/local-storage" "^2.4.4"
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -2964,9 +2964,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@k-int/stripes-kint-components@^5.11.0", "@k-int/stripes-kint-components@^5.15.0":
-  version "5.15.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-5.15.0.tgz#2162e14c8e662d6491c0502d241901d7ba9b667e"
-  integrity sha512-qqpSSD4mZRLf2eIMv/2KXRDFOc7VAPrjBwtataq2Sq+YaIWVQswcGDSBXdtvwSOoLQkuGDq/qYtPTDNF+c1MFw==
+  version "5.16.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@k-int/stripes-kint-components/-/stripes-kint-components-5.16.0.tgz#a0d908c50c370065d169a840e16413cac86a94c7"
+  integrity sha512-9J5n9Uy7ILPtL7ONJXvHbkKDWouJfHrJ19Lw1fXEy0umLJBBTmqsaoaxpMiCEQCjRECoI7ez8hdEZn1nGHXs8Q==
   dependencies:
     "@rehooks/local-storage" "^2.4.4"
     compose-function "^3.0.3"
