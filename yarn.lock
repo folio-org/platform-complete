@@ -1914,12 +1914,21 @@
     qs "^6.9.6"
     react-final-form "^6.3.0"
 
-"@folio/plugin-find-po-line@5.2.0", "@folio/plugin-find-po-line@^5.0.0", "@folio/plugin-find-po-line@^5.2.0":
+"@folio/plugin-find-po-line@5.2.0", "@folio/plugin-find-po-line@^5.0.0":
   version "5.2.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-5.2.0.tgz#b4342580d69756f3b637fdad1ce6ced15cf0fa88"
   integrity sha512-whXgmCwzVJ6tyNeCQ1S7/w/G/52Xa9u22vfviNBKqYD0+naOuHbmEDTMWOSa8LZ1oNxE+i3aKbhD/yZCQR0hkA==
   dependencies:
     "@folio/stripes-acq-components" "~6.0.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-po-line@^6.0.0":
+  version "6.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-6.0.0.tgz#5cbb19d7adac7a6a0ba0c5200c7974e708f2978c"
+  integrity sha512-/RYA0iEh2gwpnIq45dKI9q7N1antZ7F3GbWN5qZw3NUqCzhWGze97RwHPYmkssmZivyr3aQvHIRi5pgPsrqB+g==
+  dependencies:
+    "@folio/stripes-acq-components" "~7.0.0"
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
@@ -2040,12 +2049,12 @@
     "@folio/plugin-find-instance" "^8.0.0"
     "@folio/plugin-find-user" "^7.0.0"
 
-"@folio/serials-management@1.1.2":
-  version "1.1.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/serials-management/-/serials-management-1.1.2.tgz#9561c3c6f303fec62543a352543d2554a0337cda"
-  integrity sha512-CsaW3szR72ixV1T9wPLHwSrt8ChUGxGtxDq+wjSW1M9x+C8lPwr0rmdj5AB6EDQYQ+iORchWeK5bKx7wT2gUTQ==
+"@folio/serials-management@2.0.1":
+  version "2.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/serials-management/-/serials-management-2.0.1.tgz#08884d098c3fa19482f4ad8e429da5b72cb03e71"
+  integrity sha512-P6XrceLMpAgf0gZjpytHviMpR+ngpFK26l45J0mG78ypBGc6o8+urHMYMKEEY2hcuufyQAUKNjeg2aaJ9nmb0Q==
   dependencies:
-    "@k-int/stripes-kint-components" "^5.8.3"
+    "@k-int/stripes-kint-components" "^5.15.0"
     final-form "^4.18.4"
     final-form-arrays "^3.0.1"
     final-form-set-field-data "^1.0.2"
@@ -2053,8 +2062,9 @@
     prop-types "^15.6.0"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
+    uuid "^11.1.0"
   optionalDependencies:
-    "@folio/plugin-find-po-line" "^5.2.0"
+    "@folio/plugin-find-po-line" "^6.0.0"
 
 "@folio/service-interaction@3.1.1":
   version "3.1.1"
@@ -2075,7 +2085,7 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@6.0.4", "@folio/stripes-acq-components@^6.0.0", "@folio/stripes-acq-components@~6.0.0":
+"@folio/stripes-acq-components@6.0.4", "@folio/stripes-acq-components@^6.0.0", "@folio/stripes-acq-components@~6.0.0", "@folio/stripes-acq-components@~7.0.0":
   version "6.0.4"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-6.0.4.tgz#367d1a2a2a0555bd800759b5d8b040a44137ed94"
   integrity sha512-V3gjF99IQqud8lF6IqOBRfyj567W6I9lFWgZKiQ6P77YtfW5vM65CQ4Vx/Ryb3Mq6XKcqC8Ygrwkx4NkoredkA==
@@ -2732,6 +2742,16 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
+
+"@k-int/stripes-kint-components@^5.15.0":
+  version "5.17.0"
+  resolved "https://registry.yarnpkg.com/@k-int/stripes-kint-components/-/stripes-kint-components-5.17.0.tgz#aa19ac06a05d51b2680b73ded242795bdfcb7d78"
+  integrity sha512-5TDVw5u/+aQFo8vzEJeKpGbrBTy0YUuU0s+20wUptT6Txblx55Q0WFzpXpsmNaO5J5DToVHLB2sUfU4oJ2ZJhA==
+  dependencies:
+    "@rehooks/local-storage" "^2.4.4"
+    compose-function "^3.0.3"
+    react-resize-detector "^11.0.0"
+    zustand "^4.0.0"
 
 "@k-int/stripes-kint-components@^5.8.3":
   version "5.8.3"
@@ -10572,6 +10592,11 @@ uuid@8.3.2, uuid@^8.3.1, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-11.1.0.tgz#9549028be1753bb934fc96e2bca09bb4105ae912"
+  integrity sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==
 
 uuid@^9.0.0:
   version "9.0.1"
