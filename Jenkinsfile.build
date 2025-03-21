@@ -15,7 +15,7 @@ pipeline {
   environment {
     BRANCH = "${GIT_BRANCH.split("/")[1]}"
     OKAPI_TENANT = 'diku'
-    SLACK_CHANNEL = '#hosted-reference-envs'
+    SLACK_CHANNEL = '#folio-hosted-reference-envs'
     ANSIBLE_CONFIG = "${env.WORKSPACE}/folio-infrastructure/CI/ansible/ansible.cfg"
     DOCKERHUB_CI_PULL = credentials('dockerhub-ci-pull-account')
     DOCKER_REGISTRIES = credentials('okapi-docker-registries-pull-json')
