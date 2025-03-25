@@ -1577,9 +1577,9 @@
     "@folio/plugin-find-user" "^8.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "13.0.109900000000497"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-13.0.109900000000497.tgz#06cd02bd590db3f0f5966ef27f884204c357b429"
-  integrity sha512-fysQHdlTVpBUZa6RZA2KmM9vGG3nYibL+xY/3DjLhFqXiSiA+R2r3cRsJj4l7shFBa/5eBTX355Ro/rI9TaRtg==
+  version "14.0.109900000000459"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-14.0.109900000000459.tgz#82b0c9e788c3b31829f493da4a47b4a0b2327935"
+  integrity sha512-IhlyRtujXMSGKZNxqtPp+IYxjR7sJF5fh5AG91OjK488n9WAOScsVFv90o23UP4lac077nbWH3WTUgULbmAuCg==
   dependencies:
     "@folio/stripes-acq-components" "^7.0.0"
     classnames "^2.3.2"
@@ -1602,7 +1602,7 @@
     redux-form "^8.3.7"
     use-session-storage-state "^18.2.0"
   optionalDependencies:
-    "@folio/plugin-create-inventory-records" "^6.0.0"
+    "@folio/plugin-create-inventory-records" "^5.0.0"
     "@folio/plugin-find-instance" "^9.0.0"
 
 "@folio/invoice@>=1.0.0":
@@ -1817,6 +1817,20 @@
   version "6.0.10990000000022"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-6.0.10990000000022.tgz#4a8691e8f5443b472399d1c6a735a9164883dd2e"
   integrity sha512-OnWvqr5AsmpOiEkMPbMVdObZQ3yhZxE+xe/oQdUPpDqLMACiLsr6jhOO3zUiK4h/vlfux8FXWKu7oPrJMul8fw==
+  dependencies:
+    classnames "^2.2.5"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.4"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+
+"@folio/plugin-create-inventory-records@^5.0.0":
+  version "5.1.1099000000003"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-5.1.1099000000003.tgz#dc1537061aebecfa7bc6d68898b9b0523e120474"
+  integrity sha512-YIpFFDqwVCkp3fh1FTwKNBOLdYFDaDyC2VOcBJeQzztq+0PdeRyfAmo15/MNgTOr0fiBqkiXV5IILBHFYoK2ZA==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
