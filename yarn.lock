@@ -1483,6 +1483,28 @@
     "@folio/stripes-acq-components" "^7.0.0"
     lodash "^4.17.21"
 
+"@folio/consortia-settings@3.0.0":
+  version "3.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/consortia-settings/-/consortia-settings-3.0.0.tgz#2696fe1e0bb3ab6b7de964b22ca3eed943e33e36"
+  integrity sha512-WLTz1YmneXgUm99pG4dunEWMrGRXEiGii6y67oYwShDCCPyPsixTQrx2sdDJI+qLyWc59IVyoHS+JmXYAEUr7A==
+  dependencies:
+    "@folio/stripes-acq-components" "~7.0.0"
+    "@folio/stripes-authorization-components" "^2.0.0"
+    "@folio/stripes-data-transfer-components" "^7.0.0"
+    "@rehooks/local-storage" "^2.4.4"
+    dom-helpers "^3.4.0"
+    final-form "^4.20.9"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+    query-string "^7.1.2"
+    react-final-form "^6.5.9"
+    react-final-form-arrays "^3.1.4"
+    react-final-form-listeners "^1.0.3"
+    react-router-prop-types "^1.0.5"
+    uuid "^9.0.0"
+  optionalDependencies:
+    "@folio/plugin-find-user" "^8.0.0"
+
 "@folio/courses@7.0.0":
   version "7.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/courses/-/courses-7.0.0.tgz#e789d4fea0c303dac23063d5929a7543907dfe73"
@@ -2107,6 +2129,17 @@
     prop-types "^15.5.10"
     react-query "^3.6.0"
 
+"@folio/plugin-select-application@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-select-application/-/plugin-select-application-2.0.0.tgz#58a83bf8d165a4d5206801f6520d6acce9c86c6e"
+  integrity sha512-QFOhhX3qcjdFqKUvSbL9P8sWVihnSw+W0FrT5ao5jfoDrOTjowh9hr3J3BHmVgwi/eK1/ceomddj7ovfCywZ1w==
+  dependencies:
+    "@k-int/stripes-kint-components" "^5.1.1"
+    classnames "^2.2.5"
+    dom-helpers "^3.4.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+
 "@folio/quick-marc@10.0.0", "@folio/quick-marc@^10.0.0":
   version "10.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/quick-marc/-/quick-marc-10.0.0.tgz#438bc725d75e20eae00ccf9725c630de46df36c2"
@@ -2283,6 +2316,17 @@
     prop-types "^15.6.0"
     query-string "^7.0.1"
     react-query "^3.39.3"
+
+"@folio/stripes-authorization-components@^2.0.0":
+  version "2.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-authorization-components/-/stripes-authorization-components-2.0.0.tgz#53606cc8bb5c9b8c0334497b43cc16b459374ac3"
+  integrity sha512-go25idHSK+buMaaiQxLS7AN6nbWgQhRSwme9PSstfuH18nU/K9zmxh8IuHhoefrp2/XKxeMKkY98E9MLltNSrQ==
+  dependencies:
+    "@folio/plugin-select-application" "^2.0.0"
+    classnames "^2.2.6"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-final-form "^6.3.0"
 
 "@folio/stripes-build@1.0.0":
   version "1.0.0"
@@ -2875,7 +2919,7 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@k-int/stripes-kint-components@^5.11.0", "@k-int/stripes-kint-components@^5.15.0":
+"@k-int/stripes-kint-components@^5.1.1", "@k-int/stripes-kint-components@^5.11.0", "@k-int/stripes-kint-components@^5.15.0":
   version "5.17.0"
   resolved "https://registry.yarnpkg.com/@k-int/stripes-kint-components/-/stripes-kint-components-5.17.0.tgz#aa19ac06a05d51b2680b73ded242795bdfcb7d78"
   integrity sha512-5TDVw5u/+aQFo8vzEJeKpGbrBTy0YUuU0s+20wUptT6Txblx55Q0WFzpXpsmNaO5J5DToVHLB2sUfU4oJ2ZJhA==
@@ -5132,7 +5176,7 @@ final-form-set-field-data@^1.0.2:
   resolved "https://registry.yarnpkg.com/final-form-set-field-data/-/final-form-set-field-data-1.0.2.tgz#ce19095af5d607148c1e6ce3403d75d40223d848"
   integrity sha512-gAnENimyQ5GW3OEGca5pbwm4lYshW2orzfBlPUYqzcm7ZxkQrVO8FqCAgEcCM+Rq9U1OU0q+D+UkqETvvDY6jw==
 
-final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.0, final-form@^4.19.1, final-form@^4.20.10, final-form@^4.20.4, final-form@^4.20.7:
+final-form@^4.18.2, final-form@^4.18.4, final-form@^4.18.5, final-form@^4.18.7, final-form@^4.19.0, final-form@^4.19.1, final-form@^4.20.10, final-form@^4.20.4, final-form@^4.20.7, final-form@^4.20.9:
   version "4.20.10"
   resolved "https://registry.yarnpkg.com/final-form/-/final-form-4.20.10.tgz#1a484be6e9a91989121c054dcbd6f48bad051ecc"
   integrity sha512-TL48Pi1oNHeMOHrKv1bCJUrWZDcD3DIG6AGYVNOnyZPr7Bd/pStN0pL+lfzF5BNoj/FclaoiaLenk4XUIFVYng==
@@ -7494,7 +7538,7 @@ react-router-dom@^6.28.1:
     "@remix-run/router" "1.23.0"
     react-router "6.30.0"
 
-react-router-prop-types@^1.0.4:
+react-router-prop-types@^1.0.4, react-router-prop-types@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/react-router-prop-types/-/react-router-prop-types-1.0.5.tgz#2e671d8412a793106bf70dc15c9ecc83ea4bc15b"
   integrity sha512-q1xlFU2ol2U5zeVbA5hyBuxD3scHenqgMgCTuJQUanA2SyG8A3Fb1S6DleOo1cnGJB5Q05hnLge64kRj+xsuPA==
