@@ -24,7 +24,6 @@
 # 2023-R1, Orchid
 
 * Bump `stripes-erm-components` to `v8`. Refs ERM-2235 and ERM-2453
->>>>>>> 8a3fd6a35 (FOLIO-4263 bump react-intl to ^7.1.10 (#3279))
 * Bump `stripes` to `8.0.0`. Refs STCOM-1067, STSMACOM-1067, STCOR-663, et al.
 * Bump `stripes-cli` to `2.7.0`. Refs STCLI-227.
 * Upgrade `react-redux` to `v8`. Refs STRIPES-834.
