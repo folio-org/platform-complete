@@ -2,7 +2,7 @@
 
 # 2025-R1, Sunflower
 
-* Bump `react-intl` to `^7`. Refs STRIPES-960.
+* Bump `react-intl` to `^7`. Refs STRIPES-960 (and FOLIO-4262, FOLIO-4263).
 * Bump `@folio/stripes` to `^10`. Refs STRIPES-961.
 * Order user-visible apps alphabetically by title in `stripes.config.js`. Refs FOLIO-4245. 
 * Include `@folio/stripes-build` as a direct-dep; `@folio/stripes-cli` as a dev-dep.
