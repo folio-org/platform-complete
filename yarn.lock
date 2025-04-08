@@ -1348,10 +1348,10 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^8.0.0"
 
-"@folio/agreements@12.0.0":
-  version "12.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-12.0.0.tgz#eb8673a39c6c56a4afe180aca0170739883ad696"
-  integrity sha512-S4o+QKcSGs/FXfHXlcdc3mYIaJtpt985Pet5L/JfY2TDIWtkQpiN+OHwCK3gnCnCDFcF/SND9UuYHDrajiJr0Q==
+"@folio/agreements@12.0.1":
+  version "12.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/agreements/-/agreements-12.0.1.tgz#a60942bb15caa293b2609da803bcfcfff8ba5ae7"
+  integrity sha512-H7jkvVvZg6/Q4En08zOx/SNREDcoG6vGRUTK+QcFK+eIeQ7ntiZEbaz71RgDlq9Xi79wUEtHCkvTiTis3oyTdQ==
   dependencies:
     "@k-int/stripes-kint-components" "^5.15.0"
     "@rehooks/local-storage" "^2.4.4"
@@ -1385,10 +1385,10 @@
     uuid "^9.0.0"
     yup "^1.4.0"
 
-"@folio/calendar@11.0.3":
-  version "11.0.3"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/calendar/-/calendar-11.0.3.tgz#39fc5cea6721628044e5ac8a92bb109cec84856c"
-  integrity sha512-0zDiBxXBYBa8LM417uDI8ZJuTRx5zqTZNnLw7KjNGGys0dimyMmch3z8DR/qMVdJy6C7/b2VyLG4lvUxBY17gg==
+"@folio/calendar@12.0.0":
+  version "12.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/calendar/-/calendar-12.0.0.tgz#ed8c6201244edb227cf99f7aeda3bc6b273c8fbb"
+  integrity sha512-FEMu5yrPaRWX2EpzbTwiGdQ4SVVLc8LKg2uOWcqNx6Z+NFVoUjUAiLH3+nlxP52IbTIMYnv7iie+e2d1Bxv2oQ==
   dependencies:
     "@types/memoizee" "^0.4.8"
     "@types/react-router-dom" "^5.2.0"
@@ -1439,12 +1439,12 @@
     "@folio/plugin-create-inventory-records" "^6.0.0"
     "@folio/plugin-find-user" "^8.0.0"
 
-"@folio/circulation-log@6.0.0":
-  version "6.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation-log/-/circulation-log-6.0.0.tgz#5a2e57a5a623112617c8732d0b81791ff78dfad6"
-  integrity sha512-D2WV059SdWaJRBSt6whN3QK5/dxcf1/GsO8WV/7us4gDZbtKpvsFMkT5DHkF7KsCaBMnW/cDn7qwzFoczIGJbg==
+"@folio/circulation-log@6.0.1":
+  version "6.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/circulation-log/-/circulation-log-6.0.1.tgz#35e6167b7ed7e0c9d027e66eea9a902a5f26f7ff"
+  integrity sha512-YLfmN6a1wLckKCp9IBxOudxRPh/JTfBnjuslaAGYK78P/h3KYstgsxCr2rMjw+csbBX2Npcl5pftjl2WY70VlQ==
   dependencies:
-    "@folio/stripes-acq-components" "~6.0.0"
+    "@folio/stripes-acq-components" "~7.0.0"
     dayjs "^1.11.9"
     lodash "^4.17.5"
     moment "^2.29.1"
@@ -1505,10 +1505,10 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^8.0.0"
 
-"@folio/courses@7.0.0":
-  version "7.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/courses/-/courses-7.0.0.tgz#e789d4fea0c303dac23063d5929a7543907dfe73"
-  integrity sha512-6pCQHEFh0BBP3Z3H0Mhcp8OxF79Tz4d7tuudUn79c4T0Q+wMKXDBfgAlGzvIho1K6/v+kHlug0xP6CGKsBLc6g==
+"@folio/courses@7.0.3":
+  version "7.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/courses/-/courses-7.0.3.tgz#6cc7392bc774a646d0546ea4cf412828b3781ca8"
+  integrity sha512-3j35QDxDEiqEWlk0ZRs0dZMCbUOkQG4PEjiDfT5JfhY8ca2UF+NCXdjgUsqlHf5DIcEOB8LhB5zsjLRk4KGrAQ==
   dependencies:
     final-form-set-field-data "^1.0.2"
     ky "^0.23.0"
@@ -1517,7 +1517,7 @@
     query-string "^6.0.0"
     react-final-form "^6.3.0"
   optionalDependencies:
-    "@folio/plugin-create-inventory-records" "^4.0.0||^5.0.0"
+    "@folio/plugin-create-inventory-records" "^4.0.0||^5.0.0||^6.0.0"
 
 "@folio/dashboard@7.0.0":
   version "7.0.0"
@@ -1553,7 +1553,26 @@
     react-router-prop-types "^1.0.4"
     react-window "^1.8.5"
 
-"@folio/data-import@9.0.0", "@folio/data-import@^9.0.0":
+"@folio/data-import@9.0.1":
+  version "9.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-9.0.1.tgz#ade10b77d66964f47d597827b1c0cf0df45b4fe1"
+  integrity sha512-e6H606q1o9TjOpMr5ZxJYZlM0IPOTnbZPHpHTDx1wTFBKrcdGfxFwl7+R7TC9KG19AKTv7JUt3AiiRQjO0nN8Q==
+  dependencies:
+    "@folio/stripes-acq-components" "^7.0.0"
+    "@folio/stripes-data-transfer-components" "^7.0.0"
+    classnames "^2.2.5"
+    dom-helpers "^5.2.0"
+    final-form "^4.18.2"
+    inflected "^2.0.4"
+    lodash "^4.17.21"
+    moment "~2.29.4"
+    prop-types "^15.6.0"
+    react-final-form "^6.3.0"
+    redux-form "^8.3.7"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "^6.0.0"
+
+"@folio/data-import@^9.0.0":
   version "9.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/data-import/-/data-import-9.0.0.tgz#5b7b98ac984a021111ddf0e0dfb63c2ee228492b"
   integrity sha512-u5ggbi3eQJxYr8NwA5G6V+zAhtEGRxJnE/HTkfmP+m3a5l9+5NEKh9p14n92aP9NkeON+8dWtDN7FuLSxN2eyQ==
@@ -1654,10 +1673,10 @@
     query-string "^6.1.0"
     react-router-prop-types "^1.0.4"
 
-"@folio/finance@8.0.0":
-  version "8.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-8.0.0.tgz#b02c91a61ccd44be18bf39d98769937f35faa20d"
-  integrity sha512-jToU9sC6Flu1MnCFO0H7raxIlIact9tk1Ehg06PVg+6aS1+Pa46NzW4pQQaraKoH2iBeKmymWIn9AS9YtpPbnA==
+"@folio/finance@8.0.1":
+  version "8.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/finance/-/finance-8.0.1.tgz#12e1d5213ad0f6ef92a08f4a2e7bc849212f6dab"
+  integrity sha512-YHTTerbxJs8udq4mnHxE89S/XRisAsKZRSlH9LjHxHDq4PT6p0idHkJXGMA3mI14nFOjEM5f15YmOXITwQO23Q==
   dependencies:
     "@folio/stripes-acq-components" "~7.0.0"
     "@folio/stripes-data-transfer-components" "~7.0.0"
@@ -1695,10 +1714,10 @@
     lodash "^4.17.11"
     prop-types "^15.6.0"
 
-"@folio/inventory@13.0.0":
-  version "13.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-13.0.0.tgz#bbc5bea8f0ef503aaac7a596ea63a62f0871eed8"
-  integrity sha512-uinpRlzdUogLRJ5+rtl/LndoZJnpi+9LlcFVcnRyGTZXQbqxYg6luXlPy4jWHPLiDmC0TUisFnl/AkjTQxgPcg==
+"@folio/inventory@13.0.1":
+  version "13.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/inventory/-/inventory-13.0.1.tgz#545878b9cf78371d505cfb93d3a4c09cc21ff26d"
+  integrity sha512-U0e1jVuy1xTmSjlQwZx+ULwRq/XoGFf6oSIBw/Dp8WCATwV/R99ohRpoAnJD5WR5FS0UzaMe1kE9+UzdJ901iA==
   dependencies:
     "@folio/stripes-acq-components" "^7.0.0"
     classnames "^2.3.2"
@@ -1724,10 +1743,10 @@
     "@folio/plugin-create-inventory-records" "^6.0.0"
     "@folio/plugin-find-instance" "^9.0.0"
 
-"@folio/invoice@7.0.0":
-  version "7.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/invoice/-/invoice-7.0.0.tgz#77d0c5599118d070a10dec0921654f0b56cdb625"
-  integrity sha512-kthgMyPuyL4hG4YvJ212LdGL7wR5u5vW9wrHFVc36j0CM+TV1PfxrvdIyOu8aRco83CSM6r5cs0wa4uc9d+/Vw==
+"@folio/invoice@7.0.2":
+  version "7.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/invoice/-/invoice-7.0.2.tgz#f09331ff7e2029bcdd560313f3254c9ba23ac1fe"
+  integrity sha512-0nJesspFe9dQGM/Ilq8m4AjQY+HfG9GW8BvhL+PCTORrMjM5KPkkqhOxfYX8aYGju5Btpud7+Pi1LK15WPg2BA==
   dependencies:
     "@folio/stripes-acq-components" "~7.0.0"
     file-saver "^2.0.0"
@@ -1746,18 +1765,18 @@
     "@folio/plugin-find-organization" "^6.0.0"
     "@folio/plugin-find-po-line" "^6.0.0"
 
-"@folio/ld-folio-wrapper@1.2.0":
-  version "1.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/ld-folio-wrapper/-/ld-folio-wrapper-1.2.0.tgz#447432d196db1bee4801a4847c7dd775b76339f1"
-  integrity sha512-Dug67zd2fNYDEyNiBYFZKSL/zHHP7AseK2w9AuD2VoCaMSGBBkXqrPxoVu/ozTJp9THTzsTt6pbsNQVeMmWUOA==
+"@folio/ld-folio-wrapper@1.3.0":
+  version "1.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/ld-folio-wrapper/-/ld-folio-wrapper-1.3.0.tgz#1cded0a0313efd4affcda3cbdc1fdaf057e10a45"
+  integrity sha512-uF1MKA8+6jVPqlelGI08IKgStQMc0gbdwmqPPc29cp//Q5OvnpLjQ6y+v9RnuwQG2BTSmsOwLcDT1l7yWiex0g==
   dependencies:
-    "@folio/linked-data" "^1.0.1"
+    "@folio/linked-data" "^1.0.2"
     prop-types "^15.6.0"
 
-"@folio/ldp@3.0.1":
-  version "3.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/ldp/-/ldp-3.0.1.tgz#b0655f8094984e837847be99431e8420fc1ff473"
-  integrity sha512-EgfIEFGrhNFtvBSzLAJH6GIWTge0PhQz2Gg84X8pKQeIV0AFH5+YJUzIcQavU7pYBT+HQvReMTzSZz6aj/L8uA==
+"@folio/ldp@3.0.2":
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/ldp/-/ldp-3.0.2.tgz#350147efb33ac41ca72e703c28acfa07fb66c9d2"
+  integrity sha512-+h5/CRamF0jgYMAGIAmcwhe8kll8zHhFdAMxvGx8jGsB1vt8QBfjArRpiKE9HGSYfgmZkzhh7Ywoo1Qqoms4VA==
   dependencies:
     chart.js "^2.9.3"
     final-form "^4.20.7"
@@ -1791,10 +1810,10 @@
     react-final-form-arrays "^3.1.0"
     react-router-prop-types "^1.0.4"
 
-"@folio/linked-data@^1.0.1":
-  version "1.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/linked-data/-/linked-data-1.0.1.tgz#753f0bc358b236fdc276bd658492ee16001d2ba7"
-  integrity sha512-O2kN4tdnE4r9ASIzsuv3l8jiulsgXEgdTLwaMWU078lGoQJPOUijzrxZujfS+g4yRHXh4j3UdBjSbxKIk2gvcQ==
+"@folio/linked-data@^1.0.2":
+  version "1.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/linked-data/-/linked-data-1.0.2.tgz#0ae30a2bcc87cdd4278b88899fac271209929ca9"
+  integrity sha512-w6O4AMGnJvNkFbwvBFCvj9Vjbh1j7w9taCiFxRZWmJ5Ki6P5MNZnTuBLoEn4sHgQNRgZxFao3vNFrBwCNVDGoQ==
   dependencies:
     classnames "^2.5.1"
     lodash "^4.17.21"
@@ -1806,10 +1825,10 @@
     uuid "^9.0.1"
     zustand "^5.0.3"
 
-"@folio/lists@4.0.0":
-  version "4.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/lists/-/lists-4.0.0.tgz#343ea3268dd1537d8c0bdfe6f6021bd04de46a6d"
-  integrity sha512-jBBAhrwv894Ukw9Q1pTXOdVUmH6EaSZ1vLD1UANrkphAjrRCxDcfl8x18zBnVJ2Ar1zUb6QRhlVeQ2NPY2ugGw==
+"@folio/lists@4.0.1":
+  version "4.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/lists/-/lists-4.0.1.tgz#84bcf05504d9de57c602b76d9399cbacbfa701a8"
+  integrity sha512-Nb+nqu1e0/YLpRucCEND0tv7Vgm4FHV4cyonEHLO2qBFfoOQwqI1vbZMQ+QcQ5a3hmGwiDnFUImX6rmj5tIftA==
   dependencies:
     "@folio/plugin-query-builder" "^2.0.0"
     "@folio/stripes-acq-components" "~7.0.0"
@@ -1878,10 +1897,10 @@
     react-query "^3.39.3"
     react-router-prop-types "^1.0.4"
 
-"@folio/orders@8.0.0":
-  version "8.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-8.0.0.tgz#110ff6749c9c0350d3f17ff49c4c1a14796800d3"
-  integrity sha512-LU47oZ1QGyDE4PgK33JBTS0326drtLFDfP1Cos6bK8DpWoZJ0NNcZGPk7KL8e9Ocaq3AAMl+2jQ6b2hkooi0Vg==
+"@folio/orders@8.0.1":
+  version "8.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/orders/-/orders-8.0.1.tgz#1c018ca13d4151beb1669ffdd238845799106c58"
+  integrity sha512-SofKH5CDB6TKjy4phT6INw9i9QJ3LMHhBTMINkwnm/NwpAzN0GXYKFIaeeyuaX+gsu7DGdbtjPRCsl2N+lLMPw==
   dependencies:
     "@folio/plugin-find-po-line" "^6.0.0"
     "@folio/stripes-acq-components" "~7.0.0"
@@ -1937,24 +1956,10 @@
     react-final-form-listeners "^1.0.2"
     react-router-prop-types "^1.0.4"
 
-"@folio/plugin-create-inventory-records@6.0.0", "@folio/plugin-create-inventory-records@^6.0.0":
+"@folio/plugin-create-inventory-records@6.0.0", "@folio/plugin-create-inventory-records@^4.0.0||^5.0.0||^6.0.0", "@folio/plugin-create-inventory-records@^6.0.0":
   version "6.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-6.0.0.tgz#788438434b7beb996bde45ce5e45f4cf8b0adf7e"
   integrity sha512-cHr0kCvbT+/VPFKFcoNszVka3tb6x6PIteafZGNr5Z7nrQS8iotUA/bR9h/CuvgQPWQto7lyhQZW7gZGn5GRmA==
-  dependencies:
-    classnames "^2.2.5"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    lodash "^4.17.4"
-    prop-types "^15.6.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-    react-final-form-listeners "^1.0.2"
-
-"@folio/plugin-create-inventory-records@^4.0.0||^5.0.0":
-  version "5.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-5.0.1.tgz#9b871c9d841e975bd601bfffc0845aba52712084"
-  integrity sha512-8xysBznyHHm9lTpCT5oFM7h5pXPs9vK0rjSPj3ijsMqvUF3RHIUmdTusXKpyLPYNDb/DBtY3tIh3BZDRbnUtQQ==
   dependencies:
     classnames "^2.2.5"
     final-form "^4.18.2"
@@ -2099,7 +2104,16 @@
     qs "^6.9.6"
     react-final-form "^6.3.0"
 
-"@folio/plugin-find-po-line@6.0.0", "@folio/plugin-find-po-line@^6.0.0":
+"@folio/plugin-find-po-line@6.0.1":
+  version "6.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-6.0.1.tgz#f5e7eab335ff445bf09e6a011579cbcea5b2d536"
+  integrity sha512-vD1ap6td4N6gLLlLLd1Xvg4rjbabvrUznQSqySaZkw3aNVyWtvZVyYKBZvZjpkWmmWFi1GwyratWImM6UTnPCQ==
+  dependencies:
+    "@folio/stripes-acq-components" "~7.0.0"
+    lodash "^4.17.11"
+    prop-types "^15.6.0"
+
+"@folio/plugin-find-po-line@^6.0.0":
   version "6.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-po-line/-/plugin-find-po-line-6.0.0.tgz#5cbb19d7adac7a6a0ba0c5200c7974e708f2978c"
   integrity sha512-/RYA0iEh2gwpnIq45dKI9q7N1antZ7F3GbWN5qZw3NUqCzhWGze97RwHPYmkssmZivyr3aQvHIRi5pgPsrqB+g==
@@ -2118,7 +2132,18 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/plugin-query-builder@2.0.0", "@folio/plugin-query-builder@^2.0.0":
+"@folio/plugin-query-builder@2.0.1":
+  version "2.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-query-builder/-/plugin-query-builder-2.0.1.tgz#178de740103bb834bcfac340d32de60ec5a729de"
+  integrity sha512-K7jrHiFNy5q7Rm7ugPP6WxEVYF+jE2+vWh0vieI/q233GFKfYYpbXjRqj2z7atdZbt8DHaxdOqqd/Q7zQwptEw==
+  dependencies:
+    "@folio/stripes-acq-components" "^7.0.0"
+    ky "^0.33.2"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-query "^3.6.0"
+
+"@folio/plugin-query-builder@^2.0.0":
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-query-builder/-/plugin-query-builder-2.0.0.tgz#4770f77abc99f3c059282df54a8e72ad2955a03e"
   integrity sha512-dtgpK5wtiEugcFXyev3kmEPmT/cAXUcMoe9RoyPocS3aITI762a1+8q/q3ijtwEzxnx82mGBKoxaJ/BoTatYMA==
@@ -2170,10 +2195,10 @@
     react-final-form "^6.3.0"
     uuid "^9.0.0"
 
-"@folio/receiving@7.0.0":
-  version "7.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/receiving/-/receiving-7.0.0.tgz#6c0734c600df6fbed591baec65f28420c53e1e20"
-  integrity sha512-IzQ58b+6fxY1fPA9Kg8TguqZXAqmwkFjkcruNWwAds84XRwcx06qWCgD1iqRL1w1r9sLu8fYhnaLqVnPrK0FTw==
+"@folio/receiving@7.0.1":
+  version "7.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/receiving/-/receiving-7.0.1.tgz#5e0677f820760fe05d2dda87d0fc033c65afdacd"
+  integrity sha512-Ucx59rq9GKL7SpQ/VP1ZvYyeGTFv3XbTBWWpHTfMKQE/JFW6H+wENFE4Lqbh7fqytZ9bVadEdtwgr4Cs7EJDNA==
   dependencies:
     "@folio/stripes-acq-components" "~7.0.0"
     final-form "^4.18.2"
@@ -2190,12 +2215,12 @@
     "@folio/plugin-find-organization" "^6.0.0"
     "@folio/plugin-find-po-line" "^6.0.0"
 
-"@folio/remote-storage@7.0.0":
-  version "7.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/remote-storage/-/remote-storage-7.0.0.tgz#fb6e94a015d1934a9ae1f7d6dc7ba4623c232c31"
-  integrity sha512-CEPofVNpxfQe0eja5QkULhNWh5T5M5JbT90n496Cl22xTyp/JlGt2D8myL6dxRFoLXRE53H5YKqwDFB8Q2cnhQ==
+"@folio/remote-storage@7.0.1":
+  version "7.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/remote-storage/-/remote-storage-7.0.1.tgz#762caedfa6d747a4f05063338347b3c99e8ce45d"
+  integrity sha512-B9LqMPAgsfZa5hUJFPvyH1x2XYXdQ0ADY0ujV03XZN1hc8NA2iA419nuu/3Q3CIGaBklnqKr2ErQv/jlIvYf4w==
   dependencies:
-    "@folio/stripes-acq-components" "~6.0.0"
+    "@folio/stripes-acq-components" "^7.0.0"
     ky "^0.23.0"
     lodash "^4.17.5"
     prop-types "^15.5.10"
@@ -2203,10 +2228,10 @@
     react-final-form "^6.5.2"
     react-router-prop-types "^1.0.4"
 
-"@folio/requests@12.0.0":
-  version "12.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/requests/-/requests-12.0.0.tgz#b0e9ec6c2e02e6887b66e52e4ea1a2197fa71eda"
-  integrity sha512-j8/8NnSUFvTJXsCHOX9kumaVZZgV0Se7H+lSrNPJh9OqQm99ZSU72IezUVt11uupk/ET3LfxyarmA6fl1UEOjA==
+"@folio/requests@12.0.1":
+  version "12.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/requests/-/requests-12.0.1.tgz#62fe7eebdd0f5992a86e4676e6a560a7c8e75393"
+  integrity sha512-A8QIyJE0DXdKB6CXCNJmw7qRXk1nIfeGIhI0866yEGa9gnOvIPq4MM1swPXPx2lXPjCSaRNg8+LUZmqizw6nCg==
   dependencies:
     dompurify "^3.0.9"
     final-form "^4.20.7"
@@ -2225,10 +2250,10 @@
     "@folio/plugin-find-instance" "^9.0.0"
     "@folio/plugin-find-user" "^8.0.0"
 
-"@folio/serials-management@2.0.1":
-  version "2.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/serials-management/-/serials-management-2.0.1.tgz#08884d098c3fa19482f4ad8e429da5b72cb03e71"
-  integrity sha512-P6XrceLMpAgf0gZjpytHviMpR+ngpFK26l45J0mG78ypBGc6o8+urHMYMKEEY2hcuufyQAUKNjeg2aaJ9nmb0Q==
+"@folio/serials-management@2.0.2":
+  version "2.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/serials-management/-/serials-management-2.0.2.tgz#4e3117ba8437f89c7ba610c8378ed3d3618dfd52"
+  integrity sha512-+4zfn0qolnQqUuoU9m+RfE6cACzV2jgOh0L6jHaywXIvtEy/9C5Jmyk/8b4EythpadmM6AviqlM3mHaF3HB9qQ==
   dependencies:
     "@k-int/stripes-kint-components" "^5.15.0"
     final-form "^4.18.4"
@@ -2261,34 +2286,12 @@
     lodash "^4.17.4"
     prop-types "^15.6.0"
 
-"@folio/stripes-acq-components@^7.0.0", "@folio/stripes-acq-components@~7.0.0":
-  version "7.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-7.0.0.tgz#962d0124ecc40b9c040a3c7afc0ed178f3d36657"
-  integrity sha512-p0YEeOuF4QbW1xkDRaKXoRI2L4ExlxRjq/w/v6rGW7S7JBIPrj7ORCBV7WEK+rwAJTLT9kUY1vhAmxkrrEuJsg==
+"@folio/stripes-acq-components@7.0.3", "@folio/stripes-acq-components@^7.0.0", "@folio/stripes-acq-components@~7.0.0":
+  version "7.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-7.0.3.tgz#d47c86444e151c798ecbe893d82bdafc2dd7a4cc"
+  integrity sha512-fYwpwMWQl4t5mIkKDjf2sxgRnBAMTzRA/1db1uHOMNZTzyhA/Bas6AaNHa38ihInL8faEx93Dps3FQZ0rhZpCA==
   dependencies:
     "@folio/stripes-types" "^3.0.0"
-    "@rehooks/local-storage" "^2.4.4"
-    classnames "^2.2.5"
-    dom-helpers "^3.4.0"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.2"
-    lodash "^4.17.11"
-    prop-types "^15.7.2"
-    query-string "^7.1.2"
-    react-beautiful-dnd "^13.1.0"
-    react-dropzone "^10.0.0"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.1"
-    react-to-print "^2.15.1"
-    react-virtualized-auto-sizer "^1.0.6"
-    redux-form "^8.3.0"
-
-"@folio/stripes-acq-components@~6.0.0":
-  version "6.0.4"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-acq-components/-/stripes-acq-components-6.0.4.tgz#367d1a2a2a0555bd800759b5d8b040a44137ed94"
-  integrity sha512-V3gjF99IQqud8lF6IqOBRfyj567W6I9lFWgZKiQ6P77YtfW5vM65CQ4Vx/Ryb3Mq6XKcqC8Ygrwkx4NkoredkA==
-  dependencies:
-    "@folio/stripes-types" "^2.1.0"
     "@rehooks/local-storage" "^2.4.4"
     classnames "^2.2.5"
     dom-helpers "^3.4.0"
@@ -2354,10 +2357,10 @@
     webpack-bundle-analyzer "^4.4.2"
     yargs "^17.3.1"
 
-"@folio/stripes-components@~13.0.1":
-  version "13.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-13.0.1.tgz#2b5e4016d299c7c348a4d36242781adfce23ae3f"
-  integrity sha512-DCDESqV+EzMtu+n1agOmPAJEM66kv7cTFq88iSKEzkCNG/lr2nvAdfbY/aPMDmKLdK61deiR994HEXkUHJCtZg==
+"@folio/stripes-components@~13.0.3":
+  version "13.0.3"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-components/-/stripes-components-13.0.3.tgz#2aeb9e35f8da1081d008d812aaf20b25b88a9b56"
+  integrity sha512-wv55Oo1QwtHcII0PMD4C9dAb7LMW3W4GPwYl/ZQzBY9+TjvNZ2phWaxRUAughLV5H5GEXq97m8xJsYHqkKdACg==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.2.1"
     classnames "^2.2.5"
@@ -2393,10 +2396,10 @@
     redux "^4.2.1"
     uuid "^9.0.0"
 
-"@folio/stripes-core@~11.0.1":
-  version "11.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-11.0.1.tgz#71d34a817826d1be94793346f68a9b1d8a35cefa"
-  integrity sha512-27Ws7KMdFC381EJmImrZt/ItRNsNL75Tf9uJiGy+VRJpz7X5egUP2IbYRCGf1233mEF8wnVX90OCwWbOv01fUw==
+"@folio/stripes-core@~11.0.2":
+  version "11.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-11.0.2.tgz#dd403cd52b6b331ad7bdb8f7a01dbfd5449d9964"
+  integrity sha512-lqP4VcxmFNX09yvO5YAZQdG7638ISZ2Q/dUKHfsw88KGRGKI/Erl7tzHZC7PdEzi0Wnpwam86I/Yln4xIjsfHg==
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -2568,22 +2571,23 @@
     react-to-print "^2.3.2"
     uuid "^8.3.2"
 
-"@folio/stripes-types@^2.1.0":
-  version "2.2.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-types/-/stripes-types-2.2.1.tgz#af9f5ade6e78dc53e4dbefc9e3a373c2032efb1e"
-  integrity sha512-nwPVgiRankCdftz+oJ/JU1WTAlh8/FNNqv/WchfmYfMtkinm4RX0Ct51CBUEkxzL/CHLgHlOp6iDmQ8QHCLwsg==
+"@folio/stripes-types@^3.0.0":
+  version "3.0.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-types/-/stripes-types-3.0.0.tgz#075e3b50ee920000d77b2bdf9c8e76176b583873"
+  integrity sha512-BT0jUCPh/xxzxvLZFRGMnzD0GJ1czVdBWVBzskMRwgiuiFSpJxzbxoOQH2dc46qbayxvXA9E9J7etZPPjwXTBw==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.0"
+    dayjs "^1.11.10"
     history "^4.10.1"
     ky "^0.33.3"
     moment "^2.29.4"
     popper.js "^1.16.1"
     type-fest "^4.12.0"
 
-"@folio/stripes-types@^3.0.0":
-  version "3.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-types/-/stripes-types-3.0.0.tgz#075e3b50ee920000d77b2bdf9c8e76176b583873"
-  integrity sha512-BT0jUCPh/xxzxvLZFRGMnzD0GJ1czVdBWVBzskMRwgiuiFSpJxzbxoOQH2dc46qbayxvXA9E9J7etZPPjwXTBw==
+"@folio/stripes-types@~3.0.1":
+  version "3.0.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-types/-/stripes-types-3.0.1.tgz#332972f9d485d1eccd4829b35c44ff100648d20c"
+  integrity sha512-TOhWsRDUolW+0r9YwUZRscC4OUVgK0VMYloHgDq5drJTuGaoNR8LE83BxjSl/TA2wuJi3wweg10MTahPLWKiWA==
   dependencies:
     "@folio/stripes-react-hotkeys" "^3.0.0"
     dayjs "^1.11.10"
@@ -2673,19 +2677,19 @@
     webpack-remove-empty-scripts "^1.0.1"
     webpack-virtual-modules "^0.4.3"
 
-"@folio/stripes@10.0.1":
-  version "10.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-10.0.1.tgz#519ee88d63af6f0917c0367497d309dfbdff2fb3"
-  integrity sha512-fzvK02qYNOQc2iCQd+Zo+d+v6z+wNyBIf7ykZZOr+EVYAuM1Lh86YJsKVtDcuugQ9IcoSf8I/onSMYL6VIsk8Q==
+"@folio/stripes@10.0.4":
+  version "10.0.4"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes/-/stripes-10.0.4.tgz#0609faa19834a5137fb6287e936dc5e70e696e59"
+  integrity sha512-QLpZ47IA1cIK8L1RMaA8UzLvsrK6P1y/K/LvDSBWyBmssoxsPQpHbgkKpATaJxeLw9eZ0BEqJSz2bx37Wu7JEQ==
   dependencies:
-    "@folio/stripes-components" "~13.0.1"
+    "@folio/stripes-components" "~13.0.3"
     "@folio/stripes-connect" "~10.0.0"
-    "@folio/stripes-core" "~11.0.1"
+    "@folio/stripes-core" "~11.0.2"
     "@folio/stripes-final-form" "~9.0.0"
     "@folio/stripes-form" "~10.0.0"
     "@folio/stripes-logger" "~1.0.0"
     "@folio/stripes-smart-components" "~10.0.1"
-    "@folio/stripes-types" "^3.0.0"
+    "@folio/stripes-types" "~3.0.1"
     "@folio/stripes-ui" "~3.0.0"
     "@folio/stripes-util" "~7.0.1"
     redux "^4.2.1"
@@ -2711,10 +2715,10 @@
     react-final-form-arrays "^3.1.1"
     redux-form "^8.0.0"
 
-"@folio/users@12.1.0":
-  version "12.1.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-12.1.0.tgz#f592dfaea8edb8896b85bd302254dfb53e648d0f"
-  integrity sha512-Xp/jtUawFf0QYuphgY+Q0/dQlJKj5djqzkeYRSg1EtNkaq0l8iYxa2F7LoFjMZ4ILURqfWp46kRybj+oWCLbdw==
+"@folio/users@12.1.1":
+  version "12.1.1"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/users/-/users-12.1.1.tgz#7fbeb74a5f4d612f048ea44686a57a94125d7ceb"
+  integrity sha512-5IO6zObZU1GkTwF2pwEi89xmpCgKCrqb8HIDxaAWWd/CDPQOMd4Xt0bseCc1VwE/9332VJY/9Qce7gYDZxyZyg==
   dependencies:
     compressorjs "^1.2.1"
     dompurify "^3.2.0"
