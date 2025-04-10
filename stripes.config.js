@@ -57,6 +57,7 @@ module.exports = {
     '@folio/developer' : {},
     '@folio/handler-stripes-registry': {},
     "@folio/gobi-settings": {},
+    '@folio/mosaic-settings' : {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/oai-pmh' : {},

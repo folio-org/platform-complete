@@ -52,6 +52,7 @@ module.exports = {
     '@folio/licenses' : {},
     '@folio/lists' : {},
     '@folio/local-kb-admin': {},
+    '@folio/mosaic-settings' : {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/oa' : {},
