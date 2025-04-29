@@ -75,7 +75,7 @@ module.exports = {
     '@folio/users' : {},
     '@folio/serials-management' : {},
     '@folio/stripes-marc-components' : {},
-    '@folio/folio_consortia-settings' : {}
+    '@folio/consortia-settings' : {}
   },
   branding: {
     logo: {
