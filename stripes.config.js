@@ -74,8 +74,7 @@ module.exports = {
     '@folio/tenant-settings' : {},
     '@folio/users' : {},
     '@folio/serials-management' : {},
-    '@folio/stripes-marc-components' : {},
-    '@folio/consortia-settings' : {}
+    '@folio/stripes-marc-components' : {}
   },
   branding: {
     logo: {
