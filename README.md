@@ -149,7 +149,7 @@ docker run stripes 127.0.0.1
 
 ## Additional information
 
-[Finding what module versions are included in a flower release.](doc/finding-module-versions.md)
+[Finding what module versions are included in a release.](doc/finding-module-versions.md)
 
 [Finding which flower release a given installation runs.](https://lotus.docs.folio.org/docs/settings/system_software_versions/system_software_versions/)
 
