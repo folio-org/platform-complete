@@ -3,7 +3,11 @@
 // const { merge } = require('lodash');
 
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: {
+    authnUrl: "https://folio-dev-spitfire-keycloak.ci.folio.org",
+    uiUrl: "https://folio-edev-spitfire-diku.ci.folio.org",
+    url: "http://localhost:9130",
+  },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
@@ -11,6 +15,10 @@ module.exports = {
     showPerms: false,
     preserveConsole: true,
     useSecureTokens: true,
+    tenantOptions: {
+      consortium: { name: 'consortium', clientId: 'consortium-application' },
+      college: { name: 'college', clientId: 'college-application' },
+    },
   },
 
   modules: {
