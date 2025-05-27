@@ -8,6 +8,7 @@ module.exports = {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
+    useSecureTokens: true,
     showPerms: false
   },
 
