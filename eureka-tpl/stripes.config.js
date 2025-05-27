@@ -71,7 +71,6 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-query-builder' : {},
     '@folio/quick-marc' : {},
     '@folio/marc-authorities': {},
     '@folio/mosaic-settings': {},
