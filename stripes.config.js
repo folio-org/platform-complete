@@ -15,7 +15,6 @@ module.exports = {
     '@folio/inn-reach' : {},
     '@folio/plugin-find-user' : {},
     '@folio/plugin-find-import-profile' : {},
-    '@folio/calendar' : {},
     '@folio/checkin' : {},
     '@folio/checkout' : {},
     '@folio/circulation' : {},
