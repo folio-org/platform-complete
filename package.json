@@ -33,7 +33,7 @@
     "@folio/finance": ">=1.1.0",
     "@folio/handler-stripes-registry": ">=1.0.0",
     "@folio/inn-reach": ">=1.1.0",
-    "@folio/inventory": ">=1.4.0",
+    "@folio/inventory": "https://github.com/folio-org/ui-inventory.git#master",
     "@folio/invoice": ">=1.0.0",
     "@folio/ldp": ">=1.1.0",
     "@folio/licenses": ">=2.0.0",
@@ -72,8 +72,8 @@
     "@folio/stripes": "^9.0.0",
     "@folio/stripes-authority-components": ">=2.0.0",
     "@folio/stripes-erm-components": "^9.0.0",
-    "@folio/stripes-inventory-components": ">=1.0.0",
-    "@folio/stripes-marc-components": ">=1.0.0",
+    "@folio/stripes-inventory-components": "https://github.com/folio-org/stripes-inventory-components.git#main",
+    "@folio/stripes-marc-components": "https://github.com/folio-org/stripes-marc-components.git#master",
     "@folio/tags": ">=1.1.0",
     "@folio/tenant-settings": ">=2.5.1",
     "@folio/users": "https://github.com/folio-org/ui-users.git#UIU-3392-testing",
@@ -100,13 +100,25 @@
     "lodash": "^4.17.5"
   },
   "resolutions": {
+    "@types/react": "^18.3.14",
     "typescript": "~5.5",
     "@rehooks/local-storage": "2.4.4",
-    "@types/react": "^18.3.14",
     "colors": "1.4.0",
     "final-form": "^4.20.4",
     "minimist": "^1.2.3",
     "moment": "~2.29.0",
-    "redux-form": "^8.0.0"
+    "redux-form": "^8.0.0",
+    "@folio/stripes": "^9.0.0",
+    "@folio/stripes-connect": "https://github.com/folio-org/stripes-connect.git#master",
+    "@folio/stripes-core": "https://github.com/folio-org/stripes-core.git#master",
+    "@folio/stripes-final-form": "^8.0.0",
+    "@folio/stripes-form": "^9.0.0",
+    "@folio/stripes-smart-components": "https://github.com/folio-org/stripes-smart-components.git#master",
+    "@folio/stripes-util": "^6.0.0",
+    "@folio/stripes-components": "https://github.com/folio-org/stripes-components.git#master",
+    "@folio/inventory": "https://github.com/folio-org/ui-inventory.git#master",
+    "@folio/stripes-inventory-components": "https://github.com/folio-org/stripes-inventory-components.git#main",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
