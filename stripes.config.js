@@ -3,13 +3,20 @@
 // const { merge } = require('lodash');
 
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: {
+    uiUrl: 'http://folio-edev-volaris-consortium.ci.folio.org',
+    authnUrl: 'https://folio-edev-volaris-keycloak.ci.folio.org',
+    url: 'https://ecs-folio-edev-volaris-kong.ci.folio.org',
+  },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     useSecureTokens: true,
-    showPerms: false
+    showPerms: false,
+    tenantOptions: {
+      consortium: { name: 'consortium', clientId: 'consortium-application' },
+    },
   },
 
   modules: {
