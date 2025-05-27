@@ -73,7 +73,6 @@ module.exports = {
     '@folio/plugin-find-user' : {},
     '@folio/quick-marc' : {},
     '@folio/marc-authorities': {},
-    '@folio/mosaic-settings': {},
     '@folio/reading-room' : {},
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
