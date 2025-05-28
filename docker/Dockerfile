@@ -1,7 +1,5 @@
 FROM node:18-alpine as stripes_build
 
-ARG OKAPI_URL=http://localhost:9130
-ARG TENANT_ID=diku
 ARG CXXFLAGS="-std=c++17"
 
 RUN mkdir -p /etc/folio/stripes
@@ -23,6 +21,8 @@ RUN yarn install
 RUN yarn list --pattern @folio
 RUN yarn list
 RUN yarn build-module-descriptors
+ARG OKAPI_URL=http://localhost:9130
+ARG TENANT_ID=diku
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 
 # nginx stage
