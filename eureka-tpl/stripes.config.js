@@ -18,7 +18,7 @@ module.exports = {
     rtr: {
       idleSessionTTL: '1h',
       idleModalTTL: '30s',
-    }
+    },
   },
   modules: {
     '@folio/agreements' : {},
