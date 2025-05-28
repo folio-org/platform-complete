@@ -41,6 +41,7 @@ module.exports = {
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
     '@folio/quick-marc': {},
+    '@folio/stripes-erm-components' : {},
     '@folio/stripes-authority-components' : {},
     '@folio/stripes-inventory-components' : {},
     '@folio/stripes-marc-components' : {},
