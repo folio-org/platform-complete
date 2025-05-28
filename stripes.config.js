@@ -26,6 +26,8 @@ module.exports = {
     '@folio/bulk-edit': {},
     '@folio/circulation' : {},
     '@folio/courses' : {},
+    '@folio/data-import' : {},
+    '@folio/data-export' : {},
     '@folio/dashboard' : {},
     '@folio/eholdings' : {},
     '@folio/export-manager': {},
@@ -56,6 +58,7 @@ module.exports = {
     '@folio/stripes-marc-components' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
+    '@folio/users' : {}
   },
 
   branding: {
