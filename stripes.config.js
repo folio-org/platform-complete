@@ -4,9 +4,9 @@
 
 module.exports = {
   okapi: {
-    authnUrl: "https://folio-dev-spitfire-keycloak.ci.folio.org",
+    authnUrl: "https://folio-edev-spitfire-keycloak.ci.folio.org",
     uiUrl: "https://folio-edev-spitfire-diku.ci.folio.org",
-    url: "http://localhost:9130",
+    url: "https://ecs-folio-edev-spitfire-kong.ci.folio.org",
   },
   config: {
     logCategories: 'core,path,action,xhr',
