@@ -3,13 +3,11 @@
   "version": "3.7.0",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=8192 $NODE_OPTIONS\"; stripes build stripes.config.js --sourcemap",
-    "stripes": "stripes",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=8000 $NODE_OPTIONS\"; stripes-build build stripes.config.js --sourcemap",
     "start": "stripes serve stripes.config.js",
-    "build-module-descriptors": "stripes mod descriptor stripes.config.js --output ./ModuleDescriptors",
+    "build-module-descriptors": "stripes-build mod descriptor stripes.config.js --full --strict  --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
-    "test": "echo 'No unit tests implemented'",
-    "lint": "eslint test/ui-testing"
+    "test": "echo 'No unit tests implemented'"
   },
   "dependencies": {
     "@folio/bulk-edit": ">=1.0.0",
@@ -58,12 +56,13 @@
     "@folio/tenant-settings": ">=2.5.1",
     "final-form": "^4.20.7",
     "final-form-arrays": "^3.0.2",
+    "lodash": "^4.17.5",
     "moment": "~2.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-final-form": "^6.5.9",
     "react-final-form-arrays": "^3.1.3",
-    "react-intl": "^6.4.4",
+    "react-intl": "^7.1.10",
     "react-query": "^3.13.0",
     "react-redux": "^8.0.5",
     "react-router": "^5.2.0",
@@ -82,6 +81,7 @@
   "resolutions": {
     "typescript": "~5.5",
     "@rehooks/local-storage": "2.4.4",
+    "@types/react": "^18.3.14",
     "colors": "1.4.0",
     "final-form": "^4.20.4",
     "minimist": "^1.2.3",
