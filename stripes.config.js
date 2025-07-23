@@ -1,16 +1,24 @@
-// const platformCore = require('@folio/platform-core/stripes.config.js');
-// const platformERM = require('@folio/platform-erm/stripes.config.js');
-// const { merge } = require('lodash');
-
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: {
+    'url': '${kongUrl}',
+    'uiUrl': '${tenantUrl}',
+    'authnUrl': '${keycloakUrl}'
+  },
   config: {
+    hasAllPerms: false,
+    useSecureTokens: true,
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    preserveConsole: true,
-    useSecureTokens: true,
+    isSingleTenant: true,
+    isEureka: true,
+    tenantOptions: ${tenantOptions},
+    enableEcsRequests: false,
+    rtr: {
+      idleSessionTTL: '1h',
+      idleModalTTL: '30s',
+    }
   },
 
   modules: {
@@ -52,6 +60,10 @@ module.exports = {
 
     // settings-only apps, plugins, etc
     // always listed alphabetically, if at all
+
+    '@folio/authorization-roles': {},
+    '@folio/authorization-policies': {},
+    '@folio/plugin-select-application': {},
     '@folio/acquisition-units': {},
     '@folio/calendar' : {},
     '@folio/circulation' : {},
@@ -93,12 +105,10 @@ module.exports = {
   branding: {
     logo: {
       src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      alt: 'Opentown Libraries'
     },
     favicon: {
-      src: './tenant-assets/folio-favicon.png',
+      src: './tenant-assets/folio-favicon.png'
     },
-  },
+  }
 };
-
-// module.exports = merge({}, platformCore, platformERM, platformComplete);
