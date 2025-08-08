@@ -22,6 +22,7 @@ module.exports = {
   },
 
   modules: {
+    '@folio/lists' : {},
     // user-visible apps
     '@folio/agreements' : {},
     '@folio/bulk-edit': {},
@@ -42,7 +43,6 @@ module.exports = {
     '@folio/inventory' : {},
     '@folio/invoice' : {},
     '@folio/licenses' : {},
-    '@folio/lists' : {},
     '@folio/local-kb-admin': {},
     '@folio/marc-authorities': {},
     '@folio/mosaic-settings': {},
