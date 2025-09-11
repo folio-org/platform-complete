@@ -1,4 +1,4 @@
-FROM node:18-alpine as stripes_build
+FROM node:20-alpine as stripes_build
 
 ARG OKAPI_URL=http://localhost:9130
 ARG TENANT_ID=diku
@@ -10,10 +10,10 @@ WORKDIR /etc/folio/stripes
 COPY . /etc/folio/stripes/
 
 RUN apk upgrade \
- && apk add \
-      alpine-sdk \
-      python3 \
- && rm -rf /var/cache/apk/*
+     && apk add \
+     alpine-sdk \
+     python3 \
+     && rm -rf /var/cache/apk/*
 RUN yarn config set python /usr/bin/python3
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
