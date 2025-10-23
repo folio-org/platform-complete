@@ -3,22 +3,13 @@ import { pluginReact } from '@rsbuild/plugin-react';
 import { pluginCssMinimizer } from '@rsbuild/plugin-css-minimizer';
 import { rspack } from '@rspack/core';
 
+import StripesWebpackPlugin from './webpack/stripes-webpack-plugin';
+import { stripesVirtualModules } from './webpack/stripes-virtual-modules';
 
-const virtualModules = new rspack.experiments.VirtualModulesPlugin({
-  'node_modules/module-foo.js': 'module.exports = { foo: "foo" };',
-  'node_modules/module-bar.js': 'module.exports = { bar: "bar" };',
-  'node_modules/stripes-config.js': `module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
-  config: {
-    logCategories: 'core,path,action,xhr',
-    logPrefix: '--',
-    maxUnpagedResourceCount: 2000,
-    showPerms: false,
-    preserveConsole: true,
-    useSecureTokens: true,
-  },
-   };`
-});
+//@@ how to get this dynamically?
+import stripesConfig from './stripes.config';
+
+const vmPlugin = new rspack.experiments.VirtualModulesPlugin();
 
 export default defineConfig({
   plugins: [
@@ -26,9 +17,9 @@ export default defineConfig({
     pluginReact({
       swcReactOptions: {
         runtime: 'automatic',
-//         jsxImportSource: '@emotion/react',
-        },
-      }
+        //         jsxImportSource: '@emotion/react',
+      },
+    }
     ),
   ],
 
@@ -42,13 +33,30 @@ export default defineConfig({
     // options for the low-level tools
     lightningcssLoader: false,
     rspack: {
-    plugins: [virtualModules]
+      plugins: [
+        // _virtualModules,
+        vmPlugin,
+        // {
+        //   apply(compiler) {
+        //     compiler.hooks.thisCompilation.tap('MyPlugin', () => {
+        //       vmPlugin.writeModule('node_modules/stripes-config.js', _stripesConfigContent);
+        //     });
+        //   }
+        // }
+        {
+          apply(compiler) {
+            stripesVirtualModules(vmPlugin, compiler, { stripesConfig, createDll: false });
+          }
+        },
+      ]
     },
-
-
   },
   output: {
     // options for build outputs
+    sourceMap: {
+      js: 'source-map',
+    },
+
     cssModules: {
       auto: (resource) => {
         return resource.endsWith('.css');

@@ -18,9 +18,9 @@ module.exports = class StripesWebpackPlugin {
     const isProduction = compiler.options.mode === 'production';
 
     const stripesPlugins = [
-      new StripesConfigPlugin(this.stripesConfig),
+      // new StripesConfigPlugin(this.stripesConfig),
       new StripesTranslationsPlugin(this.stripesConfig),
-      new StripesDuplicatesPlugin(this.stripesConfig),
+      // new StripesDuplicatesPlugin(this.stripesConfig),
     ];
 
     if (!this.createDll) {

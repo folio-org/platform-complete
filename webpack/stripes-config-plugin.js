@@ -6,8 +6,9 @@
 // the module name, DO NOT import this module.
 // Instead, use the ModulesContext directly or via the withModules/withModule HOCs.
 
+import { rspack } from '@rspack/core';
+
 const _ = require('lodash');
-const VirtualModulesPlugin = require('webpack-virtual-modules');
 const serialize = require('serialize-javascript');
 const { SyncHook } = require('tapable');
 const stripesModuleParser = require('./stripes-module-parser');
@@ -20,7 +21,7 @@ const stripesConfigPluginHooksMap = new WeakMap();
 module.exports = class StripesConfigPlugin {
   constructor(options) {
     logger.log('initializing...');
-    if (!_.isObject(options.modules)) {
+    if (!typeof options.modules === 'object') {
       throw new StripesBuildError('stripes-config-plugin was not provided a "modules" object for enabling stripes modules');
     }
     this.options = _.omit(options, 'branding', 'errorLogging');
@@ -41,7 +42,7 @@ module.exports = class StripesConfigPlugin {
     return hooks;
   }
 
-  apply(compiler) {
+  apply(compiler, vmPlugin) {
     const enabledModules = this.options.modules;
     logger.log('enabled modules:', enabledModules);
     const { config, metadata, icons, stripesDeps, warnings } = stripesModuleParser.parseAllModules(enabledModules, compiler.context, compiler.options.resolve.alias);
@@ -50,7 +51,7 @@ module.exports = class StripesConfigPlugin {
     this.icons = icons;
     this.warnings = warnings;
     // Prep the virtual module now, we will write to it when ready
-    this.virtualModule = new VirtualModulesPlugin();
+    this.virtualModule = vmPlugin;
     this.virtualModule.apply(compiler);
 
     StripesConfigPlugin.getPluginHooks(compiler).beforeWrite.tap(
@@ -59,7 +60,25 @@ module.exports = class StripesConfigPlugin {
 
     // Wait until after other plugins to generate virtual stripes-config
     compiler.hooks.afterPlugins.tap('StripesConfigPlugin', (theCompiler) => this.afterPlugins(theCompiler));
-    compiler.hooks.emit.tapAsync('StripesConfigPlugin', (compilation, callback) => this.processWarnings(compilation, callback));
+
+    compiler.hooks.compilation.tap('StripesConfigPlugin', () => {
+      console.log('compilation')
+    });
+    compiler.hooks.make.tap('StripesConfigPlugin', () => {
+      console.log('make')
+    });
+    compiler.hooks.finishMake.tap('StripesConfigPlugin', () => {
+      console.log('finishMake')
+    });
+    compiler.hooks.afterCompile.tap('StripesConfigPlugin', () => {
+      console.log('afterCompile')
+    });
+
+
+    compiler.hooks.emit.tapAsync('StripesConfigPlugin', (compilation, callback) => {
+      console.log('EMIT')
+      this.processWarnings(compilation, callback);
+    });
   }
 
   afterPlugins(compiler) {
@@ -73,9 +92,11 @@ module.exports = class StripesConfigPlugin {
     StripesConfigPlugin.getPluginHooks(compiler).beforeWrite.call(pluginData);
 
     // Create a virtual module for Webpack to include in the build
+    //@@ replace branding with null to prevent @stripes/core/OrganizationLogo
+    //   from blowing up
     const stripesVirtualModule = `
       const { okapi, config, modules } = ${serialize(this.mergedConfig, { space: 2 })};
-      const branding = ${stripesSerialize.serializeWithRequire(pluginData.branding)};
+      const branding = null; //@@ ${stripesSerialize.serializeWithRequire(pluginData.branding)};
       const errorLogging = ${stripesSerialize.serializeWithRequire(pluginData.errorLogging)};
       const translations = ${serialize(pluginData.translations, { space: 2 })};
       const metadata = ${stripesSerialize.serializeWithRequire(this.metadata)};
@@ -84,7 +105,10 @@ module.exports = class StripesConfigPlugin {
     `;
 
     logger.log('writing virtual module...', stripesVirtualModule);
-    this.virtualModule.writeModule('node_modules/stripes-config.js', stripesVirtualModule);
+
+    compiler.hooks.thisCompilation.tap('StripesConfigPlugin', () => {
+      this.virtualModule.writeModule('node_modules/stripes-config.js', stripesVirtualModule);
+    });
   }
 
   processWarnings(compilation, callback) {

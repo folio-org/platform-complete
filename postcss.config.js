@@ -27,7 +27,7 @@ module.exports = {
       ]
     }),
     // ignore any imports of variables to keep those from being inlined...
-    postCssImport({filter: (path) => !/variables/.test(path)}),
+    postCssImport({ filter: (path) => !/variables/.test(path) }),
     // strip out imports of variables to prevent variable reset via a custom postcss plugin.
     postCssOmitImports({ contains: /variables/ }),
     autoprefixer(),
