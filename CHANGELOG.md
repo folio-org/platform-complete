@@ -1,5 +1,9 @@
 # Change history for platform-complete
 
+# 2026-R1, Trillium
+
+* Build with `--lazy` to leverage code-splitting. Refs FOLIO-4392.
+
 # 2025-R1, Sunflower
 
 * Bump `react-intl` to `^7`. Refs STRIPES-960 (and FOLIO-4262, FOLIO-4263).
