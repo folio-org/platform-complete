@@ -3,7 +3,7 @@
   "version": "1.1.0-SNAPSHOT",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=8000 $NODE_OPTIONS\"; stripes-build build stripes.config.js",
+    "build": "export NODE_OPTIONS=\"--max-old-space-size=8000 $NODE_OPTIONS\"; stripes-build build stripes.config.js --lazy",
     "start": "stripes serve stripes.config.js",
     "build-module-descriptors": "stripes-build mod descriptor stripes.config.js --full --strict  --output ./ModuleDescriptors",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes serve $f",
