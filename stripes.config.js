@@ -7,6 +7,7 @@ module.exports = {
     showPerms: false,
     preserveConsole: true,
     useSecureTokens: true,
+    enableEcsRequests: true
   },
   modules: {
     '@folio/acquisition-units': {},
