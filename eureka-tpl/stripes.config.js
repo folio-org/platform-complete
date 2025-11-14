@@ -52,6 +52,7 @@ module.exports = {
     '@folio/remote-storage' : {},
     '@folio/ldp' : {},
     '@folio/requests' : {},
+    '@folio/requests-mediated' : {},
     '@folio/serials-management': {},
     '@folio/users' : {},
 
