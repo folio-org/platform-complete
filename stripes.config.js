@@ -78,6 +78,11 @@ module.exports = {
     '@folio/serials-management' : {},
     '@folio/stripes-marc-components' : {},
     '@folio/stripes-inventory-components' : {},
+    '@folio/authorization-policies' : {},
+    '@folio/authorization-roles' : {},
+    '@folio/plugin-select-application' : {},
+    '@folio/inn-reach' : {},
+    '@folio/mosaic-settings' : {},
   },
   branding: {
     logo: {

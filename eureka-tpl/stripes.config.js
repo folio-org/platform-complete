@@ -98,6 +98,11 @@ module.exports = {
     '@folio/stripes-marc-components' : {},
     '@folio/tags' : {},
     '@folio/tenant-settings' : {},
+    '@folio/authorization-policies' : {},
+    '@folio/authorization-roles' : {},
+    '@folio/plugin-select-application' : {},
+    '@folio/inn-reach' : {},
+    '@folio/mosaic-settings' : {},
   },
 
   branding: {
