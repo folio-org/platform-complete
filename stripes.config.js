@@ -39,7 +39,6 @@ module.exports = {
     '@folio/lists': {},
     '@folio/local-kb-admin': {},
     '@folio/marc-authorities': {},
-    '@folio/mosaic-settings': {},
     '@folio/myprofile' : {},
     '@folio/notes' : {},
     '@folio/oai-pmh' : {},
