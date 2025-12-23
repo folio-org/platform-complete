@@ -1137,6 +1137,11 @@
   dependencies:
     tslib "^2.0.0"
 
+"@e965/xlsx@^0.20.2":
+  version "0.20.3"
+  resolved "https://registry.yarnpkg.com/@e965/xlsx/-/xlsx-0.20.3.tgz#4577f2c7691137d3e315018218ba2b76e4721ba9"
+  integrity sha512-703RN/3OdsRD5mtse2HBX7Um7xwaP9tlswEG6svOtjqokXoX7rJdQj7DyabD2I+xk22RgaIIU+R6BHgkpZGB/w==
+
 "@emotion/babel-plugin@^11.13.5":
   version "11.13.5"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.13.5.tgz#eab8d65dbded74e0ecfd28dc218e75607c4e7bc0"
@@ -1768,14 +1773,17 @@
     "@folio/linked-data" "^1.0.5"
     prop-types "^15.6.0"
 
-"@folio/ldp@3.0.2":
-  version "3.0.2"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/ldp/-/ldp-3.0.2.tgz#350147efb33ac41ca72e703c28acfa07fb66c9d2"
-  integrity sha512-+h5/CRamF0jgYMAGIAmcwhe8kll8zHhFdAMxvGx8jGsB1vt8QBfjArRpiKE9HGSYfgmZkzhh7Ywoo1Qqoms4VA==
+"@folio/ldp@3.1.2":
+  version "3.1.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/ldp/-/ldp-3.1.2.tgz#ad4c1f64b91008b01dac2c0225f5fba325fd086a"
+  integrity sha512-WUto5N+d0dwRrIor/9NRqGTZCwuYYkbpF0xVsbJJkddq+Pj20JKAG5HMpUZDj5gsJtuXEv2qxkcvJNlvm1ayCA==
   dependencies:
+    "@e965/xlsx" "^0.20.2"
     chart.js "^2.9.3"
     final-form "^4.20.7"
     final-form-arrays "^3.0.2"
+    handlebars "^4.7.7"
+    json2csv "^4.5.4"
     localforage "^1.9.0"
     lodash.clonedeep "^4.5.0"
     lodash.get "^4.4.2"
@@ -6065,7 +6073,7 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
-json2csv@^4.2.1:
+json2csv@^4.2.1, json2csv@^4.5.4:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/json2csv/-/json2csv-4.5.4.tgz#2b59c2869a137ec48cd2e243e0180466155f773f"
   integrity sha512-YxBhY4Lmn8IvVZ36nqg5omxneLy9JlorkqW1j/EDCeqvmi+CQ4uM+wsvXlcIqvGDewIPXMC/O/oF8DX9EH5aoA==
