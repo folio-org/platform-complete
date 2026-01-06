@@ -1,5 +1,9 @@
 # Change history for platform-complete
 
+## 2024-R2, Ramsons
+
+* Bump `qs` to `^6.14.1` fixing CVE-2025-15284 qs.parse DoS. Refs FOLIO-4436.
+
 ## 2023-R1, Orchid
 
 * Bump `stripes-erm-components` to `v8`. Refs ERM-2235 and ERM-2453.
