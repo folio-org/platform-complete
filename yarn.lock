@@ -1662,9 +1662,9 @@
     "@folio/plugin-find-user" "^8.0.0"
 
 "@folio/inventory@>=1.4.0":
-  version "14.0.1099000000001596"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-14.0.1099000000001596.tgz#6d9a93879b8398b3b33d626dae143836f2f3a838"
-  integrity sha512-l6sgQdWqtI7WbSNiRWCPnmN3uZmKcyfpVRxzOlSIKswzoNalw/8iaxR2ELVS62sp/CRLXd3kRtBawn4dB+yyXg==
+  version "14.0.1099000000001608"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/inventory/-/inventory-14.0.1099000000001608.tgz#18c8174c4f8fea469aef9dde02d88772c98879f1"
+  integrity sha512-3Kz8q1XjpaTMDvHAGaJmgoMrKMW/klmkf+SpnwmXLGJHfCoO7fFzVeCg36Zp3Z3hdWE9yr+SnjMyqsSCEVcELA==
   dependencies:
     "@dnd-kit/core" "^6.3.1"
     "@dnd-kit/modifiers" "^9.0.0"
@@ -1785,9 +1785,9 @@
     react-final-form-arrays "^3.1.1"
 
 "@folio/marc-authorities@>=1.0.0":
-  version "8.0.1099000000001182"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marc-authorities/-/marc-authorities-8.0.1099000000001182.tgz#96a8ad2e157200c9e73b29e5dcff49e3d7acad3d"
-  integrity sha512-fPMb0NwXr52E6oLCrEg+3L+MvLNUbl8kqj0m0KtOU8i5u/b5ISX0sXkAESmf2FhB6xl7Vz0LpJIt3ezIn1mVGg==
+  version "8.0.1099000000001205"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/marc-authorities/-/marc-authorities-8.0.1099000000001205.tgz#2b8c096d4dbbef6e57a3d5fe750ef41ee237b02a"
+  integrity sha512-hGvTR6LcEDOv7rOep9XKdln5tVqQELmhzMC7mHDV0rwm0BebPjs+7nXzVkMcmQlOhClpl8D0ombpxBObXkqybA==
   dependencies:
     "@folio/stripes-acq-components" "^7.0.0"
     "@rehooks/local-storage" "^2.4.4"
@@ -2128,7 +2128,27 @@
   optionalDependencies:
     "@folio/plugin-find-organization" "^6.0.0"
 
-"@folio/quick-marc@>=1.0.0", "@folio/quick-marc@^10.0.0":
+"@folio/quick-marc@>=1.0.0":
+  version "11.0.1099000000000489"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-11.0.1099000000000489.tgz#740e08ac61955258083abae2cca7224fcf81242f"
+  integrity sha512-siqMi4aglCkNff33JaHHk2SzPZ/YSEUUJIJ69Ua8Z2UH13R+lw8MYlcgdf1eDKqR5XZb0QawybEfaOHtdOUuZA==
+  dependencies:
+    "@folio/stripes-acq-components" "^7.0.0"
+    classnames "^2.5.1"
+    final-form "^4.18.2"
+    final-form-arrays "^3.0.1"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-final-form "^6.3.0"
+    react-final-form-arrays "^3.1.0"
+    react-final-form-listeners "^1.0.2"
+    react-query "^3.39.2"
+    react-router-prop-types "^1.0.4"
+    uuid "^8.3.2"
+  optionalDependencies:
+    "@folio/plugin-find-authority" "^5.0.0"
+
+"@folio/quick-marc@^10.0.0":
   version "10.1.1099000000000478"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/quick-marc/-/quick-marc-10.1.1099000000000478.tgz#307e0c1447c9ae657bae3025e449fa107a43e5fe"
   integrity sha512-536RZH9rBIG3orQyvTMNswsUzLZmHOVcIHvTnfPnoiOC69zVZD8/cHlyxi3A1WdNP09g9DQQvKPhotarCtNAMA==
@@ -3476,16 +3496,16 @@
   integrity sha512-EdtpwNYNhe3kZ+4TlXj/++pvBoU0KdrAICMzgI7vjWgu9sIvvUhu9XR8Ks4L6Wh3sxpZ22wkZR7yCLAqUjnZuQ==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "25.0.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-25.0.4.tgz#0532f0f0e460533c81b1c63c156139ed6a5c05ed"
-  integrity sha512-9L7EOcoPf2mpvBL6GbE4z6zY9oaaP389dZ5ZZ05n2K9p3e1rEUwcXqwhXIKRMbK/uV1U8MYactPf1XH0xmtZWg==
+  version "25.0.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-25.0.5.tgz#7ee6356607b9c93b9d25bf5c5e8f8a8ed6240877"
+  integrity sha512-FuLxeLuSVOqHPxSN1fkcD8DLU21gAP7nCKqGRJ/FglbCUBs0NYN6TpHcdmyLeh8C0KwGIaZQJSv+OYG+KZz+Gw==
   dependencies:
     undici-types "~7.16.0"
 
 "@types/node@14 || 16 || 17 || 18 || 20 || 22":
-  version "22.19.4"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-22.19.4.tgz#0bbddb9c5809cf67d66e2baeb64e0849ecb5f8a1"
-  integrity sha512-0yy7kLo3lc2S+O1wsTqWBjU8CX1OExoIdLWz0EM9i3Tqj9qXWG8yjDEN2ZB/coCHc0j/OQXc81gwJYHX7+uTMg==
+  version "22.19.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@types/node/-/node-22.19.5.tgz#82e8c3da99667246efc63a634114ab34fb34e08e"
+  integrity sha512-HfF8+mYcHPcPypui3w3mvzuIErlNOh2OAG+BCeBZCEwyiD5ls2SiCwEyT47OELtf7M3nHxBdu0FsmzdKxkN52Q==
   dependencies:
     undici-types "~6.21.0"
 
