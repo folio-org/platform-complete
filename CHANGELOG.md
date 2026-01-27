@@ -6,6 +6,7 @@
 * Bump `@folio/stripes` to `^10`. Refs STRIPES-961.
 * Order user-visible apps alphabetically by title in `stripes.config.js`. Refs FOLIO-4245. 
 * Include `@folio/stripes-build` as a direct-dep; `@folio/stripes-cli` as a dev-dep.
+* Bump `qs` to `^6.14.1` fixing CVE-2025-15284. Refs FOLIO-4436.
 
 # 2024-R2, Ramsons
 
