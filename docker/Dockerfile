@@ -24,8 +24,7 @@ RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-
 RUN yarn install
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
-RUN ls -al /etc/folio/stripes/output
-RUN ls -al
+RUN ls -al /etc/folio/stripes/output/chunk.@folio
 RUN cat package.json
 RUN cat stripes.config.js
 RUN cat yarn.lock
