@@ -9,6 +9,9 @@ WORKDIR /etc/folio/stripes
 
 COPY . /etc/folio/stripes/
 RUN ls -al
+RUN cat package.json
+RUN cat stripes.config.js
+RUN cat yarn.lock
 
 RUN apk upgrade \
      && apk add \
@@ -22,6 +25,10 @@ RUN yarn install
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 RUN ls -al /etc/folio/stripes/output
+RUN ls -al
+RUN cat package.json
+RUN cat stripes.config.js
+RUN cat yarn.lock
 
 # nginx stage
 FROM nginx:stable-alpine
