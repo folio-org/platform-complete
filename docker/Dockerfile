@@ -8,6 +8,7 @@ RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes
 
 COPY . /etc/folio/stripes/
+RUN ls -al
 
 RUN apk upgrade \
      && apk add \
@@ -20,6 +21,7 @@ RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-
 RUN yarn install
 RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
+RUN ls -al /etc/folio/stripes/output
 
 # nginx stage
 FROM nginx:stable-alpine
