@@ -4251,7 +4251,7 @@ bare-events@^2.5.4, bare-events@^2.7.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/bare-events/-/bare-events-2.8.2.tgz#7b3e10bd8e1fc80daf38bb516921678f566ab89f"
   integrity sha512-riJjyv1/mHLIPX4RwiK+oW9/4c3TEUeORHKefKAKnZ5kyslbN+HXowtbaVEqt4IMUB7OXlfixcs6gsFeo/jhiQ==
 
-bare-fs@^4.0.1:
+bare-fs@^4.0.1, bare-fs@^4.5.5:
   version "4.5.5"
   resolved "https://repository.folio.org/repository/npm-ci-all/bare-fs/-/bare-fs-4.5.5.tgz#589a8f87a32af0266aa474413c8d7d11d50e4a65"
   integrity sha512-XvwYM6VZqKoqDll8BmSww5luA5eflDzY0uEFfBJtFKe4PAAtxBjU3YIxzIBzhyaEQBy1VXEQBto4cpN5RZJw+w==
@@ -10613,11 +10613,12 @@ tar-stream@^2.1.4:
     readable-stream "^3.1.1"
 
 tar-stream@^3.1.5:
-  version "3.1.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/tar-stream/-/tar-stream-3.1.7.tgz#24b3fb5eabada19fe7338ed6d26e5f7c482e792b"
-  integrity sha512-qJj60CXt7IU1Ffyc3NJMjh6EkuCFej46zUqJ4J7pqYlThyd9bO0XBTmcOIhSzZJVWfsLks0+nle/j538YAW9RQ==
+  version "3.1.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/tar-stream/-/tar-stream-3.1.8.tgz#a26f5b26c34dfd4936a4f8a9e694a8f5102af13d"
+  integrity sha512-U6QpVRyCGHva435KoNWy9PRoi2IFYCgtEhq9nmrPPpbRacPs9IH4aJ3gbrFC8dPcXvdSZ4XXfXT5Fshbp2MtlQ==
   dependencies:
     b4a "^1.6.4"
+    bare-fs "^4.5.5"
     fast-fifo "^1.2.0"
     streamx "^2.15.0"
 
