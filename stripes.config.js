@@ -32,6 +32,7 @@ module.exports = {
     '@folio/finance' : {},
     '@folio/inn-reach' : {},
     '@folio/inventory' : {},
+    '@folio/inventory-import' : {},
     '@folio/invoice' : {},
     '@folio/licenses' : {},
     '@folio/lists' : {},
