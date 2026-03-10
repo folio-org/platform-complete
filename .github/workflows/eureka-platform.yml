@@ -1,0 +1,246 @@
+name: Update eureka-platform.json from Docker Hub
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every hour at minute 0 UTC
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - snapshot
+    paths:
+      - eureka-platform.json
+      - .github/workflows/update-eureka-platform-from-dockerhub.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-eureka-platform-snapshot
+  cancel-in-progress: false
+
+jobs:
+  update-components:
+    if: github.ref_name == 'snapshot' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    env:
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+      DOCKERHUB_ORG: folioci
+      TARGET_FILE: eureka-platform.json
+
+    steps:
+      - name: Check out snapshot branch
+        uses: actions/checkout@v4
+        with:
+          ref: snapshot
+          fetch-depth: 0
+
+      - name: Validate Docker credentials presence
+        run: |
+          set -euo pipefail
+          if [ -z "${DOCKER_USERNAME:-}" ]; then
+            echo "Missing required secret: DOCKER_USERNAME"
+            exit 1
+          fi
+          if [ -z "${DOCKER_PASSWORD:-}" ] && [ -z "${DOCKER_TOKEN:-}" ]; then
+            echo "Missing required secret: DOCKER_PASSWORD or DOCKER_TOKEN"
+            exit 1
+          fi
+
+      - name: Update component versions from Docker Hub tags
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - << 'PY'
+          import json
+          import os
+          import re
+          import sys
+          from urllib import request, parse, error
+          from packaging.version import Version, InvalidVersion
+
+          TARGET_FILE = os.environ.get("TARGET_FILE", "eureka-platform.json")
+          ORG = os.environ.get("DOCKERHUB_ORG", "folioci")
+          USERNAME = os.environ.get("DOCKER_USERNAME", "")
+          PASSWORD = os.environ.get("DOCKER_PASSWORD", "") or os.environ.get("DOCKER_TOKEN", "")
+
+          if not os.path.exists(TARGET_FILE):
+              print(f"Target file not found: {TARGET_FILE}")
+              sys.exit(1)
+
+          # Conservative component-name matcher for FOLIO module images.
+          COMPONENT_RE = re.compile(r"^(mod|edge|mgr|okapi|stripes)-[a-z0-9-]+$")
+
+          # Accept semver-ish tags, with optional pre-release/build.
+          SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$")
+
+          def http_json(url, method="GET", headers=None, body=None):
+              req = request.Request(url=url, method=method)
+              for k, v in (headers or {}).items():
+                  req.add_header(k, v)
+              data = None
+              if body is not None:
+                  data = json.dumps(body).encode("utf-8")
+                  req.add_header("Content-Type", "application/json")
+              try:
+                  with request.urlopen(req, data=data, timeout=60) as resp:
+                      return json.loads(resp.read().decode("utf-8"))
+              except error.HTTPError as e:
+                  msg = e.read().decode("utf-8", errors="ignore")
+                  raise RuntimeError(f"HTTP {e.code} for {url}: {msg}") from e
+
+          def dockerhub_token(username, password):
+              # Docker Hub API token for /v2/repositories endpoints.
+              payload = {"username": username, "password": password}
+              data = http_json("https://hub.docker.com/v2/users/login/", method="POST", body=payload)
+              token = data.get("token")
+              if not token:
+                  raise RuntimeError("Docker Hub login did not return token")
+              return token
+
+          def fetch_tags(image_name, token):
+              tags = []
+              url = f"https://hub.docker.com/v2/repositories/{ORG}/{image_name}/tags?page_size=100"
+              headers = {"Authorization": f"JWT {token}"}
+              while url:
+                  data = http_json(url, headers=headers)
+                  for item in data.get("results", []):
+                      name = item.get("name")
+                      if name:
+                          tags.append((name, item.get("last_updated")))
+                  url = data.get("next")
+              return tags
+
+          def choose_latest_tag(tags):
+              # Prefer highest stable semver tag (without '-') first, then highest semver incl. pre-release,
+              # fallback to most recently updated tag.
+              stable = []
+              semver_any = []
+              for name, _ in tags:
+                  if not SEMVER_RE.match(name):
+                      continue
+                  try:
+                      v = Version(name)
+                  except InvalidVersion:
+                      continue
+                  semver_any.append((v, name))
+                  if "-" not in name:
+                      stable.append((v, name))
+              if stable:
+                  stable.sort(key=lambda x: x[0], reverse=True)
+                  return stable[0][1]
+              if semver_any:
+                  semver_any.sort(key=lambda x: x[0], reverse=True)
+                  return semver_any[0][1]
+              if tags:
+                  tags_sorted = sorted(tags, key=lambda x: x[1] or "", reverse=True)
+                  return tags_sorted[0][0]
+              return None
+
+          tag_cache = {}
+          changed = []
+
+          def is_component_name(name):
+              return isinstance(name, str) and bool(COMPONENT_RE.match(name))
+
+          def maybe_update(component, current_value, setter, location):
+              if not is_component_name(component):
+                  return
+              if not isinstance(current_value, str):
+                  return
+
+              if component not in tag_cache:
+                  try:
+                      tags = fetch_tags(component, auth_token)
+                      latest = choose_latest_tag(tags)
+                      tag_cache[component] = latest
+                  except Exception as ex:
+                      print(f"WARN: Failed fetching tags for {component}: {ex}")
+                      tag_cache[component] = None
+
+              latest = tag_cache.get(component)
+              if latest and latest != current_value:
+                  setter(latest)
+                  changed.append((location, component, current_value, latest))
+
+          def walk(node, path=""):
+              if isinstance(node, dict):
+                  # Case 1: {"mod-users": "1.2.3"}
+                  for k, v in list(node.items()):
+                      loc = f"{path}.{k}" if path else k
+                      if isinstance(v, str):
+                          maybe_update(
+                              k,
+                              v,
+                              lambda nv, n=node, key=k: n.__setitem__(key, nv),
+                              loc
+                          )
+                      elif isinstance(v, dict):
+                          # Case 2: {"mod-users": {"version":"1.2.3", ...}}
+                          if is_component_name(k) and isinstance(v.get("version"), str):
+                              maybe_update(
+                                  k,
+                                  v["version"],
+                                  lambda nv, d=v: d.__setitem__("version", nv),
+                                  f"{loc}.version"
+                              )
+                          walk(v, loc)
+                      elif isinstance(v, list):
+                          walk(v, loc)
+
+                  # Case 3: {"name":"mod-users", "version":"1.2.3"}
+                  name = node.get("name")
+                  version = node.get("version")
+                  if is_component_name(name) and isinstance(version, str):
+                      maybe_update(
+                          name,
+                          version,
+                          lambda nv, d=node: d.__setitem__("version", nv),
+                          f"{path}.version" if path else "version"
+                      )
+
+              elif isinstance(node, list):
+                  for i, item in enumerate(node):
+                      loc = f"{path}[{i}]" if path else f"[{i}]"
+                      walk(item, loc)
+
+          try:
+              auth_token = dockerhub_token(USERNAME, PASSWORD)
+          except Exception as ex:
+              print(f"ERROR: Docker Hub authentication failed: {ex}")
+              sys.exit(1)
+
+          with open(TARGET_FILE, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          walk(data)
+
+          if changed:
+              with open(TARGET_FILE, "w", encoding="utf-8") as f:
+                  json.dump(data, f, indent=2, ensure_ascii=True)
+                  f.write("\n")
+
+              print(f"Updated {len(changed)} component entries:")
+              for loc, component, old, new in changed:
+                  print(f"  - {loc}: {component} {old} -> {new}")
+          else:
+              print("No component updates found.")
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- eureka-platform.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add eureka-platform.json
+          git commit -m "platform-complete: update eureka-platform components from Docker Hub"
+          git push origin HEAD:snapshot
