@@ -1,4 +1,4 @@
-name: Update eureka-platform.json from Docker Hub
+name: Update eureka-platform.json
 
 on:
   workflow_dispatch:
@@ -24,9 +24,9 @@ jobs:
     if: github.ref_name == 'snapshot' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
-      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_USERNAME: ${{ secrets.DOCKERHUB_USERNAME || secrets.DOCKER_USER }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-      DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+      DOCKER_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
       DOCKERHUB_ORG: folioci
       TARGET_FILE: eureka-platform.json
 
