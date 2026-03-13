@@ -15,7 +15,7 @@ pipeline {
 
   agent {
     node {
-      label 'platform-build'
+      label 'platform-build-java21'
     }
   }
 
