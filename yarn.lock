@@ -2367,12 +2367,12 @@
     query-string "^7.0.1"
     react-query "^3.39.3"
 
-"@folio/stripes-build@^1.0.0":
-  version "1.1.1099000000000035"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-build/-/stripes-build-1.1.1099000000000035.tgz#7687a36002a4aff69171e6af8097cb639da0c14c"
-  integrity sha512-jjJ0n+JI0U4Qrd0A5Jw3cezciE42dRCliNiN3YOh1QuxLrNpX7C8Yzdjr10TPQjxFzEWEq5VwqGgL18Ky0XWwA==
+"@folio/stripes-build@^2.0.0":
+  version "2.0.1099000000000041"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-build/-/stripes-build-2.0.1099000000000041.tgz#fb59ab9508a19bb2255d99a13df811fe8d91703f"
+  integrity sha512-/zE+j6qpIbypWEGJrupyrj9+/txFTq3CCtaKVHvXwPkj9KWmyxersCOGx+3m97fGBr4sg3Xa5u3P8XsOotilpQ==
   dependencies:
-    "@folio/stripes-webpack" "^6.0.1"
+    "@folio/stripes-webpack" "^7.0.0"
     configstore "^3.1.1"
     debug "^4.0.1"
     fast-xml-parser "^4.2.4"
@@ -2389,17 +2389,17 @@
     resolve-pkg "^1.0.0"
     semver "^7.5.0"
     update-notifier "^6.0.2"
-    webpack "^5.80.0"
+    webpack "^5.104.1"
     webpack-bundle-analyzer "^4.4.2"
     yargs "^17.3.1"
 
-"@folio/stripes-cli@^4.0.0":
-  version "4.1.1099000000000206"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-4.1.1099000000000206.tgz#750be8ea3268710c78aa7079f9f93935d9185ee1"
-  integrity sha512-gX102TmYdRGnxWs2pPXmDlyxxCxpWndd0viIR95UtfbgwZFbz9rWjOXriskc0HbcxoKKpDXsOvNIrpJEbLSCGA==
+"@folio/stripes-cli@^5.0.0":
+  version "5.0.1099000000000210"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-cli/-/stripes-cli-5.0.1099000000000210.tgz#3cb027f0319b2ed9ceef91e77d9b49707c589963"
+  integrity sha512-+0lvxpN1lkwzNMTfp7nQnsrgG5c4ZBkGeUv2NhLr68nZCZUTtwqASH93PQojkh8KgGCKB7rxkeYMv3CvY4o9ew==
   dependencies:
     "@folio/stripes-testing" "^3.0.0"
-    "@folio/stripes-webpack" "^6.0.0"
+    "@folio/stripes-webpack" "^7.0.0"
     "@formatjs/cli" "^6.1.3"
     "@formatjs/cli-lib" "^6.1.3"
     "@octokit/rest" "^22.0.1"
@@ -2715,10 +2715,10 @@
     lodash "^4.17.4"
     query-string "^7.1.2"
 
-"@folio/stripes-webpack@^6.0.0", "@folio/stripes-webpack@^6.0.1":
-  version "6.1.1099000000000306"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-6.1.1099000000000306.tgz#fa0a7d4dad4bf62a3bed0e01f52a834dc10fa5c0"
-  integrity sha512-mBqUshqyMhjaWsT54KAodp7rJTucl7M7V/72VtTU1/FB5b3ZVU4odHKeT9IfXFUson4f9I9lubJklvk9D6QPQA==
+"@folio/stripes-webpack@^7.0.0":
+  version "7.0.1099000000000309"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-webpack/-/stripes-webpack-7.0.1099000000000309.tgz#ccc619786196395c9e0e1011f146b45bddb3df1b"
+  integrity sha512-CDhEJYFVRK0FsjK0Q/fIIkZjfb/NXsncyKe5JogXmW/0NwUDuFsVlgDwCiN+/cD2j8CxkfCHAAaRjWurDVpkCA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-decorators" "^7.0.0"
@@ -2746,7 +2746,7 @@
     babel-loader "^9.1.3"
     buffer "^6.0.3"
     connect-history-api-fallback "^1.3.0"
-    copy-webpack-plugin "^13.0.1"
+    copy-webpack-plugin "^14.0.0"
     core-js "^3.6.1"
     cors "^2.8.5"
     css-loader "^6.4.0"
@@ -2769,7 +2769,7 @@
     react-refresh "^0.11.0"
     regenerator-runtime "^0.13.3"
     semver "^7.1.3"
-    serialize-javascript "^6.0.2"
+    serialize-javascript "^7.0.5"
     source-map-loader "^4.0.0"
     stream-browserify "^3.0.0"
     style-loader "^3.3.0"
@@ -5442,15 +5442,15 @@ copy-to-clipboard@^3.3.3:
   dependencies:
     toggle-selection "^1.0.6"
 
-copy-webpack-plugin@^13.0.1:
-  version "13.0.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/copy-webpack-plugin/-/copy-webpack-plugin-13.0.1.tgz#fba18c22bcab3633524e1b652580ff4489eddc0d"
-  integrity sha512-J+YV3WfhY6W/Xf9h+J1znYuqTye2xkBUIGyTPWuBAT27qajBa5mR4f8WBmfDY3YjRftT2kqZZiLi1qf0H+UOFw==
+copy-webpack-plugin@^14.0.0:
+  version "14.0.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/copy-webpack-plugin/-/copy-webpack-plugin-14.0.0.tgz#cd253b60e8e55bb41019dfe3ef2979ba705592c7"
+  integrity sha512-3JLW90aBGeaTLpM7mYQKpnVdgsUZRExY55giiZgLuX/xTQRUs1dOCwbBnWnvY6Q6rfZoXMNwzOQJCSZPppfqXA==
   dependencies:
     glob-parent "^6.0.1"
     normalize-path "^3.0.0"
     schema-utils "^4.2.0"
-    serialize-javascript "^6.0.2"
+    serialize-javascript "^7.0.3"
     tinyglobby "^0.2.12"
 
 core-js-compat@^3.48.0:
@@ -10512,6 +10512,11 @@ serialize-javascript@^6.0.2:
   dependencies:
     randombytes "^2.1.0"
 
+serialize-javascript@^7.0.3, serialize-javascript@^7.0.5:
+  version "7.0.5"
+  resolved "https://repository.folio.org/repository/npm-ci-all/serialize-javascript/-/serialize-javascript-7.0.5.tgz#c798cc0552ffbb08981914a42a8756e339d0d5b1"
+  integrity sha512-F4LcB0UqUl1zErq+1nYEEzSHJnIwb3AF2XWB94b+afhrekOUijwooAYqFyRbjYkm2PAKBabx6oYv/xDxNi8IBw==
+
 serve-index@^1.9.1:
   version "1.9.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/serve-index/-/serve-index-1.9.2.tgz#2988e3612106d78a5e4849ddff552ce7bd3d9bcb"
@@ -11665,7 +11670,7 @@ webpack-virtual-modules@^0.4.3:
   resolved "https://repository.folio.org/repository/npm-ci-all/webpack-virtual-modules/-/webpack-virtual-modules-0.4.6.tgz#3e4008230731f1db078d9cb6f68baf8571182b45"
   integrity sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==
 
-webpack@^5.104.1, webpack@^5.80.0:
+webpack@^5.104.1:
   version "5.106.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-5.106.0.tgz#ee374da5573eef1e47b2650d6be8e40fb928d697"
   integrity sha512-Pkx5joZ9RrdgO5LBkyX1L2ZAJeK/Taz3vqZ9CbcP0wS5LEMx5QkKsEwLl29QJfihZ+DKRBFldzy1O30pJ1MDpA==
