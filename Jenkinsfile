@@ -1,5 +1,6 @@
-@Library ('folio_jenkins_shared_libs') _
-
+@Library ('folio_jenkins_shared_libs@less-cautious-yarn-install') _
+// 2026-04-15
+// Use version of library without https://github.com/folio-org/jenkins-pipeline-libs/pull/162 for now
 
 pipeline {
 
