@@ -38,7 +38,7 @@ and in
 
 ## Supported releases
 
-The master branch is for the next flower release,
+The snapshot branch is for the next flower release,
 [Trillium (R1-2026)](https://folio-org.atlassian.net/wiki/spaces/REL/pages/908754948/Trillium+R1+2026),
 it is a work in progress.
 
