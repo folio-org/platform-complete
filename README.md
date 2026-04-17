@@ -1,6 +1,6 @@
 # FOLIO complete platform: R1-2025-okapi (Sunflower on Okapi)
 
-Copyright (C) 2015-2023 The Open Library Foundation
+Copyright (C) 2015-2026 The Open Library Foundation
 
 This software is distributed under the terms of the Apache License,
 Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
@@ -38,16 +38,16 @@ and in
 
 ## Supported releases
 
-The master branch is for the next flower release,
-[Morning Glory (R2-2022)](https://wiki.folio.org/pages/viewpage.action?pageId=79468624),
-it is work in progress.
+The snapshot branch is for the next flower release,
+[Trillium (R1-2026)](https://folio-org.atlassian.net/wiki/spaces/REL/pages/908754948/Trillium+R1+2026),
+it is a work in progress.
 
 Only the two latest releases are supported with critical bug and security fixes:
-* Branch [R1-2022](https://github.com/folio-org/platform-complete/tree/R1-2022) and the
-  R1-2022-… tags of the [Lotus](https://wiki.folio.org/display/REL/Lotus+%28R1+2022%29+Release+Notes)
+* Branch [R1-2025-okapi](https://github.com/folio-org/platform-complete/tree/R1-2025-okapi) and the
+  R1-2025-okapi… tags of the [Sunflower](https://folio-org.atlassian.net/wiki/spaces/REL/pages/399081642/Sunflower+R1+2025+Release+Notes)
   release
-* Branch [R3-2021](https://github.com/folio-org/platform-complete/tree/R3-2021) and the
-  R3-2021-… tags of the [Kiwi](https://wiki.folio.org/display/REL/Kiwi+%28R3+2021%29+Release+Notes)
+* Branch [R2-2024](https://github.com/folio-org/platform-complete/tree/R2-2024) and the
+  R2-2024-… tags of the [Ramsons](https://folio-org.atlassian.net/wiki/spaces/REL/pages/105710217/Ramsons+R2+2024+Release+Notes)
   release
 
 Older releases have reached end-of-life and are out of support.
