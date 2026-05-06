@@ -1359,9 +1359,9 @@
     uuid "^9.0.0"
 
 "@folio/checkout@>=1.3.0":
-  version "13.0.1099000000000361"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-13.0.1099000000000361.tgz#b16535f5200e158cb7bd5887ffa4b1fb50a76bf2"
-  integrity sha512-KVGMBQy9IZH4OlM/wL+SgTyA7Q8QmKMi+xzHvrGCUyD95zNBVqIhN3LjtFEZTo5ECGQXS/dRQP2PtnriV+MkIA==
+  version "13.0.1099000000000366"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/checkout/-/checkout-13.0.1099000000000366.tgz#f0d64e407fce89a118580fac81ee83553c9b8df6"
+  integrity sha512-OrN670UAB7tj4MDXC3ANs5SBRb48S9G635lyMi9c9WJlgzFAtsoSbUZbKaq8qgrNobQ6NJe4e2+gC1dQruVjMA==
   dependencies:
     final-form "^4.19.1"
     inactivity-timer "^1.0.0"
@@ -1370,8 +1370,8 @@
     react-audio-player "^0.9.0"
     react-final-form "^6.4.0"
   optionalDependencies:
-    "@folio/circulation" "^11.0.0"
-    "@folio/plugin-create-inventory-records" "^6.0.0"
+    "@folio/circulation" "^12.0.0"
+    "@folio/plugin-create-inventory-records" "^7.0.0"
     "@folio/plugin-find-user" "^8.0.0"
 
 "@folio/circulation-log@>=1.0.0":
@@ -1388,30 +1388,10 @@
   optionalDependencies:
     "@folio/plugin-find-user" "^8.1.0"
 
-"@folio/circulation@>=1.3.0":
+"@folio/circulation@>=1.3.0", "@folio/circulation@^12.0.0":
   version "12.0.1099000000000417"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-12.0.1099000000000417.tgz#4d7bb6f97d0cdabcadc7b0deac33effd8c97a711"
   integrity sha512-/eX8D02pa4hinS4eAbN39TTc74T3ZkZWj9OUwWJu6FYjBnuy9QoMqWFZkumnQ+XLhcvA5naPKPS+wPc/LlCwSA==
-  dependencies:
-    "@folio/stripes-template-editor" "^3.2.0"
-    codemirror "^5.61.1"
-    dompurify "^3.0.9"
-    final-form "^4.18.2"
-    final-form-arrays "^3.0.1"
-    final-form-set-field-data "^1.0.2"
-    html-to-react "^1.3.3"
-    lodash "^4.17.4"
-    moment-timezone "^0.5.33"
-    prop-types "^15.5.10"
-    react-codemirror2 "^7.2.1"
-    react-final-form "^6.3.0"
-    react-final-form-arrays "^3.1.0"
-    react-query "^3.39.3"
-
-"@folio/circulation@^11.0.0":
-  version "11.1.1099000000000327"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/circulation/-/circulation-11.1.1099000000000327.tgz#3ef8eb1062fa9a846f9d4193b74b84773bd8cee4"
-  integrity sha512-6eGUfDMDBJSLKbAe+gUNE2AC/Sp6tsZ9jLRTwfq9veZ71CV6GYEdna7mJrs+i/hrF3lAPGf6lePIy5bEC6OFKg==
   dependencies:
     "@folio/stripes-template-editor" "^3.2.0"
     codemirror "^5.61.1"
@@ -1437,9 +1417,9 @@
     lodash "^4.17.21"
 
 "@folio/courses@>=1.0.0":
-  version "7.1.1099000000000213"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-7.1.1099000000000213.tgz#3691275df6752b1a52bca80a28c6eeb4bad07f4e"
-  integrity sha512-9LKQEdTFTCHxvCc3nsJEiYeXGWkn+ktKcenHYxxtNvAhR+Pu+kUGdH3Np63tBvSFQZZEbTXFy1jSY3Su0UfBeA==
+  version "7.1.1099000000000216"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/courses/-/courses-7.1.1099000000000216.tgz#0e80d183e03c6a5478b17951692d36d616a78630"
+  integrity sha512-/CWW2xU7Nvzhkn0HdfjktBzqd+xyyRjHVjl+o7k83aweANtuMQA9lTP3BPJqLgo/2cpL6qZrdKTUKZDxD6iPqg==
   dependencies:
     final-form-set-field-data "^1.0.2"
     ky "^0.23.0"
@@ -1918,7 +1898,7 @@
     react-final-form-arrays "^3.1.0"
     react-final-form-listeners "^1.0.2"
 
-"@folio/plugin-create-inventory-records@^4.0.0||^5.0.0||^6.0.0", "@folio/plugin-create-inventory-records@^6.0.0":
+"@folio/plugin-create-inventory-records@^4.0.0||^5.0.0||^6.0.0":
   version "6.0.10990000000022"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-create-inventory-records/-/plugin-create-inventory-records-6.0.10990000000022.tgz#4a8691e8f5443b472399d1c6a735a9164883dd2e"
   integrity sha512-OnWvqr5AsmpOiEkMPbMVdObZQ3yhZxE+xe/oQdUPpDqLMACiLsr6jhOO3zUiK4h/vlfux8FXWKu7oPrJMul8fw==
@@ -2024,16 +2004,6 @@
   version "10.0.1099000000000202"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-10.0.1099000000000202.tgz#6b0e0a9cbaa4006b5940ffc07f7fee529465c752"
   integrity sha512-OKByYZaiMZ+Xel2Zge24NYYf9j8DgVTtVLW4c7AfeY52GEamApCmDsG5SXMxN2FszmN6cesboIyp1T/f5c/P9A==
-  dependencies:
-    classnames "^2.2.6"
-    history "^4.10.0"
-    lodash "^4.17.11"
-    prop-types "^15.6.0"
-
-"@folio/plugin-find-instance@^9.0.0":
-  version "9.1.1099000000000193"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/plugin-find-instance/-/plugin-find-instance-9.1.1099000000000193.tgz#31bd9e13b48f39e92b3dde1582c535d15c7fd941"
-  integrity sha512-olzT4YJIl5ggHGgu7wJWiRTxRWNcbgjHj37YJztGQuIWvNM6yqhe1jn6tFEA0ePp1pbtI0y9NnnYBHZmm9Xt2w==
   dependencies:
     classnames "^2.2.6"
     history "^4.10.0"
@@ -2180,9 +2150,9 @@
     react-router-prop-types "^1.0.4"
 
 "@folio/requests@>=1.4.1":
-  version "13.0.1099000000000480"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-13.0.1099000000000480.tgz#598bb77901aafa18cfa13502d2965ecc75b1328e"
-  integrity sha512-82ZKYQofpqKAnK9cDPi36d2MuEsQ+tMlWEO2l1el76RSuMT/26mF33heYzIoF8X06Fb349QnNjWrdGdtD3rzoQ==
+  version "13.0.1099000000000485"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/requests/-/requests-13.0.1099000000000485.tgz#d9fcee14605b4ffe76645c5ba4f9c37c4a463d92"
+  integrity sha512-084lQSnCByeAYeQp+z5oZs2dfA/sXKld5neUokkV8GmhS4rTRHmBtU3s0uAqMw8iwduMIqjRcA4cWDpsW5rX1A==
   dependencies:
     dompurify "^3.0.9"
     final-form "^4.20.7"
@@ -2197,7 +2167,7 @@
     react-router-prop-types "^1.0.4"
     react-to-print "^2.9.0"
   optionalDependencies:
-    "@folio/plugin-find-instance" "^9.0.0"
+    "@folio/plugin-find-instance" "^10.0.0"
     "@folio/plugin-find-user" "^8.0.0"
 
 "@folio/serials-management@>=1.0.0":
