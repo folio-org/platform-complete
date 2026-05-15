@@ -2739,17 +2739,23 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/cli-native-darwin-arm64/-/cli-native-darwin-arm64-1.1.0.tgz#c47df2ec7c1d27643900af77c474bd224b4587dc"
   integrity sha512-ygEpFpmRjbAKanWaeto/eUItyuK18667mdDzpDg3CTzc15WYzjZKnwJNFUuPFvFA4hiod1tnhXT1eiXmc1wWNg==
 
+"@formatjs/cli-native-linux-arm64@1.2.0":
+  version "1.2.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/cli-native-linux-arm64/-/cli-native-linux-arm64-1.2.0.tgz#3ddcafb006351417e82785b809a1ab1fbbb2c577"
+  integrity sha512-G6YuIVD8D6hZjnsD/aYZQ2qMHSve7IadEiXgKiDfFQBbyrkjDAlt6LDSqq4qnuv3WJ7/jAOn/An6n/bGyt0rLg==
+
 "@formatjs/cli-native-linux-x64@1.1.0":
   version "1.1.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/cli-native-linux-x64/-/cli-native-linux-x64-1.1.0.tgz#1a3f01ea47f971a0dd0d7f49b98df237375862fa"
   integrity sha512-AxORf5LR14HvXU4ov9gnhLrNIS2DYKqKMkRkprUhuh+ljba1riF05msK8KzslEPYQoeYKc5A0OZp57poh4xz/g==
 
 "@formatjs/cli@^6.1.3":
-  version "6.15.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/cli/-/cli-6.15.0.tgz#060fc613f3121f7a90b46ca41e9f23ac9e501155"
-  integrity sha512-U8kd1jf7JEEZRhEranEiCv+QWdD+Spz+GUQRuaLyACCDp1q1wWIxdNAR3UETwD3Q37CAajHeMYSVfVBzfGj79g==
+  version "6.16.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/cli/-/cli-6.16.0.tgz#86cc35630b81467766b1b1e80cf4ffc68c2a9f39"
+  integrity sha512-49VcOBTUkjAHkk6gLEXXtzeEAIEQem8DK11pCUCJ13ZCa/P2vf/uhQwvt3/yloJbQ7QqrBq+owO2XFmeWWZ2Eg==
   optionalDependencies:
     "@formatjs/cli-native-darwin-arm64" "1.1.0"
+    "@formatjs/cli-native-linux-arm64" "1.2.0"
     "@formatjs/cli-native-linux-x64" "1.1.0"
 
 "@formatjs/ecma402-abstract@2.2.4":
@@ -2808,12 +2814,12 @@
     "@formatjs/icu-skeleton-parser" "1.8.8"
     tslib "2"
 
-"@formatjs/icu-messageformat-parser@3.5.8":
-  version "3.5.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-3.5.8.tgz#73719113084e045ac9ce42c0bcec19016e3a8214"
-  integrity sha512-uZLvzLFN7iV2l8cbDdROwgKGtdELeLI4bpnsuz1DnyscHDxn8TdDE0anHzcfjtWK66XYCllGLV3Mi3CYcEPg/g==
+"@formatjs/icu-messageformat-parser@3.5.9":
+  version "3.5.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-3.5.9.tgz#f209be4966d480975e36d864d27392542a4501d1"
+  integrity sha512-PZm6O9JI/gUPtQV9r2eaMuLb4yWqV2vz+ot03ORHWTKO343LSpZi0TqeXLB2ZZGDXLCw2SbfgsQ0GxoxXMl79g==
   dependencies:
-    "@formatjs/icu-skeleton-parser" "2.1.8"
+    "@formatjs/icu-skeleton-parser" "2.1.9"
 
 "@formatjs/icu-skeleton-parser@1.8.16":
   version "1.8.16"
@@ -2831,10 +2837,10 @@
     "@formatjs/ecma402-abstract" "2.2.4"
     tslib "2"
 
-"@formatjs/icu-skeleton-parser@2.1.8":
-  version "2.1.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-2.1.8.tgz#a84262d173d5141d411fc41d24437b68800561ef"
-  integrity sha512-iX5i0O15gPf69l1WqmLFYwn7wq53lauvytvWFnHamIfX/5Ta56gpFj6fdeHRcKTV58IhrKv8QOvWfTYZYm7f+g==
+"@formatjs/icu-skeleton-parser@2.1.9":
+  version "2.1.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-2.1.9.tgz#746edae664b2ef148df1301845d1bb40000bbebb"
+  integrity sha512-rsxswgHMfU1zUgB2byc08fesf83wLGjFnzLCEtuf00mx2doiqc6pYrf67raI37XqdRcGUviQepk2UKGqpng74Q==
 
 "@formatjs/intl-localematcher@0.5.8":
   version "0.5.8"
@@ -7277,12 +7283,12 @@ intl-messageformat@10.7.18:
     tslib "^2.8.0"
 
 intl-messageformat@^11.1.2:
-  version "11.2.5"
-  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-11.2.5.tgz#08934613ab77b14730cf51c9454b0792853982bd"
-  integrity sha512-zaROHiUsnlSFXVypU54AsQuAm3DLmmSH8KfDhiUuG1XZ9NTQ4o3xlxIJYVNmeWAklyp3CWg0lhexNUnee8PsYQ==
+  version "11.2.6"
+  resolved "https://repository.folio.org/repository/npm-ci-all/intl-messageformat/-/intl-messageformat-11.2.6.tgz#60999cbd67991bb500d1037b67834ef9a0d4df81"
+  integrity sha512-afAN2yNN7zjB77G1ZC5L8GtLrEshyBvOQXz88flxCO/ocTIQist98gu0r/O6H/SSiQhQsOOtWPxmCEvtDABXXQ==
   dependencies:
     "@formatjs/fast-memoize" "3.1.5"
-    "@formatjs/icu-messageformat-parser" "3.5.8"
+    "@formatjs/icu-messageformat-parser" "3.5.9"
 
 intl-unofficial-duration-unit-format@3.0.0:
   version "3.0.0"
