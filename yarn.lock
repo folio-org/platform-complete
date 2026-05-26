@@ -2341,12 +2341,12 @@
     redux "^4.2.1"
     uuid "^9.0.0"
 
-"@folio/stripes-core@~11.0.1":
-  version "11.0.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-11.0.1.tgz#71d34a817826d1be94793346f68a9b1d8a35cefa"
-  integrity sha512-27Ws7KMdFC381EJmImrZt/ItRNsNL75Tf9uJiGy+VRJpz7X5egUP2IbYRCGf1233mEF8wnVX90OCwWbOv01fUw==
+"@folio/stripes-core@https://github.com/folio-org/stripes-core#936ccc2b5c2dee53da3b5b4dc895ee79231c38f3", "@folio/stripes-core@~11.0.1":
+  version "11.1.1"
+  resolved "https://github.com/folio-org/stripes-core#936ccc2b5c2dee53da3b5b4dc895ee79231c38f3"
   dependencies:
     "@apollo/client" "^3.2.1"
+    "@module-federation/runtime" "^2.0.0"
     classnames "^2.2.5"
     core-js "^3.26.1"
     final-form "^4.18.2"
@@ -2358,7 +2358,6 @@
     ky "^0.23.0"
     localforage "^1.5.6"
     lodash "^4.17.21"
-    moment-timezone "^0.5.14"
     ms "^2.1.3"
     prop-types "^15.5.10"
     query-string "^7.1.2"
@@ -2366,7 +2365,6 @@
     react-final-form "^6.3.0"
     react-query "^3.6.0"
     react-titled "^2.0.0"
-    react-transform-catch-errors "^1.0.2"
     react-transition-group "^4.4.5"
     redux "^4.0.0"
     redux-form "^8.3.0"
@@ -2376,6 +2374,7 @@
     regenerator-runtime "^0.13.10"
     rtl-detect "^1.0.2"
     rxjs "^6.6.3"
+    semver "^7.7.2"
     use-deep-compare "^1.1.0"
 
 "@folio/stripes-data-transfer-components@^7.0.0", "@folio/stripes-data-transfer-components@~7.0.0":
@@ -2883,6 +2882,33 @@
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@kurkle/color/-/color-0.3.4.tgz#4d4ff677e1609214fc71c580125ddddd86abcabf"
   integrity sha512-M5UknZPHRu3DEDWoipU6sE8PdkZ6Z/S+v4dD+Ke8IaNlpdSQah50lz1KtcFBa2vsdOnwbbnxJwVM4wty6udA5w==
+
+"@module-federation/error-codes@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/error-codes/-/error-codes-2.5.0.tgz#075ead464428573cf84118a525b35bed0225c715"
+  integrity sha512-sq05/8Gp3csy1nr2/f76K3vLy0/xRqVtP71ibGy8BiLg7h1UxWN7G4EwAKSrPZ4FnsERGeFlIszg5Z+MqlwhFg==
+
+"@module-federation/runtime-core@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/runtime-core/-/runtime-core-2.5.0.tgz#daf6014b06702aacb0282578dbc76a6b9db96a0f"
+  integrity sha512-STmhQ3c6/hunba2FMP6GrHazXU/8GuN7Gk4dOkWNRpnqYIoD8Wx4MNl76j3HdCzBESC7uSMXTniksVaM1+xxyA==
+  dependencies:
+    "@module-federation/error-codes" "2.5.0"
+    "@module-federation/sdk" "2.5.0"
+
+"@module-federation/runtime@^2.0.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/runtime/-/runtime-2.5.0.tgz#b2c48db3dc3a7f7268f0f752252dfe45e81ab753"
+  integrity sha512-dOc7pFEf8aruHBk5hoJLnvwkCa5ELT78q3o9dqcdaa/TT74X5z0FT0BsaGaRBPcse/iP6czK3fWd7RLv5ZKP5g==
+  dependencies:
+    "@module-federation/error-codes" "2.5.0"
+    "@module-federation/runtime-core" "2.5.0"
+    "@module-federation/sdk" "2.5.0"
+
+"@module-federation/sdk@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@module-federation/sdk/-/sdk-2.5.0.tgz#7216edd128bf0b380d4e319c96162d533d6ad9bb"
+  integrity sha512-ScU22XDyV77l50njjzewMpMlNN1CYo0tHS1D6iy+vNKWrHGq8DWVB0vwG8dmvx/WZ4uq+sXgUsQet17MoKsfZw==
 
 "@ngneat/falso@^6.4.0":
   version "6.4.0"
@@ -7495,11 +7521,6 @@ react-to-print@^3.0.1:
   resolved "https://registry.yarnpkg.com/react-to-print/-/react-to-print-3.0.5.tgz#7569f9ac5e7854dbec79f449501fedf28cda82ab"
   integrity sha512-Z15MwMOzYCHWi26CZeFNwflAg7Nr8uWD6FTj+EkfIOjYyjr0MXGbI0c7rF4Fgrbj3XG9hFndb1ourxpPz2RAiA==
 
-react-transform-catch-errors@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-transform-catch-errors/-/react-transform-catch-errors-1.0.2.tgz#1b4d4a76e97271896fc16fe3086c793ec88a9eeb"
-  integrity sha512-FCeTXLTpRM8wMrwAlYVoEI+HXUFYEJLKdmf9zd5YtH1yc2Dq81JL1YMr0eHeUe699CCTezG4CfEB5D9RpmovEw==
-
 react-transition-group@^4.3.0, react-transition-group@^4.4.5:
   version "4.4.5"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.5.tgz#e53d4e3f3344da8521489fbef8f2581d42becdd1"
@@ -7889,6 +7910,11 @@ semver@^7.1.3, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.5.0, semve
   version "7.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
   integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
+
+semver@^7.7.2:
+  version "7.8.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.1.tgz#bf4970b5e70fda0686363cc18bfe8805d5ed957e"
+  integrity sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==
 
 send@0.19.0:
   version "0.19.0"
