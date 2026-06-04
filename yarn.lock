@@ -3231,6 +3231,11 @@
   resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/error-codes/-/error-codes-2.5.0.tgz#075ead464428573cf84118a525b35bed0225c715"
   integrity sha512-sq05/8Gp3csy1nr2/f76K3vLy0/xRqVtP71ibGy8BiLg7h1UxWN7G4EwAKSrPZ4FnsERGeFlIszg5Z+MqlwhFg==
 
+"@module-federation/error-codes@2.5.1":
+  version "2.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/error-codes/-/error-codes-2.5.1.tgz#a1f3eb6881583ea1bd384838bffe7638b7c5c620"
+  integrity sha512-3KIR8XbEW0Y+Fn8IAnxzDWMvXQWiS40Z1TE/Fft9aTeXP9dDAM7AiVhjTh5yF2csAwHSt/1LJVZbiCmS13mE8A==
+
 "@module-federation/inject-external-runtime-core-plugin@2.5.0":
   version "2.5.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/inject-external-runtime-core-plugin/-/inject-external-runtime-core-plugin-2.5.0.tgz#287d8ad71efc2d8eb60a05cfc2fde479de497d27"
@@ -3275,6 +3280,14 @@
     "@module-federation/error-codes" "2.5.0"
     "@module-federation/sdk" "2.5.0"
 
+"@module-federation/runtime-core@2.5.1":
+  version "2.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/runtime-core/-/runtime-core-2.5.1.tgz#95254a7ecdfb5159823c70793738ad63b30f876d"
+  integrity sha512-UMuMsWHXeMrm8Isl8YD6/s1jmTVau3SQhp9RO4Ln+eD2lrjM4hQSwOX2xPtfT1C1I4/E6hgyZQV1K1Q/3Zpr0Q==
+  dependencies:
+    "@module-federation/error-codes" "2.5.1"
+    "@module-federation/sdk" "2.5.1"
+
 "@module-federation/runtime-tools@2.5.0":
   version "2.5.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/runtime-tools/-/runtime-tools-2.5.0.tgz#ca46c13396428b077b70aac956a8ae27d903ff67"
@@ -3283,7 +3296,7 @@
     "@module-federation/runtime" "2.5.0"
     "@module-federation/webpack-bundler-runtime" "2.5.0"
 
-"@module-federation/runtime@2.5.0", "@module-federation/runtime@^2.0.0":
+"@module-federation/runtime@2.5.0":
   version "2.5.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/runtime/-/runtime-2.5.0.tgz#b2c48db3dc3a7f7268f0f752252dfe45e81ab753"
   integrity sha512-dOc7pFEf8aruHBk5hoJLnvwkCa5ELT78q3o9dqcdaa/TT74X5z0FT0BsaGaRBPcse/iP6czK3fWd7RLv5ZKP5g==
@@ -3292,10 +3305,24 @@
     "@module-federation/runtime-core" "2.5.0"
     "@module-federation/sdk" "2.5.0"
 
+"@module-federation/runtime@^2.0.0":
+  version "2.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/runtime/-/runtime-2.5.1.tgz#f7d99d27a2b619cb89a1062cb5495767bb7ae463"
+  integrity sha512-Tf33FIpnQMn8FjIUAQMtSTYQgGibfh5vEvJihFO3q/hG9LiWwLMErZvOz/+wcPsE81gzHjYPxQgMKGSP3BuG8g==
+  dependencies:
+    "@module-federation/error-codes" "2.5.1"
+    "@module-federation/runtime-core" "2.5.1"
+    "@module-federation/sdk" "2.5.1"
+
 "@module-federation/sdk@2.5.0":
   version "2.5.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/sdk/-/sdk-2.5.0.tgz#7216edd128bf0b380d4e319c96162d533d6ad9bb"
   integrity sha512-ScU22XDyV77l50njjzewMpMlNN1CYo0tHS1D6iy+vNKWrHGq8DWVB0vwG8dmvx/WZ4uq+sXgUsQet17MoKsfZw==
+
+"@module-federation/sdk@2.5.1":
+  version "2.5.1"
+  resolved "https://repository.folio.org/repository/npm-ci-all/@module-federation/sdk/-/sdk-2.5.1.tgz#ead5aa36e57bbd8ec636ba61f751f88c23c65d17"
+  integrity sha512-FDhCx81ZCxX1oT/fyt/bW+gpPt287GR156E/Thv1yhb9XyNHGNkqe8zqJOipOMfb07E22OMzSzOulCBvAOgn3g==
 
 "@module-federation/third-party-dts-extractor@2.5.0":
   version "2.5.0"
