@@ -79,7 +79,7 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
-    // '@folio/plugin-query-builder' : {},
+    '@folio/plugin-query-builder' : {},
     '@folio/quick-marc' : {},
     '@folio/service-interaction': {},
     '@folio/servicepoints' : {},
