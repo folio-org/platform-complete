@@ -2214,9 +2214,9 @@
     redux-form "^8.3.0"
 
 "@folio/stripes-authority-components@>=2.0.0":
-  version "7.1.1099000000000245"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-7.1.1099000000000245.tgz#cc511bfcb3a8cb146c6031586a7064906a09bfcd"
-  integrity sha512-3pe2xIa3fL9LetfLxLTXXfrK8f/jrwOSuHz6rosASUI0aAGkTRNUXzCNsrxLAwME4M2DN0FAleSP3QLgddm/oQ==
+  version "7.1.1099000000000253"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-authority-components/-/stripes-authority-components-7.1.1099000000000253.tgz#b1f3f105858026dba7fe22a9bd843091bf7e0076"
+  integrity sha512-9oHyxzSEdo5LSudYRTlIw8lx5908tD8pAPZ3x7fC05VX4XRdRCpw8JS297QcB0f/KYpFG/9H0o/t9URpOMbhig==
   dependencies:
     "@folio/stripes-acq-components" "^7.0.0"
     "@rehooks/local-storage" "^2.4.4"
@@ -5900,9 +5900,9 @@ engine.io-parser@~5.2.1:
   integrity sha512-HqD3yTBfnBxIrbnM1DoD6Pcq8NECnh8d4As1Qgh0z5Gg3jRRIqijury0CL3ghu/edArpUYiYqQiDUQBIs4np3Q==
 
 engine.io@~6.6.0:
-  version "6.6.8"
-  resolved "https://repository.folio.org/repository/npm-ci-all/engine.io/-/engine.io-6.6.8.tgz#52c43629964fb9d84bf991e0e34e3c28d4e0d3e0"
-  integrity sha512-2agL3ueZhqxoVrfmntO8yuVj+uNSlIOnhykYHk3Cq0ShYPdUjjUiSJrQvXjq01I9jAuI0Zl2YO8Evv5Mqytm5g==
+  version "6.6.9"
+  resolved "https://repository.folio.org/repository/npm-ci-all/engine.io/-/engine.io-6.6.9.tgz#fd17e9f4e3a256423592574b60ac262e91af4b82"
+  integrity sha512-clKkw4C7nJ22mGgoVcCg6V/W/TxdNyIOTr89k2ONZu81qqkddPFDF0LXcbAwhzPD8DjkiRCjzuiO6Y+fkpD4vg==
   dependencies:
     "@types/cors" "^2.8.12"
     "@types/node" ">=10.0.0"
@@ -5913,7 +5913,7 @@ engine.io@~6.6.0:
     cors "~2.8.5"
     debug "~4.4.1"
     engine.io-parser "~5.2.1"
-    ws "~8.20.1"
+    ws "~8.21.0"
 
 enhanced-resolve@^5.0.0, enhanced-resolve@^5.22.0:
   version "5.24.0"
@@ -10463,12 +10463,12 @@ snake-case@^3.0.4:
     tslib "^2.0.3"
 
 socket.io-adapter@~2.5.2:
-  version "2.5.7"
-  resolved "https://repository.folio.org/repository/npm-ci-all/socket.io-adapter/-/socket.io-adapter-2.5.7.tgz#463428625f55be6f2f784a4501013b71454c0761"
-  integrity sha512-e0LyK91f3cUxTmv95/KzoLg47+zF+s/sbxRGDNsyG4dmIP8ZSX8ax6byOxfJXeNNtS/8AZlfD+uP7gBeR7DLlg==
+  version "2.5.8"
+  resolved "https://repository.folio.org/repository/npm-ci-all/socket.io-adapter/-/socket.io-adapter-2.5.8.tgz#c9fcabf602dbd5b09258ca98e5ec6a7ae4360698"
+  integrity sha512-6Oy52pbg+kvdCVvjcN+FnY7BvxZ7cIHNScbvztT/It5d0vbwoJoVZmF2gjJmnV0/4WlXRfG15zc45ySk9Ah8bw==
   dependencies:
     debug "~4.4.1"
-    ws "~8.20.1"
+    ws "~8.21.0"
 
 socket.io-parser@~4.2.4:
   version "4.2.6"
@@ -11586,7 +11586,7 @@ write-file-atomic@^3.0.0, write-file-atomic@^3.0.3:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@8.21.0, ws@^8.18.0:
+ws@8.21.0, ws@^8.18.0, ws@~8.21.0:
   version "8.21.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/ws/-/ws-8.21.0.tgz#012e413fc07429945121b0c153158c4343086951"
   integrity sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==
@@ -11595,11 +11595,6 @@ ws@^7.3.1:
   version "7.5.11"
   resolved "https://repository.folio.org/repository/npm-ci-all/ws/-/ws-7.5.11.tgz#9460daf1812bb81a423c5b9eac746941a86310fa"
   integrity sha512-zS54Oen9bITtp7kp2XM3AydrCIq1D+HwJOuH+c+e4LfpL/lotP5osijd+UoMnxwAam1GN8R4KtLAyIrIcBNpiA==
-
-ws@~8.20.1:
-  version "8.20.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/ws/-/ws-8.20.1.tgz#91a9ae2b312ccf98e0a85ec499b48cef45ab0ddb"
-  integrity sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==
 
 wsl-utils@^0.1.0:
   version "0.1.0"
