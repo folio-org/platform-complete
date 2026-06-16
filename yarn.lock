@@ -1359,17 +1359,18 @@
     react-router-prop-types "^1.0.4"
     zustand "^4.1.5"
 
-"@folio/bulk-edit@5.0.0":
-  version "5.0.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/bulk-edit/-/bulk-edit-5.0.0.tgz#b4fb20f7b3263d444f560ad77b6d93dc374fbe35"
-  integrity sha512-nEn5CjpjEoaZjxe947IGHvaiP7EkyX1Gj6F5zTBEIW+T7Fk/HxpVlU6N5IFplDDdT83Ke+vcjfO5wSmpZhvbHA==
+"@folio/bulk-edit@https://github.com/folio-org/ui-bulk-edit#ee7fa1860979a36d89d284003d27c1d8e29bb6cd":
+  version "5.1.1"
+  resolved "https://github.com/folio-org/ui-bulk-edit#ee7fa1860979a36d89d284003d27c1d8e29bb6cd"
   dependencies:
+    "@folio/plugin-query-builder" "^3.0.0"
     "@folio/stripes-acq-components" "^7.0.0"
+    "@folio/stripes-data-transfer-components" "^7.0.0"
+    classnames "^2.5.0"
     file-saver "^2.0.5"
     history "^5.1.0"
     http-status-codes "^2.3.0"
     lodash "^4.17.5"
-    moment "^2.29.1"
     prop-types "^15.5.10"
     query-string "^6.1.0"
     react-final-form "^6.5.2"
@@ -2098,6 +2099,21 @@
     lodash "^4.17.5"
     prop-types "^15.5.10"
     react-query "^3.6.0"
+
+"@folio/plugin-query-builder@^3.0.0":
+  version "3.0.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-query-builder/-/plugin-query-builder-3.0.2.tgz#988efe3dafb8f30c9a485eefeff38e71281790c0"
+  integrity sha512-KiNCXqb2GTbf+WnQ1461h0XIFlKlJkQUqrnNN2fDJ37CFJR7sCBFMxChdsYSc7u4+MDKlp+s3Zvhw41fQqwfXg==
+  dependencies:
+    "@folio/stripes-acq-components" "^7.0.0"
+    classnames "^2.5.1"
+    fuzzysort "^2.0.4"
+    ky "^0.33.2"
+    lodash "^4.17.5"
+    prop-types "^15.5.10"
+    react-query "^3.6.0"
+  optionalDependencies:
+    "@folio/plugin-find-organization" "^6.0.0"
 
 "@folio/quick-marc@10.0.0", "@folio/quick-marc@^10.0.0":
   version "10.0.0"
@@ -3942,7 +3958,7 @@ ci-info@^3.2.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.9.0.tgz#4279a62028a7b1f262f3473fc9605f5e218c59b4"
   integrity sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==
 
-classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.2, classnames@^2.5.1:
+classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.2, classnames@^2.5.0, classnames@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
