@@ -15,7 +15,7 @@ RUN apk upgrade \
 RUN yarn config set python /usr/bin/python3
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
-RUN yarn install
+RUN yarn install --ignore-scripts --non-interactive
 RUN yarn build-module-descriptors
 ARG OKAPI_URL=http://localhost:9130
 ARG TENANT_ID=diku
