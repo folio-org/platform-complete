@@ -38,16 +38,11 @@ and in
 
 ## Supported releases
 
-The snapshot branch is for the next flower release,
-[Trillium (R1-2026)](https://folio-org.atlassian.net/wiki/spaces/REL/pages/908754948/Trillium+R1+2026),
-it is a work in progress.
+For Eureka based FOLIO see [platform-lsp](https://github.com/folio-org/platform-lsp).
 
-Only the two latest releases are supported with critical bug and security fixes:
+This platform-complete repository supports Okapi based FOLIO only, and the Sunflower release only:
 * Branch [R1-2025-okapi](https://github.com/folio-org/platform-complete/tree/R1-2025-okapi) and the
   R1-2025-okapi… tags of the [Sunflower](https://folio-org.atlassian.net/wiki/spaces/REL/pages/399081642/Sunflower+R1+2025+Release+Notes)
-  release
-* Branch [R2-2024](https://github.com/folio-org/platform-complete/tree/R2-2024) and the
-  R2-2024-… tags of the [Ramsons](https://folio-org.atlassian.net/wiki/spaces/REL/pages/105710217/Ramsons+R2+2024+Release+Notes)
   release
 
 Older releases have reached end-of-life and are out of support.
