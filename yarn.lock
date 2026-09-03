@@ -2412,11 +2412,10 @@
     yargs "^17.3.1"
 
 "@folio/stripes-components@^13.0.0":
-  version "13.1.1099000000001744"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-13.1.1099000000001744.tgz#1eb44b71872010c13d53585fe5989c5970ad494b"
-  integrity sha512-Nma1juaF/Moh0NVDw+TJGu/HytVrqdf1zDLPwhBi/reA6aVirWjy8F84MuQk3XNhdbQUU9lNxw1PSSqBZA0tmw==
+  version "13.1.1099000000001749"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-components/-/stripes-components-13.1.1099000000001749.tgz#c3de0aa1a4771502ac842c24051ec7d8ff8dd6e2"
+  integrity sha512-Qvo7tyQNEt//L6ntAh4DZB+MQJoF1ZsApeg8+/LKkV/oGI0YlOc3w0FVo+dzkNPNeoTjMY2okoMAtFc4RyeVtA==
   dependencies:
-    "@folio/stripes-react-hotkeys" "^3.2.1"
     classnames "^2.2.5"
     currency-codes "2.1.0"
     dayjs "^1.11.10"
@@ -2425,6 +2424,7 @@
     flexboxgrid2 "^7.2.0"
     focus-trap "^7.5.4"
     json2csv "^4.2.1"
+    keyboardjs "^2.7.0"
     lodash "^4.17.4"
     memoize-one "^6.0.0"
     moment-range "^4.0.2"
@@ -2588,7 +2588,7 @@
     react-query "^3.39.3"
     react-to-print "^2.14.15"
 
-"@folio/stripes-react-hotkeys@^3.0.0", "@folio/stripes-react-hotkeys@^3.2.1":
+"@folio/stripes-react-hotkeys@^3.0.0":
   version "3.2.10990000000048"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-react-hotkeys/-/stripes-react-hotkeys-3.2.10990000000048.tgz#18b16fffbf9bbc278034308c667aff17a8b52291"
   integrity sha512-XlYtrDhfxyGT6loiBLSaypld13mO2npsxDkr1JklltyczTU/krRQmmFj659N/Ck1s6sS2eBZc3hMx1WX9DKMQQ==
@@ -2599,9 +2599,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@^10.0.0":
-  version "10.1.1099000000000828"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-10.1.1099000000000828.tgz#a478b4050d7df35e97d2619451b07615197176fa"
-  integrity sha512-bMFPRZeuIEsK+Jon2aiRw2UXBePp1lNUnXD/QvmckNMsu3U0eM2iwCsaGJKiqQKZmuzt7A/jmYNJ9Otyr+rQuQ==
+  version "10.1.1099000000000849"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-10.1.1099000000000849.tgz#095b644b85b843901ff1b96417d3d02aaa39391d"
+  integrity sha512-EX3v60r3P+x8Ti/2ke4pDz482g6JDmdmqjKS0vVBMBsoPpnfB/6Erl4SHxzr5rtjPV6x3Aa4x3ZC5vhYjoNgGQ==
   dependencies:
     "@babel/runtime" "^7.28.6"
     "@rehooks/local-storage" "^2.4.4"
@@ -2618,7 +2618,6 @@
     react-copy-to-clipboard "^5.0.1"
     react-final-form "^6.3.0"
     react-final-form-arrays "^3.1.1"
-    react-final-form-listeners "^1.0.3"
     react-image "^4.1.0"
     react-query "^3.9.8"
     react-quill "^2.0.0"
@@ -7980,6 +7979,11 @@ karma@^6.3.3:
     tmp "^0.2.1"
     ua-parser-js "^0.7.30"
     yargs "^16.1.1"
+
+keyboardjs@^2.7.0:
+  version "2.7.0"
+  resolved "https://repository.folio.org/repository/npm-ci-all/keyboardjs/-/keyboardjs-2.7.0.tgz#d4f6a56d9f3f1822d7383c6d2d39b12f534ffb2c"
+  integrity sha512-3tiQuAoLM1M5Xyo/eQVaqsq9joByTRkB0Byga+0S7BYJvY4HIlfW0SofOj4a20YSAFjv0SIFU/lw+Qjp6KYHPA==
 
 keyboardjs@~2.5.1:
   version "2.5.1"
