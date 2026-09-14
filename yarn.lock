@@ -2332,9 +2332,9 @@
     react-query "^3.39.3"
 
 "@folio/stripes-build@^2.0.0":
-  version "2.1.1099000000000092"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-build/-/stripes-build-2.1.1099000000000092.tgz#8722783ef734d6bdeab55778fd8094bb055df41d"
-  integrity sha512-mttx7XGRhA+pRO17csyZAueVfbGSuwxai4FROXH4EGy+L6Udjxq5g/BpxnORQdDTGJxgDHw0ZZXpgn55Vaf+Yg==
+  version "2.1.1099000000000095"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-build/-/stripes-build-2.1.1099000000000095.tgz#a490134e7f06ee81ef519b7fe3df5976f543f1c5"
+  integrity sha512-1OwLBzOOkjjAOyXrTgFuQASNQybdAi5yiRIPtbHQBAMt1rVs7Lxu7w75UGmrQgXdmVG3seZ8oQY3FdAUp57CcQ==
   dependencies:
     "@folio/stripes-webpack" "^7.0.0"
     configstore "^3.1.1"
@@ -2353,7 +2353,7 @@
     resolve-pkg "^1.0.0"
     semver "^7.5.0"
     update-notifier "^6.0.2"
-    webpack "~5.109.2"
+    webpack "^5.104.1"
     webpack-bundle-analyzer "^4.4.2"
     yargs "^17.3.1"
 
@@ -2454,9 +2454,9 @@
     uuid "^9.0.0"
 
 "@folio/stripes-core@^11.2.0":
-  version "11.2.1099000000002017"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-11.2.1099000000002017.tgz#b6a91864845bcf172800933e86f94aa6e20369f4"
-  integrity sha512-YifJQ0XjYxZcrJQkOJzxoZuuLOiDrFQRa82NOpkfi3eAGKNsjclf9zeV4u8vsROYRER21v5AEw9NdS9UHLQa5w==
+  version "11.2.1099000000002020"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-11.2.1099000000002020.tgz#df6e5677bdaf8e116c624e6e1a182ce11c62ef53"
+  integrity sha512-RGGvDPeGlbupoWvmnBGR+6G/kS5XBwLeZZs7Zr6Pca3yy4QQfwuezhTpCSUKtpApfnT8pR07657jdCKfIAm/Fw==
   dependencies:
     "@apollo/client" "^3.2.1"
     "@module-federation/runtime" "^2.0.0"
@@ -2599,9 +2599,9 @@
     prop-types "^15.7.2"
 
 "@folio/stripes-smart-components@^10.0.0":
-  version "10.1.1099000000000868"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-10.1.1099000000000868.tgz#f71119ccc8eb14a3e038865c37f2acb7a90ae630"
-  integrity sha512-vnCvzeQGHkM4lQg/RycKclkTBlp3O3ClBzv12jLI6RoWY0E/160FoXxAS0L2lHff4mdbW7JMF0qgzdW529+dOg==
+  version "10.1.1099000000000871"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-smart-components/-/stripes-smart-components-10.1.1099000000000871.tgz#6d408537b72fd5b3817998be0a467ea30baaadc8"
+  integrity sha512-7S/lz3CbpMBOT7pjKkHpdYv8mtqBo7SgMQI7/Qc+8gBPhH+AKSDzILpjnbfULp+UBfXuWTi0nF0ZRLBQq7kNZQ==
   dependencies:
     "@babel/runtime" "^7.28.6"
     "@rehooks/local-storage" "^2.4.4"
@@ -4367,7 +4367,7 @@ acorn-walk@^8.0.0:
   dependencies:
     acorn "^8.11.0"
 
-acorn@^8.0.4, acorn@^8.11.0, acorn@^8.15.0, acorn@^8.16.0:
+acorn@^8.0.4, acorn@^8.11.0, acorn@^8.15.0:
   version "8.18.0"
   resolved "https://repository.folio.org/repository/npm-ci-all/acorn/-/acorn-8.18.0.tgz#4faf01b2d6d326bfeed97aea1f52220b5f4c1940"
   integrity sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==
@@ -6018,7 +6018,7 @@ engine.io@~6.6.0:
     engine.io-parser "~5.2.1"
     ws "~8.21.0"
 
-enhanced-resolve@^5.24.4, enhanced-resolve@^5.25.0:
+enhanced-resolve@^5.25.0:
   version "5.25.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/enhanced-resolve/-/enhanced-resolve-5.25.1.tgz#9d919bfa898b116e58f20e95127c047693158771"
   integrity sha512-nGXts5znJzmWPu+mIE9izCOzdg63oJca2mDzGWWTth7sr4aCToKcoyFVBQwN75Ij5Pf6p510EwkTqViTRzDV+w==
@@ -6203,14 +6203,6 @@ escape-string-regexp@^4.0.0:
   resolved "https://repository.folio.org/repository/npm-ci-all/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-scope@5.1.1:
-  version "5.1.1"
-  resolved "https://repository.folio.org/repository/npm-ci-all/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
-  integrity sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==
-  dependencies:
-    esrecurse "^4.3.0"
-    estraverse "^4.1.1"
-
 esniff@^2.0.1:
   version "2.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/esniff/-/esniff-2.0.1.tgz#a4d4b43a5c71c7ec51c51098c1d8a29081f9b308"
@@ -6225,23 +6217,6 @@ esprima@^4.0.0:
   version "4.0.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
-
-esrecurse@^4.3.0:
-  version "4.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/esrecurse/-/esrecurse-4.3.0.tgz#7ad7964d679abb28bee72cec63758b1c5d2c9921"
-  integrity sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==
-  dependencies:
-    estraverse "^5.2.0"
-
-estraverse@^4.1.1:
-  version "4.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
-  integrity sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==
-
-estraverse@^5.2.0:
-  version "5.3.0"
-  resolved "https://repository.folio.org/repository/npm-ci-all/estraverse/-/estraverse-5.3.0.tgz#2eea5290702f26ab8fe5370370ff86c965d21123"
-  integrity sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -8466,7 +8441,7 @@ minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5, minimist@^1.2.6:
   resolved "https://repository.folio.org/repository/npm-ci-all/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
-minimizer-webpack-plugin@^5.6.1, minimizer-webpack-plugin@^5.7.0:
+minimizer-webpack-plugin@^5.7.0:
   version "5.10.1"
   resolved "https://repository.folio.org/repository/npm-ci-all/minimizer-webpack-plugin/-/minimizer-webpack-plugin-5.10.1.tgz#333ad27a53fcd51bbd868252a4733ee08480b021"
   integrity sha512-+dsZEyTcy1lkq41lxdiOqvb26gXbYGgwY+30w37f9PqUVkuEBejBLDotsHOTjuga9xJyGLW2DqzKDUyJ4W/PMQ==
@@ -11469,32 +11444,6 @@ webpack@^5.104.1:
     mime-db "^1.54.0"
     minimizer-webpack-plugin "^5.7.0"
     schema-utils "^4.5.0"
-    tapable "^2.3.0"
-    watchpack "^2.5.2"
-    webpack-sources "^3.5.1"
-
-webpack@~5.109.2:
-  version "5.109.2"
-  resolved "https://repository.folio.org/repository/npm-ci-all/webpack/-/webpack-5.109.2.tgz#b58dc289561c3282db35c210a99379a836a4c28d"
-  integrity sha512-U9/cvLzxObKNEZ9+TtdqrHM5/9z3lgl2c+c4BzbqGxFQvQvBAq87yql5A8pQ+rrMbS496MZJeF5enVBndIy2hw==
-  dependencies:
-    "@types/estree" "^1.0.8"
-    "@types/json-schema" "^7.0.15"
-    "@webassemblyjs/ast" "^1.14.1"
-    "@webassemblyjs/wasm-edit" "^1.14.1"
-    "@webassemblyjs/wasm-parser" "^1.14.1"
-    acorn "^8.16.0"
-    browserslist "^4.28.1"
-    chrome-trace-event "^1.0.2"
-    enhanced-resolve "^5.24.4"
-    es-module-lexer "^2.1.0"
-    eslint-scope "5.1.1"
-    events "^3.2.0"
-    graceful-fs "^4.2.11"
-    mime-db "^1.54.0"
-    minimizer-webpack-plugin "^5.6.1"
-    neo-async "^2.6.2"
-    schema-utils "^4.3.3"
     tapable "^2.3.0"
     watchpack "^2.5.2"
     webpack-sources "^3.5.1"
