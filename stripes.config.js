@@ -7,7 +7,7 @@ module.exports = {
     showPerms: false,
     preserveConsole: true,
     useSecureTokens: true,
-    aboutInstallVersion: 'Sunflower on Okapi CSP 9',
+    aboutInstallVersion: 'Sunflower on Okapi CSP 10',
   },
   modules: {
     '@folio/acquisition-units': {},
